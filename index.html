@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ballot Weighing Tool</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* One working column. A sticky progress bar, three numbered steps, and a closing explainer. Each proposition card pairs facts (left) with the live lean (right). */
+:root {
+  --paper: #f6f8fa;
+  --sheet: #ffffff;
+  --ink: #15233a;
+  --muted: #5a6779;
+  --rule: #d9e0e8;
+  --ballot: #1f4e9c;
+  --ballot-soft: #e3ecf9;
+  --yes: #1d7a4a;
+  --yes-soft: #dff2e7;
+  --no: #a5372c;
+  --no-soft: #f7e1de;
+  --close: #8a6a12;
+  --close-soft: #f6eccd;
+  --none: #5a6779;
+  --none-soft: #e8ecf1;
+  --f-display: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1622; --sheet: #172131; --ink: #e6edf6; --muted: #9aa8bb; --rule: #2a3749;
+    --ballot: #7fa8ee; --ballot-soft: #1d2d47;
+    --yes: #6fd39c; --yes-soft: #163526; --no: #f08a7e; --no-soft: #3d1f1c;
+    --close: #e3c25e; --close-soft: #3a3016; --none: #9aa8bb; --none-soft: #222e3f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0f1622; --sheet: #172131; --ink: #e6edf6; --muted: #9aa8bb; --rule: #2a3749;
+  --ballot: #7fa8ee; --ballot-soft: #1d2d47;
+  --yes: #6fd39c; --yes-soft: #163526; --no: #f08a7e; --no-soft: #3d1f1c;
+  --close: #e3c25e; --close-soft: #3a3016; --none: #9aa8bb; --none-soft: #222e3f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+}
+.wrap { max-width: 1000px; margin: 0 auto; display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 800; letter-spacing: -0.01em; }
+h2 { font-size: 1.2rem; font-weight: 800; }
+h3 { font-size: 1.05rem; font-weight: 700; }
+p { margin: 0; max-width: 70ch; }
+a { color: var(--ballot); }
+.eyebrow { font-family: var(--f-display); font-size: .74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ballot); }
+.lede { color: var(--muted); font-size: 1.02rem; }
+.small { font-size: .86rem; color: var(--muted); }
+header { display: grid; gap: 12px; }
+
+/* Steps strip */
+.steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 6px; }
+.step { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; align-items: start; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; text-decoration: none; color: inherit; }
+.step:hover { border-color: var(--ballot); }
+.step .n { grid-row: span 2; font-family: var(--f-display); font-weight: 800; width: 28px; height: 28px; border-radius: 50%; background: var(--ballot); color: var(--sheet); display: grid; place-items: center; font-size: .9rem; }
+.step b { font-family: var(--f-display); font-size: .95rem; }
+.step span.t { font-size: .84rem; color: var(--muted); }
+
+.idea { border-left: 4px solid var(--ballot); background: var(--ballot-soft); padding: 12px 16px; border-radius: 8px; display: grid; gap: 6px; }
+.idea b { font-family: var(--f-display); }
+
+/* Sticky progress */
+.sticky { position: sticky; top: 0; z-index: 5; background: var(--paper); padding-block: 8px; margin-block: -8px; }
+.sticky-in { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 8px 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.prog { display: grid; gap: 4px; min-width: 160px; flex: 1 1 180px; }
+.prog-l { font-size: .8rem; color: var(--muted); }
+.prog-l b { color: var(--ink); font-family: var(--f-data); font-weight: 500; }
+.tally { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+
+.panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; display: grid; gap: 16px; }
+.sec-head { display: grid; gap: 6px; }
+.sec-head .kicker { font-family: var(--f-display); font-weight: 800; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ballot); }
+.row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+
+/* Presets and factor sliders */
+.presets { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.presets .lab { font-size: .84rem; color: var(--muted); margin-right: 2px; }
+.preset[aria-pressed="true"] { background: var(--ballot); color: var(--sheet); }
+.preset-desc { font-size: .84rem; color: var(--muted); min-height: 1.3em; }
+.factors { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+.factor { border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; }
+.f-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.f-top label { font-family: var(--f-display); font-weight: 700; font-size: .95rem; }
+.lvl { font-family: var(--f-display); font-weight: 700; font-size: .76rem; padding: 2px 8px; border-radius: 999px; background: var(--ballot-soft); color: var(--ballot); white-space: nowrap; }
+.lvl.off { background: var(--none-soft); color: var(--none); }
+.f-q { font-size: .9rem; }
+.f-d { font-size: .8rem; color: var(--muted); }
+.factor input[type=range] { width: 100%; accent-color: var(--ballot); margin: 4px 0 0; }
+.ticks { display: flex; justify-content: space-between; font-size: .7rem; color: var(--muted); font-family: var(--f-data); }
+
+.warn { border-left: 4px solid var(--close); background: var(--close-soft); padding: 10px 14px; border-radius: 6px; font-size: .9rem; }
+.warn[hidden] { display: none !important; }
+
+/* Chips and verdict colors */
+.chip { font-family: var(--f-display); font-weight: 700; font-size: .78rem; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.c-yes, .v-yes { background: var(--yes-soft); color: var(--yes); }
+.c-no, .v-no { background: var(--no-soft); color: var(--no); }
+.c-close, .v-close { background: var(--close-soft); color: var(--close); }
+.c-none, .v-none { background: var(--none-soft); color: var(--none); }
+
+/* Proposition cards */
+.props { display: grid; gap: 14px; }
+.prop { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 16px 24px; }
+.prop-main { min-width: 0; display: grid; gap: 12px; align-content: start; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.num { font-family: var(--f-display); font-weight: 800; font-size: 1rem; color: var(--ballot); margin-right: 4px; }
+.tag { font-size: .72rem; font-weight: 700; font-family: var(--f-display); color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; padding: 1px 8px; }
+.does { font-size: .95rem; }
+.outcomes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.oc { border-radius: 8px; padding: 10px 12px; font-size: .88rem; display: grid; gap: 3px; }
+.oc b { font-family: var(--f-display); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
+.oc-yes { background: var(--yes-soft); }
+.oc-yes b { color: var(--yes); }
+.oc-no { background: var(--no-soft); }
+.oc-no b { color: var(--no); }
+
+details.facts { border: 1px solid var(--rule); border-radius: 8px; }
+details.facts summary { cursor: pointer; padding: 8px 12px; font-family: var(--f-display); font-weight: 700; font-size: .86rem; color: var(--ballot); list-style-position: inside; }
+details.facts[open] summary { border-bottom: 1px solid var(--rule); }
+.facts-body { padding: 12px; display: grid; gap: 12px; }
+.facts dl { margin: 0; display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 6px 12px; font-size: .86rem; }
+.facts dt { font-family: var(--f-display); font-weight: 700; color: var(--muted); font-size: .8rem; padding-top: 1px; }
+.facts dd { margin: 0; }
+.ratings { display: grid; gap: 6px; }
+.ratings-h { font-family: var(--f-display); font-weight: 700; font-size: .8rem; color: var(--muted); }
+.rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 16px; }
+.rt { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .82rem; }
+.dots { display: inline-flex; gap: 3px; }
+.dots i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--ballot); display: inline-block; }
+.dots i.on { background: var(--ballot); }
+
+fieldset.ask { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; }
+fieldset.ask legend { font-family: var(--f-display); font-weight: 700; font-size: .95rem; padding: 0; margin-bottom: 8px; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { position: relative; cursor: pointer; }
+.pill input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.pill span { display: inline-block; font-size: .84rem; font-weight: 700; padding: 6px 12px; border-radius: 999px; border: 1.5px solid var(--rule); background: var(--sheet); }
+.pill:hover span { border-color: var(--ballot); }
+.pill input:focus-visible + span { outline: 2px solid var(--ballot); outline-offset: 2px; }
+.pill input:checked + span { border-color: transparent; }
+.pill.a-n2 input:checked + span, .pill.a-n1 input:checked + span { background: var(--no); color: var(--sheet); }
+.pill.a-0 input:checked + span { background: var(--none); color: var(--sheet); }
+.pill.a-p1 input:checked + span, .pill.a-p2 input:checked + span { background: var(--yes); color: var(--sheet); }
+
+.result { display: grid; gap: 10px; align-content: start; border-left: 1px solid var(--rule); padding-left: 20px; }
+.result-h { font-family: var(--f-display); font-weight: 700; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.verdict { font-family: var(--f-display); font-weight: 800; font-size: 1.1rem; padding: 10px; border-radius: 8px; text-align: center; }
+.meter { display: grid; gap: 4px; }
+.meter-label { display: flex; justify-content: space-between; gap: 6px; font-size: .78rem; color: var(--muted); }
+.meter-label span { white-space: nowrap; }
+.meter-label span:last-child { font-family: var(--f-data); font-variant-numeric: tabular-nums; color: var(--ink); text-align: right; }
+.bar { height: 7px; background: var(--rule); border-radius: 4px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--ballot); border-radius: 4px; }
+.why { font-size: .84rem; }
+.sw { font-size: .8rem; color: var(--muted); }
+
+/* Ballot summary */
+.ballot { display: grid; gap: 0; border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.b-row { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto auto; gap: 10px; align-items: center; padding: 9px 14px; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; font-size: .9rem; }
+.b-row:last-child { border-bottom: 0; }
+.b-row:hover { background: var(--ballot-soft); }
+.b-row .bn { font-family: var(--f-display); font-weight: 800; color: var(--ballot); }
+.b-row .bq { font-family: var(--f-data); font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.method { display: grid; gap: 12px; font-size: .92rem; }
+.method ol { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; max-width: 74ch; }
+.rules { border-collapse: collapse; font-size: .88rem; width: 100%; max-width: 560px; }
+.rules th, .rules td { border-bottom: 1px solid var(--rule); padding: 7px 10px; text-align: left; }
+.rules th { font-family: var(--f-display); font-size: .76rem; color: var(--muted); }
+code { font-family: var(--f-data); font-size: .85em; background: var(--ballot-soft); padding: 1px 5px; border-radius: 4px; }
+
+button { font-family: var(--f-display); font-weight: 700; font-size: .84rem; border: 1px solid var(--ballot); background: transparent; color: var(--ballot); padding: 6px 12px; border-radius: 8px; cursor: pointer; }
+button:hover { background: var(--ballot-soft); }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--ballot); outline-offset: 2px; }
+.linkbtn { font-family: var(--f-display); font-weight: 700; font-size: .84rem; text-decoration: none; }
+
+@media (max-width: 760px) {
+  .prop { grid-template-columns: 1fr; }
+  .result { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 14px; }
+  .steps { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .outcomes { grid-template-columns: 1fr; }
+  .facts dl { grid-template-columns: 1fr; gap: 2px; }
+  .facts dd { margin-bottom: 8px; }
+  .b-row { grid-template-columns: 52px minmax(0, 1fr) auto; }
+  .b-row .bq { display: none; }
+  #tally-top { display: none; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bar i { transition: width .25s ease; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">California ballot, November 3, 2026</div>
+    <h1>Ballot Weighing Tool</h1>
+    <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say what you care about and how you feel about each measure's goal. The tool pairs that with the evidence ratings from the propositions guide and shows where you lean. It never tells you how to vote.</p>
+    <nav class="steps" aria-label="Steps">
+      <a class="step" href="#s1"><span class="n">1</span><b>Pick your priorities</b><span class="t">What makes a measure well built, to you</span></a>
+      <a class="step" href="#s2"><span class="n">2</span><b>Answer 14 questions</b><span class="t">Read the facts, then say how you feel about each goal</span></a>
+      <a class="step" href="#s3"><span class="n">3</span><b>Review your ballot</b><span class="t">See every lean in one list, plus any conflicts</span></a>
+    </nav>
+    <div class="idea">
+      <b>The idea in two sentences</b>
+      <p>Your view on each measure's goal sets the direction, so if you are against the goal it leans NO, full stop. If you are for the goal, the measure's build quality decides how firm that YES is, so a good idea with a weak plan shows up as a Close call.</p>
+    </div>
+  </header>
+
+  <div class="sticky" aria-live="polite">
+    <div class="sticky-in">
+      <div class="prog">
+        <div class="prog-l">Answered <b id="ans-n">0</b> of 14</div>
+        <div class="bar"><i id="ans-bar" style="width:0%"></i></div>
+      </div>
+      <div class="tally" id="tally-top"></div>
+      <a class="linkbtn" href="#s3">See my ballot</a>
+    </div>
+  </div>
+
+  <section class="panel" id="s1" aria-labelledby="s1-h">
+    <div class="sec-head">
+      <div class="kicker">Step 1</div>
+      <h2 id="s1-h">What makes a measure well built, to you?</h2>
+      <p class="small">The guide rated every measure from 1 (weak) to 5 (strong) on the seven factors below. Your sliders decide how much each rating counts toward one <b>How well-built</b> score per measure, also from 1 to 5, labeled Weak, Mixed, Fair, Solid or Strong. That score only adjusts how firm a YES is. It never turns a NO into a YES.</p>
+    </div>
+    <div class="row">
+      <div class="presets" id="presets"><span class="lab">Start from</span></div>
+    </div>
+    <p class="preset-desc" id="preset-desc"></p>
+    <div class="factors" id="factors"></div>
+    <div class="warn" id="zero" hidden>Every factor is set to Ignore, so build quality is left out and each lean follows your answer alone. Raise any slider or pick a starting point to bring the evidence back in.</div>
+  </section>
+
+  <section id="s2" aria-labelledby="s2-h" style="display:grid;gap:14px">
+    <div class="sec-head">
+      <div class="kicker">Step 2</div>
+      <h2 id="s2-h">How do you feel about each measure's goal?</h2>
+      <p class="small">Each card says what the measure does and what a YES or NO vote means. Open <b>More facts</b> for the money, who it affects, who backs and opposes it, and its ratings. Pick Not sure to skip one for now.</p>
+    </div>
+    <div class="props" id="props"></div>
+  </section>
+
+  <section class="panel" id="s3" aria-labelledby="s3-h">
+    <div class="sec-head">
+      <div class="kicker">Step 3</div>
+      <h2 id="s3-h">Your ballot at a glance</h2>
+      <p class="small">Tap any row to jump back to that measure. Your answers stay saved in this browser.</p>
+    </div>
+    <div class="row">
+      <div class="tally" id="tally"></div>
+      <button type="button" id="reset">Clear my answers</button>
+    </div>
+    <div class="warn" id="conflict" hidden></div>
+    <div class="ballot" id="ballot"></div>
+  </section>
+
+  <section class="panel method" aria-labelledby="m-h">
+    <h2 id="m-h">How your lean is worked out</h2>
+    <ol>
+      <li><b>How well-built.</b> For each measure, the tool averages the guide's seven ratings, counting each one as much as your slider says. A factor set to Ignore does not count at all. The result runs from 1 (weak) to 5 (strong).</li>
+      <li><b>Your answer.</b> Against or Strongly against always gives a NO lean, because good design cannot fix a goal you do not want. Not sure gives no lean.</li>
+      <li><b>For answers.</b> When you are for the goal, the build score sets how firm the YES is, using the table below.</li>
+    </ol>
+    <table class="rules">
+      <thead><tr><th>Your answer</th><th>How well-built</th><th>Lean</th></tr></thead>
+      <tbody>
+        <tr><td>Strongly for</td><td>3.4 or higher</td><td><span class="chip c-yes">Strong YES</span></td></tr>
+        <tr><td>Strongly for</td><td>2.0 to 3.3</td><td><span class="chip c-yes">Lean YES</span></td></tr>
+        <tr><td>Strongly for</td><td>Below 2.0</td><td><span class="chip c-close">Close call</span></td></tr>
+        <tr><td>For</td><td>3.0 or higher</td><td><span class="chip c-yes">Lean YES</span></td></tr>
+        <tr><td>For</td><td>Below 3.0</td><td><span class="chip c-close">Close call</span></td></tr>
+        <tr><td>Not sure</td><td>Any</td><td><span class="chip c-none">No lean</span></td></tr>
+        <tr><td>Against</td><td>Any</td><td><span class="chip c-no">Lean NO</span></td></tr>
+        <tr><td>Strongly against</td><td>Any</td><td><span class="chip c-no">Strong NO</span></td></tr>
+      </tbody>
+    </table>
+    <p><b>What a Close call means.</b> You like the goal, but the measure scores weak on the things you said matter. Open its facts and read the biggest risk and unknown. Some people vote yes anyway because the goal matters more than the details. Others vote no and wait for a better-written version.</p>
+    <p class="small">Behind the table, the tool scales How well-built to a 0 to 1 range, <code>(score − 1) ÷ 4</code>, multiplies it by your answer (For = 1, Strongly for = 2), and compares the result with 1.2 and 0.5. Ratings come from the propositions guide's scorecard and are analytical judgments based on the Legislative Analyst's Office and independent sources. This tool sorts your own priorities and does not recommend a vote.</p>
+  </section>
+</div>
+
+<script>
+(function () {
+  var FACTORS = [
+    { k: "nb", name: "Net benefit", q: "Will Californians end up better off?", d: "Rated high when results would likely help people in a real, measurable way after costs." },
+    { k: "ev", name: "Evidence strength", q: "Is there proof this approach works?", d: "Rated high when studies or past programs back it. Low when it rests on untested ideas or campaign claims." },
+    { k: "lr", name: "Safety", q: "How unlikely are nasty surprises?", d: "Rated high when lawsuits, loopholes and side effects on other programs are unlikely." },
+    { k: "ac", name: "Accountability", q: "Will someone check the work?", d: "Rated high when the law requires audits, public reports and enforcement." },
+    { k: "if", name: "Feasibility", q: "Can the state actually carry it out?", d: "Rated high when agencies already have the tools, staff and clear rules." },
+    { k: "fc", name: "Fiscal clarity", q: "Do we know what it costs or raises?", d: "Rated high when official cost and revenue estimates are clear and narrow." },
+    { k: "oc", name: "Outcome clarity", q: "Will we know if it worked?", d: "Rated high when the law sets measurable targets or results." }
+  ];
+  var LEVELS = ["Ignore", "Minor", "Some", "Moderate", "High", "Top priority"];
+
+  var PRESETS = [
+    { id: "rec", name: "Recommended", d: "Results and proof count most, then safety. Paperwork factors like cost clarity count less, because many good measures have uncertain estimates.", w: { nb: 5, ev: 5, lr: 4, ac: 3, if: 3, fc: 2, oc: 2 } },
+    { id: "res", name: "Results first", d: "Almost all weight on whether it helps and whether the approach is proven.", w: { nb: 5, ev: 5, lr: 3, ac: 1, if: 2, fc: 1, oc: 1 } },
+    { id: "cost", name: "Cost watcher", d: "Puts the most weight on knowing what a measure costs, with safety and results close behind.", w: { nb: 4, ev: 4, lr: 4, ac: 3, if: 3, fc: 5, oc: 2 } },
+    { id: "eq", name: "Equal", d: "Every factor counts the same.", w: { nb: 3, ev: 3, lr: 3, ac: 3, if: 3, fc: 3, oc: 3 } }
+  ];
+
+  var PROPS = [
+    { n: "1", name: "Affordable housing and veterans bond", topic: "Housing", kind: "Bond · from the Legislature",
+      ask: "Should the state borrow $11.25 billion for affordable housing and veterans' home loans?",
+      does: "Lets the state borrow $11.25 billion. $10 billion flows to existing affordable housing programs, about half for new apartments, and $1.25 billion to CalVet home loans for veterans.",
+      yes: "Up to 40,000 subsidized rentals and up to 40,000 households helped to buy, with most units rent-restricted for about 55 years.",
+      no: "No new housing borrowing. Programs rely on yearly budgets, and money from the 2018 housing bonds is already spent.",
+      money: "Taxpayers repay about $500 million to $600 million a year for about 25 years. Veterans repay the $1.25 billion CalVet share through their loans.",
+      who: "Low and moderate income renters and buyers, veterans, farmworkers, tribes, UC and CSU students.",
+      pro: "Gov. Newsom, Habitat for Humanity California, Housing California, US Vets.",
+      con: "Howard Jarvis Taxpayers Association, Sen. Tony Strickland. No organized campaign against.",
+      risk: "Decades of fixed debt with no guaranteed number of homes.",
+      unk: "Cost per home built and how fast the money gets spent.",
+      s: { fc: 4, oc: 3, ac: 2, if: 4, ev: 3, lr: 3, nb: 3 } },
+    { n: "2", name: "Bigger rainy day fund", topic: "Budget", kind: "Constitutional amendment · from the Legislature",
+      ask: "Should the state be required to save more in its rainy day fund during good years?",
+      does: "Raises the rainy day fund's target from 10% to 20% of General Fund taxes, saves extra in big capital gains years, and stops deposits from counting against the state spending limit.",
+      yes: "A bigger cushion in recessions, so smaller cuts to schools and services when revenue drops.",
+      no: "The 2014 rules stay, leaving more money available for programs or taxpayer rebates in good years.",
+      money: "No new tax or program. It shifts when money is spent. No official estimate of how fast the fund reaches 20%.",
+      who: "The state budget, people who use state services, schools, taxpayers.",
+      pro: "Gov. Newsom, California Professional Firefighters, Los Angeles Area Chamber of Commerce.",
+      con: "Reform California and legislative Republicans, including Carl DeMaio.",
+      risk: "Lawmakers can still suspend deposits in a budget emergency, as they did in 2024-25 and 2025-26.",
+      unk: "How many years it would take to actually reach 20%.",
+      s: { fc: 2, oc: 3, ac: 3, if: 5, ev: 3, lr: 3, nb: 3 } },
+    { n: "3", name: "Permanent top income tax rates", topic: "Taxes", kind: "Constitutional amendment · citizen initiative",
+      ask: "Should the higher income tax rates on top earners stay in place permanently after 2030?",
+      does: "Removes the 2030 end date on the three top income tax brackets, which start around $371,000 for single filers and $743,000 for joint filers. Rates themselves do not change.",
+      yes: "Keeps $5 billion to $15 billion a year from 2031 on, with about 40% going to schools and some to Medi-Cal.",
+      no: "Rates on about the top 2% of filers drop back after tax year 2030.",
+      money: "A single filer with $500,000 of taxable income pays about $1,830 a year more than if the rates expired. Someone at $300,000 pays nothing extra.",
+      who: "About the top 2% of filers, public schools, Medi-Cal patients.",
+      pro: "California Teachers Association, California State PTA, California Medical Association.",
+      con: "California Taxpayers Association, Howard Jarvis Taxpayers Association, Reform California.",
+      risk: "The budget keeps leaning on a small group of earners whose income swings with markets.",
+      unk: "Whether high earners move or shift income over the long run.",
+      s: { fc: 4, oc: 2, ac: 4, if: 5, ev: 4, lr: 3, nb: 3 } },
+    { n: "4", name: "Public campaign funding", topic: "Elections", kind: "Law change · from the Legislature",
+      ask: "Should state and local governments be allowed to give public money to candidates' campaigns?",
+      does: "Repeals the 1988 ban, so governments may create voluntary public funding programs for candidates. It creates no program by itself and triples the top fine for foreign campaign contributions.",
+      yes: "Cities, counties or the state may fund candidates who accept spending limits and show broad small-donor support.",
+      no: "The ban stays, except in charter cities that already have an exemption.",
+      money: "State cost of a few hundred thousand dollars a year. Any program's cost is set later by the government that adopts it.",
+      who: "Candidates, state and local governments, taxpayers where programs are adopted.",
+      pro: "League of Women Voters of California, California Common Cause, California Nurses Association.",
+      con: "California Taxpayers Association, Howard Jarvis Taxpayers Association, former FPPC chair Dan Schnur.",
+      risk: "No statewide cap on what future programs could spend.",
+      unk: "Which governments adopt programs, and at what cost.",
+      s: { fc: 3, oc: 2, ac: 3, if: 4, ev: 3, lr: 3, nb: 3 } },
+    { n: "5", name: "Recall without a replacement vote", topic: "Elections", kind: "Constitutional amendment · from the Legislature",
+      ask: "Should a recalled governor be replaced by the Lieutenant Governor instead of a replacement vote?",
+      does: "Recall ballots for state officers ask only whether to remove the official. A recalled governor is succeeded by the Lieutenant Governor, and other offices are filled under existing rules.",
+      yes: "No more replacement winners chosen by a plurality, as in 2003 when the winner had about 48.6% among 135 candidates.",
+      no: "The two-question ballot stays, and voters pick the successor directly.",
+      money: "Net cost unknown, but under 0.1% of the General Fund.",
+      who: "The governor and other state officers, voters in recall elections.",
+      pro: "Secretary of State Shirley Weber, League of Women Voters, California Common Cause.",
+      con: "Senate Minority Leader Brian Jones and nearly all legislative Republicans.",
+      risk: "Voters lose a direct say in who replaces a recalled official.",
+      unk: "How often recalls will happen in future.",
+      s: { fc: 2, oc: 4, ac: 3, if: 5, ev: 2, lr: 3, nb: 3 } },
+    { n: "37", name: "Loans for middle-income new-home buyers", topic: "Housing", kind: "Revenue bond · citizen initiative",
+      ask: "Should the state lend middle-income buyers up to 17% of a new home's price?",
+      does: "Lets the state housing finance agency (CalHFA) issue up to $25 billion in bonds to lend buyers up to 17% of a newly built home's price. The buyer puts 3% down, so the bank sees 20%. It also changes construction defect lawsuit rules.",
+      yes: "Households earning up to 200% of area median income need far less cash to buy a new home.",
+      no: "Nothing changes. CalHFA's existing down payment programs continue.",
+      money: "No direct cost to taxpayers, because borrowers repay the bonds. For an $800,000 townhome the buyer pays $24,000 down and borrows $136,000 from the state.",
+      who: "Middle-income households buying new homes, home builders.",
+      pro: "Proponent Robert Hertzberg, California Association of Realtors, carpenters' unions, SEIU.",
+      con: "Reform California (Carl DeMaio), League of Women Voters.",
+      risk: "More buying power could push new-home prices up, and buyers carry a second loan.",
+      unk: "The interest rate on the state loan and how many people use it.",
+      s: { fc: 4, oc: 2, ac: 3, if: 3, ev: 3, lr: 3, nb: 3 } },
+    { n: "38", name: "Immunology research bond", topic: "Research", kind: "Bond · citizen initiative",
+      ask: "Should the state borrow $8.4 billion for immune system research?",
+      does: "Borrows $8.4 billion for immunology research. About half goes to one institute picked by the state health department, and the rest to grants through a council of UC campuses and other California institutions.",
+      yes: "Steady research money as federal funding shrinks, with at least $4.2 billion aimed at cancer, heart disease and Alzheimer's.",
+      no: "No new research bonds. Existing programs such as the state stem cell agency continue.",
+      money: "Taxpayers repay $500 million to $600 million a year for about 20 years. The state gets 10% of any revenue from resulting treatments.",
+      who: "Taxpayers, researchers, one UC-affiliated institute, patients.",
+      pro: "Sponsor Gary Michelson, American Association of Immunologists, City of Hope.",
+      con: "Stanford's Robert M. Kaplan, League of Women Voters, several newspaper editorial boards.",
+      risk: "The criteria for half the money fit one institute whose board the sponsor chairs.",
+      unk: "Whether the research pays off, scientifically or financially.",
+      s: { fc: 4, oc: 1, ac: 3, if: 4, ev: 2, lr: 2, nb: 2 } },
+    { n: "39", name: "Voter ID and citizenship checks", topic: "Elections", kind: "Constitutional amendment · citizen initiative",
+      ask: "Should voters have to show ID, and should voter rolls be checked for citizenship?",
+      does: "Requires government ID to vote in person and the last four digits of an ID number on mail ballots. The state must offer a free voter ID card and make best efforts to verify voters' citizenship.",
+      yes: "One ID rule statewide, yearly citizenship reports, and State Auditor reviews every other year.",
+      no: "Current rules stay. Mail ballot signatures are checked, and some first-time voters show ID.",
+      money: "Added state and local cost of tens of millions to low hundreds of millions of dollars a year.",
+      who: "All voters, especially about 13 million mail voters, and county election offices.",
+      pro: "Californians for Voter ID, Howard Jarvis Taxpayers Association, California Republican Party.",
+      con: "ACLU California Action, California Common Cause, League of Women Voters, Secretary of State Shirley Weber.",
+      risk: "Valid mail ballots could be rejected over missing or mismatched ID digits.",
+      unk: "How existing voters add an ID number, and how many ballots get rejected.",
+      s: { fc: 2, oc: 3, ac: 4, if: 2, ev: 3, lr: 2, nb: 2 } },
+    { n: "40", name: "One-time billionaire tax", topic: "Taxes", kind: "One-time tax · citizen initiative",
+      ask: "Should billionaires pay a one-time 5% tax on their net worth, mostly for health care?",
+      does: "Taxes people worth over $1 billion who lived in California on January 1, 2026 at 5% of their net worth, once. Homes and retirement accounts are mostly excluded. About 90% of the money goes to public health care.",
+      yes: "Tens of billions for health care over several years, paid by about 200 to 250 people.",
+      no: "No wealth tax is created. Existing taxes stay the same.",
+      money: "Estimates range from about $40 billion (Hoover) to about $100 billion (the drafters). The state could lose under $1 billion a year in income tax if billionaires leave.",
+      who: "About 200 to 250 billionaires, Medi-Cal and public health care.",
+      pro: "SEIU-UHW, Sen. Bernie Sanders, California Nurses Association, California Democratic Party.",
+      con: "Gov. Newsom, California Teachers Association, CalChamber, Sergey Brin.",
+      risk: "Long court fights, and it is voided entirely if Prop 41 or 42 gets more yes votes.",
+      unk: "How courts treat the look-back residency date.",
+      s: { fc: 2, oc: 2, ac: 2, if: 2, ev: 2, lr: 2, nb: 3 } },
+    { n: "41", name: "Special tax audits and spending limit", topic: "Taxes", kind: "Constitutional amendment · citizen initiative",
+      ask: "Should new state taxes have to fit under the state spending limit, with audits of special-tax programs?",
+      does: "New state taxes since January 1, 2026 must count under the state spending limit or cannot be collected. The State Auditor reviews programs a proposed special tax would fund, and audits them every four years after.",
+      yes: "More audit information in front of voters, and new tax money stays under the cap that can trigger rebates.",
+      no: "The spending limit and Auditor's duties stay as they are.",
+      money: "Audits cost low millions of dollars a year. The overall budget effect is unknown.",
+      who: "The State Auditor, future tax measures, and Prop 40.",
+      pro: "Reform California, CalChamber, Building a Better California (funded mainly by Sergey Brin).",
+      con: "SEIU-UHW, California Democratic Party.",
+      risk: "Voids Prop 40 if it gets more yes votes, and could squeeze future budgets.",
+      unk: "How much room is left under the spending limit.",
+      s: { fc: 2, oc: 4, ac: 4, if: 4, ev: 3, lr: 2, nb: 3 } },
+    { n: "42", name: "Ban on new asset and look-back taxes", topic: "Taxes", kind: "Constitutional amendment · citizen initiative",
+      ask: "Should the constitution ban new state taxes on owning assets and most retroactive taxes?",
+      does: "Bans new state taxes on owning financial assets or other personal property, and taxes based on past conduct or residency except short emergency taxes. Conflicting state taxes passed since January 1, 2026 are void.",
+      yes: "Lasting certainty that savings and investments will not face a state ownership tax.",
+      no: "The state keeps the option to create such taxes later. No current tax changes either way.",
+      money: "No dollar estimate. The LAO says future revenue could grow more slowly.",
+      who: "Asset owners, mainly the very wealthy, and Prop 40.",
+      pro: "California Professional Firefighters, State Building and Construction Trades Council, Gov. Newsom.",
+      con: "SEIU-UHW, Sen. Bernie Sanders.",
+      risk: "Voids Prop 40 if it gets more yes votes, and loose wording may invite lawsuits.",
+      unk: "Whether it also reaches local taxes.",
+      s: { fc: 2, oc: 3, ac: 2, if: 4, ev: 3, lr: 2, nb: 3 } },
+    { n: "43", name: "Two-thirds vote for citizen local special taxes", topic: "Taxes", kind: "Constitutional amendment · from the Legislature",
+      ask: "Should local special taxes proposed by citizen petition need a two-thirds vote to pass?",
+      does: "From 2027, local special taxes put on the ballot by citizen petition need two-thirds approval, the same bar as those placed by city councils and boards. It was placed on the ballot as part of a deal to withdraw a broader anti-tax initiative.",
+      yes: "One rule for every local special tax, and local tax increases become harder to pass.",
+      no: "Citizen-initiative special taxes keep passing by simple majority under current court rulings.",
+      money: "No dollar estimate. Local revenue could be lower. Sonoma County's 2024 fire tax passed with 62% and would have failed.",
+      who: "Cities, counties, special districts, citizen tax campaigns.",
+      pro: "Howard Jarvis Taxpayers Association, Reform California, California Republican Party.",
+      con: "Gov. Newsom, California Democratic Party, the state counties association, firefighters, SEIU.",
+      risk: "Local services like fire and transit lose an easier funding path.",
+      unk: "How much local revenue would be forgone.",
+      s: { fc: 2, oc: 5, ac: 3, if: 5, ev: 4, lr: 3, nb: 3 } },
+    { n: "44", name: "Clinic 90% spending rule", topic: "Health", kind: "Law change · citizen initiative",
+      ask: "Should community health clinics have to spend 90% of revenue on program services or pay penalties?",
+      does: "Nonprofit community clinics must spend at least 90% of revenue on program services or pay the gap as a penalty. The Attorney General decides what counts as program services after the election.",
+      yes: "Public yearly spending ratios for every clinic and pressure to cut overhead.",
+      no: "Clinics stay under current nonprofit rules, which already require reinvesting all revenue in their mission.",
+      money: "Clinics average about 80% today. A $50 million clinic at 80% would owe $5 million that year. Enforcement costs low tens of millions, paid by clinic fees.",
+      who: "Nonprofit community clinics that serve about 5 million low-income patients.",
+      pro: "SEIU-UHW.",
+      con: "California Primary Care Association, California Medical Association, Planned Parenthood, the Democratic and Republican parties.",
+      risk: "Penalties could force service cuts or clinic closures.",
+      unk: "What the Attorney General will count as program services.",
+      s: { fc: 2, oc: 4, ac: 4, if: 2, ev: 2, lr: 2, nb: 2 } },
+    { n: "45", name: "Environmental review fast track", topic: "Environment", kind: "Law change · citizen initiative",
+      ask: "Should nine kinds of projects, led by housing, get an optional fast track through environmental review?",
+      does: "Builders of nine project types can opt into a faster environmental review (CEQA) with firm deadlines. Lawsuits must be filed within 30 days and end within 270, and courts can pause only the flawed part of a project.",
+      yes: "Faster, more predictable approvals. CEQA lawsuits now often take 4 to 5 years.",
+      no: "Current CEQA rules stay, along with ten new exemptions passed in 2025.",
+      money: "Early state and local costs of high tens of millions a year, possibly over $100 million.",
+      who: "Developers, public agencies, courts, tribes, neighbors of projects.",
+      pro: "California Chamber of Commerce, California Building Industry Association, California Hospital Association.",
+      con: "California Labor Federation, Sierra Club California, League of Women Voters, California Democratic Party.",
+      risk: "Weaker environmental and tribal review, plus disputes over which projects qualify.",
+      unk: "How many projects opt in and whether housing actually gets built faster.",
+      s: { fc: 2, oc: 3, ac: 2, if: 3, ev: 2, lr: 2, nb: 3 } }
+  ];
+
+  var ANSWERS = [
+    { v: -2, t: "Strongly against", c: "a-n2" }, { v: -1, t: "Against", c: "a-n1" }, { v: 0, t: "Not sure", c: "a-0" },
+    { v: 1, t: "For", c: "a-p1" }, { v: 2, t: "Strongly for", c: "a-p2" }
+  ];
+
+  var KEY = "ballot-weighing-v2";
+  var state = { w: {}, g: {} };
+  function applyPreset(id) { var p = PRESETS.filter(function (x) { return x.id === id; })[0]; FACTORS.forEach(function (f) { state.w[f.k] = p.w[f.k]; }); }
+  applyPreset("rec");
+  PROPS.forEach(function (p) { state.g[p.n] = null; });
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY) || "null");
+    if (saved && saved.w && saved.g) {
+      Object.keys(saved.w).forEach(function (k) { if (k in state.w && typeof saved.w[k] === "number") state.w[k] = saved.w[k]; });
+      Object.keys(saved.g).forEach(function (k) { if (k in state.g && (saved.g[k] === null || typeof saved.g[k] === "number")) state.g[k] = saved.g[k]; });
+    }
+  } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function $(id) { return document.getElementById(id); }
+
+  function quality(p) {
+    var sum = 0, wt = 0;
+    FACTORS.forEach(function (f) { sum += state.w[f.k] * p.s[f.k]; wt += state.w[f.k]; });
+    if (wt === 0) return { off: true };
+    var avg = Math.round((sum / wt) * 10) / 10;
+    return { off: false, avg: avg, q: (avg - 1) / 4 };
+  }
+  function qualityWord(avg) {
+    if (avg < 2) return "Weak";
+    if (avg < 2.75) return "Mixed";
+    if (avg < 3.25) return "Fair";
+    if (avg < 4) return "Solid";
+    return "Strong";
+  }
+  function lean(p) {
+    var g = state.g[p.n], qu = quality(p), r = { qu: qu };
+    if (g === null || g === 0) {
+      r.cls = "none"; r.label = "No lean";
+      r.why = g === null ? "Pick an answer to see your lean." : "You are not sure yet. Compare the YES and NO boxes, or open More facts.";
+    } else if (g < 0) {
+      r.cls = "no"; r.label = g === -2 ? "Strong NO" : "Lean NO";
+      r.why = "You are against the goal, so this leans NO however well it is built.";
+    } else if (qu.off) {
+      r.cls = "yes"; r.label = g === 2 ? "Strong YES" : "Lean YES";
+      r.why = "Every factor is set to Ignore, so this follows your answer alone.";
+    } else if (g === 2) {
+      if (qu.avg >= 3.4) { r.cls = "yes"; r.label = "Strong YES"; r.why = "You strongly want this, and it is well built on what you care about."; }
+      else if (qu.avg >= 2) { r.cls = "yes"; r.label = "Lean YES"; r.why = "You strongly want this. It is middling on your priorities, so the YES is softer."; }
+      else { r.cls = "close"; r.label = "Close call"; r.why = "You strongly want this, but it scores weak on what you care about. Read the biggest risk first."; }
+    } else {
+      if (qu.avg >= 3) { r.cls = "yes"; r.label = "Lean YES"; r.why = "You are for the goal, and it is at least fairly well built (3.0 or higher)."; }
+      else { r.cls = "close"; r.label = "Close call"; r.why = "You are for the goal, but it scores below 3.0 on your priorities. Read the biggest risk before deciding."; }
+    }
+    return r;
+  }
+  function strongWeak(p) {
+    var used = FACTORS.filter(function (f) { return state.w[f.k] > 0; });
+    if (!used.length) return "";
+    var best = used.slice().sort(function (a, b) { return p.s[b.k] - p.s[a.k] || state.w[b.k] - state.w[a.k]; })[0];
+    var worst = used.slice().sort(function (a, b) { return p.s[a.k] - p.s[b.k] || state.w[b.k] - state.w[a.k]; })[0];
+    if (p.s[best.k] === p.s[worst.k]) return "Rated evenly across the factors you weigh.";
+    return "Best on " + best.name + " (" + p.s[best.k] + " of 5). Weakest on " + worst.name + " (" + p.s[worst.k] + " of 5).";
+  }
+
+  // Presets
+  var prEl = $("presets");
+  PRESETS.forEach(function (p) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "preset"; b.textContent = p.name; b.dataset.id = p.id;
+    b.addEventListener("click", function () {
+      applyPreset(p.id);
+      FACTORS.forEach(function (f) { $("w-" + f.k).value = state.w[f.k]; });
+      save(); renderAll();
+    });
+    prEl.appendChild(b);
+  });
+  function activePreset() {
+    for (var i = 0; i < PRESETS.length; i++) {
+      var p = PRESETS[i], same = FACTORS.every(function (f) { return p.w[f.k] === state.w[f.k]; });
+      if (same) return p;
+    }
+    return null;
+  }
+
+  // Factor sliders
+  $("factors").innerHTML = FACTORS.map(function (f) {
+    return '<div class="factor"><div class="f-top"><label for="w-' + f.k + '">' + esc(f.name) + '</label><span class="lvl" id="l-' + f.k + '"></span></div>' +
+      '<div class="f-q">' + esc(f.q) + '</div><div class="f-d">' + esc(f.d) + '</div>' +
+      '<input type="range" min="0" max="5" step="1" id="w-' + f.k + '" value="' + state.w[f.k] + '" aria-describedby="l-' + f.k + '">' +
+      '<div class="ticks" aria-hidden="true"><span>Ignore</span><span>Top priority</span></div></div>';
+  }).join("");
+  FACTORS.forEach(function (f) {
+    $("w-" + f.k).addEventListener("input", function (e) { state.w[f.k] = +e.target.value; save(); renderAll(); });
+  });
+
+  // Proposition cards
+  function dots(n) { var h = ""; for (var i = 1; i <= 5; i++) h += '<i class="' + (i <= n ? "on" : "") + '"></i>'; return '<span class="dots" aria-label="' + n + ' of 5">' + h + '</span>'; }
+  $("props").innerHTML = PROPS.map(function (p) {
+    var pills = ANSWERS.map(function (a) {
+      var id = "g-" + p.n + "-" + (a.v + 2);
+      return '<label class="pill ' + a.c + '" for="' + id + '"><input type="radio" name="g-' + p.n + '" id="' + id + '" value="' + a.v + '"' +
+        (state.g[p.n] === a.v ? " checked" : "") + '><span>' + esc(a.t) + '</span></label>';
+    }).join("");
+    var ratings = FACTORS.map(function (f) { return '<div class="rt"><span>' + esc(f.name) + '</span>' + dots(p.s[f.k]) + '</div>'; }).join("");
+    return '<article class="prop" id="prop-' + p.n + '">' +
+      '<div class="prop-main">' +
+        '<div class="tags"><span class="num">Prop ' + p.n + '</span><span class="tag">' + esc(p.topic) + '</span><span class="tag">' + esc(p.kind) + '</span></div>' +
+        '<h3>' + esc(p.name) + '</h3>' +
+        '<p class="does">' + esc(p.does) + '</p>' +
+        '<div class="outcomes"><div class="oc oc-yes"><b>A YES vote means</b><span>' + esc(p.yes) + '</span></div>' +
+        '<div class="oc oc-no"><b>A NO vote means</b><span>' + esc(p.no) + '</span></div></div>' +
+        '<details class="facts"><summary>More facts, backers and ratings</summary><div class="facts-body"><dl>' +
+          '<dt>Money</dt><dd>' + esc(p.money) + '</dd>' +
+          '<dt>Who it affects</dt><dd>' + esc(p.who) + '</dd>' +
+          '<dt>Backers</dt><dd>' + esc(p.pro) + '</dd>' +
+          '<dt>Opponents</dt><dd>' + esc(p.con) + '</dd>' +
+          '<dt>Biggest risk</dt><dd>' + esc(p.risk) + '</dd>' +
+          '<dt>Biggest unknown</dt><dd>' + esc(p.unk) + '</dd>' +
+        '</dl><div class="ratings"><div class="ratings-h">Guide ratings, 1 weak to 5 strong</div><div class="rgrid">' + ratings + '</div></div></div></details>' +
+        '<fieldset class="ask"><legend>' + esc(p.ask) + '</legend><div class="pills">' + pills + '</div></fieldset>' +
+      '</div>' +
+      '<aside class="result" aria-live="polite"><div class="result-h">Your lean</div><div class="verdict" id="v-' + p.n + '"></div>' +
+        '<div class="meter"><div class="meter-label"><span>How well-built</span><span id="q-' + p.n + '"></span></div><div class="bar"><i id="b-' + p.n + '"></i></div></div>' +
+        '<div class="why" id="y-' + p.n + '"></div><div class="sw" id="sw-' + p.n + '"></div></aside>' +
+      '</article>';
+  }).join("");
+  PROPS.forEach(function (p) {
+    document.getElementsByName("g-" + p.n).forEach(function (r) {
+      r.addEventListener("change", function (e) { state.g[p.n] = +e.target.value; save(); renderAll(); });
+    });
+  });
+
+  $("reset").addEventListener("click", function () {
+    PROPS.forEach(function (p) {
+      state.g[p.n] = null;
+      document.getElementsByName("g-" + p.n).forEach(function (r) { r.checked = false; });
+    });
+    save(); renderAll();
+  });
+
+  function tallyHtml(c) {
+    return '<span class="chip c-yes">YES ' + c.yes + '</span><span class="chip c-no">NO ' + c.no + '</span>' +
+      '<span class="chip c-close">Close call ' + c.close + '</span><span class="chip c-none">No lean ' + c.none + '</span>';
+  }
+
+  function renderAll() {
+    // Factors
+    var totalW = 0;
+    FACTORS.forEach(function (f) {
+      var v = state.w[f.k]; totalW += v;
+      var l = $("l-" + f.k); l.textContent = LEVELS[v]; l.className = "lvl" + (v === 0 ? " off" : "");
+    });
+    $("zero").hidden = totalW !== 0;
+    var ap = activePreset();
+    Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (b) { b.setAttribute("aria-pressed", ap && ap.id === b.dataset.id ? "true" : "false"); });
+    $("preset-desc").textContent = ap ? ap.d : "Custom mix. Pick a starting point above to go back to a preset.";
+
+    // Cards
+    var counts = { yes: 0, no: 0, close: 0, none: 0 }, res = {}, answered = 0;
+    PROPS.forEach(function (p) {
+      var l = lean(p); res[p.n] = l; counts[l.cls]++;
+      if (state.g[p.n] !== null) answered++;
+      var v = $("v-" + p.n); v.className = "verdict v-" + l.cls; v.textContent = l.label;
+      $("q-" + p.n).textContent = l.qu.off ? "Not weighted" : l.qu.avg.toFixed(1) + " · " + qualityWord(l.qu.avg);
+      $("b-" + p.n).style.width = l.qu.off ? "0%" : Math.round(l.qu.q * 100) + "%";
+      $("y-" + p.n).textContent = l.why;
+      $("sw-" + p.n).textContent = strongWeak(p);
+    });
+
+    // Progress and tallies
+    $("ans-n").textContent = answered;
+    $("ans-bar").style.width = Math.round(answered / PROPS.length * 100) + "%";
+    $("tally-top").innerHTML = tallyHtml(counts);
+    $("tally").innerHTML = tallyHtml(counts);
+
+    // Ballot list
+    $("ballot").innerHTML = PROPS.map(function (p) {
+      var l = res[p.n];
+      return '<a class="b-row" href="#prop-' + p.n + '"><span class="bn">Prop ' + p.n + '</span><span>' + esc(p.name) + '</span>' +
+        '<span class="bq">' + (l.qu.off ? "" : "Built " + l.qu.avg.toFixed(1)) + '</span>' +
+        '<span class="chip c-' + l.cls + '">' + esc(l.label) + '</span></a>';
+    }).join("");
+
+    // Prop 40 conflict
+    var y40 = res["40"].cls === "yes" || res["40"].cls === "close", hits = [];
+    ["41", "42"].forEach(function (n) { if (y40 && (res[n].cls === "yes" || res[n].cls === "close")) hits.push(n); });
+    var c = $("conflict");
+    if (hits.length) {
+      c.hidden = false;
+      c.textContent = "Heads up. You lean toward YES on Prop 40 and on Prop " + hits.join(" and ") + ". These clash. If Prop " + hits.join(" or ") +
+        " gets more yes votes than Prop 40, courts could void Prop 40 entirely, even if it passes. Decide which outcome you want more.";
+    } else { c.hidden = true; c.textContent = ""; }
+  }
+  renderAll();
+})();
+</script>
+</body>
+</html>
