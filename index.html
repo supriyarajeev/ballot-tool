@@ -633,6 +633,19 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
     save(); renderAll();
   });
 
+  // Anonymous usage counts (GoatCounter). Sends only "used" and "finished" events, never answers. Each counts once per browser.
+  var GC_SENT = "ballot-gc-sent-v1";
+  function trackUse(answered) {
+    var sent = {};
+    try { sent = JSON.parse(localStorage.getItem(GC_SENT) || "{}") || {}; } catch (e) {}
+    function send(key, title) {
+      if (sent[key] || !window.goatcounter || !window.goatcounter.count) return;
+      try { window.goatcounter.count({ path: key, title: title, event: true }); sent[key] = 1; localStorage.setItem(GC_SENT, JSON.stringify(sent)); } catch (e) {}
+    }
+    if (answered >= 1) send("used-tool", "Answered at least one question");
+    if (answered >= PROPS.length) send("finished-all-14", "Answered all 14 questions");
+  }
+
   function tallyHtml(c) {
     return '<span class="chip c-yes">YES ' + c.yes + '</span><span class="chip c-no">NO ' + c.no + '</span>' +
       '<span class="chip c-close">Close call ' + c.close + '</span><span class="chip c-none">No lean ' + c.none + '</span>';
@@ -664,6 +677,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
 
     // Progress and tallies
     $("ans-n").textContent = answered;
+    trackUse(answered);
     $("ans-bar").style.width = Math.round(answered / PROPS.length * 100) + "%";
     $("tally-top").innerHTML = tallyHtml(counts);
     $("tally").innerHTML = tallyHtml(counts);
@@ -689,5 +703,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
   renderAll();
 })();
 </script>
+<!-- Visitor counter. Replace YOURCODE with the GoatCounter code you signed up with. -->
+<script data-goatcounter="https://supriyarajeev.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
