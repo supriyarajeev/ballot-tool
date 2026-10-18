@@ -191,6 +191,17 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
 
 
 /* Result panel parts and new labels */
+.customize { border: 1px solid var(--rule); border-radius: 10px; }
+.customize summary { cursor: pointer; padding: 10px 14px; font-family: var(--f-display); font-weight: 700; font-size: .9rem; color: var(--ballot); }
+.customize[open] summary { border-bottom: 1px solid var(--rule); }
+.customize-body { padding: 14px; display: grid; gap: 12px; }
+.fw-status { font-size: .86rem; }
+.fw-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px 16px; }
+.fw-list li { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--rule); }
+.fw-n { font-family: var(--f-display); font-weight: 700; font-size: .9rem; }
+.fw-w { font-family: var(--f-display); font-weight: 700; font-size: .74rem; color: var(--ballot); background: var(--ballot-soft); padding: 2px 8px; border-radius: 999px; white-space: nowrap; align-self: center; }
+.fw-d { grid-column: 1 / -1; font-size: .82rem; color: var(--muted); }
+
 #ans-bar { width: 0; }
 .stack { display: grid; gap: 14px; }
 .official { font-size: .78rem; color: var(--muted); text-transform: none; }
@@ -250,9 +261,9 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   <header>
     <div class="eyebrow">California ballot, November 3, 2026</div>
     <h1>Ballot Weighing Tool</h1>
-    <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say what you care about and how you feel about each measure's goal. The tool pairs that with the evidence ratings from the propositions guide and shows where you lean. It never tells you how to vote.</p>
+    <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say how you feel about each measure's goal. The tool pairs that with evidence ratings from its Standard Evaluation Framework and shows where you lean. It never tells you how to vote.</p>
     <nav class="steps" aria-label="Steps">
-      <a class="step" href="#s1"><span class="n">1</span><b>Pick your priorities</b><span class="t">What makes a measure well built, to you</span></a>
+      <a class="step" href="#s1"><span class="n">1</span><b>See the framework</b><span class="t">Standard weights are set. Customizing is optional</span></a>
       <a class="step" href="#s2"><span class="n">2</span><b>Answer 14 questions</b><span class="t">Read the facts, then say how you feel about each goal</span></a>
       <a class="step" href="#s3"><span class="n">3</span><b>Review your ballot</b><span class="t">See every lean in one list, plus any conflicts</span></a>
     </nav>
@@ -276,15 +287,30 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   <section class="panel" id="s1" aria-labelledby="s1-h">
     <div class="sec-head">
       <div class="kicker">Step 1</div>
-      <h2 id="s1-h">What makes a measure well built, to you?</h2>
-      <p class="small">The guide rated every measure from 1 (weak) to 5 (strong) on the seven factors below. <b>Weights control how much each factor counts</b> toward one <b>How well-built</b> score per measure, labeled Weak, Mixed, Fair, Solid or Strong. That score never turns a NO into a YES. It only shows whether the evidence backs up a measure you like.</p>
+      <h2 id="s1-h">Our Standard Evaluation Framework</h2>
+      <p>To make it easier for voters to compare California's ballot propositions, this tool uses one consistent evaluation framework across all 14 propositions.</p>
+      <p>The framework considers factors such as public benefit, strength of evidence, safety, accountability, feasibility, and fiscal impact. Each factor is assessed using available evidence and supporting sources, with ratings and explanations provided for voters to examine.</p>
+      <p>The framework also uses default weights so voters can explore the propositions without having to configure a scoring model themselves. <b>The standard weights are already set, so you can go straight to Step 2.</b></p>
     </div>
-    <div class="row">
-      <div class="presets" id="presets"><span class="lab">Start from</span></div>
-    </div>
-    <p class="preset-desc" id="preset-desc"></p>
-    <div class="factors" id="factors"></div>
-    <div class="warn" id="zero" hidden><span>You've turned off all evidence factors. Your results will reflect your stated preferences rather than the evidence ratings.</span> <button type="button" id="zero-reset">Reset to defaults</button></div>
+    <h3 class="vh" id="fw-h">Factors and standard weights</h3>
+    <ul class="fw-list" id="fw-body" aria-labelledby="fw-h"></ul>
+    <p class="small">Each measure's evidence score is the weighted average of its ratings on these factors, from 1 (weak) to 5 (strong). A factor with weight 5 counts two and a half times as much as one with weight 2. With the standard weights, Net benefit and Evidence strength together make up 10 of the 24 weight points.</p>
+    <h3>How were the weights determined?</h3>
+    <p class="small">The criteria and weights reflect the framework's design choices about what matters when evaluating a ballot proposition. They provide a consistent starting point; they are not a scientifically proven or universally agreed-upon set of ideal weights. The choice of weights can influence the results, and reasonable people may disagree about the relative importance of different factors.</p>
+    <p class="small">The purpose is to make the evaluation process more structured and transparent, not to present a numerical score as an objective verdict or a recommendation on how to vote. Voters are encouraged to review the evidence, examine the assumptions, and make their own decisions.</p>
+    <p class="small"><b>What the framework cannot establish.</b> It cannot predict whether a measure will succeed, and it cannot weigh your values for you. Ratings are analytical judgments based on the cited sources, and where information is thin a rating is marked as limited or Not rated rather than scored low.</p>
+    <p class="fw-status" id="fw-status" aria-live="polite"></p>
+    <details class="customize" id="customize">
+      <summary>Customize the weights (optional)</summary>
+      <div class="customize-body">
+        <div class="row">
+          <div class="presets" id="presets"><span class="lab">Start from</span></div>
+        </div>
+        <p class="preset-desc" id="preset-desc"></p>
+        <div class="factors" id="factors"></div>
+      </div>
+    </details>
+    <div class="warn" id="zero" hidden><span>You've turned off all evidence factors. Your results will reflect your stated preferences rather than the evidence ratings.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
   </section>
 
   <section id="s2" class="stack" aria-labelledby="s2-h">
@@ -315,7 +341,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     <h2 id="m-h">How your result is worked out</h2>
     <ol>
       <li><b>Your preference</b> is how you feel about the measure's goal. Against or Strongly against always shows Leans toward NO. That reflects your view, not a finding that the measure is bad. Not sure and Not answered never count as support or opposition.</li>
-      <li><b>The evidence score</b> is a weighted average of this tool's ratings, counting each factor as much as your slider says. Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. If every factor is set to Ignore, it shows Evidence not weighted. If you weigh factors but none of them has a rating for a measure, it shows No evidence score available. Either way the result follows your preference alone.</li>
+      <li><b>The evidence score</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. If every factor is set to Ignore, it shows Evidence not weighted. If you weigh factors but none of them has a rating for a measure, it shows No evidence score available. Either way the result follows your preference alone.</li>
       <li><b>When you support the goal,</b> the evidence score decides whether the evidence backs you up, using the table below. Either way, the vote is yours.</li>
     </ol>
     <table class="rules">
@@ -351,7 +377,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       <p class="small">A 2 or 4 falls between the descriptions. For Accountability, 2 means a self-executing rule or limited reporting with no review, and 4 means independent audits plus public reporting. For Fiscal clarity, 2 means the official analysis gives a direction but no dollars. For Outcome clarity, 4 means a clear observable rule or required reporting on results.</p>
     </details>
     <p><b>Last checked.</b> Facts, ratings and source links were reviewed October 15 and 16, 2026, against the Secretary of State's voter guide and LAO analyses. Official materials can change, so confirm anything important in the <a href="https://voterguide.sos.ca.gov/" target="_blank" rel="noopener">official voter guide<span class="vh"> (opens in a new tab)</span></a>.</p>
-    <p id="privacy"><b>Your privacy.</b> Your answers and weights are saved only in this browser's local storage so they are there when you return. They are never sent anywhere, and the tool asks for no name or contact details. Clear my answers removes saved answers. Weights stay until you change them or pick Default. The page loads fonts from Google Fonts and a visitor counter from GoatCounter, and like any web request these send your IP address and browser details to those services. GoatCounter records the page visit, referring site, browser, screen width and country, plus two anonymous counts when someone answers at least one question and when someone answers all 14. Its privacy policy says it does not store IP addresses or set cookies. This page keeps a small note in local storage so each count is sent only once. Source links take you to other websites only when you click them.</p>
+    <p id="privacy"><b>Your privacy.</b> Your answers and weights are saved only in this browser's local storage so they are there when you return. They are never sent anywhere, and the tool asks for no name or contact details. Clear my answers removes saved answers. Weights stay until you change them or pick Standard. The page loads fonts from Google Fonts and a visitor counter from GoatCounter, and like any web request these send your IP address and browser details to those services. GoatCounter records the page visit, referring site, browser, screen width and country, plus two anonymous counts when someone answers at least one question and when someone answers all 14. Its privacy policy says it does not store IP addresses or set cookies. This page keeps a small note in local storage so each count is sent only once. Source links take you to other websites only when you click them.</p>
   </section>
 </main>
 
@@ -361,7 +387,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
 
   INPUTS
   1. Weights (state.w). One integer per evidence factor, 0 (Ignore) to 5 (Top priority).
-     The Default preset is a starting point, not a claim about the right weights.
+     The Standard preset ("def") is the framework's fixed default, a starting point, not a claim about the right weights.
   2. Preference (state.g). One value per measure:
        null = not answered (skipped), 0 = Not sure,
        1 = Support, 2 = Strongly support, -1 = Oppose, -2 = Strongly oppose.
@@ -400,7 +426,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   var LEVELS = ["Ignore", "Minor", "Some", "Moderate", "High", "Top priority"];
 
   var PRESETS = [
-    { id: "def", name: "Default", d: "A starting point, not the right answer. Results and proof count most, then safety. Cost clarity and outcome targets count less. Change any slider to match your own view.", w: { nb: 5, ev: 5, lr: 4, ac: 3, if: 3, fc: 2, oc: 2 } },
+    { id: "def", name: "Standard", d: "The Standard Evaluation Framework weights. Results and proof count most, then safety. Cost clarity and outcome targets count less. A consistent starting point, not the right answer.", w: { nb: 5, ev: 5, lr: 4, ac: 3, if: 3, fc: 2, oc: 2 } },
     { id: "res", name: "Results first", d: "Almost all weight on whether it helps and whether the approach is proven.", w: { nb: 5, ev: 5, lr: 3, ac: 1, if: 2, fc: 1, oc: 1 } },
     { id: "cost", name: "Cost watcher", d: "Puts the most weight on knowing what a measure costs, with safety and results close behind.", w: { nb: 4, ev: 4, lr: 4, ac: 3, if: 3, fc: 5, oc: 2 } },
     { id: "eq", name: "Equal", d: "Every factor counts the same.", w: { nb: 3, ev: 3, lr: 3, ac: 3, if: 3, fc: 3, oc: 3 } }
@@ -809,6 +835,12 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     return null;
   }
 
+  // Standard Evaluation Framework table (documents the fixed default weights)
+  var STD = PRESETS[0].w;
+  $("fw-body").innerHTML = FACTORS.map(function (f) {
+    return '<li><span class="fw-n">' + esc(f.name) + '</span><span class="fw-w">Weight ' + STD[f.k] + ' of 5 · ' + LEVELS[STD[f.k]] + '</span><span class="fw-d">' + esc(f.q) + ' ' + esc(f.d) + '</span></li>';
+  }).join("");
+
   // Factor sliders
   $("factors").innerHTML = FACTORS.map(function (f) {
     return '<div class="factor"><div class="f-top"><label for="w-' + f.k + '">' + esc(f.name) + '</label><span class="lvl" id="l-' + f.k + '"></span></div>' +
@@ -874,7 +906,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       '</div>' +
       '<div class="result" role="group" aria-label="Your result for Prop ' + p.n + '"><div class="result-h">Your result</div>' +
         '<div class="kv"><span>Your preference</span><b id="pf-' + p.n + '"></b></div>' +
-        '<div class="meter"><div class="meter-label"><span>Evidence score</span><span id="q-' + p.n + '"></span></div><div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i></div></div>' +
+        '<div class="meter"><div class="meter-label"><span class="ev-lab">Evidence score</span><span id="q-' + p.n + '"></span></div><div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i></div></div>' +
         '<div class="sw" id="sw-' + p.n + '"></div>' +
         '<div class="caution" id="c-' + p.n + '" hidden>Limited evidence on factors you weigh. Interpret this score cautiously.</div>' +
         '<div class="verdict" id="v-' + p.n + '" aria-live="polite"></div>' +
@@ -888,7 +920,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     });
   });
 
-  // Clears answers only. Weights stay as set; use Default to reset them.
+  // Clears answers only. Weights stay as set; use Standard to reset them.
   $("reset").addEventListener("click", function () {
     PROPS.forEach(function (p) {
       state.g[p.n] = null;
@@ -933,7 +965,10 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     $("zero").hidden = totalW !== 0;
     var ap = activePreset();
     Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (b) { b.setAttribute("aria-pressed", ap && ap.id === b.dataset.id ? "true" : "false"); });
-    $("preset-desc").textContent = ap ? ap.d : "Custom mix. Pick Default above to reset the weights.";
+    $("preset-desc").textContent = ap ? ap.d : "Custom mix. Pick Standard above to return to the framework weights.";
+    var isStd = ap && ap.id === "def";
+    $("fw-status").innerHTML = isStd ? "Using the <b>standard weights</b>." : "Using <b>your custom weights</b>, not the standard ones. Open Customize and pick Standard to switch back.";
+    Array.prototype.forEach.call(document.querySelectorAll(".ev-lab"), function (e) { e.textContent = isStd ? "Evidence score" : "Evidence score, custom weights"; });
 
     var counts = { yes: 0, no: 0, close: 0, unsure: 0, none: 0 }, res = {}, answered = 0;
     PROPS.forEach(function (p) {
