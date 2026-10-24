@@ -1,0 +1,1886 @@
+{
+ "scope": "Tasks 4, 5 and 6 only (Oakland, Berkeley, Hayward; other Alameda County rosters; incumbency).",
+ "auditDate": "2026-10-22",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "contests": [
+  {
+   "id": "2026-11-03.ca-alameda-oakland.mayor",
+   "office": "Mayor",
+   "district": null,
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": true,
+   "differences": "Names, designations and order match. The PDF also lists a qualified write-in, Bro Ayinde, under 'MAYOR, WRITE-IN'. Our data has no write-in.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.julius-robinson",
+     "name": "Julius Robinson",
+     "party": null,
+     "designation": "Community Investment Executive",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+     "name": "Barbara Lee",
+     "party": null,
+     "designation": "Mayor, City of Oakland",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Designation names the office. The PDF does not otherwise mark incumbency, so incumbentMarked stays false."
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.brenda-f-grisham",
+     "name": "Brenda F. Grisham",
+     "party": null,
+     "designation": "Business Owner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+     "name": "Mindy Ruth Pechenuk",
+     "party": null,
+     "designation": "Educator/Researcher",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Julius Robinson Community Investment Executive / Barbara Lee Mayor, City of Oakland",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Oakland PDF prints candidate blocks first and the office headings afterwards. Assigning each block to an office follows block order and is interpretive. Read four times on Oct 22, 2026; all readings gave the same names, designations and order."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland-council-district-2.city-council",
+   "office": "City Council",
+   "district": "District 2",
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": true,
+   "differences": "None.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-oakland-council-district-2.city-council.nate-adams",
+     "name": "Nate Adams",
+     "party": null,
+     "designation": "Community Organizer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland-council-district-2.city-council.charlene-wang",
+     "name": "Charlene Wang",
+     "party": null,
+     "designation": "City Councilmember, District 2",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Nate Adams Community Organizer / Charlene Wang City Councilmember, District 2",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Oakland PDF prints candidate blocks first and the office headings afterwards. Assigning each block to an office follows block order and is interpretive."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland-council-district-4.city-council",
+   "office": "City Council",
+   "district": "District 4",
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": true,
+   "differences": "None.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-oakland-council-district-4.city-council.janani-ramachandran",
+     "name": "Janani Ramachandran",
+     "party": null,
+     "designation": "Councilmember/Attorney/Mother",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Janani Ramachandran Councilmember/Attorney/Mother",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Oakland PDF prints candidate blocks first and the office headings afterwards. Assigning each block to an office follows block order and is interpretive."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland-council-district-6.city-council",
+   "office": "City Council",
+   "district": "District 6",
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": true,
+   "differences": "None.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-oakland-council-district-6.city-council.kevin-e-jenkins",
+     "name": "Kevin E. Jenkins",
+     "party": null,
+     "designation": "City Council President",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland-council-district-6.city-council.nancy-s-sidebotham",
+     "name": "Nancy S. Sidebotham",
+     "party": null,
+     "designation": "Tax Preparer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Kevin E. Jenkins City Council President / Nancy S. Sidebotham Tax Preparer",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Oakland PDF prints candidate blocks first and the office headings afterwards. Assigning each block to an office follows block order and is interpretive."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland.city-auditor",
+   "office": "City Auditor",
+   "district": null,
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": true,
+   "differences": "None.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-oakland.city-auditor.michael-c-houston",
+     "name": "Michael C. Houston",
+     "party": null,
+     "designation": "Oakland City Auditor",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Michael C. Houston Oakland City Auditor",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Oakland PDF prints candidate blocks first and the office headings afterwards. Assigning each block to an office follows block order and is interpretive."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.city-auditor",
+   "office": "City Auditor",
+   "district": null,
+   "seats": null,
+   "source": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "rosterMatches": true,
+   "differences": "Names match (one candidate). Designation now resolvable as 'City Auditor'.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-berkeley.city-auditor.jenny-wong",
+     "name": "Jenny Wong",
+     "party": null,
+     "designation": "City Auditor",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Auditor / Jenny Wong / City Auditor / City Council, District 1 / Steve Kromer / Energy Efficiency Engineer",
+   "readingsMatched": false,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Berkeley notice read three times. Readings 2 and 3 (raw text order) agree. Each name is followed by its designation, as with 'Jenny Wong / City Auditor'. Reading 1 restructured the text and put Ross Bernet under Auditor with 'Auditor/Operations Director', which the raw text does not support. Designation pairing is interpretive (name-then-designation pattern) and should be checked by a person against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council",
+   "office": "City Council",
+   "district": "District 1",
+   "seats": null,
+   "source": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "rosterMatches": true,
+   "differences": "Names and order match. Designations can be added (see notes).",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.steve-kromer",
+     "name": "Steve Kromer",
+     "party": null,
+     "designation": "Energy Efficiency Engineer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.daria-wrubel",
+     "name": "Daria Wrubel",
+     "party": null,
+     "designation": "Youth Therapist",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.laura-babitt",
+     "name": "Laura Babitt",
+     "party": null,
+     "designation": "Auditor/Operations Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Reading 1 paired 'Consumer Protection Investigator' with this name; readings 2 and 3 (raw order) give 'Auditor/Operations Director'."
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.ross-bernet",
+     "name": "Ross Bernet",
+     "party": null,
+     "designation": "Environmental Program Manager",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Reading 1 placed this name under Auditor; readings 2 and 3 place it under District 1."
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.moni-gangopadhyay",
+     "name": "Moni Gangopadhyay",
+     "party": null,
+     "designation": "Consumer Protection Investigator",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Reading 1 omitted this name; readings 2 and 3 include it."
+    }
+   ],
+   "excerpt": "Laura Babitt / Auditor/Operations Director / Ross Bernet / Environmental Program Manager / Moni Gangopadhyay / Consumer Protection Investigator / City Council, District 4",
+   "readingsMatched": false,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Berkeley notice read three times. Readings 2 and 3 (raw text order) agree. Each name is followed by its designation, as with 'Jenny Wong / City Auditor'. Reading 1 restructured the text and put Ross Bernet under Auditor with 'Auditor/Operations Director', which the raw text does not support. Designation pairing is interpretive (name-then-designation pattern) and should be checked by a person against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-4.city-council",
+   "office": "City Council",
+   "district": "District 4",
+   "seats": null,
+   "source": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "rosterMatches": true,
+   "differences": "Names and order match. Designations can be added.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-4.city-council.majdi-gaith-abuhamdieh",
+     "name": "Majdi \"Gaith\" Abuhamdieh",
+     "party": null,
+     "designation": "Entrepreneur/Technologist/Parent",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-4.city-council.igor-a-tregub",
+     "name": "Igor A. Tregub",
+     "party": null,
+     "designation": "Berkeley City Councilmember, District 4",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Designation names the office; not an incumbent mark."
+    }
+   ],
+   "excerpt": "Majdi \"Gaith\" Abuhamdieh, Entrepreneur/Technologist/Parent; Igor A. Tregub, Berkeley City Councilmember, District 4",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Berkeley notice read three times. Readings 2 and 3 (raw text order) agree. Each name is followed by its designation, as with 'Jenny Wong / City Auditor'. Reading 1 restructured the text and put Ross Bernet under Auditor with 'Auditor/Operations Director', which the raw text does not support. Designation pairing is interpretive (name-then-designation pattern) and should be checked by a person against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-7.city-council",
+   "office": "City Council",
+   "district": "District 7",
+   "seats": null,
+   "source": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "rosterMatches": true,
+   "differences": "Names and order match. Designations can be added.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-7.city-council.aidan-hill",
+     "name": "Aidan Hill",
+     "party": null,
+     "designation": "Medical Case Manager",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-7.city-council.syrak-micael",
+     "name": "Syrak Micael",
+     "party": null,
+     "designation": "Community Engagement Liaison",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Aidan Hill, Medical Case Manager; Syrak Micael, Community Engagement Liaison",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Berkeley notice read three times. Readings 2 and 3 (raw text order) agree. Each name is followed by its designation, as with 'Jenny Wong / City Auditor'. Reading 1 restructured the text and put Ross Bernet under Auditor with 'Auditor/Operations Director', which the raw text does not support. Designation pairing is interpretive (name-then-designation pattern) and should be checked by a person against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council",
+   "office": "City Council",
+   "district": "District 8",
+   "seats": null,
+   "source": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "rosterMatches": true,
+   "differences": "Names and order match (10 candidates). Designations can be added. Source spells the heading 'Distirict 8'.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.mark-humbert",
+     "name": "Mark Humbert",
+     "party": null,
+     "designation": "City Councilmember",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.michael-wallman",
+     "name": "Michael Wallman",
+     "party": null,
+     "designation": "Systems Engineer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.fred-m-feller",
+     "name": "Fred M. Feller",
+     "party": null,
+     "designation": "Attorney",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.mari-mendonca",
+     "name": "Mari Mendonca",
+     "party": null,
+     "designation": "Rent Stabilization Board Commissioner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.vylma-ortiz",
+     "name": "Vylma Ortiz",
+     "party": null,
+     "designation": "Attorney/Meditation Teacher",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.avery-arbaugh",
+     "name": "Avery Arbaugh",
+     "party": null,
+     "designation": "Tenant Union Organizer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.derek-rodriguez",
+     "name": "Derek Rodriguez",
+     "party": null,
+     "designation": "Student/National Guardsman",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.carole-marasovic",
+     "name": "Carole Marasovic",
+     "party": null,
+     "designation": "Attorney/City Commissioner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.ida-martinac",
+     "name": "Ida Martinac",
+     "party": null,
+     "designation": "Rent Stabilization Board Commissioner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.nathan-mizell",
+     "name": "Nathan Mizell",
+     "party": null,
+     "designation": "Rent Stabilization Board Commissioner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "Mark Humbert, City Councilmember; Michael Wallman, Systems Engineer; Fred M. Feller, Attorney",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Berkeley notice read three times. Readings 2 and 3 (raw text order) agree. Each name is followed by its designation, as with 'Jenny Wong / City Auditor'. Reading 1 restructured the text and put Ross Bernet under Auditor with 'Auditor/Operations Director', which the raw text does not support. Designation pairing is interpretive (name-then-designation pattern) and should be checked by a person against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director",
+   "office": "School Board Director",
+   "district": null,
+   "seats": null,
+   "source": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "rosterMatches": true,
+   "differences": "Names and order match. Two candidates carry the ballot designation 'Incumbent'; our data marks incumbent false.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.sandy-park",
+     "name": "Sandy Park",
+     "party": null,
+     "designation": "Education Consultant",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.jennifer-shanoski",
+     "name": "Jennifer Shanoski",
+     "party": null,
+     "designation": "Incumbent",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Ballot designation is the word 'Incumbent'."
+    },
+    {
+     "id": "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.ka-dijah-brown",
+     "name": "Ka'Dijah Brown",
+     "party": null,
+     "designation": "Incumbent",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Ballot designation is the word 'Incumbent'."
+    }
+   ],
+   "excerpt": "School Board Director / Sandy Park, Education Consultant / Jennifer Shanoski, Incumbent / Ka'Dijah Brown, Incumbent",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "interpretive": true,
+   "notes": "Berkeley notice read three times. Readings 2 and 3 (raw text order) agree. Each name is followed by its designation, as with 'Jenny Wong / City Auditor'. Reading 1 restructured the text and put Ross Bernet under Auditor with 'Auditor/Operations Director', which the raw text does not support. Designation pairing is interpretive (name-then-designation pattern) and should be checked by a person against the PDF. Notice does not state seats. It is a City of Berkeley notice covering the Berkeley Unified board contest."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-hayward.mayor",
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "source": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+   "rosterMatches": true,
+   "differences": "Seats can be set to 1 ('Mayor (1 seat)').",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+     "name": "Mark Salinas",
+     "party": null,
+     "designation": "Mayor/College Instructor",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Designation names the office. No alt-text incumbent mark captured for this candidate."
+    },
+    {
+     "id": "2026-11-03.ca-alameda-hayward.mayor.tom-wong",
+     "name": "Tom Wong",
+     "party": null,
+     "designation": "Businessman",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"The following individuals have qualified for the November 3, 2026 election.\" \"Mark Salinas: Mayor/College Instructor\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Two readings matched. The page marks incumbency only in image alt text, not next to the name."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-hayward-council-district-1.city-council",
+   "office": "City Council",
+   "district": "District 1",
+   "seats": 1,
+   "source": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+   "rosterMatches": true,
+   "differences": "Seats can be set to 1. Page heading shows 'Brian Schott' while its table shows 'Brian M Schott' (our value). George Syrop is marked incumbent in image alt text; our data has false. The page links Schott's campaign finance entry to Syrop's NetFile URL, which looks like a page error.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-hayward-council-district-1.city-council.george-syrop",
+     "name": "George Syrop",
+     "party": null,
+     "designation": "Council Member",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Alt text: \"Council member and 2026 City Council incumbent George Syrop\"."
+    },
+    {
+     "id": "2026-11-03.ca-alameda-hayward-council-district-1.city-council.brian-m-schott",
+     "name": "Brian M Schott",
+     "party": null,
+     "designation": "Small Business Owner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Name shown as 'Brian Schott' in heading and 'Brian M Schott' in table. Confirm against the county sample ballot."
+    }
+   ],
+   "excerpt": "\"George Syrop: Council Member\" / \"Brian Schott: Small Business Owner\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Two readings matched. The page marks incumbency only in image alt text, not next to the name."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-hayward-council-district-6.city-council",
+   "office": "City Council",
+   "district": "District 6",
+   "seats": 1,
+   "source": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+   "rosterMatches": true,
+   "differences": "Seats can be set to 1. Julie Roche marked incumbent in image alt text; our data has false.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-hayward-council-district-6.city-council.julie-roche",
+     "name": "Julie Roche",
+     "party": null,
+     "designation": "Hayward City Councilmember",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Alt text: \"City Council member and 2026 incumbent Julie Roche\"."
+    }
+   ],
+   "excerpt": "\"Julie Roche: Hayward City Councilmember\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Two readings matched. The page marks incumbency only in image alt text, not next to the name."
+  }
+ ],
+ "newContests": [
+  {
+   "id": "NEW",
+   "office": "School Board Director (Oakland Unified, per City of Oakland list)",
+   "district": "District 2",
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Arielle Fleisher",
+     "party": null,
+     "designation": "Parent/Policy Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Jennifer Brouhard",
+     "party": null,
+     "designation": "Retired Educator",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "This is the FINAL list of qualifed candidates (in ballot order) for the November 3, 2026 Election ... SCHOOL BOARD DIRECTOR DISTRICT 2",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Oakland Unified School District, as listed by the Oakland City Clerk",
+   "interpretive": true,
+   "notes": "Office headings appear after the candidate blocks. Blocks are assigned to Districts 2, 4 and 6 in order, matching how our data already assigns the city blocks. This assignment is interpretive. The PDF and the city's candidate information sheet do not name Oakland Unified; the information sheet lists 'School Board Director, District 2/4/6' among Oakland offices. No OUSD or county document confirming district assignments was found."
+  },
+  {
+   "id": "NEW",
+   "office": "School Board Director (Oakland Unified, per City of Oakland list)",
+   "district": "District 4",
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Mike Hutchinson",
+     "party": null,
+     "designation": "Incumbent",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Ballot designation is the word 'Incumbent'."
+    },
+    {
+     "id": "NEW",
+     "name": "Kathryn Camp",
+     "party": null,
+     "designation": "Public Policy Professional",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Sylvia Pfeiffer Williams",
+     "party": null,
+     "designation": "Adult Educator",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "This is the FINAL list of qualifed candidates (in ballot order) for the November 3, 2026 Election ... SCHOOL BOARD DIRECTOR DISTRICT 4",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Oakland Unified School District, as listed by the Oakland City Clerk",
+   "interpretive": true,
+   "notes": "Office headings appear after the candidate blocks. Blocks are assigned to Districts 2, 4 and 6 in order, matching how our data already assigns the city blocks. This assignment is interpretive. The PDF and the city's candidate information sheet do not name Oakland Unified; the information sheet lists 'School Board Director, District 2/4/6' among Oakland offices. No OUSD or county document confirming district assignments was found."
+  },
+  {
+   "id": "NEW",
+   "office": "School Board Director (Oakland Unified, per City of Oakland list)",
+   "district": "District 6",
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Alexandra Williams",
+     "party": null,
+     "designation": "Teacher/Program Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "LeAna Powell",
+     "party": null,
+     "designation": "Family Advocate/Parent",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Valarie Bachelor",
+     "party": null,
+     "designation": "School Board Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "This is the FINAL list of qualifed candidates (in ballot order) for the November 3, 2026 Election ... SCHOOL BOARD DIRECTOR DISTRICT 6",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Oakland Unified School District, as listed by the Oakland City Clerk",
+   "interpretive": true,
+   "notes": "Office headings appear after the candidate blocks. Blocks are assigned to Districts 2, 4 and 6 in order, matching how our data already assigns the city blocks. This assignment is interpretive. The PDF and the city's candidate information sheet do not name Oakland Unified; the information sheet lists 'School Board Director, District 2/4/6' among Oakland offices. No OUSD or county document confirming district assignments was found."
+  },
+  {
+   "id": "NEW",
+   "office": "Mayor, Write-In",
+   "district": null,
+   "seats": null,
+   "source": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "rosterMatches": null,
+   "differences": "Qualified write-in not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Bro Ayinde",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "MAYOR, WRITE-IN / Candidate Name / Bro Ayinde",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Oakland"
+  },
+  {
+   "id": "NEW",
+   "office": "Mayor",
+   "district": null,
+   "seats": null,
+   "source": "https://content.govdelivery.com/attachments/CAALAMECITY/2026/08/12/file_attachments/3744991/Roster%20of%20Candidates%20-%20Final.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Tracy L. Jensen",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Malia Vella",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Tony Daysog",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "MAYOR - FINAL / Tracy L. Jensen 07/14/2026 08/04/2026 08/05/2026",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Alameda",
+   "notes": "City of Alameda roster 'Updated 8/12/2026 5:59 PM', hosted on the city's GovDelivery account. Two readings matched. Columns are pulled, filed, qualified dates; all have a qualified date. No designations, no incumbent marks. Order is filing order, not stated as ballot order."
+  },
+  {
+   "id": "NEW",
+   "office": "Councilmember",
+   "district": null,
+   "seats": null,
+   "source": "https://content.govdelivery.com/attachments/CAALAMECITY/2026/08/12/file_attachments/3744991/Roster%20of%20Candidates%20-%20Final.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data. Seat count not stated on roster.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Marcie Johnson",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Tyler Savage",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Thushan Amarasiriwardena",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Steve Slauson",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Amos White",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Maria L. Bondonno",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "COUNCILMEMBER - FINAL / Marcie Johnson 07/14/2026 08/03/2026 08/03/2026",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Alameda",
+   "notes": "Same roster. No designations, no incumbent marks, not stated as ballot order."
+  },
+  {
+   "id": "NEW",
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "source": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/notice-of-nominees-2026.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "ROBIN D. LÓPEZ",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "KATHERINE ENOS",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "JON DESTIN",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "AARON TIEDEMANN",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "CHRIS McDANIELS",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"MEMBER, CITY COUNCIL, - 2 seats 4-year term\" \"Vote for two (2) seats\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Albany",
+   "notes": "Order set by lot drawing on Aug 13, 2026 per the notice. Names are printed in capitals in the notice. The candidates page (also read) shows all five qualified and Jeremiah Garrett-Pinguelo withdrawn."
+  },
+  {
+   "id": "NEW",
+   "office": "Member, Board of Education",
+   "district": null,
+   "seats": 4,
+   "source": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/notice-of-nominees-2026.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data. Notice lists ANNE HSU; the city candidates page does not list Anne Hsu and lists Alexandra Bush as 'did not file'. The notice is the later ballot-order document.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "MARGARET ALLEN",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "MELISSA BOYD",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "BECKY HOPWOOD",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "JOSH MAHONEY",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "DAVID McKINNEY",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "ANNE HSU",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"MEMBER, BOARD OF EDUCATION – 3 seats 4-year term; 1 seat 2-year term\" \"Vote for four (4) seats\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Albany Unified School District (City of Albany notice)",
+   "notes": "Two readings of the notice matched, including ANNE HSU. Seats are 3 four-year plus 1 two-year. The notice also shows a 'CITY CLERK' heading with no names."
+  },
+  {
+   "id": "NEW",
+   "office": "City Council",
+   "district": null,
+   "seats": 2,
+   "source": "https://www.emeryville.org/Government/Voting-and-Elections/November-2026-Candidates",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Corry Frydlewicz",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "David Mourra",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Kalimah Priforce",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Brandon Soublet",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"The City of Emeryville General Municipal Election will be held on November 3, 2026 to fill two seats on the City Council.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Emeryville",
+   "notes": "Two readings matched. Each has a 'Date Qualified'. No designations or incumbent marks. Order is alphabetical, not stated as ballot order. Page links candidate statements (URLs not captured)."
+  },
+  {
+   "id": "NEW",
+   "office": "City Council",
+   "district": null,
+   "seats": 3,
+   "source": "https://www.piedmont.ca.gov/vote2026",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Nancy Beninati",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/NB.pdf",
+     "statementEvidence": "Statement link captured from the city page in one reading; file not opened.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "N. \"Sunny\" Bostrom-Fleming",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/SBF.pdf",
+     "statementEvidence": "Statement link captured from the city page in one reading; file not opened.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Bill Reichle",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/BR.pdf",
+     "statementEvidence": "Statement link captured from the city page in one reading; file not opened.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Tom Ramsey",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/TR.pdf",
+     "statementEvidence": "Statement link captured from the city page in one reading; file not opened.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Adam Hundt",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/AH.pdf",
+     "statementEvidence": "Statement link captured from the city page in one reading; file not opened.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"There are 3 seats open. Terms are 4 years.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Piedmont",
+   "notes": "Two readings matched on names and seats. Not stated as ballot order. No designations or incumbent marks. Bill Reichle's qualified date is printed 'August 4, 2025' on the page. No Piedmont Unified board contest on this page."
+  },
+  {
+   "id": "NEW",
+   "office": "City Council",
+   "district": "District 2",
+   "seats": 1,
+   "source": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Jaime Patino",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Victor Lopez Pulido",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"Vote for one. Listed in ballot order.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Union City",
+   "notes": "Two readings of the ballot-order page matched. It shows no designations. A separate filing status page (https://www.unioncityca.gov/1055/Candidates-and-Filing-Status, read once, table poorly aligned) shows designations including 'Incumbent' for Jeff Wang; not recorded here because the single reading was ambiguous and partly stale."
+  },
+  {
+   "id": "NEW",
+   "office": "City Council",
+   "district": "District 3",
+   "seats": 1,
+   "source": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Jeff Wang",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Cheris Crocker-Root",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"Vote for one. Listed in ballot order.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Union City",
+   "notes": "Two readings of the ballot-order page matched. It shows no designations. A separate filing status page (https://www.unioncityca.gov/1055/Candidates-and-Filing-Status, read once, table poorly aligned) shows designations including 'Incumbent' for Jeff Wang; not recorded here because the single reading was ambiguous and partly stale."
+  },
+  {
+   "id": "NEW",
+   "office": "City Council",
+   "district": "District 4",
+   "seats": 1,
+   "source": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Sarabjit Kaur Cheema",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Qasim Lodhi",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Vipan S. Bajwa",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Ann Yap-Jequinto",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"Vote for one. Listed in ballot order.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "Union City",
+   "notes": "Two readings of the ballot-order page matched. It shows no designations. A separate filing status page (https://www.unioncityca.gov/1055/Candidates-and-Filing-Status, read once, table poorly aligned) shows designations including 'Incumbent' for Jeff Wang; not recorded here because the single reading was ambiguous and partly stale."
+  },
+  {
+   "id": "NEW",
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "source": "https://www.sanleandro.org/DocumentCenter/View/16443",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Juan González III",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "James Maes",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"For Mayor Vote for One\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of San Leandro",
+   "notes": "Notice of Nominees 'Dated: August 14, 2026'. Two readings matched. No designations or incumbent marks; not stated as ballot order. A candidate statements booklet (https://www.sanleandro.org/DocumentCenter/View/16401) gives occupations, which are not recorded as designations."
+  },
+  {
+   "id": "NEW",
+   "office": "Member of the City Council",
+   "district": "District 1",
+   "seats": 1,
+   "source": "https://www.sanleandro.org/DocumentCenter/View/16443",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Sbeydeh Viveros-Walton",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"For Member of the City Council – District 1 Vote for One\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of San Leandro",
+   "notes": "Notice of Nominees 'Dated: August 14, 2026'. Two readings matched. No designations or incumbent marks; not stated as ballot order. A candidate statements booklet (https://www.sanleandro.org/DocumentCenter/View/16401) gives occupations, which are not recorded as designations."
+  },
+  {
+   "id": "NEW",
+   "office": "Member of the City Council",
+   "district": "District 3",
+   "seats": 1,
+   "source": "https://www.sanleandro.org/DocumentCenter/View/16443",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Lee Thomas",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Joseph Trujillo",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"For Member of the City Council – District 3 Vote for One\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of San Leandro",
+   "notes": "Notice of Nominees 'Dated: August 14, 2026'. Two readings matched. No designations or incumbent marks; not stated as ballot order. A candidate statements booklet (https://www.sanleandro.org/DocumentCenter/View/16401) gives occupations, which are not recorded as designations."
+  },
+  {
+   "id": "NEW",
+   "office": "Member of the City Council",
+   "district": "District 5",
+   "seats": 1,
+   "source": "https://www.sanleandro.org/DocumentCenter/View/16443",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Xouhoa Bowen",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"For Member of the City Council – District 5 Vote for One\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of San Leandro",
+   "notes": "Notice of Nominees 'Dated: August 14, 2026'. Two readings matched. No designations or incumbent marks; not stated as ballot order. A candidate statements booklet (https://www.sanleandro.org/DocumentCenter/View/16401) gives occupations, which are not recorded as designations."
+  },
+  {
+   "id": "NEW",
+   "office": "Member of the City Council (Partial 2-year term)",
+   "district": "District 2",
+   "seats": 1,
+   "source": "https://www.sanleandro.org/DocumentCenter/View/16443",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "James Aguilar",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"For Member of the City Council – District 2 Vote for One (Partial 2-year term)\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of San Leandro",
+   "notes": "Notice of Nominees 'Dated: August 14, 2026'. Two readings matched. No designations or incumbent marks; not stated as ballot order. A candidate statements booklet (https://www.sanleandro.org/DocumentCenter/View/16401) gives occupations, which are not recorded as designations."
+  },
+  {
+   "id": "NEW",
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "source": "https://www.newarkca.gov/home/showpublisheddocument/12462/639209381617370000",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Hannon, Michael K.",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Marked '(Incumbent)'."
+    }
+   ],
+   "excerpt": "Hannon, Michael K. (Incumbent) Mayor",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Newark",
+   "notes": "'Notice of Candidate Activity', 'Updated: 8/7/2026'. Not a final qualified list. Two entries read 'N/A - Withdrew candidacy' without saying which candidates. Joshi and Rajidi rows show only one date. Names shown last name first. Two readings matched on names and incumbent marks."
+  },
+  {
+   "id": "NEW",
+   "office": "Council Member",
+   "district": null,
+   "seats": 2,
+   "source": "https://www.newarkca.gov/home/showpublisheddocument/12462/639209381617370000",
+   "rosterMatches": null,
+   "differences": "Not in our data. Final ballot roster not confirmed.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Connolly, Tonya",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Grushkin, Noah P.",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Jorgens, Matthew B.",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Marked '(Incumbent)'."
+    },
+    {
+     "id": "NEW",
+     "name": "Little, Eve M.",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Marked '(Incumbent)'."
+    },
+    {
+     "id": "NEW",
+     "name": "Joshi, Manoj",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Status unclear."
+    },
+    {
+     "id": "NEW",
+     "name": "Rajidi, Poornachandra",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Status unclear."
+    }
+   ],
+   "excerpt": "Jorgens, Matthew B. (Incumbent) Council Member / Little, Eve M. (Incumbent) Council Member",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Newark",
+   "notes": "'Notice of Candidate Activity', 'Updated: 8/7/2026'. Not a final qualified list. Two entries read 'N/A - Withdrew candidacy' without saying which candidates. Joshi and Rajidi rows show only one date. Names shown last name first. Two readings matched on names and incumbent marks."
+  },
+  {
+   "id": "NEW",
+   "office": "City Councilmember District 1, City Councilmember District 3, and Mayor (office per candidate unresolved)",
+   "district": null,
+   "seats": null,
+   "source": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/2026-candidates-list-081226.pdf",
+   "rosterMatches": null,
+   "differences": "Not in our data. The list does not tie each name to an office.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Vin Kruttiventi",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Kathy Narum",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Reena Gupta",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Jamie Yee",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Jack Balch",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Julie Testa",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"CITY OF PLEASANTON\" \"QUALIFIED CANDIDATE LIST\" \"(alphabetical order by last name)\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "City of Pleasanton",
+   "notes": "Updated Aug 12, 2026. Two readings matched on the six names and order. The names are not alphabetical overall but are alphabetical in pairs (Kruttiventi, Narum / Gupta, Yee / Balch, Testa), which suggests three office groups in the order D1, D3, Mayor. This is an inference only and is not recorded as fact."
+  },
+  {
+   "id": "NEW",
+   "office": "EBMUD Board of Directors",
+   "district": "Ward 3",
+   "seats": 1,
+   "source": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "Marguerite Young",
+     "party": null,
+     "designation": "Incumbent, EBMUD Ward 3",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Text from EBMUD press release, not a county roster."
+    },
+    {
+     "id": "NEW",
+     "name": "Donald Gray",
+     "party": null,
+     "designation": "Retired Wastewater Manager",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Text from EBMUD press release."
+    }
+   ],
+   "excerpt": "\"Marguerite Young, Incumbent, EBMUD Ward 3\" \"Donald Gray, Retired Wastewater Manager\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "East Bay Municipal Utility District, Ward 3 (Piedmont and much of Oakland in Alameda County, plus parts of Contra Costa County)",
+   "notes": "Release dated Oakland, August 18, 2026. Two readings matched on names. Wards 2 and 4 incumbents (Luz Gómez, Andy Katz) were appointed in lieu of election."
+  },
+  {
+   "id": "NEW",
+   "office": "EBMUD Board of Directors",
+   "district": "Ward 7",
+   "seats": 1,
+   "source": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+   "rosterMatches": null,
+   "differences": "Not in our data.",
+   "candidates": [
+    {
+     "id": "NEW",
+     "name": "April Chan",
+     "party": null,
+     "designation": "Incumbent, EBMUD Ward 7",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": "Text from EBMUD press release."
+    },
+    {
+     "id": "NEW",
+     "name": "Joseph Grcar",
+     "party": null,
+     "designation": "Retired Laboratory Scientist",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Luis Reynoso",
+     "party": null,
+     "designation": "University Business Professor",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    },
+    {
+     "id": "NEW",
+     "name": "Gary Wolff",
+     "party": null,
+     "designation": "Water Resources Engineer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not checked in an official source during this audit.",
+     "notes": ""
+    }
+   ],
+   "excerpt": "\"April Chan, Incumbent, EBMUD Ward 7\" \"Joseph Grcar, Retired Laboratory Scientist\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "jurisdiction": "East Bay Municipal Utility District, Ward 7 (portions of Hayward, San Leandro, San Lorenzo, Castro Valley, Cherryland, Fairview, plus part of San Ramon)",
+   "notes": "Same release. Designation-like text is from the press release; confirm against county sample ballot."
+  }
+ ],
+ "unresolved": [
+  "No readable official Alameda County roster for Nov 3, 2026. The county elections page for this election shows no candidate list, sample ballot or contest list; the Candidate List app (alamedacountyca.gov/rov_app/candidatelist) is a search form whose results did not load through WebFetch.",
+  "Oakland Unified board district assignment (D2, D4, D6) rests on block order in the city PDF. No OUSD or county document confirming it was found.",
+  "Berkeley designations: two of three readings agree on the name-then-designation pairing. A person should confirm against the PDF, especially District 1 (Babitt, Bernet, Gangopadhyay).",
+  "Berkeley Rent Stabilization Board: not checked (search budget exhausted). The city notice read does not list it.",
+  "BART Districts 2, 4 and 6 are up (bart.gov Director Elections page) but no official candidate names were found. Our data has only District 8.",
+  "AC Transit Wards 1, 3, 4, 5 and 7 are up (actransit.org candidate information page) but no candidate names were found.",
+  "Fremont (Council Districts 2, 3, 4), Dublin (Mayor, Districts 2 and 4) and Livermore (Mayor, Districts 1 and 2) city pages name the seats but no candidates.",
+  "Pleasanton office-by-candidate assignment not stated in the city list.",
+  "Newark list is a mid-filing activity notice (8/7/2026); final qualified roster and the two withdrawals unresolved.",
+  "Union City designations only on a poorly aligned filing status page read once; not recorded.",
+  "Not found: Peralta CCD, Chabot-Las Positas CCD, and school district rosters (Fremont USD, Hayward USD, Castro Valley, San Lorenzo, New Haven, San Leandro USD, Livermore, Pleasanton, Dublin, Piedmont, Emery, Newark USDs). Only Albany USD (city notice), Berkeley USD (city notice) and Oakland board seats (city list) were found.",
+  "WebSearch budget for this turn ran out before Berkeley Rent Board, county roster alternatives and school districts could be searched further. A follow-up run can continue."
+ ],
+ "sourcesChecked": [
+  {
+   "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+   "access": "read",
+   "notes": "Read four times; consistent. Includes OUSD board blocks and Mayor write-in."
+  },
+  {
+   "url": "https://www.oaklandca.gov/files/assets/city/v/1/city-clerk/documents/elections/candidate-information-sheet-2026.pdf",
+   "access": "read",
+   "notes": "Lists offices incl. School Board Director Districts 2, 4, 6. No names."
+  },
+  {
+   "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+   "access": "partial",
+   "notes": "Read three times; layout causes the reader to restructure. Readings 2 and 3 agree."
+  },
+  {
+   "url": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+   "access": "read",
+   "notes": "Read twice; consistent. Incumbency only in image alt text."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/election-information/elections",
+   "access": "read",
+   "notes": "Nov 3, 2026 listed as current election; no candidate list, sample ballot or contest list."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/election-information/elections?id=252",
+   "access": "read",
+   "notes": "Nov 5, 2024 election, not 2026."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/election-information/elections?id=263",
+   "access": "read",
+   "notes": "Shows Aug 18, 2026 CD14 special. ids 264 and 265 also returned the CD14 special."
+  },
+  {
+   "url": "https://www.alamedacountyca.gov/rov_app/candidatelist",
+   "access": "failed",
+   "notes": "Search form only; no results rendered. Also tried ?electionid=263 with same result."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Random Alpha/countyrandomalphanov2026.pdf",
+   "access": "read",
+   "notes": "Random alphabet memo dated Aug 13, 2026. No candidates."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/info/20260602",
+   "access": "read",
+   "notes": "Links only; no Nov 2026 candidate list."
+  },
+  {
+   "url": "https://content.govdelivery.com/attachments/CAALAMECITY/2026/08/12/file_attachments/3744991/Roster%20of%20Candidates%20-%20Final.pdf",
+   "access": "read",
+   "notes": "City of Alameda roster, read twice."
+  },
+  {
+   "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/notice-of-nominees-2026.pdf",
+   "access": "read",
+   "notes": "Albany notice of nominees, read twice."
+  },
+  {
+   "url": "https://www.albanyca.gov/Government/Election-Information/Candidates-for-General-Municipal-Election-2026",
+   "access": "read",
+   "notes": "Albany candidates page; differs from notice on Anne Hsu."
+  },
+  {
+   "url": "https://www.emeryville.org/Government/Voting-and-Elections/November-2026-Candidates",
+   "access": "read",
+   "notes": "Read twice."
+  },
+  {
+   "url": "https://www.piedmont.ca.gov/vote2026",
+   "access": "read",
+   "notes": "Read twice."
+  },
+  {
+   "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+   "access": "read",
+   "notes": "Read twice; ballot order stated."
+  },
+  {
+   "url": "https://www.unioncityca.gov/1055/Candidates-and-Filing-Status",
+   "access": "partial",
+   "notes": "Read once; table alignment unclear."
+  },
+  {
+   "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+   "access": "read",
+   "notes": "Read twice."
+  },
+  {
+   "url": "https://www.sanleandro.org/DocumentCenter/View/16401",
+   "access": "read",
+   "notes": "Candidate statements booklet dated Aug 7, 2026; occupations only."
+  },
+  {
+   "url": "https://www.sanleandro.org/202/Candidate-Information",
+   "access": "read",
+   "notes": "No names."
+  },
+  {
+   "url": "https://www.newarkca.gov/home/showpublisheddocument/12462/639209381617370000",
+   "access": "partial",
+   "notes": "Activity notice; withdrawals not attributable."
+  },
+  {
+   "url": "https://www.newarkca.gov/home/showpublisheddocument/12536",
+   "access": "read",
+   "notes": "Notice of offices; no names."
+  },
+  {
+   "url": "https://www.newarkca.gov/home/showpublisheddocument/12468/639193880947900000",
+   "access": "read",
+   "notes": "Candidate handbook; no names."
+  },
+  {
+   "url": "https://www.newarkca.gov/departments/elections",
+   "access": "read",
+   "notes": "Mayor 1 seat, Council 2 seats; no names."
+  },
+  {
+   "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/2026-candidates-list-081226.pdf",
+   "access": "partial",
+   "notes": "Six names, offices not tied to names. Read twice."
+  },
+  {
+   "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/2026-Candidates-List.pdf",
+   "access": "read",
+   "notes": "Older list updated 7/30/2026; one name."
+  },
+  {
+   "url": "https://fremont.gov/government/election-information",
+   "access": "read",
+   "notes": "Districts 2, 3, 4 up; no 2026 names."
+  },
+  {
+   "url": "https://dublin.ca.gov/101/Elections",
+   "access": "read",
+   "notes": "Mayor, Districts 2 and 4 up; no names."
+  },
+  {
+   "url": "https://www.livermoreca.gov/departments/city-clerk/elections/november-3-2026-general-municipal-election",
+   "access": "read",
+   "notes": "Mayor, Districts 1 and 2; no names."
+  },
+  {
+   "url": "https://www.livermoreca.gov/departments/city-clerk/elections",
+   "access": "read",
+   "notes": "No names."
+  },
+  {
+   "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+   "access": "read",
+   "notes": "Read twice."
+  },
+  {
+   "url": "https://ebmud.com/about-us/news/press-releases/ebmud-board-election-update",
+   "access": "read",
+   "notes": "Refers to a Nov 5 election (2024); not used."
+  },
+  {
+   "url": "https://www.bart.gov/node/24381",
+   "access": "read",
+   "notes": "Districts 2, 4, 6, 8 up; no names."
+  },
+  {
+   "url": "https://www.actransit.org/vi/node/478",
+   "access": "read",
+   "notes": "Wards 1, 3, 4, 5, 7 up; no names."
+  }
+ ]
+}

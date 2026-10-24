@@ -1,0 +1,785 @@
+{
+ "n": "37",
+ "officialTitle": "CREATES LOAN PROGRAM FOR MIDDLE-INCOME BUYERS OF QUALIFIED NEW HOMES. INITIATIVE STATUTE.",
+ "measureType": "Initiative Statute",
+ "sources": [
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+   "title": "Proposition 37 LAO analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Fetched after appearing in search. Key numbers matched in prop37-title-summ-analysis.pdf."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+   "title": "Prop 37 title, summary and analysis",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. No worked example, no audit or APA text."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+   "title": "Prop 37 voter guide section",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+   "title": "Prop 37 arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Signers matched prop37.pdf."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/quick-reference-guide/37.htm",
+   "title": "Quick Reference Guide, Proposition 37",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/37/",
+   "title": "Official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not fetched. Not on allowlist. Content covered by PDFs and quick reference guide."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf",
+   "title": "Text of proposed law",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not fetched. Not on allowlist and did not appear in search results."
+  },
+  {
+   "url": "https://www.lao.ca.gov/BallotAnalysis/Initiative/2025-013",
+   "title": "LAO initiative analysis, A.G. File No. 2025-013 Amendment #1",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": "2025-10-06",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Reader could not confirm this is the exact measure that became Prop 37. Figures ($25 billion, CalHFA) match."
+  },
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+   "title": "Proposition 37 voter guide",
+   "publisher": "CalMatters (independent)",
+   "documentDate": "2026-10-01",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Used only for endorsements and the $800,000 example."
+  },
+  {
+   "url": "https://www.hoover.org/research/prop-37-middle-class-homeownership-bond-initiative",
+   "title": "Prop 37 Quick Facts",
+   "publisher": "Hoover Institution (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Used only for APA exemption and Realtors support."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Loans for middle-income new-home buyers",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "CREATES LOAN PROGRAM FOR MIDDLE-INCOME BUYERS OF QUALIFIED NEW HOMES. INITIATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Consistent with the official title.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Creates loan program for middle-income buyers of qualified new homes",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "CREATES LOAN PROGRAM FOR MIDDLE-INCOME BUYERS OF QUALIFIED NEW HOMES. INITIATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official title.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Revenue bond · citizen initiative",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "CREATES LOAN PROGRAM FOR MIDDLE-INCOME BUYERS OF QUALIFIED NEW HOMES. INITIATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 37 allows CalHFA to sell up to $25 billion in revenue bonds.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Initiative statute authorizing revenue bonds.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Initiative statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "CREATES LOAN PROGRAM FOR MIDDLE-INCOME BUYERS OF QUALIFIED NEW HOMES. INITIATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Official label is INITIATIVE STATUTE.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should the state lend middle-income buyers up to 17% of a new home's price?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Each loan would cover up to 17 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Authorizes up to $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of the purchase price of a \"qualified new home\"",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Up to 17% of price for qualified new homes.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Lets the state housing finance agency (CalHFA) sell up to $25 billion in revenue bonds to lend buyers earning up to 200% of area median income up to 17% of a new home's price. The buyer puts at least 3% down. Builders who opt into higher labor standards also get different construction defect lawsuit rules.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 37 allows CalHFA to sell up to $25 billion in revenue bonds.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.lao.ca.gov/BallotAnalysis/Initiative/2025-013",
+     "location": "LAO initiative analysis A.G. File No. 2025-013, Amendment #1, Oct 6, 2025",
+     "excerpt": "having a family income of no more than 200 percent of the area median income (AMI)",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "have a household income no more than double the typical income level in their area",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Borrowers must be California residents for one year, occupy the home, earn less than twice the area's median income, and pay at least 3% down.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Each loan would cover up to 17 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Homebuyers would need to provide a down payment of at least 3 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Developers that chose this option would be required to meet higher labor standards,",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "would be subject to different construction defect rules, which generally aim to provide more flexibility to developers.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "All numbers confirmed. 'Lawsuit' is our gloss on construction defect rules.",
+   "proposedText": null,
+   "limitations": "AG says 'earn less than twice' area median income, LAO 2025 letter says 'no more than 200 percent'. Legal text not fetched to settle the boundary."
+  },
+  {
+   "field": "yes",
+   "current": "The state would create a new homebuying assistance program funded by up to $25 billion in revenue bonds, repaid by homeowners' loan payments.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/37.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A YES vote on this measure means: The state would create a new homebuying assistance program. The state could sell up to $25 billion in revenue bonds to fund the program. Bonds would be paid back by homeowners' payments on their home loans.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official YES meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Borrowers must be California residents for one year, occupy the home, earn less than twice the area's median income, and pay at least 3% down.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Field is empty. Could note the one-year residency and occupancy requirements.",
+   "proposedText": null,
+   "limitations": "Optional, not a correction."
+  },
+  {
+   "field": "no",
+   "current": "The state would not be required to create a new homebuying assistance program.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": "A NO vote on this measure means",
+     "excerpt": "The state would not be required to create a new homebuying assistance program.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official NO meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "CalHFA's existing down payment programs continue.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "CalHFA has a few programs that provide down payment assistance to homebuyers.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO describes existing CalHFA down payment programs.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "LAO finds no direct state or local cost, and the bonds are not backed by the state. For an $800,000 townhome the buyer pays $24,000 down and borrows $136,000 from the state program.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "No direct state or local costs.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Requires that bonds be repaid by homeowners' mortgage payments, not the State.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Each loan would cover up to 17 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Homebuyers would need to provide a down payment of at least 3 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+     "location": null,
+     "excerpt": "leaving buyers with a cash down payment of 3% if paired with a typical mortgage — $24,000 for an $800,000 home.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "No cost and no state repayment are confirmed. The $800,000 example is not in LAO. $24,000 is 3% (also in CalMatters) and $136,000 is 17%, our arithmetic. 'Townhome' has no source, and 3% and 17% are a minimum and a maximum, not fixed amounts.",
+   "proposedText": "LAO finds no direct state or local cost, and the bonds are repaid by homeowners, not the state. On an $800,000 home a buyer would put at least $24,000 down and could borrow up to $136,000 from the program.",
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "Middle-income households buying newly built homes, home builders.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Borrowers must be California residents for one year, occupy the home, earn less than twice the area's median income, and pay at least 3% down.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Developers that chose this option would be required to meet higher labor standards,",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Buyers of qualified new homes and developers.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "More middle-income households able to buy newly built homes with 3% down.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Homebuyers would need to provide a down payment of at least 3 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "A number of factors, which are unknown at this time, could affect Proposition 37's scope and impact.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Plausible effect. LAO notes scope depends on unknown factors.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "An independent annual audit of the program. Its rules skip the normal state rulemaking process. No target for homes or loans.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+     "location": "Argument in favor",
+     "excerpt": "annual audits detailing the status of loans made and the fund's financial condition.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/37.htm",
+     "location": "Arguments, Pro",
+     "excerpt": "Strict accountability/audits.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.hoover.org/research/prop-37-middle-class-homeownership-bond-initiative",
+     "location": "Potential risks (independent)",
+     "excerpt": "The agency's program rules are exempt from the Administrative Procedure Act.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Annual audits appear only in the supporters' argument, and 'independent' was not seen. The rulemaking exemption is supported only by Hoover (independent). LAO does not mention either. Legal text not read.",
+   "proposedText": "Supporters say it requires annual audits of the loans and the fund. Program rules are reported to be exempt from normal state rulemaking. No target for homes or loans.",
+   "limitations": "Confirm both points in the legal text. If confirmed there, the current text can stay with the legal text cited."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says private bond investors fund the loans, so taxpayers pay nothing and take no risk.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+     "location": "Argument in favor",
+     "excerpt": "Loans are funded by private bond investors and repaid by home borrowers—not taxpayers.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/37.htm",
+     "location": "Arguments, Pro",
+     "excerpt": "Zero Taxpayer Cost—No Taxpayer Risk.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Argument says private bond investors fund loans. The official PRO summary says 'No Taxpayer Risk'.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "No official argument against was filed. Critics such as Reform California say it mainly helps developers and adds household debt.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+     "location": null,
+     "excerpt": "NO ARGUMENT AGAINST PROPOSITION 37 WAS SUBMITTED.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+     "location": "Endorsements, opponents (independent)",
+     "excerpt": "Reform California / League of Women Voters",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "No argument against was submitted (confirmed). CalMatters lists Reform California as an opponent, but the stated reasons (helps developers, adds debt) were not found in any source read.",
+   "proposedText": "No official argument against was filed. CalMatters lists Reform California and the League of Women Voters as opponents.",
+   "limitations": "Opponents' reasons not verified. Search budget was exhausted."
+  },
+  {
+   "field": "pro",
+   "current": "California Conference of Carpenters, Fiona Ma (CalHFA board), California State Commanders Veterans Council, California Association of Realtors.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+     "location": "Argument in favor, signers",
+     "excerpt": "Danny Curtin, Director, California Conference of Carpenters / Fiona Ma, Boardmember, California Housing Finance Agency (CalHFA) / David West, Chair, California State Commanders Veterans Council",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/37.htm",
+     "location": "Quick reference summary, supporters",
+     "excerpt": "United Nurses Associations of California; California Conference of Carpenters; California State Treasurer Fiona Ma",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+     "location": "Endorsements, supporters (independent)",
+     "excerpt": "California Association of Realtors",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.hoover.org/research/prop-37-middle-class-homeownership-bond-initiative",
+     "location": null,
+     "excerpt": "The California Association of Realtors supports the measure.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Carpenters, Fiona Ma (CalHFA board) and the Veterans Council signed the argument. The Realtors appear only in independent sources (CalMatters, Hoover) and are not labeled.",
+   "proposedText": "California Conference of Carpenters, Fiona Ma (CalHFA board), California State Commanders Veterans Council. CalMatters also lists the California Association of Realtors.",
+   "limitations": "Quick reference guide lists United Nurses Associations of California and 'State Treasurer Fiona Ma' as supporters. See conflicts."
+  },
+  {
+   "field": "con",
+   "current": "Reform California (Carl DeMaio), League of Women Voters.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+     "location": null,
+     "excerpt": "NO ARGUMENT AGAINST PROPOSITION 37 WAS SUBMITTED.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/",
+     "location": "Endorsements, opponents (independent)",
+     "excerpt": "Reform California / League of Women Voters",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "CalMatters (independent) lists Reform California and League of Women Voters. Carl DeMaio is not named there. No official opponents.",
+   "proposedText": "No official opponents. CalMatters lists Reform California and the League of Women Voters.",
+   "limitations": "Unclear whether CalMatters means the League of Women Voters of California."
+  },
+  {
+   "field": "risk",
+   "current": "More buying power could push new-home prices up, and buyers carry a second loan.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Each loan would cover up to 17 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "No official source discusses price effects. 'Second loan' follows from the 17% loan paired with a mortgage.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "unk",
+   "current": "The fixed interest rate CalHFA will set on the state loan, and how many people use it.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Authorizes up to $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of the purchase price of a \"qualified new home\"",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "CalHFA also would be required to keep interest costs for homebuyers as low as possible.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "A number of factors, which are unknown at this time, could affect Proposition 37's scope and impact.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Fixed rate stated by AG. LAO says CalHFA must keep interest costs low and scope depends on unknown factors.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "Easier entry to homeownership for some buyers, in exchange for more household debt and possible upward pressure on new-home prices.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Homebuyers would need to provide a down payment of at least 3 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop37-110326.pdf",
+     "location": null,
+     "excerpt": "Each loan would cover up to 17 percent of the home price.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Synthesis.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO finds no state cost. Program size and loan rate unknown.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "No direct state or local costs.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "A number of factors, which are unknown at this time, could affect Proposition 37's scope and impact.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "No state cost, scope unknown.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Loans and purchases are measurable, but there is no target.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No target was seen in the LAO analysis. Interpretation.",
+   "proposedText": null,
+   "limitations": "Legal text not read."
+  },
+  {
+   "field": "r.ac",
+   "current": "Independent annual audit, but rules exempt from normal rulemaking.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-arg-rebuttals.pdf",
+     "location": "Argument in favor",
+     "excerpt": "annual audits detailing the status of loans made and the fund's financial condition.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.hoover.org/research/prop-37-middle-class-homeownership-bond-initiative",
+     "location": "Potential risks (independent)",
+     "excerpt": "The agency's program rules are exempt from the Administrative Procedure Act.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Same issue as acct.",
+   "proposedText": "Supporters cite annual audits, but program rules are reported to skip normal rulemaking.",
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "A new program that depends on investor demand for the bonds.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "A number of factors, which are unknown at this time, could affect Proposition 37's scope and impact.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO says unknown factors affect scope. 'Investor demand' is our reading.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Modeling only (PPIC), no track record for this design.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "PPIC modeling not located. Search budget exhausted.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Risks of higher prices and more household debt.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "Judgment.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "No taxpayer cost and real help for some buyers, but PPIC finds many renters still cannot afford new homes.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "No direct state or local costs.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "No cost confirmed. PPIC finding about renters not verified.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Legal text not read. Confirm the annual independent audit requirement and the Administrative Procedure Act exemption.",
+  "Confirm the income limit wording ('less than twice' in AG summary versus 'no more than 200 percent' in LAO 2025 letter).",
+  "PPIC modeling cited in r.ev and r.nb was not located. Search budget was exhausted before it could be checked.",
+  "Reasons attributed to Reform California in argAgainst are unverified, as is the Carl DeMaio link."
+ ],
+ "conflicts": [
+  "Argument in favor signers are Curtin (Carpenters), Fiona Ma as CalHFA board member, and David West (Veterans Council). The quick reference guide lists supporters as United Nurses Associations of California, California Conference of Carpenters, and California State Treasurer Fiona Ma. This could be a reader error. Recheck the quick reference page.",
+  "AG summary says income must be 'less than twice' area median. LAO 2025 initiative letter says 'no more than 200 percent'."
+ ]
+}

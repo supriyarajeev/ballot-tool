@@ -1,0 +1,713 @@
+{
+ "n": "38",
+ "officialTitle": "Authorizes Bonds for Immunology Medical Research. Initiative Statute.",
+ "measureType": "Initiative Statute",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/38/",
+   "title": "Proposition 38 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First direct fetch refused by allowlist. Opened after the URL surfaced in WebSearch."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+   "title": "Proposition 38 arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Signers and key sentences matched."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38.pdf",
+   "title": "Proposition 38 print section",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once to confirm signers."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+   "title": "Proposition 38 text of proposed laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Section numbers as returned by reader."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+   "title": "Proposition 38 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First direct fetch refused by allowlist. Opened after surfacing in WebSearch. Read twice."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026+",
+   "title": "LAO ballot analysis web page, Prop 38",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "URL with trailing '+' worked."
+  },
+  {
+   "url": "https://calmatters.org/politics/elections/2026/07/proposition-38-california",
+   "title": "This CA proposition will send $4 billion to a single nonprofit. Who's behind it?",
+   "publisher": "CalMatters (independent)",
+   "documentDate": "2026-07-31 (updated 2026-08-03)",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice."
+  },
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+   "title": "Proposition 38 voter guide",
+   "publisher": "CalMatters (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Immunology research bond",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "Official title",
+     "excerpt": "AUTHORIZES BONDS FOR IMMUNOLOGY MEDICAL RESEARCH. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Short name matches the official title subject.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Authorizes bonds for immunology medical research",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Authorizes Bonds for Immunology Medical Research. Initiative Statute.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official title, minus the measure type.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Bond · citizen initiative",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "Official title",
+     "excerpt": "AUTHORIZES BONDS FOR IMMUNOLOGY MEDICAL RESEARCH. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Bond measure placed by initiative.",
+   "proposedText": null,
+   "limitations": "'Citizen initiative' wording is ours. SOS says Initiative Statute."
+  },
+  {
+   "field": "type",
+   "current": "Initiative statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "Official title",
+     "excerpt": "AUTHORIZES BONDS FOR IMMUNOLOGY MEDICAL RESEARCH. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "SOS labels it Initiative Statute.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should the state borrow $8.4 billion for immune system research?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "issue an $8.4 billion general obligation bond for research in immunology and immunotherapy.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Amount and subject match. 'Immune system research' is a plain-language rendering of immunology and immunotherapy.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Borrows $8.4 billion for immunology research. About half goes to one institute picked by the state health department, and the rest to grants through a council of UC campuses and other California institutions. At least $4.2 billion must target cancer, heart disease and Alzheimer's.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "About half of the bond funds would go to a research institute specializing in immunology and immunotherapy.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The California Department of Public Health (CDPH) would select the institute.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026+",
+     "location": "Proposal",
+     "excerpt": "The council would consist of representatives from 7 UC campuses and 10 to 15 other universities",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "The measure requires that at least $4.2 billion of the bond funds be used for immunology research on cancer,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+     "location": "Health and Safety Code 130352(b)(1)",
+     "excerpt": "Fifty percent of the moneys shall be disbursed to a single nonprofit medical research institute",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO confirms the split, CDPH selection, council make-up and the $4.2 billion minimum (LAO adds heart disease and Alzheimer's disease). Legal text sets $2.1 billion minimums in each half.",
+   "proposedText": null,
+   "limitations": "Legal text says exactly 50 percent to the institute. 'About half' is LAO's wording and is acceptable."
+  },
+  {
+   "field": "yes",
+   "current": "The state could borrow $8.4 billion to support immunology and immunotherapy research by California institutes and universities.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 4",
+     "excerpt": "A YES vote on this measure means: The state could borrow $8.4 billion to support medical research",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "What your vote means",
+     "excerpt": "conducted by California research institutes and universities.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official YES statement in substance.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Field is empty. Nothing to verify.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "The state could not borrow $8.4 billion for this research.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 4",
+     "excerpt": "A NO vote on this measure means: The state could not borrow $8.4 billion to support medical research",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official NO statement.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "Existing programs such as the state stem cell agency continue.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Proposition 71 (2004) and Proposition 14 (2020)",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO mentions the earlier stem cell bond measures as background but the fetched content did not say they continue under a NO vote or name the stem cell agency.",
+   "proposedText": null,
+   "limitations": "Likely true as a matter of law, but no excerpt states it. Consider deleting or sourcing."
+  },
+  {
+   "field": "money",
+   "current": "LAO estimates taxpayers repay $500 million to $600 million a year for about 20 years. The state gets 10% of any revenue from resulting treatments.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 20 years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Ten percent of any revenue generated must be given to the state.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+     "location": "Health and Safety Code 130358(a)(1)(A)",
+     "excerpt": "shall pay to the State of California an amount equal to 10 percent of all revenues",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Yearly cost, term and 10 percent revenue share all confirmed.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "Taxpayers, researchers, one UC-affiliated institute, patients.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "Official summary",
+     "excerpt": "half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "SOS summary confirms one UC-affiliated institute. Taxpayers, researchers and patients follow from the repayment and grant design.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Immunology research funded at one institute and through competitive grants.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "A council would give out the other half of bond funds as competitive research grants",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the funding design.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "Annual public reports and independent financial audits for the institute and the grant council. No research milestones or outcome targets.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Each year, the institute must issue a public report on its activities and have an independent financial audit.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Similar to the institute, the council would have public reporting and audit requirements.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+     "location": "Health and Safety Code 130359(b)(2)",
+     "excerpt": "A description of progress toward project goals and key scientific findings or milestones.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+     "location": "Health and Safety Code 130353(c)(1)",
+     "excerpt": "The department shall review the agreement entered into pursuant to subdivision (b) every five years",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Reports and audits confirmed. But annual reports must describe progress toward goals and milestones, and CDPH reviews the institute agreement every five years. What is missing is numeric targets, not milestones.",
+   "proposedText": "Annual public reports, including progress toward research goals, and independent financial audits for the institute and the grant council. The health department reviews the institute's agreement every five years. No numeric research targets.",
+   "limitations": null
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says it speeds cures, offsets federal research cuts, and requires a 20% patient discount and audits.",
+   "verdict": "attribution",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor",
+     "excerpt": "PROP. 38 accelerates development of breakthrough treatments and cures for the diseases that impact nearly every family.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor",
+     "excerpt": "Massive federal funding cuts and uncertainty are disrupting vitally needed medical research at nonprofit research institutes",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor",
+     "excerpt": "Any cure or immunotherapy developed through PROP. 38 must be provided to California patients at a 20% DISCOUNT.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor",
+     "excerpt": "PROP. 38 also includes strict accountability requirements, including:",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "All four points appear in the official argument. 'Offsets federal cuts' is a fair summary of the federal cuts passage.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says bond debt is the wrong way to fund research with uncertain payoffs, and voters should not pick diseases.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument against",
+     "excerpt": "Second, borrowing is an inappropriate way to finance scientific research.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument against",
+     "excerpt": "First, the proposition continues the use of ballot initiatives to direct research funding toward selected topics.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument against",
+     "excerpt": "The public benefits are real, but they generally do not flow back to the state treasury.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Borrowing point confirmed. The argument objects to ballot measures steering research toward selected topics, not to voters picking diseases as such, and it says benefits do not flow back to the treasury rather than calling payoffs uncertain.",
+   "proposedText": "Opponents' official argument says borrowing is the wrong way to fund research, the benefits rarely flow back to the state treasury, and ballot measures should not steer research toward chosen topics.",
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "Sponsor Gary Michelson. The official argument is signed by leaders of Alzheimer's Los Angeles, the ALS Association and the Kidney Cancer Association.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor, signers",
+     "excerpt": "Susan Disney Lord, Board Chair, Alzheimer's Los Angeles",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor, signers",
+     "excerpt": "Eugene P. Brandon, Ph.D., Board of Trustees, ALS Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument in favor, signers",
+     "excerpt": "Dr. Brian Shuch, M.D., Board of Directors Member, Kidney Cancer Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+     "location": null,
+     "excerpt": "Philanthropist and medical inventor Gary Michelson put this measure on the ballot.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Signers confirmed from the official arguments. Sponsor named by CalMatters (independent).",
+   "proposedText": null,
+   "limitations": "Signers sign in personal capacity with board titles. 'Leaders of' is accurate. Michelson as sponsor rests on an independent source only."
+  },
+  {
+   "field": "con",
+   "current": "Stanford's Robert M. Kaplan (official argument), League of Women Voters, several newspaper editorial boards.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm",
+     "location": "Argument against, signer",
+     "excerpt": "Robert M Kaplan, Ph.D.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "Against contact",
+     "excerpt": "Robert M Kaplan",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+     "location": "Opponents",
+     "excerpt": "Robert Kaplan, senior scholar at Stanford",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+     "location": "Opponents",
+     "excerpt": "League of Women Voters",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Kaplan confirmed as sole signer. Stanford affiliation, League of Women Voters and editorial boards (Orange County Register, San Diego Union-Tribune, Sacramento Bee, San Francisco Chronicle per the reader) come only from CalMatters and should be labeled as independently reported.",
+   "proposedText": "Stanford's Robert M. Kaplan (official argument). CalMatters also lists the League of Women Voters and several newspaper editorial boards.",
+   "limitations": "Editorial board names were returned once by the reader and not re-checked."
+  },
+  {
+   "field": "risk",
+   "current": "CalMatters reports the criteria for half the money likely fit one institute whose board the sponsor chairs. The campaign disputes this.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://calmatters.org/politics/elections/2026/07/proposition-38-california",
+     "location": null,
+     "excerpt": "the ballot language criteria were tailored in a way that very likely excludes all but one institute in the entire state",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://calmatters.org/politics/elections/2026/07/proposition-38-california",
+     "location": null,
+     "excerpt": "Michelson is the board chair of the institute, which is housed at a research center owned by UCLA.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://calmatters.org/politics/elections/2026/07/proposition-38-california",
+     "location": null,
+     "excerpt": "We can't speak to the specific institutes that may or may not qualify across California.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "CalMatters (July 31, 2026, Mikhail Zinshteyn) reports both points and the campaign response. Independent source, correctly attributed.",
+   "proposedText": null,
+   "limitations": "The fetched excerpt did not show who CalMatters credits with the 'tailored' assessment. The campaign says the language is not uniquely tailored to that institute."
+  },
+  {
+   "field": "unk",
+   "current": "Whether the research pays off, scientifically or financially.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Fiscal summary",
+     "excerpt": "with some or all of the cost offset if the funded research generates revenue.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO frames revenue as uncertain. Scientific payoff uncertainty is inherent.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "Steady research funding, in exchange for about $500 million to $600 million a year in repayments for benefits that may take decades.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 20 years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Cost figure matches LAO. 'Benefits that may take decades' is our framing.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO's yearly cost and term are clear.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 20 years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives a clear yearly cost and term.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Spending and grants are measurable, but there are no research milestones.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+     "location": "Health and Safety Code 130359(b)(2)",
+     "excerpt": "A description of progress toward project goals and key scientific findings or milestones.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Annual reports must cover progress toward goals and milestones. There are no numeric targets.",
+   "proposedText": "Spending and grants are measurable, and reports must describe progress, but there are no numeric research targets.",
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Annual public reports and independent financial audits required.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Each year, the institute must issue a public report on its activities and have an independent financial audit.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Confirmed by LAO and legal text 130359 to 130361.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "The institutions already exist.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://calmatters.org/politics/elections/2026/07/proposition-38-california",
+     "location": null,
+     "excerpt": "Michelson is the board chair of the institute, which is housed at a research center owned by UCLA.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=38&year=2026+",
+     "location": "Proposal",
+     "excerpt": "The council would consist of representatives from 7 UC campuses and 10 to 15 other universities",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Institute and council members are existing organizations.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Mixed, indirect evidence from past state research funding, where paths from research to treatment have been slow.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No source in the audit addresses the track record of past state research funding. This is our own judgment.",
+   "proposedText": null,
+   "limitations": "Consider citing an evaluation of Prop 71 / CIRM outcomes, or soften the wording."
+  },
+  {
+   "field": "r.lr",
+   "current": "Funding concentrated in one institute, plus long-term budget pressure.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/38/",
+     "location": "Official summary",
+     "excerpt": "half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Concentration in one institute confirmed. Budget pressure follows from the 20-year repayment.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "$10 billion to $12 billion repaid against patient benefits likely decades away.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 20 years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "the total cost of the bond would be about 10 percent more (after adjusting for inflation)",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "$10 billion to $12 billion is our arithmetic ($500 million to $600 million times 20 years) in nominal dollars. LAO states the total cost differently, as about 10 percent more than paying cash, after adjusting for inflation. 'Decades away' is our judgment.",
+   "proposedText": "About $10 billion to $12 billion repaid over 20 years, before inflation, against patient benefits likely decades away.",
+   "limitations": null
+  },
+  {
+   "field": "src",
+   "current": "https://lao.ca.gov/ballot/2026/prop38-110326.pdf; https://voterguide.sos.ca.gov/propositions/38/; https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38.pdf; https://calmatters.org/politics/elections/2026/07/proposition-38-california; https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "LAO PDF, SOS page, arguments PDF and both CalMatters URLs opened and supported claims. The legal text URL is not in src but was needed for the audit and acct fields.",
+   "proposedText": null,
+   "limitations": "Suggest adding https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf and https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm."
+  }
+ ],
+ "specificGaps": [
+  "r.nb: $10 billion to $12 billion is our nominal arithmetic. LAO only says total cost is about 10 percent more than paying cash after adjusting for inflation. Decide whether to keep our figure with a 'before inflation' label.",
+  "noE: no official source states that the stem cell agency continues under a NO vote. Source it or drop it.",
+  "r.ev: no source supports the statement about slow research-to-treatment paths from past state funding.",
+  "con: editorial board list from CalMatters read once only."
+ ],
+ "conflicts": [
+  "CalMatters reports the institute criteria very likely exclude all but one institute. Campaign spokesperson Claudia Briggs says the language is not uniquely tailored to the California Institute for Immunology and Immunotherapy."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

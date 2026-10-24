@@ -1,0 +1,653 @@
+[
+ {
+  "prop": "1",
+  "field": "no",
+  "old": "The state could not borrow this money. Housing programs would rely on yearly budgets.",
+  "new": "The state could not borrow this money for veterans and affordable housing.",
+  "reason": "Second sentence ('rely on yearly budgets') had no source; the official NO statement is followed."
+ },
+ {
+  "prop": "1",
+  "field": "acct",
+  "old": "An annual public report on the bond and a yearly independent accountant review of the CalVet share. No target for homes built or cost per home.",
+  "new": "An annual public report on the bond. Existing law it points to requires homes assisted, households served and where the homes are, plus cost per unit for the main rental program. A yearly independent accountant review of CalVet's home loan finances. No target for homes built or cost per home.",
+  "reason": "Section 54088 ties the annual report to Health and Safety Code 50408, which lists units, households and distribution. The old text understated the reporting."
+ },
+ {
+  "prop": "1",
+  "field": "argAgainst",
+  "old": "No official argument against was filed. Critics such as the Howard Jarvis Taxpayers Association say the debt still costs taxpayers.",
+  "new": "No official argument against was filed. In news reports, critics such as state Sen. Tony Strickland say the state should not take on more debt.",
+  "reason": "No source found for the Howard Jarvis Taxpayers Association opposing this measure; Strickland is reported by Spectrum News."
+ },
+ {
+  "prop": "1",
+  "field": "con",
+  "old": "Howard Jarvis Taxpayers Association, Sen. Tony Strickland. No organized campaign against.",
+  "new": "No official argument against was filed. News reports name Sen. Tony Strickland as a critic. No organized campaign against.",
+  "reason": "HJTA not found in any source; Strickland only in independent reporting, now labeled."
+ },
+ {
+  "prop": "1",
+  "field": "r.ac",
+  "old": "Required annual public report and an independent review of the CalVet share, but no audit of the housing money.",
+  "new": "Required annual public report covering homes assisted and where, and a yearly independent review of CalVet's loan finances, but no audit of the housing money.",
+  "reason": "Report is broader than the old wording said."
+ },
+ {
+  "prop": "1",
+  "field": "r.lr",
+  "old": "Fixed debt for decades, but a small share of the budget.",
+  "new": "Fixed debt for about 25 years, at $500 million to $600 million a year.",
+  "reason": "'Small share of the budget' had no source; replaced with LAO's figures."
+ },
+ {
+  "prop": "1",
+  "field": "r.nb",
+  "old": "Up to 40,000 rentals and 40,000 buyers helped, against $12.5 billion to $15 billion repaid. Cost per home unknown.",
+  "new": "Up to 40,000 rentals and 40,000 buyers helped, against roughly $12.5 billion to $15 billion repaid over 25 years (this tool's arithmetic from LAO's yearly cost). Cost per home unknown.",
+  "reason": "The total is our arithmetic, now labeled as such."
+ },
+ {
+  "prop": "4",
+  "field": "yesE",
+  "old": "Programs must be open to candidates regardless of party or incumbency.",
+  "new": "Programs cannot favor candidates by party or incumbency. Candidates must show broad support and accept spending limits.",
+  "reason": "Eligibility rules per LAO and the Assembly analysis; 'open to' overstated."
+ },
+ {
+  "prop": "4",
+  "field": "acct",
+  "old": "Existing campaign disclosure rules apply. No new audit or outcome target, and the state ethics commission does not enforce local programs.",
+  "new": "Existing campaign disclosure rules apply. No new audit or outcome target. The state ethics commission is not required to enforce local programs.",
+  "reason": "LAO: the FPPC 'is not required to administer or enforce' local programs."
+ },
+ {
+  "prop": "4",
+  "field": "r.ac",
+  "old": "Relies on existing disclosure rules, and local programs are not enforced by the state ethics commission.",
+  "new": "Relies on existing disclosure rules, and the state ethics commission is not required to enforce local programs.",
+  "reason": "Same correction as acct."
+ },
+ {
+  "prop": "4",
+  "field": "risk",
+  "old": "No statewide cap on what future programs could spend.",
+  "new": "Opponents say there is no limit on how many candidates get public money or how much. LAO says program costs could be significant for governments that create them.",
+  "reason": "No neutral source states 'no statewide cap'; now attributed to opponents, with LAO's cost statement."
+ },
+ {
+  "prop": "5",
+  "field": "does",
+  "old": "Recall ballots for state officers ask only whether to remove the official. If a governor is recalled, the Lieutenant Governor becomes governor, but a recall in the first two years of the term, before the next statewide nomination period closes, triggers a special election to pick a governor for the rest of the term. Other recalled offices are filled under existing rules, usually a special election for legislators and a governor's appointment for other statewide offices.",
+  "new": "Recall ballots for state officers ask only whether to remove the official. If a governor is recalled, the Lieutenant Governor becomes governor. If the recall happens in the first two years of the term, before the next statewide nomination period closes, the Lieutenant Governor serves until voters elect a new governor at a future statewide election. Other recalled offices are filled under existing rules, usually a special election for legislators and a governor's appointment for other statewide offices.",
+  "reason": "LAO wording replaces 'triggers a special election', which read as immediate."
+ },
+ {
+  "prop": "5",
+  "field": "noE",
+  "old": "In 2003 the replacement winner had about 48.6% of the vote among 135 candidates.",
+  "new": "In 2003 there were 135 replacement candidates on the ballot, and the winner needed only the most votes.",
+  "reason": "The 48.6% figure had only an independent source."
+ },
+ {
+  "prop": "5",
+  "field": "money",
+  "old": "LAO says the net cost is unknown but under 0.1% of the General Fund.",
+  "new": "LAO says the net fiscal effect is unknown, could be savings or costs, and is under 0.1% of the General Fund.",
+  "reason": "'Net cost' implied only costs."
+ },
+ {
+  "prop": "5",
+  "field": "argFor",
+  "old": "Supporters' official argument says replacements should be chosen in regular elections, not by a small plurality on a recall ballot.",
+  "new": "Supporters' official argument says a replacement should not take office with a small fraction of the vote, and recalls should not be used to redo an election.",
+  "reason": "Matches the argument's own wording."
+ },
+ {
+  "prop": "5",
+  "field": "con",
+  "old": "Senate Minority Leader Brian Jones, Assemblymember Joe Patterson, most legislative Republicans.",
+  "new": "Senate Minority Leader Brian Jones and Assemblymember Joe Patterson (official argument). CalMatters reports almost all legislative Republicans also opposed it.",
+  "reason": "Independent claim now labeled."
+ },
+ {
+  "prop": "5",
+  "field": "r.ev",
+  "old": "Only 11 statewide recalls since 1913, so little data either way.",
+  "new": "Only 11 state recalls have reached the ballot since 1913, nine of them of legislators, so there is little data either way.",
+  "reason": "The 11 were not all statewide recalls."
+ },
+ {
+  "prop": "5",
+  "field": "acct",
+  "old": "No new audit or reporting. The rules apply through election certification and the courts.",
+  "new": "No new audit or reporting requirement was found in the official materials.",
+  "reason": "Old text described enforcement mechanisms with no source."
+ },
+ {
+  "prop": "37",
+  "field": "money",
+  "old": "LAO finds no direct state or local cost, and the bonds are not backed by the state. For an $800,000 townhome the buyer pays $24,000 down and borrows $136,000 from the state program.",
+  "new": "LAO finds no direct state or local cost, and the bonds are repaid by homeowners, not the state. On an $800,000 home a buyer would put at least $24,000 down and could borrow up to $136,000 from the program (this tool's example, using the 3% minimum and 17% maximum).",
+  "reason": "Example amounts are our arithmetic and are now labeled; 'townhome' removed."
+ },
+ {
+  "prop": "37",
+  "field": "acct",
+  "old": "An independent annual audit of the program. Its rules skip the normal state rulemaking process. No target for homes or loans.",
+  "new": "Supporters' official argument says it requires annual audits of the loans and the fund. An independent analysis (Hoover Institution) says program rules are exempt from normal state rulemaking. No target for homes or loans.",
+  "reason": "Audit appears only in the argument; rulemaking exemption only in an independent source. Legal text not yet read."
+ },
+ {
+  "prop": "37",
+  "field": "argAgainst",
+  "old": "No official argument against was filed. Critics such as Reform California say it mainly helps developers and adds household debt.",
+  "new": "No official argument against was filed. CalMatters lists Reform California and the League of Women Voters as opponents.",
+  "reason": "Reasons attributed to opponents had no source."
+ },
+ {
+  "prop": "37",
+  "field": "pro",
+  "old": "California Conference of Carpenters, Fiona Ma (CalHFA board), California State Commanders Veterans Council, California Association of Realtors.",
+  "new": "California Conference of Carpenters, Fiona Ma (CalHFA board), California State Commanders Veterans Council (official argument). CalMatters also lists the California Association of Realtors.",
+  "reason": "Independent listing labeled."
+ },
+ {
+  "prop": "37",
+  "field": "con",
+  "old": "Reform California (Carl DeMaio), League of Women Voters.",
+  "new": "No official argument against was filed. CalMatters lists Reform California and the League of Women Voters.",
+  "reason": "Carl DeMaio link unsupported."
+ },
+ {
+  "prop": "37",
+  "field": "risk",
+  "old": "More buying power could push new-home prices up, and buyers carry a second loan.",
+  "new": "Buyers carry a second loan of up to 17% of the price. More buying power could also push new-home prices up, a risk no official analysis addresses.",
+  "reason": "Price effect is this tool's judgment, now marked as such."
+ },
+ {
+  "prop": "37",
+  "field": "r.ac",
+  "old": "Independent annual audit, but rules exempt from normal rulemaking.",
+  "new": "Supporters cite annual audits, but program rules are reported to skip normal rulemaking.",
+  "reason": "Same as acct."
+ },
+ {
+  "prop": "37",
+  "field": "r.ev",
+  "old": "Modeling only (PPIC), no track record for this design.",
+  "new": "No track record for this design was found in the official materials.",
+  "reason": "PPIC modeling could not be located."
+ },
+ {
+  "prop": "37",
+  "field": "r.nb",
+  "old": "No taxpayer cost and real help for some buyers, but PPIC finds many renters still cannot afford new homes.",
+  "new": "No direct taxpayer cost and real help for some buyers. How many renters it would make able to buy is unknown.",
+  "reason": "PPIC renter finding could not be verified."
+ },
+ {
+  "prop": "38",
+  "field": "noE",
+  "old": "Existing programs such as the state stem cell agency continue.",
+  "new": "",
+  "reason": "No source said the stem cell agency continues under a NO vote."
+ },
+ {
+  "prop": "38",
+  "field": "acct",
+  "old": "Annual public reports and independent financial audits for the institute and the grant council. No research milestones or outcome targets.",
+  "new": "Annual public reports, including progress toward research goals, and independent financial audits for the institute and the grant council. The health department reviews the institute's agreement every five years. No numeric research targets.",
+  "reason": "Legal text requires progress and milestone reporting."
+ },
+ {
+  "prop": "38",
+  "field": "argAgainst",
+  "old": "Opponents' official argument says bond debt is the wrong way to fund research with uncertain payoffs, and voters should not pick diseases.",
+  "new": "Opponents' official argument says borrowing is the wrong way to fund research, the benefits rarely flow back to the state treasury, and ballot measures should not steer research toward chosen topics.",
+  "reason": "Matches the argument's wording."
+ },
+ {
+  "prop": "38",
+  "field": "con",
+  "old": "Stanford's Robert M. Kaplan (official argument), League of Women Voters, several newspaper editorial boards.",
+  "new": "Robert M. Kaplan (official argument). CalMatters also lists the League of Women Voters and several newspaper editorial boards.",
+  "reason": "Independent listing labeled; Stanford affiliation not in the official argument."
+ },
+ {
+  "prop": "38",
+  "field": "r.oc",
+  "old": "Spending and grants are measurable, but there are no research milestones.",
+  "new": "Spending and grants are measurable, and reports must describe progress, but there are no numeric research targets.",
+  "reason": "Legal text requires progress reporting."
+ },
+ {
+  "prop": "38",
+  "field": "r.ev",
+  "old": "Mixed, indirect evidence from past state research funding, where paths from research to treatment have been slow.",
+  "new": "No direct evidence on how well this kind of institute funding leads to treatments was found in the official materials.",
+  "reason": "Old claim about past state research funding had no source in the audit."
+ },
+ {
+  "prop": "38",
+  "field": "r.nb",
+  "old": "$10 billion to $12 billion repaid against patient benefits likely decades away.",
+  "new": "About $10 billion to $12 billion repaid over about 20 years, before inflation (this tool's arithmetic from LAO's yearly cost), against patient benefits that are likely years away.",
+  "reason": "Total is our arithmetic; LAO states the total differently."
+ },
+ {
+  "prop": "39",
+  "field": "out",
+  "old": "Every ballot tied to a government ID, with citizenship checks of voter rolls reported publicly.",
+  "new": "Every counted ballot tied to a government ID, with yearly public reports of the share of each county's voters whose citizenship is verified.",
+  "reason": "Reporting covers the verified share, per the legal text."
+ },
+ {
+  "prop": "39",
+  "field": "pro",
+  "old": "Californians for Voter ID, Howard Jarvis Taxpayers Association, California Republican Party.",
+  "new": "Californians for Voter ID (official argument). LAist also lists the Howard Jarvis Taxpayers Association and the California Republican Party.",
+  "reason": "Independent listing labeled."
+ },
+ {
+  "prop": "39",
+  "field": "con",
+  "old": "ACLU California Action, California Common Cause, League of Women Voters of California.",
+  "new": "ACLU California Action, Common Cause, League of Women Voters of California (official argument).",
+  "reason": "Printed signer name is Common Cause."
+ },
+ {
+  "prop": "39",
+  "field": "risk",
+  "old": "The measure does not say what happens when mail-ballot ID digits are missing or mismatched, which opponents say could lead to rejected ballots.",
+  "new": "The official summary says mail ballots without matching ID digits would not count, and the measure sets no notice or fix-it process. Opponents say valid ballots could be thrown out.",
+  "reason": "Old text said the measure is silent; the Attorney General's summary says such ballots would not count."
+ },
+ {
+  "prop": "39",
+  "field": "r.nb",
+  "old": "LAO projects net costs, and studies find very little voter fraud to prevent. A possible gain in voter trust is unmeasured.",
+  "new": "LAO projects net costs, and a national study found strict ID laws had no effect on fraud, actual or perceived. A possible gain in voter trust is unmeasured.",
+  "reason": "States what the cited study found."
+ },
+ {
+  "prop": "40",
+  "field": "does",
+  "old": "Taxes people worth over $1 billion who lived in California on January 1, 2026 at 5% of their net worth, once, payable over five years with a 7.5% yearly charge on the unpaid balance. Real estate, pensions and retirement accounts are generally excluded. 90% of the money goes to public health care and 10% to education and food assistance.",
+  "new": "Taxes people worth $1 billion or more who lived in California on January 1, 2026 at 5% of their net worth, once, with a lower rate just above $1 billion. It can be paid over five years with a 7.5% yearly charge on the unpaid balance. Real estate, pensions and retirement accounts are generally excluded. After administrative costs, 90% goes to public health care and 10% to education and food assistance.",
+  "reason": "Threshold and split corrected to the legal text."
+ },
+ {
+  "prop": "40",
+  "field": "who",
+  "old": "A few hundred billionaires (supporters estimate 200 to 250), Medi-Cal and public health care.",
+  "new": "A few hundred billionaires according to LAO (the supporters' argument says about 200), and public health care programs.",
+  "reason": "Supporters say about 200, not 200 to 250; 'Medi-Cal' not named in the excerpts."
+ },
+ {
+  "prop": "40",
+  "field": "pro",
+  "old": "SEIU-UHW, Planned Parenthood Pacific Southwest, Sen. Bernie Sanders, California Democratic Party.",
+  "new": "SEIU-UHW (official argument). Wikipedia reports Sen. Bernie Sanders endorsed it.",
+  "reason": "Planned Parenthood signer is a staff member; Democratic Party support not found; Sanders only independent."
+ },
+ {
+  "prop": "40",
+  "field": "con",
+  "old": "California Medical Association, California Primary Care Association, California School Boards Association, Gov. Newsom. Sergey Brin funds the campaign for Props 41 and 42.",
+  "new": "California Medical Association, California Primary Care Association, California School Boards Association (official argument). Independent reports add Gov. Newsom. A committee funded largely by Sergey Brin backs Props 41 and 42 and opposes Prop 40.",
+  "reason": "Independent items labeled."
+ },
+ {
+  "prop": "40",
+  "field": "risk",
+  "old": "Court challenges, and courts could block it if Prop 41 or 42 also passes with more yes votes, according to the LAO.",
+  "new": "Court challenges are likely. LAO's analyses of Props 41 and 42 say courts could find that either one conflicts with Prop 40, so Prop 40 could be stopped if either gets more yes votes.",
+  "reason": "The blocking effect is described in LAO's analyses of Props 41 and 42 (not of Prop 40) and rests on their conflict clauses."
+ },
+ {
+  "prop": "40",
+  "field": "r.fc",
+  "old": "LAO says tens of billions. Outside estimates range from about $40 billion to $100 billion.",
+  "new": "LAO says tens of billions. Hoover estimates about $40 billion and supporters claim about $100 billion.",
+  "reason": "$100 billion is the supporters' claim."
+ },
+ {
+  "prop": "40",
+  "field": "r.if",
+  "old": "The first U.S. wealth tax of its kind, with new valuation work.",
+  "new": "A new kind of state tax that needs new valuation work.",
+  "reason": "'First U.S. wealth tax of its kind' had no source."
+ },
+ {
+  "prop": "40",
+  "field": "r.ev",
+  "old": "No U.S. precedent for this approach.",
+  "new": "No precedent for this approach was found in the official materials.",
+  "reason": "Narrowed to what was checked."
+ },
+ {
+  "prop": "41",
+  "field": "does",
+  "old": "New state taxes since January 1, 2026 must count under the state spending limit or cannot be collected. The State Auditor reviews programs a proposed special tax would fund before the election, and audits new state special taxes every four years.",
+  "new": "New state taxes enacted or taking effect on or after January 1, 2026 cannot be excluded from the state spending limit, or the state cannot collect them. The State Auditor reviews the programs a special tax proposed by citizen initiative would fund, while signatures are being gathered, and audits programs funded by new state special taxes every four years. If it gets more yes votes than another initiative on this ballot with a tax excluded from the spending limit, that whole measure is void.",
+  "reason": "Pre-election review applies only to citizen-initiative special taxes; conflict clause added."
+ },
+ {
+  "prop": "41",
+  "field": "acct",
+  "old": "Pre-election audits posted online and summarized in the voter guide, plus audits every four years. Each must recommend at least 10% savings, but nobody has to adopt them.",
+  "new": "Pre-election audits are posted online, summarized in the voter guide, and must recommend ways to save at least 10% a year. Programs are audited again every four years. Nothing in the measure requires anyone to adopt the recommendations.",
+  "reason": "10% rule confirmed only for the pre-election audit."
+ },
+ {
+  "prop": "41",
+  "field": "argAgainst",
+  "old": "Opponents' official argument says it is billionaire-funded and designed to block the Prop 40 billionaire tax for health care.",
+  "new": "Opponents' official argument says it is billionaire-funded and designed to undo the Prop 40 billionaire tax.",
+  "reason": "'For health care' not in the captured argument."
+ },
+ {
+  "prop": "41",
+  "field": "pro",
+  "old": "CalCPAs, California Taxpayers Association, former State Auditor Tom Hayes, Reform California. Funded mainly by Sergey Brin.",
+  "new": "CalCPAs, CalAsian Chamber of Commerce, California Taxpayers Association, former State Auditor Tom Hayes, former State Controller Steve Westly (official listing). CalMatters also lists Reform California. Backed by Building a Better California, which news reports say Sergey Brin funds heavily.",
+  "reason": "Official supporters added; independent items labeled."
+ },
+ {
+  "prop": "41",
+  "field": "con",
+  "old": "SEIU-UHW, California Democratic Party, Sen. Bernie Sanders.",
+  "new": "SEIU-UHW, Sen. Bernie Sanders (official listing). News reports add the California Democratic Party.",
+  "reason": "Independent item labeled."
+ },
+ {
+  "prop": "41",
+  "field": "risk",
+  "old": "If it gets more yes votes than Prop 40, courts could find a conflict and block Prop 40. Automatic refunds could also squeeze other programs.",
+  "new": "If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. Counting new taxes under the spending limit could also trigger rebates under existing spending-limit rules, leaving less for other programs.",
+  "reason": "'Automatic refunds' is not in LAO or the text; reworded as a possibility under existing rules."
+ },
+ {
+  "prop": "41",
+  "field": "r.ac",
+  "old": "State Auditor reviews before elections and every four years, posted publicly.",
+  "new": "State Auditor reviews before elections, posted publicly, and audits every four years.",
+  "reason": "Posting confirmed only for the pre-election audit."
+ },
+ {
+  "prop": "42",
+  "field": "does",
+  "old": "Bans new state taxes on owning financial assets or other personal property, and state taxes based on past conduct or residency, except emergency taxes that reach back no more than 365 days. It applies to state taxes only. Conflicting state taxes passed since January 1, 2026 are void.",
+  "new": "Bans new state taxes on owning financial assets or other personal property, and new state taxes based on past conduct or past residency. The Legislature may pass a tax reaching back up to 365 days only during a declared disaster or fiscal emergency. Conflicting state taxes enacted on or after January 1, 2026 are void. If it gets more yes votes than a conflicting initiative on this ballot, that whole measure is void.",
+  "reason": "Exception is narrower than 'emergency taxes'; conflict clause added. Legal text read from an independent copy; check against the official guide."
+ },
+ {
+  "prop": "42",
+  "field": "argFor",
+  "old": "Supporters' official argument says it protects retirement and savings from new and retroactive taxes on money already taxed as income.",
+  "new": "Supporters' official argument says it protects retirement and savings from new and retroactive taxes.",
+  "reason": "'Money already taxed as income' not in the captured argument."
+ },
+ {
+  "prop": "42",
+  "field": "argAgainst",
+  "old": "Opponents' official argument says it is billionaire-funded to undo the Prop 40 wealth tax that would fund health care.",
+  "new": "Opponents' official argument says it is billionaire-funded and designed to undo the Prop 40 billionaire tax.",
+  "reason": "'Fund health care' not in the captured argument."
+ },
+ {
+  "prop": "42",
+  "field": "pro",
+  "old": "California Small Business Association, AMVETS Department of California, California Senior Alliance, California Professional Firefighters, Gov. Newsom.",
+  "new": "California Professional Firefighters, State Building and Construction Trades Council, AMVETS Department of California, California Small Business Association, California Senior Alliance, Peace Officers Research Association of California (official listing and argument).",
+  "reason": "Gov. Newsom's support not found in any source."
+ },
+ {
+  "prop": "42",
+  "field": "risk",
+  "old": "If it gets more yes votes than Prop 40, courts could find a conflict and block Prop 40. A drafting cross-reference error may invite lawsuits.",
+  "new": "If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. Undefined terms, such as ownership or control, may invite lawsuits.",
+  "reason": "No source found for a drafting cross-reference error."
+ },
+ {
+  "prop": "42",
+  "field": "r.lr",
+  "old": "Scope questions, a drafting error, and possible blocking of Prop 40.",
+  "new": "Scope questions, undefined terms, and possible blocking of Prop 40.",
+  "reason": "Same as risk."
+ },
+ {
+  "prop": "43",
+  "field": "does",
+  "old": "From January 1, 2027, new, increased or extended local special taxes put on the ballot by citizen petition need two-thirds approval, the same bar as those placed by city councils and boards. Per the measure text, it applies only to special taxes, not general taxes. It was placed on the ballot in a deal that kept a broader anti-tax initiative off it.",
+  "new": "From January 1, 2027, new, increased or extended local special taxes need two-thirds voter approval even when citizens put them on the ballot, the same bar as those placed by city councils and boards. General taxes are not covered. It also bars citizen initiatives from adding local property taxes beyond what the state constitution already allows. News reports say it came from a deal that kept a broader anti-tax initiative off the ballot.",
+  "reason": "Property tax clause added; ballot deal attributed to news reports."
+ },
+ {
+  "prop": "43",
+  "field": "money",
+  "old": "No dollar estimate. LAO says local revenue could be lower. Sonoma County's 2024 fire tax passed with 62%, below the two-thirds this would require.",
+  "new": "No dollar estimate. LAO says local revenue could be lower. CalMatters reports that Sonoma County's 2024 half-cent sales tax for wildfire and emergency services passed with 62%, below two-thirds.",
+  "reason": "Sonoma figure attributed; not yet confirmed with the county."
+ },
+ {
+  "prop": "43",
+  "field": "out",
+  "old": "Fewer new or renewed citizen-proposed local special taxes pass from 2027.",
+  "new": "From 2027, citizen-proposed local special taxes, including renewals, need two-thirds approval, so fewer may pass.",
+  "reason": "LAO says 'harder', not that fewer will pass."
+ },
+ {
+  "prop": "43",
+  "field": "argAgainst",
+  "old": "Opponents' official argument says it cuts no taxes and lets about one-third of voters block funding for fire, police, schools and roads.",
+  "new": "Opponents' official argument and rebuttal say it cuts no taxes and lets just over one-third of voters block funding for fire, police, schools and roads.",
+  "reason": "Matches the argument and rebuttal wording."
+ },
+ {
+  "prop": "43",
+  "field": "con",
+  "old": "California Professional Firefighters, Nurse Alliance of SEIU California, California School Employees Association, California State Association of Counties, Gov. Newsom.",
+  "new": "California Professional Firefighters, California Federation of Teachers, Nurse Alliance of SEIU California, California School Employees Association (official listing and argument). News reports add the California Democratic Party.",
+  "reason": "CSAC and Gov. Newsom not found as opponents."
+ },
+ {
+  "prop": "43",
+  "field": "r.ev",
+  "old": "Text, LAO and court history are clear, plus local examples.",
+  "new": "Text and LAO are clear, and a reported local example shows the effect.",
+  "reason": "LAO names no specific court case; local example is from news reporting."
+ },
+ {
+  "prop": "2",
+  "field": "does",
+  "old": "Raises the rainy day fund's limit for required deposits from 10% to 20% of General Fund taxes, saves extra in big capital gains years, keeps deposits from counting against the state spending limit, and extends extra debt payments from 2030 to 2040.",
+  "new": "Raises the rainy day fund's limit for required deposits from 10% to 20% of General Fund taxes, saves extra in big capital gains years, counts deposits against the state spending limit only when the money is withdrawn, and extends extra pension and retiree health debt payments from 2030 to 2040.",
+  "reason": "LAO: deposits count toward the limit when withdrawn."
+ },
+ {
+  "prop": "2",
+  "field": "acct",
+  "old": "No new audit or evaluator found in the text or LAO. Deposits are set by formula in each budget, and suspending them still requires a budget emergency.",
+  "new": "No new audit or evaluator. The Department of Finance must report deposit estimates to the Legislature and each budget must include them. Deposits can still be suspended only in a budget emergency.",
+  "reason": "Legal text adds reporting duties."
+ },
+ {
+  "prop": "2",
+  "field": "con",
+  "old": "Assemblymembers David Tangipa, Steven Choi and Carl DeMaio (official argument), Reform California.",
+  "new": "David Tangipa (Assembly Budget Committee vice chair), Steven Choi (Senate Elections and Constitutional Amendments Committee vice chair) and Carl DeMaio (Reform California), official argument.",
+  "reason": "Signer titles corrected."
+ },
+ {
+  "prop": "2",
+  "field": "risk",
+  "old": "Lawmakers can still suspend deposits in a budget emergency, as they did in 2024-25 and 2025-26.",
+  "new": "Lawmakers can still suspend deposits or withdraw money in a budget emergency.",
+  "reason": "The 2024-25 and 2025-26 suspensions could not be confirmed from an official source."
+ },
+ {
+  "prop": "2",
+  "field": "r.ev",
+  "old": "Recent withdrawals of about $12.2 billion show reserves get used.",
+  "new": "The mechanics are clear in LAO and the text. Recent withdrawal amounts could not be confirmed from an official budget source.",
+  "reason": "$12.2 billion figure not confirmed."
+ },
+ {
+  "prop": "3",
+  "field": "does",
+  "old": "Removes the 2030 end date on the three top income tax brackets, which in 2025 started around $371,000 for single filers and $743,000 for joint filers. Rates themselves do not change.",
+  "new": "Removes the 2030 end date on the higher income tax rates for income over about $371,000 for single filers, adjusted yearly for inflation. Rates themselves do not change.",
+  "reason": "Joint threshold, year and bracket count were not confirmed."
+ },
+ {
+  "prop": "3",
+  "field": "yesE",
+  "old": "LAO estimates $5 billion to $15 billion a year from 2031 on, about 40% for schools.",
+  "new": "LAO estimates $5 billion to $15 billion a year from 2031 on, roughly 40% for schools and community colleges.",
+  "reason": "LAO wording."
+ },
+ {
+  "prop": "3",
+  "field": "money",
+  "old": "Estimated example using 2025 brackets. A single filer with $500,000 of taxable income pays about $1,830 a year more than if the rates expired. Someone at $300,000 pays nothing extra.",
+  "new": "LAO estimates the rates keep $5 billion to $15 billion a year in state revenue. They apply only to income above about $371,000 for single filers, adjusted for inflation. No official per-filer example was found.",
+  "reason": "The $1,830 example rested on unverified bracket breakpoints and was removed."
+ },
+ {
+  "prop": "3",
+  "field": "who",
+  "old": "About the top 2% of filers, public schools, Medi-Cal patients.",
+  "new": "About the top 2% of filers, public schools and community colleges, and other state programs including health care.",
+  "reason": "'Medi-Cal patients' overstated LAO."
+ },
+ {
+  "prop": "3",
+  "field": "pro",
+  "old": "California Teachers Association, California State PTA, California Medical Association.",
+  "new": "California Teachers Association, California School Nurses Organization, Planned Parenthood Affiliates of California (official argument), California State PTA.",
+  "reason": "California Medical Association not found in any source."
+ },
+ {
+  "prop": "3",
+  "field": "con",
+  "old": "California Taxpayers Association, Howard Jarvis Taxpayers Association, Reform California.",
+  "new": "California Taxpayers Association, Family Business Association of California, California Hispanic Chambers of Commerce (official argument), Howard Jarvis Taxpayers Association (rebuttal).",
+  "reason": "Reform California not found in any source."
+ },
+ {
+  "prop": "3",
+  "field": "r.ev",
+  "old": "Thirteen years of revenue data and studies on these rates.",
+  "new": "More than a decade of revenue data on these rates, since 2012.",
+  "reason": "'Thirteen years' miscounted and 'studies' were not checked."
+ },
+ {
+  "prop": "3",
+  "field": "r.nb",
+  "old": "Keeps $5 billion to $15 billion a year for schools and health, but no link to student results is established.",
+  "new": "Keeps $5 billion to $15 billion a year, about 40% for schools and colleges, but no link to student results is established.",
+  "reason": "'For schools and health' overstated."
+ },
+ {
+  "prop": "44",
+  "field": "who",
+  "old": "Community health centers that served about 5.3 million patients in 2022, most with low incomes.",
+  "new": "Community health centers that served about 5.3 million patients in 2022, most with low incomes, according to their national association.",
+  "reason": "Only source is the National Association of Community Health Centers; official HRSA page could not be read."
+ },
+ {
+  "prop": "44",
+  "field": "out",
+  "old": "Clinics spend at least 90% of revenue on program services or forfeit the gap.",
+  "new": "Clinics spend at least 90% of revenue on program services or pay the gap as a penalty, refundable if they comply within five years.",
+  "reason": "Penalty is held in escrow for five years."
+ },
+ {
+  "prop": "44",
+  "field": "risk",
+  "old": "LAO says penalties could lead some clinics to cut services or close.",
+  "new": "LAO says some clinics that could not meet the requirement might close.",
+  "reason": "LAO does not say clinics would cut services; that is the opponents' claim."
+ },
+ {
+  "prop": "44",
+  "field": "r.ac",
+  "old": "Reporting, audits, penalties, patient lawsuits and criminal liability all required.",
+  "new": "Required reporting and penalties, with audits, patient lawsuits and criminal charges authorized.",
+  "reason": "Audits and suits are allowed, not required."
+ },
+ {
+  "prop": "44",
+  "field": "pro",
+  "old": "SEIU-UHW.",
+  "new": "The official argument is signed by the initiative proponent and a community clinic worker. SEIU-UHW is the committee contact in the official guide and is named as the main proponent in news reports.",
+  "reason": "No organization signed the argument."
+ },
+ {
+  "prop": "44",
+  "field": "con",
+  "old": "California Medical Association, American Academy of Pediatrics California, California Primary Care Association, Planned Parenthood, the Democratic and Republican parties.",
+  "new": "California Medical Association, American Academy of Pediatrics California (official argument). News reports add the California Primary Care Association, Planned Parenthood Affiliates of California, and the Democratic and Republican parties.",
+  "reason": "Independent items labeled."
+ },
+ {
+  "prop": "45",
+  "field": "does",
+  "old": "Nine project types (housing, water, clean energy, health facilities, fire and police stations, wildfire risk reduction, broadband, schools, transportation) can opt into a faster environmental review (CEQA) with firm deadlines. Lawsuits must be filed within 30 days and decided within 270 days including appeals, which courts may extend by 90. Courts can pause only the flawed part of a project.",
+  "new": "Nine project types (housing, water, clean energy, health facilities, fire and police stations, wildfire risk reduction, broadband, education facilities, transportation) can opt into a faster environmental review (CEQA) with firm deadlines. Lawsuits must be filed within 30 days and decided within 270 days including appeals. Courts may add up to 90 days, and longer only if all parties agree. Courts can pause only the flawed part of a project.",
+  "reason": "Extension rule and LAO's category name."
+ },
+ {
+  "prop": "45",
+  "field": "noE",
+  "old": "This includes ten exemptions the Legislature passed in 2025.",
+  "new": "This includes CEQA exemptions the Legislature passed in 2025.",
+  "reason": "The count of ten came from one law firm alert."
+ },
+ {
+  "prop": "45",
+  "field": "risk",
+  "old": "Narrower review, including consultation only with federally recognized tribes, and possible disputes over which projects qualify.",
+  "new": "Narrower review, including fewer alternatives considered and consultation only with federally recognized tribes.",
+  "reason": "Qualification disputes had no source; alternatives limit is in the official summary."
+ },
+ {
+  "prop": "45",
+  "field": "unk",
+  "old": "How many projects opt in and whether housing gets built faster. There is no neutral figure for how long CEQA lawsuits take today. A study by Holland & Knight attorney Jennifer Hernandez, who helped write Prop 45, puts it at about five years.",
+  "new": "How many projects opt in and whether housing gets built faster. There is no neutral figure for how long CEQA lawsuits take today. A Holland & Knight study led by Jennifer Hernandez, who HousingWire reports helped write the measure, puts it at four to five years.",
+  "reason": "Source wording and attribution."
+ },
+ {
+  "prop": "45",
+  "field": "r.lr",
+  "old": "Narrower review and disputes over which projects qualify.",
+  "new": "Narrower review and consultation only with federally recognized tribes.",
+  "reason": "Qualification disputes had no source."
+ },
+ {
+  "prop": "45",
+  "field": "r.nb",
+  "old": "Faster approvals at modest public cost. Housing gains and environmental trade-offs both unmeasured.",
+  "new": "Faster approvals at a public cost LAO puts in the high tens of millions a year. Housing gains and environmental trade-offs both unmeasured.",
+  "reason": "'Modest' conflicted with LAO's estimate."
+ },
+ {
+  "prop": "45",
+  "field": "pro",
+  "old": "California Chamber of Commerce, California Hospital Association, California Water Association.",
+  "new": "California Water Association, California Children's Hospital Association (official argument). News reports add the California Chamber of Commerce (sponsor), the California Hospital Association and the California Republican Party.",
+  "reason": "Official signers separated from news-reported supporters."
+ },
+ {
+  "prop": "45",
+  "field": "con",
+  "old": "California Labor Federation, Sierra Club California, League of Women Voters, California Democratic Party.",
+  "new": "Coalition for Clean Air, Clean Water Action, California Environmental Voters (official argument). News reports add the California Labor Federation, Sierra Club California, the League of Women Voters and the California Democratic Party.",
+  "reason": "None of the previously listed opponents signed the official argument."
+ }
+]

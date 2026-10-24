@@ -1,0 +1,669 @@
+{
+ "n": "43",
+ "officialTitle": "LIMITS VOTERS' ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+ "measureType": "Legislative Constitutional Amendment",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+   "title": "Proposition 43 (official voter guide page)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Base URL refused (allowlist); /index.htm read."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+   "title": "LAO Proposition 43 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+   "title": "Prop 43 print PDF (arguments)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read; key sentences and signers."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+   "title": "Prop 43 Text of Proposed Laws (ACA 22, Res. Ch. 132, Stats. 2026)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice; Sec. 4.5(a) readings matched."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm",
+   "title": "Prop 43 arguments page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not fetched; print PDF used."
+  },
+  {
+   "url": "https://calmatters.org/politics/2026/10/california-prop-43-election-2026/",
+   "title": "Prop. 43 would make special taxes harder to pass",
+   "publisher": "CalMatters (independent), Yue Stella Yu",
+   "documentDate": "2026-10-09",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+   "title": "CA voter guide to Proposition 43",
+   "publisher": "CalMatters (independent)",
+   "documentDate": "2026-10-01, modified 2026-10-13",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+   "title": "Proposition 43: Making it harder to pass citizen-led local tax initiatives",
+   "publisher": "LAist / CalMatters (independent)",
+   "documentDate": "2026-10-15, updated 2026-10-19",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://www.hoover.org/research/prop-43-two-thirds-vote-local-special-taxes",
+   "title": "California Decides, Prop 43",
+   "publisher": "Hoover Institution (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/?pdf=13645",
+   "title": "Public Law Update, tax measure on the November ballot",
+   "publisher": "Burke, Williams & Sorensen LLP (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Two-thirds vote for citizen local special taxes",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Summary",
+     "excerpt": "Limits voters' ability to pass voter-proposed local special taxes by increasing percentage of votes needed",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches substance.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "title",
+   "current": "Limits voters' ability to raise revenues for local government services",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "LIMITS VOTERS' ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Exact match.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · from the Legislature",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Measure type",
+     "excerpt": "Put on the Ballot by the Legislature",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "type",
+   "current": "Legislative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "LIMITS VOTERS' ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "ask",
+   "current": "Should local special taxes proposed by citizen petition need a two-thirds vote to pass?",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Summary",
+     "excerpt": "to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "does",
+   "current": "From January 1, 2027, new, increased or extended local special taxes put on the ballot by citizen petition need two-thirds approval, the same bar as those placed by city councils and boards. Per the measure text, it applies only to special taxes, not general taxes. It was placed on the ballot in a deal that kept a broader anti-tax initiative off it.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+     "location": "Art. XIII A, Sec. 4.5(a), page 153",
+     "excerpt": "Beginning on January 1, 2027, and notwithstanding Article II and Article XI, no local government,",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+     "location": "Art. XIII A, Sec. 4.5(a), page 153",
+     "excerpt": "including the electorate of a local government exercising the initiative power, may impose, extend, or increase",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+     "location": "Art. XIII A, Sec. 4.5(b), page 153",
+     "excerpt": "government exercising the initiative power, may impose ad valorem taxes on real property,",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+     "location": "Art. XIII A, Sec. 4.5(b), page 153",
+     "excerpt": "except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+     "location": "Independent",
+     "excerpt": "General taxes only require a simple majority to pass, regardless of who places them on the ballot.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-43-tax-threshold/",
+     "location": "Independent",
+     "excerpt": "reflects a deal between state lawmakers and the anti-tax Howard Jarvis Taxpayers Association to keep a more restrictive tax proposal off the ballot.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.hoover.org/research/prop-43-two-thirds-vote-local-special-taxes",
+     "location": "Independent",
+     "excerpt": "The legislature placed it on the ballot by a two-thirds vote of each house on June 25, 2026, as a compromise.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The two-thirds rule, date and scope are supported. 'Applies only to special taxes' is incomplete: Sec. 4.5(b) separately bars ad valorem real property taxes by initiative, beyond what Art. XIII D already allows. The text has no general-tax language. The ballot deal is reported only by independent sources (CalMatters, Hoover, Burke Williams & Sorensen), so it should be attributed.",
+   "proposedText": "From January 1, 2027, new, increased or extended local special taxes need two-thirds voter approval even when citizens put them on the ballot, the same bar as those placed by city councils and boards. General taxes are not covered. It also bars citizen initiatives from adding local property taxes beyond what the constitution already allows. News reports say it came from a deal that kept a broader anti-tax initiative off the ballot.",
+   "limitations": "The meaning of the Art. XIII D cross-reference in 4.5(b) was not confirmed by an official source; Hoover describes it as the existing 1 percent limit."
+  },
+  {
+   "field": "yes",
+   "current": "Certain local government taxes would require two-thirds approval by voters.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "YES",
+     "excerpt": "Certain local government taxes would require two-thirds approval by voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Exact match.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "yesE",
+   "current": "This covers citizen-proposed special taxes, including renewals.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Page 1, Proposal",
+     "excerpt": "Under Proposition 43, beginning on January 1, 2027, any new, increased, or extended local special taxes",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "'Extended' supports renewals.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "no",
+   "current": "Certain local government taxes could continue to be approved by voters with a majority vote.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "NO",
+     "excerpt": "Certain local government taxes could continue to be approved by voters with a majority vote.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Exact match.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Field is empty.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "No dollar estimate. LAO says local revenue could be lower. Sonoma County's 2024 fire tax passed with 62%, below the two-thirds this would require.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Page 1, Fiscal Effects",
+     "excerpt": "As a result, local governments’ tax revenues could be lower in the future than they otherwise would be.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Page 1, Fiscal Effects",
+     "excerpt": "The actual revenue impact is unknown and would depend on future decisions by local governments and voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO part supported. The Sonoma 62% figure was found only in CalMatters (Oct 9, 2026), and the reader returned it as a paraphrase, not a verbatim quote, so no excerpt is recorded; no county registrar result was read. The current text also does not say it was a sales tax or a citizen initiative, which is what makes it relevant.",
+   "proposedText": "No dollar estimate. LAO says local revenue could be lower. CalMatters reports Sonoma County's 2024 half-cent sales tax for wildfire and emergency services passed with 62%, below two-thirds.",
+   "limitations": "Confirm 62% and whether it was citizen-placed on the Sonoma County Registrar of Voters certified results before keeping the example."
+  },
+  {
+   "field": "who",
+   "current": "Cities, counties, special districts, citizen tax campaigns.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+     "location": "Sec. 4.5(a)",
+     "excerpt": "including the electorate of a local government exercising the initiative power, may impose, extend, or increase",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Consistent.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Fewer new or renewed citizen-proposed local special taxes pass from 2027.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Page 1, Fiscal Effects",
+     "excerpt": "Proposition 43 makes it harder for local governments to pass certain taxes.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO says 'harder' and revenue 'could be lower'; it does not predict that fewer will pass. Stated as a certainty, the field goes past the source.",
+   "proposedText": "From 2027, citizen-proposed local special taxes, including renewals, need two-thirds approval, so fewer may pass.",
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "No reporting, audit or outcome target. The rule applies through election certification and the courts.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No reporting or audit duty in Sec. 4.5. Absence finding.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says court rulings opened a loophole and this restores Prop 13's two-thirds rule for special taxes.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+     "location": "Argument in Favor, page 68",
+     "excerpt": "Prop. 43 closes these loopholes and restores the twothirds vote requirement to pass local special taxes.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it cuts no taxes and lets about one-third of voters block funding for fire, police, schools and roads.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+     "location": "Rebuttal to Argument in Favor, page 68",
+     "excerpt": "But Proposition 43 doesn't cut your taxes a penny.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+     "location": "Argument Against, page 69",
+     "excerpt": "It empowers just over one-third of voters to block what nearly 67% want.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "'Cuts no taxes' comes from the opponents' rebuttal, not the argument against. The argument says 'just over one-third', not 'about one-third'.",
+   "proposedText": "Opponents' official argument and rebuttal say it cuts no taxes and lets just over one-third of voters block funding for fire, police, schools and roads.",
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "pro",
+   "current": "California Taxpayers Association, Family Business Association of California, California Hispanic Chambers of Commerce, Howard Jarvis Taxpayers Association.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Supporters",
+     "excerpt": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+     "location": "Rebuttal to Argument Against signers, page 69",
+     "excerpt": "Jon Coupal, President, Howard Jarvis Taxpayers Association",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "All official.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "con",
+   "current": "California Professional Firefighters, Nurse Alliance of SEIU California, California School Employees Association, California State Association of Counties, Gov. Newsom.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/43/index.htm",
+     "location": "Opponents",
+     "excerpt": "California Professional Firefighters; California Federation of Teachers; Nurse Alliance of SEIU CA.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+     "location": "Argument Against signers, page 69",
+     "excerpt": "Adam Weinberger, President, California School Employees Association",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.bwslaw.com/insights/2026-california-tax-ballot-measures/?pdf=13645",
+     "location": "Independent",
+     "excerpt": "a compromise between Governor Newsom's office and the proponents",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-43-local-special-tax",
+     "location": "Independent, notable opponents",
+     "excerpt": "California Democratic Party, SEIU Local 1000 and The Sacramento Bee editorial board",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "CPF, Nurse Alliance and CSEA are official. CSAC and Gov. Newsom were not found as opponents in any source read. A law firm summary describes the measure as a compromise involving Newsom's office, which makes listing him as an opponent doubtful without a direct source. California Federation of Teachers is an official opponent and is missing.",
+   "proposedText": "California Professional Firefighters, California Federation of Teachers, Nurse Alliance of SEIU California, California School Employees Association. California Democratic Party, per news reports.",
+   "limitations": "Newsom and CSAC positions could not be searched further (web search budget exhausted)."
+  },
+  {
+   "field": "risk",
+   "current": "Local services like fire and transit lose an easier funding path.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf",
+     "location": "Argument Against, page 69",
+     "excerpt": "PROP. 43 MAKES IT HARDER TO FUND FIRE AND POLICE SERVICES.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Interpretive. 'Transit' is not in the official argument; Hoover reports transit advocates oppose it.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "unk",
+   "current": "How much local revenue would be forgone, and how courts read its separate ban on citizen-initiative property taxes.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf",
+     "location": "Sec. 4.5(b)",
+     "excerpt": "Notwithstanding Article II and Article XI, no local government, including the electorate of a local",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The separate property-tax clause exists.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "tw",
+   "current": "One voting threshold for all local special taxes, in exchange for making citizen-led local funding harder to pass.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Proposal",
+     "excerpt": "Under current law, local taxes that are used for a specific purpose require a two-thirds vote to be approved.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Synthesis.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives the direction only.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Fiscal Effects",
+     "excerpt": "The actual revenue impact is unknown and would depend on future decisions by local governments and voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.oc",
+   "current": "One clear, observable voting rule.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "Reasonable reading.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Self-executing rule applied through election certification and the courts.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No reporting duty in text.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "A simple rule.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "Reasonable reading.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Text, LAO and court history are clear, plus local examples.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Proposal",
+     "excerpt": "recent court decisions have allowed special taxes that are proposed by voters to be approved with a majority vote.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO notes court decisions generally but names none. The local example relies on an independent source only.",
+   "proposedText": "Text and LAO are clear, and local examples show the effect.",
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Renewals of local taxes could fail.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Proposal",
+     "excerpt": "Under Proposition 43, beginning on January 1, 2027, any new, increased, or extended local special taxes",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Extensions covered.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.nb",
+   "current": "Taxpayers avoid some future taxes while some local services lose funding. Size unknown.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop43-110326.pdf",
+     "location": "Fiscal Effects",
+     "excerpt": "The actual revenue impact is unknown and would depend on future decisions by local governments and voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "src",
+   "current": "[[\"LAO analysis\", \"https://lao.ca.gov/ballot/2026/prop43-110326.pdf\", \"Official\"], [\"Official voter guide page\", \"https://voterguide.sos.ca.gov/propositions/43/\", \"Official\"], [\"Legal text\", \"https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf\", \"Official\"], [\"Official arguments\", \"https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm\", \"Official, campaign arguments\"]]",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "All official. The arguments page was not fetched but the print PDF https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43.pdf was read.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Confirm Sonoma County 2024 half-cent sales tax result (62%) and whether it was citizen-initiated, from the Sonoma County Registrar of Voters.",
+  "Gov. Newsom and CSAC listed as opponents with no source found; a law firm summary says the measure was a compromise involving Newsom's office.",
+  "The ballot deal (HJTA initiative withdrawn) is reported only by independent sources; Hoover names AG No. 25-0006A1 but we did not read an SOS withdrawal record.",
+  "The meaning of the Art. XIII D Sec. 3(a)(1) exception in Sec. 4.5(b) was not confirmed by an official source."
+ ],
+ "conflicts": [
+  "Props 41 and 42 conflict clauses reach only 'another initiative measure'. Prop 43 is a legislative constitutional amendment, so on the text it is not caught by them.",
+  "Our 'con' lists Gov. Newsom as an opponent; Burke, Williams & Sorensen describes Prop 43 as 'a compromise between Governor Newsom's office and the proponents'. Not a direct contradiction, but no source confirms opposition.",
+  "Hoover and CalMatters say Assemblymember Buffy Wicks authored ACA 22 and now opposes it."
+ ]
+}

@@ -1,0 +1,750 @@
+{
+ "n": "5",
+ "officialTitle": "CHANGES RECALL ELECTION PROCESS FOR STATEWIDE OFFICERS. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+ "measureType": "Legislative Constitutional Amendment",
+ "sources": [
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+   "title": "Proposition 5 LAO analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Fetched after appearing in WebSearch results. Key passages matched the LAO analysis inside prop5-title-summ-analysis.pdf."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-title-summ-analysis.pdf",
+   "title": "Prop 5 title, summary and analysis",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Second reading of governor rule, recall count and fiscal effect."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+   "title": "Prop 5 voter guide section (summary, arguments, rebuttals)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Reader noted scan artifacts such as 'ofcer'."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/5/",
+   "title": "Official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Page showed 'None submitted' for supporters and opponents contact info."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf",
+   "title": "Text of proposed law",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not fetched. Link listed on the official page but not on the session allowlist."
+  },
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-5/legal-text/",
+   "title": "Annotated Legal Text, Prop 5",
+   "publisher": "GrowSF (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Reproduces SCA 1 text and links SOS PDF sca-1-24.pdf. Independent reproduction, not the official file."
+  },
+  {
+   "url": "https://selc.senate.ca.gov/sites/selc.senate.ca.gov/files/SCA%201%20%28Newman%29%20Analysis.pdf",
+   "title": "Senate Elections Committee analysis, SCA 1 (Newman), version 1/30/23, hearing 5/8/23",
+   "publisher": "California State Senate",
+   "documentDate": "2023-05-08",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Earlier bill version."
+  },
+  {
+   "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-5-delay-replacing-recalled-state-officials",
+   "title": "Proposition 5: Delay replacing recalled state officials",
+   "publisher": "CalMatters via KPBS (independent)",
+   "documentDate": "2026-10-02",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Used only for opponents not in official arguments."
+  },
+  {
+   "url": "https://www.joincalifornia.com:443/election/2003-10-07",
+   "title": "October 7, 2003 election",
+   "publisher": "JoinCalifornia (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. SOS Statement of Vote PDF (elections.cdn.sos.ca.gov/sov/2003-special/sum.pdf) failed with URL_NOT_ON_ALLOWLIST."
+  },
+  {
+   "url": "https://www.hoover.org/research/prop-5-recall-reform-eliminate-replacement-question",
+   "title": "Hoover Institution analysis",
+   "publisher": "Hoover Institution (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Appeared in search results but was not fetched. Existence only, content not checked."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Recall without a replacement vote",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A YES vote on this measure means",
+     "excerpt": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Short label consistent with the YES meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Changes recall election process for statewide officers",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/5/",
+     "location": "Page heading",
+     "excerpt": "CHANGES RECALL ELECTION PROCESS FOR STATEWIDE OFFICERS. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official title.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · from the Legislature",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/5/",
+     "location": "Page heading",
+     "excerpt": "CHANGES RECALL ELECTION PROCESS FOR STATEWIDE OFFICERS. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Official label is Legislative Constitutional Amendment.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Legislative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/5/",
+     "location": "Page heading",
+     "excerpt": "CHANGES RECALL ELECTION PROCESS FOR STATEWIDE OFFICERS. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Official label is LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should recall ballots drop the replacement question, with vacancies filled by succession, special election or appointment instead?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A YES vote on this measure means",
+     "excerpt": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Restates the YES meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Recall ballots for state officers ask only whether to remove the official. If a governor is recalled, the Lieutenant Governor becomes governor, but a recall in the first two years of the term, before the next statewide nomination period closes, triggers a special election to pick a governor for the rest of the term. Other recalled offices are filled under existing rules, usually a special election for legislators and a governor's appointment for other statewide offices.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If the Governor is recalled before the close of the nomination period for the next statewide election during the first two years of the term, the Lieutenant Governor serves as Governor until voters elect a new Governor at a future statewide election.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If the Governor is recalled later in the term, the Lieutenant Governor serves as Governor for the rest of the term.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-5/legal-text/",
+     "location": "Article V, Section 10(b) as reproduced",
+     "excerpt": "a special election shall be called to replace the Governor and shall be consolidated with the statewide primary election.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-5/legal-text/",
+     "location": "Article V, Section 10(b) as reproduced",
+     "excerpt": "the top two vote-getters shall compete in a special election consolidated with the subsequent statewide general election",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://selc.senate.ca.gov/sites/selc.senate.ca.gov/files/SCA%201%20%28Newman%29%20Analysis.pdf",
+     "location": null,
+     "excerpt": "during the first two years of the Governor's term, a special election shall be called to replace the Governor, be consolidated with the statewide primary election",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "Except for the office of the Governor, Proposition 5 uses the existing process for filling vacancies to fill the office.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "a replacement typically would be elected through a separate special election.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "The Governor would choose who would fill a vacancy in any other office (other than office of the Governor).",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Most of it is supported. The legal text calls a special election consolidated with the next statewide primary, with a top-two runoff at the general election if no one wins a majority. 'Triggers a special election' reads as an immediate election. LAO describes it as the Lieutenant Governor serving until voters elect a new Governor at a future statewide election.",
+   "proposedText": "Recall ballots for state officers ask only whether to remove the official. If a governor is recalled, the Lieutenant Governor becomes governor. If the recall happens in the first two years of the term, before the next statewide nomination period closes, a special election held with the next statewide primary picks a governor for the rest of the term. Other recalled offices are filled under existing rules, usually a special election for legislators and a governor's appointment for other statewide offices.",
+   "limitations": "Legal text read through GrowSF's reproduction (independent) and the Senate Elections Committee analysis of the January 30, 2023 version. The SOS legal text PDF was not fetched."
+  },
+  {
+   "field": "yes",
+   "current": "Recall elections would no longer include a question about who should fill the vacancy. Vacancies would be filled through special elections or appointments, depending on the office and timing.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A YES vote on this measure means",
+     "excerpt": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Close paraphrase. LAO says 'typically'.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "a recalled officer may be a candidate in a special election to fill the office.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Field is empty. The AG summary notes a recalled officer may run in the later special election, which could fill it.",
+   "proposedText": null,
+   "limitations": "Optional addition, not a correction."
+  },
+  {
+   "field": "no",
+   "current": "Voters would continue to be asked who should fill the vacancy as part of recall elections.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A NO vote on this measure means",
+     "excerpt": "Voters would continue to be asked who should fill the vacancy as part of recall elections.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official NO meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "In 2003 the replacement winner had about 48.6% of the vote among 135 candidates.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "there were 135 candidates in the 2003 Governor recall election.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.joincalifornia.com:443/election/2003-10-07",
+     "location": null,
+     "excerpt": "Republican 48.6% Win.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "135 candidates is stated by LAO. The 48.6% figure was found only on JoinCalifornia, an independent site, and not in any official source read.",
+   "proposedText": "In 2003 there were 135 replacement candidates on the ballot, and the winner needed only the most votes.",
+   "limitations": "SOS 2003 Statement of Vote PDFs could not be fetched (URL not on allowlist). If an official source confirms 48.6%, the current text can stay."
+  },
+  {
+   "field": "money",
+   "current": "LAO says the net cost is unknown but under 0.1% of the General Fund.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Net fiscal effect unknown. Possible state and local government savings or costs of millions of dollars to administer recall elections.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "This net fiscal effect represents less than one-tenth of 1 percent (0.1 percent) of the state's total General Fund budget.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO says the net fiscal effect is unknown and could be savings or costs. 'Net cost' implies only costs.",
+   "proposedText": "LAO says the net fiscal effect is unknown, could be savings or costs, and is under 0.1% of the General Fund.",
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "The governor and other state officers, voters in recall elections.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/5/",
+     "location": "Page heading",
+     "excerpt": "CHANGES RECALL ELECTION PROCESS FOR STATEWIDE OFFICERS. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A YES vote on this measure means",
+     "excerpt": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Measure applies to state officers subject to recall.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Recalled officials are replaced by succession, special election or appointment instead of a same-ballot plurality vote.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If a state official is recalled, the person who receives the most votes in the second question assumes the office.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A YES vote on this measure means",
+     "excerpt": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO says the top vote-getter on question two takes office today, which is a plurality rule.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "No new audit or reporting. The rules apply through election certification and the courts.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No source discusses audit, reporting or enforcement. 'Through election certification and the courts' is our own description.",
+   "proposedText": null,
+   "limitations": "Consider shortening to 'No new audit or reporting requirements.'"
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says replacements should be chosen in regular elections, not by a small plurality on a recall ballot.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+     "location": "Argument in favor",
+     "excerpt": "Proposition 5 preserves your power to recall an official by majority vote while closing the loophole that allows a replacement candidate to take office with a small fraction of the vote.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+     "location": "Argument in favor",
+     "excerpt": "It should never be used as a tactic to 'redo' an election as a political or partisan scheme.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The argument says a replacement should not take office with a small fraction of the vote and recalls should not redo an election. It does not say replacements should be chosen in regular elections.",
+   "proposedText": "Supporters' official argument says a replacement should not take office with a small fraction of the vote, and recalls should not be used to redo an election.",
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it takes away voters' power to pick a replacement and hands the choice to Sacramento insiders.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+     "location": "Argument against",
+     "excerpt": "Proposition 5 will take away your voice and erode your ability to remove and replace failed or corrupt politicians from office.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+     "location": "Argument against",
+     "excerpt": "Instead, Sacramento political insiders would decide what happens next.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The official argument says this.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "League of Women Voters of California, California Common Cause, former FPPC chair Dan Schnur.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+     "location": "Argument in favor, signers",
+     "excerpt": "Lorrel Plimier, Co-President, League of Women Voters of California / Darius L. Kemp, MPA, Executive Director, California Common Cause / Dan Schnur, Former Chair, California Fair Political Practices Commission",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "All three signed the argument in favor.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "con",
+   "current": "Senate Minority Leader Brian Jones, Assemblymember Joe Patterson, most legislative Republicans.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Brian W. Jones, Senate Minority Leader / Joe Patterson, Assemblymember",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-5-delay-replacing-recalled-state-officials",
+     "location": "CalMatters article republished by KPBS (independent)",
+     "excerpt": "Almost all legislative Republicans also opposed it, arguing that it would dilute the power of voters",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-5-delay-replacing-recalled-state-officials",
+     "location": "CalMatters article republished by KPBS (independent)",
+     "excerpt": "Opponents including the California Republican Party and Election Integrity Project",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Jones and Patterson signed the argument against. 'Most legislative Republicans' comes only from CalMatters (independent) and is not labeled as such.",
+   "proposedText": "Senate Minority Leader Brian Jones, Assemblymember Joe Patterson. CalMatters reports almost all legislative Republicans and the California Republican Party also oppose it.",
+   "limitations": "Independent source only for the Republican caucus and party positions."
+  },
+  {
+   "field": "risk",
+   "current": "Voters lose a direct say in the replacement, and later in a term the successor serves without a new election.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If the Governor is recalled later in the term, the Lieutenant Governor serves as Governor for the rest of the term.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "The Governor would choose who would fill a vacancy in any other office (other than office of the Governor).",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Later in the term the Lieutenant Governor serves out the term. Other offices may be filled by appointment.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "unk",
+   "current": "How often recalls will happen in future.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "The net fiscal effect is unknown because it depends on future recall elections.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO ties uncertainty to future recalls.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "Avoiding replacements chosen by a small plurality, in exchange for voters no longer picking the successor on the recall ballot.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If a state official is recalled, the person who receives the most votes in the second question assumes the office.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": "A YES vote on this measure means",
+     "excerpt": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Synthesis.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives an upper bound, under 0.1% of the General Fund.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "This net fiscal effect represents less than one-tenth of 1 percent (0.1 percent) of the state's total General Fund budget.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO gives the under 0.1% bound.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Clear, observable succession rules.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If the Governor is recalled before the close of the nomination period for the next statewide election during the first two years of the term, the Lieutenant Governor serves as Governor until voters elect a new Governor at a future statewide election.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If the Governor is recalled later in the term, the Lieutenant Governor serves as Governor for the rest of the term.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "Except for the office of the Governor, Proposition 5 uses the existing process for filling vacancies to fill the office.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Succession rules are spelled out.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Self-executing rule with no new reporting or review.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No source mentions reporting or review either way.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "A simple rule change using existing vacancy processes.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "Except for the office of the Governor, Proposition 5 uses the existing process for filling vacancies to fill the office.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Uses existing vacancy processes except for Governor.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Only 11 statewide recalls since 1913, so little data either way.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Since 1913, 11 state recall efforts have qualified for the ballot (nine legislators and two Governors) and six have resulted in an official's removal from office (five legislators and one Governor).",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://selc.senate.ca.gov/sites/selc.senate.ca.gov/files/SCA%201%20%28Newman%29%20Analysis.pdf",
+     "location": null,
+     "excerpt": "Eleven recall efforts collected enough signatures to qualify for the ballot.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The 11 count covers state recall efforts that qualified, including nine legislators. Only two were of governors. 'Statewide recalls' is wrong.",
+   "proposedText": "Only 11 state recalls have reached the ballot since 1913, nine of them legislators, so there is little data either way.",
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Questions about appointed or caretaker successors.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If the Governor is recalled before the close of the nomination period for the next statewide election during the first two years of the term, the Lieutenant Governor serves as Governor until voters elect a new Governor at a future statewide election.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "The Governor would choose who would fill a vacancy in any other office (other than office of the Governor).",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Successors may be the Lieutenant Governor or appointees.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "Applies rarely. Trades plurality winners for less voter choice of successor.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Since 1913, 11 state recall efforts have qualified for the ballot (nine legislators and two Governors) and six have resulted in an official's removal from office (five legislators and one Governor).",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop5-110326.pdf",
+     "location": null,
+     "excerpt": "If a state official is recalled, the person who receives the most votes in the second question assumes the office.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Recalls are rare. Synthesis.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "SOS legal text PDF not read. Confirm Article V, Section 10(b) wording (special election consolidated with statewide primary, top-two runoff at the general) in the final SCA 1 (Res. Ch. 204, 2024).",
+  "48.6% for the 2003 replacement winner is not confirmed by an official source. Check the SOS 2003 Statement of Vote.",
+  "acct sentence 'rules apply through election certification and the courts' has no source."
+ ],
+ "conflicts": [
+  "LAO says the Lieutenant Governor serves 'until voters elect a new Governor at a future statewide election'. The reproduced legal text and Senate analysis call it a 'special election' consolidated with the statewide primary. Same event described two ways.",
+  "AG summary says the Lieutenant Governor becomes Governor 'for the remainder of the term or until a successor is elected'. Legal text as reproduced says 'for the remainder of the unexpired term', with the special-election exception."
+ ]
+}

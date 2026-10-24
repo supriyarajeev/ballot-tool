@@ -1,0 +1,685 @@
+{
+ "county": "ca-sonoma",
+ "listUrl": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+ "listRecheck": {
+  "matched": true,
+  "notes": "Filed list re-read Oct 22, 2026 (\"List last updated 8/7/26, 6:25 p.m.\"); all 12 letters and titles match our records except AB shortTitle (ours \"Title not recorded yet\", list \"Sonoma County Junior College District Bond\"). Same content also at https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-were-filed. FINAL LIST found. ROV page \"November 3, 2026 General Election Props and Measures on the Ballot\" (https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot) lists exactly the same 12 local measures (AB, D, E, G, H, I, J, K, L, M, N, O), each with an official guide PDF containing ballot question, impartial analysis and arguments. It spells \"Old Adobe\". No measure F appears on any Sonoma list. No sample ballot or notice of election PDF was linked from the election page; County Voter Information Guide is on omniballot (https://ca.omniballot.us/sites/06097/default/app/home), not fetched.",
+  "excerptMethod": "WebFetch verbatim-quote request"
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.measure-ab",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "Measure AB: Sonoma County Junior College District Bond",
+   "ballotQuestion": {
+    "text": "Without increasing tax rates, to improve facilities to train students for careers in nursing/firefighting/first responders, building trades, agriculture, auto mechanics; attract/retain high quality faculty, prepare students for universities; repair leaky roofs; repair, construct, and acquire classrooms/sites/facilities/equipment, shall the Sonoma County Junior College District measure be adopted authorizing $830,000,000 in bonds at legal rates, levying $25 per $100,000 of assessed valuation ($55,300,000 annually), while bonds are outstanding, and with oversight/audits/local control?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "Sonoma County 049M501 9311 (page code of first page; exact page of question not confirmed)",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond",
+    "evidence": "authorize the sale of up to $830,000,000 in general obligation bonds.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "if 55% of the voters who vote on the measure approve the sale of the bonds. Also heading \"55% Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "Tax Rate Statement. \"authorize the sale of up to $830,000,000 in general obligation bonds.\" Average rate \"is $22.00 per $100,000 (2.2¢ per $100) of assessed valuation.\" Highest rate \"is $25.00 per $100,000 (2.5¢ per $100) of assessed valuation first occurring in fiscal year 2041-42.\" \"It is currently anticipated that the tax will be collected until fiscal year 2058-59.\" Both readings matched.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf"
+   },
+   "plainEnglish": "Authorizes the Sonoma County Junior College District to issue $830,000,000 in bonds for facilities, levying $25 per $100,000 of assessed valuation while bonds are outstanding. The question says this is without increasing tax rates.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"AB\", District \"Sonoma County Junior College District\", % to Pass \"≥55%\". Read twice; both readings matched."
+    },
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "title": "Marin County list of measures, Nov 3, 2026",
+     "access": "read",
+     "notes": "Entry \"Measure AB – Sonoma County Junior College District\". No note on which county administers it."
+    }
+   ],
+   "remainingGaps": [
+    "Which county is lead administrator not confirmed. Impartial analysis says the Board \"placed on the ballot in Sonoma, Marin, and Mendocino Counties the question of whether to issue bonds.\"",
+    "Rebuttals were also filed (headings \"Rebuttal to Argument in Favor of Measure AB\" and \"Rebuttal to Argument Against Measure AB\")."
+   ],
+   "notes": "Our record shortTitle is \"Title not recorded yet\". County list title is \"Sonoma County Junior College District Bond\". Multi-county measure (Sonoma, Marin, Mendocino)."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-spd-coast-life-support-district.measure-d",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure D: Coast Life Support District Parcel Tax",
+   "ballotQuestion": {
+    "text": "Shall Measure D (the Coast Life Support District Emergency Medical Services Tax) be adopted? Allows Coast Life Support District to increase the current special parcel tax rate on real property to $ 101 per unit of benefit, for emergency medical services, including ambulance, life support and medical transport purposes and other necessary operating expenses, providing an estimated $1,972,934 annually, until the tax is amended or repealed; authorizes annual increases for inflation; and raises the District’s appropriations limit to permit spending of the tax revenue.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "Local Ballot Measure: D, Sonoma County 049M507 9761",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special parcel tax (also raises appropriations limit)",
+    "evidence": "Allows Coast Life Support District to increase the current special parcel tax rate on real property to $ 101 per unit of benefit",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "This measure must be adopted by two thirds (2/3) of the voters. Also heading \"2/3 (Two-Thirds) Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"The special tax rate authorized by this Ordinance shall equal $ 101 per Unit of Benefit per year.\" Ballot question says \"providing an estimated $1,972,934 annually, until the tax is amended or repealed\". Current rate not stated in the impartial analysis.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf"
+   },
+   "plainEnglish": "Raises the Coast Life Support District special parcel tax to $101 per unit of benefit for emergency medical services, providing an estimated $1,972,934 a year until amended or repealed. It also allows annual inflation increases and raises the district appropriations limit.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"D\", District \"Coast Life Support District\", % to Pass \"≥2/3\". Read twice; both readings matched."
+    },
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "title": "Sonoma filed list",
+     "access": "read",
+     "notes": "Measure D entry links to Mendocino County Elections Division (https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections). That page was not fetchable (URL_NOT_ON_ALLOWLIST)."
+    }
+   ],
+   "remainingGaps": [
+    "District spans Mendocino and Sonoma (\"The taxes imposed by this Ordinance shall be collected by the Counties of Mendocino and Sonoma\"). Lead administering county not confirmed.",
+    "Current parcel tax rate not found."
+   ],
+   "notes": "Impartial analysis signed by Mendocino County Counsel and Sonoma County Counsel. No argument against filed (\"No Argument Was Submitted Against Measure D\")."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-sd-waugh-school-district.measure-e",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure E: Waugh School District Bond",
+   "ballotQuestion": {
+    "text": "To improve the quality of education; replace heating, ventilation and air-conditioning systems; modernize outdated classrooms, restrooms and school facilities; and make health, safety and security improvements, shall Waugh School District’s measure authorizing $16,000,000 in bonds, at legal interest rates, and levying approximately $30 per $100,000 of assessed valuation (raising $917,000 annually) while bonds are outstanding, be adopted, with a board appointed citizens’ oversight committee and annual independent audits to assure proper expenditure of funds?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "Local Ballot Measure: E, Sonoma County 049M511 9445",
+    "readingsMatched": false,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond",
+    "evidence": "to authorize the sale of up to $16,000,000 in bonds of the District to finance school facilities as described in the measure.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "If the bond measure is approved by at least 55% of the voters of the District voting on the bond measure. Also heading \"55% Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "Tax Rate Statement. Bonds up to $16,000,000. Average rate \"is $28.65 per $100,000 of assessed valuation\". Highest rate \"is $30.00 per $100,000 of assessed valuation in fiscal year 2027-28\". Final year \"is fiscal year 2060-61.\" Both readings matched.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf"
+   },
+   "plainEnglish": "Authorizes Waugh School District to issue $16,000,000 in bonds for school facilities, levying about $30 per $100,000 of assessed valuation while bonds are outstanding. It includes a citizens oversight committee and annual audits.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"E\", District \"Waugh School District\", % to Pass \"≥55%\". Read twice; both readings matched."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question captured in full only on the first reading. The second reading returned only a paraphrase, so the full wording is not double-checked."
+   ],
+   "notes": "No argument against filed (\"No Argument Was Submitted Against Measure E\")."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-sd-west-sonoma-county-union-high-school-district.measure-g",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure G: West Sonoma County Union High School District Parcel Tax",
+   "ballotQuestion": {
+    "text": "To continue supporting academic excellence for West Sonoma County Union students without increasing current tax rates; protect music, art, dance, shop, culinary and other career technical programs; retain teachers and staff; and keep class sizes low, shall West Sonoma County Union High School District’s measure be adopted, renewing its existing parcel tax for eight years at the same rate of $79 per parcel, raising approximately $1,950,000 annually with exemptions including seniors and all funds staying local?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "Local Ballot Measure: G, Sonoma County 049M517 9379",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "parcel tax (renewal)",
+    "evidence": "renewing its existing parcel tax for eight years at the same rate of $79 per parcel",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "By approval of this proposition by at least two-thirds of the registered voters voting on the proposition. Also heading \"2/3 (Two-Thirds) Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"Measure G proposes to continue a special tax of $79 annually per parcel\". \"The tax would begin on July 1, 2028, and would remain in effect for eight (8) years.\" \"If approved, Measure G would raise approximately $1,950,000 annually.\"",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf"
+   },
+   "plainEnglish": "Renews the West Sonoma County Union High School District parcel tax at $79 per parcel for eight years, raising about $1,950,000 a year, with exemptions including seniors.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"G\", District \"West Sonoma County Union High School District\", % to Pass \"≥2/3\". Read twice; both readings matched."
+    }
+   ],
+   "remainingGaps": [],
+   "notes": "No argument against filed (\"No Argument Was Submitted Against Measure G\")."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma.measure-h",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure H: Sonoma County Parks Sales Tax",
+   "ballotQuestion": {
+    "text": "Without raising taxes, to improve and protect Sonoma County’s regional and neighborhood parks; safeguard water supplies, streams, rivers; reduce future wildfire risk; preserve fish and wildlife habitat; conserve natural areas for future generations; expand walking, hiking, and biking trails; shall Sonoma County continue a one-eighth-cent special transaction and use tax (sales tax) countywide until ended by voters, providing approximately $15.5 million annually, with community oversight, public disclosure, and annual audits?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "Local Ballot Measure: H, Sonoma County 049M520",
+    "readingsMatched": false,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special sales tax (transaction and use tax) continuation",
+    "evidence": "shall Sonoma County continue a one-eighth-cent special transaction and use tax (sales tax) countywide",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "The tax proposed by the ordinance will become effective only if approved by a two-thirds majority of those voting on the measure. Also \"2/3 Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"will authorize the County to extend the sales tax rate of one-eighth cent on each dollar countywide.\" \"The extension of the tax would begin on April 1, 2029, and remain in effect until repealed by the voters.\" Ballot question says \"providing approximately $15.5 million annually\". Start date matched on both readings. A County Auditor's Fiscal Impact Statement is included.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf"
+   },
+   "plainEnglish": "Continues a one-eighth-cent countywide special sales tax for parks, water, wildfire risk reduction, habitat and trails until ended by voters, providing about $15.5 million a year.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"H\", District \"County of Sonoma\", % to Pass \"≥2/3\". Read twice; both readings matched."
+    },
+    {
+     "url": "https://parks.sonomacounty.ca.gov/board-of-supervisors-places-parks-sales-tax-renewal-measure-on-november-ballot",
+     "title": "Sonoma County Regional Parks news release",
+     "access": "read",
+     "notes": "\"the existing one-eighth-cent sales tax that Sonoma County voters approved in 2018 as Measure M.\" \"would take effect when the current tax expires in 2029.\" \"If approved by two-thirds of voters\""
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question captured in full only on the first reading. The second reading quoted only the opening segment, which matched."
+   ],
+   "notes": "Placed by the Board (\"The Board of Supervisors unanimously voted to place this measure on the ballot.\"). No argument against filed (\"No Argument Was Submitted Against Measure H\"). On-ballot table lists jurisdiction as \"County of Sonoma\"; our record says \"Sonoma County\", same entity."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-windsor.measure-i",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure I: Town of Windsor Sales Tax",
+   "ballotQuestion": {
+    "text": "To provide funding for the Town of Windsor to maintain essential local services, such as repairing potholes and maintaining streets; neighborhood police patrols / emergency response / traffic enforcement; preserving parks / community events; disaster preparedness and fire prevention — removing brush / flammable fuels, and for general government use; shall the measure establishing a 1% sales tax, providing approximately $5,700,000 annually until ended by voters, requiring independent audits, citizen oversight, and all funds remaining in Windsor under local control, be adopted?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Sonoma County 049M528 9641",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "general sales tax (transactions and use tax)",
+    "evidence": "Because Measure I does not limit the use of tax revenue, it is a “general tax,” not a “special tax”",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Measure I will pass if it receives a simple majority of “Yes” votes. Also \"Simple Majority Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"Measure I would authorize a 1% transactions and use tax, which would increase the total sales tax rate in Windsor to 10.25%\". \"If Measure I is approved, the tax would continue until ended by Town of Windsor voters.\" Ballot question says \"providing approximately $5,700,000 annually\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf"
+   },
+   "plainEnglish": "Establishes a 1% general sales tax in the Town of Windsor, providing about $5,700,000 a year until ended by voters, with audits and citizen oversight.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"I\", District \"Town of Windsor\", % to Pass \">50%\". Read twice; both readings matched."
+    },
+    {
+     "url": "https://www.townofwindsor.com/287/Town-Clerk",
+     "title": "Windsor Town Clerk",
+     "access": "failed",
+     "notes": "URL_NOT_ON_ALLOWLIST"
+    }
+   ],
+   "remainingGaps": [
+    "Rebuttals to both arguments were also filed."
+   ],
+   "notes": "The ballot question contains an em dash in the official text; keep as printed if quoted."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.measure-j",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure J: Windsor Unified School District Bond",
+   "ballotQuestion": {
+    "text": "Windsor Unified School District Classroom Repair/No Tax Increase Measure. To upgrade aging classrooms, labs, career training and school facilities for college/career readiness in math, science, technology, engineering, skilled trades; and fix deteriorating roofs, plumbing, HVAC, electrical, and safety systems, shall Windsor Unified School District’s measure be adopted authorizing $96,000,000 in bonds at legal rates, without increasing projected tax rates, levying approximately $46 per $100,000 while bonds are outstanding ($6,000,000 annually), requiring independent oversight/audits and local control?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": null,
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond",
+    "evidence": "to authorize the sale of up to $96,000,000 in general obligation bonds.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "if 55% of the voters who vote on the measure approve the sale of the bonds. Also \"55% Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "Tax Rate Statement. Bonds up to $96,000,000. Average rate \"$46 per $100,000 of assessed valuation\". Highest rate \"$60 per $100,000 of assessed valuation\". \"It is currently expected that the tax will be collected until fiscal year 2060-61.\" Rates and final year matched on both readings.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf"
+   },
+   "plainEnglish": "Authorizes Windsor Unified School District to issue $96,000,000 in bonds for school facilities, levying about $46 per $100,000 while bonds are outstanding. The question says this is without increasing projected tax rates.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"J\", District \"Windsor Unified School District\", % to Pass \"≥55%\". Read twice; both readings matched."
+    }
+   ],
+   "remainingGaps": [
+    "Year(s) of the highest tax rate not confirmed. Second reading reported fiscal years 2042-43 through 2058-59 but gave no verbatim quote, and first reading did not report it.",
+    "Page codes read as \"049M536 9359\" while the PDF filename uses 9321. Unresolved, likely irrelevant."
+   ],
+   "notes": "No argument against filed (\"No Argument Was Submitted Against Measure J\")."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-rohnert-park.measure-k",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure K: City of Rohnert Park Sales Tax",
+   "ballotQuestion": {
+    "text": "Rohnert Park Financial Viability, Community Health/Safety Measure. To maintain 911 response/fire protection/wildfire preparedness; protect local drinking water; keep parks clean/safe; prevent property crime/burglary/public safety officer reductions; repair streets/potholes; and other general city services; shall the measure, establishing a half-cent local sales tax, providing approximately $5,500,000 annually for locally controlled funding that cannot be taken by the state, until ended by voters, requiring audits/public spending disclosure, be adopted?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "Sonoma County 049M542 9611",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "general sales tax (transactions and use tax)",
+    "evidence": "The tax imposed by this chapter is a general tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "In order for Measure K to pass, the City’s voters must approve the Measure by a simple majority vote (50% + 1) vote. Also \"Simple Majority Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"authorizing a 0.5% (1/2¢) transactions and use tax in the City of Rohnert Park.\" \"The tax imposed by this chapter shall remain in effect until ended by voters.\" \"The City estimates that Measure K, if approved, would generate approximately $5,500,000 in annual tax revenue\"",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf"
+   },
+   "plainEnglish": "Establishes a half-cent general sales tax in Rohnert Park, providing about $5,500,000 a year until ended by voters, with audits and public spending disclosure.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"K\", District \"City of Rohnert Park\", % to Pass \">50%\". Read twice; both readings matched."
+    },
+    {
+     "url": "https://www.rpcity.ca.gov/593/City-Clerk",
+     "title": "Rohnert Park City Clerk",
+     "access": "failed",
+     "notes": "URL_NOT_ON_ALLOWLIST"
+    }
+   ],
+   "remainingGaps": [
+    "Rebuttals to both arguments were also filed."
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-santa-rosa.measure-l",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure L: City of Santa Rosa Sales Tax",
+   "ballotQuestion": {
+    "text": "City of Santa Rosa Community Safety/Financial Stability Measure. Shall the measure maintaining Santa Rosa’s quality of life, 911 emergency medical, police response to violent crimes; keeping all city fire stations open and public places safe/clean; fixing streets/repairing potholes; addressing homeless encampments; maintaining police, fire protection, other services, by reauthorizing the existing, voter approved sales tax at an updated 1¢ rate, providing approximately $46,000,000 annually until ended by voters; requiring audits, public disclosure, local control, be adopted?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "Local Ballot Measure: L, Sonoma County 049M550 9561",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "general sales tax (reauthorization at new rate)",
+    "evidence": "Because Measure L does not limit the use of tax revenue, it is a “general tax.”",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "the measure only requires approval by a simple majority of voters voting on the measure. Also \"Simple Majority Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"Measure L would replace Measure Q with a 1.00% tax that continues unless and until ended by the voters.\" Existing tax is \"the 0.50% tax approved by voters in 2020 as Measure Q, which is scheduled to expire on March 31, 2031.\" Ballot question says \"providing approximately $46,000,000 annually\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf"
+   },
+   "plainEnglish": "Replaces Santa Rosa's existing Measure Q sales tax with a 1% general sales tax, providing about $46,000,000 a year until ended by voters.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"L\", District \"City of Santa Rosa\", % to Pass \">50%\". Read twice; both readings matched."
+    },
+    {
+     "url": "https://ca-santarosa.civicplus.com/4397/Santa-Rosas-Local-Measure-L",
+     "title": "City of Santa Rosa, Santa Rosa's Local Measure L",
+     "access": "partial",
+     "notes": "Has heading \"Official Measure L Ballot Question\" but reader found no question text under it. States \"reauthorizes a previously voter-approved sales tax at an updated 1-cent rate\". Confirms city has Measure L; no other city measure noted."
+    }
+   ],
+   "remainingGaps": [
+    "Measure Q expiration date (March 31, 2031) read once only."
+   ],
+   "notes": "No argument against filed (\"No Argument Was Submitted Against Measure L\")."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-sd-harmony-union-school-district.measure-m",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure M: Harmony Union School District Parcel Tax",
+   "ballotQuestion": {
+    "text": "To maintain and enhance quality education programs by funding Harmony Union School District’s Garden Enrichment Program at Harmony and Salmon Creek School, a comprehensive farm-to-table interactive education program, as well as student mental health and academic intervention services, shall Harmony Union School District’s education parcel tax measure be adopted, at the rate of $75 per year (raising approximately $177,600 annually), for four years, with an exemption for those 65 years and older and all funds spent on local students?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "Local Ballot Measure: M, Sonoma County 049M553 9401",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "parcel tax",
+    "evidence": "shall Harmony Union School District’s education parcel tax measure be adopted, at the rate of $75 per year",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "If approved by two-thirds (2/3) of those voting, Also \"2/3 (Two-Thirds) Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"$75 per year per parcel at a fixed rate for four years, commencing in fiscal year 2027-28\". Ballot question says \"raising approximately $177,600 annually\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf"
+   },
+   "plainEnglish": "Approves a $75 per year education parcel tax in Harmony Union School District for four years, raising about $177,600 a year, with an exemption for those 65 and older.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"M\", District \"Harmony Union School District\", % to Pass \"≥2/3\". Read twice; both readings matched."
+    }
+   ],
+   "remainingGaps": [],
+   "notes": "No argument against filed (\"No Argument Was Submitted Against Measure M\")."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-spd-schell-vista-fire-protection-district.measure-n",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure N: Schell-Vista Fire Protection District Appropriations Limit",
+   "ballotQuestion": {
+    "text": "Shall the Schell Vista Fire Protection District adopt Ordinance No. 2026-01 retaining the District’s increased limits on appropriations to assure continued fire, rescue and emergency medical services?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "Local Ballot Measure: N, Sonoma County 049M556 9723",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "appropriations limit (Gann limit) ordinance",
+    "evidence": "adopt Ordinance No. 2026-01 retaining the District’s increased limits on appropriations",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "approved by a simple majority of the District’s qualified voters voting on its approval at the special election. Also \"Simple Majority Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "\"Such increase shall be applicable for a period of four years.\" \"Measure N does not authorize the District to impose a new assessment or increase the property tax rate.\" No dollar amount for the limit stated.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf"
+   },
+   "plainEnglish": "Asks whether the Schell-Vista Fire Protection District should adopt Ordinance No. 2026-01, keeping its increased appropriations limit for four years. The analysis says it does not impose a new assessment or raise the property tax rate.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"N\", District \"Schell-Vista Fire Protection District\", % to Pass \">50%\". Read twice; both readings matched."
+    }
+   ],
+   "remainingGaps": [
+    "Dollar amount of the appropriations limit not stated in the documents read."
+   ],
+   "notes": "Ballot question prints \"Schell Vista\" without hyphen; county lists use \"Schell-Vista\". No argument against filed."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-sd-old-adboe-union-school-district.measure-o",
+   "identifierOK": true,
+   "jurisdictionOK": false,
+   "titleOK": false,
+   "titleOnList": "Measure O: Old Adboe Union School District Bond",
+   "ballotQuestion": {
+    "text": "To improve the quality of education; repair/replace leaky roofs; make health, safety and security improvements; replace outdated HVAC systems; make accessibility (ADA) improvements, modernize classrooms, restrooms and school facilities, including multi-purpose rooms; shall Old Adobe Union School District’s measure be adopted authorizing $48,000,000 of bonds at legal rates, generating on average $2,800,000 annually while bonds are outstanding at approximate rates of $25 per $100,000 assessed value, with annual audits, oversight, no money for salaries, all money staying local?",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "Local Ballot Measure: O, Sonoma County 049M559 9419",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond",
+    "evidence": "to authorize the sale of up to $48,000,000 in general obligation bonds.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "provided 55 percent of voters who vote on the measure approve the sale of the bonds. Also \"55% Needed to Pass\".",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "Tax Rate Statement. Average rate \"is $24.15 per $100,000 of assessed valuation.\" Highest rate \"is $25.00 per $100,000 of assessed valuation.\" \"It is currently expected that the tax will be collected until fiscal year 2059-60.\" Both readings matched.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf"
+   },
+   "impartialAnalysisUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf"
+   },
+   "plainEnglish": "Authorizes Old Adobe Union School District to issue $48,000,000 in bonds for school facilities, at approximate rates of $25 per $100,000 of assessed value while bonds are outstanding.",
+   "otherSources": [
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+     "title": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+     "access": "read",
+     "notes": "Table row Letter \"O\", District \"Old Adobe Union School District\", % to Pass \"≥55%\". Read twice; both readings matched."
+    }
+   ],
+   "remainingGaps": [
+    "District website not checked for spelling (web search budget exhausted). Spelling confirmed from two county official sources instead."
+   ],
+   "notes": "SPELLING. The filed list (last updated 8/7/26) prints \"Old Adboe\", a typo. The county's on-ballot table prints District \"Old Adobe Union School District\", the official measure PDF reads \"The Old Adobe Union School District Board of Education has placed on the ballot the question of whether to issue $48,000,000 in bonds for such purposes.\" and the ballot question says \"shall Old Adobe Union School District’s measure be adopted\". The PDF contains no \"Old Adboe\". Correct jurisdictionName and shortTitle to \"Old Adobe\" and consider changing the record id slug. No argument against filed."
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "County of Sonoma (final on-ballot list)",
+   "pageChecked": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+   "result": "matches",
+   "details": "Same 12 measures as the filed list. Read twice; jurisdictions and % to Pass column matched on both readings."
+  },
+  {
+   "jurisdiction": "City of Santa Rosa",
+   "pageChecked": "https://ca-santarosa.civicplus.com/4397/Santa-Rosas-Local-Measure-L",
+   "result": "matches",
+   "details": "City page for Measure L exists. City clerk page https://www.srcity.org/151/City-Clerk and https://www.srcity.org/4397/Santa-Rosas-Local-Measure-L not fetched (URL_NOT_ON_ALLOWLIST). No other city measure seen."
+  },
+  {
+   "jurisdiction": "City of Petaluma",
+   "pageChecked": "https://cityofpetaluma.org/elections",
+   "result": "no measures listed",
+   "details": "Page not updated for 2026. Only text about \"The upcoming November 5, 2024 General Municipal Election\". No Nov 3, 2026 measure mentioned. County final list shows no Petaluma measure."
+  },
+  {
+   "jurisdiction": "Town of Windsor",
+   "pageChecked": "https://www.townofwindsor.com/287/Town-Clerk",
+   "result": "not reachable",
+   "details": "URL_NOT_ON_ALLOWLIST. County guide PDF confirms Measure I."
+  },
+  {
+   "jurisdiction": "City of Rohnert Park",
+   "pageChecked": "https://www.rpcity.ca.gov/593/City-Clerk",
+   "result": "not reachable",
+   "details": "URL_NOT_ON_ALLOWLIST. County guide PDF confirms Measure K."
+  },
+  {
+   "jurisdiction": "Cities of Healdsburg, Sonoma, Sebastopol, Cotati, Cloverdale",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Web search budget for this turn was exhausted before these could be located, and guessed URLs are not fetchable. County final on-ballot list shows no measure for these cities."
+  },
+  {
+   "jurisdiction": "Mendocino County Elections (Measure D, Measure AB)",
+   "pageChecked": "https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections",
+   "result": "not reachable",
+   "details": "URL_NOT_ON_ALLOWLIST."
+  },
+  {
+   "jurisdiction": "Marin County Elections (Measure AB)",
+   "pageChecked": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+   "result": "matches",
+   "details": "Lists \"Measure AB – Sonoma County Junior College District\"."
+  },
+  {
+   "jurisdiction": "Multi-county measures",
+   "pageChecked": null,
+   "result": "matches",
+   "details": "AB covers Sonoma, Marin and Mendocino per impartial analysis. D covers Mendocino and Sonoma per ordinance text. Both are on Sonoma's list. No other multi-county district measure administered elsewhere was found, but not exhaustively checked."
+  }
+ ],
+ "missingMeasures": [],
+ "blockers": [
+  "Web search budget for this turn was exhausted. Could not locate pages for Healdsburg, Sonoma, Sebastopol, Cotati, Cloverdale, or the Old Adobe district website.",
+  "City clerk pages for Windsor, Rohnert Park and Santa Rosa, and Mendocino elections page, rejected with URL_NOT_ON_ALLOWLIST.",
+  "Independent localnewsmatters.org page blocked (robots_disallowed).",
+  "Full-text ballot question second readings for E and H were truncated by the reader (125-character quote limit), so those two questions are single-reading for the middle segments."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

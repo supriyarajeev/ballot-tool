@@ -1,0 +1,233 @@
+{
+ "county": "ca-bayarea-rtm",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "listUrl": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+ "listRecheck": {
+  "matched": true,
+  "notes": "Letter RTM confirmed on the Contra Costa and Santa Clara official lists. Alameda notice and San Mateo page show no letter. Ballot question identical across Alameda (two readings), Contra Costa and Santa Clara, apart from one comma noted."
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-bayarea-rtm.measure-rtm",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": "partly",
+   "titleOnList": "Contra Costa list: 'MEASURE RTM' / 'Regional Transit Measure'. Santa Clara list: 'Measure RTM' (Public Transit Revenue Measure District, 'Connect Bay Area Transit Initiative'). San Mateo page: 'Regional Transit Measure – Public Transit Revenue Measure District: Transactions and Use Tax Measure' (no letter shown). Alameda notice: no letter shown.",
+   "titleNote": "Our shortTitle 'Regional transit sales tax (Public Transit Revenue Measure)' is a description, not an official title. Official names seen are 'Regional Transit Measure' (Contra Costa, San Mateo) and 'Connect Bay Area Transit Initiative' (Santa Clara list). officialTitle could be set to 'Regional Transit Measure'.",
+   "ballotQuestion": {
+    "text": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+    "location": "NOTICE OF GENERAL ELECTION, November 3, 2026 (Alameda ROV)",
+    "readingsMatched": true,
+    "notes": "Reader returned the question in segments; joined with single spaces. Read twice from the Alameda notice and once each from the Contra Costa list and Santa Clara list. All four readings agree word for word except that the Santa Clara reading shows no comma after 'Santa Clara counties)'. Alameda and Contra Costa both show the comma."
+   },
+   "measureType": {
+    "value": "initiative; district transactions and use (sales) tax",
+    "evidence": "San Mateo: 'Public Transit Revenue Measure District: Transactions and Use Tax Measure'. Alameda ROV memo quoting District Resolution No. 2: 'the Initiative Measure shall take effect in the District'.",
+    "url": "https://www.alamedacountyca.gov/board/bos_calendar/documents/DocsAgendaReg_10_06_26/GENERAL%20ADMINISTRATION/Regular%20Calendar/ROV_411736.pdf",
+    "notes": "How the measure qualified as an initiative (petition or otherwise) was not stated in any document read."
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Passage Rate: Majority Vote Required",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+    "readingsMatched": true,
+    "notes": "Read twice from the Alameda notice with the same result. Also stated by Contra Costa ('Majority Overall Required to pass'), Santa Clara ('Majority Vote Required') and San Mateo ('Majority Voter Approval Required'). Alameda ROV memo quoting District Resolution No. 2: 'if a simple majority of voters, assessed based on the cumulative vote within the entire district'. So the majority is counted across all five counties combined, not county by county."
+   },
+   "fiscal": {
+    "text": "sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+    "notes": "Alameda ROV memo (dated September 15, 2026, for the October 6, 2026 Board meeting) quotes the same figure and the recital 'for a duration of 14 years, and in an amount of 0.5% in the counties of Alameda, Contra Costa, San Mateo, and Santa Clara'. The memo gives no start date and no Alameda County share; it says 'No net county cost will result from these recommended actions.'"
+   },
+   "impartialAnalysisUrl": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/public-transit-revenue-measure-district_ia_final-v1_redacted.pdf?VersionId=TbIVC.CrPBgVjFsTCN79UCBLbXA81Cuy",
+   "impartialAnalysisNote": "Santa Clara impartial analysis PDF returned no machine-readable text. San Mateo impartial analysis link (smcacre.gov archival-document wrapper) returned client_error; the direct PDF path was refused as URL_NOT_ON_ALLOWLIST. Alameda's own posting was reported earlier as scanned images. The impartial analysis remains unread.",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "notes": "Santa Clara list links Primary Argument In Favor, Primary Argument Against and both rebuttals. San Mateo page links the same four. Contents not read."
+   },
+   "plainEnglish": null,
+   "fieldVerdicts": [
+    {
+     "field": "identifier",
+     "value": "Measure RTM",
+     "verdict": "supported",
+     "excerpt": "MEASURE RTM",
+     "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+    },
+    {
+     "field": "jurisdictionName",
+     "value": "Public Transit Revenue Measure District",
+     "verdict": "supported",
+     "excerpt": "Public Transit Revenue Measure District, Counties of Alameda, Contra Costa, San Mateo, Santa Clara, and the City and County of San Francisco, California",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf"
+    },
+    {
+     "field": "threshold",
+     "value": "majority",
+     "verdict": "supported",
+     "excerpt": "Passage Rate: Majority Vote Required",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+     "proposedCorrection": "Optional addition to notes: The majority is counted across all five counties combined."
+    },
+    {
+     "field": "plainEnglish",
+     "value": "Adds a 0.5% sales tax in Alameda County (0.5% in Contra Costa, San Mateo and Santa Clara, 1% in San Francisco) for 14 years. The money goes to Bay Area transit operations and related road and rider improvements. [official notice; BOS memo]",
+     "verdict": "partly-supported",
+     "interpretive": true,
+     "excerpt": "shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+     "reason": "Rates and 14 years are stated. 'Transit operations' and 'rider improvements' are not words in the ballot question; the official text lists preserving named transit systems, supporting transit safety, cleanliness, affordability, reliability, and repairing targeted roads/potholes. 'Operations' appears only in independent KQED text.",
+     "proposedCorrection": "Adds a 0.5% sales tax in Alameda County for 14 years. The rate is also 0.5% in Contra Costa, San Mateo and Santa Clara counties and 1% in San Francisco. The ballot question says the money would preserve BART, Muni, AC Transit, Caltrain and other transit, support transit safety and reliability, and repair targeted roads and potholes. [official notice]"
+    },
+    {
+     "field": "yes",
+     "value": "A YES vote approves the regional sales tax: 0.5% in Alameda County for 14 years. [official notice]",
+     "verdict": "partly-supported",
+     "interpretive": true,
+     "excerpt": "shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years ... be adopted?",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+     "reason": "Follows directly from the ballot question; the notice does not itself define a yes vote. The colon conflicts with the style rule.",
+     "proposedCorrection": "A YES vote approves the regional sales tax of 0.5% in Alameda County for 14 years. [official ballot question]"
+    },
+    {
+     "field": "no",
+     "value": "A NO vote rejects the tax, and no new regional transit sales tax is levied. [official notice]",
+     "verdict": "partly-supported",
+     "interpretive": true,
+     "excerpt": "shall the measure ... be adopted?",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+     "reason": "Follows from the question; no official document read defines a no vote.",
+     "proposedCorrection": "A NO vote rejects the tax. [official ballot question]"
+    },
+    {
+     "field": "fiscal",
+     "value": "About $980,000,000 per year across the five-county district for 14 years ... Alameda County's own share is not stated in the official documents reviewed.",
+     "verdict": "supported",
+     "excerpt": "sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf"
+    },
+    {
+     "field": "sources[1].label",
+     "value": "Official ROV memo to Board of Supervisors, Oct 6, 2026 agenda (consolidation, $980M estimate)",
+     "verdict": "supported",
+     "excerpt": "Memo dated September 15, 2026; meeting date shown October 6, 2026; signed by Cynthia Cornejo, Registrar of Voters.",
+     "url": "https://www.alamedacountyca.gov/board/bos_calendar/documents/DocsAgendaReg_10_06_26/GENERAL%20ADMINISTRATION/Regular%20Calendar/ROV_411736.pdf"
+    },
+    {
+     "field": "sources (Contra Costa list label 'updated Aug 10, 2026')",
+     "verdict": "not-found",
+     "reason": "The update date was not requested or seen in the fetched content."
+    },
+    {
+     "field": "notes",
+     "value": "...some sections rely on independent news reporting...",
+     "verdict": "partly-supported",
+     "reason": "After this audit the ballot question, rates, duration, revenue and threshold all have official support. The impartial analysis and arguments remain unread.",
+     "proposedCorrection": "The ballot question, tax rates, term, revenue estimate and vote threshold are from official county documents. The impartial analysis and ballot arguments are posted as images and have not been read. A person must check them before this is marked Verified."
+    }
+   ],
+   "otherSources": [
+    {
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+     "title": "Alameda ROV Notice of General Election, Public Transit Revenue Measure District",
+     "access": "read",
+     "notes": "Text-readable. Contains ballot question and 'Passage Rate: Majority Vote Required'. Argument filing deadlines: primary August 4, 2026; rebuttals August 11, 2026."
+    },
+    {
+     "url": "https://www.alamedacountyca.gov/board/bos_calendar/documents/DocsAgendaReg_10_06_26/GENERAL%20ADMINISTRATION/Regular%20Calendar/ROV_411736.pdf",
+     "title": "Alameda ROV memo to Board of Supervisors (Sept 15, 2026; Oct 6, 2026 meeting)",
+     "access": "read",
+     "notes": "District filed its resolution July 24, 2026."
+    },
+    {
+     "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+     "title": "Contra Costa County measure wording list",
+     "access": "read",
+     "notes": "'MEASURE RTM', 'Regional Transit Measure', 'Majority Overall Required to pass'."
+    },
+    {
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "title": "Santa Clara County list of local measures",
+     "access": "read",
+     "notes": "Measure RTM; 'Majority Vote Required'; links to IA and arguments."
+    },
+    {
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "title": "San Mateo County ACRE November 3, 2026 election page",
+     "access": "read",
+     "notes": "'Majority Voter Approval Required'; no letter or question shown in the content returned."
+    },
+    {
+     "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/public-transit-revenue-measure-district_ia_final-v1_redacted.pdf?VersionId=TbIVC.CrPBgVjFsTCN79UCBLbXA81Cuy",
+     "title": "Santa Clara impartial analysis PDF",
+     "access": "failed",
+     "notes": "[This PDF is empty or contains no machine-readable text]"
+    },
+    {
+     "url": "https://smcacre.gov/archival-document?document=https%3A%2F%2Fsmcacre.gov%2Fsystem%2Ffiles%2F2026-08%2F52-ENG-M206-ImpartialAnalysis-Public-Transit-District-Sales-Tax.pdf&title=Regional+Transit+Measure+-+Impartial+Analysis",
+     "title": "San Mateo impartial analysis (archival wrapper)",
+     "access": "failed",
+     "notes": "client_error"
+    },
+    {
+     "url": "https://smcacre.gov/archival-document?document=https%3A%2F%2Fsmcacre.gov%2Fsystem%2Ffiles%2F2026-07%2F52-ENG-M206-Contest%2520Code-Reso-Public%2520Transit%2520District%2520Sales%2520Tax_Redacted.pdf&title=Public+Transit+Revenue+Measure+District+Sales+Tax+Measure",
+     "title": "San Mateo resolution and full text (archival wrapper)",
+     "access": "failed",
+     "notes": "Wrapper page returned only a generic archival notice, not the resolution."
+    },
+    {
+     "url": "https://www.kqed.org/voterguide/california/regional-measure-rtm",
+     "title": "INDEPENDENT: KQED voter guide",
+     "access": "read",
+     "notes": "Independent only. 'Passes with a majority of the combined vote from the five participating counties.' Says funds 'would be used to fund operations at AC Transit, BART, Caltrain, Muni and other transit agencies.' Not used as sole support."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis text (all county copies unreadable or unreachable)",
+    "Content of official arguments",
+    "Start date of the tax",
+    "Alameda County share of revenue",
+    "How the measure qualified as an initiative"
+   ]
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "Alameda County",
+   "pageChecked": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+   "result": "matches",
+   "details": "Notice of General Election for the district; ballot question and majority threshold."
+  },
+  {
+   "jurisdiction": "Contra Costa County",
+   "pageChecked": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+   "result": "matches",
+   "details": "Listed as MEASURE RTM, Regional Transit Measure."
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "pageChecked": "https://vote.santaclaracounty.gov/list-local-measures-4",
+   "result": "matches",
+   "details": "Listed as Measure RTM."
+  },
+  {
+   "jurisdiction": "San Mateo County",
+   "pageChecked": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+   "result": "matches",
+   "details": "Listed as Regional Transit Measure; letter not shown in the content returned."
+  },
+  {
+   "jurisdiction": "City and County of San Francisco",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "No SF Department of Elections URL obtained before the shared web search limit was reached."
+  }
+ ],
+ "missingMeasures": [],
+ "blockers": [
+  "Impartial analysis not readable from Santa Clara (no text layer) or San Mateo (client_error); Alameda posts images.",
+  "Shared web search budget exhausted, so the San Francisco listing was not checked."
+ ]
+}

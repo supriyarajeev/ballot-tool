@@ -1,0 +1,992 @@
+{
+ "county": "ca-marin",
+ "listUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+ "listRecheck": {
+  "matched": true,
+  "notes": "All 19 Marin records plus shared Measure AB appear on the county list (20 entries, 'Page last updated on August 10, 2026'). Letters and jurisdictions match our records. The list gives a subject title only for P ('County of Marin Childcare Initiative', matches). Other entries show only the jurisdiction, so no title mismatch is possible. List notice: 'An earlier announcement listed the incorrect ballot label for Measures R and U. It has since been updated.' Several detail-page slugs linked from the list (AB, O, P, Y, CC) fail with client_error; alternate slugs worked for all but Y.",
+  "excerptMethod": "WebFetch verbatim-quote request"
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.measure-ab",
+   "identifier": "Measure AB",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure AB – Sonoma County Junior College District",
+   "ballotQuestion": {
+    "text": "Without increasing tax rates, to improve facilities to train students for careers in nursing/firefighting/first responders, building trades, agriculture, auto mechanics; attract/retain high quality faculty, prepare students for universities; repair leaky roofs; repair, construct, and acquire classrooms/sites/facilities/equipment, shall the Sonoma County Junior College District measure be adopted authorizing $830,000,000 in bonds at legal rates, levying $25 per $100,000 of assessed valuation ($55,300,000 annually), while bonds are outstanding, and with oversight/audits/local control?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": false,
+    "readingsNote": "Two readings of the same page differ. Reading 1 omitted 'building trades, agriculture, auto mechanics;' after 'nursing/firefighting/first responders'. Reading 2 (used here) included it. All amounts matched in both readings. Needs a third check or the Sonoma County official text before publishing.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond (general obligation)",
+    "evidence": "to authorize the sale of up to $830,000,000 in general obligation bonds.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "Votes required to pass: 55% voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326"
+   },
+   "fiscal": {
+    "text": "Impartial analysis: \"If all bonds are sold, the total debt services, including principal and interest, is estimated at $1,760,000,000.\" Tax rate statement: \"It is currently anticipated that the tax will be collected until fiscal year 2058-59.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-ab-110326",
+     "title": "Measure AB 11/03/26 (slug linked from the county list)",
+     "access": "failed",
+     "notes": "WebFetch error text: failed at its site (client_error), and nothing of the page was retrieved. The alternate slug above was found by WebSearch and read twice."
+    },
+    {
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "title": "Sonoma County ROV list of local measures filed (last updated 8/7/26)",
+     "access": "read",
+     "notes": "Entry title 'Sonoma County Junior College District Bond'. Excerpts: 'it has area in Sonoma, Marin, and Mendocino Counties.' 'Sonoma County is considered the \"lead county\" for this jurisdiction.'"
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question wording mismatch between readings (see readingsNote)",
+    "Shared measure: Sonoma is lead county; Mendocino voters also see it",
+    "Impartial analysis signed jointly by Sonoma, Marin and Interim Mendocino County Counsel per reading 2"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-sd-miller-creek-school-district.measure-n",
+   "identifier": "Measure N",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure N – Miller Creek School District",
+   "ballotQuestion": {
+    "text": "To improve aging local elementary/middle schools by fixing bathrooms, plumbing, roofs, HVAC, and electrical systems; upgrading classrooms to support high quality math, science, technology, reading, writing, arts/music instruction; and improve school security/ student safety, shall Miller Creek Elementary School District’s measure be adopted authorizing $67,000,000 in bonds at legal rates, with levies averaging $28 per $100,000 assessed value ($3,800,000 annually) while bonds are outstanding, independent oversight, audits and all funds locally controlled?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-n-110226",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched in wording and amounts. Ballot question names 'Miller Creek Elementary School District'; the county list and tax rate statement say 'Miller Creek School District'. Page heading reads 'Measure N 11/02/26' and the URL slug ends 110226 (date typo on the county page).",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond (general obligation)",
+    "evidence": "to authorize the sale of up to $67,000,000 in general obligation bonds.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-n-110226"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "Votes required to pass: 55% voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-n-110226"
+   },
+   "fiscal": {
+    "text": "Impartial analysis: \"The District estimates the average projected tax rate necessary to fund the bonds will be $27.55 per $100,000 of assessed value of property while the bonds are outstanding.\" Tax rate statement: \"It is currently expected that the tax will be collected until fiscal year 2060-61.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-n-110226"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-n-110226",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-n-110226"
+   },
+   "plainEnglish": "Authorizes Miller Creek Elementary School District to issue $67,000,000 in bonds to repair and upgrade schools. The ballot question estimates levies averaging $28 per $100,000 of assessed value while bonds are outstanding.",
+   "otherSources": [
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-miller-creek-school-district-110226/measure-n-full-text-110326",
+     "title": "Full text of Measure N",
+     "access": "failed",
+     "notes": "Link seen on page, not fetched (budget)."
+    }
+   ],
+   "remainingGaps": [
+    "Full text not read",
+    "Ballot question says $28 average levy; impartial analysis says $27.55 (rounding, both official)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-sd-reed-union-school-district.measure-o",
+   "identifier": "Measure O",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure O – Reed Union School District",
+   "ballotQuestion": {
+    "text": "Reed Union School District Repair, Safety, Upgrade Measure: To support quality education and retain/attract quality teachers by upgrading all Reed schools, keeping them safe; repairing deteriorating classrooms/bathrooms, leaky roofs; updating fire/electrical/security systems and earthquake safety; removing mold/asbestos; constructing, repairing facilities, acquiring equipment; shall a measure authorizing $115,000,000 in bonds at legal rates, levying $30 per $100,000 of assessed valuation, ($6,200,000 annually) while bonds are outstanding, requiring citizens’ oversight, spending disclosure/audits, be adopted?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-reed-union-school-district-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched. Read from an alternate slug found by WebSearch; the slug linked from the county list failed. The alternate page showed no impartial analysis, tax rate statement or arguments, so it may be an earlier copy.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "bond",
+    "evidence": "shall a measure authorizing $115,000,000 in bonds at legal rates",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-reed-union-school-district-110326"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "Votes required to pass: 55% voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-reed-union-school-district-110326"
+   },
+   "fiscal": {
+    "text": "levying $30 per $100,000 of assessed valuation, ($6,200,000 annually) while bonds are outstanding",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-reed-union-school-district-110326"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Authorizes Reed Union School District to issue $115,000,000 in bonds to repair and upgrade its schools. The ballot question states a levy of $30 per $100,000 of assessed valuation while bonds are outstanding.",
+   "otherSources": [
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-o-110326",
+     "title": "Measure O 11/03/26 (slug linked from county list)",
+     "access": "failed",
+     "notes": "WebFetch error text: failed at its site (client_error), and nothing of the page was retrieved."
+    },
+    {
+     "url": "https://www.thearknewspaper.com/live/tiburon-peninsula-election-field-set-for-nov-3",
+     "title": "The Ark (independent)",
+     "access": "read",
+     "notes": "Independent. 'Reed Union School District: Four candidates are running for three seats, and voters will weigh a $115 million bond.'"
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis, tax rate statement and arguments not seen (primary page unreadable)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin.measure-p",
+   "identifier": "Measure P",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure P – County of Marin Childcare Initiative",
+   "ballotQuestion": {
+    "text": "Shall the Marin County Child Care Initiative be adopted to levy a special parcel tax of 5 cents per building square foot, generating approximately $12.5 million annually for fifteen years, to fund affordable childcare and high-quality early childhood education and improve compensation to retain and attract educators, with public disclosure, optional annual inflation adjustments, and a corresponding increase in the County appropriations limit, with all funds used locally in Marin County?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-county-marin-childcare-initiative-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched. Read from alternate slug; the slug linked from the list failed (client_error).",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "initiative (special parcel tax)",
+    "evidence": "This Measure was placed on the ballot following submission of a voter initiative petition",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-county-marin-childcare-initiative-110326"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Votes required to pass: simple majority. / Impartial analysis: it will be adopted if approved by a majority of the votes cast in this election.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-county-marin-childcare-initiative-110326"
+   },
+   "fiscal": {
+    "text": "\"The initial rate of the parcel tax shall be $0.05 per square foot of structural improvements,\" \"with no more than 100,000 square feet per parcel subject to the tax.\" \"The Measure will remain in effect for fifteen years from the beginning of the parcel tax.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-county-marin-childcare-initiative-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-county-marin-childcare-initiative-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-county-marin-childcare-initiative-110326"
+   },
+   "plainEnglish": "Levies a special parcel tax of 5 cents per building square foot for fifteen years to fund childcare and early childhood education in Marin County. The ballot question estimates about $12.5 million a year.",
+   "otherSources": [
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-p-110326",
+     "title": "Measure P (slug linked from list)",
+     "access": "failed",
+     "notes": "client_error"
+    },
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-p-110326/measure-p-full-text-110326",
+     "title": "Measure P - Full Text 11/03/26",
+     "access": "read",
+     "notes": "Confirms 'a special parcel tax of 5 cents per building square foot' and 'for fifteen years'. No inflation cap stated."
+    }
+   ],
+   "remainingGaps": [
+    "Rebuttals also filed for and against per reading 1",
+    "Inflation adjustment cap not stated on pages read"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-corte-madera.measure-q",
+   "identifier": "Measure Q",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure Q – Town of Corte Madera",
+   "ballotQuestion": {
+    "text": "To maintain rapid 9-1-1 emergency response times and preserve the number of on-duty paramedics ready to respond to accidents/medical emergencies, shall the Ross Valley Paramedic Authority measure be adopted continuing for four years the paramedic services special tax of up to $94.50/ residential living unit or 1,000 square feet of developed nonresidential property, adjusted up to $7. 75/year, generating approximately $786,000 annually, with annual audits, public spending disclosure and all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-q-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Read twice (two slugs: measure-q-110326 and measure-town-corte-madera-110326); matched. '$7. 75' spacing is as published.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special parcel tax",
+    "evidence": "Measure Q (“Measure”), a Town of Corte Madera (“Town”) special parcel tax measure,",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-q-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-q-110326"
+   },
+   "fiscal": {
+    "text": "\"Ninety-four dollars and fifty cents ($94.50 to a maximum of $117.75) per year for each residential unit.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-q-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-q-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-q-110326"
+   },
+   "plainEnglish": "Continues the paramedic services special tax for four years at up to $94.50 per residential living unit or 1,000 square feet of developed nonresidential property. The ballot question estimates about $786,000 a year.",
+   "otherSources": [],
+   "remainingGaps": [
+    "Full text not read",
+    "Annual adjustment ($7.75) differs from the $4 used in the other Ross Valley Paramedic Authority measures; confirmed twice on the county page"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-fairfax.measure-r",
+   "identifier": "Measure R",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure R – Town of Fairfax",
+   "ballotQuestion": {
+    "text": "To maintain 9-1-1 emergency response times and the number of Ross Valley Paramedic Authority on-duty paramedics ready to respond to accidents/medical emergencies, shall the measure be adopted extending the Fairfax paramedic services special tax for four years at a rate of up to $107. 50/residential living unit or 1,000 square feet of developed nonresidential property, adjusted by up to $4.00/year, generating approximately $432, 000 annually, with annual audits; public spending disclosure; all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-r-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only (fetch budget). Spacing in '$107. 50' and '$432, 000' as returned. County list notes an earlier announcement had the wrong ballot label for R and U.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special parcel tax",
+    "evidence": "MEASURE EXTENDING A SPECIAL PARCEL TAX FOR FOUR (4) YEARS AND INCREASING ITS RATE",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-r-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-r-110326"
+   },
+   "fiscal": {
+    "text": "\"would extend the parcel tax for four (4) years, with a new expiration date of June 30, 2031.\" \"The tax is estimated to generate $432,000 annually until it expires.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-r-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-r-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-r-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading of ballot question not done"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-larkspur.measure-s",
+   "identifier": "Measure S",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure S – City of Larkspur",
+   "ballotQuestion": {
+    "text": "To maintain rapid 9-1-1 emergency response times and preserve the number of on-duty paramedics ready to respond to accidents/medical emergencies, shall the Ross Valley Paramedic Authority measure be adopted continuing for four years the paramedic services special tax of up to $107.50 / residential living unit or 1,000 square feet of developed nonresidential property, adjusted up to $4.00/ year, generating approximately $834,000 annually, with annual audits, public spending disclosure and all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-s-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special tax",
+    "evidence": "As a special tax, the Paramedic Tax is restricted to funding paramedic services,",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-s-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-s-110326"
+   },
+   "fiscal": {
+    "text": "\"Measure S would authorize continuing the Paramedic Tax for another 4 years, until 2031,\" \"It would authorize annual increases of $3.50, with a maximum rate in the fourth year of $118.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-s-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-s-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-s-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading not done",
+    "Ballot question says adjusted up to $4.00/year; analysis says annual increases of $3.50 (both official, verify)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-mill-valley.measure-t",
+   "identifier": "Measure T",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure T – City of Mill Valley",
+   "ballotQuestion": {
+    "text": "To renew funding exclusively for improved fire suppression activities including vegetation management and tree maintenance, and road repair and street maintenance, shall the Mill Valley Municipal Service Tax be renewed within the City of Mill Valley Community Facilities District Number 2026-1, at a rate of $303 for single family residential property, with a 2% annual adjustment, raising an average of $1.9 million annually over 10 years, and shall the appropriations limit be established, all as specified in Mill Valley City Council Resolution No. 26-49?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-t-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special tax (community facilities district)",
+    "evidence": "seeks voter approval to levy an annual special tax to pay for the above-described services and facilities",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-t-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-t-110326"
+   },
+   "fiscal": {
+    "text": "\"If approved, the special tax will be levied annually for ten years in the same manner as property taxes, commencing in fiscal year 2027- 2028.\" \"Beginning with fiscal year 2028-2029, the tax rates stated above would increase by 2% annually.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-t-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-t-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-t-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading not done",
+    "Argument in favor says 'same $303 rate'; impartial analysis says 2016 base rate $266 and rates increased (attribution, not for our text)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-ross.measure-u",
+   "identifier": "Measure U",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure U – Town of Ross",
+   "ballotQuestion": {
+    "text": "To maintain local ambulance services staffed by paramedics available to respond to 9-1-1 emergencies, shall the Ross Valley Paramedic Authority measure be adopted continuing for four years the paramedic services special tax of up to $107.50/residential living unit or 1,000 square feet of developed nonresidential property, adjusted up to $4/year, generating approximately $111,000 annually, with annual audits, public spending disclosure and all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-u-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Full text came from reading 2. Reading 1 returned only the opening clause, which matched.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special tax",
+    "evidence": "As a special tax,",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-u-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-u-110326"
+   },
+   "fiscal": {
+    "text": "\"The Town’s existing paramedic services tax is $103.50 and expires June 30, 2027.\" \"The ordinance authorizes the paramedic services tax to remain in effect for four more years, expiring on June 30, 2031.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-u-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-u-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-u-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Amounts in ballot question seen in one reading only"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-san-anselmo.measure-v",
+   "identifier": "Measure V",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure V – Town of San Anselmo",
+   "ballotQuestion": {
+    "text": "To maintain rapid 9-1-1 emergency response times and preserve the number of on-duty paramedics ready to respond to accidents/medical emergencies, shall the Ross Valley Paramedic Authority measure be adopted continuing for four years the paramedic services special tax of up to $107.50/residential living unit or 1,000 square feet of developed nonresidential property, adjusted up to $4/ year, generating approximately $688,000 annually, with annual audits, public spending disclosure and all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-v-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special tax",
+    "evidence": "As a special tax, the RVPA tax is restricted to use for paramedic services.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-v-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-v-110326"
+   },
+   "fiscal": {
+    "text": "\"If approved, the measure will raise approximately $688,000 annually beginning in fiscal year 2027-2028.\" \"If the measure is approved, the RVPA tax will terminate automatically on June 30, 2031,\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-v-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-v-110326",
+   "argumentsFiled": {
+    "for": false,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-v-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading not done"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-san-rafael.measure-w",
+   "identifier": "Measure W",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure W – City of San Rafael",
+   "ballotQuestion": {
+    "text": "San Rafael Essential Services Protection Measure. To provide locally controlled funding for essential city services, such as fire protection, paramedics, rapid 9-1-1 emergency response times; preventing street/road deterioration; addressing impacts of homelessness/litter/illegal dumping; and other services, shall the City of San Rafael’s measure be adopted increasing the current real property transfer tax rate from 0.2% to 1% (only paid upon sale), generating approximately $7,500,000 annually until ended by voters, with annual audits and public spending disclosure?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-w-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": false,
+    "readingsNote": "Amounts matched in both readings (0.2% to 1%, $7,500,000). Reading 1 began with 'San Rafael Essential Services Protection Measure.' and had a comma after 'fire protection'; reading 2 omitted the heading phrase and that comma. Text above follows reading 1; confirm whether the heading phrase is part of the ballot label.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "tax (real property transfer tax increase)",
+    "evidence": "If approved by the voters, this measure would modify Chapter 3.22 of the San Rafael Municipal Code",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-w-110326"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Votes required to pass: simple majority. / To become effective, this measure must be approved by the majority of the City of San Rafael electors voting at the election.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-w-110326"
+   },
+   "fiscal": {
+    "text": "\"It would remain in effect unless and until the voters decide to change it.\" \"The City estimates that approval of the measure would generate an additional estimated $6.0 million annually,\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-w-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-w-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-w-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "General vs special tax classification not stated in impartial analysis (only a rebuttal calls it a general tax)",
+    "Impartial analysis by City Attorney Robert F. Epstein"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-sausalito.measure-x",
+   "identifier": "Measure X",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure X – City of Sausalito",
+   "ballotQuestion": {
+    "text": "Shall the measure named the \"Arts. Industrial & Maritime Preservation and Improvement Initiative,\" which revises zoning standards in the I and W zoning district to increase permitted height, building coverage limits and floor area ratio and allow certain new land uses; repeals the Marinship Specific Plan; revises Ordinance No. 1022 to allow future city council modifications to zoning outside the Downtown Historic District; and modifies various portions of the Sausalito General Plan, be adopted?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-city-sausalito-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched, including the period after 'Arts' as published.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "initiative (zoning and general plan)",
+    "evidence": "Shall the measure named the \"Arts. Industrial & Maritime Preservation and Improvement Initiative,\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-city-sausalito-110326"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Votes required to pass: simple majority.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-city-sausalito-110326"
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Asks voters to adopt an initiative that changes zoning standards in Sausalito's I and W zoning district, repeals the Marinship Specific Plan and changes parts of the Sausalito General Plan.",
+   "otherSources": [],
+   "remainingGaps": [
+    "No impartial analysis, arguments or full text on county page",
+    "City clerk page not checked"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-county-services-area-27-ross-valley-paramedic-authority.measure-y",
+   "identifier": "Measure Y",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": "List spells 'County Services Area 27'; full text says 'COUNTY SERVICE AREA 27'. Record matches the list.",
+   "titleOnList": "Measure Y– County Services Area 27 – Ross Valley Paramedic Authority",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null,
+    "readingsNote": "Measure page failed three times (client_error).",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special tax",
+    "evidence": "It is a special tax and requires two-thirds voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-27-ross-valley-paramedic-service-area-110326/template-measure-html-060226-full-text"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "It is a special tax and requires two-thirds voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-27-ross-valley-paramedic-service-area-110326/template-measure-html-060226-full-text"
+   },
+   "fiscal": {
+    "text": "\"annually levy a special tax of $107.50 per Parcel of Taxable Real Property beginning July 1, 2027\" \"continuing for a period of four (4) years\" \"is estimated to raise $84,000 in year one local funding\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-27-ross-valley-paramedic-service-area-110326/template-measure-html-060226-full-text"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-27-ross-valley-paramedic-service-area-110326",
+     "title": "Measure Y 11/03/26",
+     "access": "failed",
+     "notes": "WebFetch error text: failed at its site (client_error), and nothing of the page was retrieved. Tried 3 times."
+    },
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-27-ross-valley-paramedic-service-area-110326/template-measure-html-060226-full-text",
+     "title": "Measure Y 11/03/26 - Full Text",
+     "access": "read",
+     "notes": "Heading 'SPECIAL TAX MEASURE FOR MARIN COUNTY SERVICE AREA 27'. No ballot question on this page. Single reading."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Impartial analysis",
+    "Arguments",
+    "Second reading of full-text figures"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-county-services-area-29-paradise-cay.measure-z",
+   "identifier": "Measure Z",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure Z – County Services Area 29 – Paradise Cay",
+   "ballotQuestion": {
+    "text": "For ongoing maintenance dredging in the principal waterways of Paradise Cay along with the north and south entry channels to San Francisco Bay, shall the measure for an annual parcel tax in County Service Area No. 29, for $2,200 per lot per year commencing in July 2027 providing an estimated $272,800 and automatically increasing 3% each year thereafter, for a total of ten years, be adopted?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-29-paradise-cay-service-area-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special parcel tax",
+    "evidence": "The existing County Service Area No. 29 special tax for funding of ongoing maintenance dredging",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-29-paradise-cay-service-area-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-29-paradise-cay-service-area-110326"
+   },
+   "fiscal": {
+    "text": "\"Beginning on July 1, 2027, the rate of the parcel tax shall be $2,200 per lot annually.\" \"the existing County Service Area No. 29 parcel tax will be continued for a period of ten years beginning July 1, 2027 and expiring June 30, 2037.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-29-paradise-cay-service-area-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-29-paradise-cay-service-area-110326",
+   "argumentsFiled": {
+    "for": false,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-csa-29-paradise-cay-service-area-110326"
+   },
+   "plainEnglish": "Levies an annual parcel tax in County Service Area No. 29 of $2,200 per lot starting July 2027, rising 3% a year, for ten years. The money funds maintenance dredging of Paradise Cay waterways and entry channels.",
+   "otherSources": [],
+   "remainingGaps": []
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-inverness-public-utility-district.measure-aa",
+   "identifier": "Measure AA",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure AA – Inverness Public Utility District",
+   "ballotQuestion": {
+    "text": "Shall the measure adjusting the appropriations limit for the Inverness Public Utility District pursuant to Article XIIIB of the California Constitution so that for each of the fiscal years 2026/2027 through 2029/2030 the appropriations limit shall include the combined total of all applicable revenue sources be adopted?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-inverness-public-utility-district-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "appropriations limit adjustment",
+    "evidence": "Measure AA does not authorize the District to impose a new assessment or increase any property tax rate.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-inverness-public-utility-district-110326"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Votes required to pass: simple majority.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-inverness-public-utility-district-110326"
+   },
+   "fiscal": {
+    "text": "\"Measure AA will not affect the tax rate.\" \"Measure AA expires automatically in 4 years and must then be resubmitted to the voters.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-inverness-public-utility-district-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-inverness-public-utility-district-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-inverness-public-utility-district-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading not done"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-kentfield-fire-protection-district.measure-bb",
+   "identifier": "Measure BB",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure BB – Kentfield Fire Protection District",
+   "ballotQuestion": {
+    "text": "To maintain rapid 9-1-1 emergency response times and preserve the number of on-duty paramedics ready to respond to accidents/medical emergencies, shall the Ross Valley Paramedic Authority measure be adopted continuing for four years the paramedic services special tax of up to $107.50/residential living unit or 1,000 square feet of developed nonresidential property, adjusted up to $4/ year, generating approximately $326,000 annually, with annual audits, public spending disclosure and all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-kentfield-fire-protection-district-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special parcel tax",
+    "evidence": "The existing Kentfield Fire Protection District special tax for funding of paramedic services",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-kentfield-fire-protection-district-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-kentfield-fire-protection-district-110326"
+   },
+   "fiscal": {
+    "text": "\"will be continued for a period of four years beginning July 1, 2027 and expiring June 30, 2031.\" \"The Kentfield Fire Protection District estimates revenue from this Measure will average approximately $326,000 annually.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-kentfield-fire-protection-district-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-kentfield-fire-protection-district-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-kentfield-fire-protection-district-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading not done"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-marin-healthcare-district.measure-cc",
+   "identifier": "Measure CC",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure CC – Marin Healthcare District",
+   "ballotQuestion": {
+    "text": "Shall the measure funding expanded and upgraded emergency room, intensive care, hospital, and other medical facilities to care for trauma, heart attack, stroke, and other patients and attract qualified doctors and nurses, with no funds for administrator salaries, by enacting a parcel tax of 14¢ per square foot of improved building area annually, generating approximately $12,400,000 annually for 30 years, subject to annual audits and citizens' committee oversight, be adopted?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-marin-healthcare-district110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched. Read from alternate slug; the slug linked from the list failed (client_error). Alternate page showed no impartial analysis or arguments, so it may be an earlier copy.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "initiative (parcel tax)",
+    "evidence": "Marin Healthcare District Initiative Measure",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-marin-healthcare-district110326"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Votes required to pass: simple majority.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-marin-healthcare-district110326"
+   },
+   "fiscal": {
+    "text": "Full text: \"at the uniform rate of fourteen cents ($0.14) per square foot of improved building area\" \"continue for thirty (30) years thereafter\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-cc-110326/measure-cc-full-text-110326"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Enacts a parcel tax of 14 cents per square foot of improved building area for 30 years to fund expanded and upgraded emergency room, intensive care, hospital and other medical facilities. The ballot question estimates about $12,400,000 a year.",
+   "otherSources": [
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-cc-110326",
+     "title": "Measure CC (slug linked from list)",
+     "access": "failed",
+     "notes": "client_error"
+    },
+    {
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-cc-110326/measure-cc-full-text-110326",
+     "title": "Measure CC - Full Text 11/03/26",
+     "access": "read",
+     "notes": "Says 'this citizens’ Initiative' and 'if approved by a simple majority of voters pursuant to controlling California case law'."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis and arguments not seen (primary page unreadable)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-sleepy-hollow-fire-protection-district.measure-dd",
+   "identifier": "Measure DD",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure DD – Sleepy Hollow Fire Protection District",
+   "ballotQuestion": {
+    "text": "To maintain rapid 9-1-1 emergency response times and preserve the number of on-duty paramedics ready to respond to accidents/medical emergencies, shall the Ross Valley Paramedic Authority measure be adopted continuing for four years the paramedic services special tax of up to $107.50/residential living unit or 1,000 square feet of developed nonresidential property, adjusted up to $4/ year, generating approximately One Hundred Five Thousand Dollars ($105,000) annually, with annual audits, public spending disclosure and all funds for local paramedic services?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sleepy-hollow-fire-protection-district-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special parcel tax",
+    "evidence": "the paramedic services special tax of up to $107.50/residential living unit",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sleepy-hollow-fire-protection-district-110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sleepy-hollow-fire-protection-district-110326"
+   },
+   "fiscal": {
+    "text": "\"will be continued for a period of four years beginning July 1, 2027 and expiring June 30, 2031.\" \"The Sleepy Hollow Fire Protection District estimates revenue from this Measure will average approximately $105,000 annually.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sleepy-hollow-fire-protection-district-110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sleepy-hollow-fire-protection-district-110326",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sleepy-hollow-fire-protection-district-110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Second reading not done"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-stinson-beach-county-water-district.measure-ee",
+   "identifier": "Measure EE",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure EE – Stinson Beach County Water District",
+   "ballotQuestion": {
+    "text": "Shall the appropriations limit of the Stinson Beach County Water District for Fiscal Year 2026-2027 be established at $1,536,312 and should the limit for that Fiscal Year (i.e., $1,536,312) be used to determine the limits for Fiscal Years 2026-2027 through 2029-2030?",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-stinson-beach-county-water-district-110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": null,
+    "readingsNote": "Single reading only.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "appropriations limit",
+    "evidence": "Shall the appropriations limit of the Stinson Beach County Water District for Fiscal Year 2026-2027 be established at $1,536,312",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-stinson-beach-county-water-district-110326"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Votes required to pass: simple majority.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-stinson-beach-county-water-district-110326"
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "No impartial analysis or arguments seen",
+    "Second reading not done"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-marin-spd-upper-bay-permanent-road-division.measure-ff",
+   "identifier": "Measure FF",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleNote": null,
+   "titleOnList": "Measure FF – Upper Bay Permanent Road Division",
+   "ballotQuestion": {
+    "text": "Shall the measure be adopted authorizing a special tax on parcels within the Division of $4,350 per improved parcel and $2,175 per unimproved parcel per year for 10 years, beginning Fiscal Year 2027-28, totaling approximately $456,750, to fund improvements; thereafter, authorizing a special tax of $455 per parcel per year for ongoing maintenance, adjusted annually effective July 1 every year in accordance with the Consumer Price Index for All Urban Consumers San Francisco—Oakland—Hayward for the previous calendar year.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-upper-bay-permanent-road-division110326",
+    "location": "Ballot question section of county measure page",
+    "readingsMatched": true,
+    "readingsNote": "Both readings matched. Ballot question says 'totaling approximately $456,750' while the impartial analysis says 'approximately $456,750 annually' (official inconsistency, confirmed twice). Analysis body also has a heading 'Measure F'.",
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "measureType": {
+    "value": "special tax (petition-initiated)",
+    "evidence": "This Measure was placed on the ballot following submission of a qualifying petition",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-upper-bay-permanent-road-division110326"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "Votes required to pass: 2/3 voter approval.",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-upper-bay-permanent-road-division110326"
+   },
+   "fiscal": {
+    "text": "\"During the first ten years of the special tax, the rate of the special tax shall be $4,350 per improved parcel per year\" \"Thereafter, the rate of the special tax shall be $455 per parcel per year.\" \"The special tax will remain in effect until repealed.\"",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-upper-bay-permanent-road-division110326"
+   },
+   "impartialAnalysisUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-upper-bay-permanent-road-division110326",
+   "argumentsFiled": {
+    "for": false,
+    "against": false,
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-upper-bay-permanent-road-division110326"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Total vs annual revenue wording conflicts between ballot question and analysis; do not state a revenue figure until resolved"
+   ]
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "Sonoma County Junior College District (Measure AB)",
+   "pageChecked": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+   "result": "matches",
+   "details": "Measure AB is on both the Marin list and the Sonoma list. Sonoma page: 'it has area in Sonoma, Marin, and Mendocino Counties.' 'Sonoma County is considered the \"lead county\" for this jurisdiction.' Multi-county measure administered by Sonoma; Marin voters in the district see it."
+  },
+  {
+   "jurisdiction": "City of Novato",
+   "pageChecked": "https://www.novato.gov/home/showpublisheddocument/40773/639198082493030000",
+   "result": "no measures listed",
+   "details": "City Clerk 'NOTICE OF ELECTION IN THE CITY OF NOVATO' (July 1, 2026) lists only Council Districts 2, 4 and 5. Consistent with county list (no Novato measure)."
+  },
+  {
+   "jurisdiction": "City of Belvedere",
+   "pageChecked": "https://cityofbelvedere.org/run-for-city-council-nomination-period-starts-july-15",
+   "result": "not reachable",
+   "details": "Page read, but it covers the Nov 5, 2024 election only. No 2026 information found. County list shows no Belvedere measure."
+  },
+  {
+   "jurisdiction": "Town of Tiburon",
+   "pageChecked": "https://www.thearknewspaper.com/live/tiburon-peninsula-election-field-set-for-nov-3",
+   "result": "not reachable",
+   "details": "Official town page not found (search budget exhausted). Independent source only mentions the Reed bond for the Peninsula. County list shows no Tiburon measure."
+  },
+  {
+   "jurisdiction": "Town of Corte Madera",
+   "pageChecked": "https://www.cortemadera.gov/562/Elections-Voter-Information",
+   "result": "not reachable",
+   "details": "WebFetch error: URL_NOT_ON_ALLOWLIST ('This URL is not on the session's allowlist, so it was not fetched.')."
+  },
+  {
+   "jurisdiction": "Town of Fairfax, City of Larkspur, City of Mill Valley, Town of Ross, Town of San Anselmo, City of San Rafael, City of Sausalito",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "City clerk pages not checked. The shared WebSearch budget ran out, and WebFetch only accepts URLs already seen. Each of these cities has one measure on the county list (R, S, T, U, V, W, X)."
+  },
+  {
+   "jurisdiction": "Reed Union School District",
+   "pageChecked": "https://www.thearknewspaper.com/live/tiburon-peninsula-election-field-set-for-nov-3",
+   "result": "matches",
+   "details": "Independent only: 'voters will weigh a $115 million bond.' District site not checked."
+  },
+  {
+   "jurisdiction": "Marin County news release (search result)",
+   "pageChecked": "https://www.marincounty.gov/news-releases/november-ballot-includes-several-local-measures?language=en",
+   "result": "no measures listed",
+   "details": "Release dated 'August 15, 2022' (Nov 8, 2022 election). Not relevant to 2026. Do not use."
+  }
+ ],
+ "missingMeasures": [],
+ "blockers": [
+  "marincounty.gov detail slugs linked from the list for AB, O, P, Y and CC return client_error. Alternates worked for AB, O, P and CC. Y has none, so its ballot question is missing.",
+  "Alternate O and CC pages show no impartial analysis or arguments. They may be earlier copies.",
+  "Measure AB and Measure W ballot question readings did not match word for word (amounts matched).",
+  "WebSearch budget (shared, 200 per turn) ran out, so 7 city clerk pages and the district sites were not checked. The county argument-deadline notice also failed (client_error).",
+  "Fetch count about 57 of 60."
+ ]
+}

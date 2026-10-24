@@ -1,0 +1,702 @@
+{
+ "n": "3",
+ "officialTitle": "PROVIDES PERMANENT FUNDING FOR SCHOOLS AND HEALTH CARE BY EXTENDING EXISTING TAX ON HIGH INCOMES.",
+ "measureType": "Initiative Constitutional Amendment",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/3/",
+   "title": "Proposition 3 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+   "title": "Proposition 3 analysis (SOS page)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Matched LAO PDF."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+   "title": "Proposition 3 analysis (PDF)",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read. Figure 1 (rate table) is an image and was not readable."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+   "title": "LAO HTML analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Fetched. The page returned the Proposition 37 analysis, not Proposition 3."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+   "title": "Arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+   "title": "Text of proposed law",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read twice. Strikeout and italic formatting lost. Accountability sections matched across reads."
+  },
+  {
+   "url": "https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension",
+   "title": "SPUR voter guide Prop 3",
+   "publisher": "SPUR (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Error text: URL_NOT_ON_ALLOWLIST 'This URL is not on the session's allowlist, so it was not fetched.' Web search budget exhausted."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Permanent top income tax rates",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Summary",
+     "excerpt": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation).",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Plain-language name consistent with the summary.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Provides permanent funding for schools and health care by extending existing tax on high incomes",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Official Title",
+     "excerpt": "PROVIDES PERMANENT FUNDING FOR SCHOOLS AND HEALTH CARE BY EXTENDING EXISTING TAX ON HIGH INCOMES.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · citizen initiative",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Measure Type",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Initiative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Measure Type",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should the higher income tax rates on top earners stay in place permanently after 2030?",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(f)(2), (f)(3), p. 115",
+     "excerpt": "For any taxable year beginning on or after January 1, 2012, and before January 1, 2031,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Fiscal Impact",
+     "excerpt": "Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Rates apply through tax year 2030 and expire in 2031.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Removes the 2030 end date on the three top income tax brackets, which in 2025 started around $371,000 for single filers and $743,000 for joint filers. Rates themselves do not change.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Summary",
+     "excerpt": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation).",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Section 2(d), p. 110",
+     "excerpt": "It does not change the existing tax rates",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(f)(2), (f)(3), p. 115",
+     "excerpt": "For any taxable year beginning on or after January 1, 2012, and before January 1, 2031,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "End date and 'rates do not change' are supported. The $371,000 single threshold is in the SOS summary (no year given, adjusted for inflation). The $743,000 joint figure, the 2025 year and 'three top brackets' were not found in any fetched source. LAO's Figure 1 (the rate table) is an image the reader could not read.",
+   "proposedText": "Removes the 2030 end date on the higher income tax rates for income over about $371,000 for single filers, adjusted yearly for inflation. Rates themselves do not change.",
+   "limitations": "Keep the joint figure and 'three brackets' only if confirmed from FTB 2025 rate schedules or LAO Figure 1."
+  },
+  {
+   "field": "yes",
+   "current": "An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "What your vote means",
+     "excerpt": "An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Yes/No Statement, p. 3",
+     "excerpt": "An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches word for word. Two sources agree.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "LAO estimates $5 billion to $15 billion a year from 2031 on, about 40% for schools.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Fiscal Impact",
+     "excerpt": "Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+     "location": "Fiscal Effects",
+     "excerpt": "Proposition 3 Would Bring in Between $5 Billion and $15 Billion Each Year.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Fiscal Effects, Funding for Education and Other Programs, p. 2",
+     "excerpt": "Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Revenue range matches. LAO says roughly 40 percent goes to schools and community colleges, not schools alone.",
+   "proposedText": "LAO estimates $5 billion to $15 billion a year from 2031 on, roughly 40% for schools and community colleges.",
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "The tax increase on high-income earners would expire in 2031.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "What your vote means",
+     "excerpt": "An income tax increase on high-income earners in place since 2012 would expire in 2031.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "Those rates on about the top 2% of filers would drop back.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Background, Prior Voter-Approved Tax Increases, p. 1",
+     "excerpt": "The top 2 percent of California taxpayers pay these higher rates.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "Estimated example using 2025 brackets. A single filer with $500,000 of taxable income pays about $1,830 a year more than if the rates expired. Someone at $300,000 pays nothing extra.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Summary",
+     "excerpt": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation).",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The $1,830 example is our own arithmetic from 2025 brackets. No fetched source gives a per-filer example. It is plausible if the extra rates are 1, 2 and 3 points above 9.3% starting near $371,000, $446,000 and $743,000, but those breakpoints were not verified.",
+   "proposedText": null,
+   "limitations": "Label it clearly as our estimate, or verify the 2025 FTB schedule before publishing the dollar figure."
+  },
+  {
+   "field": "who",
+   "current": "About the top 2% of filers, public schools, Medi-Cal patients.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Background, Prior Voter-Approved Tax Increases, p. 1",
+     "excerpt": "The top 2 percent of California taxpayers pay these higher rates.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Fiscal Effects, Funding for Education and Other Programs, p. 2",
+     "excerpt": "Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(e)(2)(F), p. 113",
+     "excerpt": "Fifty percent of that remainder, up to a maximum of two billion dollars in any single fiscal year",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+     "location": "Background",
+     "excerpt": "mainly for the state's low-income health insurance program, Medi-Cal.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Top 2 percent and schools are supported. 'Medi-Cal patients' overstates it. LAO says the 60 percent not going to schools goes to 'other state programs'. Its Medi-Cal mention describes general state spending. The text does send up to $2 billion a year to the Department of Health Care Services for children's and families' health care when Education Protection Account revenue exceeds school needs.",
+   "proposedText": "About the top 2% of filers, public schools and community colleges, and other state programs including health care.",
+   "limitations": "Reader paraphrased that the 36(e)(2)(F) money goes to DHCS for children's and families' health care. Only the opening phrase was captured verbatim."
+  },
+  {
+   "field": "out",
+   "current": "Continued funding for schools and health care after 2030.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Fiscal Effects, Funding for Education and Other Programs, p. 2",
+     "excerpt": "Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Official Title",
+     "excerpt": "PROVIDES PERMANENT FUNDING FOR SCHOOLS AND HEALTH CARE BY EXTENDING EXISTING TAX ON HIGH INCOMES.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Consistent.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "Schools and colleges must post yearly accountings of this money online, their existing annual independent audits must check it, and the Controller audits the account. No student or health outcome target.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(e)(6), p. 114",
+     "excerpt": "shall annually publish on its Internet Web site an accounting of how much money was received",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(e)(7), p. 115",
+     "excerpt": "The annual independent financial and compliance audit required of community college districts",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(g)(1), p. 115",
+     "excerpt": "shall audit the Education Protection Account to ensure that those funds are used and accounted for",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "All three items appear in Section 36. The online posting duty applies to each community college district (and per reader, county offices, school districts and charter schools). No student or health outcome target was found.",
+   "proposedText": null,
+   "limitations": "These duties appear to continue existing Prop 30 text rather than being new. The formatting loss prevents confirming that. Not a correction, just context."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says it keeps current rates on the top 2% to fund schools and health care, with annual independent audits.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Proposition 3 keeps the existing rates on the top 2% of incomes.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Every dollar in Prop. 3 is independently audited every year",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Prop. 3’s school guarantee then frees up billions that help fund Medi-Cal for children, seniors and families.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fair summary.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it makes a temporary tax permanent and the state should fix wasteful spending first.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "California voters should say NO to PERMANENTLY higher income taxes.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "California doesn’t have a revenue problem. We have a spending problem.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fair summary. 'Fix wasteful spending first' is a paraphrase of the spending-problem line.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "California Teachers Association, California State PTA, California Medical Association.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signature block",
+     "excerpt": "California Teachers Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signature block",
+     "excerpt": "California School Nurses Organization",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signature block",
+     "excerpt": "Planned Parenthood Affiliates of California",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Supporters",
+     "excerpt": "California Teachers Association; CA School Nurses Organization; California State PTA; Planned Parenthood Affiliates of CA",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "CTA and State PTA are confirmed by SOS. The California Medical Association was not found in any fetched source. Official signers are CTA, CA School Nurses Organization and Planned Parenthood Affiliates of California.",
+   "proposedText": "California Teachers Association, California School Nurses Organization, Planned Parenthood Affiliates of California (official argument), California State PTA.",
+   "limitations": "Restore CMA only with an independent source URL labeled as such. The SPUR page could not be fetched."
+  },
+  {
+   "field": "con",
+   "current": "California Taxpayers Association, Howard Jarvis Taxpayers Association, Reform California.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "California Taxpayers Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm",
+     "location": "Rebuttal to Argument in Favor, signature block",
+     "excerpt": "Howard Jarvis Taxpayers Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Opponents",
+     "excerpt": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "CalTax (argument against) and HJTA (rebuttal) are confirmed. Reform California was not found in any fetched source.",
+   "proposedText": "California Taxpayers Association, Family Business Association of California, California Hispanic Chambers of Commerce (official argument), Howard Jarvis Taxpayers Association.",
+   "limitations": "Restore Reform California only with a source."
+  },
+  {
+   "field": "risk",
+   "current": "The budget keeps leaning on a small group of earners whose income swings with markets.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+     "location": "Fiscal Effects",
+     "excerpt": "This is because much of the revenue comes from taxing income that is closely tied to the stock market,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Fiscal Effects, p. 2",
+     "excerpt": "will go up and down a lot from year to year",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO ties revenue swings to the stock market.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "unk",
+   "current": "Whether high earners move or shift income over the long run.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "LAO does not discuss taxpayers moving (reader found nothing), so it is fairly listed as unknown.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "Steady school and health funding, in exchange for keeping higher rates on top earners permanently.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Fiscal Effects, Funding for Education and Other Programs, p. 2",
+     "excerpt": "Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/",
+     "location": "Summary",
+     "excerpt": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation).",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Synthesis.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives a clear yearly range, though wide.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+     "location": "Fiscal Effects",
+     "excerpt": "Proposition 3 Would Bring in Between $5 Billion and $15 Billion Each Year.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Revenue and spending are measurable and posted, but there are no student or health targets.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(e)(6), p. 114",
+     "excerpt": "shall annually publish on its Internet Web site an accounting of how much money was received",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches. No targets found.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Annual independent audits and public posting by recipients, plus a Controller audit.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(e)(6), p. 114",
+     "excerpt": "shall annually publish on its Internet Web site an accounting of how much money was received",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(e)(7), p. 115",
+     "excerpt": "The annual independent financial and compliance audit required of community college districts",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(g)(1), p. 115",
+     "excerpt": "shall audit the Education Protection Account to ensure that those funds are used and accounted for",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "Continues an existing tax.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(f)(2), (f)(3), p. 115",
+     "excerpt": "For any taxable year beginning on or after January 1, 2012, and before January 1, 2031,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Continues existing rates.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Thirteen years of revenue data and studies on these rates.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf",
+     "location": "Article XIII Section 36(f)(2), (f)(3), p. 115",
+     "excerpt": "For any taxable year beginning on or after January 1, 2012, and before January 1, 2031,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Rates since tax year 2012 support a long revenue record. 'Studies on these rates' was not checked. Tax years 2012 to 2025 are fourteen, not thirteen.",
+   "proposedText": null,
+   "limitations": "Minor. 'More than a decade of revenue data' avoids the count issue."
+  },
+  {
+   "field": "r.lr",
+   "current": "Revenue swings with markets, a risk that already exists.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+     "location": "Fiscal Effects",
+     "excerpt": "This is because much of the revenue comes from taxing income that is closely tied to the stock market,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "Keeps $5 billion to $15 billion a year for schools and health, but no link to student results is established.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/3/analysis.htm",
+     "location": "Fiscal Effects",
+     "excerpt": "Proposition 3 Would Bring in Between $5 Billion and $15 Billion Each Year.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
+     "location": "Fiscal Effects, Funding for Education and Other Programs, p. 2",
+     "excerpt": "Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "'For schools and health' overstates it. About 40 percent goes to schools and colleges, and the rest to other state programs.",
+   "proposedText": "Keeps $5 billion to $15 billion a year, about 40% for schools and colleges, but no link to student results is established.",
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Verify the $743,000 joint threshold, the 2025 year and 'three top brackets' in does, using LAO Figure 1 or the FTB 2025 rate schedule.",
+  "The $1,830 example in money is our arithmetic. Confirm the 2025 breakpoints (about $371,000, $446,000, $743,000 single) before keeping it.",
+  "No source found for the California Medical Association (pro) or Reform California (con).",
+  "Confirm whether the online posting, audit and Controller duties are existing Prop 30 text carried forward or new language."
+ ],
+ "conflicts": [
+  "Argument in favor says the rates have been paid 'for the past 15 years'. LAO and SOS say 'in place since 2012', which is about 14 tax years through 2025.",
+  "Official title says 'Funding for Schools and Health Care'. LAO says roughly 40 percent goes to schools and community colleges and the rest to 'other state programs', with no specific health share. The text caps a DHCS health care transfer at $2 billion a year in surplus years."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

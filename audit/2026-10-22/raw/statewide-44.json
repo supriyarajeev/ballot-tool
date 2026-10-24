@@ -1,0 +1,780 @@
+{
+ "n": "44",
+ "officialTitle": "REQUIRES COMMUNITY HEALTH CLINICS SPEND 90% OF REVENUE ON PROGRAM SERVICES. INITIATIVE STATUTE.",
+ "measureType": "Initiative Statute",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/44/",
+   "title": "Proposition 44 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "First direct fetch refused (URL not on session allowlist). After the URL appeared in WebSearch results, the second fetch succeeded. Title, summary, YES/NO meaning, fiscal summary and supporter/opponent listing captured."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/44/analysis.htm",
+   "title": "Proposition 44 analysis by the Legislative Analyst (voter guide HTML)",
+   "publisher": "California Secretary of State / LAO",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once. YES/NO statements not returned on this page."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+   "title": "Proposition 44 LAO analysis PDF",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "First fetch refused (allowlist). Fetched twice after WebSearch surfaced it; numeric sentences matched across both readings. Header shows 'November 3, 2026 Ballot', no separate date."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026+",
+   "title": "LAO Ballot Analysis page, Proposition 44",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once via the URL returned by WebSearch (with trailing '+'). Contains YES/NO statements and waiver sentence."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-title-summ-analysis.pdf",
+   "title": "Proposition 44 title, summary and analysis PDF",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "partial",
+   "attempts": "Read once. Title, Attorney General summary and fiscal summary captured. YES/NO statements not returned by the reader."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+   "title": "Proposition 44 text of proposed laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Fetched twice. Tribal exclusion, escrow, publication, right of action, criminal penalty and Form 990 lines matched across readings."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44.pdf",
+   "title": "Proposition 44 arguments and rebuttals PDF",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once. Signers cross-checked against the HTML arguments page; both matched."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+   "title": "Proposition 44 arguments and rebuttals (HTML)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once; signer lists by section matched the PDF reading."
+  },
+  {
+   "url": "https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf",
+   "title": "NACHC California Health Center Fact Sheet (2022 UDS)",
+   "publisher": "National Association of Community Health Centers (independent, trade association)",
+   "documentDate": "February 2024",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Fetched twice; patient total matched."
+  },
+  {
+   "url": "https://data.hrsa.gov/topics/healthcenters/uds/overview/state/CA",
+   "title": "HRSA UDS California overview",
+   "publisher": "HRSA (official federal)",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "failed",
+   "attempts": "Fetch failed with error 'robots_disallowed'. Tried as official alternative to the NACHC patient count."
+  },
+  {
+   "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-44-health-care-spending",
+   "title": "LAist voter guide, Prop 44",
+   "publisher": "LAist (independent)",
+   "documentDate": "2026-10-01, updated 2026-10-14",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+   "title": "CalMatters on the Prop 44 campaign",
+   "publisher": "CalMatters (independent)",
+   "documentDate": "2026-10-07",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://my.lwv.org/node/73812",
+   "title": "Vote with the League! CA Ballot Measure Recommendations 2026",
+   "publisher": "League of Women Voters (independent)",
+   "documentDate": "2026-09-03, modified 2026-09-24",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Clinic 90% spending rule",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Sec. 4.1, H&S Code 1234.5(b)(1)",
+     "excerpt": "applicable 90 percent Mission Spend Ratio requirement",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Short label; text centers on a 90 percent ratio for clinics.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Requires community health clinics spend 90% of revenue on program services",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/",
+     "location": null,
+     "excerpt": "REQUIRES COMMUNITY HEALTH CLINICS SPEND 90% OF REVENUE ON PROGRAM SERVICES. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Our title matches the official ballot title word for word, minus the measure type.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Law change · citizen initiative",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/",
+     "location": null,
+     "excerpt": "INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Official type is initiative statute, which is a citizen initiative changing statute.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Initiative statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-title-summ-analysis.pdf",
+     "location": null,
+     "excerpt": "PROPOSITION REQUIRES COMMUNITY HEALTH CLINICS SPEND 90% OF 44REVENUE ON PROGRAM SERVICES. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches SOS label.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should community health clinics have to spend 90% of revenue on program services or pay penalties?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/",
+     "location": null,
+     "excerpt": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on \"program services\" advancing their charitable purpose, including but not limited to patient services.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Question restates the official summary.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Federally qualified health centers and similar clinics, with tribal clinics exempt, must spend at least 90% of revenue on program services. Any shortfall is paid as a penalty into escrow and returned only if the clinic reaches 90% within five years. The Attorney General sets what counts, starting from IRS tax-form categories.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Sec. 3.1, Gov. Code 12586.3(a)(1)",
+     "excerpt": "“Clinic” shall not include federally recognized Indian tribes, tribal organizations, or urban Indian organizations,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Sec. 4.1, H&S Code 1234.5(a)",
+     "excerpt": "Moneys held in the Special Deposit Fund shall be held in escrow for a period of five years,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Clinics could get their money back if they comply with the spending requirements within five years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Sec. 3.1, Gov. Code 12586.3(b)(1)(A)",
+     "excerpt": "This amount will be based on the data reported in the “total program service expenses” figure from line 4e of Part III",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "The California Attorney General would define in more detail which kinds of expenses are related",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Text covers FQHCs and FQHC look-alikes, excludes tribal and urban Indian organizations, holds penalties in escrow five years, and starts from IRS Form 990 line items with binding AG guidance.",
+   "proposedText": null,
+   "limitations": "Refund also requires the clinic to agree to a Department of Public Health spending plan (text 1234.5(a)); DPH may waive the requirement in exceptional circumstances (AG summary). Neither is in our text. 'Similar clinics' means FQHC look-alikes per the text."
+  },
+  {
+   "field": "yes",
+   "current": "Certain private nonprofit health clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/",
+     "location": null,
+     "excerpt": "A YES vote on this measure means: Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official YES statement except 'health care clinics' is shortened to 'health clinics'.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "LAO says clinics currently report about 80% on average.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "These clinics currently report spending an average of about 80 percent of their revenue on providing health care services, though the percent varies across clinics.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "80 percent average confirmed in two readings.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "The new requirement on health care clinic spending would not go into effect.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/",
+     "location": null,
+     "excerpt": "A NO vote on this measure means: The new requirement on health care clinic spending would not go into effect.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Verbatim.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field; nothing to verify.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "A $50 million clinic at 80% would owe $5 million that year. LAO estimates state enforcement costs of low tens of millions of dollars a year, covered by fees on clinics.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "The penalty would equal the amount of spending needed to reach the 90 percent minimum.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "State enforcement costs would be in the low tens of millions of dollars per year.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The proposition directs the state to cover the costs by charging fees on affected clinics.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "$5 million example is our arithmetic: 90% minus 80% of $50 million. Cost and fee sentences match LAO.",
+   "proposedText": null,
+   "limitations": "LAO also notes other uncertain effects on state and local costs if clinics shift spending or close; not reflected."
+  },
+  {
+   "field": "who",
+   "current": "Community health centers that served about 5.3 million patients in 2022, most with low incomes.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf",
+     "location": null,
+     "excerpt": "Total patients 5,312,677",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf",
+     "location": null,
+     "excerpt": "Income < 100% FPL 53% 12%",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Patient count and majority low income come only from NACHC, a trade association and independent source. Official HRSA page could not be read. LAO gives a clinic count, not a patient count.",
+   "proposedText": "Community health centers that served about 5.3 million patients in 2022, most with low incomes, according to their national association.",
+   "limitations": "Rule 9: independent source cannot be sole support. HRSA UDS (official) failed with robots_disallowed. NACHC counts HRSA-funded health centers; Prop 44 also covers look-alikes, so scope may differ slightly."
+  },
+  {
+   "field": "out",
+   "current": "Clinics spend at least 90% of revenue on program services or forfeit the gap.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Clinics could get their money back if they comply with the spending requirements within five years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026+",
+     "location": null,
+     "excerpt": "If clinics do not comply within five years, the state would keep the money and spend it on clinic workforce programs.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "'Forfeit the gap' overstates the immediate effect. The gap is paid as a penalty held in escrow and is refundable for five years.",
+   "proposedText": "Clinics spend at least 90% of revenue on program services or pay the gap as a penalty, refundable if they comply within five years.",
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "Yearly ratio filings posted by the Attorney General, audits, penalties, late-filing fines, patient lawsuits, and criminal penalties for knowingly false reports.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Gov. Code 12586.3(b)(4)",
+     "excerpt": "The Attorney General shall make this data publicly available on its website within 90 days of receipt.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Gov. Code 12586.3(d)",
+     "excerpt": "an administrative fine of five thousand dollars ($5,000) for a first violation",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Corp. Code 5142.1(a)",
+     "excerpt": "any patient of that FQHC may bring an action to enjoin, correct, or otherwise remedy a breach of a charitable trust",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Corp. Code 6814.1",
+     "excerpt": "is punishable by imprisonment pursuant to subdivision (h) of Section 1170 of the Penal Code,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Posting, late fines, patient suits and criminal penalties appear in the legal text. The reader reported that 12586.3(f) lets the AG audit clinics, but no verbatim audit sentence was captured.",
+   "proposedText": null,
+   "limitations": "Audit provision (Gov. Code 12586.3(f)) seen only in reader summary; capture a verbatim quote before relying on it."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says some clinics spend under half their funding on patient care, and a 90% floor curbs executive spending.",
+   "verdict": "attribution",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Yet some clinics spend less than half of their funding on patient care and services,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "But some clinic CEOs are misusing taxpayer dollars by diverting millions to inflated executive salaries",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Both claims appear in the official argument. 'Curbs executive spending' is a fair summary of the argument's framing.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument calls it poorly drafted and says it would close many clinics serving millions of patients.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "Prop. 44 is a dangerous, poorly drafted measure that would threaten care for millions of California patients.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "Force thousands of clinics throughout the state to cut back patient services or shut down entirely.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches official argument.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "SEIU-UHW.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/",
+     "location": "FOR committee contact",
+     "excerpt": "SEIU-UHW",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+     "location": null,
+     "excerpt": "SEIU-UHW is the primary proponent of the initiative",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-44-health-care-spending",
+     "location": null,
+     "excerpt": "Notable supporters: SEIU-UHW, a health workers union",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Official argument signers are Shawna Brown (Initiative Proponent) and Brisa J. Barrera (Community Clinic Worker), with no organization named. SOS lists the FOR committee contact at SEIU-UHW; independent sources name SEIU-UHW as proponent.",
+   "proposedText": null,
+   "limitations": "SOS supporter list reads 'None submitted'. Label SEIU-UHW as reported by CalMatters/LAist and listed as FOR committee contact."
+  },
+  {
+   "field": "con",
+   "current": "California Medical Association, American Academy of Pediatrics California, California Primary Care Association, Planned Parenthood, the Democratic and Republican parties.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+     "location": "Argument Against signers",
+     "excerpt": "René Bravo, M.D., President, California Medical Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm",
+     "location": "Argument Against signers",
+     "excerpt": "Eric Ball, MD, FAAP, President, American Academy of Pediatrics, California",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-44-health-care-spending",
+     "location": null,
+     "excerpt": "California Primary Care Association, California Medical Association, Planned Parenthood Affiliates of California,",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://calmatters.org/health/2026/10/union-billionaire-prop-44-clinic/",
+     "location": null,
+     "excerpt": "the California Democratic, Republican and Working Families parties",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "CMA and AAP California signed the official argument. CPCA, Planned Parenthood Affiliates of California and both parties are from independent sources (LAist, CalMatters).",
+   "proposedText": null,
+   "limitations": "Planned Parenthood is listed by LAist as 'Planned Parenthood Affiliates of California'. Other official signers not in our list: California School Nurses Organization (argument against); California Academy of Family Physicians, ACOG District IX, ACEP California Chapter (rebuttal). League of Women Voters also opposes (LWV page)."
+  },
+  {
+   "field": "risk",
+   "current": "LAO says penalties could lead some clinics to cut services or close.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Some clinics that could not meet the minimum spending requirement might close instead.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=44&year=2026+",
+     "location": null,
+     "excerpt": "affected clinics might spend more on direct health care services to comply with the requirement",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO says some clinics might close. LAO does not say clinics would cut services; it says they might spend more on direct care. 'Cut services' appears only in the opponents' argument and CalMatters.",
+   "proposedText": "LAO says some clinics that could not meet the requirement might close.",
+   "limitations": null
+  },
+  {
+   "field": "unk",
+   "current": "What the Attorney General will count as program services.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "The California Attorney General would define in more detail which kinds of expenses are related",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "AG guidance is pending, so the definition is genuinely unknown.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "Pressure to direct more clinic revenue to patient services, in exchange for penalties that could strain or close some clinics.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Some clinics that could not meet the minimum spending requirement might close instead.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Synthesis of LAO findings; no factual claim beyond LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives the enforcement cost. Penalty and closure costs unknown.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "State enforcement costs would be in the low tens of millions of dollars per year.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives enforcement cost and calls other effects uncertain.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "A 90% target reported yearly, with details set later by the Attorney General.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "The California Attorney General would define in more detail which kinds of expenses are related",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Gov. Code 12586.3(b)(4)",
+     "excerpt": "The Attorney General shall make this data publicly available on its website within 90 days of receipt.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Yearly filing and later AG detail confirmed.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Reporting, audits, penalties, patient lawsuits and criminal liability all required.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Gov. Code 12586.3(b)(4)",
+     "excerpt": "The Attorney General shall make this data publicly available on its website within 90 days of receipt.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Corp. Code 5142.1(a)",
+     "excerpt": "any patient of that FQHC may bring an action",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Reporting and penalties are mandatory. Audits are permitted ('may audit'), and patient suits and prosecutions are authorized, not required.",
+   "proposedText": "Required reporting and penalties, with audits, patient lawsuits and criminal charges authorized.",
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "Builds on existing tax-form categories, but detailed guidance is pending.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+     "location": "Gov. Code 12586.3(b)(1)(A)",
+     "excerpt": "figure from line 4e of Part III",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "using existing reports to the federal government as a starting point",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Form 990 lines are the base; AG guidance is to come.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "No independent study of the effects of this rule.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No independent study located in this audit; absence cannot be confirmed by an excerpt.",
+   "proposedText": null,
+   "limitations": "Search was limited to official and listed sources."
+  },
+  {
+   "field": "r.lr",
+   "current": "LAO says some clinics might close.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Some clinics that could not meet the minimum spending requirement might close instead.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "More transparency, but no evidence it improves care, and LAO flags possible closures.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Some clinics that could not meet the minimum spending requirement might close instead.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "'No evidence it improves care' is our judgment; closure flag matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: LAO analysis",
+   "current": "https://lao.ca.gov/ballot/2026/prop44-110326.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: Official voter guide page",
+   "current": "https://voterguide.sos.ca.gov/propositions/44/",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: Legal text",
+   "current": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: Official arguments",
+   "current": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: NACHC California health center fact sheet (patient count)",
+   "current": "https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Read; independent trade association source.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Patient count of 5.3 million rests only on NACHC (independent). HRSA UDS state page returned robots_disallowed; confirm from an official HRSA or HCAI source.",
+  "Confirm whether 'does' should mention the DPH waiver for exceptional circumstances and the spending-plan condition on refunds.",
+  "SOS 'Official arguments' src entry points to prop44.pdf; the SOS also hosts prop44-arg-rebuttals.pdf (seen in search, not fetched)."
+ ],
+ "conflicts": [
+  "LAO says clinics might spend more on direct care or close; opponents' argument and CalMatters say clinics would cut services, cut staff or close. Our 'risk' attributes service cuts to LAO.",
+  "SOS supporter list says 'None submitted', while the FOR committee contact is SEIU-UHW and press names SEIU-UHW as primary proponent."
+ ]
+}

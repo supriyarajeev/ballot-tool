@@ -1,0 +1,770 @@
+{
+ "n": "40",
+ "officialTitle": "Imposes One-Time Tax on Certain Taxpayers. Initiative Constitutional Amendment and Statute.",
+ "measureType": "Initiative Constitutional Amendment and Statute",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+   "title": "Proposition 40 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Opened after surfacing in WebSearch."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm",
+   "title": "Proposition 40 arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once for signers. Matched the print PDF (second reading)."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+   "title": "Proposition 40 print section with arguments",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+   "title": "Proposition 40 text of proposed laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read three times. PDF begins with the end of Prop 39 text. Key provisions matched across readings."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+   "title": "Proposition 42 text of proposed laws (appeared to include Prop 41 text)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+   "title": "Proposition 40 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. No mention of Props 41 or 42."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=40&year=2026",
+   "title": "LAO web page, Prop 40",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Without '+' returned unrelated content ('No direct state or local costs'). With '+' returned the Proposition 1 page."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+   "title": "Proposition 41 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. No mention of Prop 40."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop42-110326.pdf",
+   "title": "Proposition 42 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. No mention of Prop 40."
+  },
+  {
+   "url": "https://www.hoover.org/research/prop-40-billionaire-tax-act",
+   "title": "Hoover Institution analysis (as listed in src)",
+   "publisher": "Hoover Institution (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "URL_NOT_ON_ALLOWLIST."
+  },
+  {
+   "url": "https://www.hoover.org/proposition-lab-proposition-40",
+   "title": "Proposition Lab: Proposition 40",
+   "publisher": "Hoover Institution (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. No author or date shown."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+   "title": "2026 California billionaire tax initiative",
+   "publisher": "Wikipedia (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://fullertonobserver.com/2026/09/01/follow-the-money-on-billionaire-tax/",
+   "title": "Follow the Money on Billionaire Tax",
+   "publisher": "Fullerton Observer (independent)",
+   "documentDate": "2026-09-01",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "One-time billionaire tax",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "a one-time state tax equal to 5 percent of their net worth.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Imposes one-time tax on certain taxpayers",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+     "location": "Official title",
+     "excerpt": "IMPOSES ONE-TIME TAX ON CERTAIN TAXPAYERS. INITIATIVE CONSTITUTIONAL AMENDMENT AND STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "One-time tax · citizen initiative",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Imposes One-Time Tax on Certain Taxpayers. Initiative Constitutional Amendment and Statute.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Initiative constitutional amendment and statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+     "location": "Official title",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT AND STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should billionaires pay a one-time 5% tax on their net worth, mostly for health care?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Ninety percent of the money would have to be spent on health care services for the public.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Taxes people worth over $1 billion who lived in California on January 1, 2026 at 5% of their net worth, once, payable over five years with a 7.5% yearly charge on the unpaid balance. Real estate, pensions and retirement accounts are generally excluded. 90% of the money goes to public health care and 10% to education and food assistance.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50301(a)",
+     "excerpt": "applicable individuals with net worth of one billion dollars ($1,000,000,000) or more",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "billionaires who were residents of California on January 1, 2026.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50301(c)",
+     "excerpt": "pay annually in five equal installments commencing in the year the tax is due,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50301(c)",
+     "excerpt": "deferral charge of 7.5 percent of the remaining unpaid balance.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Real estate, pensions, and retirement accounts generally would be excluded from the tax.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "Cal. Const. art. XIII, sec. 37(d)",
+     "excerpt": "After accounting for administrative expenses as provided by law",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "Gov. Code 16355(b)",
+     "excerpt": "Ninety percent shall be allocated to the Billionaire Tax Health Account",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "Gov. Code 16355(b)",
+     "excerpt": "Ten percent shall be allocated to the Billionaire Tax Education and Food Assistance Account",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Rate, residency date, five-year option, 7.5% charge and exclusions confirmed. Two imprecisions. The threshold is $1 billion or more, with a reduced rate below $1.1 billion. The 90/10 split applies after administrative costs.",
+   "proposedText": "Taxes people worth $1 billion or more who lived in California on January 1, 2026 at 5% of their net worth, once, with a lower rate just above $1 billion. It can be paid over five years with a 7.5% yearly charge on the unpaid balance. Real estate, pensions and retirement accounts are generally excluded. After administrative costs, 90% goes to public health care and 10% to education and food assistance.",
+   "limitations": "Reduced rate detail ('reduced by 0.1 percentage point for each $2 million below' $1.1 billion) was read once and paraphrased by the reader. Large Roth-type accounts over $10 million are not exempt per the reader."
+  },
+  {
+   "field": "yes",
+   "current": "The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+     "location": "What your vote means",
+     "excerpt": "The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Verbatim.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "LAO estimates tens of billions of dollars over several years.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "The state probably would collect tens of billions of dollars from the wealth tax.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "This temporary increase in state tax collections would be spread across several years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "The state would not collect this one-time tax.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "The state would not collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "LAO says tens of billions over several years. Hoover estimates about $40 billion and supporters about $100 billion. LAO also notes the state could lose under $1 billion a year in income tax if billionaires leave.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+     "location": "Fiscal effect",
+     "excerpt": "Temporary revenue increase of tens of billions of dollars spread over several years from wealth tax on billionaires.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+     "location": "Fiscal effect",
+     "excerpt": "Possible ongoing decrease of less than $1 billion per year in income tax revenue from billionaires.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hoover.org/proposition-lab-proposition-40",
+     "location": null,
+     "excerpt": "will collect about $40 billion over five years.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.hoover.org/proposition-lab-proposition-40",
+     "location": null,
+     "excerpt": "Proponents claim it will raise $100 billion.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO figures confirmed. Hoover $40 billion confirmed on the Hoover Proposition Lab page. Supporters' $100 billion confirmed via Hoover and Wikipedia (citing LA Times).",
+   "proposedText": null,
+   "limitations": "The src Hoover URL (https://www.hoover.org/research/prop-40-billionaire-tax-act) was refused by the allowlist. Figures come from the Proposition Lab page instead, which shows no author or date."
+  },
+  {
+   "field": "who",
+   "current": "A few hundred billionaires (supporters estimate 200 to 250), Medi-Cal and public health care.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "California is home to a few hundred people with net worth over $1 billion,",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument in favor",
+     "excerpt": "Prop. 40 makes approximately 200 California billionaires pay a modest, one-time tax on their global wealth",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "'A few hundred' is LAO's count of billionaires in general. The supporters' official argument says about 200, not 200 to 250.",
+   "proposedText": "A few hundred billionaires (supporters say about 200), Medi-Cal and public health care.",
+   "limitations": "Medi-Cal is not named in the fetched excerpts. LAO says health care services for the public."
+  },
+  {
+   "field": "out",
+   "current": "A one-time transfer of tens of billions from billionaires to public health care over about five years.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "These wealth tax revenues probably would add up to tens of billions of dollars spread over several years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Consistent. 'About five years' matches the five-installment option.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "A yearly Department of Finance report to the Legislature, Franchise Tax Board review of every return, understatement penalties, and a fast court validation case. No State Auditor audit of the spending.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "Gov. Code 16355(f)",
+     "excerpt": "Upon enactment of the 2026 Billionaire Tax Act and each fiscal year thereafter that the Reserve Fund is in existence",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50301(e)(1)",
+     "excerpt": "The board shall examine all returns submitted in accordance with this part",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50312(c)(1)",
+     "excerpt": "shall be an amount equal to 20 percent of any understatement of tax",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50314(c)",
+     "excerpt": "A validation action shall not be filed more than 60 days after the approval of the act by the voters.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "All elements confirmed. Reader twice reported no 'State Auditor' in Prop 40's text.",
+   "proposedText": null,
+   "limitations": "Absence of State Auditor audit rests on the reader's search of the text."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says federal cuts took health coverage away and a one-time tax on billionaires would restore it.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument in favor",
+     "excerpt": "eliminating coverage for over a million Californians and doubling health insurance premiums for millions more.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument in favor",
+     "excerpt": "It will allow millions of Californians to keep their health insurance and not see their premiums skyrocket.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it is a risky tax that would drive out residents and businesses and has no spending safeguards.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument against",
+     "excerpt": "We shouldn't risk California's future on a costly economic experiment.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument against",
+     "excerpt": "as the tax drives companies and wealthy residents out-of-state.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument against",
+     "excerpt": "But Prop. 40 includes no accountability, transparency or oversight provisions to ensure funds are spent as intended.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "SEIU-UHW, Planned Parenthood Pacific Southwest, Sen. Bernie Sanders, California Democratic Party.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument in favor, signers",
+     "excerpt": "Suzanne Jimenez, Chief of Staff / SEIU-United Healthcare Workers West",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument in favor, signers",
+     "excerpt": "Victoria Barron, Patient Access Specialist / Planned Parenthood of Pacific Southwest",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+     "location": null,
+     "excerpt": "has endorsed the billionaire tax.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "SEIU-UHW confirmed. The Planned Parenthood signer is a staff member (Patient Access Specialist) and the printed name is 'Planned Parenthood of Pacific Southwest'. Wikipedia reports a Planned Parenthood entity criticized the measure, so organizational support is not established. Sanders is supported only by Wikipedia. California Democratic Party support was not found in any fetched source.",
+   "proposedText": "SEIU-UHW (official argument, with a Planned Parenthood of Pacific Southwest staff member and an AFT Local 1521 member). Wikipedia reports Sen. Bernie Sanders endorsed it.",
+   "limitations": "Need an independent source for the California Democratic Party position before keeping it."
+  },
+  {
+   "field": "con",
+   "current": "California Medical Association, California Primary Care Association, California School Boards Association, Gov. Newsom. Sergey Brin funds the campaign for Props 41 and 42.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "René Bravo, M.D., President / California Medical Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Francisco Silva, CEO / California Primary Care Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Dr. Debra Schade, President / California School Boards Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/2026_California_billionaire_tax_initiative",
+     "location": null,
+     "excerpt": "has vocally opposed the tax.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://fullertonobserver.com/2026/09/01/follow-the-money-on-billionaire-tax/",
+     "location": null,
+     "excerpt": "$63.3 million: Building a Better California (major funders: Google co-founder Sergey Brin;",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Three organizations confirmed as official signers. Newsom opposition is independent (Wikipedia citing Politico). Brin is a major funder of Building a Better California, which funds Yes on 41 and 42 and also No on 40, per Fullerton Observer tables.",
+   "proposedText": "California Medical Association, California Primary Care Association, California School Boards Association (official argument). Independent reports add Gov. Newsom. A committee funded largely by Sergey Brin backs Props 41 and 42 and opposes Prop 40.",
+   "limitations": "Fullerton Observer tables read once."
+  },
+  {
+   "field": "risk",
+   "current": "Court challenges, and courts could block it if Prop 41 or 42 also passes with more yes votes, according to the LAO.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+     "location": "Prop 42, sec. 5(a)(1)",
+     "excerpt": "In the event that this initiative measure receives a greater number of affirmative votes,",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+     "location": "Prop 42, sec. 5(a)(1)",
+     "excerpt": "and all the provisions of the other measure shall be null and void.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+     "location": "Prop 42 and Prop 41 application clause",
+     "excerpt": "including measures that appear on the ballot at the same election",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Exactly when and how much the state would collect is very hard to predict for many reasons.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The mechanism is real, but it comes from the legal text of Props 41 and 42, not from LAO. The Prop 40, 41 and 42 LAO analyses each returned no mention of the other measures.",
+   "proposedText": "Court challenges are likely. Props 41 and 42 each say that if they pass with more yes votes, conflicting measures like Prop 40 are void.",
+   "limitations": "Prop 41 and 42 conflict clauses were read once through a PDF that appeared to combine both texts. Whether Prop 41's clause covers Prop 40 depends on Prop 40's spending-limit exemption, which the SOS summary confirms ('Exempts revenues from constitutional requirements for school funding and spending limit.')."
+  },
+  {
+   "field": "unk",
+   "current": "How courts treat the look-back residency date.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+     "location": "Prop 42, Art. VIII sec. 2(a)(2)",
+     "excerpt": "This subdivision also applies to a tax that is imposed on a taxpayer based upon their residency status",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Prop 42 targets residency look-back taxes, which supports this as an open legal question.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "Tens of billions for health care, in exchange for legal uncertainty and possible long-term income tax losses if billionaires leave.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "These responses probably would reduce state revenues by less than $1 billion per year.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Consistent with LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO says tens of billions. Outside estimates range from about $40 billion to $100 billion.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://www.hoover.org/proposition-lab-proposition-40",
+     "location": null,
+     "excerpt": "will collect about $40 billion over five years.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.hoover.org/proposition-lab-proposition-40",
+     "location": null,
+     "excerpt": "Proponents claim it will raise $100 billion.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO figure confirmed. $100 billion is the supporters' claim, not an outside estimate, so 'outside estimates range from about $40 billion to $100 billion' is imprecise.",
+   "proposedText": "LAO says tens of billions. Hoover estimates about $40 billion and supporters claim about $100 billion.",
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Tax collected and its split are measurable, but there are no health targets.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "Gov. Code 16355(b)",
+     "excerpt": "Ninety percent shall be allocated to the Billionaire Tax Health Account",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Split measurable. No health targets found.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Required yearly report, return review and penalties, but no independent audit of spending.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+     "location": "R&TC 50301(e)(1)",
+     "excerpt": "The board shall examine all returns submitted in accordance with this part",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Consistent with acct.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "The first U.S. wealth tax of its kind, with new valuation work.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No fetched source says it is the first U.S. wealth tax of its kind.",
+   "proposedText": null,
+   "limitations": "Our judgment. Source or soften."
+  },
+  {
+   "field": "r.ev",
+   "current": "No U.S. precedent for this approach.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No fetched source addresses U.S. precedent.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Departures, lawsuits, and possible blocking by Props 41 or 42.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/40/index.htm",
+     "location": "Fiscal effect",
+     "excerpt": "Possible ongoing decrease of less than $1 billion per year in income tax revenue from billionaires.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Consistent with risk field and LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "Tens of billions for health care per LAO, but Hoover projects a net loss, so the overall effect is genuinely uncertain.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://www.hoover.org/proposition-lab-proposition-40",
+     "location": null,
+     "excerpt": "the act would cause California to lose at least $25 billion for the state over the long run.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Hoover projects a long-run net loss.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src",
+   "current": "https://lao.ca.gov/ballot/2026/prop40-110326.pdf; https://voterguide.sos.ca.gov/propositions/40/; https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf; https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40.pdf; https://www.hoover.org/research/prop-40-billionaire-tax-act",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "LAO, SOS page, legal text and arguments PDF opened. The listed Hoover URL was refused by the allowlist. The equivalent Hoover Proposition Lab page opened.",
+   "proposedText": null,
+   "limitations": "Suggest adding Prop 41 and 42 legal text for the risk field, and confirming the Hoover URL."
+  }
+ ],
+ "specificGaps": [
+  "risk: our text credits LAO for the Props 41 and 42 blocking effect. LAO analyses of 40, 41 and 42 do not mention it. The effect rests on the conflict clauses in the Prop 41 and 42 legal text.",
+  "pro: no source found for California Democratic Party support of Prop 40. WebSearch budget ran out before a targeted search.",
+  "who: 'Medi-Cal' is not named in the fetched LAO excerpts.",
+  "Prop 40's own conflict clause says it prevails if it gets more votes but is silent if a conflicting measure gets more. Courts would decide."
+ ],
+ "conflicts": [
+  "Official argument for Prop 40 is co-signed by a Planned Parenthood of Pacific Southwest staff member. Wikipedia (citing Politico) reports Planned Parenthood joined the California Medical Association in criticizing the measure.",
+  "Supporters' official argument says about 200 billionaires. Our text says 200 to 250. Wikipedia (citing Fortune) says an estimated 214."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

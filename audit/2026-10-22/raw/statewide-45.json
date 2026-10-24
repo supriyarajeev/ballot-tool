@@ -1,0 +1,851 @@
+{
+ "n": "45",
+ "officialTitle": "MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. INITIATIVE STATUTE.",
+ "measureType": "Initiative Statute",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/45/",
+   "title": "Proposition 45 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "failed",
+   "attempts": "Fetch refused twice with URL_NOT_ON_ALLOWLIST ('This URL is not on the session's allowlist, so it was not fetched.'). It did not appear in WebSearch results. Title and YES/NO taken from the SOS analysis page, title-summary PDF and LAO instead."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+   "title": "Proposition 45 analysis by the Legislative Analyst (voter guide HTML)",
+   "publisher": "California Secretary of State / LAO",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once. Figure 1 alt text listed nine eligible project types."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+   "title": "Proposition 45 LAO analysis PDF",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "partial",
+   "attempts": "First fetch refused (allowlist); read twice after WebSearch surfaced it. Figure 1 contents not returned by the reader. Cost sentences matched across readings."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026+",
+   "title": "LAO Ballot Analysis page, Proposition 45",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read twice (second pass searched for 'exempt', '2025', 'recently'). YES/NO statements captured."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-title-summ-analysis.pdf",
+   "title": "Proposition 45 title, summary and analysis PDF",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "partial",
+   "attempts": "Read once. Title, AG summary and fiscal summary captured; YES/NO statements not returned."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+   "title": "Proposition 45 text of proposed laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Fetched twice. Section 21027 deadlines, remedy limit and 21028 tribe definition matched across readings."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45.pdf",
+   "title": "Proposition 45 arguments and rebuttals PDF",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once; signer lists matched the HTML page."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+   "title": "Proposition 45 arguments and rebuttals (HTML)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://www.housingwire.com/articles/california-prop-45-ceqa-timelines/",
+   "title": "HousingWire on Prop 45 and CEQA timelines",
+   "publisher": "HousingWire (independent)",
+   "documentDate": "2026-10-12",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "First fetch refused (allowlist); succeeded after WebSearch. No lawsuit-duration figure in the article."
+  },
+  {
+   "url": "https://www.hklaw.com/en/news/pressreleases/2026/09/ceqa-appeals-increasingly-target-infill-development",
+   "title": "Holland & Knight press release on CEQA appeals study",
+   "publisher": "Holland & Knight (interested party)",
+   "documentDate": "2026-09-24",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects",
+   "title": "Why California Can't Build Reliable and Affordable Essential Projects",
+   "publisher": "Holland & Knight (interested party)",
+   "documentDate": "September 2026",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+   "title": "LAist voter guide, Prop 45",
+   "publisher": "LAist (independent)",
+   "documentDate": "2026-10-06, updated 2026-10-19",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+   "title": "CalMatters voter guide, Prop 45",
+   "publisher": "CalMatters (independent)",
+   "documentDate": "2026-10-01, modified 2026-10-21",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://www.kqed.org/voterguide/california/proposition-45",
+   "title": "KQED voter guide, Prop 45",
+   "publisher": "KQED (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://my.lwv.org/node/73812",
+   "title": "Vote with the League! CA Ballot Measure Recommendations 2026",
+   "publisher": "League of Women Voters (organization's own statement)",
+   "documentDate": "2026-09-03, modified 2026-09-24",
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://www.manatt.com/insights/newsletters/client-alert/major-ceqa-reform-bills-exempt-variety-of-residential-and-nonresidential-projects",
+   "title": "Manatt client alert on AB 130 and SB 131",
+   "publisher": "Manatt (independent law firm)",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once."
+  },
+  {
+   "url": "https://www.rwglaw.com/newsroom-news-CEQA-SB-131-exemptions",
+   "title": "RWG newsroom on SB 131 exemptions",
+   "publisher": "Richards Watson Gershon (independent law firm)",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once; lists ten categories plus a separate advanced manufacturing exemption, no stated count."
+  },
+  {
+   "url": "https://www.bhfs.com/insight/ceqa-reform-ab-130-and-sb-131-create-series-of-exemptions-for-wide-range-of-projects/",
+   "title": "BHFS on AB 130 and SB 131",
+   "publisher": "Brownstein (independent law firm)",
+   "documentDate": null,
+   "retrieved": "2026-10-22",
+   "access": "read",
+   "attempts": "Read once; says 'multiple' exemptions, no count."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Environmental review fast track",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-title-summ-analysis.pdf",
+     "location": null,
+     "excerpt": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for specifed project categories",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Short label consistent with AG summary (reader reproduced OCR spelling 'specifed').",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Modifies environmental review for certain projects",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-title-summ-analysis.pdf",
+     "location": null,
+     "excerpt": "PROPOSITION MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. 45INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches official title; '45' is a layout artifact. Same title on SOS analysis page.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Law change · citizen initiative",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+     "location": null,
+     "excerpt": "MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Initiative statute.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Initiative statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+     "location": null,
+     "excerpt": "MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. INITIATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches SOS label.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should nine kinds of projects, led by housing, get an optional fast track through environmental review?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21015(a)",
+     "excerpt": "an applicant may elect to utilize none, some, or all of the provisions of this chapter",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+     "location": "Figure 1 alt text",
+     "excerpt": "Housing.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Optional procedures and nine LAO-listed types confirmed. 'Led by housing' reflects housing being listed first.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Nine project types (housing, water, clean energy, health facilities, fire and police stations, wildfire risk reduction, broadband, schools, transportation) can opt into a faster environmental review (CEQA) with firm deadlines. Lawsuits must be filed within 30 days and decided within 270 days including appeals, which courts may extend by 90. Courts can pause only the flawed part of a project.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/analysis.htm",
+     "location": "Figure 1 alt text",
+     "excerpt": "Housing. Water system (not including Delta conveyance facilities). Clean energy (not including nuclear power). Health facility, clinic, and medical office building. Fire, police, and sheriff’s stations. Wildfire risk reduction. Broadband Internet access. Education facility. Transportation (not including high-speed rail).",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21027(a)(1)(A)",
+     "excerpt": "shall be commenced within 30 days from the date the public agency files a notice of determination or notice of exemption",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21027(a)(1)(A)",
+     "excerpt": "The action or proceeding shall be completed within 270 days, inclusive of original and appellate court proceedings,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21027(a)(1)(B)",
+     "excerpt": "The court may, in its own discretion, extend the 270-day deadline contained in subparagraph (A) by up to an additional 90 days.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21027(a)(2)",
+     "excerpt": "shall only be extended upon mutual written consent of the plaintiff or petitioner",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3, PROPOSAL",
+     "excerpt": "Instead, the court can only stop the part of the project where the environmental review did not comply with CEQA",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Types, 30-day filing, 270-day completion, 90-day court extension and partial halt all confirmed. The text also allows further extension by mutual written consent of the parties, so '270 days ... which courts may extend by 90' is incomplete. 'Schools' is narrower than LAO's 'Education facility'.",
+   "proposedText": "Nine project types (housing, water, clean energy, health facilities, fire and police stations, wildfire risk reduction, broadband, education facilities, transportation) can opt into a faster environmental review (CEQA) with firm deadlines. Lawsuits must be filed within 30 days and decided within 270 days including appeals. Courts may add up to 90 days, and longer only if all parties agree. Courts can pause only the flawed part of a project.",
+   "limitations": "LAO excludes Delta conveyance, nuclear and high-speed rail from the categories; not mentioned in our text."
+  },
+  {
+   "field": "yes",
+   "current": "Certain public and private projects would be eligible for new project review and court challenge procedures.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": null,
+     "excerpt": "Certain public and private projects would be eligible for new project review and court challenge procedures.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Verbatim LAO YES statement.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "Projects would continue to use existing review and court challenge procedures.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": null,
+     "excerpt": "Public and private projects would continue to use existing project review and court challenge procedures.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Close paraphrase of LAO NO statement; drops 'Public and private' and 'project'.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "This includes ten exemptions the Legislature passed in 2025.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://www.manatt.com/insights/newsletters/client-alert/major-ceqa-reform-bills-exempt-variety-of-residential-and-nonresidential-projects",
+     "location": null,
+     "excerpt": "Together, these bills create ten new CEQA exemptions aimed at fast-tracking housing, childcare, water infrastructure,",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.bhfs.com/insight/ceqa-reform-ab-130-and-sb-131-create-series-of-exemptions-for-wide-range-of-projects/",
+     "location": null,
+     "excerpt": "On June 30, 2025, California Gov. Gavin Newsom signed into law budget trailer bills AB 130 and SB 131",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21015(c)(2)",
+     "excerpt": "as added by Section 59 of Chapter 22 of the Statutes of 2025 (Assembly Bill 130)",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "The count of ten comes only from one independent law-firm alert; another firm lists ten categories plus a separate manufacturing exemption, and LAO/SOS do not mention 2025 exemptions. Existence of 2025 exemptions (AB 130, SB 131) is confirmed by multiple law firms.",
+   "proposedText": "This includes CEQA exemptions the Legislature passed in 2025.",
+   "limitations": "Rule 9: no official source for the count. Prop 45 text also references AB 130 for housing projects that use the new chapter, so the 2025 laws are not only a NO-side feature."
+  },
+  {
+   "field": "money",
+   "current": "LAO estimates initial state and local costs likely in the high tens of millions a year, possibly over $100 million, partly covered by fees. Long-term effects are uncertain.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3, FISCAL EFFECTS",
+     "excerpt": "These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "Fees paid by project applicants and people filing lawsuits would cover some of these costs.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-title-summ-analysis.pdf",
+     "location": null,
+     "excerpt": "In the longer term, uncertain, but potentially more signifcant positive or negative fscal efects for state and local governments.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Matches LAO in two readings.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "Developers, public agencies, courts, tribes, neighbors of projects.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3, PROPOSAL",
+     "excerpt": "Requires the agency and applicant to consult about the project only with California native tribes",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Parties listed follow from the procedures LAO describes.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Projects that opt in get environmental review and court decisions within fixed deadlines.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026+",
+     "location": null,
+     "excerpt": "the 365-business-day time limit for finishing the EIR",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21027(a)(1)(A)",
+     "excerpt": "The action or proceeding shall be completed within 270 days, inclusive of original and appellate court proceedings,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fixed deadlines confirmed.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "No reporting, audit or outcome target. Deadlines are enforced through the courts and applicant challenges when agencies miss them.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21020(e)",
+     "excerpt": "have a nondiscretionary ministerial duty to comply with the deadlines set forth in this section",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21020(g)(2)",
+     "excerpt": "The action shall be commenced within 90 days of the agency’s failure",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026+",
+     "location": null,
+     "excerpt": "allows an applicant to request an agency hearing",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Text has no general reporting, audit or data-collection duty (reader found only record-keeping of scoping meetings). Applicants can request hearings and sue when agencies miss deadlines.",
+   "proposedText": null,
+   "limitations": "Absence of reporting/audit rests on the reader's scan of the full text."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says approvals are too slow and costly for housing, water, energy, schools and hospitals, and this keeps protections.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "California’s outdated system for approving essential housing, water, clean energy, roads, schools, hospitals, and wildfire prevention projects is too slow, too bureaucratic, and too costly",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Prop. 45 does not exempt a single project from environmental review.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches official argument.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it limits environmental review and public input while its funders profit.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "Proposition 45 limits both the environmental review of major new development projects and the public’s right to be heard.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "The corporations paying for Prop. 45 will profit while you keep paying.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches official argument.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "California Chamber of Commerce, California Hospital Association, California Water Association.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm",
+     "location": "Argument in Favor signers",
+     "excerpt": "Jennifer Capitolo, Executive Director, California Water Association",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-45-environmental-review/",
+     "location": null,
+     "excerpt": "Placed on the ballot by the California Chamber of Commerce.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+     "location": null,
+     "excerpt": "California Hospital Association, California Water Association.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "California Water Association signed the official argument. CalChamber (sponsor) and California Hospital Association come from independent sources.",
+   "proposedText": null,
+   "limitations": "Other official signers not in our list: California Children's Hospital Association, California Council on Affordable Housing, Family Business Association of California. LAist and KQED also list the California Republican Party as a supporter; our 'con' lists the Democratic Party but 'pro' omits the Republican Party."
+  },
+  {
+   "field": "con",
+   "current": "California Labor Federation, Sierra Club California, League of Women Voters, California Democratic Party.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+     "location": null,
+     "excerpt": "Notable opponents: California Democratic Party, Sierra Club of California, California Labor Federation,",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://my.lwv.org/node/73812",
+     "location": null,
+     "excerpt": "NO on PROP 45 - Changes CEQA Review for Essential Projects",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "All four names confirmed by independent sources or the organization's own page. None signed the official argument.",
+   "proposedText": null,
+   "limitations": "Official argument signers are Coalition for Clean Air, Clean Water Action and California Environmental Voters; none appear in our list. LAist names 'Sierra Club of California'; confirm exact name."
+  },
+  {
+   "field": "risk",
+   "current": "Narrower review, including consultation only with federally recognized tribes, and possible disputes over which projects qualify.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3, PROPOSAL",
+     "excerpt": "Requires the agency and applicant to consult about the project only with California native tribes",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21028(e)(1)",
+     "excerpt": "“Consulting tribe” means a tribe that appears on the most recent list published by the United States pursuant to the Federally Recognized Indian Tribe List Act of 1994",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-title-summ-analysis.pdf",
+     "location": null,
+     "excerpt": "Allows expedited review of environmental impacts, limiting public agencies’ current obligation to consider a range of feasible project alternatives to reduce environmental impacts.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Narrower review and federal-tribe-only consultation are confirmed. 'Disputes over which projects qualify' is not stated by LAO or the AG summary.",
+   "proposedText": "Narrower review, including fewer alternatives considered and consultation only with federally recognized tribes.",
+   "limitations": null
+  },
+  {
+   "field": "unk",
+   "current": "How many projects opt in and whether housing gets built faster. There is no neutral figure for how long CEQA lawsuits take today. A study by Holland & Knight attorney Jennifer Hernandez, who helped write Prop 45, puts it at about five years.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects",
+     "location": null,
+     "excerpt": "CEQA trial and appellate court proceedings typically take about five years to complete.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.hklaw.com/en/news/pressreleases/2026/09/ceqa-appeals-increasingly-target-infill-development",
+     "location": null,
+     "excerpt": "CEQA lawsuits, inclusive of appeals, typically take four to five years to resolve",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.hklaw.com/en/news/pressreleases/2026/09/ceqa-appeals-increasingly-target-infill-development",
+     "location": null,
+     "excerpt": "head of Holland & Knight's West Coast Land Use and Environmental Group and lead author of the study.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.housingwire.com/articles/california-prop-45-ceqa-timelines/",
+     "location": null,
+     "excerpt": "Jennifer Hernandez, a Holland & Knight land-use attorney who helped write the ballot language,",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Holland & Knight's own release says four to five years; its report says about five. 'Helped write Prop 45' rests only on HousingWire (independent). LAO gives no duration.",
+   "proposedText": "How many projects opt in and whether housing gets built faster. There is no neutral figure for how long CEQA lawsuits take today. A Holland & Knight study led by Jennifer Hernandez, who HousingWire reports helped write the measure, puts it at four to five years.",
+   "limitations": "LAO page returned no lawsuit-length data (reader finding). Holland & Knight recommends passing Prop 45, so it is an interested source."
+  },
+  {
+   "field": "tw",
+   "current": "Faster, more predictable approvals, in exchange for narrower environmental and tribal review.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3, PROPOSAL",
+     "excerpt": "Requires the agency and applicant to consult about the project only with California native tribes",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Synthesis; no new factual claim.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives an early-years range, long-term effect unknown.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Precise, observable deadlines, but no housing outcome target.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21027(a)(1)(A)",
+     "excerpt": "The action or proceeding shall be completed within 270 days, inclusive of original and appellate court proceedings,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Deadlines precise; no housing target found in text.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "No reporting or audit, but a built-in remedy when agencies miss deadlines.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+     "location": "Sec. 21020(e)",
+     "excerpt": "have a nondiscretionary ministerial duty to comply with the deadlines set forth in this section",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Consistent with acct.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "Tight deadlines for agencies and courts.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=45&year=2026+",
+     "location": null,
+     "excerpt": "the 365-business-day time limit for finishing the EIR",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Judgment; deadlines confirmed.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Studies of benefits come mostly from interested parties. No neutral data on current lawsuit length.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://www.hklaw.com/en/news/pressreleases/2026/09/ceqa-appeals-increasingly-target-infill-development",
+     "location": null,
+     "excerpt": "Among these recommendations is the passage of California Proposition 45, which is on the ballot in November 2026.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "The main lawsuit-length study comes from a firm recommending passage; LAO gives no figure.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Narrower review and disputes over which projects qualify.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-title-summ-analysis.pdf",
+     "location": null,
+     "excerpt": "limiting public agencies’ current obligation to consider a range of feasible project alternatives",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Narrower review confirmed; qualification disputes are our own projection.",
+   "proposedText": "Narrower review and consultation only with federally recognized tribes.",
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "Faster approvals at modest public cost. Housing gains and environmental trade-offs both unmeasured.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "'Modest public cost' is a judgment that sits awkwardly with LAO's possible $100 million plus a year.",
+   "proposedText": "Faster approvals at a public cost LAO puts in the high tens of millions a year. Housing gains and environmental trade-offs both unmeasured.",
+   "limitations": null
+  },
+  {
+   "field": "src: LAO analysis",
+   "current": "https://lao.ca.gov/ballot/2026/prop45-110326.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: Official voter guide page",
+   "current": "https://voterguide.sos.ca.gov/propositions/45/",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Could not be read (allowlist refusal).",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: Legal text",
+   "current": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: Official arguments",
+   "current": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45.pdf",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: HousingWire on the Hernandez CEQA study",
+   "current": "https://www.housingwire.com/articles/california-prop-45-ceqa-timelines/",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "src: LAist guide (supporters and opponents)",
+   "current": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "URL read in this audit.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Confirm 'ten' 2025 exemptions from an official source (bill text or Senate/Assembly analysis of SB 131 and AB 130); only Manatt states the count.",
+  "Confirm from an official or second independent source that Jennifer Hernandez helped write Prop 45; only HousingWire says so.",
+  "voterguide.sos.ca.gov/propositions/45/ could not be fetched; SOS supporter/opponent listing for 45 unverified.",
+  "Decide whether 'pro' should add the California Republican Party (LAist, KQED) for balance with 'con' listing the Democratic Party.",
+  "LAO Figure 1 contents came from image alt text on the SOS analysis page; confirm against the printed figure."
+ ],
+ "conflicts": [
+  "Holland & Knight press release says CEQA lawsuits take 'four to five years'; its September 2026 report says 'about five years'.",
+  "Manatt counts ten new 2025 CEQA exemptions; RWG lists ten SB 131 categories plus a separate advanced manufacturing exemption; BHFS says only 'multiple'.",
+  "Prop 45 legal text defines eight 'essential' project categories (public safety covers first responder facilities and wildfire risk reduction); LAO Figure 1 presents nine types. Our nine-type framing follows LAO."
+ ]
+}

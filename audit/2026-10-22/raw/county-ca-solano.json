@@ -1,0 +1,824 @@
+{
+ "county": "ca-solano",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "listUrl": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+ "listRecheck": {
+  "matched": true,
+  "notes": "Re-read Oct 22, 2026. Eleven measures B, E, H, O, P, Q, U, V, X, Y, Z with the same jurisdictions as our records. Link texts give only letter and jurisdiction, e.g. 'Measure B - Winters Joint USD', 'Measure E - Solano County'. Every measure document (resolutions, full texts, impartial analyses, arguments, Notice of Measures, Corrected Notice of Measures - Benicia) is hosted on content.solanocounty.gov, which refused the fetch tool (robots_disallowed)."
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-solano-sd-winters-joint-unified-school-district.measure-b",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure B - Winters Joint USD",
+   "ballotQuestion": {
+    "text": "To improve the quality of education; repair or replace leaky roofs; modernize/renovate outdated classrooms, restrooms and school facilities; and replace deteriorating plumbing and sewer systems; shall Winters Joint Unified School District’s measure authorizing $29,900,000 in bonds, at legal interest rates, and levying approximately $49 per $100,000 of assessed valuation (raising $1,600,000 annually) while bonds are outstanding, be adopted, with a Board-appointed citizens’ oversight committee and annual independent audits to assure proper expenditure of funds?",
+    "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+    "location": "Yolo County measure page",
+    "readingsMatched": true,
+    "notes": "Reader returned the question in seven segments, joined here with single spaces. Amount and levy figures matched on a second reading."
+   },
+   "measureType": {
+    "value": "bond (school district general obligation bond)",
+    "evidence": "shall Winters Joint Unified School District’s measure authorizing $29,900,000 in bonds, at legal interest rates,",
+    "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "This measure requires approval by 55% of the voters voting on it.",
+    "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+    "readingsMatched": true,
+    "notes": "Second reading returned 'To pass, it is required that 55% of the votes cast by Winters Joint Unified School District voters must approve the bond measure.' Both state 55%."
+   },
+   "fiscal": {
+    "text": "authorizing $29,900,000 in bonds ... levying approximately $49 per $100,000 of assessed valuation (raising $1,600,000 annually) while bonds are outstanding. Tax rate statement: 'The final fiscal year in which the tax is anticipated to be collected is 2061-62.' '...total debt service, including the principal and interest, that would be required to be repaid if all the bonds are issued and sold is $58,600,000.'",
+    "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+    "readingsMatched": true
+   },
+   "impartialAnalysisUrl": "https://ace.yolocounty.gov/DocumentCenter/View/1017/",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+    "notes": "Yolo page: 'No arguments were filed AGAINST Measure B by the 5:00 p.m. July 24, 2026 deadline.' Solano list also links only an Argument in Favor."
+   },
+   "plainEnglish": "Lets Winters Joint Unified School District issue $29,900,000 in bonds to repair or replace leaky roofs, modernize classrooms, restrooms and school facilities, and replace plumbing and sewer systems. The ballot question estimates a levy of about $49 per $100,000 of assessed value, raising $1,600,000 a year while bonds are outstanding.",
+   "otherSources": [
+    {
+     "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+     "title": "Yolo County Elections, Measure B - Winters Joint Unified School District",
+     "access": "read",
+     "notes": "Official (Yolo County registrar). Shows ballot question, impartial analysis, tax rate statement. Impartial analysis begins 'This measure was placed on the ballot by the Board of Trustees of the Winters Joint Unified School District,' 'which lies within Yolo and Solano Counties.'"
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_Winters_Joint_USD_Bond_Measure_B_REDACTED.pdf",
+     "title": "Solano: Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Winters_Joint_USD_Bond_Measure_B_Tax_Rate_Statement_Redacted.pdf",
+     "title": "Solano: Tax Rate Statement",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_B_Impartial_Analysis_-_Signed_Redacted.pdf",
+     "title": "Solano: Impartial Analysis",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_B_-_Argument_in_Favor_Redacted.pdf",
+     "title": "Solano: Argument in Favor",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    }
+   ],
+   "remainingGaps": [
+    "Confirm the Solano County printing of the ballot question matches Yolo's (Solano PDF blocked)"
+   ],
+   "titleNote": "Solano list gives no title. Winters JUSD lies in Yolo and Solano Counties; Yolo County Elections posts the full measure materials (multi-county district).",
+   "multiCounty": "Winters JUSD lies within Yolo and Solano Counties per the impartial analysis."
+  },
+  {
+   "id": "2026-11-03.ca-solano.measure-e",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure E - Solano County",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (business license tax ordinance), per document file names only",
+    "evidence": "Solano list link texts: 'Measure E - Solano County - Full Text' -> Measure_E_Tax_Ordinance_Full_Text.pdf; impartial analysis file name 'Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf'",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and Rebuttal to Argument in Favor. No rebuttal to argument against is listed. Documents not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_Solano_County_Measure_E_REDACTED.pdf",
+     "title": "Resolution",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_Tax_Ordinance_Full_Text.pdf",
+     "title": "Full Text",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+     "title": "Impartial Analysis",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    },
+    {
+     "url": "https://solano.legistar.com/View.ashx?GUID=8BF9F892-C6B8-4F57-B41B-8A683E6B1FDF&ID=15132183&M=F",
+     "title": "Solano legistar resolution (search hit)",
+     "access": "read",
+     "notes": "Unrelated: tax-defaulted property sale resolution, Jan 27, 2026."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question",
+    "Threshold",
+    "Tax rate",
+    "Impartial analysis text"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano.measure-h",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure H - Solano County",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (transient occupancy tax), per document file name only",
+    "evidence": "Impartial analysis file name 'Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf' on the county list",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against, Rebuttal to Argument in Favor. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_Solano_County_Measure_H_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf",
+     "title": "Impartial Analysis",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    },
+    {
+     "url": "https://www.solanocounty.gov/government/treasurer-tax-collector-county-clerk/tax-collector/transient-occupancy-tax",
+     "title": "Solano County Tax Collector, Transient Occupancy Tax",
+     "access": "read",
+     "notes": "No mention of Measure H. States 'TOT is currently 5% of the rent'."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question",
+    "Threshold",
+    "Proposed rate",
+    "Impartial analysis text"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-rio-vista.measure-o",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure O - City of Rio Vista",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (extension of existing 3/4 cent sales tax)",
+    "evidence": "Measure O is a ¾ cent sales tax, meaning for every dollar of taxable goods that you buy, you will continue to pay ¾ of one penny for Measure O.",
+    "url": "https://www.riovistacity.com/media/9861"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "A simple majority (50% + 1) of votes in favor is required to extend Measure O.",
+    "url": "https://www.riovistacity.com/media/9861",
+    "readingsMatched": true,
+    "notes": "City informational page 'What Rio Vista Voters Need to Know about Extending Measure O'; not the resolution or impartial analysis. Same sentence on both readings."
+   },
+   "fiscal": {
+    "text": "If extended by the voters, Measure O will remain in effect until April 2030, expiring at the end of its three-year period unless it is reauthorized by a majority of the voters at a future election.",
+    "url": "https://www.riovistacity.com/media/9861",
+    "readingsMatched": true,
+    "notes": "City page riovistacity.com/clerk/page/measure-o says the current tax is set to expire in March 2027 unless extended."
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Rio_Vista_City_Attorney_Impartial_Analysis_Measure_O_Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.riovistacity.com/media/9861",
+     "title": "City of Rio Vista, What Rio Vista Voters Need to Know about Extending Measure O",
+     "access": "read",
+     "notes": "Official city informational page; no ballot question; refers to 'the upcoming election in November' without a date."
+    },
+    {
+     "url": "https://www.riovistacity.com/clerk/page/measure-o",
+     "title": "City of Rio Vista Clerk, Measure O",
+     "access": "read",
+     "notes": "Describes a three-quarter (0.75%) sales and use tax approved in 2012 and extended in 2022, expiring March 2027 unless extended. No ballot question."
+    },
+    {
+     "url": "https://www.riovistacity.com/clerk/page/measure-k-also-known-sales-tax-measure",
+     "title": "City of Rio Vista, Measure K page",
+     "access": "read",
+     "notes": "Mentions anticipated need for Measure O after it expires in March 2027; no 2026 ballot text."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_City_of_Rio_Vista_Measure_O_Extension_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question",
+    "Impartial analysis text",
+    "Threshold from resolution or impartial analysis (current source is a city info page)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-fairfield.measure-p",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure P - City of Fairfield",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (sales tax), per impartial analysis file name only",
+    "evidence": "Impartial analysis file name 'Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf' on the county list",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.fairfield.ca.gov/government/city-departments/city-manager-s-office/measure-p",
+     "title": "City of Fairfield, Measure P - Keeping it Local",
+     "access": "read",
+     "notes": "Pre-placement page. Says the measure being explored is 'a one-cent sales tax increase' and 'would require a vote of the people and a 50%+1 voter (simple majority) threshold for approval', but also says no decisions had been made. Not used as threshold evidence because it predates the council action."
+    },
+    {
+     "url": "https://eservices.fairfield.ca.gov/WebLink/DocView.aspx?id=100986&dbid=0&repo=SharedDocs",
+     "title": "Fairfield Laserfiche document (search hit)",
+     "access": "failed",
+     "notes": "robots_disallowed"
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_City_of_Fairfield_Measure_P_REDACTED.pdf",
+     "title": "Resolution",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_City_of_Fairfield_Measure_P_Exhibit_A.pdf",
+     "title": "Full Text (Exhibit A)",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question",
+    "Threshold from adopted resolution or impartial analysis",
+    "Rate and duration"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-fairfield.measure-q",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure Q - City of Fairfield",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "ordinance (appointed City Clerk), per city page",
+    "evidence": "City Council is considering placing on the November 3, 2026 ballot Measure Q, asking Fairfield voters whether the City Clerk should become an appointed professional position instead of an elected position.",
+    "url": "https://www.fairfield.ca.gov/government/city-departments/city-manager-s-office/measure-q",
+    "interpretive": true,
+    "notes": "The city page lists 'Proposed Ordinance 2026-05'; the type label 'ordinance' is inferred from that link name."
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_Q_.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.fairfield.ca.gov/government/city-departments/city-manager-s-office/measure-q",
+     "title": "City of Fairfield, Measure Q Information",
+     "access": "read",
+     "notes": "Also: 'If approved, the City Manager would appoint a qualified professional to serve as City Clerk rather than having the position filled through a public election.' Page wording says council 'is considering' placement. Links Resolution 2026-158, Resolution 2026-176, Proposed Ordinance 2026-05 and a 'Measure Q Partial Analysis'."
+    },
+    {
+     "url": "https://eservices.fairfield.ca.gov/WebLink/DocView.aspx?id=100985&dbid=0&repo=SharedDocs",
+     "title": "Fairfield Resolution 2026-158",
+     "access": "failed",
+     "notes": "robots_disallowed"
+    },
+    {
+     "url": "https://www.fairfield.ca.gov/home/showpublisheddocument/15276/639221430451300000",
+     "title": "Measure Q Partial Analysis",
+     "access": "failed",
+     "notes": "client_error"
+    },
+    {
+     "url": "https://www.fairfield.ca.gov/home/showpublisheddocument/15270/639221420823200000",
+     "title": "Proposed Ordinance 2026-05",
+     "access": "failed",
+     "notes": "client_error"
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_City_of_Fairfield_Measure_Q_REDACTED.pdf",
+     "title": "Resolution",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question",
+    "Threshold",
+    "Impartial analysis text"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-sd-dixon-unified-school-district.measure-u",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure U - Dixon USD",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "bond (school bond), per document file name only",
+    "evidence": "Impartial analysis file name 'Measure_U.Impartial_Analysis.Dixon_School_Bond.pdf'; list also links a 'Tax Rate Statement'",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_U.Impartial_Analysis.Dixon_School_Bond.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://dixonusd.org/bondinfo",
+     "title": "Dixon USD bond information",
+     "access": "failed",
+     "notes": "robots_disallowed"
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_Dixon_USD_Measure_U_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Revised_75_Words_-_Transmittal_Letter_to_Registrar_-_Dixon_USD_Redacted.pdf",
+     "title": "Revised Ballot Question (transmittal letter)",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/ixon_USD_Measure_U_Tax_Rate_Statement_Redacted.pdf",
+     "title": "Tax Rate Statement",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question (note: the county posted a REVISED ballot question; use the revised one)",
+    "Threshold",
+    "Bond amount and rate"
+   ],
+   "notes": "The county list file name for the tax rate statement begins 'ixon_USD' (missing D); the link may still work."
+  },
+  {
+   "id": "2026-11-03.ca-solano-vacaville.measure-v",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure V - City of Vacaville",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (one-cent general sales tax)",
+    "evidence": "a Measure Establishing an Additional One-Cent Sales Tax Providing Approximately Twenty-Eight Million Dollars Annually",
+    "url": "https://www.cityofvacaville.gov/home/showpublisheddocument/26886/639179191184100000",
+    "notes": "Resolution title fragment inside the June 23, 2026 council staff report."
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "passed by a majority of the voters (50% plus 1) on Tuesday, November 3, 2026",
+    "url": "https://www.cityofvacaville.gov/home/showpublisheddocument/26886/639179191184100000",
+    "readingsMatched": true,
+    "notes": "City council staff report dated June 23, 2026. Reader could only return a fragment of the sentence on both readings."
+   },
+   "fiscal": {
+    "text": "Resolution title fragment: 'a Measure Establishing an Additional One-Cent Sales Tax Providing Approximately Twenty-Eight Million Dollars Annually'. Reader summary (not verbatim): the title says the tax lasts 'until ended by Voters' and would take effect April 1, 2027.",
+    "url": "https://www.cityofvacaville.gov/home/showpublisheddocument/26886/639179191184100000",
+    "readingsMatched": false,
+    "notes": "Duration and start date were reported in the reader's summary only, not as a verbatim sentence. Treat as unconfirmed."
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Impartial_Analysis.FINAL_Measure_V.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.cityofvacaville.gov/home/showpublisheddocument/26886/639179191184100000",
+     "title": "Vacaville City Council staff report, June 23, 2026",
+     "access": "partial",
+     "notes": "No ballot question in the document ('does not contain a ballot question with Shall the measure or shall')."
+    },
+    {
+     "url": "https://www.cityofvacaville.gov/residents/choosing-a-path/city-budget-financial-outlook/possible-2026-local-sales-tax-measure",
+     "title": "City of Vacaville, Measure V: 2026 Local Sales Tax Measure",
+     "access": "read",
+     "notes": "Content returned was pre-decision ('No decision has been made'); 1.00% rate; '$28 million' per cent."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-07/Resolution_City_of_Vacaville_Measure_V_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question",
+    "Duration confirmed verbatim",
+    "Impartial analysis text"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-benicia.measure-x",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure X - City of Benicia",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (business license tax), per document file name only",
+    "evidence": "Impartial analysis file name 'Measure_X_City_Attorney_Impartial_Analysis_of_Business_License_Tax_Measure.pdf' on the county list",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_X_City_Attorney_Impartial_Analysis_of_Business_License_Tax_Measure.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": null,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links only an Argument in Favor; no argument against or rebuttals are listed."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.ci.benicia.ca.us/elections",
+     "title": "City of Benicia Election Information",
+     "access": "read",
+     "notes": "No November 3, 2026 measures shown in the content returned (2024 and 2022 items only)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Resolution_City_of_Benicia_Measure_X_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Corrected_Notice_of_Measures_Benicia_XYZ.pdf",
+     "title": "Corrected Notice of Measures - Benicia",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question (county issued a corrected notice for Benicia X, Y, Z; use the corrected text)",
+    "Threshold",
+    "Fiscal"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-benicia.measure-y",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure Y - City of Benicia",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "charter (limited charter), per document file name only",
+    "evidence": "Impartial analysis file name 'City_Attorney_s_Impartial_Analysis_-_Measure_Y__Limited_Charter_.pdf' on the county list",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/City_Attorney_s_Impartial_Analysis_-_Measure_Y__Limited_Charter_.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.ci.benicia.ca.us/elections",
+     "title": "City of Benicia Election Information",
+     "access": "read",
+     "notes": "No November 3, 2026 measures shown in the content returned (2024 and 2022 items only)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Resolution_City_of_Benicia_Measure_Y_FINAL_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Corrected_Notice_of_Measures_Benicia_XYZ.pdf",
+     "title": "Corrected Notice of Measures - Benicia",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question (county issued a corrected notice for Benicia X, Y, Z; use the corrected text)",
+    "Threshold",
+    "Fiscal"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-solano-benicia.measure-z",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "Measure Z - City of Benicia",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (real property transfer tax, 'RPTT'), per document file name only",
+    "evidence": "Impartial analysis file name 'City_Attorney_s_Impartial_Analysis_-_Measure_Z__RPTT_.pdf' on the county list",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://content.solanocounty.gov/sites/default/files/2026-08/City_Attorney_s_Impartial_Analysis_-_Measure_Z__RPTT_.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "notes": "County list links Argument in Favor, Argument Against and both rebuttals. Not opened (blocked)."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://www.ci.benicia.ca.us/elections",
+     "title": "City of Benicia Election Information",
+     "access": "read",
+     "notes": "No November 3, 2026 measures shown in the content returned (2024 and 2022 items only)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Resolution_City_of_Benicia_Measure_Z_FINAL_REDACTED.pdf",
+     "title": "Resolution & Full Text",
+     "access": "failed",
+     "notes": "Fetch failed with 'robots_disallowed' (content.solanocounty.gov blocks the fetch tool)."
+    },
+    {
+     "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Corrected_Notice_of_Measures_Benicia_XYZ.pdf",
+     "title": "Corrected Notice of Measures - Benicia",
+     "access": "failed",
+     "notes": "Not attempted; same blocked host."
+    }
+   ],
+   "remainingGaps": [
+    "Title",
+    "Ballot question (county issued a corrected notice for Benicia X, Y, Z; use the corrected text)",
+    "Threshold",
+    "Fiscal"
+   ]
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "City of Fairfield",
+   "pageChecked": "https://www.fairfield.ca.gov/government/city-clerk/election-information/2026-election",
+   "result": "no measures listed",
+   "details": "Page covers candidates only; menu links to Measure P and Measure Q pages. Both P and Q pages exist (see records). No extra measures."
+  },
+  {
+   "jurisdiction": "City of Benicia",
+   "pageChecked": "https://www.ci.benicia.ca.us/elections",
+   "result": "no measures listed",
+   "details": "Content returned shows only 2025, 2024 and 2022 items. Page may be stale or the 2026 section was not returned."
+  },
+  {
+   "jurisdiction": "City of Vacaville",
+   "pageChecked": "https://www.cityofvacaville.gov/residents/choosing-a-path/city-budget-financial-outlook/possible-2026-local-sales-tax-measure",
+   "result": "matches",
+   "details": "Page titled 'Measure V: 2026 Local Sales Tax Measure'. Content returned was pre-decision text."
+  },
+  {
+   "jurisdiction": "City of Rio Vista",
+   "pageChecked": "https://www.riovistacity.com/media/9861",
+   "result": "matches",
+   "details": "City page on extending Measure O for 'the upcoming election in November'."
+  },
+  {
+   "jurisdiction": "Winters Joint Unified School District (Yolo County Elections)",
+   "pageChecked": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+   "result": "matches",
+   "details": "Multi-county district (Yolo and Solano). Yolo County posts full materials for Measure B."
+  },
+  {
+   "jurisdiction": "Dixon Unified School District",
+   "pageChecked": "https://dixonusd.org/bondinfo",
+   "result": "not reachable",
+   "details": "robots_disallowed"
+  },
+  {
+   "jurisdiction": "City of Vallejo",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "No URL obtained before the shared web search limit was reached."
+  },
+  {
+   "jurisdiction": "City of Suisun City",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "No URL obtained before the shared web search limit was reached."
+  },
+  {
+   "jurisdiction": "City of Dixon",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "No URL obtained before the shared web search limit was reached."
+  },
+  {
+   "jurisdiction": "Regional Measure RTM",
+   "pageChecked": null,
+   "result": "matches",
+   "details": "Solano County is not one of the five RTM counties (Alameda, Contra Costa, San Francisco, San Mateo, Santa Clara); RTM correctly absent from the Solano list."
+  }
+ ],
+ "missingMeasures": [],
+ "blockers": [
+  "content.solanocounty.gov blocks the fetch tool (robots_disallowed). This hosts the Notice of Measures and every resolution, impartial analysis and argument for all 11 measures. Ballot questions for E, H, O, P, Q, U, V, X, Y, Z could not be read.",
+  "solano.granicus.com agenda PDFs and eservices.fairfield.ca.gov (Laserfiche) also return robots_disallowed; two fairfield.ca.gov showpublisheddocument links returned client_error; dixonusd.org returned robots_disallowed.",
+  "www.solanocounty.gov/sites/default/files/... (guessed mirror path) was refused as URL_NOT_ON_ALLOWLIST.",
+  "The session's shared web search budget (200 calls) ran out mid-audit, so Benicia, Vallejo, Suisun City and Dixon pages could not be located.",
+  "Suggested next step: a person opens https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf and the Benicia corrected notice in a browser and copies the ballot questions."
+ ]
+}

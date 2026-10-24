@@ -1,0 +1,720 @@
+{
+ "n": "42",
+ "officialTitle": "PROHIBITS NEW STATE PERSONAL PROPERTY TAXES AND CERTAIN RETROACTIVE STATE TAXES.",
+ "measureType": "Initiative Constitutional Amendment",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+   "title": "Proposition 42 (official voter guide page)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Base URL refused (allowlist); /index.htm read."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+   "title": "Prop 42 Official Title and Summary and Analysis",
+   "publisher": "California Secretary of State / LAO",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+   "title": "Prop 42 print PDF (arguments)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read; opening sentences and signers only."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf",
+   "title": "Prop 42 Text of Proposed Laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Refused: 'This URL is not on the session's allowlist, so it was not fetched.' WebSearch for the filename did not return it."
+  },
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+   "title": "Prop 42 annotated legal text",
+   "publisher": "GrowSF (independent copy of official text, last updated July 14, 2026)",
+   "documentDate": "2026-07-14",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice; Sec. 2(c) readings matched. Independent copy, not official."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=42&year=2026+",
+   "title": "LAO Proposition 42 web page",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop42-110326.pdf",
+   "title": "LAO Proposition 42 analysis PDF",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not fetched separately; LAO text read via VIG analysis PDF and LAO web page."
+  },
+  {
+   "url": "https://www.hoover.org/node/393870",
+   "title": "California Decides, Prop 42",
+   "publisher": "Hoover Institution (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read; no drafting error mentioned."
+  },
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/",
+   "title": "GrowSF Prop 42 overview",
+   "publisher": "GrowSF (independent)",
+   "documentDate": "2026-09-08",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+   "title": "Analysis of the Impacts of Propositions 41 and 42 (memo)",
+   "publisher": "Galle, Gamage, Shanske (independent)",
+   "documentDate": "2026-08-20",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://laist.com/news/politics/prop-40-the-billionaire-tax-conflicting-tax-measures",
+   "title": "Prop 40 conflicting tax measures",
+   "publisher": "LAist / CalMatters (independent)",
+   "documentDate": "2026-09-24",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Ban on new asset and look-back taxes",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "PROHIBITS NEW STATE PERSONAL PROPERTY TAXES AND CERTAIN RETROACTIVE STATE TAXES.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Plain-language name consistent with the title.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "title",
+   "current": "Prohibits new state personal property taxes and certain retroactive state taxes",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "PROHIBITS NEW STATE PERSONAL PROPERTY TAXES AND CERTAIN RETROACTIVE STATE TAXES.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Exact match in sentence case.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · citizen initiative",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Measure type",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "type",
+   "current": "Initiative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Measure type",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "ask",
+   "current": "Should the constitution ban new state taxes on owning assets and most retroactive taxes?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Summary",
+     "excerpt": "Prohibits any new state tax (1) imposed on the ownership of personal property",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Consistent with the summary. 'Most retroactive taxes' reflects the limited legislative exception.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "does",
+   "current": "Bans new state taxes on owning financial assets or other personal property, and state taxes based on past conduct or residency, except emergency taxes that reach back no more than 365 days. It applies to state taxes only. Conflicting state taxes passed since January 1, 2026 are void.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Summary",
+     "excerpt": "Nullifies taxes enacted after January 1, 2026 that conflict with this measure.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 2(a)(2) (independent copy of official text)",
+     "excerpt": "This subdivision also applies to a tax that is imposed on a taxpayer based upon their residency status",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 2(c) lead-in (independent copy)",
+     "excerpt": "Subdivision (a) shall not apply to a tax imposed by a statute passed by the Legislature on or after January 1, 2026",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 2(c)(1) (independent copy)",
+     "excerpt": "The tax does not apply retroactively for more than 365 days prior to the date the statute takes effect.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 2(c)(2)(B) (independent copy)",
+     "excerpt": "The Governor declares a fiscal emergency pursuant to subdivision (f) of Section 10 of Article IV",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Sec. 5(a)(1) (independent copy)",
+     "excerpt": "In the event that this initiative measure receives a greater number of affirmative votes, the provisions of this measure shall prevail in their entirety, and all the provisions of the other measure shall be null and void.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Ban and void language are supported. The exception is narrower than 'emergency taxes': it covers only statutes passed by the Legislature, needs both a look-back of 365 days or less and a declared disaster emergency or fiscal emergency, and the reader reported the disaster branch limits revenue use to the emergency. Initiatives get no exception. 'State taxes only' is our reading: the operative text speaks of 'state law' and provisions of the Constitution and does not mention local taxes. The field omits the conflict clause that voids a whole competing initiative.",
+   "proposedText": "Bans new state taxes on owning financial assets or other personal property, and new state taxes based on past conduct or past residency. The Legislature may pass a tax reaching back up to 365 days only during a declared disaster or fiscal emergency. Conflicting state taxes enacted on or after January 1, 2026 are void. If it gets more yes votes than a conflicting initiative on this ballot, that whole measure is void.",
+   "limitations": "Legal text read from the GrowSF annotated copy because the official PDF URL was not on the session allowlist. Verify wording against https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf (page 150). Whether the revenue-use limit also applies to the fiscal emergency branch was not captured verbatim."
+  },
+  {
+   "field": "yes",
+   "current": "The state could not establish new taxes on the ownership of financial assets or other personal property.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "YES meaning",
+     "excerpt": "A YES vote on this measure means: The state could not establish new taxes on the ownership of financial assets",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches official YES text.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Field is empty.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "The state would continue to have the option to establish such taxes.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "NO meaning",
+     "excerpt": "A NO vote on this measure means: The state would continue to have the option to establish new taxes on the",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches official NO text in short form.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "noE",
+   "current": "No current tax changes either way.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 1(b) (independent copy)",
+     "excerpt": "Nothing in this section shall alter or limit the imposition or collection of any tax that was in effect,",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Existing taxes in effect and first collected by December 31, 2025 are grandfathered, so neither vote changes a current tax.",
+   "proposedText": null,
+   "limitations": "Applies to the measure itself; Prop 40 is not a current tax."
+  },
+  {
+   "field": "money",
+   "current": "No dollar estimate. LAO says future tax revenue might not grow as much.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Fiscal Impact",
+     "excerpt": "Possibility that tax revenues will not go up as much in the future.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "LAO Fiscal Effects, page 63",
+     "excerpt": "When and by how much future revenues would be reduced is unclear.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "who",
+   "current": "Owners of financial assets and other personal property, and Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "Potential Interactions With Other Propositions, page 63",
+     "excerpt": "If Proposition 42 receives more 'yes' votes than Proposition 40 on this same ballot,",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Consistent with LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "out",
+   "current": "A permanent ban on new state wealth-type and look-back taxes, which could also block Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "Potential Interactions With Other Propositions, page 63",
+     "excerpt": "then Proposition 40 could be stopped from becoming law even if it gets yes votes from a majority of voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Supported. 'Permanent' means until a future constitutional amendment changes it.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "acct",
+   "current": "No audit, reporting or outcome target. A self-executing ban enforced through the courts.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No audit or reporting duty appeared in the legal text sections read. This is an absence finding.",
+   "proposedText": null,
+   "limitations": "Based on the GrowSF copy of the text, not the official PDF."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says it protects retirement and savings from new and retroactive taxes on money already taxed as income.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+     "location": "Argument in Favor, page 64",
+     "excerpt": "Every year, higher costs and taxes make it harder to save.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Retirement and savings framing is supported. 'Money already taxed as income' was not in the excerpts captured.",
+   "proposedText": null,
+   "limitations": "Only the opening sentences were captured. Check the full argument for the 'already taxed' wording before changing."
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it is billionaire-funded to undo the Prop 40 wealth tax that would fund health care.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+     "location": "Argument Against, page 65",
+     "excerpt": "This is a billionaire-funded initiative designed specifically to undo the California Billionaire Tax, Prop. 40.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Billionaire-funded and aimed at Prop 40 are stated. 'Fund health care' was not in the captured excerpts.",
+   "proposedText": "Opponents' official argument says it is billionaire-funded and designed to undo the Prop 40 billionaire tax.",
+   "limitations": "Full argument not captured."
+  },
+  {
+   "field": "pro",
+   "current": "California Small Business Association, AMVETS Department of California, California Senior Alliance, California Professional Firefighters, Gov. Newsom.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Supporters",
+     "excerpt": "CA Professional Firefighters; State Building & Construction Trades Council of CA; AMVETS Department of CA",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+     "location": "Argument in Favor signers, page 64",
+     "excerpt": "Michael Hedges, President, California Small Business Association",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+     "location": "Argument in Favor signers, page 64",
+     "excerpt": "Jennifer Yoder, Board Member, California Senior Alliance",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf",
+     "location": "Rebuttal to Argument Against signers, page 65",
+     "excerpt": "Brian R. Marvel, President, Peace Officers Research Association of California",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "All named organizations are official supporters or signers. Gov. Newsom's support was not found in any source read. The State Building Trades (official listing) and PORAC (signer) are missing.",
+   "proposedText": "California Professional Firefighters, State Building and Construction Trades Council, AMVETS Department of California, California Small Business Association, California Senior Alliance, Peace Officers Research Association of California.",
+   "limitations": "Newsom's position could not be checked (web search budget exhausted). Restore him only with an official or on-record source."
+  },
+  {
+   "field": "con",
+   "current": "SEIU-UHW, Sen. Bernie Sanders.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/42/index.htm",
+     "location": "Opponents",
+     "excerpt": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches official listing.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "risk",
+   "current": "If it gets more yes votes than Prop 40, courts could find a conflict and block Prop 40. A drafting cross-reference error may invite lawsuits.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "page 63",
+     "excerpt": "This is because the courts could find that Proposition 42 conflicts with Proposition 40.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+     "location": "Independent memo",
+     "excerpt": "Because Proposition 42 never defines “ownership or control,”",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+     "location": "Independent memo",
+     "excerpt": "Notably, Proposition 42 does not specify how its exemption clause applies to extensions of this sort.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The Prop 40 sentence matches LAO. No source we read identifies a cross-reference error. The independent copy shows Sec. 5(a)(2) cites 'Section 4 of this Act (Cal. Const., art. VIII § 3)', which is consistent because Act Sec. 4 adds Article VIII. An independent memo flags undefined terms instead.",
+   "proposedText": "If it gets more yes votes than Prop 40, courts could find a conflict and block Prop 40. Undefined terms, such as ownership or control, may invite lawsuits.",
+   "limitations": "The 'drafting error' claim may come from a source we did not find; ask the author for it before deleting."
+  },
+  {
+   "field": "unk",
+   "current": "How courts will define a new tax, including changes to existing ones.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+     "location": "Independent memo",
+     "excerpt": "Notably, Proposition 42 does not specify how its exemption clause applies to extensions of this sort.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Text does not define 'new tax' (per the independent text copy), so this is a fair unknown.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "tw",
+   "current": "Certainty that owned assets will not face a new state tax, in exchange for giving up that revenue option and the chance of blocking Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "LAO Fiscal Effects, page 63",
+     "excerpt": "Proposition 42 restricts the options the state has to raise taxes in the future.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Synthesis of LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives the direction only.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "page 63",
+     "excerpt": "When and by how much future revenues would be reduced is unclear.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.oc",
+   "current": "The ban is observable, but its scope depends on broad definitions.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 3(a) (independent copy)",
+     "excerpt": "means pensions; retirement accounts including but not limited to 401(k)",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Definition is broad.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.ac",
+   "current": "A self-executing ban enforced through the courts, no reporting.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No reporting duty found in text read.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "Self-executing, but scope disputes may need court resolution.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "Reasonable reading; no contrary evidence.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Its effect is mostly mechanical, based on the text and LAO.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "Reasonable reading.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Scope questions, a drafting error, and possible blocking of Prop 40.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+     "location": "page 63",
+     "excerpt": "This is because the courts could find that Proposition 42 conflicts with Proposition 40.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The drafting error is not supported by any source read.",
+   "proposedText": "Scope questions, undefined terms, and possible blocking of Prop 40.",
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "No current tax changes, so the near-term effect runs mainly through Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+     "location": "Art. VIII, Sec. 1(b)",
+     "excerpt": "Nothing in this section shall alter or limit the imposition or collection of any tax that was in effect,",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Grandfather clause supports 'no current tax changes'.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "src",
+   "current": "[[\"LAO analysis\", \"https://lao.ca.gov/ballot/2026/prop42-110326.pdf\", \"Official\"], [\"Official voter guide page\", \"https://voterguide.sos.ca.gov/propositions/42/\", \"Official\"], [\"Legal text\", \"https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf\", \"Official\"], [\"Official arguments\", \"https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42.pdf\", \"Official, campaign arguments\"]]",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Official LAO, voter guide, text and arguments URLs. The base voterguide URL without index.htm was refused by our fetch tool, and the text PDF was refused, but both are linked from the official index page.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "poisonPillEvidence": [
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "location": "Text of Proposed Laws, Proposition 40 continued, Sec. 8 Conflicts, page 147",
+   "excerpt": "In the event that this measure and another measure that levies a tax or affects the tax rates on net worth, not income, of billionaires, or that provides for use of funds from a tax on billionaire net worth, shall appear on the same statewide ballot, the provisions of the other measure or measures shall be deemed to be in conflict with this measure.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "location": "Text of Proposed Laws, Proposition 40 continued, Sec. 8 Conflicts, page 147",
+   "excerpt": "In the event that this measure receives a greater number of affirmative votes than a measure deemed to be in conflict with it, the provisions of this measure shall prevail in their entirety, and any conflicting provisions of the other measure or measures shall be null and void.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-title-summ-analysis.pdf",
+   "location": "Official Title and Summary, page 54",
+   "excerpt": "Exempts such tax revenues from constitutional requirements for school funding, budget reserves, and state spending limit.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+   "location": "Prop 42 Sec. 5(a)(1) (independent copy)",
+   "excerpt": "that would establish, enact, create, impose, or authorize collection of a tax on the ownership or control of retirement",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-42/legal-text/",
+   "location": "Prop 42 Sec. 5(a)(1) (independent copy)",
+   "excerpt": "of the initiative measure, then that other initiative measure shall be deemed to be in conflict with this measure.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf",
+   "location": "page 42 summary",
+   "excerpt": "States that other voter-approved measures appearing on the same ballot are void if they conflict with this measure",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  }
+ ],
+ "specificGaps": [
+  "Official Prop 42 legal text PDF could not be fetched; all legal-text excerpts come from the GrowSF copy and must be checked against page 150 of the official guide.",
+  "Find the source for 'a drafting cross-reference error' in risk and r.lr, or drop it. No source read mentions one.",
+  "Gov. Newsom's support for Prop 42 was not found in any source read.",
+  "Whether the revenue-use limit in Sec. 2(c)(2) applies to the fiscal emergency branch as well as the disaster branch was not captured verbatim.",
+  "Whether 'money already taxed as income' (argFor) and 'health care' (argAgainst) appear in the full official arguments was not checked."
+ ],
+ "conflicts": [
+  "Prop 40's own conflict clause (Sec. 8) deems in conflict only measures that levy or affect a tax on billionaire net worth or that provide for use of funds from such a tax, and voids only their 'conflicting provisions'. Props 41 and 42 do not levy such a tax on their face. So if Prop 40 outpolls 41 and 42, the text of Prop 40 does not by itself void them. LAist/CalMatters (Sept 24, 2026) says instead: 'If Prop. 40 captures more votes than both 41 and 42, the wealth tax takes effect, voiding the countermeasures.' No official source we read resolves this.",
+  "Prop 41 Sec. 5 and Prop 42 Sec. 5 each void 'all the provisions of the other measure' (the whole measure), while Prop 40 Sec. 8 voids only 'any conflicting provisions'. The clauses are asymmetric.",
+  "Prop 41's trigger (Sec. 5(a)(1)(B)) is an initiative that 'contains a state tax that is exempted or excluded from the Government Spending Limitation'. The Prop 40 official summary says it 'Exempts such tax revenues from ... state spending limit.' That is how Prop 41 reaches Prop 40 without naming it.",
+  "Prop 42's trigger (Sec. 5(a)(1)) is an initiative taxing ownership or control of 'retirement holdings, individually-owned assets, and other forms of personal savings', or a tax based on a status present before the measure's effective date. Prop 40 taxes net worth and uses a January 1, 2026 residency date per our Prop 40 entry. Neither Prop 41 nor 42 names Prop 40.",
+  "Both Prop 41 and Prop 42 conflict clauses reach only 'another initiative measure'. Prop 43 is a legislative constitutional amendment, so on the text these clauses do not reach it. Neither clause, on its face, makes Props 41 and 42 conflict with each other.",
+  "Both Prop 41 Sec. 5(b) and Prop 42 Sec. 5(b) say that if they are superseded by a conflicting measure that is later held invalid, they become 'self-executing and given full force and effect'.",
+  "LAO says only that Prop 40 'could be stopped' because 'the courts could find' a conflict. CalMatters (Prop 41 guide) and LAist state it as certain ('Prop. 40 is nullified', 'Prop. 40 is canceled'). Our text correctly follows LAO's hedge."
+ ]
+}

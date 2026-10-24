@@ -1,0 +1,871 @@
+{
+ "n": "41",
+ "officialTitle": "PROHIBITS NEW STATE TAXES THAT EXCLUDE REVENUES FROM STATE SPENDING LIMIT. REQUIRES AUDITS FOR NEW STATE SPECIAL TAXES.",
+ "measureType": "Initiative Constitutional Amendment",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+   "title": "Proposition 41 (official voter guide page)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "https://voterguide.sos.ca.gov/propositions/41/ refused as not on session allowlist; the /index.htm URL found by WebSearch was read."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+   "title": "Prop 41 Official Title and Summary and Analysis",
+   "publisher": "California Secretary of State / LAO",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read. Reader limits quotes to 125 characters, so some passages were paraphrased by the reader and are not used as excerpts."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+   "title": "Prop 41 print PDF (arguments and rebuttals)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read; key sentences and signer lists captured, not full arguments."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "title": "Prop 41 Text of Proposed Laws (pages 147-150), with Prop 40 continuation and start of Prop 42",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read three times. Conflict clause and Sec. 3 read twice with matching results."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+   "title": "LAO Proposition 41 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read; reader reported no Prop 40 mention in this PDF, though the VIG version of the analysis contains it."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/41/arguments-rebuttals.htm",
+   "title": "Prop 41 arguments and rebuttals page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not attempted after the voterguide base URL was refused; the print PDF was used instead."
+  },
+  {
+   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/legal-text/",
+   "title": "GrowSF legal text copy",
+   "publisher": "GrowSF (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Not fetched; official text used instead."
+  },
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+   "title": "CA voter guide to Proposition 41: Tax audits",
+   "publisher": "CalMatters (independent)",
+   "documentDate": "2026-10-01, modified 2026-10-13",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits",
+   "title": "Proposition 41: Auditing for new special taxes",
+   "publisher": "LAist / CalMatters (independent)",
+   "documentDate": "2026-10-15, updated 2026-10-19",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://laist.com/news/politics/prop-40-the-billionaire-tax-conflicting-tax-measures",
+   "title": "Prop 40 billionaire tax conflicting tax measures",
+   "publisher": "LAist / CalMatters (independent)",
+   "documentDate": "2026-09-24",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-title-summ-analysis.pdf",
+   "title": "Prop 40 Official Title and Summary and Analysis",
+   "publisher": "California Secretary of State / LAO",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read for spending limit and conflict wording."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf",
+   "title": "Prop 40 Text of Proposed Laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Refused: URL not on session allowlist. Prop 40 Sec. 8 was read from the continuation inside the Prop 41 text PDF instead."
+  },
+  {
+   "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+   "title": "Analysis of the Impacts of Propositions 41 and 42 on California's Public Finance (memo)",
+   "publisher": "Galle, Gamage, Shanske (independent)",
+   "documentDate": "2026-08-20",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Special tax audits and spending limit",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "PROHIBITS NEW STATE TAXES THAT EXCLUDE REVENUES FROM STATE SPENDING LIMIT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "REQUIRES AUDITS FOR NEW STATE SPECIAL TAXES.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Short name matches the two parts of the official title.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "title",
+   "current": "Prohibits new state taxes that exclude revenues from state spending limit. Requires audits for new state special taxes",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "PROHIBITS NEW STATE TAXES THAT EXCLUDE REVENUES FROM STATE SPENDING LIMIT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Official ballot title",
+     "excerpt": "REQUIRES AUDITS FOR NEW STATE SPECIAL TAXES.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official title in sentence case.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · citizen initiative",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Measure type label",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Initiative constitutional amendment equals constitutional amendment by citizen initiative.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "type",
+   "current": "Initiative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Measure type label",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Exact match.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "ask",
+   "current": "Should new state taxes have to fit under the state spending limit, with audits of special-tax programs?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Summary",
+     "excerpt": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Summary",
+     "excerpt": "Requires pre-election and recurring audits of programs funded by new special taxes.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Question restates the two parts of the official summary.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "does",
+   "current": "New state taxes since January 1, 2026 must count under the state spending limit or cannot be collected. The State Auditor reviews programs a proposed special tax would fund before the election, and audits new state special taxes every four years.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 3(b), page 147-150",
+     "excerpt": "The State of California shall not impose, collect, or enforce any state tax that is enacted or takes effect on or after January 1, 2026, if the state tax is exempted or excluded from the Government Spending Limitation.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, Proposal, page 58",
+     "excerpt": "Proposition 41 requires the State Auditor to review each program that would receive funds",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+     "location": "Page 1, Proposal, heading",
+     "excerpt": "Requires One-Time Audits Before Special Taxes Appear on the Ballot Through the Voter Initiative Process",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+     "location": "Page 1, Proposal",
+     "excerpt": "This audit would occur after supporters collect 25 percent of the signatures needed to qualify a measure for the ballot",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 2(a)(2)",
+     "excerpt": "an ongoing financial and performance audit shall be completed every four years",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Sec. 5 Conflicting Measures (a)(1)",
+     "excerpt": "In the event that this initiative measure receives a greater number of affirmative votes, the provisions of this measure shall prevail in their entirety, and all the provisions of the other measure shall be null and void.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The spending-limit sentence is supported, with 'on or after' rather than 'since'. The pre-election audit applies only to special taxes proposed by citizen initiative, and happens when signatures are being gathered (LAO says at 25 percent), not simply 'before the election'. The four-year audits cover programs funded by special taxes enacted or increased after January 1, 2026. The field omits the conflict clause, which the official summary lists and which is the main way the measure affects Prop 40.",
+   "proposedText": "New state taxes enacted or taking effect on or after January 1, 2026 cannot be excluded from the state spending limit, or the state cannot collect them. The State Auditor reviews programs a special tax proposed by citizen initiative would fund, while signatures are being gathered. It audits programs funded by new state special taxes every four years. If it gets more yes votes than another initiative on this ballot that has a tax excluded from the spending limit, that whole measure is void.",
+   "limitations": "The 25 percent figure is from LAO. The legal text, as read, ties the trigger to 'a certification for a proposed special tax initiative' submitted to the Secretary of State and does not state 25 percent itself."
+  },
+  {
+   "field": "yes",
+   "current": "The State Auditor would review programs funded by proposed and approved special taxes, and the state might not be able to exclude new special tax spending from its spending limit.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "What your vote means, YES",
+     "excerpt": "The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "What your vote means, YES",
+     "excerpt": "In addition, the state might not be able to exclude any new special tax spending from its spending limit.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Condensed from the official YES statement.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Field is empty. Nothing to verify.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "The State Auditor's duties and the state spending limit requirements would not change.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "What your vote means, NO",
+     "excerpt": "The state spending limit requirements would not change.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Condensed from the official NO statement.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Field is empty. Nothing to verify.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "LAO estimates audit costs of low millions of dollars a year, growing over time. The overall budget effect is unknown.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+     "location": "Page 2, Fiscal Effects, Increased State Auditor Costs, Mostly Paid by New Revenues",
+     "excerpt": "These costs likely would be in the range of the low millions of dollars per year but would grow over time.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Fiscal Impact",
+     "excerpt": "The net fiscal effect is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Both statements match LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "who",
+   "current": "The State Auditor, future tax measures, and Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, page 59",
+     "excerpt": "If Proposition 41 receives more \"yes\" votes than Proposition 40 on this same ballot, then Proposition 40 could be stopped",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "State Auditor and future tax measures follow from the text. Prop 40 is named by LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "out",
+   "current": "New state taxes stay under the spending limit, and voters see audits of programs proposed special taxes would fund.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 1(e)(2)",
+     "excerpt": "shall be printed in the state voter information guide",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 3(a)",
+     "excerpt": "No state tax that is enacted or takes effect on or after January 1, 2026, shall be exempted or excluded from the Government Spending Limitation.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Outcome follows from the text. Voters see the audit executive summary only for initiatives that qualify.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "acct",
+   "current": "Pre-election audits posted online and summarized in the voter guide, plus audits every four years. Each must recommend at least 10% savings, but nobody has to adopt them.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 1(e)(1)",
+     "excerpt": "shall be posted on the California State Auditor’s website and made available to the public.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 1(b)(10)",
+     "excerpt": "Recommendations on how the program could achieve a budgetary savings of at least 10 percent annually.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, Proposal, page 59",
+     "excerpt": "These ongoing audits would happen every four years.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+     "location": "Page 2, Possible Savings if State Auditor Recommendations Are Implemented",
+     "excerpt": "Any resulting savings would depend on future decisions and are not known.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The 10 percent savings recommendation is listed in Section 1, which governs the pre-election audit. We did not confirm that the four-year audits carry the same 10 percent requirement (LAO describes them as including recommendations to improve efficiency). 'Nobody has to adopt them' is our reading: the text, as read, contains no adoption requirement, and LAO treats savings as conditional on policymakers acting.",
+   "proposedText": "Pre-election audits are posted online, summarized in the voter guide, and must recommend ways to save at least 10% a year. Programs are audited again every four years. Nothing in the measure requires anyone to adopt the recommendations.",
+   "limitations": "Confirm in the official text whether Sec. 2 (ongoing audits) incorporates the Sec. 1(b) list, including the 10 percent item."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says independent audits of programs funded by new special taxes bring transparency for taxpayers.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+     "location": "Argument in Favor, page 60",
+     "excerpt": "Prop. 41 requires the State Auditor to conduct independent public audits of programs funded by proposed new taxes",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+     "location": "Argument in Favor, page 60",
+     "excerpt": "Prop. 41 requires more accountability, transparency and trackable progress of programs funded by our taxes",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Accurate summary of the official argument.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it is billionaire-funded and designed to block the Prop 40 billionaire tax for health care.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+     "location": "Argument Against, page 61",
+     "excerpt": "This is a billionaire-funded initiative designed specifically to undo the California Billionaire Tax, Prop. 40.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Billionaire-funded and aimed at Prop 40 are stated. The words 'for health care' were not in the excerpts captured from the argument against.",
+   "proposedText": "Opponents' official argument says it is billionaire-funded and designed to undo the Prop 40 billionaire tax.",
+   "limitations": "Only key sentences of the argument were captured. 'Health care' may appear elsewhere in the full argument; if so, keep the current text."
+  },
+  {
+   "field": "pro",
+   "current": "CalCPAs, California Taxpayers Association, former State Auditor Tom Hayes, Reform California. Funded mainly by Sergey Brin.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Supporters",
+     "excerpt": "CA Society of Certified Public Accountants (CalCPAs)",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Supporters",
+     "excerpt": "CalAsian Chamber of Commerce",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Supporters",
+     "excerpt": "California Taxpayers Association (CalTax)",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+     "location": "Argument in Favor signers, page 60",
+     "excerpt": "Tom Hayes, Fmr. California State Auditor",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf",
+     "location": "Rebuttal to Argument Against signers, page 61",
+     "excerpt": "Steve Westly, Fmr. California State Controller",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits",
+     "location": "Notable supporters (independent)",
+     "excerpt": "Reform California, Google co-founder Sergey Brin, DoorDash CEO Tony Xu and Stewart Resnick",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits",
+     "location": "Independent",
+     "excerpt": "Both Prop. 41 and Prop. 42 were backed by Building a Better California, funded heavily by Google co-founder Sergey Brin.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "CalCPAs, CalTax and Tom Hayes are official. Reform California is reported only by independent sources (CalMatters, LAist). 'Funded mainly by Sergey Brin' is reported only by independent news ('funded heavily'); no official campaign finance record was read. CalAsian Chamber and Steve Westly are official and missing.",
+   "proposedText": "CalCPAs, CalAsian Chamber of Commerce, California Taxpayers Association, former State Auditor Tom Hayes, former State Controller Steve Westly. Reform California, per CalMatters. Backed by Building a Better California, which news reports say Sergey Brin funds heavily.",
+   "limitations": "Cal-Access or SOS campaign finance records were not checked (web search budget exhausted)."
+  },
+  {
+   "field": "con",
+   "current": "SEIU-UHW, California Democratic Party, Sen. Bernie Sanders.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Opponents",
+     "excerpt": "US Senator Bernie Sanders",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Opponents",
+     "excerpt": "SEIU United Healthcare Workers West",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-41-tax-audits",
+     "location": "Notable opponents (independent)",
+     "excerpt": "the California Democratic Party",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "SEIU-UHW and Sanders are official. The California Democratic Party is reported only by CalMatters and LAist, so it should be labeled as reported.",
+   "proposedText": "SEIU-UHW, Sen. Bernie Sanders. California Democratic Party, per news reports.",
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "risk",
+   "current": "If it gets more yes votes than Prop 40, courts could find a conflict and block Prop 40. Automatic refunds could also squeeze other programs.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, page 59",
+     "excerpt": "then Proposition 40 could be stopped from becoming law even if it gets yes votes from a majority of voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+     "location": "Independent",
+     "excerpt": "count toward California's spending limit",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-41-tax-audits/",
+     "location": "Independent",
+     "excerpt": "automatic refunds that reduce funding for other state programs",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+     "location": "Independent memo, Galle, Gamage, Shanske, Aug 20, 2026",
+     "excerpt": "Excess amounts must be split between taxpayer rebates and education.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "First sentence matches LAO. The refund sentence is not in LAO or in the Prop 41 text, which has no refund provision of its own. It rests on existing spending-limit rules as described by independent sources only.",
+   "proposedText": "If it gets more yes votes than Prop 40, courts could find a conflict and block Prop 40. Counting new taxes under the spending limit could also trigger rebates under existing rules, leaving less for other programs.",
+   "limitations": "LAO's analysis did not address what happens to revenue above the limit. The refund point is interpretive."
+  },
+  {
+   "field": "unk",
+   "current": "How much room is left under the spending limit.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://eml.berkeley.edu/%7esaez/GGS26props41-42.pdf",
+     "location": "Independent memo",
+     "excerpt": "The state has hit the Gann limit recently (2022) and is about $30 billion under the Gann limit currently.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO gives no figure for room under the limit, so it is a fair unknown. One independent memo estimates about $30 billion; not an official figure.",
+   "proposedText": null,
+   "limitations": "No official estimate of current room under the limit was found."
+  },
+  {
+   "field": "tw",
+   "current": "More audits and spending-limit discipline, in exchange for less budget flexibility and the chance of blocking Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, page 59",
+     "excerpt": "then Proposition 40 could be stopped from becoming law even if it gets yes votes from a majority of voters.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Trade-off synthesizes LAO points.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives the audit cost, but the net budget effect is unknown.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+     "location": "Page 2, Fiscal Effects",
+     "excerpt": "These costs likely would be in the range of the low millions of dollars per year but would grow over time.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.oc",
+   "current": "Specific, observable audit duties and schedule.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 2(a)(2)",
+     "excerpt": "an ongoing financial and performance audit shall be completed every four years",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Text sets the schedule.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.ac",
+   "current": "State Auditor reviews before elections and every four years, posted publicly.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "location": "Art. XXIV, Sec. 1(e)(1)",
+     "excerpt": "shall be posted on the California State Auditor’s website and made available to the public.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Posting is confirmed for the pre-election audit. A matching posting rule for the four-year audits was not captured.",
+   "proposedText": "State Auditor reviews before elections, posted publicly, and audits every four years.",
+   "limitations": "Check Sec. 2 for a posting rule."
+  },
+  {
+   "field": "r.if",
+   "current": "Uses the existing State Auditor.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, Proposal, page 58",
+     "excerpt": "Proposition 41 requires the State Auditor to review each program that would receive funds",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Uses the existing State Auditor.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.ev",
+   "current": "Savings from such audits are unknown.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop41-110326.pdf",
+     "location": "Page 2, Possible Savings",
+     "excerpt": "Any resulting savings would depend on future decisions and are not known.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.lr",
+   "current": "Could block Prop 40 and tighten future budgets.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf",
+     "location": "Analysis, page 59",
+     "excerpt": "If Proposition 41 receives more \"yes\" votes than Proposition 40 on this same ballot, then Proposition 40 could be stopped",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches LAO; budget tightening is interpretive.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "r.nb",
+   "current": "Low-cost audits with unknown savings, plus a large but uncertain effect through Prop 40.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Fiscal Impact",
+     "excerpt": "The net fiscal effect is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Consistent with LAO.",
+   "proposedText": null,
+   "limitations": "Read once through the WebFetch reader (readingsMatched null means no second reading was taken)."
+  },
+  {
+   "field": "src",
+   "current": "[[\"LAO analysis\", \"https://lao.ca.gov/ballot/2026/prop41-110326.pdf\", \"Official\"], [\"Official voter guide page\", \"https://voterguide.sos.ca.gov/propositions/41/\", \"Official\"], [\"Legal text (GrowSF copy)\", \"https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/legal-text/\", \"Independent copy of official text\"], [\"Official summary and analysis\", \"https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf\", \"Official\"]]",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/41/index.htm",
+     "location": "Links on page",
+     "excerpt": "Text of Proposed Law (PDF): https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The GrowSF copy of the legal text is not needed: the official text PDF opens and was read. Official arguments PDF is missing.",
+   "proposedText": "Replace the GrowSF legal text entry with [\"Legal text\", \"https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf\", \"Official\"] and add [\"Official arguments\", \"https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41.pdf\", \"Official, campaign arguments\"].",
+   "limitations": "The GrowSF URL itself could not be fetched (not on the session allowlist)."
+  }
+ ],
+ "poisonPillEvidence": [
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "location": "Text of Proposed Laws, Proposition 40 continued, Sec. 8 Conflicts, page 147",
+   "excerpt": "In the event that this measure and another measure that levies a tax or affects the tax rates on net worth, not income, of billionaires, or that provides for use of funds from a tax on billionaire net worth, shall appear on the same statewide ballot, the provisions of the other measure or measures shall be deemed to be in conflict with this measure.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "location": "Text of Proposed Laws, Proposition 40 continued, Sec. 8 Conflicts, page 147",
+   "excerpt": "In the event that this measure receives a greater number of affirmative votes than a measure deemed to be in conflict with it, the provisions of this measure shall prevail in their entirety, and any conflicting provisions of the other measure or measures shall be null and void.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-title-summ-analysis.pdf",
+   "location": "Official Title and Summary, page 54",
+   "excerpt": "Exempts such tax revenues from constitutional requirements for school funding, budget reserves, and state spending limit.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "location": "Prop 41 Sec. 5 Conflicting Measures (a)(1)",
+   "excerpt": "In the event that this initiative measure appears on the same statewide election ballot as another initiative measure that (A) imposes different audit rules on special taxes; or (B) contains a state tax that is exempted or excluded from the Government Spending Limitation, then that other initiative measure shall be deemed to be in conflict with this measure.",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "location": "Prop 41 Sec. 5(b)",
+   "excerpt": "If this initiative measure is approved by the voters but superseded in whole or in part by any other conflicting initiative measure approved by the voters at the same election, and such conflicting measure is later held invalid, this measure shall be self-executing and given full force and effect.",
+   "readingsMatched": null,
+   "excerptMethod": "WebFetch verbatim-quote request"
+  }
+ ],
+ "specificGaps": [
+  "Confirm whether the four-year audits in Art. XXIV Sec. 2 must include the 10 percent savings recommendation that Sec. 1(b)(10) requires for pre-election audits.",
+  "Confirm whether the four-year audits must be posted publicly like the pre-election audits (Sec. 1(e)).",
+  "The legal text, as read, does not state the 25 percent signature trigger LAO describes; confirm the certification it refers to.",
+  "No official source verified Sergey Brin as the main funder; check Cal-Access for Building a Better California.",
+  "Reform California and the California Democratic Party positions rest only on CalMatters and LAist.",
+  "Whether 'health care' appears in the full official argument against was not checked.",
+  "LAO gives no estimate of room under the spending limit; the $30 billion figure is from an independent memo only."
+ ],
+ "conflicts": [
+  "Prop 40's own conflict clause (Sec. 8) deems in conflict only measures that levy or affect a tax on billionaire net worth or that provide for use of funds from such a tax, and voids only their 'conflicting provisions'. Props 41 and 42 do not levy such a tax on their face. So if Prop 40 outpolls 41 and 42, the text of Prop 40 does not by itself void them. LAist/CalMatters (Sept 24, 2026) says instead: 'If Prop. 40 captures more votes than both 41 and 42, the wealth tax takes effect, voiding the countermeasures.' No official source we read resolves this.",
+  "Prop 41 Sec. 5 and Prop 42 Sec. 5 each void 'all the provisions of the other measure' (the whole measure), while Prop 40 Sec. 8 voids only 'any conflicting provisions'. The clauses are asymmetric.",
+  "Prop 41's trigger (Sec. 5(a)(1)(B)) is an initiative that 'contains a state tax that is exempted or excluded from the Government Spending Limitation'. The Prop 40 official summary says it 'Exempts such tax revenues from ... state spending limit.' That is how Prop 41 reaches Prop 40 without naming it.",
+  "Prop 42's trigger (Sec. 5(a)(1)) is an initiative taxing ownership or control of 'retirement holdings, individually-owned assets, and other forms of personal savings', or a tax based on a status present before the measure's effective date. Prop 40 taxes net worth and uses a January 1, 2026 residency date per our Prop 40 entry. Neither Prop 41 nor 42 names Prop 40.",
+  "Both Prop 41 and Prop 42 conflict clauses reach only 'another initiative measure'. Prop 43 is a legislative constitutional amendment, so on the text these clauses do not reach it. Neither clause, on its face, makes Props 41 and 42 conflict with each other.",
+  "Both Prop 41 Sec. 5(b) and Prop 42 Sec. 5(b) say that if they are superseded by a conflicting measure that is later held invalid, they become 'self-executing and given full force and effect'.",
+  "LAO says only that Prop 40 'could be stopped' because 'the courts could find' a conflict. CalMatters (Prop 41 guide) and LAist state it as certain ('Prop. 40 is nullified', 'Prop. 40 is canceled'). Our text correctly follows LAO's hedge.",
+  "CalMatters says counting special taxes under the limit could trigger 'automatic refunds'; LAO's Prop 41 analysis does not discuss refunds."
+ ]
+}

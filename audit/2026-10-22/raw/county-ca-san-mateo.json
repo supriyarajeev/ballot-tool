@@ -1,0 +1,1734 @@
+{
+ "county": "ca-san-mateo",
+ "listUrl": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+ "listRecheck": {
+  "matched": true,
+  "notes": "County page re-read Oct 22, 2026 (three readings through WebFetch). All 28 records match letter, jurisdiction and title. The page lists 29 local measures; the 29th is \"Regional Transit Measure – Public Transit Revenue Measure District: Transactions and Use Tax Measure\", which has no record in this file (presumably covered by measures-ca-bayarea-rtm.json). Our shortTitle values omit the \"City of\"/\"Town of\" prefix and colon that the list uses (e.g. list \"City of Belmont: Special Tax Measure\", record \"Special Tax Measure\"). One reading said \"33\" measures in its header but enumerated 29; a later reading counted 29. Argument availability is taken from document links on this page as reported by the reader.",
+  "excerptMethod": "WebFetch verbatim-quote request"
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-san-mateo.measure-l",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure L – San Mateo County Charter Amendment Measure – Extreme Weather Events",
+   "ballotQuestion": {
+    "text": "Shall the San Mateo County Charter be amended to add a provision to the Charter Preamble designating long-term resilience to extreme weather events as a County priority?",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 2(a); Ordinance No. 4920 § 6(a)",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Shall the San Mateo County Charter be amended",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "each Measure will become effective only if submitted to the voters at the Countywide special election on November 3, 2026, and only after approval by a majority (i.e., 50% + 1) of the qualified voters voting in the special election.",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 6; Ordinance No. 4920 § 10",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-ML-ImpartialAnalysis-SMC-Charter-Extreme-Weather.pdf",
+   "argumentsFiled": {
+    "for": false,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": "Adds a provision to the County Charter Preamble designating long-term resilience to extreme weather events as a County priority.",
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+     "title": "San Mateo County Amendments (Resolution No. 081882 and Ordinance No. 4920)",
+     "access": "read",
+     "notes": "Text PDF. Read twice. Ballot questions matched across both readings (second reading returned the questions as fragments that matched the first). Ballot questions are labelled Measure 1 to 4 in the resolution; mapping to letters L, AA, J, U is by subject matching the county list titles (interpretive)."
+    },
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ML-ImpartialAnalysis-SMC-Charter-Extreme-Weather.pdf",
+     "title": "Impartial analysis",
+     "access": "not attempted",
+     "notes": "Not fetched to save budget. Other county impartial analyses tested (R, V) were scanned with no text layer."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis text not read (county PDFs tested so far are scanned)",
+    "Fiscal impact statement, if any, not found"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Ballot question mapped from \"Measure 1-4\" in the resolution to the county list letter by subject (interpretive: true).",
+   "interpretive": true
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo.measure-aa",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure AA – San Mateo County Charter Amendment Measure – Affirmation of Rights",
+   "ballotQuestion": {
+    "text": "Shall the San Mateo County Charter be amended to add a provision to the Charter Preamble affirming the County’s commitment to the dignity, civil rights, and equal protection of all County residents?",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 3(a); Ordinance No. 4920 § 7(a)",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Shall the San Mateo County Charter be amended",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "each Measure will become effective only if submitted to the voters at the Countywide special election on November 3, 2026, and only after approval by a majority (i.e., 50% + 1) of the qualified voters voting in the special election.",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 6; Ordinance No. 4920 § 10",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MAA-ImpartialAnalysis-SMC-Charter-Affirmation-of-Rights.pdf",
+   "argumentsFiled": {
+    "for": false,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": "Adds a provision to the County Charter Preamble affirming the County’s commitment to the dignity, civil rights, and equal protection of all County residents.",
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+     "title": "San Mateo County Amendments (Resolution No. 081882 and Ordinance No. 4920)",
+     "access": "read",
+     "notes": "Text PDF. Read twice. Ballot questions matched across both readings (second reading returned the questions as fragments that matched the first). Ballot questions are labelled Measure 1 to 4 in the resolution; mapping to letters L, AA, J, U is by subject matching the county list titles (interpretive)."
+    },
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MAA-ImpartialAnalysis-SMC-Charter-Affirmation-of-Rights.pdf",
+     "title": "Impartial analysis",
+     "access": "not attempted",
+     "notes": "Not fetched to save budget. Other county impartial analyses tested (R, V) were scanned with no text layer."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis text not read (county PDFs tested so far are scanned)",
+    "Fiscal impact statement, if any, not found"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Ballot question mapped from \"Measure 1-4\" in the resolution to the county list letter by subject (interpretive: true).",
+   "interpretive": true
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo.measure-j",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure J – San Mateo County Charter Amendment Measure – Extension to Call a Special Election or Appoint",
+   "ballotQuestion": {
+    "text": "Shall the San Mateo County Charter be amended to extend the period in which the County Board of Supervisors is required to either call a special election or make an appointment in the event of a vacancy in an elected office other than the Board of Supervisors from 30 days to 60 days, and to require the Board to conduct at least one public meeting to receive public comment prior to any appointment?",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 4(a); Ordinance No. 4920 § 8(a)",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Shall the San Mateo County Charter be amended",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "each Measure will become effective only if submitted to the voters at the Countywide special election on November 3, 2026, and only after approval by a majority (i.e., 50% + 1) of the qualified voters voting in the special election.",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 6; Ordinance No. 4920 § 10",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MJ-ImpartialAnalysis-SMC-Charter-Extension-to-Call%20Special%20Election.pdf",
+   "argumentsFiled": {
+    "for": false,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": "Gives the Board of Supervisors 60 days instead of 30 to call a special election or make an appointment when an elected office other than the Board becomes vacant. The Board would have to hold at least one public meeting for public comment before any appointment.",
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+     "title": "San Mateo County Amendments (Resolution No. 081882 and Ordinance No. 4920)",
+     "access": "read",
+     "notes": "Text PDF. Read twice. Ballot questions matched across both readings (second reading returned the questions as fragments that matched the first). Ballot questions are labelled Measure 1 to 4 in the resolution; mapping to letters L, AA, J, U is by subject matching the county list titles (interpretive)."
+    },
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MJ-ImpartialAnalysis-SMC-Charter-Extension-to-Call%20Special%20Election.pdf",
+     "title": "Impartial analysis",
+     "access": "not attempted",
+     "notes": "Not fetched to save budget. Other county impartial analyses tested (R, V) were scanned with no text layer."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis text not read (county PDFs tested so far are scanned)",
+    "Fiscal impact statement, if any, not found"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Ballot question mapped from \"Measure 1-4\" in the resolution to the county list letter by subject (interpretive: true).",
+   "interpretive": true
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo.measure-u",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure U – San Mateo County Charter Amendment Measure – Reapportionment of Supervisorial Districts",
+   "ballotQuestion": {
+    "text": "Shall the San Mateo County Charter be amended to require that supervisorial districts be reapportioned following each federal decennial census by an independent redistricting commission pursuant to applicable provisions of the California Elections Code?",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 5(a); Ordinance No. 4920 § 9(a)",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Shall the San Mateo County Charter be amended",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "each Measure will become effective only if submitted to the voters at the Countywide special election on November 3, 2026, and only after approval by a majority (i.e., 50% + 1) of the qualified voters voting in the special election.",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "location": "Resolution No. 081882 § 6; Ordinance No. 4920 § 10",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MU-ImpartialAnalysis-SMC-Charter-Reapportionment.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": "Requires an independent redistricting commission to redraw supervisorial districts after each federal census, under the California Elections Code.",
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+     "title": "San Mateo County Amendments (Resolution No. 081882 and Ordinance No. 4920)",
+     "access": "read",
+     "notes": "Text PDF. Read twice. Ballot questions matched across both readings (second reading returned the questions as fragments that matched the first). Ballot questions are labelled Measure 1 to 4 in the resolution; mapping to letters L, AA, J, U is by subject matching the county list titles (interpretive)."
+    },
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MU-ImpartialAnalysis-SMC-Charter-Reapportionment.pdf",
+     "title": "Impartial analysis",
+     "access": "not attempted",
+     "notes": "Not fetched to save budget. Other county impartial analyses tested (R, V) were scanned with no text layer."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis text not read (county PDFs tested so far are scanned)",
+    "Fiscal impact statement, if any, not found"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "Ballot question mapped from \"Measure 1-4\" in the resolution to the county list letter by subject (interpretive: true).",
+   "interpretive": true
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-sd-burlingame-school-district.measure-r",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure R – Burlingame School District: Bond Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Bond Measure",
+    "evidence": "Measure R – Burlingame School District: Bond Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-ImpartialAnalysis-Burlingame-ESD-Bond.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M105-Contest%20Code-Reso-Burlingame%20ESD%20Bon_Redacted.pdf",
+     "title": "County-hosted resolution / full text / tax rate statement",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-ImpartialAnalysis-Burlingame-ESD-Bond.pdf",
+     "title": "Impartial analysis",
+     "access": "failed",
+     "notes": "County-hosted PDF returned \"[This PDF is empty or contains no machine-readable text]\" (scanned image)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.measure-z",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure Z – Cabrillo Unified School District: Parcel Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Parcel Tax Measure",
+    "evidence": "Measure Z – Cabrillo Unified School District: Parcel Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MZ-ImpartialAnalysis-Cabrillo-USD-Parcel-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M109-Contest%20Code-Reso-Cabrillo%20USD%20Parcel%20Tax.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-sd-jefferson-union-high-school-district.measure-m",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure M – Jefferson Union High School District: Parcel Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Parcel Tax Measure",
+    "evidence": "Measure M – Jefferson Union High School District: Parcel Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MM-ImpartialAnalysis-JUHSD-Parcel-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M106-Contest%20Code-Reso-JUHSD%20Parcel%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-sd-pacifica-school-district.measure-t",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure T – Pacifica School District: Parcel Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Parcel Tax Measure",
+    "evidence": "Measure T – Pacifica School District: Parcel Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MT-ImpartialAnalysis-Pacifica-SD-Parcel-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-06/52-ENG-M103-Contest%20Code-Reso-Pacifica%20SD%20Parcel%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.measure-k",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure K – San Carlos School District: Parcel Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Parcel Tax Measure",
+    "evidence": "Measure K – San Carlos School District: Parcel Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MK-ImpartialAnalysis-San-Carlos-SD-Parcel-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-05/52-ENG-M101-Contest%20Code-Reso-San%20Carlos%20SD%20Parcel%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-ccd-san-mateo-county-community-college-district.measure-v",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure V – San Mateo County Community College District: Bond Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Bond Measure",
+    "evidence": "Measure V – San Mateo County Community College District: Bond Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-ImpartialAnalysis-SMCCD-Bond.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-Reso-SMCCD%20Bond_Redacted.pdf",
+     "title": "County-hosted resolution / full text / tax rate statement",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-ImpartialAnalysis-SMCCD-Bond.pdf",
+     "title": "Impartial analysis",
+     "access": "failed",
+     "notes": "County-hosted PDF returned \"[This PDF is empty or contains no machine-readable text]\" (scanned image)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-sd-san-mateo-foster-city-school-district.measure-w",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure W – San Mateo-Foster City School District: Bond Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Bond Measure",
+    "evidence": "Measure W – San Mateo-Foster City School District: Bond Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-ImpartialAnalysis-SMFCSD-Bond.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M306-Contest%20Code-Reso-SMFCSD%20Bond_Redacted.pdf",
+     "title": "County-hosted resolution / full text / tax rate statement",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-belmont.measure-y",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure Y – City of Belmont: Special Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Special Tax Measure",
+    "evidence": "Measure Y – City of Belmont: Special Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-ImpartialAnalysis-Belmont-Special-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M308-Contest%20Code-Reso-Belmont%20Special%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-brisbane.measure-x",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure X – City of Brisbane: Business License Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Business License Tax Measure",
+    "evidence": "Measure X – City of Brisbane: Business License Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MX-ImpartialAnalysis-City-of-Brisbane-Business-License-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M302-Contest%20Code-Reso-City%20of%20Brisbane%20Business%20License%20Tax_Redacted_1.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-burlingame.measure-d",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure D – City of Burlingame: Transient Occupancy Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Transient Occupancy Tax Measure",
+    "evidence": "Measure D – City of Burlingame: Transient Occupancy Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MD-ImpartialAnalysis-Burlingame-Occupancy-Tax_Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M107-Contest%20Code-Reso-Burlingame%20Occupancy%20Tax_Redacted_0.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-o",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure O – City of East Palo Alto: Bond Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Bond Measure",
+    "evidence": "Measure O – City of East Palo Alto: Bond Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20Code-Reso-City%20of%20East%20Palo%20Alto%20Bond_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-cc",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure CC – City of East Palo Alto: Term Limits Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Term Limits Measure",
+    "evidence": "Measure CC – City of East Palo Alto: Term Limits Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20-Code-Reso-EPA%20Term%20Limits_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-i",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure I – City of Half Moon Bay: Coastal Land Use Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Coastal Land Use Measure",
+    "evidence": "Measure I – City of Half Moon Bay: Coastal Land Use Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-Reso-Half%20Moon%20Bay%20Coastal%20Land_Redacted_0.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-q",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure Q – City of Half Moon Bay: Housing Initiative Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Housing Initiative Measure",
+    "evidence": "Measure Q – City of Half Moon Bay: Housing Initiative Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-Reso-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-menlo-park.measure-p",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure P – City of Menlo Park: Citizen Initiative to Amend Municipal Code",
+   "ballotQuestion": {
+    "text": "Should the measure, which prohibits the City of Menlo Park from making changes to City-owned downtown parking lot properties, including selling, leasing, or conveying any of the properties, authorizing a new use such as housing development on any of the properties, or modifying, altering, or constructing improvements on any of the properties, if such change would diminish parking availability, access or convenience, unless the voters pass another ballot measure to approve the change, be adopted?",
+    "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/7008-calling-parking-lot-initiative-general-election-nov-3-2026.pdf",
+    "location": "Resolution No. 7008 (adopted December 2, 2025)",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "initiative (citizen-sponsored ordinance)",
+    "evidence": "A CITIZEN-SPONSORED INITIATIVE MEASURE",
+    "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/7008-calling-parking-lot-initiative-general-election-nov-3-2026.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "This question requires the approval of a majority vote of the City of Menlo Park voters voting on the measure at the election to become effective.",
+    "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/7008-calling-parking-lot-initiative-general-election-nov-3-2026.pdf",
+    "location": "Resolution No. 7008",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/impartial-analysis-downtown-parking-ordinance.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-05/52-ENG-M102-Contest%20Code-Reso-Menlo%20Park%20Muni%20Amendment_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.menlopark.gov/Government/Departments/City-Managers-Office/City-Clerk/Elections/Nov.-3-2026-General-Election/Measure-P",
+     "title": "City of Menlo Park, Measure P page",
+     "access": "read",
+     "notes": "Lists full text, impartial analysis, argument in favor, argument against and both rebuttals."
+    },
+    {
+     "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/7008-calling-parking-lot-initiative-general-election-nov-3-2026.pdf",
+     "title": "Menlo Park Resolution No. 7008",
+     "access": "read",
+     "notes": "Text PDF. Read twice; ballot question and threshold matched. Initiative title \"Downtown Parking Plazas Ordinance Initiative\"."
+    },
+    {
+     "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/impartial-analysis-downtown-parking-ordinance.pdf",
+     "title": "City Attorney impartial analysis, Measure P",
+     "access": "read",
+     "notes": "Excerpts: \"If adopted, the measure would add a new Title 17 to the Menlo Park Municipal Code\"; \"The Measure identifies eight City-owned parking plazas in downtown Menlo Park\". Its majority sentence refers to future voter approval of changes, not to this measure threshold."
+    }
+   ],
+   "remainingGaps": [
+    "plainEnglish left null; ballot question can be quoted directly"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-pacifica.measure-bb",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure BB – City of Pacifica: Transactions and Use Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Transactions and Use Tax Measure",
+    "evidence": "Measure BB – City of Pacifica: Transactions and Use Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-Reso-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-portola-valley.measure-n",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure N – Town of Portola Valley: Town Charter and Property Transfer Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Town Charter and Property Transfer Tax Measure",
+    "evidence": "Measure N – Town of Portola Valley: Town Charter and Property Transfer Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M205-Contest%20Code-Reso-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-redwood-city.measure-e",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure E – City of Redwood City: Rent Control and Eviction Limits Initiative",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Rent Control and Eviction Limits Initiative",
+    "evidence": "Measure E – City of Redwood City: Rent Control and Eviction Limits Initiative",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.redwoodcity.org/departments/city-clerk/voter-and-election-information/2026-municipal-election-information",
+     "title": "Redwood City 2026 Municipal Election Information",
+     "access": "read",
+     "notes": "Page is stale. Lists \"An initiative to impose additional rent control and just cause eviction limits in Redwood City\" with status \"Petition in Circulation\" and no letter."
+    },
+    {
+     "url": "https://www.redwoodcity.org/departments/city-clerk/voter-and-election-information/2026-municipal-election-information/measures",
+     "title": "Redwood City Measures page",
+     "access": "failed",
+     "notes": "Fetch failed at its site (client_error)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-bruno.measure-s",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure S – City of San Bruno: Housing Permits and Developments Measure",
+   "ballotQuestion": {
+    "text": "Shall City of San Bruno Ordinance No. 1284, the 1977 zoning initiative that requires voter approval before the City Council can approve buildings exceeding specified height limits, residential density increases beyond 1974 zoning, multi-story parking structures, and certain roadway changes, be repealed given that State housing laws supersede local height limits and the ordinance interacts with current City economic development goals?",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "location": "Measure S - Height Limits",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "ordinance (repeal of initiative ordinance)",
+    "evidence": "an ordinance that would repeal Initiative Ordinance No. 1284",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9338"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "The Measure shall only take effect if at least a majority of those voting on the question vote in favor of it at the Election.",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9338",
+    "location": "Resolution No. 2026-075, Section 3",
+    "readingsMatched": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M303-Contest%20Code-Reso-San%20Bruno%20Hosuing%20Permit%20and%20Development_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9338",
+     "title": "San Bruno Resolution No. 2026-075 (adopted July 28, 2026)",
+     "access": "read",
+     "notes": "OCR text layer with recognition errors. Threshold read once."
+    },
+    {
+     "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+     "title": "City of San Bruno 2026 Citywide Ballot Measures",
+     "access": "read",
+     "notes": "Read twice; ballot question wording matched."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not read (city page lists a staff report, county PDF not fetched)",
+    "Threshold read once only",
+    "Argument against: none listed on county page or city page"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "City page heads this measure \"Measure S - Height Limits\"; county list title is \"Housing Permits and Developments Measure\". Same letter and jurisdiction. Resolution text is OCR with errors in the ballot question; question text taken from the city HTML page (read twice, matched) and agrees in wording with the resolution apart from OCR errors.",
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-bruno.measure-dd",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure DD – City of San Bruno: Fireworks Ban Measure",
+   "ballotQuestion": {
+    "text": "Shall the City of San Bruno Safe and Sane Fireworks Ordinance be repealed to prohibit the sale, use, and discharge of safe and sane fireworks in the City of San Bruno?",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "location": "Measure DD - Safe & Sane Fireworks",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "ordinance",
+    "evidence": "A MEASURE THAT PROPOSES ADOPTION OF AN ORDINANCE",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9336"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "The Measure shall only take effect if at least a majority of those voting on the question vote in favor of it at the Election.",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9336",
+    "location": "Resolution No. 2026-077",
+    "readingsMatched": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": "Repeals the City of San Bruno Safe and Sane Fireworks Ordinance to prohibit the sale, use, and discharge of safe and sane fireworks in the City of San Bruno.",
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M304-Contest%20Code-Reso-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9336",
+     "title": "San Bruno Resolution No. 2026-077 (adopted July 28, 2026)",
+     "access": "read",
+     "notes": "OCR text layer. Threshold read once."
+    },
+    {
+     "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+     "title": "City of San Bruno 2026 Citywide Ballot Measures",
+     "access": "read",
+     "notes": "Read twice; ballot question wording matched."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not read",
+    "Threshold read once only"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-bruno.measure-ee",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure EE – City of San Bruno: Business License Tax Measure",
+   "ballotQuestion": {
+    "text": "San Bruno Essential Services Protection Measure. To protect essential services such as: fixing potholes/city streets; providing rapid response to 9-1-1 emergency calls; maintaining library programs for children, teens, adults/seniors; maintaining parks/open space; and general city services, shall the measure be adopted simplifying/modernizing San Bruno’s business license ordinance, making rates more equitable/equal, updating the tax rate schedule as described in the ordinance, until ended by voters, raising $4,000,000 annually, with annual independent audits?",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "location": "Measure EE - Business License Tax",
+    "readingsMatched": true
+   },
+   "measureType": {
+    "value": "tax (general tax)",
+    "evidence": "This Measure is a general tax measure and must be approved by a majority of the votes cast in order to be adopted.",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9352"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "This Measure is a general tax measure and must be approved by a majority of the votes cast in order to be adopted.",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9352",
+    "location": "Resolution No. 2026-079",
+    "readingsMatched": true
+   },
+   "fiscal": {
+    "text": "until ended by voters, raising $4,000,000 annually, with annual independent audits",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures"
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-Reso-San%20Bruno%20Business%20License%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9352",
+     "title": "San Bruno Resolution No. 2026-079 (adopted July 28, 2026)",
+     "access": "read",
+     "notes": "Ballot question in resolution Section 2 matched city page. Threshold sentence read twice, matched. Reader reported the ordinance takes effect January 1, 2027 (read once)."
+    },
+    {
+     "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+     "title": "City of San Bruno 2026 Citywide Ballot Measures",
+     "access": "read",
+     "notes": "Read twice; ballot question wording matched."
+    }
+   ],
+   "remainingGaps": [
+    "Specific business license tax rates not captured",
+    "Impartial analysis not read"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-carlos.measure-g",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure G – City of San Carlos: Transactions and Use Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "Transactions and Use Tax Measure",
+    "evidence": "Measure G – City of San Carlos: Transactions and Use Tax Measure",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ImpartialAnalysis-City-of-San-Carlos-Use-Tax.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M104-Contest%20Code-Reso-City%20of%20San%20Carlos%20Use%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Fiscal or tax rate statement and duration",
+    "Impartial analysis text"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": null,
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-mateo.measure-h",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure H – City of San Mateo: Transactions and Use Tax Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "tax (transactions and use tax)",
+    "evidence": "¼-Cent Transactions and Use Sales Tax Measure",
+    "url": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M301-Contest%20Code-Reso-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures",
+     "title": "City of San Mateo Citywide Ballot Measures",
+     "access": "read",
+     "notes": "Lists Measure H \"¼-Cent Transactions and Use Sales Tax Measure\" and Measure F \"Charter Amendments Measure\" with links to Resolutions 84 and 85 (2026) on Laserfiche. No ballot question text on page. Laserfiche links refused by fetch allowlist."
+    },
+    {
+     "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106931",
+     "title": "City-posted impartial analysis",
+     "access": "failed",
+     "notes": "\"[This PDF is empty or contains no machine-readable text]\""
+    },
+    {
+     "url": "https://www.cityofsanmateo.org/4822/Ballot-Measure-Arguments",
+     "title": "City of San Mateo Ballot Measure Arguments",
+     "access": "read",
+     "notes": "H: supporting argument, opposing argument and both rebuttals posted. F: supporting argument only."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Tax rate duration",
+    "Impartial analysis text (scanned on both city and county sites)"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "City page title differs slightly from county list: \"¼-Cent Transactions and Use Sales Tax Measure\".",
+   "interpretive": false
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-mateo.measure-f",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "Measure F – City of San Mateo: Charter Amendment Measure",
+   "ballotQuestion": {
+    "text": null,
+    "url": null,
+    "location": null,
+    "readingsMatched": null
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Charter Amendments Measure",
+    "url": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null
+   },
+   "fiscal": {
+    "text": null,
+    "url": null
+   },
+   "impartialAnalysisUrl": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": false,
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election"
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M209-Contest%20Code-Reso-San%20Mateo%20Charter%20Amendment_Redacted.pdf",
+     "title": "County-hosted resolution / full text",
+     "access": "not attempted",
+     "notes": "Direct file URL decoded from the county list page href by the reader; not fetched (allowlist blocks direct file URLs unless the archival wrapper is fetched first)."
+    },
+    {
+     "url": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures",
+     "title": "City of San Mateo Citywide Ballot Measures",
+     "access": "read",
+     "notes": "Lists Measure H \"¼-Cent Transactions and Use Sales Tax Measure\" and Measure F \"Charter Amendments Measure\" with links to Resolutions 84 and 85 (2026) on Laserfiche. No ballot question text on page. Laserfiche links refused by fetch allowlist."
+    },
+    {
+     "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106932",
+     "title": "City-posted impartial analysis",
+     "access": "failed",
+     "notes": "\"[This PDF is empty or contains no machine-readable text]\""
+    },
+    {
+     "url": "https://www.cityofsanmateo.org/4822/Ballot-Measure-Arguments",
+     "title": "City of San Mateo Ballot Measure Arguments",
+     "access": "read",
+     "notes": "H: supporting argument, opposing argument and both rebuttals posted. F: supporting argument only."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Threshold",
+    "Which charter sections change",
+    "Impartial analysis text (scanned on both city and county sites)"
+   ],
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "notes": "City page title differs slightly from county list: \"Charter Amendments Measure\" (plural).",
+   "interpretive": false
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "City of San Mateo",
+   "pageChecked": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures",
+   "result": "matches",
+   "details": "Measures H and F listed. City titles \"¼-Cent Transactions and Use Sales Tax Measure\" and \"Charter Amendments Measure\"."
+  },
+  {
+   "jurisdiction": "City of San Mateo",
+   "pageChecked": "https://www.cityofsanmateo.org/4658/2026-Election",
+   "result": "matches",
+   "details": "Same two measures, H and F."
+  },
+  {
+   "jurisdiction": "City of Menlo Park",
+   "pageChecked": "https://www.menlopark.gov/Government/Departments/City-Managers-Office/City-Clerk/Elections/Nov.-3-2026-General-Election",
+   "result": "matches",
+   "details": "Only Measure P listed."
+  },
+  {
+   "jurisdiction": "City of San Bruno",
+   "pageChecked": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+   "result": "matches",
+   "details": "Measures S, DD, EE. City heads S as \"Height Limits\" and DD as \"Safe & Sane Fireworks\"; county titles are \"Housing Permits and Developments Measure\" and \"Fireworks Ban Measure\"."
+  },
+  {
+   "jurisdiction": "City of San Bruno",
+   "pageChecked": "https://www.sanbruno.ca.gov/229/Elections",
+   "result": "no measures listed",
+   "details": "Candidate page only; links to the 2026 Citywide Ballot Measures page."
+  },
+  {
+   "jurisdiction": "City of Redwood City",
+   "pageChecked": "https://www.redwoodcity.org/departments/city-clerk/voter-and-election-information/2026-municipal-election-information",
+   "result": "matches",
+   "details": "Stale page lists the rent control and just cause eviction initiative as \"Petition in Circulation\" with no letter. Consistent with Measure E but not confirming the letter."
+  },
+  {
+   "jurisdiction": "City of Redwood City",
+   "pageChecked": "https://www.redwoodcity.org/departments/city-clerk/voter-and-election-information/2026-municipal-election-information/measures",
+   "result": "not reachable",
+   "details": "client_error."
+  },
+  {
+   "jurisdiction": "Town of Atherton",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Belmont",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Brisbane",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Burlingame",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "Town of Colma",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Daly City",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of East Palo Alto",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Foster City",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Half Moon Bay",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "Town of Hillsborough",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Millbrae",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of Pacifica",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "Town of Portola Valley",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of San Carlos",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "City of South San Francisco",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  },
+  {
+   "jurisdiction": "Town of Woodside",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Session web search budget was exhausted, and city URLs not returned by a search are refused by the fetch allowlist."
+  }
+ ],
+ "missingMeasures": [
+  {
+   "letter": null,
+   "jurisdiction": "Public Transit Revenue Measure District (regional)",
+   "title": "Regional Transit Measure – Public Transit Revenue Measure District: Transactions and Use Tax Measure",
+   "source": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+   "excerpt": "Regional Transit Measure – Public Transit Revenue Measure District: Transactions and Use Tax Measure",
+   "notes": "On the county list but not in measures-ca-san-mateo.json. A separate file measures-ca-bayarea-rtm.json exists in this folder; confirm it covers San Mateo County voters. Multi-county measure; this audit did not determine which county administers it."
+  }
+ ],
+ "blockers": [
+  "County-hosted impartial analyses are scanned PDFs with no text layer (tested Measure R and Measure V, and City of San Mateo copies of the H and F analyses). Error text \"[This PDF is empty or contains no machine-readable text]\".",
+  "Direct county file URLs (smcacre.gov/system/files/...) are refused by the fetch allowlist unless first reached through the archival-document wrapper, and one wrapper URL (Measure R resolution) returned client_error or a wrong file link, so resolutions for school, college and most city measures were not read.",
+  "Laserfiche links for City of San Mateo Resolutions 84 and 85 (2026) were refused by the fetch allowlist.",
+  "Session WebSearch budget was exhausted after about 15 searches in this audit, so city pages for 16 of 20 cities and the district sites could not be located.",
+  "Ballot questions, thresholds and tax rate statements still missing for R, Z, M, T, K, V, W, Y, X, D, O, CC, I, Q, BB, N, E, G, H, F."
+ ]
+}

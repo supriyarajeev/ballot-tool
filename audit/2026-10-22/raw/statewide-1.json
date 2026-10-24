@@ -1,0 +1,915 @@
+{
+ "n": "1",
+ "officialTitle": "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS.",
+ "measureType": "Legislative Statute",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/1/",
+   "title": "Proposition 1 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First fetch refused (URL not on allowlist). Read after the SOS propositions index page returned the link."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/index.htm",
+   "title": "Propositions index",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Used to get titles and types."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+   "title": "Proposition 1 analysis (PDF)",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First fetch refused (allowlist). Read after WebSearch returned it. Read twice. Key numbers matched."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+   "title": "Proposition 1 analysis (HTML)",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Matched PDF."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+   "title": "Arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Signers matched the separate prop1.pdf section reading."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+   "title": "Text of proposed law",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Sections 54088 and 998.759 matched the LegiScan chaptered text reading."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-title-summ-analysis.pdf",
+   "title": "Prop 1 title, summary and analysis section (PDF)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read. Legislative final votes: Senate 29-2, Assembly 61-7."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1.pdf",
+   "title": "Prop 1 voter guide section (PDF)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read. Text of law not included in returned content."
+  },
+  {
+   "url": "https://legiscan.com/CA/text/SB417/2025",
+   "title": "SB 417 chaptered text (Chapter 16, Statutes of 2026)",
+   "publisher": "LegiScan (independent mirror of official bill text)",
+   "documentDate": "2026-06-25",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Used to cross-check the measure text. leginfo.legislature.ca.gov not fetchable through the tool."
+  },
+  {
+   "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+   "title": "HCD Annual Report 2023-24",
+   "publisher": "California Department of Housing and Community Development",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Used only for its reproduction of Health and Safety Code 50408 and 50675.12. Read three times. Item wording matched across readings."
+  },
+  {
+   "url": "https://spectrumlocalnews.com/ca/california/politics/2026/10/16/california-prop-1-housing-bon-veterans-2026",
+   "title": "Spectrum News on Prop 1",
+   "publisher": "Spectrum News (independent)",
+   "documentDate": "2026-10-16",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Independent. Used for Strickland only."
+  },
+  {
+   "url": "https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/",
+   "title": "CalMatters voter guide Prop 1",
+   "publisher": "CalMatters (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Independent."
+  },
+  {
+   "url": "https://www.kpbs.org/news/politics/2026/10/02/proposition-1-borrow-11-25-billion-for-housing",
+   "title": "KPBS on Prop 1",
+   "publisher": "KPBS (independent)",
+   "documentDate": "2026-10-02",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "No named opponents."
+  },
+  {
+   "url": "https://www.nbcbayarea.com/elections/california-prop-1-affordable-housing/4124291/",
+   "title": "NBC Bay Area on Prop 1",
+   "publisher": "NBC Bay Area (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Names Silicon Valley Taxpayers Association."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Affordable housing and veterans bond",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Summary",
+     "excerpt": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Health and Safety Code Section 54050",
+     "excerpt": "this part shall be known, and may be cited, as the Veterans and Affordable Housing Bond Act of 2026.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Our short name matches the statute's short title and the SOS summary.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Authorizes bonds for housing affordability programs",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Official title",
+     "excerpt": "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS. LEGISLATIVE STATUTE.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-title-summ-analysis.pdf",
+     "location": "Ballot title",
+     "excerpt": "PROPOSITION AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official ballot title, in sentence case.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Bond · from the Legislature",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Measure type",
+     "excerpt": "Put on the Ballot by the Legislature",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Summary",
+     "excerpt": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "SOS says the Legislature placed it on the ballot and it is a general obligation bond.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Legislative statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Official title",
+     "excerpt": "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS. LEGISLATIVE STATUTE.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "SOS labels it a Legislative Statute.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should the state borrow $11.25 billion for affordable housing and veterans' home loans?",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "Proposition 1 allows the state to sell $11.25 billion in general obligation bonds for housing purposes.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 3",
+     "excerpt": "Proposition 1 also provides $1.25 billion for home loan assistance to veterans.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Amount and purposes match LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Lets the state borrow $11.25 billion. $10 billion goes to existing affordable housing programs, including about $7.2 billion for rental housing, and $1.25 billion to CalVet home loans for veterans.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "a $10 billion bond for a variety of state housing programs that would be repaid by the General Fund",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "Proposition 1 provides $7.2 billion to acquire, build, or renovate rental housing, such as apartment buildings.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 3",
+     "excerpt": "Proposition 1 also provides $1.25 billion for home loan assistance to veterans.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Health and Safety Code Section 54054(b)(1)",
+     "excerpt": "to be used for the Multifamily Housing Program authorized by Chapter 6.7 (commencing with Section 50675)",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Dollar figures match LAO. 'Existing programs' is our synthesis. LAO does not say it outright, but the text routes the largest share ($5.1 billion) to the existing Multifamily Housing Program and the $1.25 billion to the existing veterans farm and home purchase program.",
+   "proposedText": null,
+   "limitations": "Not every one of the ten sub-allocations was checked to confirm that each one goes to a program that already exists. The $500 million infrastructure and $200 million local pilot allocations may be new or newly structured."
+  },
+  {
+   "field": "yes",
+   "current": "The state could borrow $11.25 billion to support veterans and affordable housing.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "What your vote means",
+     "excerpt": "A YES vote on this measure means: The state could borrow $11.25 billion to support veterans and affordable housing.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official YES statement word for word.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "LAO estimates up to 40,000 subsidized rentals and up to 40,000 households helped to buy.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The bond funds would provide subsidies for up to 40,000 multifamily rental units",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The funds also would help up to 40,000 households, including about 2,100 veterans, with homeownership",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches LAO estimates. LAO calls them 'up to' figures.",
+   "proposedText": null,
+   "limitations": "LAO also says about 2,100 of the 40,000 homebuyer households would be veterans. Could be added."
+  },
+  {
+   "field": "no",
+   "current": "The state could not borrow this money. Housing programs would rely on yearly budgets.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "What your vote means",
+     "excerpt": "A NO vote on this measure means: The state could not borrow $11.25 billion to support veterans and affordable housing.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The first sentence matches the official NO statement. The second sentence ('Housing programs would rely on yearly budgets') is our inference. No LAO or SOS excerpt found states it.",
+   "proposedText": "The state could not borrow this money for veterans and affordable housing.",
+   "limitations": "LAO text describing current funding sources was not captured."
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field. Nothing to verify.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "LAO estimates taxpayers repay about $500 million to $600 million a year for about 25 years. Veterans repay the $1.25 billion CalVet share through their loans.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Background, p. 1",
+     "excerpt": "Participating veterans repay the cost of the bonds through their payments on their home loan.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-title-summ-analysis.pdf",
+     "location": "State Bond Cost Estimate",
+     "excerpt": "Source of repayment: \"General tax revenue\"",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Annual cost, term and veteran repayment match LAO. The $500 to $600 million applies to the $10 billion housing bond. The CalVet share is repaid by veterans.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "Low and moderate income renters and buyers, veterans, farmworkers, tribes, UC and CSU students.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "Proposition 1 provides $1.1 billion to support homeownership for low- and moderate-income households.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "Proposition 1 provides $450 million in loans and grants to build or renovate housing for farmworkers.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "Proposition 1 provides $350 million, split evenly between the University of California and California State University",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Proposal, p. 2",
+     "excerpt": "Proposition 1 provides $200 million in grants to tribes.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Each group named gets a share of the money under LAO's description. 'Renters' follows from the $7.2 billion for rental housing.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Up to about 40,000 subsidized rentals and 40,000 assisted home buyers (LAO estimate, not a requirement).",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The bond funds would provide subsidies for up to 40,000 multifamily rental units",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The funds also would help up to 40,000 households, including about 2,100 veterans, with homeownership",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives 'up to' estimates. The statute contains no unit production target (see acct).",
+   "proposedText": null,
+   "limitations": "Absence of a target is based on the reader reporting none in LAO and the measure text, not on an affirmative statement."
+  },
+  {
+   "field": "acct",
+   "current": "An annual public report on the bond and a yearly independent accountant review of the CalVet share. No target for homes built or cost per home.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+     "location": "Health and Safety Code Section 54088, p. 103",
+     "excerpt": "The administering entity shall publish in an annual report detailed information regarding the investments resulting from this bond pursuant to Section 50408 of the Health and Safety Code.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Health and Safety Code Section 54088 (chaptered text, Chapter 16, Statutes of 2026)",
+     "excerpt": "The administering entity shall publish in an annual report detailed information regarding the investments resulting from this bond pursuant to Section 50408 of the Health and Safety Code.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1 (Section 50408 as reproduced by HCD)",
+     "excerpt": "(b) The report shall include all of the following information:",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1",
+     "excerpt": "(1) The number of units assisted by these programs.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1",
+     "excerpt": "(2) The number of individuals and households served and their income levels.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1",
+     "excerpt": "(3) The distribution of units among various areas of the state.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Health and Safety Code Section 54054(b)(1)",
+     "excerpt": "to be used for the Multifamily Housing Program authorized by Chapter 6.7 (commencing with Section 50675)",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "p. 5 (Section 50675.12 as reproduced by HCD)",
+     "excerpt": "The department shall include in the annual report required by Section 50408 information that describes all of the following:",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "p. 5",
+     "excerpt": "(3) The location and geographical distribution of the projects and units assisted.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "p. 5",
+     "excerpt": "(4) The average cost per project, and cost per unit.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+     "location": "Military and Veterans Code Section 998.759(a), p. 105",
+     "excerpt": "As long as any bonds authorized pursuant to this article are outstanding, the Secretary of Veterans Affairs shall, at the close of each fiscal year, require a survey of the financial condition of the Division of Farm and Home Purchases together with a projection of the division's operations, to be made by an independent public accountant of recognized standing.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Military and Veterans Code Section 998.759(a)",
+     "excerpt": "The results of each survey and projection shall be reported in writing by the public accountant to the Secretary of Veterans Affairs, the California Veterans Board, the appropriate policy committees dealing with veterans affairs in the Senate and the Assembly, and the committee.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+     "location": "Health and Safety Code Section 54054(b)(1), p. 100",
+     "excerpt": "At least 10 percent of assisted units in each development receiving these funds shall be affordable to extremely low income households.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Administrative Costs, p. 3",
+     "excerpt": "A number of state entities would experience increased costs to administer the various housing programs.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "RESOLUTION. (1) Public reporting. The measure requires an annual published report (Section 54088) with 'detailed information regarding the investments' from the bond, 'pursuant to Section 50408'. Section 54088 itself names no metrics. It ties the report to existing Health and Safety Code 50408, which (as reproduced by HCD) requires the number of units assisted, households served and their incomes, and the distribution of units among areas of the state. For the Multifamily Housing Program, which gets $5.1 billion of the rental money, existing Section 50675.12 also requires that annual report to give the location of projects and units and the average cost per project and cost per unit. So the report must cover numbers and general locations of assisted homes, and per-unit cost for the main rental program. It is not a measure-specific list of every home. LAO says nothing about reporting. (2) Targets. Neither the statute nor LAO sets any target for homes built or for cost per home. LAO's 40,000 figures are 'up to' estimates. The only numeric unit rule is that at least 10 percent of assisted units in each funded development must be affordable to extremely low income households. That is an affordability mix, not a production target. (3) CalVet review. The independent accountant survey covers the financial condition of CalVet's Division of Farm and Home Purchases while the bonds are outstanding. It goes to CalVet, the Veterans Board, legislative committees and the finance committee. It is not described as public, and it is a review of the loan program's finances, not of the bond spending itself. (4) No State Auditor or other audit of the $10 billion housing money appears in the measure text. Our current text is accurate on targets but understates what the annual report must contain and slightly mislabels the CalVet review.",
+   "proposedText": "An annual public report on the bond. Under existing law it must show homes assisted, households served and where the homes are, and for the main rental program, cost per unit. A yearly independent accountant review of CalVet's home loan finances. No target for homes built or cost per home.",
+   "limitations": "Sections 50408 and 50675.12 were read as reproduced in HCD's 2023-24 annual report, not from the codes directly (leginfo was not reachable through the tool). They could have been amended since. 'Administering entity' is not defined in the measure (reader found no definition), so which agency publishes is unclear. 50675.12 cost-per-unit reporting applies only to the Multifamily Housing Program share, not to the $2.1 billion preservation money, homeownership, farmworker, tribal, student or infrastructure money. Student housing money must meet Education Code 17201(i) and (o) reporting rules, which were not read."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says it builds affordable homes for veterans, seniors and working families with accountability and no new taxes.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Maintains strict fiscal accountability and transparency with NO NEW TAXES.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Prop. 1 helps seniors, veterans & our most vulnerable",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "Working families and essential workers across California are being priced out and left behind.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fair summary of the official argument's themes.",
+   "proposedText": null,
+   "limitations": "Second excerpt is the argument's section heading."
+  },
+  {
+   "field": "argAgainst",
+   "current": "No official argument against was filed. Critics such as the Howard Jarvis Taxpayers Association say the debt still costs taxpayers.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "NO ARGUMENT AGAINST PROPOSITION 1 WAS SUBMITTED.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://spectrumlocalnews.com/ca/california/politics/2026/10/16/california-prop-1-housing-bon-veterans-2026",
+     "location": null,
+     "excerpt": "These billions of dollars in bonds, what that is, it's maxing out your credit card",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.nbcbayarea.com/elections/california-prop-1-affordable-housing/4124291/",
+     "location": null,
+     "excerpt": "Others such as the Silicon Valley Taxpayers Association question the financial element of the proposition.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "No official argument against is confirmed. No fetched source shows the Howard Jarvis Taxpayers Association criticizing this measure. Independent news names Sen. Tony Strickland (Spectrum News) and the Silicon Valley Taxpayers Association (NBC Bay Area) as critics of the debt.",
+   "proposedText": "No official argument against was filed. Critics such as state Sen. Tony Strickland say the state should not take on more debt.",
+   "limitations": "Web search budget ran out before an HJTA statement could be searched. HJTA may have a 2026 position that was not found."
+  },
+  {
+   "field": "pro",
+   "current": "Self-Help for the Elderly, California Federation of Teachers, US Vets (official argument). Gov. Newsom signed the bill placing it on the ballot.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "Anni Chung",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "Self-Help for the Elderly",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "Jeffery Freitas",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "California Federation of Teachers",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "John H. Ing",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "US Vets",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Supporters",
+     "excerpt": "US Vets\"; \"CA Federation of Teachers\"; \"Self-Help for the Elderly\"; \"Habitat for Humanity CA\"; \"CA Alliance of Child & Family Services",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Official signers match (names and organizations read on the arguments page and in the prop1.pdf section). Chapter 16, Statutes of 2026 is consistent with Governor approval. SOS also lists Habitat for Humanity CA and CA Alliance of Child & Family Services as supporters.",
+   "proposedText": null,
+   "limitations": "Newsom signing rests on the LegiScan reader stating the bill was approved by the Governor and filed June 25, 2026 as Chapter 16, Statutes of 2026. No verbatim approval line was captured. Confirm on leginfo history."
+  },
+  {
+   "field": "con",
+   "current": "Howard Jarvis Taxpayers Association, Sen. Tony Strickland. No organized campaign against.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/1/",
+     "location": "Opponents",
+     "excerpt": "None submitted",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://spectrumlocalnews.com/ca/california/politics/2026/10/16/california-prop-1-housing-bon-veterans-2026",
+     "location": null,
+     "excerpt": "These billions of dollars in bonds, what that is, it's maxing out your credit card",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://calmatters.org/california-voter-guide-2026/proposition-1-housing-bond/",
+     "location": null,
+     "excerpt": "Some Republican legislators criticized the bill for using veterans to drum up support",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Strickland is named as an opponent by Spectrum News (independent). HJTA was not found in any fetched source. 'No organized campaign against' is consistent with SOS listing no opponents, and with CalMatters and Spectrum describing no opposition committee.",
+   "proposedText": "Sen. Tony Strickland and some Republican lawmakers, as reported in the news. No official argument against was filed.",
+   "limitations": "Independent sources only for named critics. HJTA could not be checked after search budget ran out."
+  },
+  {
+   "field": "risk",
+   "current": "Decades of fixed debt with no guaranteed number of homes.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The bond funds would provide subsidies for up to 40,000 multifamily rental units",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fixed repayment for about 25 years and 'up to' unit estimates support the synthesis.",
+   "proposedText": null,
+   "limitations": "'Decades' means about 25 years per LAO."
+  },
+  {
+   "field": "unk",
+   "current": "Cost per home and how fast the money gets spent.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The funds would be allocated over a number of years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives no cost per unit (reader found none) and says only that funds would be allocated over several years.",
+   "proposedText": null,
+   "limitations": "Existing law requires per-unit cost reporting for the Multifamily Housing Program after the fact (see acct), so cost per home would become partly knowable later."
+  },
+  {
+   "field": "tw",
+   "current": "More subsidized homes now, in exchange for about $500 million to $600 million a year in repayments for about 25 years.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Repayment figures match LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives the yearly cost and term, but no total dollar figure.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+     "location": "Fiscal Effects",
+     "excerpt": "Since the state has to pay interest on the money it borrows, the total cost of the bond would be about 15 percent more",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=1&year=2026",
+     "location": "Fiscal Effects",
+     "excerpt": "(after adjusting for inflation) than if the state paid up front with money it already has.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives yearly cost and term and a relative total (about 15 percent more after inflation), but no total dollar figure.",
+   "proposedText": null,
+   "limitations": "Could mention the 15 percent figure."
+  },
+  {
+   "field": "r.oc",
+   "current": "Spending is measurable and reported yearly, but home counts are estimates, not targets.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+     "location": "Health and Safety Code Section 54088, p. 103",
+     "excerpt": "The administering entity shall publish in an annual report detailed information regarding the investments resulting from this bond pursuant to Section 50408 of the Health and Safety Code.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The bond funds would provide subsidies for up to 40,000 multifamily rental units",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Annual report required. Unit figures are 'up to' estimates.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Required annual public report and an independent review of the CalVet share, but no audit of the housing money.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+     "location": "Health and Safety Code Section 54088, p. 103",
+     "excerpt": "The administering entity shall publish in an annual report detailed information regarding the investments resulting from this bond pursuant to Section 50408 of the Health and Safety Code.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1",
+     "excerpt": "(1) The number of units assisted by these programs.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1",
+     "excerpt": "(2) The number of individuals and households served and their income levels.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf",
+     "location": "Statutory Basis of This Report, p. 1",
+     "excerpt": "(3) The distribution of units among various areas of the state.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf",
+     "location": "Military and Veterans Code Section 998.759(a), p. 105",
+     "excerpt": "As long as any bonds authorized pursuant to this article are outstanding, the Secretary of Veterans Affairs shall, at the close of each fiscal year, require a survey of the financial condition of the Division of Farm and Home Purchases together with a projection of the division's operations, to be made by an independent public accountant of recognized standing.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Military and Veterans Code Section 998.759(a)",
+     "excerpt": "The results of each survey and projection shall be reported in writing by the public accountant to the Secretary of Veterans Affairs, the California Veterans Board, the appropriate policy committees dealing with veterans affairs in the Senate and the Assembly, and the committee.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The report is broader than our sentence suggests (units, households and areas, plus per-unit cost for the main rental program, through existing law). The CalVet item is a survey of the loan division's finances. No audit of the housing money was found in the text.",
+   "proposedText": "Required annual public report covering homes assisted and where, and a yearly independent review of CalVet's loan finances, but no audit of the housing money.",
+   "limitations": "Same limitation as acct on Sections 50408 and 50675.12."
+  },
+  {
+   "field": "r.if",
+   "current": "Runs through existing state programs.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://legiscan.com/CA/text/SB417/2025",
+     "location": "Health and Safety Code Section 54054(b)(1)",
+     "excerpt": "to be used for the Multifamily Housing Program authorized by Chapter 6.7 (commencing with Section 50675)",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Background, p. 1",
+     "excerpt": "The state's veterans home loan program provides home loans to eligible veterans",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Largest pieces go to existing programs.",
+   "proposedText": null,
+   "limitations": "Not checked for every sub-allocation."
+  },
+  {
+   "field": "r.ev",
+   "current": "Strong cost data, limited data on how much new housing each dollar adds.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "Our own judgment. LAO gives cost data. No excerpt on how much new housing each dollar adds.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.lr",
+   "current": "Fixed debt for decades, but a small share of the budget.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fixed debt for about 25 years is supported. 'A small share of the budget' was not stated in any fetched source.",
+   "proposedText": null,
+   "limitations": "Our own comparison. LAO wording on budget share was not captured."
+  },
+  {
+   "field": "r.nb",
+   "current": "Up to 40,000 rentals and 40,000 buyers helped, against $12.5 billion to $15 billion repaid. Cost per home unknown.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The bond funds would provide subsidies for up to 40,000 multifamily rental units",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, Impact of Funds, p. 3",
+     "excerpt": "The funds also would help up to 40,000 households, including about 2,100 veterans, with homeownership",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop1-110326.pdf",
+     "location": "Fiscal Effects, p. 3",
+     "excerpt": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The 40,000 figures are LAO's. The $12.5 billion to $15 billion is our arithmetic ($500 to $600 million times 25). LAO gives no total dollar figure.",
+   "proposedText": null,
+   "limitations": "Not wrong on its face, but should be labeled as our estimate, or replaced with LAO's 'about 15 percent more than paying up front' framing."
+  }
+ ],
+ "specificGaps": [
+  "Confirm Health and Safety Code 50408(b) and 50675.12(a) current text directly on leginfo. They were read only as reproduced in HCD's 2023-24 annual report.",
+  "Identify the 'administering entity' for the Section 54088 report. The measure does not define it.",
+  "The $12.5 billion to $15 billion repayment range in r.nb is our arithmetic ($500 to $600 million times 25 years). LAO gives no total.",
+  "No fetched source shows HJTA opposing 2026 Prop 1. Find a statement or drop HJTA from con and argAgainst.",
+  "Confirm whether the CalVet independent accountant survey results are made public. The text sends them only to named officials and committees."
+ ],
+ "conflicts": [
+  "The official argument in favor says 'Voters will be able to see exactly how many homes get built, where, and at what cost.' Section 54088 lists no metrics itself. Existing law (50408, 50675.12 as reproduced by HCD) requires units assisted and their distribution, and cost per unit only for the Multifamily Housing Program. Location detail is 'distribution among various areas' for all programs, and 'location and geographical distribution' for MHP.",
+  "The bill caption on legiplex and the calmatters digest page reads 'The Affordable Housing Bond Act of 2026'. The chaptered text's short title (Section 54050) is 'Veterans and Affordable Housing Bond Act of 2026'."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

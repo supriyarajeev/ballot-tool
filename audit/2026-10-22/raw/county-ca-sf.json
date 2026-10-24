@@ -1,0 +1,719 @@
+{
+ "county": "ca-sf",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "listUrl": "https://www.sf.gov/qualified-ballot-measures",
+ "listRecheck": {
+  "matched": true,
+  "notes": "sf.gov Qualified Ballot Measures page read twice. Letters A-J and titles match all ten records. Page also lists \"RTM - Regional Transit Measure\" under Regional Measures (covered by record 2026-11-03.ca-bayarea-rtm.measure-rtm). Three titles differ from the Department of Elections Voter Information Pamphlet table of contents (C, G, H); see reconciliation."
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-sf-city.a",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "A - Charter Changes Affecting Various City Departments and Commissions",
+   "titleInVIP": "A Charter Changes Affecting Various City Departments and Commissions (VIP table of contents, p. 64)",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Listed under heading \"Charter Amendments\"; digest: \"If you vote \"yes,\" you want to amend the Charter\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+    "url": "https://media.api.sf.gov/documents/Proposition_A__Charter_Changes_Affecting_Various_City_Departments_and_Commissi_R9PDkP0.pdf",
+    "source": "Controller's statement, Greg Wagner, Controller, August 10, 2026",
+    "readingsMatched": null,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Read once. Letter also notes possible future costs of $5,000 to $85,000 annually if members are compensated."
+   },
+   "yesMeans": {
+    "text": "If you vote \"yes,\" you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commissions.pdf",
+    "status": "Final Digest, Friday July 31, 2026",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Identical wording read in the Approved Digest (July 28, 2026) and the Final Digest. Quotation-mark glyphs (curly vs straight) varied between reader outputs; wording matched."
+   },
+   "noMeans": {
+    "text": "If you vote \"no,\" you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commissions.pdf",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "impartialAnalysisUrl": "https://media.api.sf.gov/documents/Final_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commissions.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent Argument, Official Opponent Argument, both rebuttals, and a Paid Argument Against."
+   },
+   "plainEnglishCheck": {
+    "existing": "Charter amendment that would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies.",
+    "verdict": "supported",
+    "evidence": "Proposition __ would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commissions.pdf",
+    "proposedSourceChange": "Record cites the Approved Digest (July 28). A later Final Digest (July 31) exists with the same wording; consider citing the Final Digest."
+   },
+   "plainEnglish": "Charter amendment that would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies.",
+   "otherSources": [
+    {
+     "url": "https://media.api.sf.gov/documents/Approved_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commi_OFegEjl.pdf",
+     "title": "Approved Digest (BSC), July 28, 2026",
+     "access": "read",
+     "notes": "YES/NO text identical to Final Digest."
+    },
+    {
+     "url": "https://api.sf.gov/documents/61762/Proposition_A__Charter_Changes_Affecting_Various_City_Departments_and_Commissi_R9PDkP0.pdf",
+     "title": "Controller's Statement (api.sf.gov link on list)",
+     "access": "failed",
+     "notes": "robots_disallowed; same file read at media.api.sf.gov."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Vote threshold (not stated in documents read)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.b",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "B - Establishing a Municipal Finance Corporation and a Public Bank",
+   "titleInVIP": "B Establishing a Municipal Finance Corporation and a Public Bank (VIP table of contents, p. 70)",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Listed under heading \"Charter Amendments\"; legislative digest heading: \"[Charter Amendment - Municipal Finance Corporation and Public Bank]\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/62384/Proposition_B__Establishing_a_Municipal_Finance_Corporation_and_a_Public_Bank__eb1cXQz.pdf",
+    "notes": "Controller's Statement and Amended Controller's Statement are linked from the list but are on api.sf.gov (robots_disallowed). No media.api.sf.gov copy was found before the search budget ran out."
+   },
+   "yesMeans": null,
+   "noMeans": null,
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent Argument, Official Opponent Argument, both rebuttals, and Paid Arguments in Favor."
+   },
+   "plainEnglishCheck": {
+    "existing": null,
+    "verdict": "not-found",
+    "notes": "No BSC digest located for B."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://media.api.sf.gov/documents/Legislative_Digest.pdf",
+     "title": "Legislative Digest, Charter Amendment - Municipal Finance Corporation and Public Bank, File No. 260535",
+     "access": "read",
+     "notes": "Board legislative digest, not BSC digest. Excerpt: \"The proposed measure would authorize the establishment of a Municipal Finance Corporation (MFC) and a Public Bank as non-profit corporations, subject to the availability of adequate funding\". This file may be an earlier version than the list's link https://api.sf.gov/documents/60916/Nov2026_CA_Municipal_Finance_Corporation_and_Public_Bank_LegislativeDigest.pdf (robots_disallowed)."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "BSC digest and YES/NO meaning",
+    "Controller statement (original and amended)",
+    "Vote threshold"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.c",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "C - Contributions to the Housing Fund",
+   "titleInVIP": "C Contributions to the Housing Trust Fund (VIP table of contents, p. 78)",
+   "titleNotes": "Record title matches the sf.gov list. The Department of Elections Voter Information Pamphlet table of contents reads \"Contributions to the Housing Trust Fund\" (read twice, matched). Editor should decide which to display; the VIP is the printed ballot document.",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "charter amendment",
+    "evidence": "Listed under heading \"Charter Amendments\"; digest: \"you want to amend the Charter\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures"
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
+    "url": "https://media.api.sf.gov/documents/Proposition_C__Contributions_to_the_Housing_Fund_-_Signed.pdf",
+    "source": "Controller's statement, Greg Wagner, Controller, August 10, 2026",
+    "readingsMatched": null,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Read once."
+   },
+   "yesMeans": {
+    "text": "If you vote \"yes,\" you want to amend the Charter to change how the City's annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Contributions_to_the_Housing_Fund.pdf",
+    "status": "Final Digest, Thursday, July 30, 2026",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Two readings of the Final Digest matched. The earlier Approved Digest (July 27) worded it differently (\"... are set, expand affordable housing programs, and extend the Fund to 2058.\"); use the Final Digest. Quotation-mark glyphs (curly vs straight) varied between reader outputs; wording matched."
+   },
+   "noMeans": {
+    "text": "If you vote \"no,\" you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Contributions_to_the_Housing_Fund.pdf",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "impartialAnalysisUrl": "https://media.api.sf.gov/documents/Final_Digest_-_Contributions_to_the_Housing_Fund.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent Argument, Official Opponent Argument, both rebuttals, and Paid Arguments in Favor."
+   },
+   "plainEnglishCheck": {
+    "existing": "Charter amendment that would change how the City's annual contributions to the Housing Trust Fund are set, increase funding, expand affordable housing programs, and extend the Fund to 2058.",
+    "verdict": "supported",
+    "evidence": "Proposition ___ would change how the City's annual contributions to the Housing Trust Fund (HTF) are set, increase funding and expand programs for affordable housing, and extend the Fund's expiration date. ... extending the Fund's expiration date from 2043 to 2058.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Contributions_to_the_Housing_Fund.pdf"
+   },
+   "plainEnglish": "Charter amendment that would change how the City's annual contributions to the Housing Trust Fund are set, increase funding, expand affordable housing programs, and extend the Fund to 2058.",
+   "otherSources": [
+    {
+     "url": "https://media.api.sf.gov/documents/Approved_Digest_-_Contributions_to_the_Housing_Fund.pdf",
+     "title": "Approved Digest (BSC), July 27, 2026",
+     "access": "read",
+     "notes": "Superseded by Final Digest of July 30; wording omits \"increase funding\"."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Vote threshold"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.d",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "D - Changes to Ballot Measure Process",
+   "titleInVIP": "D Changes to Ballot Measure Process (VIP table of contents, p. 84)",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "charter amendment (initiative)",
+    "evidence": "Listed under heading \"Charter Amendments\" with a \"Notice of Intent to Circulate\" and \"Certification Letter\"; digest: \"Proposition __ would amend the Charter\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61756/Proposition_D__Changes_to_Ballot_Measure_Process_-_Signed.pdf",
+    "notes": "Controller's Statement link is on api.sf.gov (robots_disallowed); no readable copy found."
+   },
+   "yesMeans": {
+    "text": "If you vote \"yes,\" you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Ballot_Measure_Process.pdf",
+    "status": "Final Digest, Thursday, July 30, 2026",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Two readings matched, including 2%, 8%, 10,600 and 42,500. Quotation-mark glyphs (curly vs straight) varied between reader outputs; wording matched."
+   },
+   "noMeans": {
+    "text": "If you vote \"no,\" you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Ballot_Measure_Process.pdf",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "impartialAnalysisUrl": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Ballot_Measure_Process.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments, rebuttals, a Challenge to the Rebuttal to Opponent Argument with Department response, and Paid Arguments in Favor and Against."
+   },
+   "plainEnglishCheck": {
+    "existing": "Charter amendment that would increase the requirements to put measures on the ballot; the Board of Supervisors could still place measures on the ballot by majority vote.",
+    "verdict": "supported",
+    "evidence": "Proposition __ would amend the Charter to increase the requirements to put measures on the ballot by: ... The Board could still place measures on the ballot by a majority vote.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Ballot_Measure_Process.pdf",
+    "proposedCorrection": "Charter amendment that would increase the requirements to put measures on the ballot. The Board of Supervisors could still place measures on the ballot by majority vote.",
+    "proposedCorrectionReason": "Style only (RULES 12, avoid semicolon run-on). Content is supported."
+   },
+   "plainEnglish": "Charter amendment that would increase the requirements to put measures on the ballot. The Board of Supervisors could still place measures on the ballot by majority vote.",
+   "otherSources": [],
+   "remainingGaps": [
+    "Ballot question",
+    "Controller statement",
+    "Vote threshold"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.e",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "E - City Administrator's Authority and Changes to City Contracting",
+   "titleInVIP": "E City Administrator's Authority and Changes to City Contracting (VIP table of contents, p. 94)",
+   "titleNotes": "List uses a curly apostrophe (Administrator’s).",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "charter amendment (initiative)",
+    "evidence": "Listed under heading \"Charter Amendments\" with a \"Notice of Intent to Circulate\" and \"Certification Letter\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61757/Proposition_E__City_Administrators_Authority_and_Changes_to_City_Contracting_-_Signed.pdf",
+    "notes": "Controller's Statement link is on api.sf.gov (robots_disallowed); no readable copy found."
+   },
+   "yesMeans": null,
+   "noMeans": null,
+   "draftDigestOnly": {
+    "yesText": "If you vote \"yes,\" you want to expand the City Administrator's authority, change how the City approves procurement rules, and extend the City Administrator's term.",
+    "noText": "If you vote \"no,\" you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/Draft_Digest_-_City_Administrators_Authority_and_Changes_to_City_Contracting.pdf",
+    "status": "Draft for Consideration, Wednesday, July 22, 2026",
+    "notes": "DRAFT only. Not the final BSC digest. Do not publish as yesMeans without checking the Final Digest. Read once."
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments, both rebuttals, and Paid Arguments in Favor."
+   },
+   "plainEnglishCheck": {
+    "existing": null,
+    "verdict": "not-found",
+    "notes": "Only the draft digest was located."
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Ballot question",
+    "Final BSC digest and YES/NO meaning",
+    "Controller statement",
+    "Vote threshold"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.f",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "F - Changes to Executive Branch Management",
+   "titleInVIP": "F Changes to Executive Branch Management (VIP table of contents, p. 100)",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "charter amendment (initiative)",
+    "evidence": "Listed under heading \"Charter Amendments\" with a \"Notice of Intent to Circulate\"; digest: \"Proposition ___ would amend the Charter to allow the Mayor to do the following:\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+    "url": "https://media.api.sf.gov/documents/Proposition_F__Changes_to_Executive_Branch_Management_-_Signed.pdf",
+    "source": "Controller's statement, Greg Wagner, Controller, August 10, 2026",
+    "readingsMatched": null,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Read once."
+   },
+   "yesMeans": {
+    "text": "If you vote \"yes,\" you want to expand the Mayor's authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Executive_Branch_Management_sroyBze.pdf",
+    "status": "Final Digest, Friday, July 24, 2026",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Quotation-mark glyphs (curly vs straight) varied between reader outputs; wording matched."
+   },
+   "noMeans": {
+    "text": "If you vote \"no,\" you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Executive_Branch_Management_sroyBze.pdf",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "impartialAnalysisUrl": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Executive_Branch_Management_sroyBze.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments, both rebuttals, and Paid Arguments in Favor and Against."
+   },
+   "plainEnglishCheck": {
+    "existing": "Charter amendment that would give the Mayor new authority over executive branch management.",
+    "verdict": "partly-supported",
+    "evidence": "If you vote \"yes,\" you want to expand the Mayor's authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Executive_Branch_Management_sroyBze.pdf",
+    "notes": "Existing text is vague and omits that City officials (not only the Mayor) could remove board and commission members without cause.",
+    "proposedCorrection": "Charter amendment that would expand the Mayor's authority to transfer responsibilities, hire deputy mayors, and hire some and fire most department heads. It would also allow City officials to remove members of boards or commissions without cause."
+   },
+   "plainEnglish": "Charter amendment that would expand the Mayor's authority to transfer responsibilities, hire deputy mayors, and hire some and fire most department heads. It would also allow City officials to remove members of boards or commissions without cause.",
+   "otherSources": [],
+   "remainingGaps": [
+    "Ballot question",
+    "Vote threshold",
+    "Whether a later Approved/amended digest exists after July 24"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.g",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "G - Allowing Private Vehicles on the Great Highway in Sunset Dunes Park",
+   "titleInVIP": "G Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park (VIP table of contents, p. 108)",
+   "titleNotes": "Record matches sf.gov list and the Controller's subject line (\"Proposition G – Allowing Private Vehicles on the Great Highway in Sunset Dunes Park\"). The VIP table of contents adds \"Upper\" (read twice, matched). Editor should decide; the VIP is the printed ballot document.",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "ordinance (initiative)",
+    "evidence": "Listed under heading \"Ordinances\" with a \"Notice of Intent to Circulate\"; Controller: \"Should the proposed Ordinance be approved by the voters\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+    "url": "https://media.api.sf.gov/documents/Proposition_G__Allowing_Private_Vehicles_on_the_Great_Highway_in_Sunset_Dunes__lMlfeAX.pdf",
+    "source": "Controller's statement signed by ChiaYu Ma, Deputy Controller, August 10, 2026",
+    "readingsMatched": null,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Read once."
+   },
+   "yesMeans": null,
+   "noMeans": null,
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments, both rebuttals, and Paid Arguments in Favor and Against."
+   },
+   "plainEnglishCheck": {
+    "existing": null,
+    "verdict": "not-found",
+    "notes": "No BSC Final Digest URL located. Several Requests for Reconsideration of the Final Digest are posted, so the digest was contested."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://media.api.sf.gov/documents/Title__Summary_-_Allowing_Private_Vehicles_on_the_Great_Highway.pdf",
+     "title": "Title & Summary (petition stage)",
+     "access": "partial",
+     "notes": "Reader found no date, preparer, ballot question or votes statement; not used."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "BSC digest and YES/NO meaning",
+    "Vote threshold",
+    "Title wording (Great Highway vs Upper Great Highway)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.h",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "H - Parcel Tax to Fund Public Muni Operations",
+   "titleInVIP": "H Parcel Tax to Fund Muni Operations (VIP table of contents, p. 124)",
+   "titleNotes": "Record matches sf.gov list. The VIP table of contents, the BSC digests, and the Controller's file name all use \"Parcel Tax to Fund Muni Operations\" without \"Public\". Editor should decide.",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "tax (parcel tax ordinance, initiative)",
+    "evidence": "Listed under heading \"Ordinances\" with a \"Notice of Intent to Circulate\"; digest: \"would fund Muni service through a new annual parcel tax on real estate in San Francisco\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred. Do not assume two-thirds or majority from the measure type."
+   },
+   "fiscal": {
+    "text": "Should the proposed parcel tax be approved by the voters, in my opinion, based on currently available parcel data it would generate approximately $177 million annually for Muni transit service starting in Fiscal Year (FY) 2027-2028, and would increase over time as the per parcel taxes are adjusted for inflation each year.",
+    "url": "https://media.api.sf.gov/documents/Proposition_H__Parcel_Tax_to_Fund_Muni_Operations_-_Signed.pdf",
+    "source": "Controller's statement, Greg Wagner, Controller, August 10, 2026",
+    "rateAndDuration": "Digest: \"Starting July 1, 2027, and continuing until June 30, 2042, Proposition ___ would fund Muni service through a new annual parcel tax on real estate in San Francisco.\" \"The tax would be adjusted annually for inflation.\" \"The proposed 2027 tax rates would be:\" Single-Family Residential \"A base tax of $129.\"; Multifamily \"A base tax of $249.\" capped at $50,000 per parcel; Non-Residential \"A base tax of $799.\" capped at $400,000 per parcel; Mixed-Use \"A base tax of $799.\" capped at $400,000; per-square-foot add-ons above size thresholds.",
+    "rateUrl": "https://media.api.sf.gov/documents/Final_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Dates read three times (Approved and Final digests, twice for Final) and matched. Controller text read once. Controller also states administration costs of approximately $2 million to $3 million one-time and $4 million to $6 million annually."
+   },
+   "yesMeans": {
+    "text": "If you vote \"yes,\" you want the City to fund Muni service through a new annual parcel tax on real estate.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+    "status": "Final Digest, Thursday, July 30, 2026",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request",
+    "notes": "Same in Approved Digest (July 23, 2026). Quotation-mark glyphs (curly vs straight) varied between reader outputs; wording matched."
+   },
+   "noMeans": {
+    "text": "If you vote \"no,\" you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request"
+   },
+   "impartialAnalysisUrl": "https://media.api.sf.gov/documents/Final_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments, rebuttals (opponent rebuttal marked Corrected), and Paid Arguments in Favor and Against."
+   },
+   "plainEnglishCheck": {
+    "existing": "From July 1, 2027 through June 30, 2042, would fund Muni service through a new annual parcel tax on real estate in San Francisco.",
+    "verdict": "supported",
+    "evidence": "Starting July 1, 2027, and continuing until June 30, 2042, Proposition ___ would fund Muni service through a new annual parcel tax on real estate in San Francisco.",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf"
+   },
+   "plainEnglish": "From July 1, 2027 through June 30, 2042, would fund Muni service through a new annual parcel tax on real estate in San Francisco.",
+   "otherSources": [
+    {
+     "url": "https://media.api.sf.gov/documents/Approved_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+     "title": "Approved Digest (BSC), July 23, 2026",
+     "access": "read",
+     "notes": "Same dates and YES/NO text as Final Digest."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "Vote threshold (priority: tax measure)"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.i",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "I - Changes to Real Property Transfer Tax",
+   "titleInVIP": "I Changes to Real Property Transfer Tax (VIP table of contents, p. 132)",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "tax ordinance (initiative)",
+    "evidence": "Listed under heading \"Ordinances\" with a \"Notice of Intent to Circulate\" and title \"Changes to Real Property Transfer Tax\"",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61760/Proposition_I__Changes_to_Real_Property_Transfer_Tax_-_Signed.pdf",
+    "notes": "api.sf.gov robots_disallowed; no readable copy found."
+   },
+   "yesMeans": null,
+   "noMeans": null,
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments, both rebuttals, and Paid Arguments in Favor and Against."
+   },
+   "plainEnglishCheck": {
+    "existing": null,
+    "verdict": "not-found"
+   },
+   "plainEnglish": null,
+   "otherSources": [],
+   "remainingGaps": [
+    "Ballot question",
+    "BSC digest and YES/NO meaning",
+    "Controller statement",
+    "Vote threshold"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-sf-city.j",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "J - Removal of Foreclosure Exemption for Real Property Transfer Tax",
+   "titleInVIP": "J Removal of Foreclosure Exemption for Real Property Transfer Tax (VIP table of contents, p. 144)",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61682/Ballot_Questions_November_2026.pdf",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "Ballot Questions PDF linked from sf.gov list could not be read (robots_disallowed). The Voter Information Pamphlet text returned by the reader stops at page 44, before the measure pages."
+   },
+   "measureType": {
+    "value": "tax ordinance (initiative ordinance placed by Board motion)",
+    "evidence": "Legislative digest heading: \"Initiative Ordinance - Business and Tax Regulations Code - Real Property Transfer Tax Foreclosure Exemption\"; \"Motion ordering submitted to the voters at an election to be held on November 3, 2026,\"",
+    "url": "https://media.api.sf.gov/documents/Nov2026_LD_RealPropertyTransferTaxForeclosureExemption.pdf",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": null,
+    "evidence": null,
+    "url": null,
+    "notes": "No official document read states the vote threshold. Digests and Controller statements read contain no votes-required sentence. Not inferred."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://api.sf.gov/documents/61761/Proposition_J__Removal_of_Foreclosure_Exemption_for_Real_Property_Transfer_Tax_0z0ADpd.pdf",
+    "notes": "Controller statement on api.sf.gov robots_disallowed. Legislative digest (File No. 260692) says \"For transfers on or after March 1, 2027, the proposed measure would remove the partial exemption\" for most properties other than single-family and small residential/mixed-use properties."
+   },
+   "yesMeans": null,
+   "noMeans": null,
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "notes": "sf.gov list links Official Proponent and Opponent Arguments and both rebuttals. No paid arguments listed."
+   },
+   "plainEnglishCheck": {
+    "existing": null,
+    "verdict": "not-found",
+    "notes": "Board legislative digest read; no BSC digest located. Not enough to write plainEnglish under the brief."
+   },
+   "plainEnglish": null,
+   "otherSources": [
+    {
+     "url": "https://media.api.sf.gov/documents/Nov2026_LD_RealPropertyTransferTaxForeclosureExemption.pdf",
+     "title": "Legislative Digest, File No. 260692",
+     "access": "read",
+     "notes": "Read once."
+    }
+   ],
+   "remainingGaps": [
+    "Ballot question",
+    "BSC digest and YES/NO meaning",
+    "Controller statement",
+    "Vote threshold"
+   ]
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "City and County of San Francisco (sf.gov qualified measures vs Department of Elections Voter Information Pamphlet)",
+   "pageChecked": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+   "result": "matches",
+   "details": "VIP table of contents (read twice, matched) lists the same ten local measures A-J with the same letters. Title differences: C list \"Contributions to the Housing Fund\" vs VIP \"Contributions to the Housing Trust Fund\"; G list \"Allowing Private Vehicles on the Great Highway in Sunset Dunes Park\" vs VIP \"Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park\"; H list \"Parcel Tax to Fund Public Muni Operations\" vs VIP \"Parcel Tax to Fund Muni Operations\". VIP measure pages (p. 61 onward) were not reachable because the reader returned only the first 120,660 characters (through p. 44)."
+  },
+  {
+   "jurisdiction": "Department of Elections, Measures and ballot arguments",
+   "pageChecked": "https://www.sf.gov/measures-and-ballot-arguments-2",
+   "result": "no measures listed",
+   "details": "Department of Elections page for November 3, 2026 links to the qualified measures page; it lists no measures itself."
+  },
+  {
+   "jurisdiction": "Department of Elections news release",
+   "pageChecked": "https://www.sf.gov/news-the-department-of-elections-makes-the-voter-information-pamphlet-and-sample-ballot-available-for-the-november-3-2026-consolidated-general-election",
+   "result": "no measures listed",
+   "details": "Dated September 23, 2026. Links the VIP PDF; does not list measures."
+  },
+  {
+   "jurisdiction": "Bay Area regional transit measure",
+   "pageChecked": "https://www.sf.gov/qualified-ballot-measures",
+   "result": "matches",
+   "details": "\"RTM - Regional Transit Measure\" appears under Regional Measures. It is a multi-county measure; the guide holds it in measures-ca-bayarea-rtm.json (Public Transit Revenue Measure District), not in the SF file. San Francisco voters will see it."
+  }
+ ],
+ "missingMeasures": [],
+ "blockers": [
+  "api.sf.gov/documents/* links (Ballot Questions PDF, most Controller statements, legal texts, legislative digests) return robots_disallowed to WebFetch. Only media.api.sf.gov copies found via search could be read.",
+  "Voter Information Pamphlet PDF (media.api.sf.gov/documents/N26_EN_VIP.pdf) text was cut at 120,660 characters (about p. 44); measure pages with ballot questions and votes-required statements (p. 61 to 148) were not reachable.",
+  "sf.gov BSC meeting pages return robots_disallowed; sfelections.org calendar not on fetch allowlist.",
+  "Web search budget for the turn was exhausted partway through, so media.api.sf.gov copies of digests for B, E (final), G, I, J and Controller statements for B, D, E, I, J were not located.",
+  "No ballot question or vote threshold was confirmed for any measure. A human should read the VIP pages 64-147 or the Ballot Questions PDF directly."
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "county": "ca-napa",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "listUrl": "https://www.napacounty.gov/2319/Local-Measures",
+ "listRecheck": {
+  "matched": true,
+  "notes": "Re-read Oct 22, 2026. The page lists four measures, the same letters and jurisdictions as our records. Link texts read 'County of Napa - Measure B', 'City of American Canyon - Measure P', 'City of St Helena - Measure S', 'Town of Yountville - Measure Y'. The list itself gives no titles. Yountville is a town, not a city; our record says jurisdictionType city."
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-napa.measure-b",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "County of Napa - Measure B",
+   "officialTitleFound": "The Napa County Wildfire Preparedness, Watershed Protection and Open Space Preservation Act of 2026",
+   "officialTitleUrl": "https://www.napacounty.gov/2471/County-of-Napa---Measure-B",
+   "titleNote": "Our record has 'Title not recorded yet'. The county measure page shows the title above. The ballot title and summary document is headed 'AN INITIATIVE IMPOSING A ONE-HALF PERCENT (1/2%) SALES TAX FOR WILDFIRE PREPAREDNESS, WATERSHED PROTECTION, AND OPEN SPACE PRESERVATION'.",
+   "ballotQuestion": {
+    "text": null,
+    "url": "https://www.napacounty.gov/DocumentCenter/View/40594/Measure-B---Ballot-Title-and-Summary---Napa-County-PDF",
+    "location": null,
+    "readingsMatched": null,
+    "notes": "The county measure page has no ballot question. The 'Ballot Title and Summary' PDF is the initiative's title and summary, and the reader reported it 'contains no question beginning with Shall'. The ballot label was not found in any official document read."
+   },
+   "measureType": {
+    "value": "initiative (citizen petition), countywide sales tax",
+    "evidence": "Measure B was placed on the ballot by citizen petition pursuant to the initiative process outlined ... in the California Elections Code.",
+    "url": "https://www.napacounty.gov/DocumentCenter/View/46097/Measure-B---Impartial-Analysis---Napa-County-PDF"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Measure B, if approved by a simple majority (50% plus one vote) of the voters voting on November 3, 2026, will result in:",
+    "url": "https://www.napacounty.gov/DocumentCenter/View/46097/Measure-B---Impartial-Analysis---Napa-County-PDF",
+    "readingsMatched": true,
+    "notes": "Read twice; both readings returned the same sentence."
+   },
+   "fiscal": {
+    "text": "Measure B would impose a countywide sales tax at the rate of one-half of one percent (1/2%). ... for eighteen (18) years, beginning on April 1, 2027, and ending on March 31, 2045",
+    "url": "https://www.napacounty.gov/DocumentCenter/View/46097/Measure-B---Impartial-Analysis---Napa-County-PDF",
+    "readingsMatched": true,
+    "notes": "Ballot title and summary PDF agrees: 'The sales tax would be imposed for eighteen (18) years, beginning on April 1, 2027 and expiring on March 31, 2045.' No annual revenue estimate appears in the impartial analysis."
+   },
+   "impartialAnalysisUrl": "https://www.napacounty.gov/DocumentCenter/View/46097/Measure-B---Impartial-Analysis---Napa-County-PDF",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.napacounty.gov/2471/County-of-Napa---Measure-B",
+    "notes": "The county page links an Argument in Favor (DocumentCenter/View/46100), Argument Against (46099), Rebuttal to Argument in Favor (46153) and Rebuttal to Argument Against (46152). The argument PDFs were not opened."
+   },
+   "plainEnglish": "Adds a one-half percent (1/2%) sales tax throughout Napa County, including the cities, town and unincorporated areas, for 18 years from April 1, 2027 to March 31, 2045. It was placed on the ballot by citizen petition.",
+   "plainEnglishSupport": "Impartial analysis sentences 'Measure B would impose a countywide sales tax at the rate of one-half of one percent (1/2%).' 'The tax would apply throughout Napa County, including the cities, town and the unincorporated areas of the county.' plus the duration and petition sentences quoted above.",
+   "otherSources": [
+    {"url": "https://www.napacounty.gov/2471/County-of-Napa---Measure-B", "title": "County of Napa - Measure B (county measure page)", "access": "read", "notes": "Title and document links only."},
+    {"url": "https://www.napacounty.gov/DocumentCenter/View/40594/Measure-B---Ballot-Title-and-Summary---Napa-County-PDF", "title": "Measure B - Ballot Title and Summary", "access": "read", "notes": "Initiative title and summary; no ballot question."},
+    {"url": "https://www.napacounty.gov/DocumentCenter/View/40926/Measure-B---Full-Text---Napa-County-PDF", "title": "Measure B - Full Text", "access": "failed", "notes": "Not opened (fetch budget)."}
+   ],
+   "remainingGaps": ["Exact ballot label/question as printed on the ballot", "Revenue estimate", "Content of the arguments"]
+  },
+  {
+   "id": "2026-11-03.ca-napa-american-canyon.measure-p",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "City of American Canyon - Measure P",
+   "ballotQuestion": {"text": null, "url": null, "location": null, "readingsMatched": null},
+   "measureType": {"value": null, "evidence": null, "url": null},
+   "threshold": {"value": null, "evidence": null, "url": null},
+   "fiscal": {"text": null, "url": null},
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {"for": null, "against": null, "url": null},
+   "plainEnglish": null,
+   "otherSources": [
+    {"url": "https://www.napacounty.gov/2470/City-of-American-Canyon---Measure-P", "title": "County page for Measure P", "access": "read", "notes": "Heading only. Refers readers to the city site https://www.americancanyon.gov/Work/Elections-Central. No documents linked."},
+    {"url": "https://www.americancanyon.gov/Work/Elections-Central", "title": "American Canyon Elections Central", "access": "failed", "notes": "Fetch refused with error URL_NOT_ON_ALLOWLIST; no further web search was available in this session."}
+   ],
+   "remainingGaps": ["Title", "Ballot question", "Measure type", "Threshold", "Fiscal", "Impartial analysis", "Arguments"]
+  },
+  {
+   "id": "2026-11-03.ca-napa-st-helena.measure-s",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": null,
+   "titleOnList": "City of St Helena - Measure S",
+   "ballotQuestion": {"text": null, "url": null, "location": null, "readingsMatched": null},
+   "measureType": {"value": null, "evidence": null, "url": null},
+   "threshold": {"value": null, "evidence": null, "url": null},
+   "fiscal": {"text": null, "url": null},
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {"for": null, "against": null, "url": null},
+   "plainEnglish": null,
+   "otherSources": [
+    {"url": "https://www.napacounty.gov/2330/City-of-St-Helena---Measure-S", "title": "County page for Measure S", "access": "read", "notes": "Heading 'Measure S' only; no ballot question or document links. Directs readers to the City/Town Clerk."}
+   ],
+   "remainingGaps": ["Title", "Ballot question", "Measure type", "Threshold", "Fiscal", "Impartial analysis", "Arguments", "City of St. Helena clerk page not reached"]
+  },
+  {
+   "id": "2026-11-03.ca-napa-yountville.measure-y",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "jurisdictionNote": "Official list names the 'Town of Yountville'. Our record's jurisdictionType is 'city'.",
+   "titleOK": null,
+   "titleOnList": "Town of Yountville - Measure Y",
+   "ballotQuestion": {"text": null, "url": null, "location": null, "readingsMatched": null},
+   "measureType": {"value": null, "evidence": null, "url": null},
+   "threshold": {"value": null, "evidence": null, "url": null},
+   "fiscal": {"text": null, "url": null},
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {"for": null, "against": null, "url": null},
+   "plainEnglish": null,
+   "otherSources": [
+    {"url": "https://www.napacounty.gov/2472/Town-of-Yountville---Measure-Y", "title": "County page for Measure Y", "access": "read", "notes": "Heading only; no ballot question or document links. Directs readers to the town's website and clerk."}
+   ],
+   "remainingGaps": ["Title", "Ballot question", "Measure type", "Threshold", "Fiscal", "Impartial analysis", "Arguments", "Town of Yountville clerk page not reached"]
+  }
+ ],
+ "reconciliation": [
+  {"jurisdiction": "Napa County (Current Election page)", "pageChecked": "https://www.napacounty.gov/2139/Current-Election", "result": "matches", "details": "Lists the same four measures B, P, S, Y. No sample ballot or voter guide link on the page."},
+  {"jurisdiction": "City of American Canyon", "pageChecked": "https://www.americancanyon.gov/Work/Elections-Central", "result": "not reachable", "details": "URL_NOT_ON_ALLOWLIST."},
+  {"jurisdiction": "City of Napa", "pageChecked": null, "result": "not reachable", "details": "No city URL obtained before the session's web search limit was reached."},
+  {"jurisdiction": "City of Calistoga", "pageChecked": null, "result": "not reachable", "details": "No city URL obtained before the session's web search limit was reached."},
+  {"jurisdiction": "City of St. Helena", "pageChecked": null, "result": "not reachable", "details": "County page names the city website without a link; no URL obtained."},
+  {"jurisdiction": "Town of Yountville", "pageChecked": null, "result": "not reachable", "details": "County page names the town website without a link; no URL obtained."}
+ ],
+ "missingMeasures": [],
+ "blockers": [
+  "Session web search budget (200 calls, shared) ran out mid-audit, so no city clerk URLs could be discovered for Napa cities; WebFetch only accepts URLs already seen.",
+  "americancanyon.gov returned URL_NOT_ON_ALLOWLIST.",
+  "No ballot label found for Measure B in official documents read."
+ ]
+}

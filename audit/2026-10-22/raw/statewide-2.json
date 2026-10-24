@@ -1,0 +1,711 @@
+{
+ "n": "2",
+ "officialTitle": "INCREASES STATE’S RAINY DAY FUND.",
+ "measureType": "Legislative Constitutional Amendment",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/2/",
+   "title": "Proposition 2 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+   "title": "Proposition 2 analysis by the Legislative Analyst (SOS page)",
+   "publisher": "California Secretary of State / LAO",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read. Matched LAO PDF on key points."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+   "title": "Proposition 2 analysis (PDF)",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First refused (allowlist). Read twice after LAO index returned the link. Readings matched."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=2&year=2026",
+   "title": "LAO HTML analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Fetched twice. Both times the page returned the Proposition 37 analysis, not Proposition 2."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+   "title": "Arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Argument signers matched. The two readings disagreed on which rebuttal each group signed. Opponents' signers logically belong on the rebuttal to the argument in favor."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+   "title": "Text of proposed law",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "partial",
+   "attempts": "Read twice. Strikeout and italic formatting lost, so old and new text are inferred."
+  },
+  {
+   "url": "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/FullBudgetSummary.pdf",
+   "title": "2026-27 enacted budget summary",
+   "publisher": "California Department of Finance",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "Error text: URL_NOT_ON_ALLOWLIST 'This URL is not on the session's allowlist, so it was not fetched.' Web search budget was exhausted, so no alternate route."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Bigger rainy day fund",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "Official title",
+     "excerpt": "INCREASES STATE’S RAINY DAY FUND. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official title in plain words.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Increases state's rainy day fund",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "Official title",
+     "excerpt": "INCREASES STATE’S RAINY DAY FUND. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · from the Legislature",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "Measure type",
+     "excerpt": "Put on the Ballot by the Legislature",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Legislative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "Official title",
+     "excerpt": "INCREASES STATE’S RAINY DAY FUND. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should the state be required to save more in its rainy day fund during good years?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Save More in the Rainy Day Fund, p. 3",
+     "excerpt": "Proposition 2 requires the state to make deposits into the rainy day fund until it reaches 20 percent",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Save More in the Rainy Day Fund, p. 3",
+     "excerpt": "In addition, the state would make even larger deposits in years when revenues from taxes on investment gains are very high",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fair plain-language question.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Raises the rainy day fund's limit for required deposits from 10% to 20% of General Fund taxes, saves extra in big capital gains years, keeps deposits from counting against the state spending limit, and extends extra debt payments from 2030 to 2040.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Save More in the Rainy Day Fund, p. 3",
+     "excerpt": "Proposition 2 requires the state to make deposits into the rainy day fund until it reaches 20 percent",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+     "location": "Analysis by the Legislative Analyst",
+     "excerpt": "Proposition 2 requires the state to make deposits into the rainy day fund until it reaches 20 percent of General Fund taxes",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Save More in the Rainy Day Fund, p. 3",
+     "excerpt": "In addition, the state would make even larger deposits in years when revenues from taxes on investment gains are very high",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Change How Rainy Day Fund Deposits Count Toward the State Appropriations Limit, p. 3",
+     "excerpt": "Deposits into the rainy day fund would not count toward the state appropriations limit.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, p. 3",
+     "excerpt": "Instead, the money would count toward the limit when it is taken out.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Extend and Expand Extra Debt Payments, p. 3",
+     "excerpt": "Proposition 2 also requires the state to make extra debt payments through 2040 (instead of through 2030).",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(e), p. 109",
+     "excerpt": "exceeds 10 20 percent of the amount of General Fund proceeds of taxes for the fiscal year",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(c)(1)(A), p. 107",
+     "excerpt": "to the 2029– 30 2039–40 fiscal year, inclusive",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "All four elements match LAO and the text. LAO adds that deposits count toward the limit when the money is withdrawn. Our wording ('keeps deposits from counting against the state spending limit') leaves that out. The rest is accurate. 'Extra debt payments' are limited to pension and retiree health debts.",
+   "proposedText": "Raises the rainy day fund's limit for required deposits from 10% to 20% of General Fund taxes, saves extra in big capital gains years, counts deposits against the state spending limit only when withdrawn, and extends extra debt payments from 2030 to 2040.",
+   "limitations": "Text formatting (strikeout and italic) did not come through the reader, so old and new values were inferred from order. LAO wording confirms the direction."
+  },
+  {
+   "field": "yes",
+   "current": "Rules for building state budget reserves and paying down extra state debts would change.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "What your vote means",
+     "excerpt": "A YES vote on this measure means: Rules for building state budget reserves and paying down extra state debts would change.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Yes/No statement, p. 4",
+     "excerpt": "A YES vote on this measure means: Rules for building state budget reserves and paying down extra state debts would change.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches word for word. Two sources agree.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "LAO says state budget reserves would be higher, with more saved in the rainy day fund in certain years.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Summary of Legislative Analyst's Estimate, p. 4",
+     "excerpt": "State budget reserves would be higher.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/analysis.htm",
+     "location": "Fiscal Effects",
+     "excerpt": "the state likely would save more in the rainy day fund in certain years.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "Rules for building state budget reserves and paying down extra state debts would not change.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "What your vote means",
+     "excerpt": "A NO vote on this measure means: Rules for building state budget reserves and paying down extra state debts would not change.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches word for word.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "No new tax or program. It shifts when money is spent. LAO gives no dollar estimate or timeline for reaching 20%.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Summary of Legislative Analyst's Estimate, p. 4",
+     "excerpt": "State budget reserves would be higher.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives no dollar estimate and no timeline for reaching 20 percent. Two reads of LAO (PDF and SOS analysis page) agree. 'No new tax or program' is our synthesis and is consistent with the measure only changing reserve rules.",
+   "proposedText": null,
+   "limitations": "Absence of a timeline is based on the reader finding none in the LAO PDF and the SOS analysis page."
+  },
+  {
+   "field": "who",
+   "current": "The state budget, people who use state services, schools, taxpayers.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "Summary",
+     "excerpt": "Increases California's Rainy Day Fund, approved by voters in 2014, to provide funding for education, health care, public safety, and other essential services during economic downturns.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Synthesis consistent with the summary.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Larger reserves built in good years, plus extra debt payments through 2040.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Summary of Legislative Analyst's Estimate, p. 4",
+     "excerpt": "State budget reserves would be higher.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Extend and Expand Extra Debt Payments, p. 3",
+     "excerpt": "Proposition 2 also requires the state to make extra debt payments through 2040 (instead of through 2030).",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "No new audit or evaluator found in the text or LAO. Deposits are set by formula in each budget, and suspending them still requires a budget emergency.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(b)(1), p. 107",
+     "excerpt": "the Department of Finance shall provide to the Legislature all of the following information",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(h), p. 109",
+     "excerpt": "The annual Budget Act shall include the estimates described in all of the following:",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(c)(3), p. 108",
+     "excerpt": "are subject to suspension or reduction pursuant to paragraph (1) of subdivision (a) of Section 22",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Third",
+     "excerpt": "Third—That Section 22 of Article XVI thereof is amended to read:",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Reserves, p. 2",
+     "excerpt": "During a budget emergency, the state can stop making deposits and/or take money out of the rainy day fund.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "No independent audit or evaluator appears in the text or LAO. But the text adds reporting duties. The Department of Finance must give the Legislature specified information, and each Budget Act must include the deposit estimates. 'Suspending them still requires a budget emergency' matches current law per LAO and the text's cross-reference to Section 22. The measure also amends Section 22 itself, and LAO does not say whether the emergency rules change.",
+   "proposedText": "No new audit or evaluator. Finance must report deposit estimates to the Legislature and each budget must include them. Deposits can still be suspended only in a budget emergency.",
+   "limitations": "Formatting loss means it is not certain which Section 20(b) and (h) language is new versus existing. Section 22 amendments were not read in full. Confirm that the emergency trigger is unchanged."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says doubling the reserve cap protects schools, health care and public safety in downturns.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "DOUBLE THE STATE'S RESERVE REQUIREMENT—from 10 to 20 percent of General Fund revenues",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument in Favor",
+     "excerpt": "schools, healthcare, and public safety don't pay the price",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fair summary.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument calls it a slush fund that weakens the spending limit and makes taxpayer rebates less likely.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "What the politicians dishonestly call a “rainy day fund” is actually a SLUSH FUND!",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "Prop. 2 creates loopholes and accounting gimmicks so politicians can eliminate any chance of you getting your tax rebate.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against",
+     "excerpt": "voters overwhelmingly voted to amend the state constitution to impose a spending limit",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Fair summary. Argument says it eliminates any chance of a rebate. Our 'less likely' is milder but not wrong.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "California Professional Firefighters, Assembly Budget Chair Jesse Gabriel, Gov. Newsom.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "Darrell Roberts, President, California Professional Firefighters",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument in Favor, signers",
+     "excerpt": "Jesse Gabriel, Chair, California State Assembly Budget Committee",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/",
+     "location": "Supporters",
+     "excerpt": "CA Professional Firefighters; LA Chamber of Commerce; Gavin Newsom; Xavier Becerra; Assemblymember Jesse Gabriel",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "All three names confirmed. The third official signer is Maria S. Salinas, CEO, Los Angeles Area Chamber of Commerce.",
+   "proposedText": null,
+   "limitations": "Could add the LA Area Chamber of Commerce."
+  },
+  {
+   "field": "con",
+   "current": "Assemblymembers David Tangipa, Steven Choi and Carl DeMaio (official argument), Reform California.",
+   "verdict": "unsupported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "Steven Choi, Vice Chair",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "Senate Elections and Constitutional Amendment Committee",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "Carl DeMaio, Chairman",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "Reform California",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "David Tangipa, Vice Chair",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm",
+     "location": "Argument Against, signature block",
+     "excerpt": "Assembly Budget Committee",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The signer names are right but the label is wrong. Steven Choi signs as vice chair of a Senate committee, not as an Assemblymember. Carl DeMaio signs as chairman of Reform California. Only Tangipa signs with an Assembly title. Two reads matched.",
+   "proposedText": "David Tangipa of the Assembly Budget Committee, Steven Choi of the Senate Elections and Constitutional Amendments Committee, and Carl DeMaio of Reform California (official argument).",
+   "limitations": "Do not add 'Sen.' or 'Asm.' titles beyond what the signature block shows."
+  },
+  {
+   "field": "risk",
+   "current": "Lawmakers can still suspend deposits in a budget emergency, as they did in 2024-25 and 2025-26.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Reserves, p. 2",
+     "excerpt": "During a budget emergency, the state can stop making deposits and/or take money out of the rainy day fund.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO confirms deposits can be stopped in a budget emergency. The claim that lawmakers did so in 2024-25 and 2025-26 was not confirmed by any fetched source. The cited budget summary could not be fetched.",
+   "proposedText": "Lawmakers can still suspend deposits or withdraw money in a budget emergency.",
+   "limitations": "Restore the 2024-25 and 2025-26 examples only after confirming them in the enacted budget summary or LAO."
+  },
+  {
+   "field": "unk",
+   "current": "How many years it would take to actually reach 20%.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "LAO gives no timeline.",
+   "proposedText": null,
+   "limitations": "Based on the reader finding no timeline in LAO."
+  },
+  {
+   "field": "tw",
+   "current": "A bigger cushion for recessions, in exchange for less money to spend on programs or rebates in years when more is saved.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Summary of Legislative Analyst's Estimate, p. 4",
+     "excerpt": "State budget reserves would be higher.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Fiscal Effects, Budget Reserves Would Be Higher, p. 3",
+     "excerpt": "More reserves would make balancing the budget somewhat easier when revenues decline.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO does not state the trade-off outright. It follows from saving more in some years.",
+   "proposedText": null,
+   "limitations": "LAO only says the state 'might make more debt payments than it would without Proposition 2'."
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives the direction only, no dollar estimate.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Summary of Legislative Analyst's Estimate, p. 4",
+     "excerpt": "State budget reserves would be higher.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO gives direction only.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Deposits are measurable, but real results like smaller cuts are not tracked.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(h), p. 109",
+     "excerpt": "The annual Budget Act shall include the estimates described in all of the following:",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Deposits are estimated in each Budget Act. No outcome tracking found.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Uses existing budget formulas and reports, no new independent review. New versus existing text could not be fully separated.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(b)(1), p. 107",
+     "excerpt": "the Department of Finance shall provide to the Legislature all of the following information",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf",
+     "location": "Article XVI Section 20(h), p. 109",
+     "excerpt": "The annual Budget Act shall include the estimates described in all of the following:",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "No independent review found. Text formatting did limit new-versus-existing separation.",
+   "proposedText": null,
+   "limitations": "Could mention the new Finance and Budget Act estimate duties."
+  },
+  {
+   "field": "r.if",
+   "current": "Adjusts existing budget mechanics.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Save More in the Rainy Day Fund, p. 3",
+     "excerpt": "Proposition 2 requires the state to make deposits into the rainy day fund until it reaches 20 percent",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Extend and Expand Extra Debt Payments, p. 3",
+     "excerpt": "Proposition 2 also requires the state to make extra debt payments through 2040 (instead of through 2030).",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Adjusts existing mechanics.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Recent withdrawals of about $12.2 billion show reserves get used.",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "The $12.2 billion withdrawal figure was not found in LAO (reader found no 2024-25 or 2025-26 withdrawal figures). The budget summary could not be fetched.",
+   "proposedText": null,
+   "limitations": "Confirm $12.2 billion against the enacted 2026-27 budget summary before keeping it."
+  },
+  {
+   "field": "r.lr",
+   "current": "Trade-offs with the spending limit and rebates.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, Change How Rainy Day Fund Deposits Count Toward the State Appropriations Limit, p. 3",
+     "excerpt": "Deposits into the rainy day fund would not count toward the state appropriations limit.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Proposal, p. 3",
+     "excerpt": "Instead, the money would count toward the limit when it is taken out.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Interaction with the limit is real. Rebate effect is the opponents' claim, not LAO's.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "Smaller recession cuts traded against fewer rebates and less boom-year spending. Size unknown.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop2-110326.pdf",
+     "location": "Fiscal Effects, Budget Reserves Would Be Higher, p. 3",
+     "excerpt": "More reserves would make balancing the budget somewhat easier when revenues decline.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Synthesis. Size unknown is consistent with LAO.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Confirm the $12.2 billion withdrawal (r.ev) and the 2024-25 and 2025-26 suspensions (risk) in the enacted budget summary or LAO budget publications.",
+  "Confirm whether Prop 2's amendment of Article XVI Section 22 changes how a budget emergency is declared or limits withdrawals (the reader flagged 'Not more than 50 percent of the balance' language in 22(a)(2)(B) without confirming whether it is new).",
+  "Confirm which Section 20(b) and 20(h) Department of Finance reporting duties are new (italic) versus existing."
+ ],
+ "conflicts": [
+  "The SOS summary lists opponents as 'None submitted', but the same site publishes an argument against signed by David Tangipa, Steven Choi and Carl DeMaio.",
+  "Two readings of the arguments page assigned the rebuttal signer groups to opposite rebuttals."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

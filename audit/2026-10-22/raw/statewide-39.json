@@ -1,0 +1,730 @@
+{
+ "n": "39",
+ "officialTitle": "Prohibits Citizens From Voting Unless They Present Government-Issued Identification. Initiative Constitutional Amendment.",
+ "measureType": "Initiative Constitutional Amendment",
+ "sources": [
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/39/",
+   "title": "Proposition 39 official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First direct fetch refused by allowlist. Opened after surfacing in WebSearch."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm",
+   "title": "Proposition 39 arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "URL_NOT_ON_ALLOWLIST. Used the print PDF prop39.pdf instead."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+   "title": "Proposition 39 print section with arguments",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Signers matched."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-title-summ-analysis.pdf",
+   "title": "Proposition 39 title, summary and analysis",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Invalidation bullet also matched the SOS page summary."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+   "title": "Proposition 39 text of proposed laws",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice."
+  },
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+   "title": "Proposition 39 analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First fetch refused by allowlist, opened after WebSearch."
+  },
+  {
+   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026+",
+   "title": "LAO ballot analysis web page, Prop 39",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Matched PDF."
+  },
+  {
+   "url": "https://www.nber.org/papers/w25522",
+   "title": "Strict ID Laws Don't Stop Voters: Evidence from a U.S. Nationwide Panel, 2008-2018 (Cantoni and Pons)",
+   "publisher": "NBER (independent research)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First fetch refused by allowlist, opened after WebSearch."
+  },
+  {
+   "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-39",
+   "title": "Prop. 39: The Voter ID measure that would dramatically change voting in California",
+   "publisher": "LAist (independent)",
+   "documentDate": "2026-09-30 (updated 2026-10-20)",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Supporter list matched."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/2026_California_voter_ID_initiative",
+   "title": "2026 California voter ID initiative",
+   "publisher": "Wikipedia (independent)",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Did not name HJTA. California Republican Party appears only in a reference title."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Voter ID and citizenship checks",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-title-summ-analysis.pdf",
+     "location": "Official summary",
+     "excerpt": "Requires elections officials to annually report percentage of each county's voters whose citizenship status they have",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Covers both ID and citizenship verification.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Prohibits citizens from voting unless they present government-issued identification",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/39/",
+     "location": "Official title",
+     "excerpt": "PROHIBITS CITIZENS FROM VOTING UNLESS THEY PRESENT GOVERNMENT-ISSUED IDENTIFICATION. INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches the official title.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Constitutional amendment · citizen initiative",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/39/",
+     "location": "Official title",
+     "excerpt": "INITIATIVE CONSTITUTIONAL AMENDMENT.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Initiative constitutional amendment",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 1",
+     "excerpt": "Prohibits Citizens From Voting Unless They Present GovernmentIssued Identification. Initiative Constitutional Amendment.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should voters have to show ID, and should voter rolls be checked for citizenship?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "make \"best efforts\" using government data to verify that voters on the rolls are U.S. citizens.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Fair neutral question.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Requires government ID to vote in person and the last four digits of an ID number on mail ballots. The state must offer a free voter ID card, make best efforts to verify voters' citizenship, and report results yearly.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(b)",
+     "excerpt": "the voter shall present government-issued identification",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(b)",
+     "excerpt": "if voting by mail, the voter shall provide the last four digits of a unique identifying number",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(b)",
+     "excerpt": "Upon request by an eligible voter, the State shall provide, at no charge, a voter ID card for use in casting a ballot.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(a)",
+     "excerpt": "shall use best efforts to verify citizenship attestations using government data",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(a)",
+     "excerpt": "shall annually report what percentage of each county's voter rolls have been citizenship-verified.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Each element confirmed by legal text and LAO page 2.",
+   "proposedText": null,
+   "limitations": "Could add that the official summary says mail ballots without matching digits would not count. See risk."
+  },
+  {
+   "field": "yes",
+   "current": "Voters would be required to present additional identifying information to elections officials each time they vote.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 4",
+     "excerpt": "Voters would be required to present additional identifying information to elections officials each time they vote.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Verbatim LAO YES statement.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "no",
+   "current": "A voter's identity would continue to be established with the voter's signature.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 4",
+     "excerpt": "A voter's identity would continue to be established with the voter's signature.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Verbatim LAO NO statement.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "",
+   "verdict": "not-found",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "Empty field.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "money",
+   "current": "LAO estimates added state and local costs of tens of millions to low hundreds of millions of dollars a year.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "Proposition 39 would increase state and local government costs each year by tens of millions of dollars",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026+",
+     "location": "Fiscal effects",
+     "excerpt": "tens of millions of dollars to low hundreds of millions of dollars.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Matches LAO.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "All voters, including about 13 million who voted by mail in 2024, and county election offices.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "About 13 million voted using a VBM ballot, and about 3 million voted in person.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "13 million mail voters in 2024 confirmed (LAO context is the November 2024 election).",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Every ballot tied to a government ID, with citizenship checks of voter rolls reported publicly.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "requires new and existing voters to select a government-issued identification in their voter registration",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(a)",
+     "excerpt": "shall annually report what percentage of each county's voter rolls have been citizenship-verified.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Reporting is of the percentage verified, not of results generally. 'Every ballot tied to a government ID' is accurate for counted ballots.",
+   "proposedText": "Every counted ballot tied to a government ID, with yearly public reports of the share of each county's voters whose citizenship is verified.",
+   "limitations": "Acceptable as is. Optional tightening: 'with yearly public reports of the share of voters whose citizenship is verified.'"
+  },
+  {
+   "field": "acct",
+   "current": "The State Auditor audits the state and every county in odd-numbered years, counties report citizenship-verified shares yearly, and citizens may sue. No penalties or numeric targets.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(c)",
+     "excerpt": "During every oddnumbered year, the California State Auditor shall audit",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(c)",
+     "excerpt": "Citizens may seek judicial review and remedy of the State's or any county's compliance with this section.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "report every year the percentage of registered voters in each county whose citizenship status has been verified.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Audit, reporting and lawsuit right confirmed. No penalties appeared in the fetched text.",
+   "proposedText": null,
+   "limitations": "'No penalties or numeric targets' rests on absence in the reader's view of the text."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says bipartisan voter ID builds trust, keeps mail voting, offers a free ID and adds citizenship checks.",
+   "verdict": "attribution",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument in favor",
+     "excerpt": "Voter ID is a common-sense reform to increase trust and participation in our elections.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument in favor",
+     "excerpt": "Prop. 39 keeps mail ballots, extended polling hours and all other conveniences in place for voting accessibility.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument in favor",
+     "excerpt": "this measure even guarantees every voter a FREE Voter ID if they want one.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument in favor",
+     "excerpt": "Election officials will also be required to check voter rolls to ensure only citizens are registered.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "All points appear. 'Bipartisan' reflects signers who chair Democratic, Republican and Independent coalitions.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it adds costly barriers and could reject ballots from seniors, students and people who changed names.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against",
+     "excerpt": "WASTES HUNDREDS OF MILLIONS OF DOLLARS.",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against",
+     "excerpt": "Get one digit wrong, and a valid ballot could get thrown out.",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against",
+     "excerpt": "Seniors, students, low-income workers, voters of color, and the millions of women who changed their names at marriage",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Matches the official argument.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "Californians for Voter ID, Howard Jarvis Taxpayers Association, California Republican Party.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument in favor, signers",
+     "excerpt": "Margit Whitlock, Democratic Coalition Chair",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/propositions/39/",
+     "location": "For contact",
+     "excerpt": "Californians for Voter ID",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-39",
+     "location": "Yes",
+     "excerpt": "California Republican Party, Howard Jarvis Taxpayers Association, Republican gubernatorial candidate Steve Hilton,",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Californians for Voter ID is the official signer organization. HJTA and the California Republican Party are confirmed only by LAist (independent), so they need that label.",
+   "proposedText": "Californians for Voter ID (official argument). LAist also lists the Howard Jarvis Taxpayers Association and the California Republican Party.",
+   "limitations": null
+  },
+  {
+   "field": "con",
+   "current": "ACLU California Action, California Common Cause, League of Women Voters of California.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "David Trujillo, Executive Director",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Darius Kemp, California State Director",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Common Cause",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Lorrel Plimier, Co-President",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "League of Women Voters of California",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Signer organizations are ACLU California Action, Common Cause (signed by its California State Director) and League of Women Voters of California. 'California Common Cause' is not the printed name.",
+   "proposedText": "ACLU California Action, Common Cause, League of Women Voters of California (official argument).",
+   "limitations": null
+  },
+  {
+   "field": "risk",
+   "current": "The measure does not say what happens when mail-ballot ID digits are missing or mismatched, which opponents say could lead to rejected ballots.",
+   "verdict": "unsupported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-title-summ-analysis.pdf",
+     "location": "Official summary",
+     "excerpt": "Invalidates mail ballots if envelope does not include last four digits of a government-issued identification number",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-title-summ-analysis.pdf",
+     "location": "Official summary",
+     "excerpt": "(e.g., if voter designates Social Security number for registration, but provides driver's license number on envelope,",
+     "readingsMatched": null
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(b)",
+     "excerpt": "Election officials shall only count a regular or provisional ballot after verifying the identity of the person voting",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "Elections officials would verify that the identification numbers provided on the ballot envelope match",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "The Attorney General's official summary says such ballots would not count, and the text allows counting only after identity is verified. What the text lacks is any notice or cure process. LAO does not state the consequence.",
+   "proposedText": "The official summary says mail ballots without matching ID digits would not count, and the measure sets no notice or fix-it process. Opponents say valid ballots could be thrown out.",
+   "limitations": null
+  },
+  {
+   "field": "unk",
+   "current": "How existing voters add an ID number, and how many ballots get rejected.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "The Legislature would need to clarify several details that are not defined in the proposition,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 2",
+     "excerpt": "requires new and existing voters to select a government-issued identification in their voter registration",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO confirms details are undefined. The legal text gives no separate process for existing voters.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "A uniform ID rule and public citizenship reporting, in exchange for added costs and the risk that some valid mail ballots are rejected.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "Proposition 39 would increase state and local government costs each year by tens of millions of dollars",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Balanced framing consistent with sources.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "LAO gives an official yearly range, but key costs depend on choices not yet made.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "The exact cost would depend on future choices made by the Legislature, state departments, local governments, and voters.",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Confirmed.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "Clear ID rule plus required yearly reporting of citizenship-verified shares.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(a)",
+     "excerpt": "shall annually report what percentage of each county's voter rolls have been citizenship-verified.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Confirmed.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "State Auditor audits, yearly reports and citizen lawsuits, but no penalties.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf",
+     "location": "Art. II, sec. 3.1(c)",
+     "excerpt": "During every oddnumbered year, the California State Auditor shall audit",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Confirmed. 'No penalties' rests on absence.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "Accepted IDs and how existing voters add an ID number are undefined.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026+",
+     "location": "Proposal",
+     "excerpt": "The Legislature would need to clarify several details that are not defined in the proposition,",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=39&year=2026+",
+     "location": "Proposal",
+     "excerpt": "like which forms of identification could be used and what steps would be considered best efforts",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "LAO confirms accepted IDs are undefined.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Strong research on in-person ID laws, none on this mail-ballot method.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://www.nber.org/papers/w25522",
+     "location": "Abstract",
+     "excerpt": "we find that the laws have no negative effect on registration or turnout,",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "Cantoni and Pons support research on strict ID laws. 'None on this mail-ballot method' is our judgment and was not checked against a literature source.",
+   "proposedText": null,
+   "limitations": "Second clause ('none on this mail-ballot method') is our own synthesis and was not checked against a literature source."
+  },
+  {
+   "field": "r.lr",
+   "current": "Risk of rejecting valid ballots.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-title-summ-analysis.pdf",
+     "location": "Official summary",
+     "excerpt": "Invalidates mail ballots if envelope does not include last four digits of a government-issued identification number",
+     "readingsMatched": true
+    }
+   ],
+   "explanation": "Official summary confirms ballots would be invalidated.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "LAO projects net costs, and studies find very little voter fraud to prevent. A possible gain in voter trust is unmeasured.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf",
+     "location": "Page 3",
+     "excerpt": "Proposition 39 would increase state and local government costs each year by tens of millions of dollars",
+     "readingsMatched": true
+    },
+    {
+     "url": "https://www.nber.org/papers/w25522",
+     "location": "Abstract",
+     "excerpt": "Finally, strict ID requirements have no effect on fraud – actual or perceived.",
+     "readingsMatched": null
+    }
+   ],
+   "explanation": "LAO confirms costs. The NBER paper finds no effect of strict ID laws on fraud, actual or perceived. That is not the same as 'very little voter fraud to prevent', and it also bears on the trust claim.",
+   "proposedText": "LAO projects net costs, and a national study found strict ID laws had no effect on fraud, actual or perceived. A possible gain in voter trust is unmeasured.",
+   "limitations": null
+  },
+  {
+   "field": "src",
+   "current": "https://lao.ca.gov/ballot/2026/prop39-110326.pdf; https://voterguide.sos.ca.gov/propositions/39/; https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf; https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39.pdf; https://www.nber.org/papers/w25522",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [],
+   "explanation": "LAO PDF, SOS page, legal text, arguments PDF and NBER page all opened.",
+   "proposedText": null,
+   "limitations": "Suggest adding the SOS title and summary PDF (https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-title-summ-analysis.pdf) for the ballot invalidation wording, and LAist for HJTA and CAGOP."
+  }
+ ],
+ "specificGaps": [
+  "Whether counties must notify voters or allow them to fix a missing or mismatched ID number is not addressed in the text. Implementing law may add one.",
+  "r.ev 'none on this mail-ballot method' is our own synthesis with no literature source checked.",
+  "No penalties for noncompliance found, based on the reader's view of the full text. Confirm by reading section 3.1 directly."
+ ],
+ "conflicts": [
+  "Our risk field says the measure does not say what happens to ballots with missing or mismatched digits. The Attorney General's official summary says such mail ballots would not count. LAO describes the match check without stating the consequence."
+ ],
+ "excerptMethod": "WebFetch verbatim-quote request"
+}

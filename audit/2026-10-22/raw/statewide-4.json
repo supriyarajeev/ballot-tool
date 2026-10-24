@@ -1,0 +1,761 @@
+{
+ "n": "4",
+ "officialTitle": "REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS. LEGISLATIVE STATUTE.",
+ "measureType": "Legislative Statute",
+ "sources": [
+  {
+   "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+   "title": "Proposition 4 LAO analysis",
+   "publisher": "Legislative Analyst's Office",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "First direct fetch refused (URL not on session allowlist). Fetched successfully after it appeared in WebSearch results. Read twice."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+   "title": "Prop 4 title, summary and analysis",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. YES/NO meaning not returned from this file."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4.pdf",
+   "title": "Prop 4 voter guide section (summary, arguments, rebuttals)",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Used for argument signers and argument text."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+   "title": "Quick Reference Guide, Proposition 4",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read once. Used for YES/NO meaning and argument summaries."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/4/",
+   "title": "Official voter guide page",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "WebFetch error: URL_NOT_ON_ALLOWLIST. Content covered by prop4.pdf and quick reference guide."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm",
+   "title": "Arguments and rebuttals",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "WebFetch error: URL_NOT_ON_ALLOWLIST. Arguments read from prop4.pdf instead."
+  },
+  {
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf",
+   "title": "Text of proposed law",
+   "publisher": "California Secretary of State",
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "access": "failed",
+   "attempts": "WebFetch error: URL_NOT_ON_ALLOWLIST. Did not appear in search results. Used Assembly committee analysis as fallback."
+  },
+  {
+   "url": "https://aelc.assembly.ca.gov/media/2586",
+   "title": "Assembly Committee on Elections analysis, SB 42 (Umberg) as amended June 25, 2025, hearing July 2, 2025",
+   "publisher": "California State Assembly",
+   "documentDate": "2025-07-02",
+   "retrieved": "2026-10-23",
+   "access": "read",
+   "attempts": "Read twice. Describes an earlier bill version, not necessarily the final text."
+  }
+ ],
+ "fields": [
+  {
+   "field": "name",
+   "current": "Public campaign funding",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS. LEGISLATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Short label consistent with the official title.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "title",
+   "current": "Repeals prohibition against public funding of election campaigns",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS. LEGISLATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official ballot title wording, in sentence case.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "kind",
+   "current": "Law change · from the Legislature",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS. LEGISLATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": null,
+     "excerpt": "Requires the Secretary of State (SOS) to submit this bill's provisions to the voters for approval",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Official label is Legislative Statute, placed by the Legislature (SB 42).",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "type",
+   "current": "Legislative statute",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "REPEALS PROHIBITION AGAINST PUBLIC FUNDING OF ELECTION CAMPAIGNS. LEGISLATIVE STATUTE.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Official label is LEGISLATIVE STATUTE.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "ask",
+   "current": "Should state and local governments be allowed to give public money to candidates' campaigns?",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A YES vote on this measure means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 4 lifts the ban on using public funds for political candidates' campaigns.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Plain restatement of the YES meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "does",
+   "current": "Repeals the 1988 ban, so governments may create voluntary public funding programs for candidates. It creates no program by itself and raises the top fine for foreign campaign contributions to three times the amount.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "This measure repeals that prohibition and allows state and local governments to establish public campaign financing programs for candidates who agree to specified spending limits and meet eligibility criteria.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 4 does not create a public campaign finance program.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Triples maximum fine for campaign contributions by foreign entities.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": "Comment 5",
+     "excerpt": "This bill proposes to increase that maximum fine to an amount equal to three times the amount contributed or expended",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": "Background",
+     "excerpt": "In 1988, voters approved two separate initiatives that sought to regulate campaign financing",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": null,
+     "excerpt": "Proposition 73 prohibited public funding of campaigns and set contribution limits for state and local elections",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Repeal, voluntary programs (candidates who agree to spending limits), no program created, and tripled foreign-contribution fine are all stated. The 1988 date comes from the Assembly Elections Committee analysis, not from SOS or LAO.",
+   "proposedText": null,
+   "limitations": "1988 and the three-times detail come from the Assembly committee analysis of SB 42 as amended June 25, 2025. Legal text PDF could not be fetched to confirm the final version."
+  },
+  {
+   "field": "yes",
+   "current": "State and local governments could create public campaign financing programs, with limits on which funds are used, how, and who receives them.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A YES vote on this measure means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Close paraphrase of the official YES meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "yesE",
+   "current": "Programs must be open to candidates regardless of party or incumbency.",
+   "verdict": "partly-supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": null,
+     "excerpt": "Public funding programs do not discriminate based on party, or according to whether a candidate is a challenger",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "Candidates can only receive public funds if they show broad-based support in their district",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The Assembly analysis says programs do not discriminate based on party or against challengers. Not stated in SOS or LAO text. Eligibility also requires broad-based support and agreeing to spending limits, so 'open to' is broader than the source.",
+   "proposedText": "Programs cannot favor candidates by party or incumbency. Candidates must show broad support and accept spending limits.",
+   "limitations": "Only source is the Assembly committee analysis of the June 25, 2025 version. Legal text not fetched (URL not on allowlist)."
+  },
+  {
+   "field": "no",
+   "current": "The state and most local governments would remain unable to create public campaign financing programs.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A NO vote on this measure means: State and most local governments would remain unable to create public campaign finance programs for public office candidates.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Matches the official NO meaning.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "noE",
+   "current": "Certain charter cities keep their existing exemption.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "This ban does not apply to city office elections in certain charter cities.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Los Angeles, San Francisco, Long Beach, Oakland, and Berkeley are current examples of charter cities that provide public funds to certain campaigns.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Current law prohibits state and local governments from using public funds for election campaigns except in charter cities and counties.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO says the ban does not apply in certain charter cities. The Attorney General summary says charter cities and counties.",
+   "proposedText": null,
+   "limitations": "See conflicts. LAO says certain charter cities, the AG summary says charter cities and counties."
+  },
+  {
+   "field": "money",
+   "current": "LAO estimates state costs of a few hundred thousand dollars a year. Any program's cost is set later by the government that adopts it.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "As a result, state costs would be a few hundred thousand dollars each year.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "Official Title and Summary",
+     "excerpt": "Ongoing costs to the state of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions from state and local governments about public campaign finance programs.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "The cost of these programs could be significant for governments that choose to create them.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "State cost is stated. LAO says program costs could be significant for governments that choose to create them, which supports cost being set later.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "who",
+   "current": "Candidates, state and local governments, taxpayers where programs are adopted.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A YES vote on this measure means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "The cost of these programs could be significant for governments that choose to create them.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Follows from the YES meaning and LAO cost discussion.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "out",
+   "current": "Some governments may choose to create public financing programs for candidates.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A YES vote on this measure means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 4 does not create a public campaign finance program.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Measure only allows programs.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "acct",
+   "current": "Existing campaign disclosure rules apply. No new audit or outcome target, and the state ethics commission does not enforce local programs.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "State law requires people and groups to report how much money they give, receive, and spend on political campaigns.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Proposition 4 specifies that the Fair Political Practices Commission is not required to administer or enforce local public campaign finance programs.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": null,
+     "excerpt": "is not responsible for administering or enforcing a local agency's system of public financing of candidates",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO says the FPPC is not required to administer or enforce local programs. The Assembly analysis adds 'unless the FPPC agrees to do so'. 'Does not enforce' overstates this. No source states the absence of a new audit, which is our inference.",
+   "proposedText": "Existing campaign disclosure rules apply. No new audit or outcome target. The state ethics commission is not required to enforce local programs.",
+   "limitations": "Absence of an audit requirement could not be confirmed from the legal text, which was not fetched."
+  },
+  {
+   "field": "argFor",
+   "current": "Supporters' official argument says California alone bans public financing, and this lets communities choose it, with safeguards.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "Arguments, Pro",
+     "excerpt": "YES ON 4. California is the ONLY state that bans public funding of campaigns",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "Arguments, Pro",
+     "excerpt": "Strict taxpayer safeguards. Vote YES: Elections should be won, not bought.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The official argument says this.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "argAgainst",
+   "current": "Opponents' official argument says it lets politicians spend taxpayer money on campaigns with no cap on recipients or amounts.",
+   "verdict": "attribution",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "Arguments, Con",
+     "excerpt": "Prop. 4 allows politicians to use YOUR taxpayer money to fund their negative campaigns.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "Arguments, Con",
+     "excerpt": "Prop. 4 has NO LIMIT on the number of candidates who can get taxpayer money and NO LIMIT on how much taxpayer money they can get.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "The official argument says this.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "pro",
+   "current": "League of Women Voters of California, California Nurses Association, Sen. Tom Umberg, California Common Cause.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4.pdf",
+     "location": "Argument in favor, signers",
+     "excerpt": "Lorrel Plimier, Co-President, League of Women Voters of California / Catherine Kennedy, President, California Nurses Association / Tom Umberg, California State Senator",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4.pdf",
+     "location": "Rebuttal to argument against, signers",
+     "excerpt": "Carmen Balber, Executive Director, Consumer Watchdog / Camerina Davidson, President, California National Organization for Women / Darius Kemp, Executive Director, California Common Cause",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LWV California, California Nurses Association and Sen. Umberg signed the argument in favor. California Common Cause signed the rebuttal to the argument against. Consumer Watchdog and California NOW also signed that rebuttal but are not listed.",
+   "proposedText": null,
+   "limitations": "Signer names read once from prop4.pdf."
+  },
+  {
+   "field": "con",
+   "current": "California Taxpayers Association, Howard Jarvis Taxpayers Association, former FPPC chair Dan Schnur.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4.pdf",
+     "location": "Rebuttal to argument in favor, signers",
+     "excerpt": "Robert Gutierrez, President, California Taxpayers Association / Jon Coupal, President, Howard Jarvis Taxpayers Association / Dan Schnur, Former Chair, Fair Political Practices Commission",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4.pdf",
+     "location": "Argument against, signers",
+     "excerpt": "Dan Schnur, Former Chair, Fair Political Practices Commission / Colleen McAndrews, Former Commissioner, Fair Political Practices Commission / Julian Canete, President, California Hispanic Chambers of Commerce",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "CalTax, HJTA and Dan Schnur signed. California Hispanic Chambers of Commerce (Julian Canete) and former FPPC commissioner Colleen McAndrews also signed the argument against but are not listed.",
+   "proposedText": null,
+   "limitations": "Signer names read once from prop4.pdf."
+  },
+  {
+   "field": "risk",
+   "current": "No statewide cap on what future programs could spend.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "The cost of these programs could be significant for governments that choose to create them.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "Arguments, Con",
+     "excerpt": "Prop. 4 has NO LIMIT on the number of candidates who can get taxpayer money and NO LIMIT on how much taxpayer money they can get.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "No neutral official source states there is no statewide spending cap. The claim matches the opponents' argument. The AG summary says candidates must agree to spending limits, but program-level total budgets are not described.",
+   "proposedText": null,
+   "limitations": "Legal text not fetched. Confirm whether the measure caps total program spending."
+  },
+  {
+   "field": "unk",
+   "current": "Which governments adopt programs, and at what cost.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "The cost of these programs could be significant for governments that choose to create them.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO cost depends on which governments create programs.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "tw",
+   "current": "A path for candidates without wealthy backers, in exchange for public money spent on campaigns at costs set later.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://voterguide.sos.ca.gov/quick-reference-guide/4.htm",
+     "location": "What Your Vote Means",
+     "excerpt": "A YES vote on this measure means: State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "The cost of these programs could be significant for governments that choose to create them.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Synthesis of YES effect and cost.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.fc",
+   "current": "State cost is clear, but program costs depend on later local choices.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "As a result, state costs would be a few hundred thousand dollars each year.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "The cost of these programs could be significant for governments that choose to create them.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "State cost given, program costs depend on adopting governments.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.oc",
+   "current": "It only allows programs, so no results are defined yet.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 4 does not create a public campaign finance program.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Measure creates no program.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ac",
+   "current": "Relies on existing disclosure rules, and local programs are not enforced by the state ethics commission.",
+   "verdict": "partly-supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Proposition 4 specifies that the Fair Political Practices Commission is not required to administer or enforce local public campaign finance programs.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://aelc.assembly.ca.gov/media/2586",
+     "location": null,
+     "excerpt": "is not responsible for administering or enforcing a local agency's system of public financing of candidates",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Same issue as acct. FPPC is not required to enforce, not barred from it.",
+   "proposedText": "Relies on existing disclosure rules, and the state ethics commission is not required to enforce local programs.",
+   "limitations": null
+  },
+  {
+   "field": "r.if",
+   "current": "Some charter cities already run such programs.",
+   "verdict": "supported",
+   "interpretive": false,
+   "evidence": [
+    {
+     "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-title-summ-analysis.pdf",
+     "location": "LAO analysis",
+     "excerpt": "Los Angeles, San Francisco, Long Beach, Oakland, and Berkeley are current examples of charter cities that provide public funds to certain campaigns.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "LAO names five charter cities that provide public funds to campaigns.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.ev",
+   "current": "Public financing has a mixed record in other places. This tool did not verify a specific study for this design.",
+   "verdict": "not-found",
+   "interpretive": true,
+   "evidence": [],
+   "explanation": "No source fetched addresses the track record of public financing elsewhere. The sentence already discloses that no study was verified.",
+   "proposedText": null,
+   "limitations": "Not researched further. Search budget was exhausted."
+  },
+  {
+   "field": "r.lr",
+   "current": "Familiar, limited risks.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "As a result, state costs would be a few hundred thousand dollars each year.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Judgment based on small state cost.",
+   "proposedText": null,
+   "limitations": null
+  },
+  {
+   "field": "r.nb",
+   "current": "Small state cost. Benefits depend on programs not yet created.",
+   "verdict": "supported",
+   "interpretive": true,
+   "evidence": [
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "As a result, state costs would be a few hundred thousand dollars each year.",
+     "readingsMatched": true,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    },
+    {
+     "url": "https://lao.ca.gov/ballot/2026/prop4-110326.pdf",
+     "location": null,
+     "excerpt": "Proposition 4 does not create a public campaign finance program.",
+     "readingsMatched": null,
+     "excerptMethod": "WebFetch verbatim-quote request"
+    }
+   ],
+   "explanation": "Small state cost, no program created.",
+   "proposedText": null,
+   "limitations": null
+  }
+ ],
+ "specificGaps": [
+  "Legal text PDF not read. Confirm in the final chaptered SB 42 text the party/incumbency neutrality rule, the three-times foreign contribution fine, and the FPPC 'unless it agrees' wording.",
+  "Confirm whether the measure sets any cap on total public money a program may spend (risk field).",
+  "r.ev makes a general claim about other jurisdictions with no source. Either cite a study or keep the existing disclaimer.",
+  "Arguments-rebuttals HTML page was not readable. Signers were read once from prop4.pdf only."
+ ],
+ "conflicts": [
+  "Attorney General summary says the current ban has an exception for 'charter cities and counties'. LAO says the ban 'does not apply to city office elections in certain charter cities'. Our noE follows LAO."
+ ]
+}

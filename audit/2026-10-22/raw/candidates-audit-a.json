@@ -1,0 +1,1707 @@
+{
+ "scope": "Tasks 1, 2, 3 and 6 of BRIEF-candidates.md only (statewide and BOE, congressional and legislative, San Francisco local, incumbency).",
+ "excerptMethod": "WebFetch verbatim-quote request",
+ "contests": [
+  {
+   "id": "2026-11-03.ca.governor",
+   "office": "Governor",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.governor.xavier-becerra",
+     "name": "Xavier Becerra",
+     "party": "Democratic",
+     "designation": "Voting Rights Attorney",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "State guide page https://voterguide.sos.ca.gov/candidates/governor-candidate-statements.htm reads \"No candidate statement.\" under Xavier Becerra (two readings matched). Our statementNote is supported.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.governor.steve-hilton",
+     "name": "Steve Hilton",
+     "party": "Republican",
+     "designation": "Small Business Owner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "State guide page https://voterguide.sos.ca.gov/candidates/governor-candidate-statements.htm reads \"No candidate statement.\" under Steve Hilton (two readings matched). Our statementNote is supported.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Xavier Becerra Democratic\" / \"Voting Rights Attorney\"; \"Steve Hilton Republican\" / \"Small Business Owner\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.lieutenant-governor",
+   "office": "Lieutenant Governor",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+     "name": "Fiona Ma",
+     "party": "Democratic",
+     "designation": "State Treasurer/CPA",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/lt-governor-candidate-statements.htm",
+     "statementEvidence": "Statement for Fiona Ma appears at https://voterguide.sos.ca.gov/candidates/lt-governor-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+     "name": "Gloria Romero",
+     "party": "Republican",
+     "designation": "Educator/Businesswoman",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/lt-governor-candidate-statements.htm",
+     "statementEvidence": "Statement for Gloria Romero appears at https://voterguide.sos.ca.gov/candidates/lt-governor-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Fiona Ma Democratic\" / \"State Treasurer/CPA\"; \"Gloria Romero Republican\" / \"Educator/Businesswoman\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.secretary-of-state",
+   "office": "Secretary of State",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+     "name": "Shirley N. Weber",
+     "party": "Democratic",
+     "designation": "California Secretary of State",
+     "incumbentMarked": true,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/sos-candidate-statements.htm",
+     "statementEvidence": "Statement for Shirley N. Weber appears at https://voterguide.sos.ca.gov/candidates/sos-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.secretary-of-state.donald-p-don-wagner",
+     "name": "Donald P. (Don) Wagner",
+     "party": "Republican",
+     "designation": "Orange County Supervisor",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/sos-candidate-statements.htm",
+     "statementEvidence": "Statement for Donald P. (Don) Wagner appears at https://voterguide.sos.ca.gov/candidates/sos-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Shirley N. Weber* Democratic\" / \"California Secretary of State\"; \"Donald P. (Don) Wagner Republican\" / \"Orange County Supervisor\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.controller",
+   "office": "Controller",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.controller.malia-m-cohen",
+     "name": "Malia M. Cohen",
+     "party": "Democratic",
+     "designation": "State Controller/Mother",
+     "incumbentMarked": true,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm",
+     "statementEvidence": "Statement for Malia M. Cohen appears at https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.controller.herb-w-morgan",
+     "name": "Herb W Morgan",
+     "party": "Republican",
+     "designation": "Chief Investment Officer",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm",
+     "statementEvidence": "Statement for Herb W Morgan appears at https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Malia M. Cohen* Democratic\" / \"State Controller/Mother\"; \"Herb W Morgan Republican\" / \"Chief Investment Officer\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.treasurer",
+   "office": "Treasurer",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.treasurer.eleni-kounalakis",
+     "name": "Eleni Kounalakis",
+     "party": "Democratic",
+     "designation": "Lieutenant Governor of California",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm",
+     "statementEvidence": "Statement for Eleni Kounalakis appears at https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.treasurer.jennifer-hawks",
+     "name": "Jennifer Hawks",
+     "party": "Republican",
+     "designation": "Retired Business Executive",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm",
+     "statementEvidence": "Statement for Jennifer Hawks appears at https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Eleni Kounalakis Democratic\" / \"Lieutenant Governor of California\"; \"Jennifer Hawks Republican\" / \"Retired Business Executive\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.attorney-general",
+   "office": "Attorney General",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.attorney-general.rob-bonta",
+     "name": "Rob Bonta",
+     "party": "Democratic",
+     "designation": "California Attorney General",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "State guide page https://voterguide.sos.ca.gov/candidates/attorney-general-candidate-statements.htm reads \"No candidate statement.\" under Rob Bonta (two readings matched). Our statementNote is supported.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.attorney-general.michael-e-gates",
+     "name": "Michael E. Gates",
+     "party": "Republican",
+     "designation": "Deputy United States Attorney",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/attorney-general-candidate-statements.htm",
+     "statementEvidence": "Statement for Michael E. Gates appears at https://voterguide.sos.ca.gov/candidates/attorney-general-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Rob Bonta* Democratic\" / \"California Attorney General\"; \"Michael E. Gates Republican\" / \"Deputy United States Attorney\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.insurance-commissioner",
+   "office": "Insurance Commissioner",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.insurance-commissioner.ben-allen",
+     "name": "Ben Allen",
+     "party": "Democratic",
+     "designation": "California State Senator",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/insurance-commissioner-candidate-statements.htm",
+     "statementEvidence": "Statement for Ben Allen appears at https://voterguide.sos.ca.gov/candidates/insurance-commissioner-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.insurance-commissioner.jane-kim",
+     "name": "Jane Kim",
+     "party": "Democratic",
+     "designation": "Attorney/Consumer Advocate",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/insurance-commissioner-candidate-statements.htm",
+     "statementEvidence": "Statement for Jane Kim appears at https://voterguide.sos.ca.gov/candidates/insurance-commissioner-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Ben Allen Democratic\" / \"California State Senator\"; \"Jane Kim Democratic\" / \"Attorney/Consumer Advocate\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca.superintendent-of-public-instruction",
+   "office": "Superintendent of Public Instruction",
+   "district": null,
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Barrera's state guide statement opens with \"Democrat Richard Barrera led the reform effort\"; the office is nonpartisan and the certified list says Non-Partisan, so no change.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+     "name": "Richard Barrera",
+     "party": "Non-Partisan",
+     "designation": "State Superintendent Advisor",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm",
+     "statementEvidence": "Statement for Richard Barrera appears at https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+     "name": "Sonja Shaw",
+     "party": "Non-Partisan",
+     "designation": "School District President",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm",
+     "statementEvidence": "Statement for Sonja Shaw appears at https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Richard Barrera Non-Partisan\" / \"State Superintendent Advisor\"; \"Sonja Shaw Non-Partisan\" / \"School District President\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1",
+   "office": "State Board of Equalization",
+   "district": "District 1",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: neither Alameda nor San Francisco (those counties list only BOE District 2).",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.nelson-esparza",
+     "name": "Nelson Esparza",
+     "party": "Democratic",
+     "designation": "Teacher/Economist/Councilmember",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for Nelson Esparza appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.shannon-grove",
+     "name": "Shannon Grove",
+     "party": "Republican",
+     "designation": "State Senator/Businesswoman",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for Shannon Grove appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Nelson Esparza Democratic\" / \"Teacher/Economist/Councilmember\"; \"Shannon Grove Republican\" / \"State Senator/Businesswoman\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2",
+   "office": "State Board of Equalization",
+   "district": "District 2",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda, San Francisco.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2.sally-j-lieber",
+     "name": "Sally J. Lieber",
+     "party": "Democratic",
+     "designation": "Incumbent",
+     "incumbentMarked": true,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for Sally J. Lieber appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2.john-pimentel",
+     "name": "John Pimentel",
+     "party": "Democratic",
+     "designation": "Member, Board of Trustees, San Mateo County Community College District",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for John Pimentel appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Sally J. Lieber* Democratic\" / \"Incumbent\"; \"John Pimentel Democratic\" / \"Member, Board of Trustees, San Mateo County Community College District\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3",
+   "office": "State Board of Equalization",
+   "district": "District 3",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: neither Alameda nor San Francisco (those counties list only BOE District 2).",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3.mike-gipson",
+     "name": "Mike Gipson",
+     "party": "Democratic",
+     "designation": "State Assemblymember/Father",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for Mike Gipson appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3.samuel-p-sukaton",
+     "name": "Samuel P. Sukaton",
+     "party": "Democratic",
+     "designation": "Labor Union Organizer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "State guide page https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm reads \"No candidate statement.\" under Samuel P. Sukaton (two readings matched). Our statementNote is supported.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Mike Gipson Democratic\" / \"State Assemblymember/Father\"; \"Samuel P. Sukaton Democratic\" / \"Labor Union Organizer\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4",
+   "office": "State Board of Equalization",
+   "district": "District 4",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: neither Alameda nor San Francisco (those counties list only BOE District 2).",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.tom-umberg",
+     "name": "Tom Umberg",
+     "party": "Democratic",
+     "designation": "Small Businessman/Senator",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for Tom Umberg appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.denis-bilodeau",
+     "name": "Denis Bilodeau",
+     "party": "Republican",
+     "designation": "Councilmember/Civil Engineer",
+     "incumbentMarked": false,
+     "statementUrl": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+     "statementEvidence": "Statement for Denis Bilodeau appears at https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm (read Oct 22, 2026). Our statementUrl matches exactly.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "\"Tom Umberg Democratic\" / \"Small Businessman/Senator\"; \"Denis Bilodeau Republican\" / \"Councilmember/Civil Engineer\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": null,
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "office": "U.S. Representative",
+   "district": "District 10",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda. The certified list marks no incumbents in any U.S. Representative contest, so incumbent false for DeSaulnier, Simon, Mullin and Khanna is consistent with the rule to report only marked incumbency.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+     "name": "Mark DeSaulnier",
+     "party": "Democratic",
+     "designation": "United States Congressman",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+     "name": "Jeff Frese",
+     "party": "Republican",
+     "designation": "Small Business Owner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.6 \"Mark DeSaulnier Democratic\" / \"United States Congressman\"; \"Jeff Frese Republican\" / \"Small Business Owner\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "office": "U.S. Representative",
+   "district": "District 11",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: San Francisco. The certified list marks no incumbents in any U.S. Representative contest, so incumbent false for DeSaulnier, Simon, Mullin and Khanna is consistent with the rule to report only marked incumbency.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+     "name": "Connie Chan",
+     "party": "Democratic",
+     "designation": "San Francisco Supervisor",
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement for Connie Chan on page 25 (heading verbatim \"CONNIE CHAN\"). Readings matched for all but CD 11, where a first reading missed Chan and two later readings showed her statement. Our note says statements not collected; a county source now exists.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+     "name": "Scott Wiener",
+     "party": "Democratic",
+     "designation": "State Senator",
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement for Scott Wiener on page 25 (heading verbatim \"SCOTT WIENER\"). Readings matched for all but CD 11, where a first reading missed Chan and two later readings showed her statement. Our note says statements not collected; a county source now exists.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.6 \"Connie Chan Democratic\" / \"San Francisco Supervisor\"; \"Scott Wiener Democratic\" / \"State Senator\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "office": "U.S. Representative",
+   "district": "District 12",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda. The certified list marks no incumbents in any U.S. Representative contest, so incumbent false for DeSaulnier, Simon, Mullin and Khanna is consistent with the rule to report only marked incumbency.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+     "name": "Jamie Joyce",
+     "party": "Democratic",
+     "designation": "Nonprofit Executive Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+     "name": "Lateefah Simon",
+     "party": "Democratic",
+     "designation": "U.S. Representative",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.6 \"Jamie Joyce Democratic\" / \"Nonprofit Executive Director\"; \"Lateefah Simon Democratic\" / \"U.S. Representative\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "office": "U.S. Representative",
+   "district": "District 14",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda. The certified list marks no incumbents in any U.S. Representative contest, so incumbent false for DeSaulnier, Simon, Mullin and Khanna is consistent with the rule to report only marked incumbency.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+     "name": "Melissa Hernandez",
+     "party": "Democratic",
+     "designation": "Healthcare Services Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+     "name": "Aisha Wahab",
+     "party": "Democratic",
+     "designation": "State Senator",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.7 \"Melissa Hernandez Democratic\" / \"Healthcare Services Director\"; \"Aisha Wahab Democratic\" / \"State Senator\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "office": "U.S. Representative",
+   "district": "District 15",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: San Francisco. The certified list marks no incumbents in any U.S. Representative contest, so incumbent false for DeSaulnier, Simon, Mullin and Khanna is consistent with the rule to report only marked incumbency.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+     "name": "Kevin Mullin",
+     "party": "Democratic",
+     "designation": "U.S. Representative",
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement for Kevin Mullin on page 26 (heading verbatim \"KEVIN MULLIN\"). Readings matched for all but CD 11, where a first reading missed Chan and two later readings showed her statement. Our note says statements not collected; a county source now exists.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter",
+     "name": "Charles Hoelter",
+     "party": "Republican",
+     "designation": "Retired Training Supervisor",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "No statement for Charles Hoelter appears in the SF Voter Information Pamphlet section for this district (one reading). The Alameda County guide could not be read for statements.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.7 \"Kevin Mullin Democratic\" / \"U.S. Representative\"; \"Charles Hoelter Republican\" / \"Retired Training Supervisor\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "office": "U.S. Representative",
+   "district": "District 17",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda. The certified list marks no incumbents in any U.S. Representative contest, so incumbent false for DeSaulnier, Simon, Mullin and Khanna is consistent with the rule to report only marked incumbency.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+     "name": "Ro Khanna",
+     "party": "Democratic",
+     "designation": "United States Congressmember",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+     "name": "Ritesh Tandon",
+     "party": "Republican",
+     "designation": "CEO/Entrepreneur/Researcher",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.7 \"Ro Khanna Democratic\" / \"United States Congressmember\"; \"Ritesh Tandon Republican\" / \"CEO/Entrepreneur/Researcher\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-sd-10.state-senator-district-10",
+   "office": "State Senator",
+   "district": "District 10",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda. No asterisk on either State Senate District 10 candidate.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sd-10.state-senator-district-10.scott-sakakihara",
+     "name": "Scott Sakakihara",
+     "party": "Democratic",
+     "designation": "Councilmember/Navy Officer",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-sd-10.state-senator-district-10.linda-r-price",
+     "name": "Linda R. Price",
+     "party": "Republican",
+     "designation": "Businesswoman",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.15 \"Scott Sakakihara Democratic\" / \"Councilmember/Navy Officer\"; \"Linda R. Price Republican\" / \"Businesswoman\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14",
+   "office": "Member of the State Assembly",
+   "district": "District 14",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.buffy-wicks",
+     "name": "Buffy Wicks",
+     "party": "Democratic",
+     "designation": "Assemblymember/Mom",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.mark-rendon",
+     "name": "Mark Rendon",
+     "party": "Green",
+     "designation": "Teacher",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.21 \"Buffy Wicks* Democratic\" / \"Assemblymember/Mom\"; \"Mark Rendon Green\" / \"Teacher\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16",
+   "office": "Member of the State Assembly",
+   "district": "District 16",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.rebecca-bauer-kahan",
+     "name": "Rebecca Bauer-Kahan",
+     "party": "Democratic",
+     "designation": "Assemblymember/Mother",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.joseph-a-rubay",
+     "name": "Joseph A. Rubay",
+     "party": "Republican",
+     "designation": "Businessman/Father",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.21 \"Rebecca Bauer-Kahan* Democratic\" / \"Assemblymember/Mother\"; \"Joseph A. Rubay Republican\" / \"Businessman/Father\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17",
+   "office": "Member of the State Assembly",
+   "district": "District 17",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: San Francisco.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17.matt-haney",
+     "name": "Matt Haney",
+     "party": "Democratic",
+     "designation": "Assemblymember",
+     "incumbentMarked": true,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement for Matt Haney on page 27 (heading verbatim \"MATT HANEY\"). Readings matched for all but CD 11, where a first reading missed Chan and two later readings showed her statement. Our note says statements not collected; a county source now exists.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17.manuel-noris-barrera",
+     "name": "Manuel Noris-Barrera",
+     "party": "Republican",
+     "designation": "No Ballot Designation",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "No statement for Manuel Noris-Barrera appears in the SF Voter Information Pamphlet section for this district (one reading). The Alameda County guide could not be read for statements.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.21 \"Matt Haney* Democratic\" / \"Assemblymember\"; \"Manuel Noris-Barrera Republican\" / \"No Ballot Designation\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18",
+   "office": "Member of the State Assembly",
+   "district": "District 18",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.mia-bonta",
+     "name": "Mia Bonta",
+     "party": "Democratic",
+     "designation": "California State Assemblymember, Assembly District 18",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.andre-sandford",
+     "name": "Andre Sandford",
+     "party": "Democratic",
+     "designation": "Housing Program Director",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.21 \"Mia Bonta* Democratic\" / \"California State Assemblymember, Assembly District 18\"; \"Andre Sandford Democratic\" / \"Housing Program Director\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19",
+   "office": "Member of the State Assembly",
+   "district": "District 19",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: San Francisco.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.catherine-stefani",
+     "name": "Catherine Stefani",
+     "party": "Democratic",
+     "designation": "Assemblymember",
+     "incumbentMarked": true,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement for Catherine Stefani on page 28 (heading verbatim \"CATHERINE STEFANI\"). Readings matched for all but CD 11, where a first reading missed Chan and two later readings showed her statement. Our note says statements not collected; a county source now exists.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.philip-louis-wing",
+     "name": "Philip Louis Wing",
+     "party": "Republican",
+     "designation": "Retired Financial Advisor",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "No statement for Philip Louis Wing appears in the SF Voter Information Pamphlet section for this district (one reading). The Alameda County guide could not be read for statements.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.22 \"Catherine Stefani* Democratic\" / \"Assemblymember\"; \"Philip Louis Wing Republican\" / \"Retired Financial Advisor\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20",
+   "office": "Member of the State Assembly",
+   "district": "District 20",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.liz-ortega",
+     "name": "Liz Ortega",
+     "party": "Democratic",
+     "designation": "Assemblymember",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.patricia-muga",
+     "name": "Patricia Muga",
+     "party": "Republican",
+     "designation": "Real Estate Appraiser",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.22 \"Liz Ortega* Democratic\" / \"Assemblymember\"; \"Patricia Muga Republican\" / \"Real Estate Appraiser\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24",
+   "office": "Member of the State Assembly",
+   "district": "District 24",
+   "seats": null,
+   "source": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "rosterMatches": true,
+   "differences": "None. Names, parties, designations, order and incumbent asterisks match our data. Appears on ballots in: Alameda.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.alex-lee",
+     "name": "Alex Lee",
+     "party": "Democratic",
+     "designation": "State Assemblymember",
+     "incumbentMarked": true,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    },
+    {
+     "id": "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.max-hsia",
+     "name": "Max Hsia",
+     "party": "Republican",
+     "designation": "Small Business Owner",
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Alameda County composite Voter Information Guide was fetched but candidate statements were not in the readable text. Not resolved.",
+     "notes": "Name, party, designation and order match the certified list in two readings."
+    }
+   ],
+   "excerpt": "p.22 \"Alex Lee* Democratic\" / \"State Assemblymember\"; \"Max Hsia Republican\" / \"Small Business Owner\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "location": "Certified list, page as shown",
+   "incumbentLegend": "\"* Incumbent\""
+  },
+  {
+   "id": "2026-11-03.ca-sf.assessor-recorder",
+   "office": "Assessor-Recorder",
+   "district": null,
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf.assessor-recorder.joaquin-torres",
+     "name": "Joaquin Torres",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 39. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". The VIP statement heading reads \"JOAQUÍN TORRES\", which differs from the sf.gov name \"Joaquin Torres\". The ballot name was not seen in an official ballot list, so do not change the name on this basis alone. No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"1 person(s) have filed for candidacy for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "filed"
+  },
+  {
+   "id": "2026-11-03.ca-sf.public-defender",
+   "office": "Public Defender",
+   "district": null,
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf.public-defender.manohar-raju",
+     "name": "Manohar Raju",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 40. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". The VIP statement heading reads \"MANO RAJU\", which differs from the sf.gov name \"Manohar Raju\". The ballot name was not seen in an official ballot list, so do not change the name on this basis alone. No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"1 person(s) have filed for candidacy for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "filed"
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "district": "District 2",
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+     "name": "Nicholas Berg",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "No statement for this name appears in the readable District 2 statements of the SF VIP (pages 41 to 42 show McCoy, Ratanapakdee, Sherrill only). The name does not appear anywhere in the readable text.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+     "name": "Guy McCoy",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 41. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+     "name": "Monthanus Ratanapakdee",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 41. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+     "name": "Stephen Sherrill",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 42. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"4 people have qualified for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "district": "District 4",
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+     "name": "Albert Chow",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 43. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+     "name": "Jeremy Julian Greco",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 43. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+     "name": "Alan Wong",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 44. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "Names in order: \"Albert Chow\", \"Jeremy Julian Greco\", \"Alan Wong\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "district": "District 6",
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+     "name": "Alex Behrend",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+     "name": "Matt Dorsey",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "Names in order: \"Alex Behrend\", \"Matt Dorsey\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "district": "District 8",
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+     "name": "Gary McCoy",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+     "name": "Michael T. Nguyen",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+     "name": "Darshini Patel",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+     "name": "Emanuel \"Manny\" Yekutiel",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "Names in order: \"Gary McCoy\"; \"Michael T. Nguyen\"; \"Darshini Patel\"; \"Emanuel \\\"Manny\\\" Yekutiel\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "district": "District 10",
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+     "name": "Pearci \"PJ\" Bastiany III",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+     "name": "Dionjay (DJ) Brookter",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+     "name": "Deandra Bryant",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+     "name": "Theo Ellington",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+     "name": "J.R. Eppler",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.ellsworth-ell-m-jennison-jr",
+     "name": "Ellsworth \"Ell\" M. Jennison, Jr.",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+     "name": "Mike Trouble Lin",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jamo-muhammad",
+     "name": "Jamo Muhammad",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jessica-pessecow",
+     "name": "Jessica Pessecow",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+     "name": "Shawn M. Richard",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": null,
+     "statementEvidence": "Not resolved. The VIP text as returned by the reader stops near page 44, before District 6, 8 and 10 statements.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "Names in order begin \"Pearci \\\"PJ\\\" Bastiany III; Dionjay (DJ) Brookter; Deandra Bryant\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education",
+   "office": "Board of Education",
+   "district": null,
+   "seats": 3,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). VIP page 5 says \"Member, Board of Education, three seats\". Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.autumn-brown-garibay",
+     "name": "Autumn Brown Garibay",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 29. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.virginia-cheung",
+     "name": "Virginia Cheung",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 29. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.alida-fisher",
+     "name": "Alida Fisher",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 30. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.ryan-hazelton",
+     "name": "Ryan Hazelton",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 30. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.phil-kim",
+     "name": "Phil Kim",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 31. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.laurance-lee",
+     "name": "Laurance Lee",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 31. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.reina-tello",
+     "name": "Reina Tello",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 32. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.tim-tung",
+     "name": "Tim Tung",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 32. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"filed\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"Board of Education (3 seats)\" / \"8 people have filed for candidacy for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "filed"
+  },
+  {
+   "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board",
+   "office": "Community College Board",
+   "district": null,
+   "seats": 3,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). VIP page 5 says \"Trustee, Community College Board, three seats (4-year term ending January 8, 2031)\". Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.elijah-ball",
+     "name": "Elijah Ball",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 33. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.rome-moses-jones",
+     "name": "Rome Moses Jones",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 33. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.monroe-lace",
+     "name": "Monroe Lace",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 34. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.leah-lacroix",
+     "name": "Leah LaCroix",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 34. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.jeremy-lee",
+     "name": "Jeremy Lee",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 35. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.bunny-mcfadden",
+     "name": "Bunny McFadden",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 35. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.erwin-tam",
+     "name": "Erwin Tam",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 36. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    },
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.lisa-wynn",
+     "name": "Lisa Wynn",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 36. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". The VIP statement heading reads \"LISA PALAGI WYNN II\", which differs from the sf.gov name \"Lisa Wynn\". The ballot name was not seen in an official ballot list, so do not change the name on this basis alone. No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"Community College Board (3 seats)\" / \"8 people have qualified for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board-partial-term",
+   "office": "Community College Board, Partial Term",
+   "district": null,
+   "seats": 1,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Seats should be 1; our data has None. VIP page 5 says \"Trustee, Community College Board, one seat (remainder of the current term ending January 8, 2029)\". Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board-partial-term.ruth-ferguson",
+     "name": "Ruth Ferguson",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 37. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"Community College Board Partial Term\" / \"1 person has qualified for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  },
+  {
+   "id": "2026-11-03.ca-bart-district-8.bart-board",
+   "office": "BART Board",
+   "district": "District 8",
+   "seats": null,
+   "source": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "rosterMatches": true,
+   "differences": "Names and page order match our data (sf.gov lists names alphabetically, not in ballot order). Our contest district field is null; source says \"BART Board, District 8\" and the VIP lists \"BART Director, District 8*\". Suggest district \"District 8\". Designations not available from any official SF document read. VIP statement occupation lines are not ballot designations and were not recorded as such.",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-bart-district-8.bart-board.sara-barz",
+     "name": "Sara Barz",
+     "party": null,
+     "designation": null,
+     "incumbentMarked": false,
+     "statementUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "statementEvidence": "SF Voter Information Pamphlet prints a statement on page 38. Two readings matched.",
+     "notes": "sf.gov lists this contest as \"qualified\". No official source seen marks incumbency."
+    }
+   ],
+   "excerpt": "\"BART Board, District 8\" / \"1 person has qualified for this contest on the November 3, 2026 ballot.\"",
+   "readingsMatched": true,
+   "excerptMethod": "WebFetch verbatim-quote request",
+   "candidateStatus": "qualified"
+  }
+ ],
+ "newContests": [],
+ "countyBallotCoverage": {
+  "alameda": {
+   "source": "https://acvote.alamedacountyca.gov/election-information/elections?id=260",
+   "excerpt": "\"| UNITED STATES REPRESENTATIVE | 10th Congressional District |\" (also 12th, 14th, 17th); \"| STATE SENATOR | 10th State Senate District |\"; \"| MEMBER OF THE STATE ASSEMBLY | 14th Assembly District |\" (also 16th, 18th, 20th, 24th); \"| STATE  | Member, State Board Of Equalization, 2nd District |\"",
+   "districts": {
+    "congressional": [
+     10,
+     12,
+     14,
+     17
+    ],
+    "stateSenate": [
+     10
+    ],
+    "assembly": [
+     14,
+     16,
+     18,
+     20,
+     24
+    ],
+    "boardOfEqualization": [
+     2
+    ]
+   },
+   "readingsMatched": true
+  },
+  "sanFrancisco": {
+   "source": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+   "location": "Voter Information Pamphlet page 5, contest list",
+   "excerpt": "\"Board of Equalization Member, District 2\"; \"United States Representative, District 11 or District 15\"; \"State Assembly Member, District 17 or District 19\"",
+   "districts": {
+    "congressional": [
+     11,
+     15
+    ],
+    "stateSenate": [],
+    "assembly": [
+     17,
+     19
+    ],
+    "boardOfEqualization": [
+     2
+    ]
+   },
+   "readingsMatched": true,
+   "notes": "No State Senator line appears in the SF contest list. sf.gov candidate page also lists U.S. Representative 11 and 15 and Assembly 17 and 19 only."
+  },
+  "summary": "Of our 14 congressional and legislative contests, 10 appear on Alameda ballots (CD 10, 12, 14, 17, SD 10, AD 14, 16, 18, 20, 24) and 4 on SF ballots (CD 11, 15, AD 17, 19). None is on both. BOE 2 is the only BOE district on either county ballot."
+ },
+ "filedVsQualified": {
+  "finding": "sf.gov uses \"have filed for candidacy\" for Assessor-Recorder, Public Defender and Board of Education, and \"have qualified\" for all other SF contests including Supervisors, Community College Board, CCB partial term, BART 8, CD 11/15 and AD 17/19. The official VIP lists all three \"filed\" contests on the ballot (page 5) and prints statements for all their candidates, which indicates they are on the ballot. That is an inference, so the published wording should follow the source wording or say on the ballot per the VIP.",
+  "interpretive": true
+ },
+ "unresolved": [
+  "SF ballot designations. No official SF document read shows them. The sf.gov reports page says designation lists are \"to be posted after the close of the Nomination Period\" and shows no URL. The sample ballot in the Voter Portal is per-voter and was not read.",
+  "SF candidate statements for Supervisor Districts 6, 8 and 10. The VIP text returned by the reader ends near page 44.",
+  "Whether the SF ballot name is Joaquin Torres or Joaquín Torres, Manohar Raju or Mano Raju, Lisa Wynn or Lisa Palagi Wynn II. sf.gov and VIP statement headings differ.",
+  "Candidate statements for Alameda-ballot congressional and legislative candidates and BOE 2 candidates in the county guide. The Alameda composite guide PDF did not yield statement text, and the county Candidate List app did not load results.",
+  "Whether Nicholas Berg (Supervisor District 2) submitted a statement. Not in readable VIP text.",
+  "Web search budget was exhausted mid-audit, so no further searches for an SF designation list were possible."
+ ],
+ "sourcesChecked": [
+  {
+   "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+   "access": "read",
+   "notes": "Certified list dated 8/27/2026. Legend \"* Incumbent\". Read 3 times; all statewide, BOE, CD, SD and AD entries matched. No asterisks in any U.S. Representative contest."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/",
+   "access": "read",
+   "notes": "Index of nine statement pages; URLs match ours."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/governor-candidate-statements.htm",
+   "access": "read",
+   "notes": "Both candidates \"No candidate statement.\" Two readings matched."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/lt-governor-candidate-statements.htm",
+   "access": "read",
+   "notes": "Ma and Romero statements."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/sos-candidate-statements.htm",
+   "access": "read",
+   "notes": "Wagner and Weber statements."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/controller-candidate-statements.htm",
+   "access": "read",
+   "notes": "Cohen and Morgan statements."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/treasurer-candidate-statements.htm",
+   "access": "read",
+   "notes": "Hawks and Kounalakis statements."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/attorney-general-candidate-statements.htm",
+   "access": "read",
+   "notes": "Gates statement; Bonta \"No candidate statement.\" Two readings matched."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/insurance-commissioner-candidate-statements.htm",
+   "access": "read",
+   "notes": "Allen and Kim statements."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/boe-candidate-statements.htm",
+   "access": "read",
+   "notes": "All 8 BOE candidates listed; Sukaton \"No candidate statement.\" Two readings matched."
+  },
+  {
+   "url": "https://voterguide.sos.ca.gov/candidates/superintendent-candidate-statements.htm",
+   "access": "read",
+   "notes": "Barrera and Shaw statements. Two readings."
+  },
+  {
+   "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "access": "read",
+   "notes": "Read 3 times; names, order, seat counts and filed/qualified wording matched."
+  },
+  {
+   "url": "https://www.sf.gov/reports--candidates-nov-3-2026-general-election",
+   "access": "read",
+   "notes": "Stale pre-nomination filing table (says last updated 3/20/2025; shows CCB \"4 seats\" and different names). Not used as roster evidence."
+  },
+  {
+   "url": "https://www.sf.gov/november-3-2026-consolidated-general-election",
+   "access": "read",
+   "notes": "Links to VIP; no candidate data."
+  },
+  {
+   "url": "https://www.sf.gov/news-the-department-of-elections-makes-the-voter-information-pamphlet-and-sample-ballot-available-for-the-november-3-2026-consolidated-general-election",
+   "access": "read",
+   "notes": "Points to VIP and Voter Portal sample ballot."
+  },
+  {
+   "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+   "access": "partial",
+   "notes": "English VIP. Page 5 contest list and statements pages 25 to about 44 read; text returned ends about page 44 (120,660 characters reported)."
+  },
+  {
+   "url": "https://media.api.sf.gov/documents/N26_SP_VIP.pdf",
+   "access": "partial",
+   "notes": "Spanish VIP; confirms CD 11 or 15 and AD 17 or 19. Not used further."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov",
+   "access": "read",
+   "notes": "Links to election page, Candidate List app, District Lookup."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/election-information/elections?id=260",
+   "access": "read",
+   "notes": "What's on the Ballot table; two readings matched for federal, state and BOE district rows."
+  },
+  {
+   "url": "https://alamedacountyca.gov/rov_app/candidatelist",
+   "access": "failed",
+   "notes": "Only filter controls returned; results require interactive selection."
+  },
+  {
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "access": "partial",
+   "notes": "Index only; statements absent from returned text, some garbled blocks."
+  }
+ ]
+}

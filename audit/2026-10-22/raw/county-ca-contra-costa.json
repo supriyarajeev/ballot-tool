@@ -1,0 +1,826 @@
+{
+ "county": "ca-contra-costa",
+ "listUrl": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+ "listRecheck": {
+  "matched": true,
+  "notes": "County list 'Local Ballot Measures – Updated 8/10/26' (3 pages) shows RTM plus M through X, 13 entries. All 12 local letters and jurisdictions match our records. Titles match for M, N, R, S, U. For O, P, Q the list prints only the city name; for T it prints 'City of Walnut Creek'; for V, W, X it prints the district name. Our records hold the placeholder 'Title not recorded yet' for those seven. List prints W before V. The reader saw some headers run together (MEASUREM, MEASUREO, MEASUREQ). Vote thresholds are printed on the list for every measure. Read four times; numbers and thresholds matched across readings.",
+  "excerptMethod": "WebFetch verbatim-quote request"
+ },
+ "measures": [
+  {
+   "id": "2026-11-03.ca-contra-costa-clayton.measure-m",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "City of Clayton Transaction and Use Tax",
+   "titleNote": null,
+   "ballotQuestion": {
+    "text": "CITY OF CLAYTON SALES TAX MEASURE. To provide local funding to maintain City of Clayton programs, services, and facilities, including: police services, traffic enforcement and road safety, road and sidewalk improvements, enhance library and recreation opportunities, park maintenance, recruitment and retention of city employees and other city services, shall the City of Clayton levy a 1% sales tax until ended by voters generating approximately $1,000,000 annually, subject to public review, the annual audit and all funds benefitting Clayton?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (general sales tax)",
+    "evidence": "CALLING FOR THE PLACEMENT OF A GENERAL TAX MEASURE ON THE BALLOT FOR THE NOVEMBER 3, 2026 GENERAL MUNICIPAL ELECTION",
+    "url": "https://www.claytonca.gov/DocumentCenter/View/836"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "shall the City of Clayton levy a 1% sales tax until ended by voters generating approximately $1,000,000 annually",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Levies a 1% sales tax in Clayton until ended by voters, generating about $1,000,000 a year.",
+   "otherSources": [
+    {
+     "url": "https://www.claytonca.gov/DocumentCenter/View/836",
+     "title": "City of Clayton Resolution No. 21-2026 (adopted June 16, 2026) with ordinance Exhibit A",
+     "access": "read",
+     "notes": "Heading quoted. States 'a two-thirds (2/3) vote of all members of the City Council is required to place the Measure' which is the council vote to place it, not the voter threshold. Says the tax 'shall continue until this ordinance is repealed'. Single reading."
+    },
+    {
+     "url": "https://www.claytonca.gov/169/Elections-Information",
+     "title": "Clayton Elections Information",
+     "access": "read",
+     "notes": "Council election only. No measure content, no impartial analysis or argument links."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-clayton.measure-n",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "City of Clayton Special Tax",
+   "titleNote": null,
+   "ballotQuestion": {
+    "text": "CITYWIDE LANDSCAPE MAINTENANCE EXTENSION AND ALTERATION OF RATE OF EXISTING SPECIAL TAX Shall the measure to fund on-going trail system operations and maintenance, roadway landscaping, open space weed abatement, and related services of the Clayton Community Facility District No. 2007-1 (Citywide Landscape Maintenance) by extending the special tax for ten years and amending its rate and methodology to $354.45/year per residential parcel and $354.45/year per non-residential acre, including annual inflationary adjustments, subject to citizen's committee oversight, be approved?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (special tax, Community Facilities District)",
+    "evidence": "CITYWIDE LANDSCAPE MAINTENANCE EXTENSION AND ALTERATION OF RATE OF EXISTING SPECIAL TAX",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "2/3 Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "extending the special tax for ten years and amending its rate and methodology to $354.45/year per residential parcel and $354.45/year per non-residential acre, including annual inflationary adjustments",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Extends the Clayton citywide landscape maintenance special tax for ten years at $354.45 a year per residential parcel and $354.45 a year per non-residential acre, with annual inflation adjustments.",
+   "otherSources": [],
+   "remainingGaps": [
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed",
+    "Council or CFD resolution not located"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-concord.measure-o",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "City of Concord",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "To protect City of Concord services/ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: repair potholes on neighborhood and major streets; maintain 9-1-1 emergency response; keep parks/playgrounds safe/clean; relieve traffic congestion along major corridors; maintain senior/youth programs; for general government use; by updating Concord’s 37-year-old business license rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 annually, requiring independent citizen oversight?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (business license tax)",
+    "evidence": "by updating Concord’s 37-year-old business license rates to 0.1% of gross receipts until ended by voters",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "business license rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 annually",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Updates Concord business license tax rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 a year.",
+   "otherSources": [
+    {
+     "url": "https://www.cityofconcord.org/1396/Ballot-Question-and-Election-Information",
+     "title": "Concord Ballot Question and Election Information",
+     "access": "read",
+     "notes": "Ballot question matches county list wording (third reading); page uses a straight apostrophe in Concord's. No vote requirement stated. No impartial analysis or argument links."
+    },
+    {
+     "url": "https://www.cityofconcord.org/1404/Measure-O",
+     "title": "Concord Measure O page",
+     "access": "read",
+     "notes": "Informational. Links staff report and resolution on stream2.ci.concord.ca.us."
+    },
+    {
+     "url": "https://stream2.ci.concord.ca.us/OnBaseAgendaOnline/Documents/DownloadFileBytes/Resolution%20for%20-%20%20-%20Attachment%201%20-%20Resolution%20(26026).pdf?documentType=1&meetingId=1463&itemId=26026&publishId=37963&isSection=False&isAttachment=True",
+     "title": "Resolution about Measure O",
+     "access": "failed",
+     "notes": "Error text 'URL_NOT_ON_ALLOWLIST ... This URL is not on the session's allowlist, so it was not fetched.'"
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed",
+    "Resolution not read (fetch blocked); general vs special designation not confirmed from an official statement"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-hercules.measure-p",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "City of Hercules",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "Shall the measure providing Hercules with locally controlled funding to maintain financial stability/general city services, such as fast 911 response; neighborhood police patrols; water quality standards; keeping public areas/parks safe/ clean; repairing deteriorating streets/potholes; and retaining/attracting local businesses, by establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters; requiring audits, public disclosure, and funds only for Hercules, be adopted?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (sales tax)",
+    "evidence": "by establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Establishes a 1% sales tax in Hercules until ended by voters, generating about $4,000,000 a year.",
+   "otherSources": [
+    {
+     "url": "https://www.herculesca.gov/government/city-clerk/elections",
+     "title": "Hercules Municipal Elections",
+     "access": "read",
+     "notes": "No measure content. Links to county page and calls the election a 'Statewide Special Election', which appears to be stale wording."
+    },
+    {
+     "url": "https://www.herculesca.gov/Home/Components/News/News/3431/4",
+     "title": "The City of Hercules Public Safety/Financial Stability Measure P",
+     "access": "failed",
+     "notes": "Error text 'failed at its site (client_error), and nothing of the page was retrieved.'"
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed",
+    "Council resolution not located"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-richmond.measure-q",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "City of Richmond",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "To support rapid, 911 emergency medical response, modernize and rehabilitate unsafe/deteriorating firefighter housing and facilities, including mold/asbestos abatement/removal, replace electrical systems, leaky pipes/roofs, and improve structure resiliency during disasters, shall the City of Richmond’s measure authorizing $120,000,000 in bonds at legal rates, levying an estimated average tax rate of $22.15/$100,000 of assessed valuation, averaging $7,568,158 annually while bonds are outstanding, requiring citizen oversight, audits, and spending only on approved projects, be adopted?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "bond (general obligation bond)",
+    "evidence": "General Obligation Bond Measure - Fire Stations",
+    "url": "https://www.ci.richmond.ca.us/4988/2026-GENERAL-ELECTION-INFORMATION"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "2/3 Required to pass (county list); 'It requires a twothirds vote of the electorate to pass.' (City Attorney impartial analysis, text as returned by reader)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "County list read twice, matched. Impartial analysis read once and agrees.",
+    "url2": "https://www.ci.richmond.ca.us/DocumentCenter/View/80652"
+   },
+   "fiscal": {
+    "text": "authorizing $120,000,000 in bonds at legal rates, levying an estimated average tax rate of $22.15/$100,000 of assessed valuation, averaging $7,568,158 annually while bonds are outstanding. Impartial analysis adds 'with the final fiscal year in which the tax is anticipated to be collected being 2060'.",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": "https://www.ci.richmond.ca.us/DocumentCenter/View/80652",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.ci.richmond.ca.us/4988/2026-GENERAL-ELECTION-INFORMATION",
+    "rebuttals": "Rebuttal to Argument in Favor (View/80761) and Rebuttal to Argument Against (View/80762) both listed",
+    "forUrl": "https://www.ci.richmond.ca.us/DocumentCenter/View/80727",
+    "againstUrl": "https://www.ci.richmond.ca.us/DocumentCenter/View/80726"
+   },
+   "plainEnglish": "Authorizes the City of Richmond to issue up to $120,000,000 in general obligation bonds for firefighter housing and facilities. The average tax rate is projected at $22.15 per $100,000 of assessed valuation.",
+   "otherSources": [
+    {
+     "url": "https://www.ci.richmond.ca.us/4988/2026-GENERAL-ELECTION-INFORMATION",
+     "title": "Richmond 2026 General Election Information",
+     "access": "read",
+     "notes": "Lists Measure Q only for Nov 3, 2026. Links Ordinance No. 12-26 N.S. (View/80525), Resolution No. 143-26 (View/80526), Finance Director's Financial Analysis (View/80651), impartial analysis, arguments and rebuttals. Also lists a public safety charter amendment initiative 'for a future election', not on this ballot."
+    },
+    {
+     "url": "https://www.ci.richmond.ca.us/DocumentCenter/View/80652",
+     "title": "City Attorney's Impartial Analysis of Measure Q",
+     "access": "read",
+     "notes": "Quoted 'A “YES” vote authorizes the City to issue the bonds as summarized above.' and 'A “NO” vote does not authorize the City to issue the bonds.' Single reading."
+    }
+   ],
+   "remainingGaps": [
+    "Argument texts and Finance Director's analysis not read"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-san-pablo.measure-r",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "City of San Pablo Transactions and Use Tax",
+   "titleNote": null,
+   "ballotQuestion": {
+    "text": "To provide funding to maintain City services, including crime prevention, police protection, reducing illegal dumping, the City's daily senior meal program, youth scholarship programs, assisting the homeless, street maintenance, and other general services, shall San Pablo enact a temporary ½-cent sales tax for 5 years, generating approximately $2,000,000 annually, then reduced to ¼-cent for 5 years, generating approximately $1,000,000 annually, then terminate; with all funds staying in San Pablo, citizen oversight, and mandated annual audits?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (transactions and use tax)",
+    "evidence": "shall San Pablo enact a temporary ½-cent sales tax for 5 years",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass (county list); 'Measure R must be approved by a simple majority (50% plus one) of the City’s voters.' (City Attorney impartial analysis)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "url2": "https://www.sanpabloca.gov/DocumentCenter/View/19129/MEASURE-R---City-Attorney-Impartial-Analysis-08192026",
+    "note": "County list read twice, matched. City ballot measures page shows the same 'Majority Required to pass'."
+   },
+   "fiscal": {
+    "text": "temporary ½-cent sales tax for 5 years, generating approximately $2,000,000 annually, then reduced to ¼-cent for 5 years, generating approximately $1,000,000 annually, then terminate",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": "https://www.sanpabloca.gov/DocumentCenter/View/19118/MEASURE-R---City-Attorney-Impartial-Analysis---08192026",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sanpabloca.gov/2952/November-3rd-2026-Ballot-Measures",
+    "rebuttals": "Only 'Rebuttal to Argument In Favor of Measure R' (View/19138) is listed"
+   },
+   "plainEnglish": "Raises the San Pablo sales tax by 0.50% for five years, then by 0.25% for five more years, then ends. The revenue goes to the general fund.",
+   "otherSources": [
+    {
+     "url": "https://www.sanpabloca.gov/2952/November-3rd-2026-Ballot-Measures",
+     "title": "San Pablo November 3rd, 2026 Ballot Measures",
+     "access": "read",
+     "notes": "Lists Measures R and S only. Ballot question matches county list."
+    },
+    {
+     "url": "https://www.sanpabloca.gov/servicemeasure",
+     "title": "Measure R San Pablo City Services Measure",
+     "access": "read",
+     "notes": "Links a different impartial analysis URL (View/19129) than the ballot measures page (View/19118). Its FAQ calls the proposal 'Measure X' in one question. Page also says 'the existing Measure S sales tax rate will automatically drop from from 0.5 cents to 0.25 cents', referring to an older sales tax also named Measure S, which may confuse voters with 2026 Measure S (rent control)."
+    },
+    {
+     "url": "https://www.sanpabloca.gov/DocumentCenter/View/19129/MEASURE-R---City-Attorney-Impartial-Analysis-08192026",
+     "title": "City Attorney's Impartial Analysis (Measure R)",
+     "access": "read",
+     "notes": "Quoted 'would temporarily increase the local sales tax by 0.50% for five years,' and 'placed into the City’s general fund to be used for any lawful purpose.' Yes vote 'is to permit the City of San Pablo to increase its local sales tax for ten years.' Single reading."
+    }
+   ],
+   "remainingGaps": [
+    "Confirm which impartial analysis file (View/19118 or View/19129) is final",
+    "Whether a rebuttal to the argument against was filed"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-san-pablo.measure-s",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "City of San Pablo Rent Control",
+   "titleNote": null,
+   "ballotQuestion": {
+    "text": "Shall the proposed ordinance, prohibiting residential real property rental rate increases for some rental units that exceed sixty percent of the Consumer Price Index increase or three percent, whichever is lower, establishing a process for consideration of additional rent increases, requiring City administration estimated to cost approximately $1,080,000 to $2,360,000 annually, funded by annual rental property owner fees, limiting the grounds for evicting tenants of some rental units, and enacting additional housing regulations, be adopted?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "initiative ordinance",
+    "evidence": "Measure S qualified for the November 2026 ballot by citizen petition.",
+    "url": "https://www.sanpabloca.gov/DocumentCenter/View/19120/MEASURE-S---City-Attorney-Impartial-Analysis---08192026"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "requiring City administration estimated to cost approximately $1,080,000 to $2,360,000 annually, funded by annual rental property owner fees",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": "https://www.sanpabloca.gov/DocumentCenter/View/19120/MEASURE-S---City-Attorney-Impartial-Analysis---08192026",
+   "argumentsFiled": {
+    "for": true,
+    "against": true,
+    "url": "https://www.sanpabloca.gov/2952/November-3rd-2026-Ballot-Measures",
+    "rebuttals": "Rebuttal to Argument in Favor (View/19140) and Rebuttal to Argument Against (View/19139) both listed"
+   },
+   "plainEnglish": "Adopts an ordinance limiting rent increases on some San Pablo rental units to sixty percent of the Consumer Price Index increase or three percent, whichever is lower. It also limits the grounds for evicting tenants of some units and funds City administration with annual rental property owner fees.",
+   "otherSources": [
+    {
+     "url": "https://www.sanpabloca.gov/DocumentCenter/View/19120/MEASURE-S---City-Attorney-Impartial-Analysis---08192026",
+     "title": "City Attorney's Impartial Analysis (Measure S)",
+     "access": "read",
+     "notes": "Does not state a threshold. Yes vote text as returned 'A “yes” vote approves the revisions to the City of San Pablo’s tenant relocation assistance ordinance,' which reads oddly for a rent control measure. Single reading; re-check before quoting."
+    },
+    {
+     "url": "https://www.sanpabloca.gov/DocumentCenter/View/13187/FINAL-San-Pablo-Impartial-Analysis-with-letter-081720",
+     "title": "2020 Measure S impartial analysis",
+     "access": "failed",
+     "notes": "Not fetched. Search result dated 2020 (filename 081720). Do not use for the 2026 measure."
+    }
+   ],
+   "remainingGaps": [
+    "Re-read impartial analysis yes/no wording",
+    "Full ordinance text not read"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-walnut-creek.measure-t",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "City of Walnut Creek",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "Shall the office of the City Treasurer be appointive?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "other (question on making an elective office appointive)",
+    "evidence": "Shall the office of the City Treasurer be appointive?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "interpretive": true
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "No dollar amounts, rates or durations in the ballot question."
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Asks whether the office of Walnut Creek City Treasurer should be appointive.",
+   "otherSources": [
+    {
+     "url": "https://www.walnutcreekca.gov/government/departments/city-clerk/elections-voter-registration/november-3-2026-election-4243",
+     "title": "Walnut Creek November 3, 2026 Election",
+     "access": "read",
+     "notes": "No measures mentioned in fetched content."
+    },
+    {
+     "url": "https://www.walnutcreekca.gov/government/departments/city-clerk/elections-voter-registration/november-3-2026-election/measure-t",
+     "title": "Measure T Information and Frequently Asked Questions",
+     "access": "failed",
+     "notes": "Error text 'failed at its site (client_error), and nothing of the page was retrieved.'"
+    },
+    {
+     "url": "https://www.walnutcreekca.gov/Home/Components/News/News/3992/",
+     "title": "Your Ballot for the November 3, 2026 General Election is in the Mail",
+     "access": "failed",
+     "notes": "Error text 'failed at its site (client_error)'."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed",
+    "Council resolution not located"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-walnut-creek.measure-u",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": true,
+   "titleOnList": "City of Walnut Creek Senior Housing",
+   "titleNote": null,
+   "ballotQuestion": {
+    "text": "Shall the measure amending the City of Walnut Creek General Plan, the North Downtown Specific Plan, and the Municipal Code to redesignate a 2.4 acre site at the northeast corner of North California Boulevard and Ygnacio Valley Road from office uses to mixed use residential uses, and to create a new Mixed Use Residential Senior & Commercial zoning district to limit allowable uses on the site to multifamily senior housing (primarily 55 years of age or older) and commercial uses compatible with senior housing, be adopted?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "ordinance (General Plan, Specific Plan and Municipal Code amendment)",
+    "evidence": "Shall the measure amending the City of Walnut Creek General Plan, the North Downtown Specific Plan, and the Municipal Code",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "majority",
+    "evidence": "Majority Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": null,
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "No dollar amounts, rates or durations in the ballot question."
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Amends the Walnut Creek General Plan, North Downtown Specific Plan and Municipal Code to redesignate a 2.4 acre site at North California Boulevard and Ygnacio Valley Road from office uses to mixed use residential uses. Allowed uses on the site would be limited to multifamily senior housing and commercial uses compatible with senior housing.",
+   "otherSources": [
+    {
+     "url": "https://contracosta.news/2026/05/07/walnut-creek-senior-housing-initiative-moves-forward-following-record-signature-effort/",
+     "title": "Independent news (search result only)",
+     "access": "failed",
+     "notes": "Not fetched. Independent; titles suggest a citizen initiative. Not used as support."
+    }
+   ],
+   "remainingGaps": [
+    "Whether this is a citizen initiative not confirmed from an official source",
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-sd-west-contra-costa-unified-school-district.measure-v",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "West Contra Costa Unified School District",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "Shall the measure supporting local quality education in West Contra Costa Unified School District, protecting core academics, science, music, arts, and career technical programs that prepare students for the changing economy; attracting and retaining qualified teachers; and maintaining mental health services and counselors to support student success; by renewing the parcel tax at the existing rate of 7.2¢/building square foot, raising approximately $10,238,737 annually for nine years, with senior exemptions, independent citizen oversight, audits, and local control, be adopted?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (parcel tax renewal)",
+    "evidence": "by renewing the parcel tax at the existing rate of 7.2¢/building square foot",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "2/3 Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "renewing the parcel tax at the existing rate of 7.2¢/building square foot, raising approximately $10,238,737 annually for nine years",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Renews the West Contra Costa Unified parcel tax at the existing rate of 7.2 cents per building square foot for nine years, raising about $10,238,737 a year, with senior exemptions.",
+   "otherSources": [
+    {
+     "url": "https://www.wccusd.net/departments-and-areas/parcel-tax",
+     "title": "WCCUSD Parcel Tax page",
+     "access": "read",
+     "notes": "Describes the existing tax only. No Nov 2026 measure, letter or documents."
+    }
+   ],
+   "remainingGaps": [
+    "Board resolution not located",
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-sd-acalanes-union-high-school-district.measure-w",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "Acalanes Union High School District",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "Shall the measure supporting high-quality education in local high schools by: • Attracting/retaining highly qualified teachers • continuing advanced academic programs in science, technology, engineering, math, and arts that prepare students for success in college and careers • maintaining manageable class sizes with Acalanes Union High School District levying a $168 parcel tax for eight years, with senior exemptions, citizens’ oversight and independent audits, providing $6,000,000 annually in local school funding that cannot be taken by the State, be adopted?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "tax (parcel tax)",
+    "evidence": "QUESTION OF LEVYING AN EDUCATIONAL PARCEL TAX UPON EACH PARCEL IN THE DISTRICT",
+    "url": "https://www.acalanes.k12.ca.us/about-auhsd/measure-w/measure-w-resolution"
+   },
+   "threshold": {
+    "value": "two-thirds",
+    "evidence": "2/3 Required to pass (county list); resolution text as returned 'by at least two-thirds of the registered voters voting on the proposition'",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "url2": "https://www.acalanes.k12.ca.us/about-auhsd/measure-w/measure-w-resolution",
+    "note": "County list read twice, matched. Resolution read once and agrees."
+   },
+   "fiscal": {
+    "text": "levying a $168 parcel tax for eight years, with senior exemptions ... providing $6,000,000 annually. Resolution adds 'beginning in fiscal year 2027-28'.",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Levies a $168 parcel tax in the Acalanes Union High School District for eight years beginning in fiscal year 2027-28, with senior exemptions, providing $6,000,000 a year.",
+   "otherSources": [
+    {
+     "url": "https://www.acalanes.k12.ca.us/about-auhsd/measure-w/measure-w-resolution",
+     "title": "Measure W Resolution (Resolution 26-27-01)",
+     "access": "read",
+     "notes": "Title, threshold, rate and start year quoted. Single reading."
+    }
+   ],
+   "remainingGaps": [
+    "Impartial analysis not located",
+    "Whether arguments were filed not confirmed"
+   ]
+  },
+  {
+   "id": "2026-11-03.ca-contra-costa-sd-liberty-union-high-school-district.measure-x",
+   "identifierOK": true,
+   "jurisdictionOK": true,
+   "titleOK": false,
+   "titleOnList": "Liberty Union High School District",
+   "titleNote": "Our record has the placeholder 'Title not recorded yet'. The county list prints no descriptive title for this measure, only the jurisdiction name shown in titleOnList.",
+   "ballotQuestion": {
+    "text": "In order to repair and improve aging classrooms, fix deteriorating roofs, plumbing, heating, ventilation and electrical systems, remove asbestos/ lead pipes, upgrade science labs, libraries, technology and other facilities to support college/ career readiness in math, science, health, engineering, arts and skilled trades; shall Liberty Union High School District’s measure be adopted authorizing $165,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value (raising $11,300,000 annually) while bonds are outstanding and all funds benefiting local schools?",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "location": "County list, 'Local Ballot Measures – Updated 8/10/26', under the measure header",
+    "readingsMatched": true,
+    "excerptMethod": "WebFetch verbatim-quote request; reader returned the question in consecutive fragments which are joined here with single spaces. Dollar amounts, rates and durations re-read in a separate pass and matched."
+   },
+   "measureType": {
+    "value": "bond",
+    "evidence": "authorizing $165,000,000 in bonds at legal rates",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "threshold": {
+    "value": "55%",
+    "evidence": "55% Required to pass",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "note": "Read twice from the county list (verification pass and a dedicated threshold pass); both readings matched."
+   },
+   "fiscal": {
+    "text": "authorizing $165,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value (raising $11,300,000 annually) while bonds are outstanding",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf"
+   },
+   "impartialAnalysisUrl": null,
+   "argumentsFiled": {
+    "for": null,
+    "against": null,
+    "url": null
+   },
+   "plainEnglish": "Authorizes $165,000,000 in Liberty Union High School District bonds, levying $20 per $100,000 of assessed value while the bonds are outstanding.",
+   "otherSources": [
+    {
+     "url": "https://www.luhsd.net/measure-x",
+     "title": "LUHSD Measure X page",
+     "access": "read",
+     "notes": "Confirms $165 million and 'an estimated tax rate of $20 per $100,000 of assessed value'. No ballot question, threshold or document links."
+    }
+   ],
+   "remainingGaps": [
+    "Board resolution, tax rate statement and impartial analysis not located",
+    "Whether arguments were filed not confirmed"
+   ]
+  }
+ ],
+ "reconciliation": [
+  {
+   "jurisdiction": "City of Antioch",
+   "pageChecked": "https://www.antiochca.gov/240/City-of-Antioch-Elections",
+   "result": "no measures listed",
+   "details": "Candidate seats only."
+  },
+  {
+   "jurisdiction": "City of Brentwood",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Search budget ran out."
+  },
+  {
+   "jurisdiction": "City of Clayton",
+   "pageChecked": "https://www.claytonca.gov/169/Elections-Information",
+   "result": "matches",
+   "details": "Election page lists no measures, but Resolution No. 21-2026 (claytonca.gov/DocumentCenter/View/836) places the Measure M sales tax. Measure N not confirmed on a city page."
+  },
+  {
+   "jurisdiction": "City of Concord",
+   "pageChecked": "https://www.cityofconcord.org/1396/Ballot-Question-and-Election-Information",
+   "result": "matches",
+   "details": "Measure O only. Site menu also shows Measure V, which is an older measure with no 2026 details."
+  },
+  {
+   "jurisdiction": "Town of Danville",
+   "pageChecked": "https://www.danville.ca.gov/418/Elections",
+   "result": "no measures listed",
+   "details": "Two council seats only."
+  },
+  {
+   "jurisdiction": "City of El Cerrito",
+   "pageChecked": "https://el-cerrito.org/744/Candidates",
+   "result": "not reachable",
+   "details": "Redirects to elcerrito.gov, which returned 'URL_NOT_ON_ALLOWLIST'."
+  },
+  {
+   "jurisdiction": "City of Hercules",
+   "pageChecked": "https://www.herculesca.gov/government/city-clerk/elections",
+   "result": "no measures listed",
+   "details": "Page lists no measures, county list shows Measure P. Hercules Measure P news page failed with client_error."
+  },
+  {
+   "jurisdiction": "City of Lafayette",
+   "pageChecked": "https://www.lovelafayette.org/city-hall/city-departments/administration/city-clerk/november-2026-general-election",
+   "result": "no measures listed",
+   "details": "Council election only."
+  },
+  {
+   "jurisdiction": "City of Martinez",
+   "pageChecked": "https://www.cityofmartinez.org/government/city-clerk/general-election-2026",
+   "result": "no measures listed",
+   "details": "Mayor and two council districts only."
+  },
+  {
+   "jurisdiction": "Town of Moraga",
+   "pageChecked": "https://www.moraga.ca.us/389/Town-Council-Elections",
+   "result": "no measures listed",
+   "details": "Two council seats only."
+  },
+  {
+   "jurisdiction": "City of Oakley",
+   "pageChecked": "https://www.oakleyca.gov/191/Oakley-Election-2026",
+   "result": "no measures listed",
+   "details": "Council election cancelled (appointments in lieu). No measures."
+  },
+  {
+   "jurisdiction": "City of Orinda",
+   "pageChecked": "https://www.cityoforinda.gov/383/Election-Information",
+   "result": "no measures listed",
+   "details": "Three council seats only."
+  },
+  {
+   "jurisdiction": "City of Pinole",
+   "pageChecked": "https://www.pinole.gov/city-government/city-council/elections-information/",
+   "result": "no measures listed",
+   "details": "Candidate information only."
+  },
+  {
+   "jurisdiction": "City of Pittsburg",
+   "pageChecked": "https://www.pittsburgca.gov/services/city-clerk/elections",
+   "result": "no measures listed",
+   "details": "Page content is stale (covers Nov 5, 2024). Not a reliable check for 2026."
+  },
+  {
+   "jurisdiction": "City of Pleasant Hill",
+   "pageChecked": null,
+   "result": "not reachable",
+   "details": "Not checked. Search budget ran out."
+  },
+  {
+   "jurisdiction": "City of Richmond",
+   "pageChecked": "https://www.ci.richmond.ca.us/4988/2026-GENERAL-ELECTION-INFORMATION",
+   "result": "matches",
+   "details": "Measure Q only. Charter amendment initiative listed for a future election."
+  },
+  {
+   "jurisdiction": "City of San Pablo",
+   "pageChecked": "https://www.sanpabloca.gov/2952/November-3rd-2026-Ballot-Measures",
+   "result": "matches",
+   "details": "Measures R and S."
+  },
+  {
+   "jurisdiction": "City of San Ramon",
+   "pageChecked": "https://sanramon.ca.gov/our_city/departments_and_divisions/city_clerk/elections",
+   "result": "no measures listed",
+   "details": "Says a local election will be held Nov 3, 2026. No measures named."
+  },
+  {
+   "jurisdiction": "City of Walnut Creek",
+   "pageChecked": "https://www.walnutcreekca.gov/government/departments/city-clerk/elections-voter-registration/november-3-2026-election-4243",
+   "result": "no measures listed",
+   "details": "Fetched content shows no measures, but a Measure T FAQ page exists in search results (fetch failed, client_error). Treat as not fully checked."
+  },
+  {
+   "jurisdiction": "West Contra Costa USD",
+   "pageChecked": "https://www.wccusd.net/departments-and-areas/parcel-tax",
+   "result": "no measures listed",
+   "details": "Existing tax only, no Measure V page found."
+  },
+  {
+   "jurisdiction": "Acalanes UHSD",
+   "pageChecked": "https://www.acalanes.k12.ca.us/about-auhsd/measure-w/measure-w-resolution",
+   "result": "matches",
+   "details": "Measure W resolution."
+  },
+  {
+   "jurisdiction": "Liberty UHSD",
+   "pageChecked": "https://www.luhsd.net/measure-x",
+   "result": "matches",
+   "details": "Measure X page."
+  },
+  {
+   "jurisdiction": "Regional (Measure RTM)",
+   "pageChecked": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+   "result": "extra measure found",
+   "details": "County list includes 'Measure RTM', Regional (Alameda, Contra Costa, San Francisco, San Mateo, Santa Clara), 'Regional Transit Measure', 'Majority Overall Required to pass'. Not in this county's records file; a separate measures-ca-bayarea-rtm.json exists in the folder. Contra Costa voters will see it."
+  }
+ ],
+ "missingMeasures": [
+  {
+   "letter": "RTM",
+   "jurisdiction": "Regional (Alameda, Contra Costa, San Francisco, San Mateo, Santa Clara)",
+   "title": "Regional Transit Measure",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+   "excerpt": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by:",
+   "note": "Likely already covered by measures-ca-bayarea-rtm.json. Confirm it is linked for Contra Costa voters."
+  }
+ ],
+ "blockers": [
+  "WebSearch budget for the turn was exhausted, so Brentwood and Pleasant Hill were not checked and El Cerrito could not be reached.",
+  "Concord resolution on stream2.ci.concord.ca.us returned URL_NOT_ON_ALLOWLIST.",
+  "elcerrito.gov returned URL_NOT_ON_ALLOWLIST.",
+  "Walnut Creek Measure T FAQ and ballot news pages, and Hercules Measure P news page, failed with client_error.",
+  "County site has no measure detail pages, impartial analyses or voter guide links; only the measure wording list. Impartial analyses were found only for Q, R and S via city sites.",
+  "All thresholds come from the county list header lines. Q, R and W are also confirmed by a second official document."
+ ]
+}

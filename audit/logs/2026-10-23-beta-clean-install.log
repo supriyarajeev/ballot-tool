@@ -1,0 +1,52 @@
+
+> test
+> node tests/run-all.mjs
+
+
+=== generated files match their generators: node tests/check-generated.mjs
+generated files: 9 checked, all match their generators.
+
+=== data validation: node tools/validate.mjs
+Evidence: 2007 records, 1086 with claim-level excerpts, 0 human-reviewed. Sources: 404, 0 not fully read (0 text not extracted, 0 unavailable).
+INFO  7 http URLs kept as documented exceptions: ca-alpine electionsUrl, ca-calaveras electionsUrlPrevious (history only), ca-colusa electionsUrlPrevious (history only), ca-lassen electionsUrlPrevious (history only), ca-mariposa electionsUrl, ca-placer electionsUrlPrevious (history only), ca-stanislaus electionsUrlPrevious (history only)
+0 errors, 0 warnings, 666 ids checked (run date 2026-10-23).
+
+=== validator self-test: node tests/validator.test.mjs
+validator tests: running 185 plants, 2 at a time
+  25/185 plants done (2.7 s)
+  50/185 plants done (5.1 s)
+  75/185 plants done (7.8 s)
+  100/185 plants done (10.6 s)
+  125/185 plants done (13.4 s)
+  150/185 plants done (16.2 s)
+  175/185 plants done (19.7 s)
+  185/185 plants done (20.9 s)
+validator tests: 186 passed, 0 failed
+
+=== scoring regression: node tests/scoring-regression.mjs
+1008 scoring results compared, 0 differences.
+1008 reason and limited-flag lines, 81 quality words, 14 limited-flag sets, 8 saved-state cases, 42 slider cases compared, 0 differences.
+
+=== static HTML validation: node node_modules/html-validate/bin/html-validate.js index.html propositions.html
+
+=== browser tests: node tests/browser/run.mjs
+external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+guide browser tests: 433 passed, 0 failed
+@1280 light external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+@768 dark external hosts requested (blocked in test): gc.zgo.at, fonts.googleapis.com
+@360 light external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+@360 dark external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+weighing tool browser tests: 224 passed, 0 failed
+goatcounter stand-in tests: 124 passed, 0 failed
+
+=== Summary
+pass             generated files match their generators (0.3 s)
+pass             data validation (0.2 s)
+pass             validator self-test (21.3 s)
+pass             scoring regression (0.1 s)
+pass             static HTML validation (0.4 s)
+pass             browser tests (165.1 s)
+
+real	3m7.404s
+user	0m47.395s
+sys	0m11.378s

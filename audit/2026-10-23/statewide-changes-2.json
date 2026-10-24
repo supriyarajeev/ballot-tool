@@ -1,0 +1,23 @@
+[
+ {
+  "prop": "3",
+  "field": "does",
+  "old": "Removes the 2030 end date on the higher income tax rates for income over about $371,000 for single filers, adjusted yearly for inflation. Rates themselves do not change.",
+  "new": "Makes permanent the higher income tax rates on income over about $371,000 for single filers, adjusted yearly for inflation. The rates now apply through 2030 and are set to expire in 2031. Rates themselves do not change.",
+  "reason": "The page said 'Removes the 2030 end date' here and 'expiring in 2031' in YES and NO. Both dates are official. LAO, prop3-title-summ-analysis.pdf page 26: 'In 2016, voters approved Proposition 55 to extend these higher rates until 2030.' Page 27 and the Attorney General summary: 'expire in 2031' and 'currently set to expire in 2031.' The legal text applies the rates to tax years 'before January 1, 2031' (evc-prop3-does-3). One sentence now gives both. When applied, update the claim text of evc-prop3-does-1 to -4 to the new wording."
+ },
+ {
+  "prop": "44",
+  "field": "money",
+  "old": "A $50 million clinic at 80% would owe $5 million that year. LAO estimates state enforcement costs of low tens of millions of dollars a year, covered by fees on clinics.",
+  "new": "A $50 million clinic at 80% would owe $5 million that year (this tool's example, using the 90% rule). LAO estimates state enforcement costs of low tens of millions of dollars a year, covered by fees on clinics.",
+  "reason": "The example is this tool's arithmetic and is now labeled like the Prop 37 example. LAO: 'The penalty would equal the amount of spending needed to reach the 90 percent minimum.' (90% minus 80%) times $50 million is $5 million. Ledger row evc-prop44-money-1."
+ },
+ {
+  "prop": "39",
+  "field": "r.oc",
+  "old": "Clear ID rule plus required yearly reporting of citizenship-verified shares.",
+  "new": "Required yearly reporting of citizenship-verified shares. Which IDs count is left for the Legislature to define.",
+  "reason": "'Clear ID rule' was this tool's judgment and conflicts with LAO, prop39.pdf page 50: 'The Legislature would need to clarify several details that are not defined in the proposition, like which forms of identification could be used'. Read twice. Ledger row evc-prop39-r-oc-1 quotes it; when this is applied, add the LAO passage as its own supported row for the new wording. The score (oc: 4) was not changed; see fix-D-summary.md."
+ }
+]
