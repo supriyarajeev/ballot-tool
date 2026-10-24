@@ -1,0 +1,338 @@
+{
+ "note": "Candidate order per contest as recorded in the data (taken from each contest's official source when the record was made). This catches accidental reordering; a deliberate change is re-recorded with --update-candidate-order after checking the source.",
+ "recordedOn": "2026-10-23",
+ "contests": {
+  "2026-11-03.ca.governor": [
+   "2026-11-03.ca.governor.xavier-becerra",
+   "2026-11-03.ca.governor.steve-hilton"
+  ],
+  "2026-11-03.ca.lieutenant-governor": [
+   "2026-11-03.ca.lieutenant-governor.fiona-ma",
+   "2026-11-03.ca.lieutenant-governor.gloria-romero"
+  ],
+  "2026-11-03.ca.secretary-of-state": [
+   "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+   "2026-11-03.ca.secretary-of-state.donald-p-don-wagner"
+  ],
+  "2026-11-03.ca.controller": [
+   "2026-11-03.ca.controller.malia-m-cohen",
+   "2026-11-03.ca.controller.herb-w-morgan"
+  ],
+  "2026-11-03.ca.treasurer": [
+   "2026-11-03.ca.treasurer.eleni-kounalakis",
+   "2026-11-03.ca.treasurer.jennifer-hawks"
+  ],
+  "2026-11-03.ca.attorney-general": [
+   "2026-11-03.ca.attorney-general.rob-bonta",
+   "2026-11-03.ca.attorney-general.michael-e-gates"
+  ],
+  "2026-11-03.ca.insurance-commissioner": [
+   "2026-11-03.ca.insurance-commissioner.ben-allen",
+   "2026-11-03.ca.insurance-commissioner.jane-kim"
+  ],
+  "2026-11-03.ca.superintendent-of-public-instruction": [
+   "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+   "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw"
+  ],
+  "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1": [
+   "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.nelson-esparza",
+   "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.shannon-grove"
+  ],
+  "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2": [
+   "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2.sally-j-lieber",
+   "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2.john-pimentel"
+  ],
+  "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3": [
+   "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3.mike-gipson",
+   "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3.samuel-p-sukaton"
+  ],
+  "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4": [
+   "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.tom-umberg",
+   "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.denis-bilodeau"
+  ],
+  "2026-11-03.ca-cd-10.u-s-representative-district-10": [
+   "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese"
+  ],
+  "2026-11-03.ca-cd-11.u-s-representative-district-11": [
+   "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener"
+  ],
+  "2026-11-03.ca-cd-12.u-s-representative-district-12": [
+   "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+   "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon"
+  ],
+  "2026-11-03.ca-cd-14.u-s-representative-district-14": [
+   "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab"
+  ],
+  "2026-11-03.ca-cd-15.u-s-representative-district-15": [
+   "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter"
+  ],
+  "2026-11-03.ca-cd-17.u-s-representative-district-17": [
+   "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+   "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon"
+  ],
+  "2026-11-03.ca-sd-10.state-senator-district-10": [
+   "2026-11-03.ca-sd-10.state-senator-district-10.scott-sakakihara",
+   "2026-11-03.ca-sd-10.state-senator-district-10.linda-r-price"
+  ],
+  "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14": [
+   "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.buffy-wicks",
+   "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.mark-rendon"
+  ],
+  "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16": [
+   "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.rebecca-bauer-kahan",
+   "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.joseph-a-rubay"
+  ],
+  "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17": [
+   "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17.matt-haney",
+   "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17.manuel-noris-barrera"
+  ],
+  "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18": [
+   "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.mia-bonta",
+   "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.andre-sandford"
+  ],
+  "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19": [
+   "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.catherine-stefani",
+   "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.philip-louis-wing"
+  ],
+  "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20": [
+   "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.liz-ortega",
+   "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.patricia-muga"
+  ],
+  "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24": [
+   "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.alex-lee",
+   "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.max-hsia"
+  ],
+  "2026-11-03.ca-sf.assessor-recorder": [
+   "2026-11-03.ca-sf.assessor-recorder.joaquin-torres"
+  ],
+  "2026-11-03.ca-sf.public-defender": [
+   "2026-11-03.ca-sf.public-defender.manohar-raju"
+  ],
+  "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors": [
+   "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+   "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+   "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+   "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill"
+  ],
+  "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors": [
+   "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+   "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+   "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong"
+  ],
+  "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors": [
+   "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+   "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey"
+  ],
+  "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors": [
+   "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+   "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+   "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+   "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel"
+  ],
+  "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors": [
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.ellsworth-ell-m-jennison-jr",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jamo-muhammad",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jessica-pessecow",
+   "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard"
+  ],
+  "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education": [
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.autumn-brown-garibay",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.virginia-cheung",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.alida-fisher",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.ryan-hazelton",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.phil-kim",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.laurance-lee",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.reina-tello",
+   "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.tim-tung"
+  ],
+  "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board": [
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.elijah-ball",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.rome-moses-jones",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.monroe-lace",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.leah-lacroix",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.jeremy-lee",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.bunny-mcfadden",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.erwin-tam",
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.lisa-wynn"
+  ],
+  "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board-partial-term": [
+   "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board-partial-term.ruth-ferguson"
+  ],
+  "2026-11-03.ca-bart-district-8.bart-board": [
+   "2026-11-03.ca-bart-district-8.bart-board.sara-barz"
+  ],
+  "2026-11-03.ca-alameda-oakland.mayor": [
+   "2026-11-03.ca-alameda-oakland.mayor.julius-robinson",
+   "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+   "2026-11-03.ca-alameda-oakland.mayor.brenda-f-grisham",
+   "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk"
+  ],
+  "2026-11-03.ca-alameda-oakland-council-district-2.city-council": [
+   "2026-11-03.ca-alameda-oakland-council-district-2.city-council.nate-adams",
+   "2026-11-03.ca-alameda-oakland-council-district-2.city-council.charlene-wang"
+  ],
+  "2026-11-03.ca-alameda-oakland-council-district-4.city-council": [
+   "2026-11-03.ca-alameda-oakland-council-district-4.city-council.janani-ramachandran"
+  ],
+  "2026-11-03.ca-alameda-oakland-council-district-6.city-council": [
+   "2026-11-03.ca-alameda-oakland-council-district-6.city-council.kevin-e-jenkins",
+   "2026-11-03.ca-alameda-oakland-council-district-6.city-council.nancy-s-sidebotham"
+  ],
+  "2026-11-03.ca-alameda-oakland.city-auditor": [
+   "2026-11-03.ca-alameda-oakland.city-auditor.michael-c-houston"
+  ],
+  "2026-11-03.ca-alameda-berkeley.city-auditor": [
+   "2026-11-03.ca-alameda-berkeley.city-auditor.jenny-wong"
+  ],
+  "2026-11-03.ca-alameda-berkeley-council-district-1.city-council": [
+   "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.steve-kromer",
+   "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.daria-wrubel",
+   "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.laura-babitt",
+   "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.ross-bernet",
+   "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.moni-gangopadhyay"
+  ],
+  "2026-11-03.ca-alameda-berkeley-council-district-4.city-council": [
+   "2026-11-03.ca-alameda-berkeley-council-district-4.city-council.majdi-gaith-abuhamdieh",
+   "2026-11-03.ca-alameda-berkeley-council-district-4.city-council.igor-a-tregub"
+  ],
+  "2026-11-03.ca-alameda-berkeley-council-district-7.city-council": [
+   "2026-11-03.ca-alameda-berkeley-council-district-7.city-council.aidan-hill",
+   "2026-11-03.ca-alameda-berkeley-council-district-7.city-council.syrak-micael"
+  ],
+  "2026-11-03.ca-alameda-berkeley-council-district-8.city-council": [
+   "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.mark-humbert",
+   "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.michael-wallman",
+   "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.fred-m-feller",
+   "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.mari-mendonca"
+  ],
+  "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner": [
+   "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.vylma-ortiz",
+   "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.avery-arbaugh",
+   "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.derek-rodriguez",
+   "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.carole-marasovic",
+   "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.ida-martinac",
+   "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.nathan-mizell"
+  ],
+  "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director": [
+   "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.sandy-park",
+   "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.jennifer-shanoski",
+   "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.ka-dijah-brown"
+  ],
+  "2026-11-03.ca-alameda-hayward.mayor": [
+   "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+   "2026-11-03.ca-alameda-hayward.mayor.tom-wong"
+  ],
+  "2026-11-03.ca-alameda-hayward-council-district-1.city-council": [
+   "2026-11-03.ca-alameda-hayward-council-district-1.city-council.george-syrop",
+   "2026-11-03.ca-alameda-hayward-council-district-1.city-council.brian-m-schott"
+  ],
+  "2026-11-03.ca-alameda-hayward-council-district-6.city-council": [
+   "2026-11-03.ca-alameda-hayward-council-district-6.city-council.julie-roche"
+  ],
+  "2026-11-03.ca-alameda-alameda.mayor": [
+   "2026-11-03.ca-alameda-alameda.mayor.tracy-l-jensen",
+   "2026-11-03.ca-alameda-alameda.mayor.malia-vella",
+   "2026-11-03.ca-alameda-alameda.mayor.tony-daysog"
+  ],
+  "2026-11-03.ca-alameda-alameda.city-council": [
+   "2026-11-03.ca-alameda-alameda.city-council.marcie-johnson",
+   "2026-11-03.ca-alameda-alameda.city-council.tyler-savage",
+   "2026-11-03.ca-alameda-alameda.city-council.thushan-amarasiriwardena",
+   "2026-11-03.ca-alameda-alameda.city-council.steve-slauson",
+   "2026-11-03.ca-alameda-alameda.city-council.amos-white",
+   "2026-11-03.ca-alameda-alameda.city-council.maria-l-bondonno"
+  ],
+  "2026-11-03.ca-alameda-albany.city-council": [
+   "2026-11-03.ca-alameda-albany.city-council.robin-d-l-pez",
+   "2026-11-03.ca-alameda-albany.city-council.katherine-enos",
+   "2026-11-03.ca-alameda-albany.city-council.jon-destin",
+   "2026-11-03.ca-alameda-albany.city-council.aaron-tiedemann",
+   "2026-11-03.ca-alameda-albany.city-council.chris-mcdaniels"
+  ],
+  "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education": [
+   "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.margaret-allen",
+   "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.melissa-boyd",
+   "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.becky-hopwood",
+   "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.josh-mahoney",
+   "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.david-mckinney"
+  ],
+  "2026-11-03.ca-alameda-emeryville.city-council": [
+   "2026-11-03.ca-alameda-emeryville.city-council.corry-frydlewicz",
+   "2026-11-03.ca-alameda-emeryville.city-council.david-mourra",
+   "2026-11-03.ca-alameda-emeryville.city-council.kalimah-priforce",
+   "2026-11-03.ca-alameda-emeryville.city-council.brandon-soublet"
+  ],
+  "2026-11-03.ca-alameda-piedmont.city-council": [
+   "2026-11-03.ca-alameda-piedmont.city-council.nancy-beninati",
+   "2026-11-03.ca-alameda-piedmont.city-council.n-sunny-bostrom-fleming",
+   "2026-11-03.ca-alameda-piedmont.city-council.bill-reichle",
+   "2026-11-03.ca-alameda-piedmont.city-council.tom-ramsey",
+   "2026-11-03.ca-alameda-piedmont.city-council.adam-hundt"
+  ],
+  "2026-11-03.ca-alameda-union-city-council-district-2.city-council": [
+   "2026-11-03.ca-alameda-union-city-council-district-2.city-council.jaime-patino",
+   "2026-11-03.ca-alameda-union-city-council-district-2.city-council.victor-lopez-pulido"
+  ],
+  "2026-11-03.ca-alameda-union-city-council-district-3.city-council": [
+   "2026-11-03.ca-alameda-union-city-council-district-3.city-council.jeff-wang",
+   "2026-11-03.ca-alameda-union-city-council-district-3.city-council.cheris-crocker-root"
+  ],
+  "2026-11-03.ca-alameda-union-city-council-district-4.city-council": [
+   "2026-11-03.ca-alameda-union-city-council-district-4.city-council.sarabjit-kaur-cheema",
+   "2026-11-03.ca-alameda-union-city-council-district-4.city-council.qasim-lodhi",
+   "2026-11-03.ca-alameda-union-city-council-district-4.city-council.vipan-s-bajwa",
+   "2026-11-03.ca-alameda-union-city-council-district-4.city-council.ann-yap-jequinto"
+  ],
+  "2026-11-03.ca-alameda-san-leandro.mayor": [
+   "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+   "2026-11-03.ca-alameda-san-leandro.mayor.james-maes"
+  ],
+  "2026-11-03.ca-alameda-san-leandro-council-district-1.city-council": [
+   "2026-11-03.ca-alameda-san-leandro-council-district-1.city-council.sbeydeh-viveros-walton"
+  ],
+  "2026-11-03.ca-alameda-san-leandro-council-district-3.city-council": [
+   "2026-11-03.ca-alameda-san-leandro-council-district-3.city-council.lee-thomas",
+   "2026-11-03.ca-alameda-san-leandro-council-district-3.city-council.joseph-trujillo"
+  ],
+  "2026-11-03.ca-alameda-san-leandro-council-district-5.city-council": [
+   "2026-11-03.ca-alameda-san-leandro-council-district-5.city-council.xouhoa-bowen"
+  ],
+  "2026-11-03.ca-alameda-san-leandro-council-district-2.city-council-partial-two-year-term": [
+   "2026-11-03.ca-alameda-san-leandro-council-district-2.city-council-partial-two-year-term.james-aguilar"
+  ],
+  "2026-11-03.ca-ebmud-ward-3.ebmud-board-of-directors": [
+   "2026-11-03.ca-ebmud-ward-3.ebmud-board-of-directors.marguerite-young",
+   "2026-11-03.ca-ebmud-ward-3.ebmud-board-of-directors.donald-gray"
+  ],
+  "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors": [
+   "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.april-chan",
+   "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.joseph-grcar",
+   "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.luis-reynoso",
+   "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.gary-wolff"
+  ],
+  "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-2": [
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-2.arielle-fleisher",
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-2.jennifer-brouhard"
+  ],
+  "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4": [
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4.mike-hutchinson",
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4.kathryn-camp",
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4.sylvia-pfeiffer-williams"
+  ],
+  "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6": [
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.alexandra-williams",
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.leana-powell",
+   "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.valarie-bachelor"
+  ]
+ }
+}

@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ballot Weighing Tool · California Bay Area Ballot Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* One working column. A sticky progress bar, three numbered steps, and a closing explainer. Each proposition card pairs facts (left) with the live lean (right). */
+:root {
+  --paper: #f6f8fa;
+  --sheet: #ffffff;
+  --ink: #15233a;
+  --muted: #5a6779;
+  --rule: #d9e0e8;
+  --ballot: #1f4e9c;
+  --ballot-soft: #e3ecf9;
+  --yes: #1d7a4a;
+  --yes-soft: #dff2e7;
+  --no: #a5372c;
+  --no-soft: #f7e1de;
+  --close: #6b4f08;
+  --close-soft: #f6eccd;
+  --none: #5a6779;
+  --none-soft: #e8ecf1;
+  --f-display: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1622; --sheet: #172131; --ink: #e6edf6; --muted: #9aa8bb; --rule: #2a3749;
+    --ballot: #7fa8ee; --ballot-soft: #1d2d47;
+    --yes: #6fd39c; --yes-soft: #163526; --no: #f08a7e; --no-soft: #3d1f1c;
+    --close: #e3c25e; --close-soft: #3a3016; --none: #9aa8bb; --none-soft: #222e3f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0f1622; --sheet: #172131; --ink: #e6edf6; --muted: #9aa8bb; --rule: #2a3749;
+  --ballot: #7fa8ee; --ballot-soft: #1d2d47;
+  --yes: #6fd39c; --yes-soft: #163526; --no: #f08a7e; --no-soft: #3d1f1c;
+  --close: #e3c25e; --close-soft: #3a3016; --none: #9aa8bb; --none-soft: #222e3f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  margin: 0; background: var(--paper); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 28px 56px;
+}
+.wrap { max-width: 1000px; margin: 0 auto; display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); }
+/* FE-01: grid items may shrink below their content width, and the decision table scrolls inside its panel instead of widening the page. */
+.wrap > *, .panel > * { min-width: 0; }
+.panel > table.rules { display: block; overflow-x: auto; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 800; letter-spacing: -0.01em; }
+h2 { font-size: 1.2rem; font-weight: 800; }
+h3 { font-size: 1.05rem; font-weight: 700; }
+p { margin: 0; max-width: 70ch; }
+a { color: var(--ballot); }
+.eyebrow { font-family: var(--f-display); font-size: .74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ballot); }
+.lede { color: var(--muted); font-size: 1.02rem; }
+.small { font-size: .86rem; color: var(--muted); }
+header { display: grid; gap: 12px; }
+
+/* Steps strip */
+.steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 6px; }
+.step { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; align-items: start; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; text-decoration: none; color: inherit; }
+.step:hover { border-color: var(--ballot); }
+.step .n { grid-row: span 2; font-family: var(--f-display); font-weight: 800; width: 28px; height: 28px; border-radius: 50%; background: var(--ballot); color: var(--sheet); display: grid; place-items: center; font-size: .9rem; }
+.step b { font-family: var(--f-display); font-size: .95rem; }
+.step span.t { font-size: .84rem; color: var(--muted); }
+
+.idea { border-left: 4px solid var(--ballot); background: var(--ballot-soft); padding: 12px 16px; border-radius: 8px; display: grid; gap: 6px; }
+.idea b { font-family: var(--f-display); }
+
+/* Sticky progress */
+.sticky { position: sticky; top: 0; z-index: 5; background: var(--paper); padding-block: 8px; margin-block: -8px; }
+.sticky-in { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 8px 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.prog { display: grid; gap: 4px; min-width: 160px; flex: 1 1 180px; }
+.prog-l { font-size: .8rem; color: var(--muted); }
+.prog-l b { color: var(--ink); font-family: var(--f-data); font-weight: 500; }
+.tally { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+
+.panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; display: grid; gap: 16px; }
+.sec-head { display: grid; gap: 6px; }
+.sec-head .kicker { font-family: var(--f-display); font-weight: 800; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ballot); }
+.row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+
+/* Presets and factor sliders */
+.presets { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.presets .lab { font-size: .84rem; color: var(--muted); margin-right: 2px; }
+.preset[aria-pressed="true"] { background: var(--ballot); color: var(--sheet); }
+.preset-desc { font-size: .84rem; color: var(--muted); min-height: 1.3em; }
+.factors { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+.factor { border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; }
+.f-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.f-top label { font-family: var(--f-display); font-weight: 700; font-size: .95rem; }
+.lvl { font-family: var(--f-display); font-weight: 700; font-size: .76rem; padding: 2px 8px; border-radius: 999px; background: var(--ballot-soft); color: var(--ballot); white-space: nowrap; }
+.lvl.off { background: var(--none-soft); color: var(--none); }
+.f-q { font-size: .9rem; }
+.f-d { font-size: .8rem; color: var(--muted); }
+.factor input[type=range] { width: 100%; accent-color: var(--ballot); margin: 4px 0 0; }
+.ticks { display: flex; justify-content: space-between; font-size: .7rem; color: var(--muted); font-family: var(--f-data); }
+
+.warn { border-left: 4px solid var(--close); background: var(--close-soft); padding: 10px 14px; border-radius: 6px; font-size: .9rem; }
+.warn[hidden] { display: none !important; }
+
+/* Chips and verdict colors */
+.chip { font-family: var(--f-display); font-weight: 700; font-size: .78rem; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.c-yes, .v-yes { background: var(--yes-soft); color: var(--yes); }
+.c-no, .v-no { background: var(--no-soft); color: var(--no); }
+.c-close, .v-close { background: var(--close-soft); color: var(--close); }
+.c-none, .v-none { background: var(--none-soft); color: var(--none); }
+
+/* Proposition cards */
+.props { display: grid; gap: 14px; }
+.prop { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 16px 24px; }
+.prop-main { min-width: 0; display: grid; gap: 12px; align-content: start; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.num { font-family: var(--f-display); font-weight: 800; font-size: 1rem; color: var(--ballot); margin-right: 4px; }
+.tag { font-size: .72rem; font-weight: 700; font-family: var(--f-display); color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; padding: 1px 8px; }
+.does { font-size: .95rem; }
+.outcomes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.oc { border-radius: 8px; padding: 10px 12px; font-size: .88rem; display: grid; gap: 3px; }
+.oc b { font-family: var(--f-display); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
+.oc-yes, .oc-no { background: var(--paper); border: 1px solid var(--rule); }
+.oc-yes b, .oc-no b { color: var(--ink); }
+
+details.facts { border: 1px solid var(--rule); border-radius: 8px; }
+details.facts summary { cursor: pointer; padding: 8px 12px; font-family: var(--f-display); font-weight: 700; font-size: .86rem; color: var(--ballot); list-style-position: inside; }
+details.facts[open] summary { border-bottom: 1px solid var(--rule); }
+.facts-body { padding: 12px; display: grid; gap: 12px; }
+.facts dl { margin: 0; display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 6px 12px; font-size: .86rem; }
+.facts dt { font-family: var(--f-display); font-weight: 700; color: var(--muted); font-size: .8rem; padding-top: 1px; }
+.facts dd { margin: 0; }
+.ratings { display: grid; gap: 6px; }
+.ratings-h { font-family: var(--f-display); font-weight: 700; font-size: .8rem; color: var(--muted); }
+.rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 16px; }
+.rt { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .82rem; }
+.dots { display: inline-flex; gap: 3px; }
+.dots i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--ballot); display: inline-block; }
+.dots i.on { background: var(--ballot); }
+
+fieldset.ask { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; }
+fieldset.ask legend { font-family: var(--f-display); font-weight: 700; font-size: .95rem; padding: 0; margin-bottom: 8px; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill { position: relative; cursor: pointer; }
+.pill input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.pill span { display: inline-block; font-size: .84rem; font-weight: 700; padding: 6px 12px; border-radius: 999px; border: 1.5px solid var(--rule); background: var(--sheet); }
+.pill:hover span { border-color: var(--ballot); }
+.pill input:focus-visible + span { outline: 2px solid var(--ballot); outline-offset: 2px; }
+.pill input:checked + span { border-color: transparent; }
+.pill input:checked + span { background: var(--ballot); color: var(--sheet); }
+
+.result { display: grid; gap: 10px; align-content: start; border-left: 1px solid var(--rule); padding-left: 20px; }
+.result-h { font-family: var(--f-display); font-weight: 700; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.verdict { font-family: var(--f-display); font-weight: 800; font-size: 1.1rem; padding: 10px; border-radius: 8px; text-align: center; }
+.meter { display: grid; gap: 4px; }
+.meter-label { display: flex; justify-content: space-between; gap: 6px; font-size: .78rem; color: var(--muted); }
+.meter-label { flex-wrap: wrap; }
+.meter-label span { white-space: nowrap; }
+.meter-label span:last-child { font-family: var(--f-data); font-variant-numeric: tabular-nums; color: var(--ink); text-align: right; }
+.bar { height: 7px; background: var(--rule); border-radius: 4px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--ballot); border-radius: 4px; }
+.why { font-size: .84rem; }
+.sw { font-size: .8rem; color: var(--muted); }
+
+/* Ballot summary */
+.ballot { display: grid; gap: 0; border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.b-row { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 9px 14px; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; font-size: .9rem; }
+.b-row:last-child { border-bottom: 0; }
+.b-row:hover { background: var(--ballot-soft); }
+.b-row .bn { font-family: var(--f-display); font-weight: 800; color: var(--ballot); }
+.b-row .bq { font-family: var(--f-data); font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.method { display: grid; gap: 12px; font-size: .92rem; }
+.method ol { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; max-width: 74ch; }
+.rules { border-collapse: collapse; font-size: .88rem; width: 100%; max-width: 560px; }
+.rules th, .rules td { border-bottom: 1px solid var(--rule); padding: 7px 10px; text-align: left; }
+.rules th { font-family: var(--f-display); font-size: .76rem; color: var(--muted); }
+code { font-family: var(--f-data); font-size: .85em; background: var(--ballot-soft); padding: 1px 5px; border-radius: 4px; }
+
+button { font-family: var(--f-display); font-weight: 700; font-size: .84rem; border: 1px solid var(--ballot); background: transparent; color: var(--ballot); padding: 6px 12px; border-radius: 8px; cursor: pointer; }
+button:hover { background: var(--ballot-soft); }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--ballot); outline-offset: 2px; }
+.linkbtn { font-family: var(--f-display); font-weight: 700; font-size: .84rem; text-decoration: none; }
+
+
+/* Result panel parts and new labels */
+.home-link { font-family: var(--f-display); font-weight: 700; font-size: .86rem; text-decoration: none; justify-self: start; }
+.home-link::before { content: "\2190  "; }
+.customize { border: 1px solid var(--rule); border-radius: 10px; }
+.customize summary { cursor: pointer; padding: 10px 14px; font-family: var(--f-display); font-weight: 700; font-size: .9rem; color: var(--ballot); }
+.customize[open] summary { border-bottom: 1px solid var(--rule); }
+.customize-body { padding: 14px; display: grid; gap: 12px; }
+.fw-status { font-size: .86rem; }
+.fw-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px 16px; }
+.fw-list li { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--rule); }
+.fw-n { font-family: var(--f-display); font-weight: 700; font-size: .9rem; }
+.fw-w { font-family: var(--f-display); font-weight: 700; font-size: .74rem; color: var(--ballot); background: var(--ballot-soft); padding: 2px 8px; border-radius: 999px; white-space: nowrap; align-self: center; }
+.fw-d { grid-column: 1 / -1; font-size: .82rem; color: var(--muted); }
+
+#ans-bar { width: 0; }
+.stack { display: grid; gap: 14px; }
+.official { font-size: .78rem; color: var(--muted); text-transform: none; }
+.oc .est { font-size: .8rem; color: var(--muted); }
+.skip { font-size: .76rem; color: var(--muted); }
+.caution { font-size: .78rem; border-left: 3px solid var(--close); background: var(--close-soft); padding: 6px 8px; border-radius: 4px; }
+.caution[hidden] { display: none !important; }
+a.ref { font-size: .74rem; text-decoration: none; font-family: var(--f-data); white-space: nowrap; }
+a.ref:hover { text-decoration: underline; }
+.srcs ol { margin: 4px 0 0; padding-left: 0; list-style: none; display: grid; gap: 3px; }
+.srcs li { font-size: .8rem; }
+.srcs .role { font-size: .72rem; color: var(--muted); margin-left: 4px; }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+details.rubric summary { cursor: pointer; font-family: var(--f-display); font-weight: 700; font-size: .86rem; color: var(--ballot); }
+.tablewrap { overflow-x: auto; margin-top: 8px; }
+.rules th[scope="row"] { font-family: var(--f-display); font-size: .8rem; color: var(--ink); white-space: nowrap; }
+.rules td { vertical-align: top; }
+
+.kv { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: .84rem; }
+.kv span { color: var(--muted); }
+.consider { font-size: .8rem; color: var(--muted); border-top: 1px dashed var(--rule); padding-top: 8px; }
+.consider b { color: var(--ink); font-family: var(--f-display); font-size: .76rem; display: block; }
+.c-unsure, .v-unsure { background: var(--sheet); color: var(--none); box-shadow: inset 0 0 0 1.5px var(--rule); }
+.note { font-size: .9rem; border-left: 4px solid var(--ballot); background: var(--ballot-soft); padding: 10px 14px; border-radius: 6px; max-width: none; }
+.warn button { margin-left: 6px; }
+.dots.limited i { border-style: dashed; }
+.dots.limited i.on { background: transparent; background-image: repeating-linear-gradient(45deg, var(--ballot) 0 2px, transparent 2px 4px); }
+.nr { font-size: .74rem; color: var(--muted); font-style: italic; }
+details.why-r summary { cursor: pointer; font-size: .8rem; font-weight: 700; color: var(--ballot); font-family: var(--f-display); }
+details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: .8rem; }
+.srcs { font-size: .8rem; color: var(--muted); max-width: none; }
+.srcs b { color: var(--ink); font-family: var(--f-display); margin-right: 4px; }
+.bmid { display: grid; gap: 1px; min-width: 0; }
+.bsub { font-size: .76rem; color: var(--muted); }
+
+@media (max-width: 760px) {
+  .prop { grid-template-columns: 1fr; }
+  .result { border-left: 0; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 14px; }
+  .steps { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .outcomes { grid-template-columns: 1fr; }
+  .facts dl { grid-template-columns: 1fr; gap: 2px; }
+  .facts dd { margin-bottom: 8px; }
+  .b-row { grid-template-columns: 52px minmax(0, 1fr); }
+  .b-row .chip { grid-column: 2; justify-self: start; }
+  .b-row .bq { display: none; }
+  #tally-top { display: none; }
+  /* FE-01: at phone widths both rule tables wrap to fit the panel, so neither the page nor the table needs to scroll sideways. */
+  .rules { font-size: .8rem; }
+  .rules th, .rules td { padding: 6px 5px; overflow-wrap: anywhere; hyphens: auto; }
+  .rules th[scope="row"] { white-space: normal; }
+  .rules .chip { white-space: normal; display: inline-block; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .bar i { transition: width .25s ease; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <noscript><p class="warn">This tool needs JavaScript to show the 14 propositions and work out your leans. Without JavaScript, read every statewide proposition in the official <a href="https://voterguide.sos.ca.gov/">California voter guide</a>.</p></noscript>
+  <header>
+    <a class="home-link" href="./">California Bay Area Ballot Guide</a>
+    <div class="eyebrow">California ballot, November 3, 2026</div>
+    <h1>Ballot Weighing Tool</h1>
+    <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say how you feel about each measure's goal. The tool pairs that with evidence ratings from its Standard Evaluation Framework and shows where you lean. It never tells you how to vote.</p>
+    <nav class="steps" aria-label="Steps">
+      <a class="step" href="#s1"><span class="n">1</span><b>See the framework</b><span class="t">Standard weights are set. Customizing is optional</span></a>
+      <a class="step" href="#s2"><span class="n">2</span><b>Answer 14 questions</b><span class="t">Read the facts, then say how you feel about each goal</span></a>
+      <a class="step" href="#s3"><span class="n">3</span><b>Review your ballot</b><span class="t">See every lean in one list, plus any conflicts</span></a>
+    </nav>
+    <div class="idea">
+      <b>How it works</b>
+      <p>For each measure you see two separate things. <b>Your preference</b> is whether you support its goal. <b>The evidence score</b> shows how well the measure is built on the factors you care about. The tool shows how the two line up, but it never decides your vote.</p>
+    </div>
+  </header>
+
+  <div class="sticky" aria-live="polite">
+    <div class="sticky-in">
+      <div class="prog">
+        <div class="prog-l">Answered <b id="ans-n">0</b> of 14</div>
+        <div class="bar"><i id="ans-bar"></i></div>
+      </div>
+      <div class="tally" id="tally-top"></div>
+      <a class="linkbtn" href="#s3">See my ballot</a>
+    </div>
+  </div>
+
+  <section class="panel" id="s1" aria-labelledby="s1-h">
+    <div class="sec-head">
+      <div class="kicker">Step 1</div>
+      <h2 id="s1-h">Our Standard Evaluation Framework</h2>
+      <p>To make it easier for voters to compare California's ballot propositions, this tool uses one consistent evaluation framework across all 14 propositions.</p>
+      <p>The framework considers factors such as public benefit, strength of evidence, safety, accountability, feasibility, and fiscal impact. Each factor is assessed using available evidence and supporting sources, with ratings and explanations provided for voters to examine.</p>
+      <p>The framework also uses default weights so voters can explore the propositions without having to configure a scoring model themselves. <b>The standard weights are already set, so you can go straight to Step 2.</b></p>
+    </div>
+    <h3 class="vh" id="fw-h">Factors and standard weights</h3>
+    <ul class="fw-list" id="fw-body" aria-labelledby="fw-h"></ul>
+    <p class="small">Each measure's evidence score is the weighted average of its ratings on these factors, from 1 (weak) to 5 (strong). A factor with weight 5 counts two and a half times as much as one with weight 2. With the standard weights, Net benefit and Evidence strength together make up 10 of the 24 weight points.</p>
+    <h3>How were the weights determined?</h3>
+    <p class="small">The criteria and weights reflect the framework's design choices about what matters when evaluating a ballot proposition. They provide a consistent starting point; they are not a scientifically proven or universally agreed-upon set of ideal weights. The choice of weights can influence the results, and reasonable people may disagree about the relative importance of different factors.</p>
+    <p class="small">The purpose is to make the evaluation process more structured and transparent, not to present a numerical score as an objective verdict or a recommendation on how to vote. Voters are encouraged to review the evidence, examine the assumptions, and make their own decisions.</p>
+    <p class="small"><b>What the framework cannot establish.</b> It cannot predict whether a measure will succeed, and it cannot weigh your values for you. Ratings are analytical judgments based on the cited sources, and where information is thin a rating is marked as limited or Not rated rather than scored low.</p>
+    <p class="fw-status" id="fw-status" aria-live="polite"></p>
+    <details class="customize" id="customize">
+      <summary>Customize the weights (optional)</summary>
+      <div class="customize-body">
+        <div class="row">
+          <div class="presets" id="presets"><span class="lab">Start from</span></div>
+        </div>
+        <p class="preset-desc" id="preset-desc"></p>
+        <div class="factors" id="factors"></div>
+      </div>
+    </details>
+    <div class="warn" id="zero" hidden><span>You've turned off all evidence factors. Your results will reflect your stated preferences rather than the evidence ratings.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
+  </section>
+
+  <section id="s2" class="stack" aria-labelledby="s2-h">
+    <div class="sec-head">
+      <div class="kicker">Step 2</div>
+      <h2 id="s2-h">How do you feel about each measure's goal?</h2>
+      <p class="small">Each card gives the official title, what the measure does, and what a YES or NO vote legally means. Open <b>More facts</b> for the money, accountability, the official arguments on each side, ratings and numbered sources. <b>Not sure</b> records that you are undecided. Leaving a card blank skips it. Neither counts for or against.</p>
+    </div>
+    <div class="props" id="props"></div>
+  </section>
+
+  <section class="panel" id="s3" aria-labelledby="s3-h">
+    <div class="sec-head">
+      <div class="kicker">Step 3</div>
+      <h2 id="s3-h">Your ballot at a glance</h2>
+      <p class="note">This tool helps you compare your priorities with available evidence. Its results depend on your answers, selected weights, and the quality of the available information. It does not tell you how to vote.</p>
+    </div>
+    <div class="row">
+      <div class="tally" id="tally"></div>
+      <button type="button" id="reset">Clear my answers</button>
+    </div>
+    <div class="warn" id="conflict" hidden></div>
+    <div class="ballot" id="ballot"></div>
+    <p class="small">Tap any row to see that measure's details and sources.</p>
+  </section>
+
+  <section class="panel method" id="method" aria-labelledby="m-h">
+    <h2 id="m-h">How your result is worked out</h2>
+    <ol>
+      <li><b>Your preference</b> is how you feel about the measure's goal. Against or Strongly against always shows Leans toward NO. That reflects your view, not a finding that the measure is bad. Not sure and Not answered never count as support or opposition.</li>
+      <li><b>The evidence score</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. If every factor is set to Ignore, it shows Evidence not weighted. If you weigh factors but none of them has a rating for a measure, it shows No evidence score available. Either way the result follows your preference alone.</li>
+      <li><b>When you support the goal,</b> the evidence score decides whether the evidence backs you up, using the table below. Either way, the vote is yours.</li>
+    </ol>
+    <table class="rules">
+      <thead><tr><th scope="col">Your preference</th><th scope="col">Evidence score</th><th scope="col">Result</th></tr></thead>
+      <tbody>
+        <tr><td>Strongly support</td><td>2.0 or higher</td><td><span class="chip c-yes">Leans toward YES</span></td></tr>
+        <tr><td>Strongly support</td><td>Below 2.0</td><td><span class="chip c-close">Mixed / uncertain</span></td></tr>
+        <tr><td>Support</td><td>3.0 or higher</td><td><span class="chip c-yes">Leans toward YES</span></td></tr>
+        <tr><td>Support</td><td>Below 3.0</td><td><span class="chip c-close">Mixed / uncertain</span></td></tr>
+        <tr><td>Not sure</td><td>Any</td><td><span class="chip c-unsure">Not sure</span></td></tr>
+        <tr><td>Oppose or Strongly oppose</td><td>Any</td><td><span class="chip c-no">Leans toward NO</span></td></tr>
+        <tr><td>Skipped</td><td>Any</td><td><span class="chip c-none">Not answered</span></td></tr>
+      </tbody>
+    </table>
+    <p><b>About the cutoffs.</b> The 2.0 and 3.0 lines are illustrative rules of thumb. They are not probabilities that a measure will work, and they have not been statistically validated. Mixed / uncertain means you like the goal but the measure rates below the line on what you said matters. Some people vote yes anyway because the goal matters most. Others vote no and wait for a better-written version.</p>
+
+    <h2 id="sm-h">Sources and methodology</h2>
+    <p><b>Facts.</b> Each card's facts come from the Secretary of State's official voter guide (titles, what YES and NO mean, official arguments and legal text) and the Legislative Analyst's Office (fiscal estimates). Independent reporting and research are used where official sources are silent, and are labeled as Independent. Campaign claims are attributed to the side that makes them. Every card lists its sources, numbered so each rating can point to them.</p>
+    <p><b>Ratings.</b> The ratings are structured analytical judgments made for this tool, drafted with AI research assistance and published by the tool's creator. They are not official government ratings or scientific measurements. One rubric is applied to all 14 measures, whatever the topic. Dashed dots mean a rating rests on limited information, and Not rated means there was too little verified information to score it. Missing information is not treated as a good or bad sign.</p>
+    <details class="rubric"><summary>See the rating rubric</summary>
+      <div class="tablewrap"><table class="rules">
+        <thead><tr><th scope="col">Factor</th><th scope="col">1</th><th scope="col">3</th><th scope="col">5</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Net benefit</th><td>Likely costs or harms outweigh benefits</td><td>Real benefits and real costs, net unclear</td><td>Large, likely benefits well above costs</td></tr>
+          <tr><th scope="row">Evidence strength</th><td>No credible evidence this approach works</td><td>Mixed or indirect evidence, such as similar policies elsewhere</td><td>Strong, direct evidence for this approach</td></tr>
+          <tr><th scope="row">Safety</th><td>Serious documented risk of harmful side effects or legal failure</td><td>Real but limited or familiar risks</td><td>Few plausible downsides</td></tr>
+          <tr><th scope="row">Accountability</th><td>Nothing beyond ordinary lawsuits</td><td>Required public reporting or a built-in enforcement remedy, but no independent audit</td><td>Independent audits, public reporting and penalties all required</td></tr>
+          <tr><th scope="row">Feasibility</th><td>New, untested systems with many undefined terms</td><td>Existing agencies, but tight timelines or open questions</td><td>Existing systems with little new work</td></tr>
+          <tr><th scope="row">Fiscal clarity</th><td>No official estimate and unclear direction</td><td>Official dollar range or bound, key costs unknown</td><td>Clear official yearly and total figures</td></tr>
+          <tr><th scope="row">Outcome clarity</th><td>No measurable result defined</td><td>Spending or rules are measurable, but real-world results are not tracked</td><td>Specific numeric result written into law and reported</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">A 2 or 4 falls between the descriptions. For Accountability, 2 means a self-executing rule or limited reporting with no review, and 4 means independent audits plus public reporting. For Fiscal clarity, 2 means the official analysis gives a direction but no dollars. For Outcome clarity, 4 means a clear observable rule or required reporting on results.</p>
+    </details>
+    <p><b>Last checked.</b> Facts and source links were first reviewed October 15 and 16, 2026. On October 22, 2026, every fact on this page was audited again by automated research against the Secretary of State's voter guide, the LAO analyses, the official arguments and, where it could be read, the legal text. 93 statements were corrected or labeled as reported by news sources. The ratings themselves were not changed. On October 23, 2026 an independent review led to three more wording fixes (Props 3, 39 and 44), again without changing any rating. Three ratings are under review because their written reasons may not match the rubric: Prop 44's accountability and the evidence strength of Props 37 and 38. Their values have not been changed. No person has yet reviewed the audit. Official materials can change, so confirm anything important in the <a href="https://voterguide.sos.ca.gov/" target="_blank" rel="noopener">official voter guide<span class="vh"> (opens in a new tab)</span></a>.</p>
+    <p id="privacy"><b>Your privacy.</b> Your answers and weights are saved only in this browser's local storage so they are there when you return. They are never sent anywhere, and the tool asks for no name or contact details. Clear my answers removes saved answers. Weights stay until you change them or pick Standard. The page loads fonts from Google Fonts and a visitor counter from GoatCounter, and like any web request these send your IP address and browser details to those services. GoatCounter records one visit each time this page loads, using only the page's fixed name and title, plus the referring site, browser, screen size, language and country. It also records two anonymous counts, when someone answers at least one question and when someone answers all 14. It is never sent which propositions you open or how you answer. Its privacy policy says it does not store IP addresses or set cookies. This page keeps a small note in local storage so each count is sent only once. If storage is blocked, each count is sent at most once per page load. Source links take you to other websites only when you click them.</p>
+  </section>
+</main>
+
+<script>
+/*
+  Ballot Weighing Tool, scoring overview (facts last checked October 15 and 16, 2026)
+
+  INPUTS
+  1. Weights (state.w). One integer per evidence factor, 0 (Ignore) to 5 (Top priority).
+     The Standard preset ("def") is the framework's fixed default, a starting point, not a claim about the right weights.
+  2. Preference (state.g). One value per measure:
+       null = not answered (skipped), 0 = Not sure,
+       1 = Support, 2 = Strongly support, -1 = Oppose, -2 = Strongly oppose.
+  3. Ratings (PROPS[i].s). The tool's 1 to 5 rating per factor under RUBRIC below, higher always better.
+     null means "Not rated" (too little verified information to score). PROPS[i].u flags ratings
+     that rest on limited information. Each rating has a reason (r) and source indexes (rs).
+
+  HOW WELL-BUILT (quality)
+     avg = sum(weight x rating) / sum(weight), over factors with weight > 0 AND a valid rating.
+     If that weight sum is 0 (all weights 0, or every weighted factor Not rated), no score is
+     computed and the result follows the preference alone. No division by zero can occur.
+     avg is clamped to 1..5 and rounded to one decimal; the same rounded value is shown and used.
+
+  RESULT (lean)
+     null -> "Not answered"     0 -> "Not sure"     -1 or -2 -> "Leans toward NO"
+     +1   -> "Leans toward YES" if avg >= 3.0, else "Mixed / uncertain"
+     +2   -> "Leans toward YES" if avg >= 2.0, else "Mixed / uncertain"
+     Cutoffs are illustrative rules of thumb, not probabilities and not statistically validated.
+     Skipped and Not sure never count as support or opposition.
+     A caution line appears when any weighted factor is limited or Not rated.
+
+  STORAGE
+     localStorage "ballot-weighing-v2" holds {w, g}. "ballot-gc-sent-v1" only remembers which
+     anonymous usage counts were already sent (GitHub copy). Nothing else is stored.
+*/
+(function () {
+  var FACTORS = [
+    { k: "nb", name: "Net benefit", q: "Will Californians end up better off?", d: "Weighs likely benefits against costs and trade-offs." },
+    { k: "ev", name: "Evidence strength", q: "Is there proof this approach works?", d: "Rated on evidence for this specific approach, not on how appealing the goal is." },
+    { k: "lr", name: "Safety", q: "How unlikely are nasty surprises?", d: "Rated high when legal, operational and side-effect risks are small." },
+    { k: "ac", name: "Accountability", q: "Will someone check the work?", d: "Rated on the audits, public reports and penalties the measure actually requires." },
+    { k: "if", name: "Feasibility", q: "Can the state actually carry it out?", d: "Rated high when existing agencies can do it with little new work." },
+    { k: "fc", name: "Fiscal clarity", q: "Do we know what it costs or raises?", d: "Rated on how specific the official cost and revenue estimates are." },
+    { k: "oc", name: "Outcome clarity", q: "Will we know if it worked?", d: "Rated on whether success can realistically be measured." }
+  ];
+  var LEVELS = ["Ignore", "Minor", "Some", "Moderate", "High", "Top priority"];
+
+  var PRESETS = [
+    { id: "def", name: "Standard", d: "The Standard Evaluation Framework weights. Results and proof count most, then safety. Cost clarity and outcome targets count less. A consistent starting point, not the right answer.", w: { nb: 5, ev: 5, lr: 4, ac: 3, if: 3, fc: 2, oc: 2 } },
+    { id: "res", name: "Results first", d: "Almost all weight on whether it helps and whether the approach is proven.", w: { nb: 5, ev: 5, lr: 3, ac: 1, if: 2, fc: 1, oc: 1 } },
+    { id: "cost", name: "Cost watcher", d: "Puts the most weight on knowing what a measure costs, with safety and results close behind.", w: { nb: 4, ev: 4, lr: 4, ac: 3, if: 3, fc: 5, oc: 2 } },
+    { id: "eq", name: "Equal", d: "Every factor counts the same.", w: { nb: 3, ev: 3, lr: 3, ac: 3, if: 3, fc: 3, oc: 3 } }
+  ];
+
+  var LAO = "https://lao.ca.gov/ballot/2026/";
+  var SOSPDF = "https://vig.cdn.sos.ca.gov/2026/general/pdf/";
+  var SOS = "https://voterguide.sos.ca.gov/propositions/";
+  function std(n, extra) {
+    var s = [["LAO analysis", LAO + "prop" + n + "-110326.pdf", "Official"], ["Official voter guide page", SOS + n + "/", "Official"], ["Legal text", SOSPDF + "prop" + n + "-text-proposed-laws.pdf", "Official"]];
+    return extra ? s.concat(extra) : s;
+  }
+
+  /* Field guide. title/type are the official ballot label. yes/no are the official meaning of each vote
+     (Secretary of State), with an attributed estimate in yesE/noE. argFor/argAgainst paraphrase the
+     official ballot arguments. tw is the main trade-off. rs maps each rating to source indexes (0 based). */
+  var PROPS = [
+    { n: "1", name: "Affordable housing and veterans bond", topic: "Housing", kind: "Bond · from the Legislature",
+      title: "Authorizes bonds for housing affordability programs", type: "Legislative statute",
+      ask: "Should the state borrow $11.25 billion for affordable housing and veterans' home loans?",
+      does: "Lets the state borrow $11.25 billion. $10 billion goes to existing affordable housing programs, including about $7.2 billion for rental housing, and $1.25 billion to CalVet home loans for veterans.",
+      yes: "The state could borrow $11.25 billion to support veterans and affordable housing.", yesE: "LAO estimates up to 40,000 subsidized rentals and up to 40,000 households helped to buy.",
+      no: "The state could not borrow this money for veterans and affordable housing.", noE: "",
+      money: "LAO estimates taxpayers repay about $500 million to $600 million a year for about 25 years. Veterans repay the $1.25 billion CalVet share through their loans.",
+      who: "Low and moderate income renters and buyers, veterans, farmworkers, tribes, UC and CSU students.",
+      out: "Up to about 40,000 subsidized rentals and 40,000 assisted home buyers (LAO estimate, not a requirement).",
+      acct: "An annual public report on the bond. Existing law it points to requires homes assisted, households served and where the homes are, plus cost per unit for the main rental program. A yearly independent accountant review of CalVet's home loan finances. No target for homes built or cost per home.",
+      argFor: "Supporters' official argument says it builds affordable homes for veterans, seniors and working families with accountability and no new taxes.",
+      argAgainst: "No official argument against was filed. In news reports, critics such as state Sen. Tony Strickland say the state should not take on more debt.",
+      pro: "Self-Help for the Elderly, California Federation of Teachers, US Vets (official argument). Gov. Newsom signed the bill placing it on the ballot.",
+      con: "No official argument against was filed. News reports name Sen. Tony Strickland as a critic. No organized campaign against.",
+      risk: "Decades of fixed debt with no guaranteed number of homes.",
+      unk: "Cost per home and how fast the money gets spent.",
+      tw: "More subsidized homes now, in exchange for about $500 million to $600 million a year in repayments for about 25 years.",
+      s: { fc: 4, oc: 3, ac: 3, if: 4, ev: 3, lr: 3, nb: 3 }, u: {},
+      r: { fc: "LAO gives the yearly cost and term, but no total dollar figure.", oc: "Spending is measurable and reported yearly, but home counts are estimates, not targets.", ac: "Required annual public report covering homes assisted and where, and a yearly independent review of CalVet's loan finances, but no audit of the housing money.", if: "Runs through existing state programs.", ev: "Strong cost data, limited data on how much new housing each dollar adds.", lr: "Fixed debt for about 25 years, at $500 million to $600 million a year.", nb: "Up to 40,000 rentals and 40,000 buyers helped, against roughly $12.5 billion to $15 billion repaid over 25 years (this tool's arithmetic from LAO's yearly cost). Cost per home unknown." },
+      rs: { fc: [0], oc: [0, 2], ac: [2], if: [0], ev: [0], lr: [0], nb: [0] },
+      src: std("1", [["Official arguments", SOS + "1/arguments-rebuttals.htm", "Official, campaign arguments"]]) },
+    { n: "2", name: "Bigger rainy day fund", topic: "Budget", kind: "Constitutional amendment · from the Legislature",
+      title: "Increases state's rainy day fund", type: "Legislative constitutional amendment",
+      ask: "Should the state be required to save more in its rainy day fund during good years?",
+      does: "Raises the rainy day fund's limit for required deposits from 10% to 20% of General Fund taxes, saves extra in big capital gains years, counts deposits against the state spending limit only when the money is withdrawn, and extends extra pension and retiree health debt payments from 2030 to 2040.",
+      yes: "Rules for building state budget reserves and paying down extra state debts would change.", yesE: "LAO says state budget reserves would be higher, with more saved in the rainy day fund in certain years.",
+      no: "Rules for building state budget reserves and paying down extra state debts would not change.", noE: "",
+      money: "No new tax or program. It shifts when money is spent. LAO gives no dollar estimate or timeline for reaching 20%.",
+      who: "The state budget, people who use state services, schools, taxpayers.",
+      out: "Larger reserves built in good years, plus extra debt payments through 2040.",
+      acct: "No new audit or evaluator. The Department of Finance must report deposit estimates to the Legislature and each budget must include them. Deposits can still be suspended only in a budget emergency.",
+      argFor: "Supporters' official argument says doubling the reserve cap protects schools, health care and public safety in downturns.",
+      argAgainst: "Opponents' official argument calls it a slush fund that weakens the spending limit and makes taxpayer rebates less likely.",
+      pro: "California Professional Firefighters, Assembly Budget Chair Jesse Gabriel, Gov. Newsom.",
+      con: "David Tangipa (Assembly Budget Committee vice chair), Steven Choi (Senate Elections and Constitutional Amendments Committee vice chair) and Carl DeMaio (Reform California), official argument.",
+      risk: "Lawmakers can still suspend deposits or withdraw money in a budget emergency.",
+      unk: "How many years it would take to actually reach 20%.",
+      tw: "A bigger cushion for recessions, in exchange for less money to spend on programs or rebates in years when more is saved.",
+      s: { fc: 2, oc: 3, ac: 2, if: 5, ev: 3, lr: 3, nb: 3 }, u: { fc: 1, ac: 1 },
+      r: { fc: "LAO gives the direction only, no dollar estimate.", oc: "Deposits are measurable, but real results like smaller cuts are not tracked.", ac: "Uses existing budget formulas and reports, no new independent review. New versus existing text could not be fully separated.", if: "Adjusts existing budget mechanics.", ev: "The mechanics are clear in LAO and the text. Recent withdrawal amounts could not be confirmed from an official budget source.", lr: "Trade-offs with the spending limit and rebates.", nb: "Smaller recession cuts traded against fewer rebates and less boom-year spending. Size unknown." },
+      rs: { fc: [0], oc: [0], ac: [2, 0], if: [0], ev: [4], lr: [0], nb: [0, 3] },
+      src: std("2", [["Official arguments", SOS + "2/arguments-rebuttals.htm", "Official, campaign arguments"], ["2026-27 budget summary", "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/FullBudgetSummary.pdf", "Official"]]) },
+    { n: "3", name: "Permanent top income tax rates", topic: "Taxes", kind: "Constitutional amendment · citizen initiative",
+      title: "Provides permanent funding for schools and health care by extending existing tax on high incomes", type: "Initiative constitutional amendment",
+      ask: "Should the higher income tax rates on top earners stay in place permanently after 2030?",
+      does: "Makes permanent the higher income tax rates on income over about $371,000 for single filers, adjusted yearly for inflation. The rates now apply through 2030 and are set to expire in 2031. Rates themselves do not change.",
+      yes: "An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.", yesE: "LAO estimates $5 billion to $15 billion a year from 2031 on, roughly 40% for schools and community colleges.",
+      no: "The tax increase on high-income earners would expire in 2031.", noE: "Those rates on about the top 2% of filers would drop back.",
+      money: "LAO estimates the rates keep $5 billion to $15 billion a year in state revenue. They apply only to income above about $371,000 for single filers, adjusted for inflation. No official per-filer example was found.",
+      who: "About the top 2% of filers, public schools and community colleges, and other state programs including health care.",
+      out: "Continued funding for schools and health care after 2030.",
+      acct: "Schools and colleges must post yearly accountings of this money online, their existing annual independent audits must check it, and the Controller audits the account. No student or health outcome target.",
+      argFor: "Supporters' official argument says it keeps current rates on the top 2% to fund schools and health care, with annual independent audits.",
+      argAgainst: "Opponents' official argument says it makes a temporary tax permanent and the state should fix wasteful spending first.",
+      pro: "California Teachers Association, California School Nurses Organization, Planned Parenthood Affiliates of California (official argument), California State PTA.",
+      con: "California Taxpayers Association, Family Business Association of California, California Hispanic Chambers of Commerce (official argument), Howard Jarvis Taxpayers Association (rebuttal).",
+      risk: "The budget keeps leaning on a small group of earners whose income swings with markets.",
+      unk: "Whether high earners move or shift income over the long run.",
+      tw: "Steady school and health funding, in exchange for keeping higher rates on top earners permanently.",
+      s: { fc: 4, oc: 3, ac: 4, if: 5, ev: 4, lr: 3, nb: 3 }, u: {},
+      r: { fc: "LAO gives a clear yearly range, though wide.", oc: "Revenue and spending are measurable and posted, but there are no student or health targets.", ac: "Annual independent audits and public posting by recipients, plus a Controller audit.", if: "Continues an existing tax.", ev: "More than a decade of revenue data on these rates, since 2012.", lr: "Revenue swings with markets, a risk that already exists.", nb: "Keeps $5 billion to $15 billion a year, about 40% for schools and colleges, but no link to student results is established." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0], ev: [0, 4], lr: [0], nb: [0] },
+      src: [["LAO analysis", "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026", "Official"], ["Official voter guide page", SOS + "3/", "Official"], ["Legal text", SOSPDF + "prop3-text-proposed-laws.pdf", "Official"], ["Official arguments", SOS + "3/arguments-rebuttals.htm", "Official, campaign arguments"], ["SPUR voter guide", "https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension", "Independent"]] },
+    { n: "4", name: "Public campaign funding", topic: "Elections", kind: "Law change · from the Legislature",
+      title: "Repeals prohibition against public funding of election campaigns", type: "Legislative statute",
+      ask: "Should state and local governments be allowed to give public money to candidates' campaigns?",
+      does: "Repeals the 1988 ban, so governments may create voluntary public funding programs for candidates. It creates no program by itself and raises the top fine for foreign campaign contributions to three times the amount.",
+      yes: "State and local governments could create public campaign financing programs, with limits on which funds are used, how, and who receives them.", yesE: "Programs cannot favor candidates by party or incumbency. Candidates must show broad support and accept spending limits.",
+      no: "The state and most local governments would remain unable to create public campaign financing programs.", noE: "Certain charter cities keep their existing exemption.",
+      money: "LAO estimates state costs of a few hundred thousand dollars a year. Any program's cost is set later by the government that adopts it.",
+      who: "Candidates, state and local governments, taxpayers where programs are adopted.",
+      out: "Some governments may choose to create public financing programs for candidates.",
+      acct: "Existing campaign disclosure rules apply. No new audit or outcome target. The state ethics commission is not required to enforce local programs.",
+      argFor: "Supporters' official argument says California alone bans public financing, and this lets communities choose it, with safeguards.",
+      argAgainst: "Opponents' official argument says it lets politicians spend taxpayer money on campaigns with no cap on recipients or amounts.",
+      pro: "League of Women Voters of California, California Nurses Association, Sen. Tom Umberg, California Common Cause.",
+      con: "California Taxpayers Association, Howard Jarvis Taxpayers Association, former FPPC chair Dan Schnur.",
+      risk: "Opponents say there is no limit on how many candidates get public money or how much. LAO says program costs could be significant for governments that create them.",
+      unk: "Which governments adopt programs, and at what cost.",
+      tw: "A path for candidates without wealthy backers, in exchange for public money spent on campaigns at costs set later.",
+      s: { fc: 3, oc: 2, ac: 2, if: 4, ev: 3, lr: 3, nb: 3 }, u: { fc: 1, oc: 1, ev: 1 },
+      r: { fc: "State cost is clear, but program costs depend on later local choices.", oc: "It only allows programs, so no results are defined yet.", ac: "Relies on existing disclosure rules, and the state ethics commission is not required to enforce local programs.", if: "Some charter cities already run such programs.", ev: "Public financing has a mixed record in other places. This tool did not verify a specific study for this design.", lr: "Familiar, limited risks.", nb: "Small state cost. Benefits depend on programs not yet created." },
+      rs: { fc: [0], oc: [0], ac: [2, 0], if: [0], ev: [0], lr: [0], nb: [0] },
+      src: std("4", [["Official arguments", SOS + "4/arguments-rebuttals.htm", "Official, campaign arguments"]]) },
+    { n: "5", name: "Recall without a replacement vote", topic: "Elections", kind: "Constitutional amendment · from the Legislature",
+      title: "Changes recall election process for statewide officers", type: "Legislative constitutional amendment",
+      ask: "Should recall ballots drop the replacement question, with vacancies filled by succession, special election or appointment instead?",
+      does: "Recall ballots for state officers ask only whether to remove the official. If a governor is recalled, the Lieutenant Governor becomes governor. If the recall happens in the first two years of the term, before the next statewide nomination period closes, the Lieutenant Governor serves until voters elect a new governor at a future statewide election. Other recalled offices are filled under existing rules, usually a special election for legislators and a governor's appointment for other statewide offices.",
+      yes: "Recall elections would no longer include a question about who should fill the vacancy. Vacancies would be filled through special elections or appointments, depending on the office and timing.", yesE: "",
+      no: "Voters would continue to be asked who should fill the vacancy as part of recall elections.", noE: "In 2003 there were 135 replacement candidates on the ballot, and the winner needed only the most votes.",
+      money: "LAO says the net fiscal effect is unknown, could be savings or costs, and is under 0.1% of the General Fund.",
+      who: "The governor and other state officers, voters in recall elections.",
+      out: "Recalled officials are replaced by succession, special election or appointment instead of a same-ballot plurality vote.",
+      acct: "No new audit or reporting requirement was found in the official materials.",
+      argFor: "Supporters' official argument says a replacement should not take office with a small fraction of the vote, and recalls should not be used to redo an election.",
+      argAgainst: "Opponents' official argument says it takes away voters' power to pick a replacement and hands the choice to Sacramento insiders.",
+      pro: "League of Women Voters of California, California Common Cause, former FPPC chair Dan Schnur.",
+      con: "Senate Minority Leader Brian Jones and Assemblymember Joe Patterson (official argument). CalMatters reports almost all legislative Republicans also opposed it.",
+      risk: "Voters lose a direct say in the replacement, and later in a term the successor serves without a new election.",
+      unk: "How often recalls will happen in future.",
+      tw: "Avoiding replacements chosen by a small plurality, in exchange for voters no longer picking the successor on the recall ballot.",
+      s: { fc: 3, oc: 4, ac: 2, if: 5, ev: 2, lr: 3, nb: 3 }, u: { ev: 1 },
+      r: { fc: "LAO gives an upper bound, under 0.1% of the General Fund.", oc: "Clear, observable succession rules.", ac: "Self-executing rule with no new reporting or review.", if: "A simple rule change using existing vacancy processes.", ev: "Only 11 state recalls have reached the ballot since 1913, nine of them of legislators, so there is little data either way.", lr: "Questions about appointed or caretaker successors.", nb: "Applies rarely. Trades plurality winners for less voter choice of successor." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0, 2], ev: [4], lr: [0], nb: [0] },
+      src: std("5", [["Official arguments", SOSPDF + "prop5.pdf", "Official, campaign arguments"], ["Hoover Institution analysis", "https://www.hoover.org/research/prop-5-recall-reform-eliminate-replacement-question", "Independent"]]) },
+    { n: "37", name: "Loans for middle-income new-home buyers", topic: "Housing", kind: "Revenue bond · citizen initiative",
+      title: "Creates loan program for middle-income buyers of qualified new homes", type: "Initiative statute",
+      ask: "Should the state lend middle-income buyers up to 17% of a new home's price?",
+      does: "Lets the state housing finance agency (CalHFA) sell up to $25 billion in revenue bonds to lend buyers earning up to 200% of area median income up to 17% of a new home's price. The buyer puts at least 3% down. Builders who opt into higher labor standards also get different construction defect lawsuit rules.",
+      yes: "The state would create a new homebuying assistance program funded by up to $25 billion in revenue bonds, repaid by homeowners' loan payments.", yesE: "",
+      no: "The state would not be required to create a new homebuying assistance program.", noE: "CalHFA's existing down payment programs continue.",
+      money: "LAO finds no direct state or local cost, and the bonds are repaid by homeowners, not the state. On an $800,000 home a buyer would put at least $24,000 down and could borrow up to $136,000 from the program (this tool's example, using the 3% minimum and 17% maximum).",
+      who: "Middle-income households buying newly built homes, home builders.",
+      out: "More middle-income households able to buy newly built homes with 3% down.",
+      acct: "Supporters' official argument says it requires annual audits of the loans and the fund. An independent analysis (Hoover Institution) says program rules are exempt from normal state rulemaking. No target for homes or loans.",
+      argFor: "Supporters' official argument says private bond investors fund the loans, so taxpayers pay nothing and take no risk.",
+      argAgainst: "No official argument against was filed. CalMatters lists Reform California and the League of Women Voters as opponents.",
+      pro: "California Conference of Carpenters, Fiona Ma (CalHFA board), California State Commanders Veterans Council (official argument). CalMatters also lists the California Association of Realtors.",
+      con: "No official argument against was filed. CalMatters lists Reform California and the League of Women Voters.",
+      risk: "Buyers carry a second loan of up to 17% of the price. More buying power could also push new-home prices up, a risk no official analysis addresses.",
+      unk: "The fixed interest rate CalHFA will set on the state loan, and how many people use it.",
+      tw: "Easier entry to homeownership for some buyers, in exchange for more household debt and possible upward pressure on new-home prices.",
+      s: { fc: 4, oc: 3, ac: 3, if: 3, ev: 3, lr: 3, nb: 3 }, u: {},
+      r: { fc: "LAO finds no state cost. Program size and loan rate unknown.", oc: "Loans and purchases are measurable, but there is no target.", ac: "Supporters cite annual audits, but program rules are reported to skip normal rulemaking.", if: "A new program that depends on investor demand for the bonds.", ev: "No track record for this design was found in the official materials.", lr: "Risks of higher prices and more household debt.", nb: "No direct taxpayer cost and real help for some buyers. How many renters it would make able to buy is unknown." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0], ev: [0, 3], lr: [0, 3], nb: [0, 3] },
+      src: std("37", [["CalMatters guide", "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/", "Independent"]]) },
+    { n: "38", name: "Immunology research bond", topic: "Research", kind: "Bond · citizen initiative",
+      title: "Authorizes bonds for immunology medical research", type: "Initiative statute",
+      ask: "Should the state borrow $8.4 billion for immune system research?",
+      does: "Borrows $8.4 billion for immunology research. About half goes to one institute picked by the state health department, and the rest to grants through a council of UC campuses and other California institutions. At least $4.2 billion must target cancer, heart disease and Alzheimer's.",
+      yes: "The state could borrow $8.4 billion to support immunology and immunotherapy research by California institutes and universities.", yesE: "",
+      no: "The state could not borrow $8.4 billion for this research.", noE: "",
+      money: "LAO estimates taxpayers repay $500 million to $600 million a year for about 20 years. The state gets 10% of any revenue from resulting treatments.",
+      who: "Taxpayers, researchers, one UC-affiliated institute, patients.",
+      out: "Immunology research funded at one institute and through competitive grants.",
+      acct: "Annual public reports, including progress toward research goals, and independent financial audits for the institute and the grant council. The health department reviews the institute's agreement every five years. No numeric research targets.",
+      argFor: "Supporters' official argument says it speeds cures, offsets federal research cuts, and requires a 20% patient discount and audits.",
+      argAgainst: "Opponents' official argument says borrowing is the wrong way to fund research, the benefits rarely flow back to the state treasury, and ballot measures should not steer research toward chosen topics.",
+      pro: "Sponsor Gary Michelson. The official argument is signed by leaders of Alzheimer's Los Angeles, the ALS Association and the Kidney Cancer Association.",
+      con: "Robert M. Kaplan (official argument). CalMatters also lists the League of Women Voters and several newspaper editorial boards.",
+      risk: "CalMatters reports the criteria for half the money likely fit one institute whose board the sponsor chairs. The campaign disputes this.",
+      unk: "Whether the research pays off, scientifically or financially.",
+      tw: "Steady research funding, in exchange for about $500 million to $600 million a year in repayments for benefits that may take decades.",
+      s: { fc: 4, oc: 3, ac: 4, if: 4, ev: 3, lr: 2, nb: 2 }, u: {},
+      r: { fc: "LAO's yearly cost and term are clear.", oc: "Spending and grants are measurable, and reports must describe progress, but there are no numeric research targets.", ac: "Annual public reports and independent financial audits required.", if: "The institutions already exist.", ev: "No direct evidence on how well this kind of institute funding leads to treatments was found in the official materials.", lr: "Funding concentrated in one institute, plus long-term budget pressure.", nb: "About $10 billion to $12 billion repaid over about 20 years, before inflation (this tool's arithmetic from LAO's yearly cost), against patient benefits that are likely years away." },
+      rs: { fc: [0], oc: [0], ac: [0], if: [0], ev: [0], lr: [3, 0], nb: [0] },
+      src: [["LAO analysis", LAO + "prop38-110326.pdf", "Official"], ["Official voter guide page", SOS + "38/", "Official"], ["Official arguments", SOSPDF + "prop38.pdf", "Official, campaign arguments"], ["CalMatters on the institute", "https://calmatters.org/politics/elections/2026/07/proposition-38-california", "Independent"], ["CalMatters guide (supporters and opponents)", "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/", "Independent"]] },
+    { n: "39", name: "Voter ID and citizenship checks", topic: "Elections", kind: "Constitutional amendment · citizen initiative",
+      title: "Prohibits citizens from voting unless they present government-issued identification", type: "Initiative constitutional amendment",
+      ask: "Should voters have to show ID, and should voter rolls be checked for citizenship?",
+      does: "Requires government ID to vote in person and the last four digits of an ID number on mail ballots. The state must offer a free voter ID card, make best efforts to verify voters' citizenship, and report results yearly.",
+      yes: "Voters would be required to present additional identifying information to elections officials each time they vote.", yesE: "",
+      no: "A voter's identity would continue to be established with the voter's signature.", noE: "",
+      money: "LAO estimates added state and local costs of tens of millions to low hundreds of millions of dollars a year.",
+      who: "All voters, including about 13 million who voted by mail in 2024, and county election offices.",
+      out: "Every counted ballot tied to a government ID, with yearly public reports of the share of each county's voters whose citizenship is verified.",
+      acct: "The State Auditor audits the state and every county in odd-numbered years, counties report citizenship-verified shares yearly, and citizens may sue. No penalties or numeric targets.",
+      argFor: "Supporters' official argument says bipartisan voter ID builds trust, keeps mail voting, offers a free ID and adds citizenship checks.",
+      argAgainst: "Opponents' official argument says it adds costly barriers and could reject ballots from seniors, students and people who changed names.",
+      pro: "Californians for Voter ID (official argument). LAist also lists the Howard Jarvis Taxpayers Association and the California Republican Party.",
+      con: "ACLU California Action, Common Cause, League of Women Voters of California (official argument).",
+      risk: "The official summary says mail ballots without matching ID digits would not count, and the measure sets no notice or fix-it process. Opponents say valid ballots could be thrown out.",
+      unk: "How existing voters add an ID number, and how many ballots get rejected.",
+      tw: "A uniform ID rule and public citizenship reporting, in exchange for added costs and the risk that some valid mail ballots are rejected.",
+      s: { fc: 3, oc: 4, ac: 4, if: 2, ev: 3, lr: 2, nb: 2 }, u: {},
+      r: { fc: "LAO gives an official yearly range, but key costs depend on choices not yet made.", oc: "Required yearly reporting of citizenship-verified shares. Which IDs count is left for the Legislature to define.", ac: "State Auditor audits, yearly reports and citizen lawsuits, but no penalties.", if: "Accepted IDs and how existing voters add an ID number are undefined.", ev: "Strong research on in-person ID laws, none on this mail-ballot method.", lr: "Risk of rejecting valid ballots.", nb: "LAO projects net costs, and a national study found strict ID laws had no effect on fraud, actual or perceived. A possible gain in voter trust is unmeasured." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0], ev: [4], lr: [0], nb: [0, 4] },
+      src: std("39", [["Official arguments", SOSPDF + "prop39.pdf", "Official, campaign arguments"], ["Cantoni and Pons study of strict ID laws (NBER)", "https://www.nber.org/papers/w25522", "Independent research"]]) },
+    { n: "40", name: "One-time billionaire tax", topic: "Taxes", kind: "One-time tax · citizen initiative",
+      title: "Imposes one-time tax on certain taxpayers", type: "Initiative constitutional amendment and statute",
+      ask: "Should billionaires pay a one-time 5% tax on their net worth, mostly for health care?",
+      does: "Taxes people worth $1 billion or more who lived in California on January 1, 2026 at 5% of their net worth, once, with a lower rate just above $1 billion. It can be paid over five years with a 7.5% yearly charge on the unpaid balance. Real estate, pensions and retirement accounts are generally excluded. After administrative costs, 90% goes to public health care and 10% to education and food assistance.",
+      yes: "The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.", yesE: "LAO estimates tens of billions of dollars over several years.",
+      no: "The state would not collect this one-time tax.", noE: "",
+      money: "LAO says tens of billions over several years. Hoover estimates about $40 billion and supporters about $100 billion. LAO also notes the state could lose under $1 billion a year in income tax if billionaires leave.",
+      who: "A few hundred billionaires according to LAO (the supporters' argument says about 200), and public health care programs.",
+      out: "A one-time transfer of tens of billions from billionaires to public health care over about five years.",
+      acct: "A yearly Department of Finance report to the Legislature, Franchise Tax Board review of every return, understatement penalties, and a fast court validation case. No State Auditor audit of the spending.",
+      argFor: "Supporters' official argument says federal cuts took health coverage away and a one-time tax on billionaires would restore it.",
+      argAgainst: "Opponents' official argument says it is a risky tax that would drive out residents and businesses and has no spending safeguards.",
+      pro: "SEIU-UHW (official argument). Wikipedia reports Sen. Bernie Sanders endorsed it.",
+      con: "California Medical Association, California Primary Care Association, California School Boards Association (official argument). Independent reports add Gov. Newsom. A committee funded largely by Sergey Brin backs Props 41 and 42 and opposes Prop 40.",
+      risk: "Court challenges are likely. LAO's analyses of Props 41 and 42 say courts could find that either one conflicts with Prop 40, so Prop 40 could be stopped if either gets more yes votes.",
+      unk: "How courts treat the look-back residency date.",
+      tw: "Tens of billions for health care, in exchange for legal uncertainty and possible long-term income tax losses if billionaires leave.",
+      s: { fc: 3, oc: 3, ac: 3, if: 2, ev: 2, lr: 2, nb: 3 }, u: {},
+      r: { fc: "LAO says tens of billions. Hoover estimates about $40 billion and supporters claim about $100 billion.", oc: "Tax collected and its split are measurable, but there are no health targets.", ac: "Required yearly report, return review and penalties, but no independent audit of spending.", if: "A new kind of state tax that needs new valuation work.", ev: "No precedent for this approach was found in the official materials.", lr: "Departures, lawsuits, and possible blocking by Props 41 or 42.", nb: "Tens of billions for health care per LAO, but Hoover projects a net loss, so the overall effect is genuinely uncertain." },
+      rs: { fc: [0, 4], oc: [2], ac: [2], if: [0], ev: [0], lr: [0], nb: [0, 4] },
+      src: std("40", [["Official arguments", SOSPDF + "prop40.pdf", "Official, campaign arguments"], ["Hoover Institution analysis", "https://www.hoover.org/research/prop-40-billionaire-tax-act", "Independent"]]) },
+    { n: "41", name: "Special tax audits and spending limit", topic: "Taxes", kind: "Constitutional amendment · citizen initiative",
+      title: "Prohibits new state taxes that exclude revenues from state spending limit. Requires audits for new state special taxes", type: "Initiative constitutional amendment",
+      ask: "Should new state taxes have to fit under the state spending limit, with audits of special-tax programs?",
+      does: "New state taxes enacted or taking effect on or after January 1, 2026 cannot be excluded from the state spending limit, or the state cannot collect them. The State Auditor reviews the programs a special tax proposed by citizen initiative would fund, while signatures are being gathered, and audits programs funded by new state special taxes every four years. If it gets more yes votes than another initiative on this ballot with a tax excluded from the spending limit, that whole measure is void.",
+      yes: "The State Auditor would review programs funded by proposed and approved special taxes, and the state might not be able to exclude new special tax spending from its spending limit.", yesE: "",
+      no: "The State Auditor's duties and the state spending limit requirements would not change.", noE: "",
+      money: "LAO estimates audit costs of low millions of dollars a year, growing over time. The overall budget effect is unknown.",
+      who: "The State Auditor, future tax measures, and Prop 40.",
+      out: "New state taxes stay under the spending limit, and voters see audits of programs proposed special taxes would fund.",
+      acct: "Pre-election audits are posted online, summarized in the voter guide, and must recommend ways to save at least 10% a year. Programs are audited again every four years. Nothing in the measure requires anyone to adopt the recommendations.",
+      argFor: "Supporters' official argument says independent audits of programs funded by new special taxes bring transparency for taxpayers.",
+      argAgainst: "Opponents' official argument says it is billionaire-funded and designed to undo the Prop 40 billionaire tax.",
+      pro: "CalCPAs, CalAsian Chamber of Commerce, California Taxpayers Association, former State Auditor Tom Hayes, former State Controller Steve Westly (official listing). CalMatters also lists Reform California. Backed by Building a Better California, which news reports say Sergey Brin funds heavily.",
+      con: "SEIU-UHW, Sen. Bernie Sanders (official listing). News reports add the California Democratic Party.",
+      risk: "If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. Counting new taxes under the spending limit could also trigger rebates under existing spending-limit rules, leaving less for other programs.",
+      unk: "How much room is left under the spending limit.",
+      tw: "More audits and spending-limit discipline, in exchange for less budget flexibility and the chance of blocking Prop 40.",
+      s: { fc: 3, oc: 4, ac: 4, if: 4, ev: 3, lr: 2, nb: 3 }, u: {},
+      r: { fc: "LAO gives the audit cost, but the net budget effect is unknown.", oc: "Specific, observable audit duties and schedule.", ac: "State Auditor reviews before elections, posted publicly, and audits every four years.", if: "Uses the existing State Auditor.", ev: "Savings from such audits are unknown.", lr: "Could block Prop 40 and tighten future budgets.", nb: "Low-cost audits with unknown savings, plus a large but uncertain effect through Prop 40." },
+      rs: { fc: [0], oc: [2], ac: [2, 0], if: [0], ev: [0], lr: [3], nb: [0] },
+      src: [["LAO analysis", LAO + "prop41-110326.pdf", "Official"], ["Official voter guide page", SOS + "41/", "Official"], ["Legal text (GrowSF copy)", "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/legal-text/", "Independent copy of official text"], ["Official summary and analysis", SOSPDF + "prop41-title-summ-analysis.pdf", "Official"]] },
+    { n: "42", name: "Ban on new asset and look-back taxes", topic: "Taxes", kind: "Constitutional amendment · citizen initiative",
+      title: "Prohibits new state personal property taxes and certain retroactive state taxes", type: "Initiative constitutional amendment",
+      ask: "Should the constitution ban new state taxes on owning assets and most retroactive taxes?",
+      does: "Bans new state taxes on owning financial assets or other personal property, and new state taxes based on past conduct or past residency. The Legislature may pass a tax reaching back up to 365 days only during a declared disaster or fiscal emergency. Conflicting state taxes enacted on or after January 1, 2026 are void. If it gets more yes votes than a conflicting initiative on this ballot, that whole measure is void.",
+      yes: "The state could not establish new taxes on the ownership of financial assets or other personal property.", yesE: "",
+      no: "The state would continue to have the option to establish such taxes.", noE: "No current tax changes either way.",
+      money: "No dollar estimate. LAO says future tax revenue might not grow as much.",
+      who: "Owners of financial assets and other personal property, and Prop 40.",
+      out: "A permanent ban on new state wealth-type and look-back taxes, which could also block Prop 40.",
+      acct: "No audit, reporting or outcome target. A self-executing ban enforced through the courts.",
+      argFor: "Supporters' official argument says it protects retirement and savings from new and retroactive taxes.",
+      argAgainst: "Opponents' official argument says it is billionaire-funded and designed to undo the Prop 40 billionaire tax.",
+      pro: "California Professional Firefighters, State Building and Construction Trades Council, AMVETS Department of California, California Small Business Association, California Senior Alliance, Peace Officers Research Association of California (official listing and argument).",
+      con: "SEIU-UHW, Sen. Bernie Sanders.",
+      risk: "If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. Undefined terms, such as ownership or control, may invite lawsuits.",
+      unk: "How courts will define a new tax, including changes to existing ones.",
+      tw: "Certainty that owned assets will not face a new state tax, in exchange for giving up that revenue option and the chance of blocking Prop 40.",
+      s: { fc: 2, oc: 3, ac: 2, if: 4, ev: 3, lr: 2, nb: 3 }, u: {},
+      r: { fc: "LAO gives the direction only.", oc: "The ban is observable, but its scope depends on broad definitions.", ac: "A self-executing ban enforced through the courts, no reporting.", if: "Self-executing, but scope disputes may need court resolution.", ev: "Its effect is mostly mechanical, based on the text and LAO.", lr: "Scope questions, undefined terms, and possible blocking of Prop 40.", nb: "No current tax changes, so the near-term effect runs mainly through Prop 40." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [2], ev: [0], lr: [2, 3], nb: [0] },
+      src: std("42", [["Official arguments", SOSPDF + "prop42.pdf", "Official, campaign arguments"]]) },
+    { n: "43", name: "Two-thirds vote for citizen local special taxes", topic: "Taxes", kind: "Constitutional amendment · from the Legislature",
+      title: "Limits voters' ability to raise revenues for local government services", type: "Legislative constitutional amendment",
+      ask: "Should local special taxes proposed by citizen petition need a two-thirds vote to pass?",
+      does: "From January 1, 2027, new, increased or extended local special taxes need two-thirds voter approval even when citizens put them on the ballot, the same bar as those placed by city councils and boards. General taxes are not covered. It also bars citizen initiatives from adding local property taxes beyond what the state constitution already allows. News reports say it came from a deal that kept a broader anti-tax initiative off the ballot.",
+      yes: "Certain local government taxes would require two-thirds approval by voters.", yesE: "This covers citizen-proposed special taxes, including renewals.",
+      no: "Certain local government taxes could continue to be approved by voters with a majority vote.", noE: "",
+      money: "No dollar estimate. LAO says local revenue could be lower. CalMatters reports that Sonoma County's 2024 half-cent sales tax for wildfire and emergency services passed with 62%, below two-thirds.",
+      who: "Cities, counties, special districts, citizen tax campaigns.",
+      out: "From 2027, citizen-proposed local special taxes, including renewals, need two-thirds approval, so fewer may pass.",
+      acct: "No reporting, audit or outcome target. The rule applies through election certification and the courts.",
+      argFor: "Supporters' official argument says court rulings opened a loophole and this restores Prop 13's two-thirds rule for special taxes.",
+      argAgainst: "Opponents' official argument and rebuttal say it cuts no taxes and lets just over one-third of voters block funding for fire, police, schools and roads.",
+      pro: "California Taxpayers Association, Family Business Association of California, California Hispanic Chambers of Commerce, Howard Jarvis Taxpayers Association.",
+      con: "California Professional Firefighters, California Federation of Teachers, Nurse Alliance of SEIU California, California School Employees Association (official listing and argument). News reports add the California Democratic Party.",
+      risk: "Local services like fire and transit lose an easier funding path.",
+      unk: "How much local revenue would be forgone, and how courts read its separate ban on citizen-initiative property taxes.",
+      tw: "One voting threshold for all local special taxes, in exchange for making citizen-led local funding harder to pass.",
+      s: { fc: 2, oc: 4, ac: 2, if: 5, ev: 4, lr: 3, nb: 3 }, u: {},
+      r: { fc: "LAO gives the direction only.", oc: "One clear, observable voting rule.", ac: "Self-executing rule applied through election certification and the courts.", if: "A simple rule.", ev: "Text and LAO are clear, and a reported local example shows the effect.", lr: "Renewals of local taxes could fail.", nb: "Taxpayers avoid some future taxes while some local services lose funding. Size unknown." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0], ev: [0, 3], lr: [0], nb: [0] },
+      src: std("43", [["Official arguments", SOS + "43/arguments-rebuttals.htm", "Official, campaign arguments"]]) },
+    { n: "44", name: "Clinic 90% spending rule", topic: "Health", kind: "Law change · citizen initiative",
+      title: "Requires community health clinics spend 90% of revenue on program services", type: "Initiative statute",
+      ask: "Should community health clinics have to spend 90% of revenue on program services or pay penalties?",
+      does: "Federally qualified health centers and similar clinics, with tribal clinics exempt, must spend at least 90% of revenue on program services. Any shortfall is paid as a penalty into escrow and returned only if the clinic reaches 90% within five years. The Attorney General sets what counts, starting from IRS tax-form categories.",
+      yes: "Certain private nonprofit health clinics would have to spend at least 90 percent of their revenue each year on providing health care services.", yesE: "LAO says clinics currently report about 80% on average.",
+      no: "The new requirement on health care clinic spending would not go into effect.", noE: "",
+      money: "A $50 million clinic at 80% would owe $5 million that year (this tool's example, using the 90% rule). LAO estimates state enforcement costs of low tens of millions of dollars a year, covered by fees on clinics.",
+      who: "Community health centers that served about 5.3 million patients in 2022, most with low incomes, according to their national association.",
+      out: "Clinics spend at least 90% of revenue on program services or pay the gap as a penalty, refundable if they comply within five years.",
+      acct: "Yearly ratio filings posted by the Attorney General, audits, penalties, late-filing fines, patient lawsuits, and criminal penalties for knowingly false reports.",
+      argFor: "Supporters' official argument says some clinics spend under half their funding on patient care, and a 90% floor curbs executive spending.",
+      argAgainst: "Opponents' official argument calls it poorly drafted and says it would close many clinics serving millions of patients.",
+      pro: "The official argument is signed by the initiative proponent and a community clinic worker. SEIU-UHW is the committee contact in the official guide and is named as the main proponent in news reports.",
+      con: "California Medical Association, American Academy of Pediatrics California (official argument). News reports add the California Primary Care Association, Planned Parenthood Affiliates of California, and the Democratic and Republican parties.",
+      risk: "LAO says some clinics that could not meet the requirement might close.",
+      unk: "What the Attorney General will count as program services.",
+      tw: "Pressure to direct more clinic revenue to patient services, in exchange for penalties that could strain or close some clinics.",
+      s: { fc: 3, oc: 4, ac: 5, if: 3, ev: 2, lr: 2, nb: 2 }, u: { if: 1 },
+      r: { fc: "LAO gives the enforcement cost. Penalty and closure costs unknown.", oc: "A 90% target reported yearly, with details set later by the Attorney General.", ac: "Required reporting and penalties, with audits, patient lawsuits and criminal charges authorized.", if: "Builds on existing tax-form categories, but detailed guidance is pending.", ev: "No independent study of the effects of this rule.", lr: "LAO says some clinics might close.", nb: "More transparency, but no evidence it improves care, and LAO flags possible closures." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0, 2], ev: [0], lr: [0], nb: [0] },
+      src: std("44", [["Official arguments", SOSPDF + "prop44.pdf", "Official, campaign arguments"], ["NACHC California health center fact sheet (patient count)", "https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf", "Independent"]]) },
+    { n: "45", name: "Environmental review fast track", topic: "Environment", kind: "Law change · citizen initiative",
+      title: "Modifies environmental review for certain projects", type: "Initiative statute",
+      ask: "Should nine kinds of projects, led by housing, get an optional fast track through environmental review?",
+      does: "Nine project types (housing, water, clean energy, health facilities, fire and police stations, wildfire risk reduction, broadband, education facilities, transportation) can opt into a faster environmental review (CEQA) with firm deadlines. Lawsuits must be filed within 30 days and decided within 270 days including appeals. Courts may add up to 90 days, and longer only if all parties agree. Courts can pause only the flawed part of a project.",
+      yes: "Certain public and private projects would be eligible for new project review and court challenge procedures.", yesE: "",
+      no: "Projects would continue to use existing review and court challenge procedures.", noE: "This includes CEQA exemptions the Legislature passed in 2025.",
+      money: "LAO estimates initial state and local costs likely in the high tens of millions a year, possibly over $100 million, partly covered by fees. Long-term effects are uncertain.",
+      who: "Developers, public agencies, courts, tribes, neighbors of projects.",
+      out: "Projects that opt in get environmental review and court decisions within fixed deadlines.",
+      acct: "No reporting, audit or outcome target. Deadlines are enforced through the courts and applicant challenges when agencies miss them.",
+      argFor: "Supporters' official argument says approvals are too slow and costly for housing, water, energy, schools and hospitals, and this keeps protections.",
+      argAgainst: "Opponents' official argument says it limits environmental review and public input while its funders profit.",
+      pro: "California Water Association, California Children's Hospital Association (official argument). News reports add the California Chamber of Commerce (sponsor), the California Hospital Association and the California Republican Party.",
+      con: "Coalition for Clean Air, Clean Water Action, California Environmental Voters (official argument). News reports add the California Labor Federation, Sierra Club California, the League of Women Voters and the California Democratic Party.",
+      risk: "Narrower review, including fewer alternatives considered and consultation only with federally recognized tribes.",
+      unk: "How many projects opt in and whether housing gets built faster. There is no neutral figure for how long CEQA lawsuits take today. A Holland & Knight study led by Jennifer Hernandez, who HousingWire reports helped write the measure, puts it at four to five years.",
+      tw: "Faster, more predictable approvals, in exchange for narrower environmental and tribal review.",
+      s: { fc: 3, oc: 4, ac: 3, if: 3, ev: 2, lr: 2, nb: 3 }, u: { ev: 1 },
+      r: { fc: "LAO gives an early-years range, long-term effect unknown.", oc: "Precise, observable deadlines, but no housing outcome target.", ac: "No reporting or audit, but a built-in remedy when agencies miss deadlines.", if: "Tight deadlines for agencies and courts.", ev: "Studies of benefits come mostly from interested parties. No neutral data on current lawsuit length.", lr: "Narrower review and consultation only with federally recognized tribes.", nb: "Faster approvals at a public cost LAO puts in the high tens of millions a year. Housing gains and environmental trade-offs both unmeasured." },
+      rs: { fc: [0], oc: [2], ac: [2], if: [0], ev: [4], lr: [0], nb: [0] },
+      src: std("45", [["Official arguments", SOSPDF + "prop45.pdf", "Official, campaign arguments"], ["HousingWire on the Hernandez CEQA study", "https://www.housingwire.com/articles/california-prop-45-ceqa-timelines/", "Independent"], ["LAist guide (supporters and opponents)", "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review", "Independent"]]) }
+  ];
+
+  var ANSWERS = [
+    { v: -2, t: "Strongly against" }, { v: -1, t: "Against" }, { v: 0, t: "Not sure" },
+    { v: 1, t: "For" }, { v: 2, t: "Strongly for" }
+  ];
+  var PREF_TEXT = { "-2": "Strongly oppose", "-1": "Oppose", "0": "Not sure", "1": "Support", "2": "Strongly support" };
+
+  var KEY = "ballot-weighing-v2";
+  var state = { w: {}, g: {} };
+  function applyPreset(id) { var p = PRESETS.filter(function (x) { return x.id === id; })[0]; FACTORS.forEach(function (f) { state.w[f.k] = p.w[f.k]; }); }
+  applyPreset("def");
+  PROPS.forEach(function (p) { state.g[p.n] = null; });
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY) || "null");
+    if (saved && saved.w && saved.g) {
+      Object.keys(saved.w).forEach(function (k) {
+        var v = saved.w[k];
+        if (k in state.w && typeof v === "number" && v >= 0 && v <= 5) state.w[k] = Math.round(v);
+      });
+      Object.keys(saved.g).forEach(function (k) {
+        var v = saved.g[k];
+        if (k in state.g && (v === null || (typeof v === "number" && v >= -2 && v <= 2))) state.g[k] = v === null ? null : Math.round(v);
+      });
+    }
+  } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function $(id) { return document.getElementById(id); }
+  function rated(p, k) { return typeof p.s[k] === "number" && p.s[k] >= 1 && p.s[k] <= 5; }
+  function totalWeight() { var t = 0; FACTORS.forEach(function (f) { t += state.w[f.k]; }); return t; }
+
+  function quality(p) {
+    var sum = 0, wt = 0;
+    FACTORS.forEach(function (f) {
+      var w = state.w[f.k];
+      if (w > 0 && rated(p, f.k)) { sum += w * p.s[f.k]; wt += w; }
+    });
+    if (wt === 0) return { off: true };
+    var avg = Math.min(5, Math.max(1, Math.round((sum / wt) * 10) / 10));
+    return { off: false, avg: avg, q: (avg - 1) / 4 };
+  }
+  function qualityWord(avg) {
+    if (avg < 2) return "Weak";
+    if (avg < 2.75) return "Mixed";
+    if (avg < 3.25) return "Fair";
+    if (avg < 4) return "Solid";
+    return "Strong";
+  }
+  // Wording when no evidence score is computed. All weights 0 means not weighted; otherwise the weighted factors have no valid rating.
+  function offText() { return totalWeight() === 0 ? "Evidence not weighted" : "No evidence score available"; }
+  function limitedWeighted(p) { return FACTORS.some(function (f) { return state.w[f.k] > 0 && (p.u[f.k] || !rated(p, f.k)); }); }
+
+  function lean(p) {
+    var g = state.g[p.n], qu = quality(p), r = { qu: qu, g: g };
+    r.pref = g === null ? "Not answered" : PREF_TEXT[String(g)];
+    if (g === null) { r.cls = "none"; r.label = "Not answered"; r.why = "Pick an answer above to see how your preference and the evidence line up."; }
+    else if (g === 0) { r.cls = "unsure"; r.label = "Not sure"; r.why = "Not sure is not counted as support or opposition. Compare the YES and NO boxes, or open More facts."; }
+    else if (g < 0) { r.cls = "no"; r.label = "Leans toward NO"; r.why = "This reflects your opposition to the goal. It is not a finding that the evidence shows the measure is bad."; }
+    else if (qu.off) {
+      r.cls = "yes"; r.label = "Leans toward YES";
+      r.why = totalWeight() === 0 ? "Based on your preference only, because every evidence factor is turned off." : "Based on your preference only, because none of your weighted factors has a rating for this measure.";
+    } else {
+      var cut = g === 2 ? 2 : 3;
+      if (qu.avg >= cut) { r.cls = "yes"; r.label = "Leans toward YES"; r.why = "You " + (g === 2 ? "strongly " : "") + "support the goal, and on your priorities it rates " + qualityWord(qu.avg) + " (" + qu.avg.toFixed(1) + "), at or above the " + cut.toFixed(1) + " line."; }
+      else { r.cls = "close"; r.label = "Mixed / uncertain"; r.why = "You " + (g === 2 ? "strongly " : "") + "support the goal, but on your priorities it rates " + qualityWord(qu.avg) + " (" + qu.avg.toFixed(1) + "), below the " + cut.toFixed(1) + " line."; }
+    }
+    return r;
+  }
+  function evidenceNote(p) {
+    var used = FACTORS.filter(function (f) { return state.w[f.k] > 0 && rated(p, f.k); });
+    if (!used.length) return "";
+    var best = used.slice().sort(function (a, b) { return p.s[b.k] - p.s[a.k] || state.w[b.k] - state.w[a.k]; })[0];
+    var worst = used.slice().sort(function (a, b) { return p.s[a.k] - p.s[b.k] || state.w[b.k] - state.w[a.k]; })[0];
+    return p.s[best.k] === p.s[worst.k] ? "Rated evenly across the factors you weigh." :
+      "Strongest on " + best.name + " (" + p.s[best.k] + "). Weakest on " + worst.name + " (" + p.s[worst.k] + ").";
+  }
+
+  // Presets
+  var prEl = $("presets");
+  function setPreset(id) { applyPreset(id); FACTORS.forEach(function (f) { $("w-" + f.k).value = state.w[f.k]; }); save(); renderAll(); }
+  PRESETS.forEach(function (p) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "preset"; b.textContent = p.name; b.dataset.id = p.id;
+    b.addEventListener("click", function () { setPreset(p.id); });
+    prEl.appendChild(b);
+  });
+  $("zero-reset").addEventListener("click", function () { setPreset("def"); });
+  function activePreset() {
+    for (var i = 0; i < PRESETS.length; i++) {
+      var p = PRESETS[i], same = FACTORS.every(function (f) { return p.w[f.k] === state.w[f.k]; });
+      if (same) return p;
+    }
+    return null;
+  }
+
+  // Standard Evaluation Framework table (documents the fixed default weights)
+  var STD = PRESETS[0].w;
+  $("fw-body").innerHTML = FACTORS.map(function (f) {
+    return '<li><span class="fw-n">' + esc(f.name) + '</span><span class="fw-w">Weight ' + STD[f.k] + ' of 5 · ' + LEVELS[STD[f.k]] + '</span><span class="fw-d">' + esc(f.q) + ' ' + esc(f.d) + '</span></li>';
+  }).join("");
+
+  // Factor sliders
+  $("factors").innerHTML = FACTORS.map(function (f) {
+    return '<div class="factor"><div class="f-top"><label for="w-' + f.k + '">' + esc(f.name) + '</label><span class="lvl" id="l-' + f.k + '"></span></div>' +
+      '<div class="f-q">' + esc(f.q) + '</div><div class="f-d" id="d-' + f.k + '">' + esc(f.d) + '</div>' +
+      '<input type="range" min="0" max="5" step="1" id="w-' + f.k + '" value="' + state.w[f.k] + '" aria-describedby="d-' + f.k + '">' +
+      '<div class="ticks" aria-hidden="true"><span>Ignore</span><span>Top priority</span></div></div>';
+  }).join("");
+  FACTORS.forEach(function (f) {
+    $("w-" + f.k).addEventListener("input", function (e) { state.w[f.k] = +e.target.value; save(); renderAll(); });
+  });
+
+  // Proposition cards
+  function dots(p, k) {
+    if (!rated(p, k)) return '<span class="nr">Not rated</span>';
+    var n = p.s[k], h = "";
+    for (var i = 1; i <= 5; i++) h += '<i class="' + (i <= n ? "on" : "") + '"></i>';
+    var lim = p.u[k] ? " limited" : "";
+    var lab = n + " of 5" + (lim ? ", limited information" : "");
+    return '<span class="dots' + lim + '" role="img" title="' + lab + '" aria-label="' + lab + '">' + h + '</span>';
+  }
+  function srcRefs(p, k) {
+    return (p.rs[k] || []).filter(function (i) { return p.src[i]; }).map(function (i) {
+      return '<a class="ref" href="' + esc(p.src[i][1]) + '" target="_blank" rel="noopener" aria-label="Source ' + (i + 1) + ', ' + esc(p.src[i][0]) + ' (opens in a new tab)">[' + (i + 1) + ']</a>';
+    }).join(" ");
+  }
+  $("props").innerHTML = PROPS.map(function (p) {
+    var pills = ANSWERS.map(function (a) {
+      var id = "g-" + p.n + "-" + (a.v + 2);
+      return '<label class="pill" for="' + id + '"><input type="radio" name="g-' + p.n + '" id="' + id + '" value="' + a.v + '"' +
+        (state.g[p.n] === a.v ? " checked" : "") + '><span>' + esc(a.t) + '</span></label>';
+    }).join("");
+    var ratings = FACTORS.map(function (f) { return '<div class="rt"><span>' + esc(f.name) + '</span>' + dots(p, f.k) + '</div>'; }).join("");
+    var reasons = FACTORS.map(function (f) {
+      var sc = rated(p, f.k) ? p.s[f.k] + " of 5" + (p.u[f.k] ? ", limited information" : "") : "Not rated";
+      return '<li><b>' + esc(f.name) + ', ' + sc + '.</b> ' + esc(p.r[f.k] || "") + ' ' + srcRefs(p, f.k) + '</li>';
+    }).join("");
+    var srcs = p.src.map(function (s, i) { return '<li><a href="' + esc(s[1]) + '" target="_blank" rel="noopener">[' + (i + 1) + '] ' + esc(s[0]) + '<span class="vh"> (opens in a new tab)</span></a> <span class="role">' + esc(s[2]) + '</span></li>'; }).join("");
+    var box = function (cls, head, o, e) {
+      return '<div class="oc ' + cls + '"><b>' + head + '</b><span>' + esc(o) + '</span>' + (e ? '<span class="est">' + esc(e) + '</span>' : '') + '</div>';
+    };
+    return '<article class="prop" id="prop-' + p.n + '" aria-labelledby="h-' + p.n + '">' +
+      '<div class="prop-main">' +
+        '<div class="tags"><span class="num">Prop ' + p.n + '</span><span class="tag">' + esc(p.topic) + '</span><span class="tag">' + esc(p.kind) + '</span></div>' +
+        '<h3 id="h-' + p.n + '">' + esc(p.name) + '</h3>' +
+        '<p class="official">Official title. ' + esc(p.title) + '. ' + esc(p.type) + '.</p>' +
+        '<p class="does">' + esc(p.does) + '</p>' +
+        '<div class="outcomes">' + box("oc-yes", "A YES vote means", p.yes, p.yesE) + box("oc-no", "A NO vote means", p.no, p.noE) + '</div>' +
+        '<details class="facts" id="facts-' + p.n + '"><summary>More facts, arguments, ratings and sources</summary><div class="facts-body"><dl>' +
+          '<dt>Cost or revenue</dt><dd>' + esc(p.money) + '</dd>' +
+          '<dt>Who is affected</dt><dd>' + esc(p.who) + '</dd>' +
+          '<dt>Expected outcome</dt><dd>' + esc(p.out) + '</dd>' +
+          '<dt>Accountability</dt><dd>' + esc(p.acct) + '</dd>' +
+          '<dt>Argument for</dt><dd>' + esc(p.argFor) + '</dd>' +
+          '<dt>Argument against</dt><dd>' + esc(p.argAgainst) + '</dd>' +
+          '<dt>Biggest risk</dt><dd>' + esc(p.risk) + '</dd>' +
+          '<dt>Key uncertainty</dt><dd>' + esc(p.unk) + '</dd>' +
+          '<dt>Backers</dt><dd>' + esc(p.pro) + '</dd>' +
+          '<dt>Opponents</dt><dd>' + esc(p.con) + '</dd>' +
+        '</dl><div class="ratings"><div class="ratings-h">This tool\'s ratings, 1 weak to 5 strong</div><div class="rgrid">' + ratings + '</div>' +
+        '<details class="why-r"><summary>Why these ratings</summary><ul>' + reasons + '</ul></details></div>' +
+        '<div class="srcs"><b>Sources</b><ol>' + srcs + '</ol></div></div></details>' +
+        '<fieldset class="ask"><legend>' + esc(p.ask) + '</legend><div class="pills">' + pills + '</div><p class="skip">Not sure counts as a choice. Leave all buttons empty to skip.</p></fieldset>' +
+      '</div>' +
+      '<div class="result" role="group" aria-label="Your result for Prop ' + p.n + '"><div class="result-h">Your result</div>' +
+        '<div class="kv"><span>Your preference</span><b id="pf-' + p.n + '"></b></div>' +
+        '<div class="meter"><div class="meter-label"><span class="ev-lab">Evidence score</span><span id="q-' + p.n + '"></span></div><div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i></div></div>' +
+        '<div class="sw" id="sw-' + p.n + '"></div>' +
+        '<div class="caution" id="c-' + p.n + '" hidden>Limited evidence on factors you weigh. Interpret this score cautiously.</div>' +
+        '<div class="verdict" id="v-' + p.n + '" aria-live="polite"></div>' +
+        '<div class="why" id="y-' + p.n + '"></div>' +
+        '<div class="consider"><b>Worth weighing</b> ' + esc(p.tw) + '</div></div>' +
+      '</article>';
+  }).join("");
+  PROPS.forEach(function (p) {
+    document.getElementsByName("g-" + p.n).forEach(function (r) {
+      r.addEventListener("change", function (e) { state.g[p.n] = +e.target.value; save(); renderAll(); });
+    });
+  });
+
+  // Clears answers only. Weights stay as set; use Standard to reset them.
+  $("reset").addEventListener("click", function () {
+    PROPS.forEach(function (p) {
+      state.g[p.n] = null;
+      document.getElementsByName("g-" + p.n).forEach(function (r) { r.checked = false; });
+    });
+    save(); renderAll();
+  });
+
+  $("ballot").addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a.b-row") : null;
+    if (!a) return;
+    var d = $("facts-" + a.dataset.n); if (d) d.open = true;
+  });
+
+  function tallyHtml(c) {
+    return '<span class="chip c-yes">Leans YES ' + c.yes + '</span><span class="chip c-no">Leans NO ' + c.no + '</span>' +
+      '<span class="chip c-close">Mixed ' + c.close + '</span><span class="chip c-unsure">Not sure ' + c.unsure + '</span>' +
+      '<span class="chip c-none">Not answered ' + c.none + '</span>';
+  }
+
+  // Anonymous usage counts (GoatCounter, GitHub copy only). Sends only "used" and "finished" events, never answers.
+  var GC_SENT = "ballot-gc-sent-v1";
+  var GC_MEMO = {};
+  function trackUse(answered) {
+    if (!window.goatcounter || !window.goatcounter.count) return;
+    var sent = {};
+    try { sent = JSON.parse(localStorage.getItem(GC_SENT) || "{}") || {}; } catch (e) {}
+    function send(key, title) {
+      // GC_MEMO also remembers what was sent in this page view, for browsers that block storage (R3-01).
+      if (sent[key] || GC_MEMO[key]) return;
+      GC_MEMO[key] = 1;
+      try { window.goatcounter.count({ path: key, title: title, event: true }); sent[key] = 1; localStorage.setItem(GC_SENT, JSON.stringify(sent)); } catch (e) {}
+    }
+    if (answered >= 1) send("used-tool", "Answered at least one question");
+    if (answered >= PROPS.length) send("finished-all-14", "Answered all 14 questions");
+  }
+
+  function renderAll() {
+    var totalW = totalWeight();
+    FACTORS.forEach(function (f) {
+      var v = state.w[f.k];
+      var l = $("l-" + f.k); l.textContent = LEVELS[v]; l.className = "lvl" + (v === 0 ? " off" : "");
+      $("w-" + f.k).setAttribute("aria-valuetext", v + " of 5, " + LEVELS[v]);
+    });
+    $("zero").hidden = totalW !== 0;
+    var ap = activePreset();
+    Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (b) { b.setAttribute("aria-pressed", ap && ap.id === b.dataset.id ? "true" : "false"); });
+    $("preset-desc").textContent = ap ? ap.d : "Custom mix. Pick Standard above to return to the framework weights.";
+    var isStd = ap && ap.id === "def";
+    $("fw-status").innerHTML = isStd ? "Using the <b>standard weights</b>." : "Using <b>your custom weights</b>, not the standard ones. Open Customize and pick Standard to switch back.";
+    Array.prototype.forEach.call(document.querySelectorAll(".ev-lab"), function (e) { e.textContent = isStd ? "Evidence score" : "Evidence score, custom weights"; });
+
+    var counts = { yes: 0, no: 0, close: 0, unsure: 0, none: 0 }, res = {}, answered = 0;
+    PROPS.forEach(function (p) {
+      var l = lean(p); res[p.n] = l; counts[l.cls]++;
+      if (state.g[p.n] !== null) answered++;
+      $("pf-" + p.n).textContent = l.pref;
+      var v = $("v-" + p.n); v.className = "verdict v-" + l.cls; v.textContent = l.label;
+      $("q-" + p.n).textContent = l.qu.off ? offText() : l.qu.avg.toFixed(1) + " of 5 · " + qualityWord(l.qu.avg);
+      $("b-" + p.n).style.width = l.qu.off ? "0%" : Math.round(l.qu.q * 100) + "%";
+      $("sw-" + p.n).textContent = l.qu.off ? "" : evidenceNote(p);
+      $("c-" + p.n).hidden = l.qu.off || !limitedWeighted(p);
+      $("y-" + p.n).textContent = l.why;
+    });
+
+    $("ans-n").textContent = answered;
+    $("ans-bar").style.width = Math.round(answered / PROPS.length * 100) + "%";
+    $("tally-top").innerHTML = tallyHtml(counts);
+    $("tally").innerHTML = tallyHtml(counts);
+
+    $("ballot").innerHTML = PROPS.map(function (p) {
+      var l = res[p.n];
+      var ev = l.qu.off ? offText() : "Evidence " + l.qu.avg.toFixed(1) + " of 5 · " + qualityWord(l.qu.avg);
+      return '<a class="b-row" data-n="' + p.n + '" href="#prop-' + p.n + '"><span class="bn">Prop ' + p.n + '</span>' +
+        '<span class="bmid"><span class="bname">' + esc(p.name) + '</span><span class="bsub">You said ' + esc(l.pref) + ' · ' + ev + '</span></span>' +
+        '<span class="chip c-' + l.cls + '">' + esc(l.label) + '</span></a>';
+    }).join("");
+
+    // Prop 40 conflict note, shown when the user leans toward YES or is mixed on 40 and on 41 or 42.
+    var on = function (n) { return res[n].cls === "yes" || res[n].cls === "close"; }, hits = [];
+    ["41", "42"].forEach(function (n) { if (on("40") && on(n)) hits.push(n); });
+    var c = $("conflict");
+    if (hits.length) {
+      c.hidden = false;
+      c.textContent = "Heads up. You lean toward YES on Prop 40 and on Prop " + hits.join(" and ") + ". The LAO says that if Prop " + hits.join(" or ") +
+        " gets more yes votes than Prop 40, courts could find a conflict and block Prop 40 even if it passes. Decide which outcome you want more.";
+    } else { c.hidden = true; c.textContent = ""; }
+
+    trackUse(answered);
+  }
+  renderAll();
+})();
+</script>
+<!-- Visitor counter (GoatCounter v5, pinned with its published integrity hash). Counts one visit with a fixed path and title, plus the two anonymous usage events above. no_onload stops automatic counting. Delete these two scripts to turn counting off, and remove the GoatCounter sentences in the privacy note. -->
+<script>
+(function () {
+  var n = 0, t = setInterval(function () {
+    var gc = window.goatcounter;
+    if (++n > 300) { clearInterval(t); return; }
+    if (!gc || typeof gc.count !== "function") return;
+    clearInterval(t);
+    try { gc.count({ path: location.pathname.replace(/[^A-Za-z0-9\/._-]/g, "") || "/", title: "Ballot Weighing Tool" }); } catch (e) {}
+  }, 100);
+})();
+</script>
+<script data-goatcounter="https://supriyarajeev.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}' async src="https://gc.zgo.at/count.v5.js" crossorigin="anonymous" integrity="sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "elections": [
+    {
+      "id": "2026-11-03",
+      "name": "November 3, 2026 General Election",
+      "date": "2026-11-03",
+      "type": "general",
+      "state": "CA",
+      "status": "current",
+      "files": {
+        "measures": [
+          "data/2026-11-03/statewide.json",
+          "data/2026-11-03/local-measures.json"
+        ],
+        "contests": "data/2026-11-03/contests.json",
+        "candidates": "data/2026-11-03/candidates.json"
+      },
+      "sources": [
+        {
+          "label": "California Secretary of State official voter guide",
+          "url": "https://voterguide.sos.ca.gov/",
+          "type": "Official"
+        }
+      ],
+      "lastVerified": "2026-10-22"
+    }
+  ]
+}

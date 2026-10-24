@@ -1,0 +1,4191 @@
+{
+ "schemaVersion": 1,
+ "jurisdictions": [
+  {
+   "id": "ca",
+   "name": "California",
+   "type": "state",
+   "parent": null
+  },
+  {
+   "id": "ca-alameda",
+   "name": "Alameda County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://acvote.alamedacountyca.gov/election-information/elections?id=260",
+   "coverage": {
+    "status": "pilot",
+    "note": "Pilot county. All 27 local measures are listed from the registrar's official election page; 26 have the ballot question and 26 the vote threshold from the official submittal forms or city documents. Congressional and legislative contests are listed. Local contests are collected only for some cities and districts, from city clerk and district sources.",
+    "listComplete": true
+   },
+   "citySource": "https://acgov.org/about/cities.htm",
+   "cityInventory": {
+    "status": "complete",
+    "count": 14,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/alameda_county"
+   },
+   "lookupUrl": "https://www.alamedacountyca.gov/rovmvp_app/mvp.do",
+   "lookupLabel": "voter profile lookup (registration status)",
+   "region": "bay-area",
+   "electionAuthority": "Alameda County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "partial",
+    "candidates": "partial",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 14,
+     "pagesReached": 10,
+     "notReachable": 4,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-alameda.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   }
+  },
+  {
+   "id": "ca-alameda-alameda",
+   "name": "Alameda",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-albany",
+   "name": "Albany",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-berkeley",
+   "name": "Berkeley",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-dublin",
+   "name": "Dublin",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-emeryville",
+   "name": "Emeryville",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-fremont",
+   "name": "Fremont",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-hayward",
+   "name": "Hayward",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-livermore",
+   "name": "Livermore",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-newark",
+   "name": "Newark",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-oakland",
+   "name": "Oakland",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-piedmont",
+   "name": "Piedmont",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-pleasanton",
+   "name": "Pleasanton",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-san-leandro",
+   "name": "San Leandro",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-alameda-union-city",
+   "name": "Union City",
+   "type": "city",
+   "parent": "ca-alameda"
+  },
+  {
+   "id": "ca-contra-costa",
+   "name": "Contra Costa County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://www.contracostavote.gov/",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "12 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. The county's own candidate contests (city, school and other district races) are not collected. Two East Bay Municipal Utility District wards, recorded under Alameda County, cross into the county and are shown where they may apply."
+   },
+   "citySource": "https://www.contracosta.ca.gov/1243/Cities-of-Contra-Costa",
+   "cityInventory": {
+    "status": "complete",
+    "count": 19,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/contra_costa_county"
+   },
+   "region": "bay-area",
+   "electionAuthority": "Contra Costa County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 23,
+     "pagesReached": 20,
+     "notReachable": 3,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-contra-costa.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+     "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-contra-costa-antioch",
+   "name": "Antioch",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-brentwood",
+   "name": "Brentwood",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-clayton",
+   "name": "Clayton",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-concord",
+   "name": "Concord",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-danville",
+   "name": "Danville",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-el-cerrito",
+   "name": "El Cerrito",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-hercules",
+   "name": "Hercules",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-lafayette",
+   "name": "Lafayette",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-martinez",
+   "name": "Martinez",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-moraga",
+   "name": "Moraga",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-oakley",
+   "name": "Oakley",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-orinda",
+   "name": "Orinda",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-pinole",
+   "name": "Pinole",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-pittsburg",
+   "name": "Pittsburg",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-pleasant-hill",
+   "name": "Pleasant Hill",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-richmond",
+   "name": "Richmond",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-san-pablo",
+   "name": "San Pablo",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-san-ramon",
+   "name": "San Ramon",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-contra-costa-walnut-creek",
+   "name": "Walnut Creek",
+   "type": "city",
+   "parent": "ca-contra-costa"
+  },
+  {
+   "id": "ca-marin",
+   "name": "Marin County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "20 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests are not collected yet."
+   },
+   "citySource": "https://www.marincounty.gov/departments/elections/general-voting-information-and-resources/citytown-clerks-office",
+   "cityInventory": {
+    "status": "complete",
+    "count": 11,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/marin_county"
+   },
+   "region": "bay-area",
+   "electionAuthority": "Marin County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 8,
+     "pagesReached": 4,
+     "notReachable": 4,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-marin.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-marin-belvedere",
+   "name": "Belvedere",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-corte-madera",
+   "name": "Corte Madera",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-fairfax",
+   "name": "Fairfax",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-larkspur",
+   "name": "Larkspur",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-mill-valley",
+   "name": "Mill Valley",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-novato",
+   "name": "Novato",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-ross",
+   "name": "Ross",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-san-anselmo",
+   "name": "San Anselmo",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-san-rafael",
+   "name": "San Rafael",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-sausalito",
+   "name": "Sausalito",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-marin-tiburon",
+   "name": "Tiburon",
+   "type": "city",
+   "parent": "ca-marin"
+  },
+  {
+   "id": "ca-napa",
+   "name": "Napa County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://www.napacounty.gov/396",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "4 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests are not collected yet."
+   },
+   "citySource": "https://www.napa.lafco.ca.gov/files/dfbfa43b7/2026+LAFCO+Directory+of+Local+Agencies.pdf",
+   "cityInventory": {
+    "status": "complete",
+    "count": 5,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/napa_county"
+   },
+   "lookupUrl": "https://app.napacounty.gov/VoterInfo/",
+   "lookupLabel": "voter information lookup (ballot status and vote centers)",
+   "region": "bay-area",
+   "electionAuthority": "Napa County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 6,
+     "pagesReached": 1,
+     "notReachable": 5,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-napa.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "Napa County official local measures page",
+     "url": "https://www.napacounty.gov/2319/Local-Measures",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-napa-american-canyon",
+   "name": "American Canyon",
+   "type": "city",
+   "parent": "ca-napa"
+  },
+  {
+   "id": "ca-napa-calistoga",
+   "name": "Calistoga",
+   "type": "city",
+   "parent": "ca-napa"
+  },
+  {
+   "id": "ca-napa-napa",
+   "name": "Napa",
+   "type": "city",
+   "parent": "ca-napa"
+  },
+  {
+   "id": "ca-napa-st-helena",
+   "name": "St. Helena",
+   "type": "city",
+   "parent": "ca-napa"
+  },
+  {
+   "id": "ca-napa-yountville",
+   "name": "Yountville",
+   "type": "city",
+   "parent": "ca-napa"
+  },
+  {
+   "id": "ca-sf",
+   "name": "San Francisco (City and County)",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://www.sf.gov/november-3-2026-consolidated-general-election",
+   "coverage": {
+    "status": "list-only",
+    "note": "All local measures are listed from the official sf.gov list of qualified ballot measures; the regional transit measure, Measure RTM, is shown separately. Detailed content is still being researched. Local candidate contests come from the Department of Elections candidate page (names only).",
+    "listComplete": true
+   },
+   "citySource": "https://census.bayareametro.gov/cities-counties/san_francisco_county",
+   "cityInventory": {
+    "status": "complete",
+    "count": 1,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": false,
+    "source": "https://census.bayareametro.gov/cities-counties/san_francisco_county"
+   },
+   "consolidatedCity": "ca-sf-city",
+   "lookupUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+   "lookupLabel": "Voter Information Pamphlet (PDF, includes the sample ballot)",
+   "region": "bay-area",
+   "electionAuthority": "San Francisco (City and County) elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "collected",
+    "candidates": "collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 4,
+     "pagesReached": 4,
+     "notReachable": 0,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-sf.json",
+     "summary": "Cross-check of the sf.gov list of qualified measures against official San Francisco pages, including the Voter Information Pamphlet table of contents. Every page checked could be read. The pamphlet lists the same measure letters; three titles are worded slightly differently. The pamphlet's measure pages were not read, so the list is not marked reconciled."
+    }
+   }
+  },
+  {
+   "id": "ca-sf-city",
+   "name": "City and County of San Francisco",
+   "type": "city",
+   "parent": "ca-sf"
+  },
+  {
+   "id": "ca-san-mateo",
+   "name": "San Mateo County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://smcacre.gov/elections",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "28 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests are not collected yet."
+   },
+   "citySource": "https://www.smcgov.org/lafco/cities-san-mateo-county",
+   "cityInventory": {
+    "status": "complete",
+    "count": 20,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/san_mateo_county"
+   },
+   "lookupUrl": "https://smcacre.gov/my-election-info",
+   "lookupLabel": "My Election Info lookup (registration and districts)",
+   "region": "bay-area",
+   "electionAuthority": "San Mateo County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 23,
+     "pagesReached": 6,
+     "notReachable": 17,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-san-mateo.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-san-mateo-atherton",
+   "name": "Atherton",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-belmont",
+   "name": "Belmont",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-brisbane",
+   "name": "Brisbane",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-burlingame",
+   "name": "Burlingame",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-colma",
+   "name": "Colma",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-daly-city",
+   "name": "Daly City",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-east-palo-alto",
+   "name": "East Palo Alto",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-foster-city",
+   "name": "Foster City",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-half-moon-bay",
+   "name": "Half Moon Bay",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-hillsborough",
+   "name": "Hillsborough",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-menlo-park",
+   "name": "Menlo Park",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-millbrae",
+   "name": "Millbrae",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-pacifica",
+   "name": "Pacifica",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-portola-valley",
+   "name": "Portola Valley",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-redwood-city",
+   "name": "Redwood City",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-san-bruno",
+   "name": "San Bruno",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-san-carlos",
+   "name": "San Carlos",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-san-mateo",
+   "name": "San Mateo",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-south-san-francisco",
+   "name": "South San Francisco",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-san-mateo-woodside",
+   "name": "Woodside",
+   "type": "city",
+   "parent": "ca-san-mateo"
+  },
+  {
+   "id": "ca-santa-clara",
+   "name": "Santa Clara County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://vote.santaclaracounty.gov/",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "19 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests are not collected yet."
+   },
+   "citySource": "https://santaclaralafco.org/node/23",
+   "cityInventory": {
+    "status": "complete",
+    "count": 15,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/santa_clara_county"
+   },
+   "region": "bay-area",
+   "electionAuthority": "Santa Clara County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 12,
+     "pagesReached": 11,
+     "notReachable": 1,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-santa-clara.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-santa-clara-campbell",
+   "name": "Campbell",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-cupertino",
+   "name": "Cupertino",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-gilroy",
+   "name": "Gilroy",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-los-altos",
+   "name": "Los Altos",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-los-altos-hills",
+   "name": "Los Altos Hills",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-los-gatos",
+   "name": "Los Gatos",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-milpitas",
+   "name": "Milpitas",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-monte-sereno",
+   "name": "Monte Sereno",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-morgan-hill",
+   "name": "Morgan Hill",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-mountain-view",
+   "name": "Mountain View",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-palo-alto",
+   "name": "Palo Alto",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-san-jose",
+   "name": "San Jose",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-santa-clara",
+   "name": "Santa Clara",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-saratoga",
+   "name": "Saratoga",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-santa-clara-sunnyvale",
+   "name": "Sunnyvale",
+   "type": "city",
+   "parent": "ca-santa-clara"
+  },
+  {
+   "id": "ca-solano",
+   "name": "Solano County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://app.solanocounty.gov/depts/rov",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "11 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests are not collected yet."
+   },
+   "citySource": "https://app.solanocounty.gov/depts/rov",
+   "cityInventory": {
+    "status": "complete",
+    "count": 7,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/solano_county"
+   },
+   "region": "bay-area",
+   "electionAuthority": "Solano County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 10,
+     "pagesReached": 6,
+     "notReachable": 4,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-solano.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "Solano County official current election page, local measures",
+     "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-solano-benicia",
+   "name": "Benicia",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-solano-dixon",
+   "name": "Dixon",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-solano-fairfield",
+   "name": "Fairfield",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-solano-rio-vista",
+   "name": "Rio Vista",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-solano-suisun-city",
+   "name": "Suisun City",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-solano-vacaville",
+   "name": "Vacaville",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-solano-vallejo",
+   "name": "Vallejo",
+   "type": "city",
+   "parent": "ca-solano"
+  },
+  {
+   "id": "ca-sonoma",
+   "name": "Sonoma County",
+   "type": "county",
+   "parent": "ca",
+   "electionsUrl": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters",
+   "coverage": {
+    "status": "list-only",
+    "listComplete": false,
+    "note": "12 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. The county list does not say it is final. Local candidate contests are not collected yet."
+   },
+   "citySource": "https://socogis.sonomacounty.ca.gov/map/rest/services/OWTSPublic/City_Limit/MapServer/layers",
+   "cityInventory": {
+    "status": "complete",
+    "count": 9,
+    "source": "https://census.bayareametro.gov/cities-counties",
+    "checked": "2026-10-23",
+    "note": "Matches the regional list of incorporated cities and towns."
+   },
+   "unincorporated": {
+    "listed": true,
+    "source": "https://census.bayareametro.gov/cities-counties/sonoma_county"
+   },
+   "lookupUrl": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/general-information/voter-information-lookup",
+   "lookupLabel": "voter information lookup page",
+   "region": "bay-area",
+   "electionAuthority": "Sonoma County elections office",
+   "participates2026": "yes",
+   "inventory": {
+    "measures": "collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22",
+    "reconciliation": {
+     "date": "2026-10-22",
+     "pagesChecked": 9,
+     "pagesReached": 5,
+     "notReachable": 4,
+     "discrepancies": [],
+     "auditFile": "audit/2026-10-22/raw/county-ca-sonoma.json",
+     "summary": "Partial cross-check of the county list against city clerk and district pages. Not every city and district was reached, so the list is not reconciled."
+    }
+   },
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sonoma-cloverdale",
+   "name": "Cloverdale",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-cotati",
+   "name": "Cotati",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-healdsburg",
+   "name": "Healdsburg",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-petaluma",
+   "name": "Petaluma",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-rohnert-park",
+   "name": "Rohnert Park",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-santa-rosa",
+   "name": "Santa Rosa",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-sebastopol",
+   "name": "Sebastopol",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-sonoma",
+   "name": "Sonoma",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-sonoma-windsor",
+   "name": "Windsor",
+   "type": "city",
+   "parent": "ca-sonoma"
+  },
+  {
+   "id": "ca-bayarea-rtm",
+   "name": "Public Transit Revenue Measure District",
+   "type": "region",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa",
+    "ca-san-mateo",
+    "ca-santa-clara",
+    "ca-sf"
+   ],
+   "note": "Five-county district. Countywide in each listed county."
+  },
+  {
+   "id": "ca-alameda-sd-dublin-unified-school-district",
+   "name": "Dublin Unified School District",
+   "type": "school-district",
+   "parent": "ca-alameda",
+   "areas": [
+    "ca-alameda-dublin"
+   ]
+  },
+  {
+   "id": "ca-alameda-sd-san-lorenzo-unified-school-district",
+   "name": "San Lorenzo Unified School District",
+   "type": "school-district",
+   "parent": "ca-alameda",
+   "areas": []
+  },
+  {
+   "id": "ca-alameda-sd-sunol-glen-unified-school-district",
+   "name": "Sunol Glen Unified School District",
+   "type": "school-district",
+   "parent": "ca-alameda",
+   "areas": []
+  },
+  {
+   "id": "ca-boe-1",
+   "name": "Board of Equalization District 1",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alpine",
+    "ca-amador",
+    "ca-butte",
+    "ca-calaveras",
+    "ca-colusa",
+    "ca-el-dorado",
+    "ca-fresno",
+    "ca-glenn",
+    "ca-inyo",
+    "ca-kern",
+    "ca-kings",
+    "ca-lassen",
+    "ca-madera",
+    "ca-mariposa",
+    "ca-merced",
+    "ca-modoc",
+    "ca-mono",
+    "ca-nevada",
+    "ca-placer",
+    "ca-plumas",
+    "ca-sacramento",
+    "ca-san-bernardino",
+    "ca-san-joaquin",
+    "ca-shasta",
+    "ca-sierra",
+    "ca-siskiyou",
+    "ca-solano",
+    "ca-stanislaus",
+    "ca-sutter",
+    "ca-tehama",
+    "ca-tulare",
+    "ca-tuolumne",
+    "ca-yolo",
+    "ca-yuba"
+   ],
+   "countiesKnown": true,
+   "note": "Full county list from the Secretary of State. San Bernardino County is split between Districts 1 and 4, so in that county this contest may apply.",
+   "sources": [
+    {
+     "label": "Secretary of State 2022 Statement of Vote, Board of Equalization by district",
+     "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/40-boe.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, 2026 Official Voter Information Guide, Board of Equalization districts",
+     "url": "https://voterguide.sos.ca.gov/voter-info/boe-map.htm",
+     "type": "Official"
+    }
+   ],
+   "partialCounties": [
+    "ca-san-bernardino"
+   ]
+  },
+  {
+   "id": "ca-boe-2",
+   "name": "Board of Equalization District 2",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa",
+    "ca-del-norte",
+    "ca-humboldt",
+    "ca-lake",
+    "ca-marin",
+    "ca-mendocino",
+    "ca-monterey",
+    "ca-napa",
+    "ca-san-benito",
+    "ca-sf",
+    "ca-san-luis-obispo",
+    "ca-san-mateo",
+    "ca-santa-barbara",
+    "ca-santa-clara",
+    "ca-santa-cruz",
+    "ca-sonoma",
+    "ca-trinity",
+    "ca-ventura"
+   ],
+   "countiesKnown": true,
+   "note": "Full county list from the Board of Equalization District 2 page, the Secretary of State's 2026 Offices and Subdivisions list and the 2026 Official Voter Information Guide district list. Every listed county is wholly in the district.",
+   "sources": [
+    {
+     "label": "Board of Equalization District 2 counties",
+     "url": "https://www.boe.ca.gov/lieber/district.htm",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State 2022 Statement of Vote, Board of Equalization by district",
+     "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/40-boe.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, 2026 Official Voter Information Guide, Board of Equalization districts",
+     "url": "https://voterguide.sos.ca.gov/voter-info/boe-map.htm",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-boe-3",
+   "name": "Board of Equalization District 3",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-los-angeles"
+   ],
+   "countiesKnown": true,
+   "note": "Full county list from the Board of Equalization District 3 page, the Secretary of State's 2026 Offices and Subdivisions list and the 2026 Official Voter Information Guide district list.",
+   "sources": [
+    {
+     "label": "Secretary of State 2022 Statement of Vote, Board of Equalization by district",
+     "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/40-boe.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, 2026 Official Voter Information Guide, Board of Equalization districts",
+     "url": "https://voterguide.sos.ca.gov/voter-info/boe-map.htm",
+     "type": "Official"
+    },
+    {
+     "label": "Board of Equalization District 3 page",
+     "url": "https://boe.ca.gov/vazquez/district.htm",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-boe-4",
+   "name": "Board of Equalization District 4",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-imperial",
+    "ca-orange",
+    "ca-riverside",
+    "ca-san-bernardino",
+    "ca-san-diego"
+   ],
+   "countiesKnown": true,
+   "note": "Full county list from the Secretary of State. San Bernardino County is split between Districts 1 and 4, so in that county this contest may apply.",
+   "sources": [
+    {
+     "label": "Secretary of State 2022 Statement of Vote, Board of Equalization by district",
+     "url": "https://elections.cdn.sos.ca.gov/sov/2022-general/sov/40-boe.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, 2026 Official Voter Information Guide, Board of Equalization districts",
+     "url": "https://voterguide.sos.ca.gov/voter-info/boe-map.htm",
+     "type": "Official"
+    }
+   ],
+   "partialCounties": [
+    "ca-san-bernardino"
+   ]
+  },
+  {
+   "id": "ca-alpine",
+   "name": "Alpine County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "http://www.alpinecountyca.gov/index.aspx?NID=388",
+   "electionAuthority": "Alpine County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlNote": "Kept as the http address the Secretary of State lists. An https version could not be confirmed on Oct 22, 2026: the session could not open the county site, and web search found no official https elections page."
+  },
+  {
+   "id": "ca-amador",
+   "name": "Amador County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.amadorcounty.gov/government/elections",
+   "electionAuthority": "Amador County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-butte",
+   "name": "Butte County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://buttevotes.net/35/Elections",
+   "electionAuthority": "Butte County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-calaveras",
+   "name": "Calaveras County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://elections.calaverasgov.us/",
+   "electionAuthority": "Calaveras County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlPrevious": "http://elections.calaverasgov.us/",
+   "electionsUrlNote": "County elections site, fetched over https Oct 22, 2026 (page footer \"Copyright 2026 by Calaveras County\")."
+  },
+  {
+   "id": "ca-colusa",
+   "name": "Colusa County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://countyofcolusaca.gov/197/Elections",
+   "electionAuthority": "Colusa County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlPrevious": "http://www.countyofcolusa.org/index.aspx?NID=197",
+   "electionsUrlNote": "Page title \"Elections | Colusa County, CA - Official Website\", fetched Oct 22, 2026. The SOS list gives an older http address on another domain."
+  },
+  {
+   "id": "ca-del-norte",
+   "name": "Del Norte County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.co.del-norte.ca.us/departments/Elections",
+   "electionAuthority": "Del Norte County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-el-dorado",
+   "name": "El Dorado County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.eldoradocounty.ca.gov/County-Government/Elections",
+   "electionAuthority": "El Dorado County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-fresno",
+   "name": "Fresno County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.fresnocountyca.gov/Departments/County-ClerkRegistrar-of-Voters/Elections",
+   "electionAuthority": "Fresno County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-glenn",
+   "name": "Glenn County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.countyofglenn.net/dept/elections/welcome",
+   "electionAuthority": "Glenn County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-humboldt",
+   "name": "Humboldt County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://humboldtgov.org/890/Elections-Voter-Registration",
+   "electionAuthority": "Humboldt County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-imperial",
+   "name": "Imperial County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://elections.imperialcounty.org/",
+   "electionAuthority": "Imperial County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-inyo",
+   "name": "Inyo County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://elections.inyocounty.us/",
+   "electionAuthority": "Inyo County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-kern",
+   "name": "Kern County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.kernvote.com/",
+   "electionAuthority": "Kern County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-kings",
+   "name": "Kings County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.countyofkings.com/departments/administration/elections",
+   "electionAuthority": "Kings County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-lake",
+   "name": "Lake County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.lakecountyca.gov/818/Registrar-of-Voters",
+   "electionAuthority": "Lake County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-lassen",
+   "name": "Lassen County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.lassencounty.gov/194/Elections",
+   "electionAuthority": "Lassen County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlPrevious": "http://www.lassencounty.org/dept/county-clerk-recorder/elections/",
+   "electionsUrlNote": "Page title \"Elections | Lassen County, CA\", linked from the County Clerk-Recorder page, fetched Oct 22, 2026."
+  },
+  {
+   "id": "ca-los-angeles",
+   "name": "Los Angeles County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.lavote.gov/home/voting-elections",
+   "electionAuthority": "Los Angeles County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-madera",
+   "name": "Madera County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://votemadera.com/",
+   "electionAuthority": "Madera County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-mariposa",
+   "name": "Mariposa County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "http://www.mariposacounty.org/87/Elections",
+   "electionAuthority": "Mariposa County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlNote": "Kept as the http address the Secretary of State lists. An https version could not be confirmed on Oct 22, 2026: the session could not open the county site, and web search found no official https elections page."
+  },
+  {
+   "id": "ca-mendocino",
+   "name": "Mendocino County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.mendocinocounty.gov/government/assessor-county-clerk-recorder-elections/elections",
+   "electionAuthority": "Mendocino County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-merced",
+   "name": "Merced County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.countyofmerced.com/3878/Elections",
+   "electionAuthority": "Merced County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-modoc",
+   "name": "Modoc County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.countyofmodoc.gov/554/Elections",
+   "electionAuthority": "Modoc County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-mono",
+   "name": "Mono County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://monocounty.ca.gov/elections",
+   "electionAuthority": "Mono County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-monterey",
+   "name": "Monterey County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.countyofmonterey.gov/government/departments-a-h/elections/home",
+   "electionAuthority": "Monterey County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-nevada",
+   "name": "Nevada County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.nevadacountyca.gov/3446/Elections",
+   "electionAuthority": "Nevada County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-orange",
+   "name": "Orange County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://ocvote.gov/",
+   "electionAuthority": "Orange County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-placer",
+   "name": "Placer County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://placercountyelections.gov/",
+   "electionAuthority": "Placer County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlPrevious": "http://www.placercountyelections.gov",
+   "electionsUrlNote": "Placer County Elections Office site, fetched over https Oct 22, 2026."
+  },
+  {
+   "id": "ca-plumas",
+   "name": "Plumas County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.plumascounty.us/142/Elections-Division-Home",
+   "electionAuthority": "Plumas County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-riverside",
+   "name": "Riverside County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.voteinfo.net/",
+   "electionAuthority": "Riverside County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sacramento",
+   "name": "Sacramento County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://elections.saccounty.gov/Pages/default.aspx",
+   "electionAuthority": "Sacramento County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-san-benito",
+   "name": "San Benito County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.sanbenitocounty-ca-cre.gov/elections",
+   "electionAuthority": "San Benito County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-san-bernardino",
+   "name": "San Bernardino County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://elections.sbcounty.gov/",
+   "electionAuthority": "San Bernardino County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-san-diego",
+   "name": "San Diego County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.sdvote.com/",
+   "electionAuthority": "San Diego County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-san-joaquin",
+   "name": "San Joaquin County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.sjgov.org/department/rov/",
+   "electionAuthority": "San Joaquin County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-san-luis-obispo",
+   "name": "San Luis Obispo County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.slocounty.ca.gov/Departments/Clerk-Recorder.aspx",
+   "electionAuthority": "San Luis Obispo County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-santa-barbara",
+   "name": "Santa Barbara County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.countyofsb.org/164/Elections",
+   "electionAuthority": "Santa Barbara County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-santa-cruz",
+   "name": "Santa Cruz County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://votescount.santacruzcountyca.gov/",
+   "electionAuthority": "Santa Cruz County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-shasta",
+   "name": "Shasta County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://elections.shastacounty.gov/",
+   "electionAuthority": "Shasta County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sierra",
+   "name": "Sierra County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.sierracounty.ca.gov/214/Elections",
+   "electionAuthority": "Sierra County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-siskiyou",
+   "name": "Siskiyou County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.siskiyoucounty.gov/elections",
+   "electionAuthority": "Siskiyou County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-stanislaus",
+   "name": "Stanislaus County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.stanvote.gov/",
+   "electionAuthority": "Stanislaus County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ],
+   "electionsUrlPrevious": "http://stanvote.gov/",
+   "electionsUrlNote": "Stanislaus County Registrar of Voters site, fetched over https Oct 22, 2026."
+  },
+  {
+   "id": "ca-sutter",
+   "name": "Sutter County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.sutter.gov/government/county-departments/clerk-recorder/elections",
+   "electionAuthority": "Sutter County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-tehama",
+   "name": "Tehama County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.tehama.gov/government/departments/elections/",
+   "electionAuthority": "Tehama County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-trinity",
+   "name": "Trinity County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.trinitycounty.org/214/Elections",
+   "electionAuthority": "Trinity County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-tulare",
+   "name": "Tulare County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://tularecounty.ca.gov/elections",
+   "electionAuthority": "Tulare County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-tuolumne",
+   "name": "Tuolumne County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.tuolumnecounty.ca.gov/194/Election-Information",
+   "electionAuthority": "Tuolumne County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ventura",
+   "name": "Ventura County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://clerkrecorder.venturacounty.gov/elections/elections/",
+   "electionAuthority": "Ventura County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-yolo",
+   "name": "Yolo County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.yoloelections.org/",
+   "electionAuthority": "Yolo County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-yuba",
+   "name": "Yuba County",
+   "type": "county",
+   "parent": "ca",
+   "region": "other",
+   "electionsUrl": "https://www.yuba.gov/departments/elections/current_election.php",
+   "electionAuthority": "Yuba County elections office",
+   "participates2026": "yes",
+   "coverage": {
+    "status": "not-started",
+    "note": "Only statewide items are covered for this county so far.",
+    "listComplete": false
+   },
+   "cityInventory": {
+    "status": "not-collected"
+   },
+   "inventory": {
+    "measures": "not-collected",
+    "contests": "not-collected",
+    "candidates": "not-collected",
+    "districts": "not-collected",
+    "lastChecked": "2026-10-22"
+   },
+   "sources": [
+    {
+     "label": "California Secretary of State, county elections offices list (revised 3/11/2026)",
+     "url": "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-contra-costa-sd-west-contra-costa-unified-school-district",
+   "name": "West Contra Costa Unified School District",
+   "type": "school-district",
+   "parent": "ca-contra-costa",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+     "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-contra-costa-sd-acalanes-union-high-school-district",
+   "name": "Acalanes Union High School District",
+   "type": "school-district",
+   "parent": "ca-contra-costa",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+     "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-contra-costa-sd-liberty-union-high-school-district",
+   "name": "Liberty Union High School District",
+   "type": "school-district",
+   "parent": "ca-contra-costa",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+     "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-ccd-sonoma-county-junior-college-district",
+   "name": "Sonoma County Junior College District",
+   "type": "community-college-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list. The official list says this district crosses county lines.",
+   "counties": [
+    "ca-sonoma",
+    "ca-marin",
+    "ca-mendocino"
+   ]
+  },
+  {
+   "id": "ca-marin-sd-miller-creek-school-district",
+   "name": "Miller Creek School District",
+   "type": "school-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-sd-reed-union-school-district",
+   "name": "Reed Union School District",
+   "type": "school-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-county-services-area-27-ross-valley-paramedic-authority",
+   "name": "County Services Area 27 – Ross Valley Paramedic Authority",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-county-services-area-29-paradise-cay",
+   "name": "County Services Area 29 – Paradise Cay",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-inverness-public-utility-district",
+   "name": "Inverness Public Utility District",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-kentfield-fire-protection-district",
+   "name": "Kentfield Fire Protection District",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-marin-healthcare-district",
+   "name": "Marin Healthcare District",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-sleepy-hollow-fire-protection-district",
+   "name": "Sleepy Hollow Fire Protection District",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-stinson-beach-county-water-district",
+   "name": "Stinson Beach County Water District",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-marin-spd-upper-bay-permanent-road-division",
+   "name": "Upper Bay Permanent Road Division",
+   "type": "special-district",
+   "parent": "ca-marin",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Marin County official list of local measures",
+     "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-sd-burlingame-school-district",
+   "name": "Burlingame School District",
+   "type": "school-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-sd-cabrillo-unified-school-district",
+   "name": "Cabrillo Unified School District",
+   "type": "school-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-sd-jefferson-union-high-school-district",
+   "name": "Jefferson Union High School District",
+   "type": "school-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-sd-pacifica-school-district",
+   "name": "Pacifica School District",
+   "type": "school-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-sd-san-carlos-school-district",
+   "name": "San Carlos School District",
+   "type": "school-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-ccd-san-mateo-county-community-college-district",
+   "name": "San Mateo County Community College District",
+   "type": "community-college-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-san-mateo-sd-san-mateo-foster-city-school-district",
+   "name": "San Mateo-Foster City School District",
+   "type": "school-district",
+   "parent": "ca-san-mateo",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Mateo County official election page, local measures",
+     "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-santa-clara-sd-gilroy-unified-school-district",
+   "name": "Gilroy Unified School District",
+   "type": "school-district",
+   "parent": "ca-santa-clara",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district",
+   "name": "Los Gatos-Saratoga Union High School District",
+   "type": "school-district",
+   "parent": "ca-santa-clara",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+   "name": "Alum Rock Union Elementary School District",
+   "type": "school-district",
+   "parent": "ca-santa-clara",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-santa-clara-sd-cambrian-school-district",
+   "name": "Cambrian School District",
+   "type": "school-district",
+   "parent": "ca-santa-clara",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-santa-clara-sd-orchard-school-district",
+   "name": "Orchard School District",
+   "type": "school-district",
+   "parent": "ca-santa-clara",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-santa-clara-spd-el-camino-healthcare-district",
+   "name": "El Camino Healthcare District",
+   "type": "special-district",
+   "parent": "ca-santa-clara",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Santa Clara County official list of local measures",
+     "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-solano-sd-winters-joint-unified-school-district",
+   "name": "Winters Joint Unified School District",
+   "type": "school-district",
+   "parent": "ca-solano",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Solano County official current election page, local measures",
+     "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+     "type": "Official"
+    },
+    {
+     "label": "Winters Joint Unified School District, About Winters JUSD",
+     "url": "https://wintersjusd.org/en/about-winters-jusd-b2ee1eb0",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list. The district's own page says it serves the city of Winters and surrounding unincorporated areas of Yolo and Solano counties.",
+   "counties": [
+    "ca-solano",
+    "ca-yolo"
+   ]
+  },
+  {
+   "id": "ca-solano-sd-dixon-unified-school-district",
+   "name": "Dixon Unified School District",
+   "type": "school-district",
+   "parent": "ca-solano",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Solano County official current election page, local measures",
+     "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-spd-coast-life-support-district",
+   "name": "Coast Life Support District",
+   "type": "special-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list. The official list says this district crosses county lines.",
+   "counties": [
+    "ca-sonoma",
+    "ca-mendocino"
+   ]
+  },
+  {
+   "id": "ca-sonoma-sd-waugh-school-district",
+   "name": "Waugh School District",
+   "type": "school-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-sd-west-sonoma-county-union-high-school-district",
+   "name": "West Sonoma County Union High School District",
+   "type": "school-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-sd-windsor-unified-school-district",
+   "name": "Windsor Unified School District",
+   "type": "school-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-sd-harmony-union-school-district",
+   "name": "Harmony Union School District",
+   "type": "school-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-spd-schell-vista-fire-protection-district",
+   "name": "Schell-Vista Fire Protection District",
+   "type": "special-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. Listed because it has a measure on the official county list."
+  },
+  {
+   "id": "ca-sonoma-sd-old-adobe-union-school-district",
+   "name": "Old Adobe Union School District",
+   "type": "school-district",
+   "parent": "ca-sonoma",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+     "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+     "type": "Official"
+    }
+   ],
+   "note": "Boundaries not recorded. The county's filed-measures list prints \"Old Adboe\"; the county's final measures table and the measure document say \"Old Adobe\"."
+  },
+  {
+   "id": "ca-cd-10",
+   "name": "Congressional District 10",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-cd-11",
+   "name": "Congressional District 11",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-sf"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-cd-12",
+   "name": "Congressional District 12",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-cd-14",
+   "name": "Congressional District 14",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-cd-15",
+   "name": "Congressional District 15",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-sf",
+    "ca-san-mateo"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "San Mateo County, Intergovernmental and Public Affairs, state and federal representatives",
+     "url": "https://www.smcgov.org/ceo/intergovernmental-and-public-affairs",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-cd-17",
+   "name": "Congressional District 17",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-santa-clara"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sd-10",
+   "name": "State Senate District 10",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-santa-clara"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-14",
+   "name": "State Assembly District 14",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-16",
+   "name": "State Assembly District 16",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-17",
+   "name": "State Assembly District 17",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-sf"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-18",
+   "name": "State Assembly District 18",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-sf"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-19",
+   "name": "State Assembly District 19",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-sf",
+    "ca-san-mateo"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "San Mateo County, Intergovernmental and Public Affairs, state and federal representatives",
+     "url": "https://www.smcgov.org/ceo/intergovernmental-and-public-affairs",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-20",
+   "name": "State Assembly District 20",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ad-24",
+   "name": "State Assembly District 24",
+   "type": "state-district",
+   "parent": "ca",
+   "counties": [
+    "ca-alameda",
+    "ca-santa-clara"
+   ],
+   "countiesKnown": false,
+   "note": "Counties from the Secretary of State's 2026 Offices and Subdivisions list. The district may cover only part of each listed county, so it shows as \"may apply\" there.",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Secretary of State, Offices and Subdivisions (June 2 and November 3, 2026 elections), county lists by district",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/offices-subdivisions.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-supervisor-district-2",
+   "name": "Supervisorial District 2",
+   "type": "supervisor-district",
+   "parent": "ca-sf",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-supervisor-district-4",
+   "name": "Supervisorial District 4",
+   "type": "supervisor-district",
+   "parent": "ca-sf",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-supervisor-district-6",
+   "name": "Supervisorial District 6",
+   "type": "supervisor-district",
+   "parent": "ca-sf",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-supervisor-district-8",
+   "name": "Supervisorial District 8",
+   "type": "supervisor-district",
+   "parent": "ca-sf",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-supervisor-district-10",
+   "name": "Supervisorial District 10",
+   "type": "supervisor-district",
+   "parent": "ca-sf",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-sd-san-francisco-unified-school-district",
+   "name": "San Francisco Unified School District",
+   "type": "school-district",
+   "parent": "ca-sf",
+   "areas": [
+    "ca-sf-city"
+   ],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-sf-ccd-san-francisco-community-college-district",
+   "name": "San Francisco Community College District",
+   "type": "community-college-district",
+   "parent": "ca-sf",
+   "areas": [
+    "ca-sf-city"
+   ],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-bart-district-8",
+   "name": "BART Board District 8",
+   "type": "special-district",
+   "parent": "ca-sf",
+   "areas": [],
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    }
+   ],
+   "note": "Only the San Francisco part is recorded. BART Board districts can cross county lines."
+  },
+  {
+   "id": "ca-alameda-oakland-council-district-2",
+   "name": "Oakland City Council District 2",
+   "type": "council-district",
+   "parent": "ca-alameda-oakland",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-oakland-council-district-4",
+   "name": "Oakland City Council District 4",
+   "type": "council-district",
+   "parent": "ca-alameda-oakland",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-oakland-council-district-6",
+   "name": "Oakland City Council District 6",
+   "type": "council-district",
+   "parent": "ca-alameda-oakland",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-berkeley-council-district-1",
+   "name": "Berkeley City Council District 1",
+   "type": "council-district",
+   "parent": "ca-alameda-berkeley",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-berkeley-council-district-4",
+   "name": "Berkeley City Council District 4",
+   "type": "council-district",
+   "parent": "ca-alameda-berkeley",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-berkeley-council-district-7",
+   "name": "Berkeley City Council District 7",
+   "type": "council-district",
+   "parent": "ca-alameda-berkeley",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-berkeley-council-district-8",
+   "name": "Berkeley City Council District 8",
+   "type": "council-district",
+   "parent": "ca-alameda-berkeley",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-sd-berkeley-unified-school-district",
+   "name": "Berkeley Unified School District",
+   "type": "school-district",
+   "parent": "ca-alameda",
+   "areas": [
+    "ca-alameda-berkeley"
+   ],
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-hayward-council-district-1",
+   "name": "Hayward City Council District 1",
+   "type": "council-district",
+   "parent": "ca-alameda-hayward",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Hayward City Clerk, candidate information",
+     "url": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-hayward-council-district-6",
+   "name": "Hayward City Council District 6",
+   "type": "council-district",
+   "parent": "ca-alameda-hayward",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Hayward City Clerk, candidate information",
+     "url": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-sd-albany-unified-school-district",
+   "name": "Albany Unified School District",
+   "type": "school-district",
+   "parent": "ca-alameda",
+   "areas": [
+    "ca-alameda-albany"
+   ],
+   "sources": [
+    {
+     "label": "City of Albany, notice of nominees",
+     "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/notice-of-nominees-2026.pdf",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-union-city-council-district-2",
+   "name": "Union City City Council District 2",
+   "type": "council-district",
+   "parent": "ca-alameda-union-city",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Union City, November 3, 2026 general municipal election",
+     "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-union-city-council-district-3",
+   "name": "Union City City Council District 3",
+   "type": "council-district",
+   "parent": "ca-alameda-union-city",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Union City, November 3, 2026 general municipal election",
+     "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-union-city-council-district-4",
+   "name": "Union City City Council District 4",
+   "type": "council-district",
+   "parent": "ca-alameda-union-city",
+   "areas": [],
+   "sources": [
+    {
+     "label": "Union City, November 3, 2026 general municipal election",
+     "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-san-leandro-council-district-1",
+   "name": "San Leandro City Council District 1",
+   "type": "council-district",
+   "parent": "ca-alameda-san-leandro",
+   "areas": [],
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-san-leandro-council-district-3",
+   "name": "San Leandro City Council District 3",
+   "type": "council-district",
+   "parent": "ca-alameda-san-leandro",
+   "areas": [],
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-san-leandro-council-district-5",
+   "name": "San Leandro City Council District 5",
+   "type": "council-district",
+   "parent": "ca-alameda-san-leandro",
+   "areas": [],
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-alameda-san-leandro-council-district-2",
+   "name": "San Leandro City Council District 2",
+   "type": "council-district",
+   "parent": "ca-alameda-san-leandro",
+   "areas": [],
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ]
+  },
+  {
+   "id": "ca-ebmud-ward-3",
+   "name": "EBMUD Ward 3",
+   "type": "special-district",
+   "parent": "ca-alameda",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa"
+   ],
+   "areas": [],
+   "sources": [
+    {
+     "label": "East Bay Municipal Utility District, press release on Board of Directors elections",
+     "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+     "type": "Official"
+    }
+   ],
+   "note": "East Bay Municipal Utility District ward. Crosses county lines; boundaries not recorded."
+  },
+  {
+   "id": "ca-ebmud-ward-7",
+   "name": "EBMUD Ward 7",
+   "type": "special-district",
+   "parent": "ca-alameda",
+   "counties": [
+    "ca-alameda",
+    "ca-contra-costa"
+   ],
+   "areas": [],
+   "sources": [
+    {
+     "label": "East Bay Municipal Utility District, press release on Board of Directors elections",
+     "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+     "type": "Official"
+    }
+   ],
+   "note": "East Bay Municipal Utility District ward. Crosses county lines; boundaries not recorded."
+  },
+  {
+   "id": "ca-alameda-sd-oakland-unified-school-district",
+   "name": "Oakland Unified School District",
+   "type": "school-district",
+   "parent": "ca-alameda",
+   "areas": [
+    "ca-alameda-oakland"
+   ],
+   "sources": [
+    {
+     "label": "Oakland City Clerk, final list of qualified candidates (in ballot order) for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "note": "Board elections are by trustee district. District boundaries are not recorded in this guide."
+  }
+ ]
+}

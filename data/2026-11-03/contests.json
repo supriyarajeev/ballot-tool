@@ -1,0 +1,1748 @@
+{
+ "schemaVersion": 1,
+ "election": "2026-11-03",
+ "contests": [
+  {
+   "id": "2026-11-03.ca.governor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Governor",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.governor.xavier-becerra",
+    "2026-11-03.ca.governor.steve-hilton"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.lieutenant-governor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Lieutenant Governor",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.lieutenant-governor.fiona-ma",
+    "2026-11-03.ca.lieutenant-governor.gloria-romero"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.secretary-of-state",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Secretary of State",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+    "2026-11-03.ca.secretary-of-state.donald-p-don-wagner"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.controller",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Controller",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.controller.malia-m-cohen",
+    "2026-11-03.ca.controller.herb-w-morgan"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.treasurer",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Treasurer",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.treasurer.eleni-kounalakis",
+    "2026-11-03.ca.treasurer.jennifer-hawks"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.attorney-general",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Attorney General",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.attorney-general.rob-bonta",
+    "2026-11-03.ca.attorney-general.michael-e-gates"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.insurance-commissioner",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Insurance Commissioner",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.insurance-commissioner.ben-allen",
+    "2026-11-03.ca.insurance-commissioner.jane-kim"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca.superintendent-of-public-instruction",
+   "election": "2026-11-03",
+   "jurisdiction": "ca",
+   "office": "Superintendent of Public Instruction",
+   "district": null,
+   "candidates": [
+    "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+    "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-boe-1",
+   "office": "State Board of Equalization",
+   "district": "District 1",
+   "candidates": [
+    "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.nelson-esparza",
+    "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.shannon-grove"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF. Bay Area counties are matched to Board of Equalization districts using official district lists, assuming the 2021 lines still apply."
+  },
+  {
+   "id": "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-boe-2",
+   "office": "State Board of Equalization",
+   "district": "District 2",
+   "candidates": [
+    "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2.sally-j-lieber",
+    "2026-11-03.ca-boe-2.member-state-board-of-equalization-district-2.john-pimentel"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF. Bay Area counties are matched to Board of Equalization districts using official district lists, assuming the 2021 lines still apply."
+  },
+  {
+   "id": "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-boe-3",
+   "office": "State Board of Equalization",
+   "district": "District 3",
+   "candidates": [
+    "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3.mike-gipson",
+    "2026-11-03.ca-boe-3.member-state-board-of-equalization-district-3.samuel-p-sukaton"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF. Bay Area counties are matched to Board of Equalization districts using official district lists, assuming the 2021 lines still apply."
+  },
+  {
+   "id": "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-boe-4",
+   "office": "State Board of Equalization",
+   "district": "District 4",
+   "candidates": [
+    "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.tom-umberg",
+    "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.denis-bilodeau"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State)",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Candidate statements (official voter guide)",
+     "url": "https://voterguide.sos.ca.gov/candidates/",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates in certified-list order. Names, parties, designations and order matched the certified list in two automated readings. A person should still confirm against the PDF. Bay Area counties are matched to Board of Equalization districts using official district lists, assuming the 2021 lines still apply."
+  },
+  {
+   "id": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-cd-10",
+   "office": "U.S. Representative",
+   "district": "District 10",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+    "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-cd-11",
+   "office": "U.S. Representative",
+   "district": "District 11",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+    "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-cd-12",
+   "office": "U.S. Representative",
+   "district": "District 12",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+    "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-cd-14",
+   "office": "U.S. Representative",
+   "district": "District 14",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+    "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-cd-15",
+   "office": "U.S. Representative",
+   "district": "District 15",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+    "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-cd-17",
+   "office": "U.S. Representative",
+   "district": "District 17",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+    "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-sd-10.state-senator-district-10",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sd-10",
+   "office": "State Senator",
+   "district": "District 10",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sd-10.state-senator-district-10.scott-sakakihara",
+    "2026-11-03.ca-sd-10.state-senator-district-10.linda-r-price"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-14",
+   "office": "Member of the State Assembly",
+   "district": "District 14",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.buffy-wicks",
+    "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.mark-rendon"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-16",
+   "office": "Member of the State Assembly",
+   "district": "District 16",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.rebecca-bauer-kahan",
+    "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.joseph-a-rubay"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-17",
+   "office": "Member of the State Assembly",
+   "district": "District 17",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17.matt-haney",
+    "2026-11-03.ca-ad-17.member-of-the-state-assembly-district-17.manuel-noris-barrera"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-18",
+   "office": "Member of the State Assembly",
+   "district": "District 18",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.mia-bonta",
+    "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.andre-sandford"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-19",
+   "office": "Member of the State Assembly",
+   "district": "District 19",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.catherine-stefani",
+    "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.philip-louis-wing"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-20",
+   "office": "Member of the State Assembly",
+   "district": "District 20",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.liz-ortega",
+    "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.patricia-muga"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ad-24",
+   "office": "Member of the State Assembly",
+   "district": "District 24",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.alex-lee",
+    "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.max-hsia"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Certified list of candidates (Secretary of State), Aug 27, 2026",
+     "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Candidates, party preference and ballot designation read from the Secretary of State's certified list by automated research and re-read on Oct 22, 2026; both readings matched. Incumbents are marked as the list marks them. A person should still confirm against the PDF."
+  },
+  {
+   "id": "2026-11-03.ca-sf.assessor-recorder",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf",
+   "office": "Assessor-Recorder",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf.assessor-recorder.joaquin-torres"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot. The sf.gov page says these candidates \"have filed for candidacy\". The Voter Information Pamphlet lists this contest on the ballot and prints the candidates' statements."
+  },
+  {
+   "id": "2026-11-03.ca-sf.public-defender",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf",
+   "office": "Public Defender",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf.public-defender.manohar-raju"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot. The sf.gov page says these candidates \"have filed for candidacy\". The Voter Information Pamphlet lists this contest on the ballot and prints the candidates' statements."
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-supervisor-district-2",
+   "office": "Board of Supervisors",
+   "district": "District 2",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+    "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+    "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+    "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-supervisor-district-4",
+   "office": "Board of Supervisors",
+   "district": "District 4",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+    "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+    "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-supervisor-district-6",
+   "office": "Board of Supervisors",
+   "district": "District 6",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+    "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-supervisor-district-8",
+   "office": "Board of Supervisors",
+   "district": "District 8",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+    "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+    "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+    "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-supervisor-district-10",
+   "office": "Board of Supervisors",
+   "district": "District 10",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.ellsworth-ell-m-jennison-jr",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jamo-muhammad",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jessica-pessecow",
+    "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-sd-san-francisco-unified-school-district",
+   "office": "Board of Education",
+   "district": null,
+   "seats": 3,
+   "candidates": [
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.autumn-brown-garibay",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.virginia-cheung",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.alida-fisher",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.ryan-hazelton",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.phil-kim",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.laurance-lee",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.reina-tello",
+    "2026-11-03.ca-sf-sd-san-francisco-unified-school-district.board-of-education.tim-tung"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot. The sf.gov page says these candidates \"have filed for candidacy\". The Voter Information Pamphlet lists this contest on the ballot and prints the candidates' statements."
+  },
+  {
+   "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-ccd-san-francisco-community-college-district",
+   "office": "Community College Board",
+   "district": null,
+   "seats": 3,
+   "candidates": [
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.elijah-ball",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.rome-moses-jones",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.monroe-lace",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.leah-lacroix",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.jeremy-lee",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.bunny-mcfadden",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.erwin-tam",
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board.lisa-wynn"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board-partial-term",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-sf-ccd-san-francisco-community-college-district",
+   "office": "Community College Board, Partial Term",
+   "district": null,
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-sf-ccd-san-francisco-community-college-district.community-college-board-partial-term.ruth-ferguson"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-bart-district-8.bart-board",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-bart-district-8",
+   "office": "BART Board",
+   "district": "District 8",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-bart-district-8.bart-board.sara-barz"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "San Francisco Department of Elections, candidates for the November 3, 2026 election",
+     "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+     "type": "Official"
+    },
+    {
+     "label": "San Francisco Voter Information Pamphlet, November 3, 2026 (contest list, page 5)",
+     "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the San Francisco Department of Elections candidate page by automated research and re-read on Oct 22, 2026; both readings matched. The page gives names only, so ballot designations are not recorded. Some contests on the page say candidates have 'filed' rather than 'qualified'. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland.mayor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-oakland",
+   "office": "Mayor",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-oakland.mayor.julius-robinson",
+    "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+    "2026-11-03.ca-alameda-oakland.mayor.brenda-f-grisham",
+    "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Oakland City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. The city list also shows a qualified write-in candidate, Bro Ayinde, who will not be printed on the ballot. On Oct 23, 2026 the rendered PDF was read visually: each office has its own table with its candidates directly beneath, which confirms this contest's names."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland-council-district-2.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-oakland-council-district-2",
+   "office": "City Council",
+   "district": "District 2",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-oakland-council-district-2.city-council.nate-adams",
+    "2026-11-03.ca-alameda-oakland-council-district-2.city-council.charlene-wang"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Oakland City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. On Oct 23, 2026 the rendered PDF was read visually: each office has its own table with its candidates directly beneath, which confirms this contest's names."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland-council-district-4.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-oakland-council-district-4",
+   "office": "City Council",
+   "district": "District 4",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-oakland-council-district-4.city-council.janani-ramachandran"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Oakland City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. On Oct 23, 2026 the rendered PDF was read visually: each office has its own table with its candidates directly beneath, which confirms this contest's names."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland-council-district-6.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-oakland-council-district-6",
+   "office": "City Council",
+   "district": "District 6",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-oakland-council-district-6.city-council.kevin-e-jenkins",
+    "2026-11-03.ca-alameda-oakland-council-district-6.city-council.nancy-s-sidebotham"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Oakland City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. On Oct 23, 2026 the rendered PDF was read visually: each office has its own table with its candidates directly beneath, which confirms this contest's names."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland.city-auditor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-oakland",
+   "office": "City Auditor",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-oakland.city-auditor.michael-c-houston"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, qualified candidate list for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Oakland City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. On Oct 23, 2026 the rendered PDF was read visually: each office has its own table with its candidates directly beneath, which confirms this contest's names."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.city-auditor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-berkeley",
+   "office": "City Auditor",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-berkeley.city-auditor.jenny-wong"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Berkeley City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. Ballot designations were added on Oct 23, 2026 from the City Clerk's notice of nominees (Aug 19, 2026), read visually from the page image, where each name is directly followed by its designation. A person should confirm against the official sample ballot.",
+   "readingNote": "Ballot designations were read from the City of Berkeley's notice of nominees by an AI assistant looking at the page image. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-1.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-berkeley-council-district-1",
+   "office": "City Council",
+   "district": "District 1",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.steve-kromer",
+    "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.daria-wrubel",
+    "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.laura-babitt",
+    "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.ross-bernet",
+    "2026-11-03.ca-alameda-berkeley-council-district-1.city-council.moni-gangopadhyay"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Berkeley City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. Ballot designations were added on Oct 23, 2026 from the City Clerk's notice of nominees (Aug 19, 2026), read visually from the page image, where each name is directly followed by its designation. A person should confirm against the official sample ballot. The city's final roster also has a partly filled row for Kelsea Jackson; that name is not on the Aug 19 notice of nominees, so it is not listed here.",
+   "readingNote": "Ballot designations were read from the City of Berkeley's notice of nominees by an AI assistant looking at the page image. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-4.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-berkeley-council-district-4",
+   "office": "City Council",
+   "district": "District 4",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-berkeley-council-district-4.city-council.majdi-gaith-abuhamdieh",
+    "2026-11-03.ca-alameda-berkeley-council-district-4.city-council.igor-a-tregub"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Berkeley City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. Ballot designations were added on Oct 23, 2026 from the City Clerk's notice of nominees (Aug 19, 2026), read visually from the page image, where each name is directly followed by its designation. A person should confirm against the official sample ballot.",
+   "readingNote": "Ballot designations were read from the City of Berkeley's notice of nominees by an AI assistant looking at the page image. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-7.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-berkeley-council-district-7",
+   "office": "City Council",
+   "district": "District 7",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-berkeley-council-district-7.city-council.aidan-hill",
+    "2026-11-03.ca-alameda-berkeley-council-district-7.city-council.syrak-micael"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Berkeley City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. Ballot designations were added on Oct 23, 2026 from the City Clerk's notice of nominees (Aug 19, 2026), read visually from the page image, where each name is directly followed by its designation. A person should confirm against the official sample ballot. The city's final roster also has a partly filled row for John A. Espinoza; that name is not on the Aug 19 notice of nominees, so it is not listed here.",
+   "readingNote": "Ballot designations were read from the City of Berkeley's notice of nominees by an AI assistant looking at the page image. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley-council-district-8.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-berkeley-council-district-8",
+   "office": "City Council",
+   "district": "District 8",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.mark-humbert",
+    "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.michael-wallman",
+    "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.fred-m-feller",
+    "2026-11-03.ca-alameda-berkeley-council-district-8.city-council.mari-mendonca"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Berkeley City Clerk, FINAL Notice of Candidate Activity, Nov 3, 2026 General Municipal Election (updated Oct 20, 2026)",
+     "url": "https://berkeleyca.gov/sites/default/files/2026-05/01%20Candidate%20Information%20and%20Roster%20Nov%202026.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Office assignment and incumbency from the Berkeley City Clerk's FINAL Notice of Candidate Activity (updated Oct 20, 2026), which lists each candidate's office and says \"Incumbent candidates are noted with (I) after their name\". Ballot designations from the City Clerk's notice of nominees (Aug 19, 2026), read by automated research on Oct 22 and 23, 2026 and checked visually against the page image. These are city sources, not the county's final ballot. A person should confirm against the official sample ballot. Corrected Oct 23, 2026: the notice of nominees has no heading for the Rent Stabilization Board, so six Rent Board candidates had been read as District 8 candidates. The roster lists Fred M. Feller, Charles Mark Humbert (I), Mari Mendonca and Michael Wallman under \"City Council, District 8\". An earlier reading gave Mari Mendonca the designation \"Rent Stabilization Board Commissioner\". A visual check of the notice on Oct 23, 2026 found no designation printed for her, so none is recorded. One seat per council district is not stated in either source.",
+   "readingNote": "Ballot designations were read from the City of Berkeley's notice of nominees by an AI assistant looking at the page image. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-berkeley",
+   "office": "Rent Stabilization Board Commissioner",
+   "district": null,
+   "seats": 5,
+   "candidates": [
+    "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.vylma-ortiz",
+    "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.avery-arbaugh",
+    "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.derek-rodriguez",
+    "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.carole-marasovic",
+    "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.ida-martinac",
+    "2026-11-03.ca-alameda-berkeley.rent-stabilization-board-commissioner.nathan-mizell"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Berkeley City Clerk, FINAL Notice of Candidate Activity, Nov 3, 2026 General Municipal Election (updated Oct 20, 2026)",
+     "url": "https://berkeleyca.gov/sites/default/files/2026-05/01%20Candidate%20Information%20and%20Roster%20Nov%202026.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Office assignment and incumbency from the Berkeley City Clerk's FINAL Notice of Candidate Activity (updated Oct 20, 2026), which lists each candidate's office and says \"Incumbent candidates are noted with (I) after their name\". Ballot designations from the City Clerk's notice of nominees (Aug 19, 2026), read three times by automated research on Oct 22 and 23, 2026 with the same name and designation pairs. These are city sources, not the county's final ballot. A person should confirm against the official sample ballot. The roster states \"Rent Board (5 seats)\" (read twice). The notice of nominees prints these six names after the District 8 candidates without a Rent Board heading; the roster places all six under \"Rent Board Commissioner\". A seventh roster name, Vanessa Marrero (I), is marked \"DNQ\" (Did Not Qualify) and is not listed.",
+   "readingNote": "Ballot designations were read from the City of Berkeley's notice of nominees by an AI assistant looking at the page image. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-sd-berkeley-unified-school-district",
+   "office": "School Board Director",
+   "district": null,
+   "seats": 3,
+   "candidates": [
+    "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.sandy-park",
+    "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.jennifer-shanoski",
+    "2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director.ka-dijah-brown"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "Berkeley City Clerk, notice of nominees for public office, Aug 19, 2026",
+     "url": "https://berkeleyca.gov/sites/default/files/Notice%20of%20Candidates%20Nov%203%202026%20-%20WEB%20Version.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "Berkeley City Clerk, FINAL Notice of Candidate Activity, Nov 3, 2026 General Municipal Election (updated Oct 20, 2026)",
+     "url": "https://berkeleyca.gov/sites/default/files/2026-05/01%20Candidate%20Information%20and%20Roster%20Nov%202026.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Office assignment and incumbency from the Berkeley City Clerk's FINAL Notice of Candidate Activity (updated Oct 20, 2026), which lists each candidate's office and says \"Incumbent candidates are noted with (I) after their name\". Ballot designations from the City Clerk's notice of nominees (Aug 19, 2026), read three times by automated research on Oct 22 and 23, 2026 with the same name and designation pairs. These are city sources, not the county's final ballot. A person should confirm against the official sample ballot. The roster states \"School Board (3 seats)\" (read twice). A write-in candidate, Reichi Lee, appears on the roster under \"Write-In Candidates\" and will not be printed on the ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-hayward.mayor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-hayward",
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+    "2026-11-03.ca-alameda-hayward.mayor.tom-wong"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Hayward City Clerk, candidate information",
+     "url": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Hayward City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-hayward-council-district-1.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-hayward-council-district-1",
+   "office": "City Council",
+   "district": "District 1",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-hayward-council-district-1.city-council.george-syrop",
+    "2026-11-03.ca-alameda-hayward-council-district-1.city-council.brian-m-schott"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Hayward City Clerk, candidate information",
+     "url": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Hayward City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. The city page shows the current councilmember's photo labeled as incumbent; this guide marks incumbency only where an official list states it."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-hayward-council-district-6.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-hayward-council-district-6",
+   "office": "City Council",
+   "district": "District 6",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-hayward-council-district-6.city-council.julie-roche"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Hayward City Clerk, candidate information",
+     "url": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names and ballot designations read from the Hayward City Clerk by automated research on Oct 22, 2026. This is a city source, not the county's final ballot. A person should confirm against the official sample ballot. The city page shows the current councilmember's photo labeled as incumbent; this guide marks incumbency only where an official list states it."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.mayor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-alameda",
+   "office": "Mayor",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-alameda.mayor.tracy-l-jensen",
+    "2026-11-03.ca-alameda-alameda.mayor.malia-vella",
+    "2026-11-03.ca-alameda-alameda.mayor.tony-daysog"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of Alameda City Clerk, roster of candidates (final)",
+     "url": "https://content.govdelivery.com/attachments/CAALAMECITY/2026/08/12/file_attachments/3744991/Roster%20of%20Candidates%20-%20Final.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of Alameda City Clerk, roster of candidates (final) by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-alameda",
+   "office": "City Council",
+   "district": null,
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-alameda.city-council.marcie-johnson",
+    "2026-11-03.ca-alameda-alameda.city-council.tyler-savage",
+    "2026-11-03.ca-alameda-alameda.city-council.thushan-amarasiriwardena",
+    "2026-11-03.ca-alameda-alameda.city-council.steve-slauson",
+    "2026-11-03.ca-alameda-alameda.city-council.amos-white",
+    "2026-11-03.ca-alameda-alameda.city-council.maria-l-bondonno"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of Alameda City Clerk, roster of candidates (final)",
+     "url": "https://content.govdelivery.com/attachments/CAALAMECITY/2026/08/12/file_attachments/3744991/Roster%20of%20Candidates%20-%20Final.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of Alameda City Clerk, roster of candidates (final) by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-albany.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-albany",
+   "office": "City Council",
+   "district": null,
+   "seats": 2,
+   "candidates": [
+    "2026-11-03.ca-alameda-albany.city-council.robin-d-l-pez",
+    "2026-11-03.ca-alameda-albany.city-council.katherine-enos",
+    "2026-11-03.ca-alameda-albany.city-council.jon-destin",
+    "2026-11-03.ca-alameda-albany.city-council.aaron-tiedemann",
+    "2026-11-03.ca-alameda-albany.city-council.chris-mcdaniels"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of Albany, notice of nominees",
+     "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/notice-of-nominees-2026.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of Albany, notice of nominees by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-sd-albany-unified-school-district",
+   "office": "Board of Education",
+   "district": null,
+   "seats": 4,
+   "candidates": [
+    "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.margaret-allen",
+    "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.melissa-boyd",
+    "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.becky-hopwood",
+    "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.josh-mahoney",
+    "2026-11-03.ca-alameda-sd-albany-unified-school-district.board-of-education.david-mckinney"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "City of Albany, notice of nominees",
+     "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/notice-of-nominees-2026.pdf",
+     "type": "Official"
+    },
+    {
+     "label": "City of Albany, Candidates for General Municipal Election 2026",
+     "url": "https://www.albanyca.gov/Government/Election-Information/Candidates-for-General-Municipal-Election-2026",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of Albany notice of nominees and candidates page by automated research on Oct 22 and 23, 2026. These are city sources, not the county's final ballot; check your official sample ballot. The notice heading reads \"MEMBER, BOARD OF EDUCATION – 3 seats 4-year term; 1 seat 2-year term\" followed by \"Vote for four (4) seats\" (read twice), so it is shown as one contest. Neither source says which winner receives the 2-year term, and neither lists a separate 2-year race. Corrected Oct 23, 2026: Anne Hsu was removed. Her name appears directly above \"CITY CLERK\" at the end of the notice, and Albany resolutions from April 2024 are signed \"Anne Hsu, CITY CLERK\"; the city's candidates page lists five qualified Board of Education candidates and does not include her."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-emeryville.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-emeryville",
+   "office": "City Council",
+   "district": null,
+   "seats": 2,
+   "candidates": [
+    "2026-11-03.ca-alameda-emeryville.city-council.corry-frydlewicz",
+    "2026-11-03.ca-alameda-emeryville.city-council.david-mourra",
+    "2026-11-03.ca-alameda-emeryville.city-council.kalimah-priforce",
+    "2026-11-03.ca-alameda-emeryville.city-council.brandon-soublet"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of Emeryville, November 2026 candidates",
+     "url": "https://www.emeryville.org/Government/Voting-and-Elections/November-2026-Candidates",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of Emeryville, November 2026 candidates by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-piedmont.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-piedmont",
+   "office": "City Council",
+   "district": null,
+   "seats": 3,
+   "candidates": [
+    "2026-11-03.ca-alameda-piedmont.city-council.nancy-beninati",
+    "2026-11-03.ca-alameda-piedmont.city-council.n-sunny-bostrom-fleming",
+    "2026-11-03.ca-alameda-piedmont.city-council.bill-reichle",
+    "2026-11-03.ca-alameda-piedmont.city-council.tom-ramsey",
+    "2026-11-03.ca-alameda-piedmont.city-council.adam-hundt"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of Piedmont, 2026 election page",
+     "url": "https://www.piedmont.ca.gov/vote2026",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of Piedmont, 2026 election page by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-union-city-council-district-2.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-union-city-council-district-2",
+   "office": "City Council",
+   "district": "District 2",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-union-city-council-district-2.city-council.jaime-patino",
+    "2026-11-03.ca-alameda-union-city-council-district-2.city-council.victor-lopez-pulido"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Union City, November 3, 2026 general municipal election",
+     "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Union City, November 3, 2026 general municipal election by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-union-city-council-district-3.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-union-city-council-district-3",
+   "office": "City Council",
+   "district": "District 3",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-union-city-council-district-3.city-council.jeff-wang",
+    "2026-11-03.ca-alameda-union-city-council-district-3.city-council.cheris-crocker-root"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Union City, November 3, 2026 general municipal election",
+     "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Union City, November 3, 2026 general municipal election by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-union-city-council-district-4.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-union-city-council-district-4",
+   "office": "City Council",
+   "district": "District 4",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-union-city-council-district-4.city-council.sarabjit-kaur-cheema",
+    "2026-11-03.ca-alameda-union-city-council-district-4.city-council.qasim-lodhi",
+    "2026-11-03.ca-alameda-union-city-council-district-4.city-council.vipan-s-bajwa",
+    "2026-11-03.ca-alameda-union-city-council-district-4.city-council.ann-yap-jequinto"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "Union City, November 3, 2026 general municipal election",
+     "url": "https://www.unioncityca.gov/982/November-3-2026-General-Municipal-Electi",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the Union City, November 3, 2026 general municipal election by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-san-leandro.mayor",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-san-leandro",
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+    "2026-11-03.ca-alameda-san-leandro.mayor.james-maes"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of San Leandro City Clerk, candidate list by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-san-leandro-council-district-1.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-san-leandro-council-district-1",
+   "office": "City Council",
+   "district": "District 1",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-san-leandro-council-district-1.city-council.sbeydeh-viveros-walton"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of San Leandro City Clerk, candidate list by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-san-leandro-council-district-3.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-san-leandro-council-district-3",
+   "office": "City Council",
+   "district": "District 3",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-san-leandro-council-district-3.city-council.lee-thomas",
+    "2026-11-03.ca-alameda-san-leandro-council-district-3.city-council.joseph-trujillo"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of San Leandro City Clerk, candidate list by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-san-leandro-council-district-5.city-council",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-san-leandro-council-district-5",
+   "office": "City Council",
+   "district": "District 5",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-san-leandro-council-district-5.city-council.xouhoa-bowen"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of San Leandro City Clerk, candidate list by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-san-leandro-council-district-2.city-council-partial-two-year-term",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-san-leandro-council-district-2",
+   "office": "City Council, partial two-year term",
+   "district": "District 2",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-alameda-san-leandro-council-district-2.city-council-partial-two-year-term.james-aguilar"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "City of San Leandro City Clerk, candidate list",
+     "url": "https://www.sanleandro.org/DocumentCenter/View/16443",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names read from the City of San Leandro City Clerk, candidate list by automated research on Oct 22, 2026. This is a city or district source, not the county's final ballot; check your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-ebmud-ward-3.ebmud-board-of-directors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ebmud-ward-3",
+   "office": "EBMUD Board of Directors",
+   "district": "Ward 3",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-ebmud-ward-3.ebmud-board-of-directors.marguerite-young",
+    "2026-11-03.ca-ebmud-ward-3.ebmud-board-of-directors.donald-gray"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "East Bay Municipal Utility District, press release on Board of Directors elections",
+     "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names, incumbency and occupations from an EBMUD press release (official district source), not the county ballot. Occupations in the press release are not recorded as ballot designations."
+  },
+  {
+   "id": "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-ebmud-ward-7",
+   "office": "EBMUD Board of Directors",
+   "district": "Ward 7",
+   "seats": 1,
+   "candidates": [
+    "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.april-chan",
+    "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.joseph-grcar",
+    "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.luis-reynoso",
+    "2026-11-03.ca-ebmud-ward-7.ebmud-board-of-directors.gary-wolff"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-22",
+   "sources": [
+    {
+     "label": "East Bay Municipal Utility District, press release on Board of Directors elections",
+     "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names, incumbency and occupations from an EBMUD press release (official district source), not the county ballot. Occupations in the press release are not recorded as ballot designations."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-2",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-sd-oakland-unified-school-district",
+   "office": "School Board Director",
+   "district": "District 2",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-2.arielle-fleisher",
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-2.jennifer-brouhard"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, final list of qualified candidates (in ballot order) for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names, ballot designations and order from the Oakland City Clerk's final qualified-candidate list, read visually from the rendered PDF on Oct 23, 2026. This is a city source for a school district contest; check your official sample ballot, because trustee districts do not follow city council lines.",
+   "readingNote": "Which candidates run in this trustee district was read from the Oakland City Clerk's candidate list by an AI assistant looking at the page layout. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-sd-oakland-unified-school-district",
+   "office": "School Board Director",
+   "district": "District 4",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4.mike-hutchinson",
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4.kathryn-camp",
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-4.sylvia-pfeiffer-williams"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, final list of qualified candidates (in ballot order) for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names, ballot designations and order from the Oakland City Clerk's final qualified-candidate list, read visually from the rendered PDF on Oct 23, 2026. This is a city source for a school district contest; check your official sample ballot, because trustee districts do not follow city council lines.",
+   "readingNote": "Which candidates run in this trustee district was read from the Oakland City Clerk's candidate list by an AI assistant looking at the page layout. A person has not checked this reading. Compare it with your official sample ballot."
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6",
+   "election": "2026-11-03",
+   "jurisdiction": "ca-alameda-sd-oakland-unified-school-district",
+   "office": "School Board Director",
+   "district": "District 6",
+   "seats": null,
+   "candidates": [
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.alexandra-williams",
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.leana-powell",
+    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.valarie-bachelor"
+   ],
+   "status": "needs-review",
+   "lastVerified": "2026-10-23",
+   "sources": [
+    {
+     "label": "Oakland City Clerk, final list of qualified candidates (in ballot order) for Nov 3, 2026",
+     "url": "https://www.oaklandca.gov/files/assets/city/v/20/city-clerk/documents/elections/nov-2026-election-qualified-candidate-list.pdf",
+     "type": "Official"
+    }
+   ],
+   "notes": "Names, ballot designations and order from the Oakland City Clerk's final qualified-candidate list, read visually from the rendered PDF on Oct 23, 2026. This is a city source for a school district contest; check your official sample ballot, because trustee districts do not follow city council lines.",
+   "readingNote": "Which candidates run in this trustee district was read from the Oakland City Clerk's candidate list by an AI assistant looking at the page layout. A person has not checked this reading. Compare it with your official sample ballot."
+  }
+ ]
+}

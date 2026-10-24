@@ -1,0 +1,29 @@
+{
+  "name": "california-bay-area-ballot-guide",
+  "private": true,
+  "description": "California Bay Area Ballot Guide: static site, data tools and tests. No runtime dependencies.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node tools/extract-statewide.mjs && node tools/build-ledger.mjs && node tools/report.mjs",
+    "check": "node tests/check-generated.mjs",
+    "validate": "node tools/validate.mjs",
+    "data": "npm run build && npm run validate",
+    "fixtures:candidate-order": "node tools/validate.mjs --update-candidate-order",
+    "test:generated": "node tests/check-generated.mjs",
+    "test:scoring": "node tests/scoring-regression.mjs",
+    "test:validator": "node tests/validator.test.mjs",
+    "test:html": "html-validate index.html propositions.html",
+    "test:browser": "node tests/browser/run.mjs",
+    "test:browser:guide": "node tests/browser/run.mjs guide",
+    "test:browser:weighing": "node tests/browser/run.mjs weighing",
+    "test:browser:goatcounter": "node tests/browser/run.mjs goatcounter",
+    "test": "node tests/run-all.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "4.10.2",
+    "html-validate": "8.24.1",
+    "playwright": "1.56.0"
+  }
+}
