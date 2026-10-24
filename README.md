@@ -50,19 +50,6 @@ npm run test:browser     # guide, weighing tool and GoatCounter stand-in suites 
 - `node tests/browser/run.mjs guide` (or `weighing`, `goatcounter`) runs one browser suite. `PORT=9000` changes the local server port (default 8765).
 - `LINKS_OUT=links.txt node tests/browser/run.mjs weighing` writes the weighing tool's source links to a file; nothing is written by default.
 
-### How long the tests take
-
-Measured on October 23, 2026 on a 2-CPU Linux machine with Node.js 22.22.0 (the same steps also pass on Node.js 18.20.8):
-
-| Step | Time |
-|---|---|
-| `npm run check`, `npm run validate`, `npm run test:scoring`, `npm run test:html` | under 1 second each |
-| `npm run test:validator` | about 20 to 25 seconds (186 sandboxes; was about 35 seconds when they ran one at a time) |
-| `npm run test:browser` | about 3 minutes |
-| `npm test` (all of the above) | about 3 to 4 minutes (3 min 7 s in the last clean-install run) |
-
-The validator self-test copies the data into a fresh temporary folder for every plant and runs the validator there. It runs `VALIDATOR_TEST_JOBS` plants at once (default: the number of CPUs, at most 8) and prints progress every 25 plants. If your tool or CI stops commands after a fixed time (for example two minutes), run the steps one at a time instead of `npm test`, or raise the limit. A stopped run is not a pass.
-
-See `docs/RELEASE-CHECKLIST.md` for what each step checks and for the release decision. `docs/INDEPENDENT-REVIEW.md` records the October 22 and 23, 2026 reviews and the beta-release changes.
+See `docs/RELEASE-CHECKLIST.md` for what each step checks and for the release decision. `docs/INDEPENDENT-REVIEW.md` records the October 22, 2026 audit.
 
 The guide never recommends how to vote and never scores or ranks candidates. Nothing is marked Verified until a person has reviewed it. Items that are not fully researched are labeled as such, never presented as complete.

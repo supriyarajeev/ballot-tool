@@ -54,7 +54,7 @@
           "type": "Official, campaign arguments"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Confirm Health and Safety Code sections 50408 and 50675.12 directly in the code; they were read only as reproduced in the state housing department's 2023-24 annual report",
         "Which agency publishes the annual report under Section 54088 (the measure does not name it)",
@@ -117,7 +117,7 @@
           "type": "Official"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Whether the amendment to Article XVI, Section 22 changes how a budget emergency is declared or limits withdrawals",
         "Which Department of Finance reporting duties are new and which already exist",
@@ -180,7 +180,7 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Income thresholds for joint filers and the number of rate brackets, from LAO Figure 1 or the Franchise Tax Board rate schedule",
         "Whether the online posting, audit and Controller duties are carried over from Prop 30 or are new"
@@ -237,7 +237,7 @@
           "type": "Official, campaign arguments"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Legal text read Oct 23, 2026 for the party and incumbency rule, broad-support criteria and the tripled foreign contribution fine; the ethics commission wording in the final text is still unconfirmed",
         "The year 1988 rests on the Assembly Elections Committee analysis of an earlier version of SB 42; no official 2026 ballot document states the year",
@@ -301,7 +301,7 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Official legal text not read: confirm the special election wording in Article V, Section 10(b)",
         "Whether the measure adds any reporting or audit duty (none found so far)"
@@ -358,12 +358,12 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Legal text not read: confirm the annual audit requirement and the rulemaking exemption",
         "Income limit wording: the official summary says 'less than twice' area median income, an earlier LAO letter says 'no more than 200 percent'",
         "Evidence on how the program would affect home prices and how many renters it would help (no official analysis found)",
-        "The evidence-strength rating (3) may not match its written reason under the rating rubric. It is under review and has not been changed."
+        "Evidence-strength rating (3) may not match its corrected rationale under the rubric; the owner decides (EVD-07)"
       ]
     },
     {
@@ -422,10 +422,10 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Editorial board opponents were read once only, from CalMatters",
-        "The evidence-strength rating (3) may not match its written reason under the rating rubric. It is under review and has not been changed."
+        "Evidence-strength rating (3) may not match its corrected rationale under the rubric; the owner decides (EVD-07)"
       ]
     },
     {
@@ -484,7 +484,7 @@
           "type": "Independent research"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Whether counties must notify voters or let them fix a missing or mismatched ID number (not addressed in the text)",
         "Confirm that the measure sets no penalties for noncompliance by reading section 3.1 directly",
@@ -547,7 +547,7 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Whether the California Democratic Party supports Prop 40 (no source found)",
         "Prop 40's own conflict clause is silent if a conflicting measure gets more votes; courts would decide"
@@ -604,7 +604,7 @@
           "type": "Official"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Whether the four-year audits must include the 10% savings recommendation and be posted publicly like the pre-election audits",
         "The 25% signature trigger LAO describes was not found in the legal text as read",
@@ -663,7 +663,7 @@
           "type": "Official, campaign arguments"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Official legal text could not be fetched; excerpts came from an independent copy and must be checked against the official guide",
         "Whether the revenue-use limit applies to the fiscal emergency exception as well as the disaster exception",
@@ -721,7 +721,7 @@
           "type": "Official, campaign arguments"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Confirm the Sonoma County 2024 sales tax result (62%) and whether it was citizen-initiated, from the county registrar",
         "The ballot deal is reported only by independent sources; no Secretary of State withdrawal record was read",
@@ -784,11 +784,11 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "Patient count rests on the national clinic association; confirm from an official HRSA or HCAI source",
         "Whether the summary should mention the health department's waiver and the spending-plan condition on refunds",
-        "The accountability rating (5) may not match its written reason under the rating rubric. It is under review and has not been changed."
+        "Accountability rating (5) may not match its corrected rationale under the rubric; the owner decides (EVD-06)"
       ]
     },
     {
@@ -852,7 +852,7 @@
           "type": "Independent"
         }
       ],
-      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.",
+      "notes": "Every field was audited on 2026-10-22 against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.",
       "gaps": [
         "The official voter guide page for Prop 45 could not be read, so the official supporter and opponent listing is unconfirmed",
         "Confirm from an official or second independent source that Jennifer Hernandez helped write the measure",

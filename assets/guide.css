@@ -156,9 +156,3 @@ footer.site { max-width: 860px; margin: 0 auto; padding: 24px 0 48px; border-top
 .stats b .of { font-size: .9rem; color: var(--muted); font-weight: 700; }
 .stats li > span { font-size: .84rem; color: var(--muted); }
 .city-help:empty { display: none; }
-
-/* Beta notice: one compact line under the top bar, using the existing warning tokens. */
-.beta { max-width: 860px; margin: 10px auto 0; display: flex; gap: 10px; align-items: baseline; padding: 8px 12px; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); font-size: .86rem; color: var(--muted); }
-.beta p { max-width: none; }
-.beta b { color: var(--ink); }
-.beta-tag { flex: none; font-family: var(--f-display); font-weight: 800; font-size: .72rem; letter-spacing: .08em; padding: 2px 8px; border-radius: 999px; background: var(--warn-soft); color: var(--warn); }

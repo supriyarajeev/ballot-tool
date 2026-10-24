@@ -254,29 +254,6 @@ if (region) {
     for (const m of t.matchAll(/\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) counties\b/g)) if (num(m[1]) !== region.countyCount) warn(`${w}: text says ${m[1]} counties but countyCount is ${region.countyCount}`);
     for (const m of t.matchAll(/\b(\d+) cities\b/g)) if (+m[1] !== region.municipalityCount) warn(`${w}: text says ${m[1]} cities but municipalityCount is ${region.municipalityCount}`);
   });
-  // "The region at a glance": dated official figures. The guide sums the county values, so each table must list exactly the nine counties.
-  const G = region.glance;
-  if (G !== undefined) {
-    const src = (o, w) => { if (!isUrl(o && o.url)) err(`${w}: url must be https`); if (!o || !o.publisher) err(`${w}: missing publisher`); if (!o || !o.title) err(`${w}: missing title`); pastDate(o && o.retrieved, w, "retrieved"); };
-    for (const k of ["population", "registration"]) {
-      const o = G[k], w = `${R} glance.${k}`;
-      if (!o) { err(`${w}: missing`); continue; }
-      src(o, w); pastDate(o.asOf, w, "asOf");
-      for (const tk of ["byCounty"].concat(k === "registration" ? ["eligibleByCounty"] : [])) {
-        const t = o[tk] || {}, keys = Object.keys(t);
-        const miss = [...regionCounties].filter((c) => !(c in t)), extra = keys.filter((c) => !regionCounties.has(c));
-        if (miss.length || extra.length) err(`${w}.${tk}: must list exactly the region's counties (missing: ${miss.join(", ") || "none"}; extra: ${extra.join(", ") || "none"})`);
-        keys.forEach((c) => { if (!(Number.isInteger(t[c]) && t[c] > 0)) err(`${w}.${tk}.${c}: must be a whole number above 0`); });
-      }
-      if (!(Number.isInteger(o.state) && o.state > 0)) err(`${w}.state: must be a whole number above 0`);
-      const sum = Object.values(o.byCounty || {}).reduce((a, b) => a + (+b || 0), 0);
-      if (o.state && sum >= o.state) err(`${w}: the nine counties add up to ${sum}, which is not below the state total ${o.state}`);
-      if (k === "registration") Object.keys(o.byCounty || {}).forEach((c) => { if (o.eligibleByCounty && o.byCounty[c] > o.eligibleByCounty[c]) err(`${w}.byCounty.${c}: more registered than eligible`); });
-    }
-    const cc = G.californiaCounties, w = `${R} glance.californiaCounties`;
-    if (!cc) err(`${w}: missing`);
-    else { src(cc, w); if (cc.count !== counties.length) err(`${w}: count is ${cc.count} but the data has ${counties.length} county records`); }
-  }
 }
 counties.forEach((c) => {
   const tagged = c.region === "bay-area", listed = regionCounties.has(c.id);

@@ -30,14 +30,6 @@ Public labels are fixed and tested. The guide shows exactly these words.
 | `archived` | Archived | No longer current. Kept for history. |
 | `superseded` | Superseded | Replaced by a newer record, named in `supersededBy`. Kept for history. |
 
-**Where labels appear (beta, from October 23, 2026).** Each record's own page shows its label and, for any status other than Verified, an explanation with the record's gaps. Lists leave out the badge only for `needs-review`:
-- ballot overviews;
-- the contest list;
-- the statewide list;
-- candidate cards.
-
-During the beta every record is either `needs-review` or `incomplete`, so that badge carried no information in a list. The beta notice and the About page explain it once. Every other label, including Incomplete, still shows in lists. The status in the data is unchanged. This is done in `listBadge()` in `assets/guide.js`, and the browser tests check it.
-
 Every record has `lastVerified` (the date it was last checked, YYYY-MM-DD) and `sources` (label, https url, type). Unless a record is verified, it also has `notes` or `gaps` explaining what is missing. Generic gaps such as "Human review against the official voter guide" are rejected by the validator.
 
 ### When a record may be Verified
@@ -77,29 +69,6 @@ State districts that split a county list it in `partialCounties` as well as `cou
 ## region.json
 
 `data/region.json` names the nine Bay Area counties and the regional counts (9 counties, 101 cities and towns), each with the publisher's exact wording, URL and retrieval date. The validator checks the counties against the jurisdiction data and `municipalityCount` against the number of city records. These counts describe the region; they are not a measure of the guide's coverage, which is computed from the records.
-
-### region.json glance (added for the beta)
-
-`glance` holds the dated official figures for "The region at a glance" on the home page:
-- `population`, from the California Department of Finance E-1 estimates for January 1, 2026 (provisional);
-- `registration`, from the Secretary of State's Report of Registration as of September 4, 2026. It also holds `eligibleByCounty`;
-- `californiaCounties`, the 58 counties on the Secretary of State's county elections office list.
-
-Each figure has `publisher`, `title`, `url`, `retrieved` and, where it applies, `asOf`. `byCounty` lists exactly the nine region counties. The guide adds them to get the Bay Area total and shows the date; it never stores a hand-made total. The validator checks the following:
-- the county keys;
-- whole numbers;
-- that the Bay Area sum is below the state total;
-- registered is not above eligible;
-- the California county count against the county records.
-
-## readingNote (measures and contests)
-
-`readingNote` is a voter-facing sentence on a record whose key facts were read by OCR or by an AI assistant looking at a page image. It is shown as "How this was read" next to those facts. On October 23, 2026 it is set on these records:
-- 27 Alameda measures (registrar forms read by OCR);
-- the three Oakland Unified trustee district contests (district mapping read from the page layout);
-- six Berkeley contests (ballot designations read from the notice's page image).
-
-It does not change the record's status.
 
 ## Contest ids
 
