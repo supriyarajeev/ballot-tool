@@ -1,0 +1,2239 @@
+{
+ "county": "ca-alameda+ca-sf",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Alameda County ROV Candidate List (electionId 260, General Election 11/03/2026 Official)",
+   "url": "https://alamedacountyca.gov/rov_app/candidatelist",
+   "note": "Election chosen in the form (POST). Shows race status On Ballot/Not On Ballot, Vote For N, name (ALL CAPS), ballot designation, and filing status. Read twice: one full-list request, then three category-filtered requests (School Districts, Special Districts, City). Both readings were identical."
+  },
+  {
+   "label": "SF Dept. of Elections, Candidates for Nov 3 2026",
+   "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+   "note": "Used to check SF contests and names"
+  },
+  {
+   "label": "SF Voter Information Pamphlet Nov 3 2026",
+   "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+   "note": "Contest list confirms no other SF local contests"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Alameda County (county offices)",
+  "Alameda",
+  "Albany",
+  "Berkeley",
+  "Dublin",
+  "Emeryville",
+  "Fremont",
+  "Hayward",
+  "Livermore",
+  "Newark",
+  "Oakland",
+  "Piedmont",
+  "Pleasanton",
+  "San Leandro",
+  "Union City",
+  "Ohlone CCD",
+  "Chabot-Las Positas CCD",
+  "Peralta CCD",
+  "San Joaquin Delta CCD",
+  "Alameda USD",
+  "Albany USD",
+  "Berkeley USD",
+  "Castro Valley USD",
+  "Dublin USD",
+  "Emery USD",
+  "Fremont USD",
+  "Hayward USD",
+  "Livermore Valley JUSD",
+  "Mountain House ESD",
+  "New Haven USD",
+  "Newark USD",
+  "Oakland USD",
+  "Pleasanton USD",
+  "San Leandro USD",
+  "San Lorenzo USD",
+  "Sunol Glen USD",
+  "AC Transit",
+  "Alameda County Water District",
+  "BART Districts 4, 6",
+  "Byron-Bethany Irrigation District",
+  "Castro Valley Sanitary District",
+  "City of Alameda Healthcare District",
+  "Dublin San Ramon Services District",
+  "EBMUD Wards 3, 4, 7",
+  "East Bay Regional Park District",
+  "Eden Township Healthcare District",
+  "Fairview Fire Protection District",
+  "Hayward Area Recreation and Park District",
+  "Livermore Area Recreation and Park District",
+  "Oro Loma Sanitary District",
+  "Washington Township Healthcare District",
+  "San Francisco (all city offices, Board of Supervisors, SFUSD, SFCCD, BART District 8)"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-ccd-ohlone-community-college-district",
+    "existing": false,
+    "name": "Ohlone Community College District",
+    "type": "community-college-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-fremont",
+     "ca-alameda-newark"
+    ]
+   },
+   "office": "Ohlone Community College District Trustee, Area 6",
+   "district": "Area 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Suzanne \"Sue\" Lee Chan",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sonia Salwan",
+     "designation": "Veterinarian/Nonprofit Founder",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-ccd-chabot-las-positas-community-college-district",
+    "existing": false,
+    "name": "Chabot-Las Positas Community College District",
+    "type": "community-college-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Chabot - Las Positas Community College District Trustee, Area 2",
+   "district": "Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Linda Granger",
+     "designation": "Education Administrator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cindy Rocha",
+     "designation": "San Leandro Unified School District Board Trustee Area 3",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-ccd-chabot-las-positas-community-college-district",
+    "existing": false,
+    "name": "Chabot-Las Positas Community College District",
+    "type": "community-college-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Chabot - Las Positas Community College District Trustee, Area 3",
+   "district": "Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mark Fay",
+     "designation": "Airworthiness Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wendy Huang",
+     "designation": "Real Estate Investor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Harris Mojadedi",
+     "designation": "Chabot-Las Positas Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-ccd-chabot-las-positas-community-college-district",
+    "existing": false,
+    "name": "Chabot-Las Positas Community College District",
+    "type": "community-college-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Chabot - Las Positas Community College District Trustee, Area 6",
+   "district": "Area 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Hal G. Gin",
+     "designation": "Chabot-Las Positas College Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joe Orlando Ramos",
+     "designation": "Author/Adult Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Joe Orlando Ramos is also listed for Hayward USD Area 2."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-ccd-peralta-community-college-district",
+    "existing": false,
+    "name": "Peralta Community College District",
+    "type": "community-college-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-oakland",
+     "ca-alameda-berkeley",
+     "ca-alameda-alameda",
+     "ca-alameda-albany",
+     "ca-alameda-emeryville",
+     "ca-alameda-piedmont"
+    ]
+   },
+   "office": "Peralta Community College District Trustee, Area 5",
+   "district": "Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cindi Reiss",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sandra Weese",
+     "designation": "Retired Labor Organizer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-alameda-unified-school-district",
+    "existing": false,
+    "name": "Alameda Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-alameda"
+    ]
+   },
+   "office": "Alameda Unified School District Governing Board Member, Full Term",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joyce Boyd",
+     "designation": "Certified Public Accountant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Carrie Hahnel",
+     "designation": "Appointed AUSD Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Lym",
+     "designation": "Alameda Unified School District Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mike McMahon",
+     "designation": "Independent Contractor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Putnam",
+     "designation": "Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-castro-valley-unified-school-district",
+    "existing": false,
+    "name": "Castro Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Castro Valley Unified School District Governing Board Member, Area 2, Short Term",
+   "district": "Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jesus Jacobo",
+     "designation": "Autopilot Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Myla Long",
+     "designation": "Planning Manager/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Frederick Regala",
+     "designation": "Construction Technology Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Short (partial) term."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-castro-valley-unified-school-district",
+    "existing": false,
+    "name": "Castro Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Castro Valley Unified School District Governing Board Member, Area 3",
+   "district": "Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dan Jacowitz",
+     "designation": "Peace Officer/Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Eryka N Mathews-Cain",
+     "designation": "Financial Manager/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Glenn A. Miller",
+     "designation": "Certified Public Accountant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kara Wong",
+     "designation": "Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-castro-valley-unified-school-district",
+    "existing": false,
+    "name": "Castro Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Castro Valley Unified School District Governing Board Member, Area 4",
+   "district": "Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Faith Carroll",
+     "designation": "Classified Substitute/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brian A. Foster",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Grcar",
+     "designation": "Retired Laboratory Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-dublin-unified-school-district",
+    "existing": true,
+    "name": "Dublin Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-dublin"
+    ]
+   },
+   "office": "Dublin Unified School District Governing Board Members, Area 3, Short Term",
+   "district": "Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Shalini Bhandari",
+     "designation": "Energy Sustainability Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tanner Frye",
+     "designation": "Energy Compliance Inspector",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Short (partial) term."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-dublin-unified-school-district",
+    "existing": true,
+    "name": "Dublin Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-dublin"
+    ]
+   },
+   "office": "Dublin Unified School District Governing Board Members, Area 5",
+   "district": "Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Seema Badar",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Cherrier",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-emery-unified-school-district",
+    "existing": false,
+    "name": "Emery Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-emeryville"
+    ]
+   },
+   "office": "Emery Unified School District Governing Board Members",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Christopher Keith Allen",
+     "designation": "Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Regina Chagolla",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Donahue",
+     "designation": "Businessman/Journalist/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "David Ridlehuber",
+     "designation": "Parent/Contractor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kimberly Solis",
+     "designation": "Student",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-hayward-unified-school-district",
+    "existing": false,
+    "name": "Hayward Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-hayward"
+    ]
+   },
+   "office": "Hayward Unified School District Governing Board Member, Area 2",
+   "district": "Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joann Guzman",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joe Orlando Ramos",
+     "designation": "Author/Adult Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). 'Joann' could be styled 'JoAnn'; source is all caps. Joe Orlando Ramos is also listed for Chabot-Las Positas CCD Area 6."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-hayward-unified-school-district",
+    "existing": false,
+    "name": "Hayward Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-hayward"
+    ]
+   },
+   "office": "Hayward Unified School District Governing Board Member, Area 4",
+   "district": "Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michelle Fernelius",
+     "designation": "Parent/Research Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Maria Araceli Orozco",
+     "designation": "Parent/Caregiver/Student",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-livermore-valley-joint-unified-school-district",
+    "existing": false,
+    "name": "Livermore Valley Joint Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-livermore"
+    ]
+   },
+   "office": "Livermore Valley Joint Unified School District Governing Board Member, Area #2",
+   "district": "Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tara Boyce",
+     "designation": "Parent/Finance Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Stephen R Orgain",
+     "designation": "Regional Sales Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-livermore-valley-joint-unified-school-district",
+    "existing": false,
+    "name": "Livermore Valley Joint Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-livermore"
+    ]
+   },
+   "office": "Livermore Valley Joint Unified School District Governing Board Member, Area #3",
+   "district": "Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Angela M. Brady",
+     "designation": "Parent/Data Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Deborah Gibson",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Kate Runyon is listed as 'Candidacy Withdrawn' and is excluded."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-livermore-valley-joint-unified-school-district",
+    "existing": false,
+    "name": "Livermore Valley Joint Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-livermore"
+    ]
+   },
+   "office": "Livermore Valley Joint Unified School District Governing Board Member, Area #5",
+   "district": "Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Deena Kaplanis",
+     "designation": "Livermore Valley Joint Unified School District Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sam Phelps",
+     "designation": "Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Christiaan Vandenheuvel",
+     "designation": "Member, Board of Education, Livermore Valley Joint Unified School District",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-new-haven-unified-school-district",
+    "existing": false,
+    "name": "New Haven Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-union-city"
+    ]
+   },
+   "office": "New Haven Unified School District Governing Board Member, Area 4",
+   "district": "Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Shruti Kumar",
+     "designation": "Professor/School Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Charandeep Singh Tatlah",
+     "designation": "Entrepreneur/IT Professional",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kashif Wasim",
+     "designation": "Software Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-new-haven-unified-school-district",
+    "existing": false,
+    "name": "New Haven Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-union-city"
+    ]
+   },
+   "office": "New Haven Unified School District Governing Board Member, Area 5",
+   "district": "Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Deepti Garg",
+     "designation": "Mother/Program Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Francis Rojas",
+     "designation": "Educational Consultant/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-pleasanton-unified-school-district",
+    "existing": false,
+    "name": "Pleasanton Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-pleasanton"
+    ]
+   },
+   "office": "Pleasanton Unified School District Governing Board Member, Area 5",
+   "district": "Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Thomas Choi",
+     "designation": "Attorney/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Karen Fletcher",
+     "designation": "Teacher/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brett Gerald Martinez",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-sunol-glen-unified-school-district",
+    "existing": true,
+    "name": "Sunol Glen Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Sunol Glen Unified School District Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gagan Bassi",
+     "designation": "Parent/Cybersecurity Professional",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jennifer Kavouniaris",
+     "designation": "Businesswoman/Grandmother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Karen Ruth Newcomb",
+     "designation": "Retired Investment Strategist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "René Turnbull",
+     "designation": "Retired College Dean",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Linda Hurley is listed as 'Candidacy Withdrawn' and is excluded."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-dublin",
+    "existing": true,
+    "name": "Dublin",
+    "type": "city",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "For Mayor, Dublin",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sherry Hu",
+     "designation": "Mayor/Entrepreneur/Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael McCorriston",
+     "designation": "Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kiran Mohammad",
+     "designation": "Author",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-dublin-council-district-2",
+    "existing": false,
+    "name": "Dublin City Council District 2",
+    "type": "council-district",
+    "parent": "ca-alameda-dublin",
+    "areas": [
+     "ca-alameda-dublin"
+    ]
+   },
+   "office": "For Members Of City Council #2, Dublin",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Daniel Hor",
+     "designation": "Researcher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Lorey",
+     "designation": "Intelligence Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tejpreet Singh",
+     "designation": "Investor/Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Richard Thornbury",
+     "designation": "Principal Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-dublin-council-district-4",
+    "existing": false,
+    "name": "Dublin City Council District 4",
+    "type": "council-district",
+    "parent": "ca-alameda-dublin",
+    "areas": [
+     "ca-alameda-dublin"
+    ]
+   },
+   "office": "For Members Of City Council #4, Dublin",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kashef Qaadri",
+     "designation": "City Councilmember/Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Shivraj Singh",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-fremont-council-district-2",
+    "existing": false,
+    "name": "Fremont City Council District 2",
+    "type": "council-district",
+    "parent": "ca-alameda-fremont",
+    "areas": [
+     "ca-alameda-fremont"
+    ]
+   },
+   "office": "For Member Of City Council #2, Fremont",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Desrie Campbell",
+     "designation": "Councilmember/Healthcare Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Keith Parker",
+     "designation": "Marketing Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-fremont-council-district-3",
+    "existing": false,
+    "name": "Fremont City Council District 3",
+    "type": "council-district",
+    "parent": "ca-alameda-fremont",
+    "areas": [
+     "ca-alameda-fremont"
+    ]
+   },
+   "office": "For Member Of City Council #3, Fremont",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kathy Kimberlin",
+     "designation": "County Field Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vipin Sharma",
+     "designation": "Senior Engineering Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-fremont-council-district-4",
+    "existing": false,
+    "name": "Fremont City Council District 4",
+    "type": "council-district",
+    "parent": "ca-alameda-fremont",
+    "areas": [
+     "ca-alameda-fremont"
+    ]
+   },
+   "office": "For Member Of City Council #4, Fremont",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Aziz Akbari",
+     "designation": "Director, Alameda County Water District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ying Min Li",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Anurag Mishra",
+     "designation": "Technical Leader",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Manisha Pathak",
+     "designation": "Educator/Nonprofit Executive",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-livermore-council-district-2",
+    "existing": false,
+    "name": "Livermore City Council District 2",
+    "type": "council-district",
+    "parent": "ca-alameda-livermore",
+    "areas": [
+     "ca-alameda-livermore"
+    ]
+   },
+   "office": "For Member Of City Council #2, Livermore",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ben Barrientos",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Narayan Tadimeti",
+     "designation": "Physician",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-newark",
+    "existing": true,
+    "name": "Newark",
+    "type": "city",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "For Mayor, Newark",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michael K. Hannon",
+     "designation": "Mayor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Single candidate; ROV lists race as On Ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-newark",
+    "existing": true,
+    "name": "Newark",
+    "type": "city",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "For Members Of City Council, Newark",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tonya Connolly",
+     "designation": "Retired Maintenance Superintendent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Noah Patrick Grushkin",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Matthew Jorgens",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Eve Marie Little",
+     "designation": "Councilmember/College Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Grushkin: list prints 'No Ballot Designation'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-pleasanton",
+    "existing": true,
+    "name": "Pleasanton",
+    "type": "city",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "For Mayor, Pleasanton",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jack Balch",
+     "designation": "Mayor/CPA",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Julie Testa",
+     "designation": "Councilmember, City of Pleasanton",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-pleasanton-council-district-1",
+    "existing": false,
+    "name": "Pleasanton City Council District 1",
+    "type": "council-district",
+    "parent": "ca-alameda-pleasanton",
+    "areas": [
+     "ca-alameda-pleasanton"
+    ]
+   },
+   "office": "For Members Of City Council #1, Pleasanton",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Vin Kruttiventi",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kathy Narum",
+     "designation": "Businesswoman",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-pleasanton-council-district-3",
+    "existing": false,
+    "name": "Pleasanton City Council District 3",
+    "type": "council-district",
+    "parent": "ca-alameda-pleasanton",
+    "areas": [
+     "ca-alameda-pleasanton"
+    ]
+   },
+   "office": "For Members Of City Council #3, Pleasanton",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Reena Gupta",
+     "designation": "Local Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jamie Yee",
+     "designation": "Communications Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-ac-transit-district",
+    "existing": false,
+    "name": "Alameda-Contra Costa Transit District (AC Transit)",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "AC Transit District Director, Ward 3",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Adriana Valencia",
+     "designation": "Product Manager/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joel B. Young",
+     "designation": "AC Transit District Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-ac-transit-district",
+    "existing": false,
+    "name": "Alameda-Contra Costa Transit District (AC Transit)",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "AC Transit District Director, Ward 4",
+   "district": "Ward 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gabriel Morales",
+     "designation": "Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Syed",
+     "designation": "AC Transit Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Mark Williams listed as 'Incomplete Filing' and excluded."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-ac-transit-district",
+    "existing": false,
+    "name": "Alameda-Contra Costa Transit District (AC Transit)",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "AC Transit District Director, Ward 5",
+   "district": "Ward 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joseph Grcar",
+     "designation": "Retired Laboratory Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Murphy McCalley",
+     "designation": "AC Transit District Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Luis Reynoso",
+     "designation": "University Business Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Heriberto Perez listed as 'Incomplete Filing' and excluded."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-alameda-county-water-district",
+    "existing": false,
+    "name": "Alameda County Water District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-fremont",
+     "ca-alameda-newark",
+     "ca-alameda-union-city"
+    ]
+   },
+   "office": "Alameda County Water District Director, Ward 2",
+   "district": "Ward 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Judy C. Huang",
+     "designation": "Director, Alameda County Water District, Ward 2",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jason Miguel",
+     "designation": "Water District Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-alameda-county-water-district",
+    "existing": false,
+    "name": "Alameda County Water District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-fremont",
+     "ca-alameda-newark",
+     "ca-alameda-union-city"
+    ]
+   },
+   "office": "Alameda County Water District Director, Ward 3",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Paul Sethy",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Yang Shao",
+     "designation": "Councilmember, City of Fremont",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-bart-district-4",
+    "existing": false,
+    "name": "BART Board District 4",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "BART Director, District 4",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robert Raburn",
+     "designation": "BART Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Luis Reynoso",
+     "designation": "University Business Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Id follows existing ca-bart-district-8 pattern."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-castro-valley-sanitary-district",
+    "existing": false,
+    "name": "Castro Valley Sanitary District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Castro Valley Sanitary District Directors",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kristy (Dooman) Woerz",
+     "designation": "Castro Valley Sanitary District Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Grcar",
+     "designation": "Retired Laboratory Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ralph Johnson",
+     "designation": "Board Member Castro Valley Sanitary District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ken Owen",
+     "designation": "Sewer Contractor/Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Darshan Saini",
+     "designation": "Organization Change Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-east-bay-regional-park-district",
+    "existing": false,
+    "name": "East Bay Regional Park District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "East Bay Regional Park District Director, Ward 3",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joseph Grcar",
+     "designation": "Retired Laboratory Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Lewington",
+     "designation": "Retired Brand Strategist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "William Yragui",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-east-bay-regional-park-district",
+    "existing": false,
+    "name": "East Bay Regional Park District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "East Bay Regional Park District Director, Ward 5",
+   "district": "Ward 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Bruce Henry",
+     "designation": "Retired Sales Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Olivia Sanwong",
+     "designation": "Director, East Bay Regional Park District Ward 5",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-eden-township-healthcare-district",
+    "existing": false,
+    "name": "Eden Township Healthcare District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Eden Township Healthcare District Director, Area 3",
+   "district": "Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Narges Dillon",
+     "designation": "Nonprofit Director/Therapist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Grcar",
+     "designation": "Retired Laboratory Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-fairview-fire-protection-district",
+    "existing": false,
+    "name": "Fairview Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Fairview Fire Protection District Directors",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michelle Biche",
+     "designation": "Paralegal/Goat Farmer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vandana Singh Gautam",
+     "designation": "Nonprofit Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael D. Justice",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-hayward-area-recreation-and-park-district",
+    "existing": false,
+    "name": "Hayward Area Recreation and Park District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Hayward Area Recreation & Park District Director, Area 2",
+   "district": "Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Amanda Alysia Daniels",
+     "designation": "Law Student/Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sara Lamnin",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-hayward-area-recreation-and-park-district",
+    "existing": false,
+    "name": "Hayward Area Recreation and Park District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Hayward Area Recreation & Park District Director, Area 4",
+   "district": "Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joseph \"Joe\" Giltner",
+     "designation": "Community Advocate",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Paul W. Hodges, Jr.",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-livermore-area-recreation-and-park-district",
+    "existing": false,
+    "name": "Livermore Area Recreation and Park District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": [
+     "ca-alameda-livermore"
+    ]
+   },
+   "office": "Livermore Area Recreation & Park District Directors",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Timothy Barry",
+     "designation": "Retired General Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Larry Bird",
+     "designation": "Retired Police Sergeant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Bogdanowicz",
+     "designation": "Recreation Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Maryalice Summers Faltings",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Philip Pierpont",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Ralph",
+     "designation": "Bike Shop Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laureen Turner",
+     "designation": "Nursing Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess). Shanavaz Nasarabadi listed as 'Incomplete Filing' and excluded. 'Maryalice' could be styled 'MaryAlice'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-oro-loma-sanitary-district",
+    "existing": false,
+    "name": "Oro Loma Sanitary District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Member, Board Of Director, Oro Loma Sanitary Dist #1",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tiare Peña",
+     "designation": "Land Use Planner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Shelia Young",
+     "designation": "Director, Oro Loma Sanitary District",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-oro-loma-sanitary-district",
+    "existing": false,
+    "name": "Oro Loma Sanitary District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Member, Board Of Director, Oro Loma Sanitary Dist #3",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Benny Lee",
+     "designation": "Director, Oro Loma Sanitary District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Fred Simon",
+     "designation": "Director, Oro Loma Sanitary District",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-spd-oro-loma-sanitary-district",
+    "existing": false,
+    "name": "Oro Loma Sanitary District",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Member, Board Of Director, Oro Loma Sanitary Dist #5",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rita Duncan",
+     "designation": "Board Director Oro Loma Sanitary District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Koroush \"Cyrus\" Farsaei",
+     "designation": "Plant Operator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   "readingsMatched": true,
+   "note": "Official list prints names in ALL CAPS; converted to normal capitalization (internal capitals such as Mc/La are a best guess)."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Ohlone Community College District",
+   "office": "Trustee, Area 3 (Phuong Nguyen)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Ohlone Community College District",
+   "office": "Trustee, Area 4 (Elisa Martinez)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Ohlone Community College District",
+   "office": "Trustee, Area 7 (Betty Ho)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Peralta Community College District",
+   "office": "Trustee, Area 3 (Louis Quindlen)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Peralta Community College District",
+   "office": "Trustee, Area 7 (Sheweet Yohannes)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "San Joaquin Delta Community College District",
+   "office": "Trustee, Area 4 (Charles R Jennings, Tony Shah listed; Alameda portion)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Alameda Unified School District",
+   "office": "Governing Board Member, Short Term (Ryan LaLonde; Mike McMahon withdrawn)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Dublin Unified School District",
+   "office": "Governing Board Members, Area 2 (Holden Lomeli)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Fremont Unified School District",
+   "office": "Governing Board Members, Area 2 (Larry Sweeney)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Fremont Unified School District",
+   "office": "Governing Board Members, Area 3 (Dianne Jones)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Newark Unified School District",
+   "office": "Governing Board Members, vote for 2 (Christine Kizer, Renu Malhotra qualified; two incomplete filings)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Pleasanton Unified School District",
+   "office": "Governing Board Member, Area 2 (Laurie Walker)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "San Leandro Unified School District",
+   "office": "Governing Board Member, Area 2 (Jacqueline Calderón Perl)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "San Leandro Unified School District",
+   "office": "Governing Board Member, Area 4 (Leo Sheridan)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "San Leandro Unified School District",
+   "office": "Governing Board Member, Area 6 (Natasha Martinez)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "San Lorenzo Unified School District",
+   "office": "Governing Board Members, Area 1 (Yuliana Torres)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "San Lorenzo Unified School District",
+   "office": "Governing Board Members, Area 4 (Samuel Medina)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "City of Livermore",
+   "office": "Mayor (John Marchand)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "City of Livermore",
+   "office": "City Council District 1 (Evan Branning)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "AC Transit District",
+   "office": "Director, Ward 1, Short Term (Harpreet Sandhu)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "AC Transit District",
+   "office": "Director, Ward 7 (Diane Shaw)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "BART",
+   "office": "Director, District 6 (Liz Ames)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Byron-Bethany Irrigation District",
+   "office": "Directors (Tim Maggiore; Alameda portion)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "City of Alameda Healthcare District",
+   "office": "Directors, vote for 3 (Gayle Godfrey Codiga, Robert Deutsch, David W Sayen)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Dublin San Ramon Services District",
+   "office": "Board of Directors, Area 4 (Georgean Vonheeder-Leopold)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "EBMUD",
+   "office": "Director, Ward 4 (Andy Katz)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Eden Township Healthcare District",
+   "office": "Director, Area 1 (Mariellen Faria)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Eden Township Healthcare District",
+   "office": "Director, Area 5 (Ed Hernandez)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Washington Township Healthcare District",
+   "office": "Directors, vote for 3 (Jacob Eapen, Bernard L. Stewart, Michael J. Wallace)",
+   "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "Mountain House Elementary School District",
+   "office": "Governing Board Member, vote for 2 (Alameda portion)",
+   "reason": "ROV list marks race 'Not On Ballot'; only two filings, both 'Incomplete Filing'",
+   "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+  },
+  {
+   "jurisdiction": "EBMUD",
+   "office": "Director, Ward 2 and Ward 4",
+   "reason": "appointed in lieu of election (uncontested incumbents), per EBMUD press release",
+   "source": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4"
+  }
+ ],
+ "unavailable": [
+  "Peralta Community College District Trustee, Area 1, Short Term: listed as a race in the ROV dropdown but the list shows no candidates and no On/Not On Ballot status; could not verify whether it is on the ballot.",
+  "Candidate statement URLs: the Alameda County ROV candidate list does not link statements; none recorded.",
+  "No Alameda County (countywide) offices appear in the ROV Nov 3 2026 list (categories are only Federal, State, School Districts, Special Districts, City). DA race was decided in June per Wikipedia; no county runoffs found.",
+  "San Francisco: no local contests missing. SF Dept. of Elections candidate page and Voter Information Pamphlet list only Assessor-Recorder, Public Defender, Supervisors D2/4/6/8/10, Board of Education, Community College Board (full and remainder term), and BART District 8, all already in contests.json. SF names in contests.json match sf.gov exactly. SF page reports 0 write-ins.",
+  "MISMATCH: Berkeley Unified School Board (2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director): contests.json has 'Ka'Dijah Brown'; ROV prints 'KA'DIJAH A. BROWN' (middle initial).",
+  "MISMATCH: Berkeley Unified School Board: ROV list also includes 'REICHI LEE', designation 'Write-in Candidate', Filing Completed. Qualified write-in, not printed on the ballot; not in contests.json.",
+  "MISMATCH: Hayward Council District 1: contests.json has 'Brian M Schott'; ROV prints 'BRIAN M. SCHOTT' (period after initial).",
+  "MISMATCH: Alameda (city) Mayor: contests.json has 'Tracy L. Jensen'; ROV prints 'TRACY JENSEN' (no middle initial). ROV designations (missing in contests.json): Tony Daysog 'Councilmember/Urban Planner', Tracy Jensen 'Councilmember/Nonprofit Director', Malia Vella 'Businesswoman/Educator'.",
+  "MISMATCH: Alameda (city) City Council: names match, but contests.json has seats null; ROV says Vote For 2. ROV designations: Amarasiriwardena 'Software Product Manager', Bondonno 'Public Service Attorney', Johnson 'Social Worker', Savage 'Technology Partner Manager', Slauson 'Small Business Owner', White 'Environmental Nonprofit Executive'.",
+  "MISMATCH: Emeryville City Council: contests.json has 'Kalimah Priforce'; ROV prints 'KALIMAH ATREYU PRIFORCE'.",
+  "MISMATCH: Piedmont City Council: contests.json has 'N. \"Sunny\" Bostrom-Fleming'; ROV prints 'SUNNY BOSTROM-FLEMING'.",
+  "MISMATCH: EBMUD Ward 3: contests.json has 'Donald Gray'; ROV prints 'DON GRAY' (designation 'Retired Wastewater Manager').",
+  "All other existing Alameda contests (Oakland mayor/D2/D4/D6/auditor, OUSD D2/D4/D6, Berkeley D1/D4/D7/D8/auditor/rent board, Hayward mayor/D6, Albany council and school board, Union City D2/D3/D4, San Leandro mayor/D1/D2/D3/D5, EBMUD Ward 7) match the ROV list by name and candidate set. Ignoring capitalization, the ROV prints accents as in contests.json (González, López).",
+  "Withdrawn or incomplete filings excluded: Linda Hurley (Sunol Glen), Kate Runyon (LVJUSD Area 3), Mark Williams (AC Transit W4), Heriberto Perez (AC Transit W5), Shanavaz Nasarabadi (LARPD)."
+ ]
+}

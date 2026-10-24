@@ -1,0 +1,18 @@
+DIFF presets or ratings changed
+DIFF result def|44||2.8|none|Not answered => def|44||2.6|none|Not answered
+DIFF result def|44|-2|2.8|no|Leans toward NO => def|44|-2|2.6|no|Leans toward NO
+DIFF result def|44|-1|2.8|no|Leans toward NO => def|44|-1|2.6|no|Leans toward NO
+DIFF result def|44|0|2.8|unsure|Not sure => def|44|0|2.6|unsure|Not sure
+DIFF result def|44|1|2.8|close|Mixed / uncertain => def|44|1|2.6|close|Mixed / uncertain
+DIFF result def|44|2|2.8|yes|Leans toward YES => def|44|2|2.6|yes|Leans toward YES
+DIFF result cost|44||2.8|none|Not answered => cost|44||2.7|none|Not answered
+DIFF result cost|44|-2|2.8|no|Leans toward NO => cost|44|-2|2.7|no|Leans toward NO
+DIFF result cost|44|-1|2.8|no|Leans toward NO => cost|44|-1|2.7|no|Leans toward NO
+DIFF result cost|44|0|2.8|unsure|Not sure => cost|44|0|2.7|unsure|Not sure
+1008 scoring results compared, 25 differences.
+DIFF why def|44|1|limited|on|You support the goal, but on your priorities it rates Fair (2.8), below the 3.0 line. => def|44|1|limited|on|You support the goal, but on your priorities it rates Mixed (2.6), below the 3.0 line.
+DIFF why def|44|2|limited|on|You strongly support the goal, and on your priorities it rates Fair (2.8), at or above the 2.0 line. => def|44|2|limited|on|You strongly support the goal, and on your priorities it rates Mixed (2.6), at or above the 2.0 line.
+DIFF why cost|44|1|limited|on|You support the goal, but on your priorities it rates Fair (2.8), below the 3.0 line. => cost|44|1|limited|on|You support the goal, but on your priorities it rates Mixed (2.7), below the 3.0 line.
+DIFF why cost|44|2|limited|on|You strongly support the goal, and on your priorities it rates Fair (2.8), at or above the 2.0 line. => cost|44|2|limited|on|You strongly support the goal, and on your priorities it rates Mixed (2.7), at or above the 2.0 line.
+DIFF why eq|44|1|limited|on|You support the goal, and on your priorities it rates Fair (3.0), at or above the 3.0 line. => eq|44|1|limited|on|You support the goal, but on your priorities it rates Fair (2.9), below the 3.0 line.
+1008 reason and limited-flag lines, 81 quality words, 14 limited-flag sets, 8 saved-state cases, 42 slider cases compared, 8 differences.

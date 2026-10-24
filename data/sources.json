@@ -678,6 +678,18 @@
    "notes": []
   },
   {
+   "id": "src-d610554691",
+   "title": "Alameda County Registrar of Voters, Candidate List, General Election 11/03/2026 (Official), electionId 260",
+   "publisher": "alamedacountyca.gov",
+   "url": "https://alamedacountyca.gov/rov_app/candidatelist",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-f30ceffecc",
    "title": "Official ROV memo to Board of Supervisors, Oct 6, 2026 agenda (consolidation, $980M estimate)",
    "publisher": "alamedacountyca.gov",
@@ -997,7 +1009,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1033,7 +1045,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-23",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1093,7 +1105,19 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-6c12e1357c",
+   "title": "Legal text",
+   "publisher": "California Secretary of State",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-23",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1122,6 +1146,18 @@
    "notes": []
   },
   {
+   "id": "src-9a20bad971",
+   "title": "Legal text",
+   "publisher": "California Secretary of State",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-3e59147eec",
    "title": "Legal text",
    "publisher": "California Secretary of State",
@@ -1141,7 +1177,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-23",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1153,7 +1189,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1189,7 +1225,7 @@
    "sourceType": "Official, campaign arguments",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-23",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1213,19 +1249,19 @@
    "sourceType": "Official, campaign arguments",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
   {
-   "id": "src-ea136f1acf",
+   "id": "src-3c4981acd0",
    "title": "Official arguments",
    "publisher": "California Secretary of State",
-   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+   "url": "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm",
    "sourceType": "Official, campaign arguments",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-23",
+   "retrieved": "2026-10-22",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1501,7 +1537,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1525,7 +1561,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-23",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1537,7 +1573,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1585,7 +1621,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1597,7 +1633,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1686,18 +1722,6 @@
    "notes": []
   },
   {
-   "id": "src-9a20bad971",
-   "title": "Prop 41 Text of Proposed Laws (pages 147-150), with Prop 40 continuation and start of Prop 42",
-   "publisher": "California Secretary of State",
-   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf",
-   "sourceType": "Official",
-   "primary": true,
-   "documentDate": null,
-   "retrieved": "2026-10-23",
-   "accessStatus": "accessed",
-   "notes": []
-  },
-  {
    "id": "src-e452694c2f",
    "title": "Prop 42 Official Title and Summary and Analysis",
    "publisher": "California Secretary of State",
@@ -1734,6 +1758,18 @@
    "notes": []
   },
   {
+   "id": "src-ea136f1acf",
+   "title": "Prop 5 voter guide section (summary, arguments, rebuttals)",
+   "publisher": "California Secretary of State",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-23",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-1799b71d92",
    "title": "Proposition 2 analysis by the Legislative Analyst (SOS page)",
    "publisher": "California Secretary of State",
@@ -1758,6 +1794,18 @@
    "notes": []
   },
   {
+   "id": "src-c81dbc43ec",
+   "title": "Proposition 37 official voter guide",
+   "publisher": "California Secretary of State",
+   "url": "https://voterguide.sos.ca.gov/propositions/37/title-summary.htm",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-1faed76931",
    "title": "Proposition 38 arguments and rebuttals",
    "publisher": "California Secretary of State",
@@ -1770,14 +1818,14 @@
    "notes": []
   },
   {
-   "id": "src-6c12e1357c",
-   "title": "Proposition 38 text of proposed laws",
+   "id": "src-419a8c5b97",
+   "title": "Proposition 38 official voter guide or legal text",
    "publisher": "California Secretary of State",
-   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf",
+   "url": "https://voterguide.sos.ca.gov/propositions/38/title-summary.htm",
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-23",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1790,6 +1838,30 @@
    "primary": true,
    "documentDate": null,
    "retrieved": "2026-10-23",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-a557e7f175",
+   "title": "Proposition 4 official voter guide or legal text",
+   "publisher": "California Secretary of State",
+   "url": "https://voterguide.sos.ca.gov/propositions/4/analysis.htm",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-edd6cae226",
+   "title": "Proposition 40 official voter guide",
+   "publisher": "California Secretary of State",
+   "url": "https://voterguide.sos.ca.gov/propositions/40/analysis.htm",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1818,6 +1890,18 @@
    "notes": []
   },
   {
+   "id": "src-0c7caf1c3c",
+   "title": "Proposition 41 official voter guide or legal text",
+   "publisher": "California Secretary of State",
+   "url": "https://voterguide.sos.ca.gov/propositions/41/analysis.htm",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-b477ee848b",
    "title": "Proposition 42 (official voter guide page)",
    "publisher": "California Secretary of State",
@@ -1826,6 +1910,18 @@
    "primary": true,
    "documentDate": null,
    "retrieved": "2026-10-23",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-f2b6511b93",
+   "title": "Proposition 42 official voter guide",
+   "publisher": "California Secretary of State",
+   "url": "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1849,7 +1945,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -1885,7 +1981,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -2622,6 +2718,30 @@
    "notes": []
   },
   {
+   "id": "src-119a7810d4",
+   "title": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+   "publisher": "content.solanocounty.gov",
+   "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-4d25a412bf",
+   "title": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+   "publisher": "contracostavote.gov",
+   "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-d3e5252978",
    "title": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
    "publisher": "contracostavote.gov",
@@ -2629,7 +2749,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -2970,6 +3090,18 @@
    "notes": []
   },
   {
+   "id": "src-8a2778bd51",
+   "title": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+   "publisher": "files.santaclaracounty.gov",
+   "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-a3ac94c24f",
    "title": "Annotated Legal Text, Prop 5",
    "publisher": "growsf.org",
@@ -2978,18 +3110,6 @@
    "primary": false,
    "documentDate": null,
    "retrieved": "2026-10-23",
-   "accessStatus": "accessed",
-   "notes": []
-  },
-  {
-   "id": "src-8a1bda9b7a",
-   "title": "Legal text (GrowSF copy)",
-   "publisher": "growsf.org",
-   "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/legal-text/",
-   "sourceType": "Independent copy of official text",
-   "primary": false,
-   "documentDate": null,
-   "retrieved": "2026-10-22",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -3067,13 +3187,13 @@
   },
   {
    "id": "src-f5488e9afd",
-   "title": "Why California Can't Build Reliable and Affordable Essential Projects",
+   "title": "Holland & Knight report on CEQA litigation",
    "publisher": "hklaw.com",
    "url": "https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects",
    "sourceType": "Independent",
    "primary": false,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -3282,14 +3402,14 @@
    "notes": []
   },
   {
-   "id": "src-77424b9a4c",
+   "id": "src-a4f62a2081",
    "title": "LAO analysis",
    "publisher": "Legislative Analyst's Office",
-   "url": "https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026",
+   "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-23",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -3498,18 +3618,6 @@
    "notes": []
   },
   {
-   "id": "src-a4f62a2081",
-   "title": "Proposition 3 analysis (PDF)",
-   "publisher": "Legislative Analyst's Office",
-   "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf",
-   "sourceType": "Official",
-   "primary": true,
-   "documentDate": null,
-   "retrieved": "2026-10-23",
-   "accessStatus": "accessed",
-   "notes": []
-  },
-  {
    "id": "src-46d794c3b9",
    "title": "LGSUHSD Local Funding page",
    "publisher": "lgsuhsd.org",
@@ -3570,6 +3678,18 @@
    "notes": []
   },
   {
+   "id": "src-1a4fec3810",
+   "title": "League of Women Voters of California, ballot recommendations",
+   "publisher": "lwvc.org",
+   "url": "https://lwvc.org/ballot-recs",
+   "sourceType": "Independent",
+   "primary": false,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-aa103d30fc",
    "title": "Manatt client alert on AB 130 and SB 131",
    "publisher": "manatt.com",
@@ -3582,6 +3702,18 @@
    "notes": []
   },
   {
+   "id": "src-58b6940f08",
+   "title": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+   "publisher": "marincounty.gov",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-84592e74fa",
    "title": "Marin County official list of local measures",
    "publisher": "marincounty.gov",
@@ -3589,7 +3721,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -4021,7 +4153,19 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-4cbd7adbaa",
+   "title": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+   "publisher": "napacounty.gov",
+   "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -4722,6 +4866,18 @@
    "notes": []
   },
   {
+   "id": "src-da7117aa14",
+   "title": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+   "publisher": "smcacre.gov",
+   "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
    "id": "src-469dd72649",
    "title": "San Mateo County official election page, local measures",
    "publisher": "smcacre.gov",
@@ -4729,7 +4885,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -4765,7 +4921,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -4933,7 +5089,31 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-b993432214",
+   "title": "Sonoma County ROV, Local Candidates Who Filed (last updated 8/17/26)",
+   "publisher": "sonomacounty.gov",
+   "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-candidates-who-filed",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
+   "accessStatus": "accessed",
+   "notes": []
+  },
+  {
+   "id": "src-3eb960ba38",
+   "title": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+   "publisher": "sonomacounty.gov",
+   "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot",
+   "sourceType": "Official",
+   "primary": true,
+   "documentDate": null,
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },
@@ -5029,7 +5209,7 @@
    "sourceType": "Official",
    "primary": true,
    "documentDate": null,
-   "retrieved": "2026-10-22",
+   "retrieved": "2026-10-24",
    "accessStatus": "accessed",
    "notes": []
   },

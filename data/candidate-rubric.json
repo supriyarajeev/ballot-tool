@@ -1,0 +1,99 @@
+{
+ "schemaVersion": 1,
+ "updated": "2026-10-24",
+ "purpose": "Candidate evaluation mode. The same seven factors and voter weights as the Ballot Weighing Tool, with rating guidance written for candidates and the office they seek. A rating is recorded only with attributable evidence. No candidate has been rated yet.",
+ "scale": "1 weak to 5 strong. 3 means mixed or partly documented. A 2 or 4 falls between the descriptions.",
+ "missingPolicy": "A factor without a documented rating shows Insufficient evidence. It is never counted as 1, 0 or 5. A weighted summary is calculated for a candidate only when every factor the voter weights has a documented rating; otherwise the summary says Not calculated and how many factors are rated.",
+ "bases": [
+  { "id": "record", "label": "Documented past record", "d": "What the candidate did in public office or a public role, from official records such as votes, budgets, audits or court records." },
+  { "id": "proposal", "label": "Published policy proposal", "d": "A specific plan the candidate published, with details that can be checked." },
+  { "id": "statement", "label": "Campaign statement", "d": "What the candidate says, including the official candidate statement. A campaign promise alone is not evidence that a policy will work." },
+  { "id": "independent", "label": "Independent evidence", "d": "Analysis by a nonpartisan source, such as the Legislative Analyst's Office, an auditor or peer-reviewed research." }
+ ],
+ "offices": [
+  {
+   "id": "governor",
+   "label": "Governor",
+   "match": "^Governor$",
+   "guide": {
+    "nb": "Documented likely effects of the candidate's proposals on Californians, weighing benefits against costs and trade-offs.",
+    "ev": "Evidence that the candidate's specific proposals work, and documented results from the candidate's past work.",
+    "lr": "Whether the proposals show documented attention to legal, operational and unintended-consequence risks.",
+    "ac": "Transparency, public reporting, oversight and the accountability mechanisms the candidate proposes or has used.",
+    "if": "Whether the plans fit a governor's powers, given legislative approval, the state budget and the capacity of state agencies.",
+    "fc": "Published cost estimates, funding sources and the budget trade-offs of the candidate's plans.",
+    "oc": "Measurable goals and plans for reporting progress."
+   }
+  },
+  {
+   "id": "statewide-executive",
+   "label": "Statewide executive office",
+   "match": "^(Lieutenant Governor|Secretary of State|Controller|Treasurer|Attorney General|Insurance Commissioner|Superintendent of Public Instruction)$",
+   "guide": {
+    "nb": "Documented likely effects of the candidate's plans for this office on Californians.",
+    "ev": "Evidence that the plans work, and documented results from the candidate's past work in comparable roles.",
+    "lr": "Documented attention to legal and operational risks in running this office.",
+    "ac": "Transparency, audits, public reporting and oversight the candidate proposes or has practiced.",
+    "if": "Whether the plans fall within the legal powers and budget of this office, or need the Legislature or voters.",
+    "fc": "Published costs and funding sources for the candidate's plans.",
+    "oc": "Measurable goals for the office and plans to report on them."
+   }
+  },
+  {
+   "id": "tax-board",
+   "label": "State Board of Equalization",
+   "match": "Board of Equalization",
+   "guide": {
+    "nb": "Documented likely effects of the candidate's plans on taxpayers and the public.",
+    "ev": "Evidence behind the plans and documented results from past tax or public finance work.",
+    "lr": "Attention to legal risks and fair, consistent treatment of taxpayers.",
+    "ac": "Transparency of board decisions, public reporting and oversight the candidate proposes or has practiced.",
+    "if": "Whether the plans fit the board's limited legal duties.",
+    "fc": "Clarity about revenue effects and administrative costs.",
+    "oc": "Measurable goals and reporting."
+   }
+  },
+  {
+   "id": "legislative",
+   "label": "Legislative office",
+   "match": "^(U\\.S\\. Representative|Member of the State Assembly|State Senator|Member, State Senate|State Senate)",
+   "guide": {
+    "nb": "Documented likely effects of the bills and positions the candidate supports.",
+    "ev": "Evidence behind those positions, and the candidate's documented legislative or public record.",
+    "lr": "Documented attention to legal, operational and unintended-consequence risks in proposed legislation.",
+    "ac": "Transparency, disclosure and oversight the candidate supports or has practiced.",
+    "if": "Whether the proposals can pass and be carried out by one member, given the legislature's rules and votes needed.",
+    "fc": "Cost estimates, such as official fiscal notes, and funding sources for proposals.",
+    "oc": "Measurable goals and reporting on results."
+   }
+  },
+  {
+   "id": "local-executive",
+   "label": "Local executive office",
+   "match": "^(Mayor|Sheriff|District Attorney|Public Defender|Assessor|City Attorney|City Auditor|City Clerk|Treasurer|Controller|Auditor|County Clerk|Recorder)",
+   "guide": {
+    "nb": "Documented likely effects of the candidate's plans on residents.",
+    "ev": "Evidence behind the plans and documented results from the candidate's past work.",
+    "lr": "Documented attention to legal, operational and unintended-consequence risks.",
+    "ac": "Transparency, public reporting and oversight the candidate proposes or has practiced.",
+    "if": "Whether the plans fit the office's legal powers, the local budget and approval by the council or board.",
+    "fc": "Published costs and funding sources.",
+    "oc": "Measurable goals and plans for reporting progress."
+   }
+  },
+  {
+   "id": "local-board",
+   "label": "Local board or council",
+   "match": ".",
+   "guide": {
+    "nb": "Documented likely effects of the candidate's priorities on residents or students.",
+    "ev": "Evidence behind those priorities and the candidate's documented record on this or similar bodies.",
+    "lr": "Documented attention to legal and operational risks.",
+    "ac": "Transparency, public reporting and oversight the candidate supports or has practiced.",
+    "if": "Whether the priorities fit what this board can do, given its budget and the votes needed.",
+    "fc": "Published costs and funding sources.",
+    "oc": "Measurable goals and reporting."
+   }
+  }
+ ]
+}

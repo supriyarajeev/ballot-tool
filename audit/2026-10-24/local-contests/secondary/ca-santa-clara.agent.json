@@ -1,0 +1,3323 @@
+{
+ "county": "ca-santa-clara",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Santa Clara County ROV, November 3, 2026 General Election Resources",
+   "url": "https://vote.santaclaracounty.gov/november-3-2026-general-election-resources",
+   "note": "Links the Final Qualified List of Local Eligible Candidates (9-28-26 PDF), which could NOT be fetched (site client_error on 4 attempts, also the 8-14-2026 version)."
+  },
+  {
+   "label": "Final Qualified List of Local Write-In Candidates (CFMR028)",
+   "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-10/writeincandidates_102026-v3.pdf?VersionId=XSwtnLJSbo6VZ5rS3.DHdgMF040jZKp.",
+   "note": "Printed 10/20/2026 4:30 PM; 'Contests: 3120 to 6103 - All Contests in Range'; lists 73 local contests on ballot and 2 qualified write-ins (Hina Patel, Orchard SD; Jacob Montoya, Morgan Hill Mayor). Used as the inventory of on-ballot contests."
+  },
+  {
+   "label": "County Voter Information Guide - Audio",
+   "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+   "note": "Official ROV page listing every candidate statement (audio/text) for the Nov 3 2026 guide, by contest; covers only candidates who bought statements."
+  },
+  {
+   "label": "November 3, 2026 General Election List of Offices",
+   "url": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices",
+   "note": "Offices up for election with seats/trustee areas; no candidates. No county or city section rendered."
+  },
+  {
+   "label": "Qualified List of Local Candidates, June 2, 2026 primary (v3)",
+   "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY",
+   "note": "Shows June county contests and San Jose D5/D7/D9 (source of Nov runoffs)."
+  },
+  {
+   "label": "Santa Cruz County Elections, Appointed in Lieu, Nov 3 2026",
+   "url": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx",
+   "note": "Official list for shared districts (County BOE TA2, WVMCCD TA5, LGSUHSD TA3, Lakeside, Loma Prieta, MROSD Ward 6)."
+  },
+  {
+   "label": "City of Milpitas Certified List of Candidates",
+   "url": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "note": "Mayor and Council names and ballot designations."
+  },
+  {
+   "label": "City clerk pages: Gilroy, Cupertino, Palo Alto, Los Altos",
+   "url": "https://cityofgilroy.org/705/Elections-Voter-Information",
+   "note": "Also https://www.cupertino.gov/our-city/departments/city-clerk/cupertino-elections-info , https://www.paloalto.gov/Departments/City-Clerk/Municipal-Elections/City-Council-Election , https://www.losaltosca.gov/604/Elections"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Santa Clara County (Supervisors D1, D4, Sheriff, Assessor, DA)",
+  "Campbell",
+  "Cupertino",
+  "Gilroy",
+  "Los Altos",
+  "Los Altos Hills",
+  "Los Gatos",
+  "Milpitas",
+  "Monte Sereno",
+  "Morgan Hill",
+  "Mountain View",
+  "Palo Alto",
+  "San José",
+  "Santa Clara",
+  "Saratoga",
+  "Sunnyvale",
+  "Santa Clara County Board of Education",
+  "Stanislaus County Board of Education",
+  "Foothill-De Anza CCD",
+  "Gavilan Joint CCD",
+  "San José-Evergreen CCD",
+  "West Valley-Mission CCD",
+  "Yosemite CCD",
+  "Alum Rock Union SD",
+  "Berryessa Union SD",
+  "Cambrian SD",
+  "Campbell Union SD",
+  "Cupertino Union SD",
+  "Evergreen SD",
+  "Franklin-McKinley SD",
+  "Lakeside Joint SD",
+  "Loma Prieta Joint Union SD",
+  "Los Altos SD",
+  "Los Gatos Union SD",
+  "Luther Burbank SD",
+  "Moreland SD",
+  "Mountain View Whisman SD",
+  "Mt. Pleasant SD",
+  "North County Joint Union SD",
+  "Oak Grove SD",
+  "Orchard SD",
+  "Saratoga Union SD",
+  "Sunnyvale SD",
+  "Union SD",
+  "Campbell Union HSD",
+  "East Side Union HSD",
+  "Fremont Union HSD",
+  "Los Gatos-Saratoga Union HSD",
+  "Mountain View-Los Altos Union HSD",
+  "Gilroy USD",
+  "Milpitas USD",
+  "Morgan Hill USD",
+  "Palo Alto USD",
+  "Patterson Joint USD",
+  "San José USD",
+  "Santa Clara USD",
+  "Aldercroft Heights County Water District",
+  "Burbank Sanitary District",
+  "Cupertino Sanitary District",
+  "El Camino Healthcare District",
+  "Lion's Gate CSD",
+  "Midpeninsula Regional Open Space District",
+  "Purissima Hills Water District",
+  "Rancho Rinconada Recreation & Park District",
+  "San Martin County Water District",
+  "Santa Clara Valley Open Space Authority",
+  "Santa Clara Valley Water District",
+  "Saratoga Fire Protection District",
+  "Silver Creek Valley Country Club GHAD",
+  "South Santa Clara Valley Memorial District",
+  "West Bay Sanitary District"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-santa-clara-county-board-of-education",
+    "existing": false,
+    "name": "Santa Clara County Board of Education",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "County Board of Education Member",
+   "district": "Trustee Area 7",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Raeena S. Lari",
+     "designation": "Governing Board Member, Santa Clara County Board of Education, Trustee Area 7",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Karla Dominguez Vega",
+     "designation": "Student Support Specialist",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED (secondary). CVIG and KQED name sets match."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-foothill-de-anza-community-college-district",
+    "existing": false,
+    "name": "Foothill-De Anza Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "William \"Bill\" Wilson",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Liangfang \"Liang\" Chao",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "BayBallot FHDA Trustee Area 4 (secondary)",
+    "url": "https://bayballot.com/2026-11/fhda-trustee-area-4"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG page shows statements from 'Bill Wilson' and 'Liang Chao'; full ballot-name forms per BayBallot/Civoren. Palo Alto Daily Post (Aug 2026) reported appointed incumbent Pearl Cheng also filing; she does not appear in CVIG or BayBallot, so she is presumed not on ballot (unverified)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-gavilan-joint-community-college-district",
+    "existing": false,
+    "name": "Gavilan Joint Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Gabriel Gutierrez",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Shahida Merchant",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, Municipal elections in Santa Clara County (2026) (secondary)",
+    "url": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Only Gutierrez has a CVIG statement; Shahida Merchant from Ballotpedia only. Accent on Gutierrez (Gutiérrez) not verified."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-san-jose-evergreen-community-college-district",
+    "existing": false,
+    "name": "San José-Evergreen Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Karen Martínez",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Scott Hung Pham",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Ballotpedia, Municipal elections in Santa Clara County (2026) (secondary)",
+    "url": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG prints statement as 'Karen Martinez' (accent unverified); Scott Hung Pham from Ballotpedia only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-west-valley-mission-community-college-district",
+    "existing": false,
+    "name": "West Valley-Mission Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Anne J. Kepner",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Colin Lee Elliott Glaves",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG, BayBallot and LWV forum page agree."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-west-valley-mission-community-college-district",
+    "existing": false,
+    "name": "West Valley-Mission Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 7",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Doug Robb",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Susan Oster Fish",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG, BayBallot and LWV forum page agree. TA 7 is shared with Santa Cruz County."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-yosemite-community-college-district",
+    "existing": false,
+    "name": "Yosemite Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [],
+   "source": {
+    "label": "Santa Clara County ROV write-in list (contest SCC-5)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-10/writeincandidates_102026-v3.pdf?VersionId=XSwtnLJSbo6VZ5rS3.DHdgMF040jZKp."
+   },
+   "readingsMatched": false,
+   "note": "Contest appears in the official write-in list as on the ballot (shared with Merced, San Joaquin, Stanislaus; Stanislaus is likely lead county). Candidate names could not be found in any source; see unavailable."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-gilroy-unified-school-district",
+    "existing": true,
+    "name": "Gilroy Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Daniel Harney",
+     "designation": "Parent/Business Owner",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Michelle Nelson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED. Only Harney has a CVIG statement; Nelson also listed by BayBallot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-gilroy-unified-school-district",
+    "existing": true,
+    "name": "Gilroy Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jane Stevens",
+     "designation": "Retired Registered Nurse",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Trevor Scott Van Laar",
+     "designation": "Pastor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED. Van Laar from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-milpitas-unified-school-district",
+    "existing": false,
+    "name": "Milpitas Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Franchesca Lacanlale",
+     "designation": "Non Profit Director",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Chris Norwood",
+     "designation": "Governing Board Member, Milpitas Unified School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Anuradha Sankaran",
+     "designation": "Engineer/Parent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Kelly Yip-Chuan",
+     "designation": "Governing Board Member, Milpitas Unified School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED; CVIG and KQED name sets match."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Nancy Altman-Palm",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jason Amezcua",
+     "designation": "Father/College Educator",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "John T. Horner",
+     "designation": "Governing Board Member, Morgan Hill Unified School District, Trustee Area 2",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Gabriela \"Gabby\" Winter",
+     "designation": "Homemaker",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED. CVIG prints 'Gabby Winter'; KQED and BayBallot print Gabriela \"Gabby\" Winter."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Art Cohen",
+     "designation": "Parent/Business Consultant",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Northrup Gadus",
+     "designation": "Parent/Student",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Cesar Gamboa",
+     "designation": "Father/Translator/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED; KQED designation 'Parent/Student' for Gadus looks odd, verify. Gamboa (no CVIG statement) from KQED and Morgan Hill Times."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Glen R. Webb",
+     "designation": "Educator/Coach/Administrator",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Claudia Ortiz",
+     "designation": "Parent/Business Owner",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-palo-alto-unified-school-district",
+    "existing": false,
+    "name": "Palo Alto Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Linda Henigin",
+     "designation": "Math Teacher/Mother",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Avery Wang",
+     "designation": "Research Scientist/Parent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "John Craig",
+     "designation": "Parent/Operations Executive",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 2 seats. Designations per KQED; Palo Alto Daily Post agrees on names."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-san-jose-unified-school-district",
+    "existing": false,
+    "name": "San José Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tomara Hall",
+     "designation": "Public School Teacher",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Carson Dance",
+     "designation": "Student Services Administrator",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jose Magana",
+     "designation": "San José Unified School District, Governing Board Member, Trustee Area 2",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-san-jose-unified-school-district",
+    "existing": false,
+    "name": "San José Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Mary J. Grunthaner",
+     "designation": "Retired Educator/Teacher",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Michael Melillo",
+     "designation": "Parent/Data Scientist",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED. Spelling conflict: CVIG page reading gave 'Gruenthaner'; KQED and BayBallot give 'Grunthaner' (used here). Verify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-santa-clara-unified-school-district",
+    "existing": false,
+    "name": "Santa Clara Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jim Canova",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Kamal Yassin",
+     "designation": "Engineer/Manager/Parent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-east-side-union-high-school-district",
+    "existing": false,
+    "name": "East Side Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1 (Short Term)",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Mer Curry Nuñez",
+     "designation": "Educator/Consultant",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Paul Pham",
+     "designation": "School District Auditor",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Patricia Martínez-Roach",
+     "designation": "Retired Public Schoolteacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Short term. Designations per KQED; Martínez-Roach from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-east-side-union-high-school-district",
+    "existing": false,
+    "name": "East Side Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Mahbub Khan",
+     "designation": "Professor of Physics",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Lorena Chavez",
+     "designation": "Governing Board Member, East Side Union High School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Tony Lam",
+     "designation": "Parent/Business Owner",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED; Mahbub Khan from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-fremont-union-high-school-district",
+    "existing": false,
+    "name": "Fremont Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Rosa Kim",
+     "designation": "Governing Board Member",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jason Lin",
+     "designation": "Executive/Educator/Father",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-fremont-union-high-school-district",
+    "existing": false,
+    "name": "Fremont Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Naomi Nakano-Matsumoto",
+     "designation": "Governing Board Member",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Ilanit Eliaz",
+     "designation": "Community Volunteer",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district",
+    "existing": true,
+    "name": "Los Gatos-Saratoga Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Ishaan Prasad",
+     "designation": "Educational Advocate",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Sangeeta Balachandran Mallik",
+     "designation": "Psychologist/Researcher/Parent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-mountain-view-los-altos-union-high-school-district",
+    "existing": false,
+    "name": "Mountain View-Los Altos Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Thida Cornes",
+     "designation": "Governing Board Member, Mountain View-Los Altos Union High School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Sanjay Dave",
+     "designation": "Engineer/Parent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Catherine Vonnegut",
+     "designation": "Governing Board Member",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+    "existing": true,
+    "name": "Alum Rock Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Delia Oseguera",
+     "designation": "Community Volunteer",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Andrés Quintero",
+     "designation": "Governing Board Member, Alum Rock Union School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED. Existing id uses 'elementary' in slug."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+    "existing": true,
+    "name": "Alum Rock Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Manisha Kand",
+     "designation": "Education Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Línda Lo Chávez",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jenny Ludwig",
+     "designation": "Retired School Teacher",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED; Kand and Lo Chávez from KQED (Lo Chávez also BayBallot). Accent on 'Línda' as printed by KQED/BayBallot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-berryessa-union-school-district",
+    "existing": false,
+    "name": "Berryessa Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jamal Khan",
+     "designation": "Nonprofit Attorney",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jaria Jaug",
+     "designation": "Governing Board Member, Berryessa Union School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Thelma B. Boac",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Shanna Brewer",
+     "designation": "Appointed Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED; Boac from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-cambrian-school-district",
+    "existing": true,
+    "name": "Cambrian School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Carol Presunka",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Debora Bodenheimer",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Harmony \"Jay\" McMillin",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Sergio Martínez",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Names only from CVIG statements; no second source found, list may be incomplete. Nomination period was reopened to Aug 27, 2026 after board member Nick Villalobos died (district page)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-campbell-union-school-district",
+    "existing": false,
+    "name": "Campbell Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Mohit Vora",
+     "designation": "Parent/Technology Executive",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Chris Miller",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-campbell-union-school-district",
+    "existing": false,
+    "name": "Campbell Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Sam Krow-Lucal",
+     "designation": "Appointed Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Vartika Chandra",
+     "designation": "Community Volunteer",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-evergreen-school-district",
+    "existing": false,
+    "name": "Evergreen School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Monte Wright",
+     "designation": "Nurse/Parent/Educator",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Mary Hiền Pollett",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Thong Quang La",
+     "designation": "Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Corinna Diener",
+     "designation": "Retired Secretary/Parent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Johnny Ray Reyna",
+     "designation": "Teacher/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Magaly Fernández",
+     "designation": "Mother/Artist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED. CVIG prints 'Mary Hiền Pollett', KQED 'Mary Hien Pollett'. La, Reyna, Fernández from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-franklin-mckinley-school-district",
+    "existing": false,
+    "name": "Franklin-McKinley School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Marc Cooper",
+     "designation": "Governing Board Member",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Steven Sanchez",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gilbert Borrayo",
+     "designation": "Educator/Advisory President",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rudy J. Rodriguez",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED; only Cooper has a CVIG statement."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-los-altos-school-district",
+    "existing": false,
+    "name": "Los Altos School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "David Poll",
+     "designation": "Parent/Engineering Director",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Bryan Harvey Johnson",
+     "designation": "Governing Board Member, Los Altos School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Vaishali \"Shali\" Sirkay",
+     "designation": "Governing Board Member, Los Altos School District",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Brandon Stroy",
+     "designation": "Appointed Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED; Palo Alto Daily Post agrees on names."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-mountain-view-whisman-school-district",
+    "existing": false,
+    "name": "Mountain View Whisman School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Devon Conley",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "William Lambert",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Sundar Subbarayan",
+     "designation": "Retired Tech Executive",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Quintin Riis",
+     "designation": "Father",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 2 seats. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-oak-grove-school-district",
+    "existing": false,
+    "name": "Oak Grove School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Victor A. Ramirez",
+     "designation": "Air Traffic Controller",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Diego Martinez",
+     "designation": "Governing Board Member, Oak Grove School District, Trustee Area 2",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED; Martinez from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-oak-grove-school-district",
+    "existing": false,
+    "name": "Oak Grove School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Kaushik C. Joglekar",
+     "designation": "Appointed Governing Board Member, Oak Grove School District, Trustee Area 3",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sophie Freestone",
+     "designation": "Homemaker/Mother/Educator",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED; Joglekar from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-oak-grove-school-district",
+    "existing": false,
+    "name": "Oak Grove School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Pradeep Kumar",
+     "designation": "Cyber Security Professional",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Paul Chun",
+     "designation": "Public School Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Casino Fajardo",
+     "designation": "School Administrator/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED; no CVIG statements. Kumar and Chun also on BayBallot. Verify the name 'Casino Fajardo'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-orchard-school-district",
+    "existing": true,
+    "name": "Orchard School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Katherine Kasolas-Jacobson",
+     "designation": "Incumbent",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Lyseria Evelyn Phillips",
+     "designation": "Union Inside Wireman",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Renee Lo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Molly Eslao",
+     "designation": "Senior Placement Counselor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jeff Tang",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED (contest heading truncated in one KQED reading; assignment to Orchard came from the first reading). Write-in candidate Hina Patel qualified 9/22/2026 (official write-in list), not printed on ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-saratoga-union-school-district",
+    "existing": false,
+    "name": "Saratoga Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Eric Cao",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Farnoush Drexel",
+     "designation": "Community Volunteer",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Catalina Rupert",
+     "designation": "Parent/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Anna Goldberg",
+     "designation": "Community Volunteer",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Vidya R. Vineet",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. At-large, 3 seats. Designations per KQED; Cao, Rupert, Vineet from KQED only."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-sunnyvale-school-district",
+    "existing": false,
+    "name": "Sunnyvale School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Rommy Kushner",
+     "designation": "Teacher",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Michelle Maginot",
+     "designation": "Governing Board Member, Sunnyvale School District, Trustee Area 3",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide, Santa Clara County school races (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/school"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Designations per KQED."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-campbell-council-district-3",
+    "existing": false,
+    "name": "Campbell City Council District 3",
+    "type": "council-district",
+    "parent": "ca-santa-clara-campbell",
+    "areas": [
+     "ca-santa-clara-campbell"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Joseph \"Joe\" Brenner",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Dan Furtado",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San José Spotlight, Campbell council (secondary)",
+    "url": "https://sanjosespotlight.com/five-candidates-compete-for-three-campbell-city-council-seats/"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG prints 'Joe Brenner'; BayBallot prints Joseph \"Joe\" Brenner. Furtado is incumbent."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-campbell-council-district-4",
+    "existing": false,
+    "name": "Campbell City Council District 4",
+    "type": "council-district",
+    "parent": "ca-santa-clara-campbell",
+    "areas": [
+     "ca-santa-clara-campbell"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Joseph I. Guardado",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Davis Stuart Fields",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Open seat."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-campbell-council-district-5",
+    "existing": false,
+    "name": "Campbell City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-campbell",
+    "areas": [
+     "ca-santa-clara-campbell"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Daraius R. Sorabji",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Single candidate but still listed as an on-ballot contest in the official write-in list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-cupertino",
+    "existing": true,
+    "name": "Cupertino",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-cupertino"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tracy Kosolcharoen",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Gopal Kumarappan",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "J.Z. Wang",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Seema Sharma Lindskog",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Santosh Rao",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Mark Fantozzi",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "J.R. Fruen",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "John Tang",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Cupertino, Cupertino Elections Info",
+    "url": "https://www.cupertino.gov/our-city/departments/city-clerk/cupertino-elections-info"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Listed in ballot order per city page. City page and San José Spotlight both list 8; Wang has no CVIG statement (Spotlight: J.Z. \"Jane\" Wang)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-gilroy-council-district-4",
+    "existing": false,
+    "name": "Gilroy City Council District 4",
+    "type": "council-district",
+    "parent": "ca-santa-clara-gilroy",
+    "areas": [
+     "ca-santa-clara-gilroy"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Diana Sanchez Bentz",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Fred Tovar",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Gilroy, Elections & Voter Information",
+    "url": "https://cityofgilroy.org/705/Elections-Voter-Information"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Ballot order per city page."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-gilroy-council-district-5",
+    "existing": false,
+    "name": "Gilroy City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-gilroy",
+    "areas": [
+     "ca-santa-clara-gilroy"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tom Cline",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Garcia",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Christina Tovar",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Gilroy, Elections & Voter Information",
+    "url": "https://cityofgilroy.org/705/Elections-Voter-Information"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Ballot order per city page."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-gilroy-council-district-6",
+    "existing": false,
+    "name": "Gilroy City Council District 6",
+    "type": "council-district",
+    "parent": "ca-santa-clara-gilroy",
+    "areas": [
+     "ca-santa-clara-gilroy"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 6",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Rebeca G. Armendáriz",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Brad Starks",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Bracco",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Gilroy, Elections & Voter Information",
+    "url": "https://cityofgilroy.org/705/Elections-Voter-Information"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. City page prints 'Rebeca Armendariz'; CVIG and BayBallot print 'Rebeca G. Armendáriz' (used)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-altos-council-district-2",
+    "existing": false,
+    "name": "Los Altos City Council District 2",
+    "type": "council-district",
+    "parent": "ca-santa-clara-los-altos",
+    "areas": [
+     "ca-santa-clara-los-altos"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Anky van Deursen",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Lynette Lee Eng",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Los Altos, Elections",
+    "url": "https://www.losaltosca.gov/604/Elections"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. City lists both as qualified."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-altos-council-district-4",
+    "existing": false,
+    "name": "Los Altos City Council District 4",
+    "type": "council-district",
+    "parent": "ca-santa-clara-los-altos",
+    "areas": [
+     "ca-santa-clara-los-altos"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Larry Lang",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Los Altos, Elections",
+    "url": "https://www.losaltosca.gov/604/Elections"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Single qualified candidate; still on ballot per write-in list. Roger Heyder's filing was ruled invalid (city page, Town Crier)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-altos-hills",
+    "existing": true,
+    "name": "Los Altos Hills",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-los-altos-hills"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Indu Kadambi",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jim Waschura",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jasmeen Pombra",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Los Altos Town Crier, official candidates (secondary)",
+    "url": "https://www.losaltosonline.com/news/election-set-a-look-at-the-official-candidates-and-measures-in-los-altos-lah-mountain/article_ca10c518-3f52-4b39-b060-c77cf66db868.html"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG and Town Crier agree."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-gatos",
+    "existing": true,
+    "name": "Los Gatos",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-los-gatos"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Heidi Owens",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Rob Stump",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jeff Suzuki",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Mary Badame",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Steve Raspe",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Rob Moore",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG and LWV forum page agree on 6 candidates."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-milpitas",
+    "existing": true,
+    "name": "Milpitas",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-milpitas"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Hon Lien",
+     "designation": "Councilmember, City of Milpitas",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Carmen Montano",
+     "designation": "Mayor / Educator",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Voltaire Montemayor",
+     "designation": "Retired Geologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Santosh Sahoo",
+     "designation": "Tech Entrepreneur",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Milpitas, Certified List of Candidates for Elective Office, Municipal Election Nov 3 2026",
+    "url": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Names and designations from the city clerk's certified list (official). CVIG has statements only for Lien and Montano. 2-year term."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-milpitas",
+    "existing": true,
+    "name": "Milpitas",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-milpitas"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Bill Chuan",
+     "designation": "Engineer / Business Owner",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Ha Phan",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Garry Barbadillo",
+     "designation": "City Councilmember / Attorney",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Seema Kanani",
+     "designation": "Clinical Social Worker",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Dipak Awasthi",
+     "designation": "Milpitas Planning Commissioner",
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Milpitas, Certified List of Candidates for Elective Office, Municipal Election Nov 3 2026",
+    "url": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Names and designations from city certified list. CVIG reading printed 'Garry Domingo Barbadillo'; verify ballot name."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-morgan-hill",
+    "existing": true,
+    "name": "Morgan Hill",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-morgan-hill"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Kristopher Lee Clayton",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Deborah M. Africa",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Mark Turner",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Morgan Hill Times, candidate list set (secondary)",
+    "url": "https://morganhilltimes.com/candidate-list-is-set-for-mayor-city-council-election-in-morgan-hill"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG prints 'Deborah Africa'; Morgan Hill Times and BayBallot 'Deborah M. Africa'. Jacob Montoya qualified as a write-in (official write-in list, 10/5/2026), not printed on ballot. Write-in list marks this office as going into extension."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-morgan-hill-council-district-b",
+    "existing": false,
+    "name": "Morgan Hill City Council District B",
+    "type": "council-district",
+    "parent": "ca-santa-clara-morgan-hill",
+    "areas": [
+     "ca-santa-clara-morgan-hill"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District B",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Steven Hayes",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Yvonne Martinez Beltran",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Morgan Hill Times, candidate list set (secondary)",
+    "url": "https://morganhilltimes.com/candidate-list-is-set-for-mayor-city-council-election-in-morgan-hill"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Morgan Hill Times says 'Steven Hayes II'; CVIG and BayBallot 'Steven Hayes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-morgan-hill-council-district-d",
+    "existing": false,
+    "name": "Morgan Hill City Council District D",
+    "type": "council-district",
+    "parent": "ca-santa-clara-morgan-hill",
+    "areas": [
+     "ca-santa-clara-morgan-hill"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District D",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Dolores Alvarado",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Marilyn Librers",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Morgan Hill Times, candidate list set (secondary)",
+    "url": "https://morganhilltimes.com/candidate-list-is-set-for-mayor-city-council-election-in-morgan-hill"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-mountain-view",
+    "existing": true,
+    "name": "Mountain View",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-mountain-view"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "James Kuszmaul",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Robert Cox",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Erik Poicon",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Silja Paymer",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Samuel Ali",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Alex Amoroso",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Paul Donahue",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "IdaRose Sylvester",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Mountain View Voice, eight candidates (secondary)",
+    "url": "https://www.mv-voice.com/election/2026/08/11/eight-candidates-hit-the-campaign-trail-for-mountain-view-city-council-seats/"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG, MV Voice and Town Crier agree on 8 names. MV Voice uses 'Alexander Amoroso'; CVIG and Town Crier 'Alex Amoroso'. No incumbents running."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-palo-alto",
+    "existing": true,
+    "name": "Palo Alto",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-palo-alto"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Brian Hamachek",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Bryna Chang",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Ed Lauing",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Yu \"Yudy\" Deng",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Raymond Lee Goins",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Gary Gechlik",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Vicki Veenker",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Henry Etzkowitz",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Palo Alto, City Council Elections",
+    "url": "https://www.paloalto.gov/Departments/City-Clerk/Municipal-Elections/City-Council-Election"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. City page and CVIG agree on 8 candidates; CVIG prints 'Raymond L. Goins', city page 'Raymond Lee Goins'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-san-jose-council-district-5",
+    "existing": false,
+    "name": "San José City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-san-jose",
+    "areas": [
+     "ca-santa-clara-san-jose"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Nora Campos",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Peter Ortiz",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED, San José City Council District 5 (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/san-jose-city-council-5th-district"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Runoff from June 2, 2026 primary (top two; June candidates per ROV qualified list 3.13.2026). Designations shown by KQED are role descriptions, not verified ballot designations, so left null. Ortiz is incumbent."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-san-jose-council-district-7",
+    "existing": false,
+    "name": "San José City Council District 7",
+    "type": "council-district",
+    "parent": "ca-santa-clara-san-jose",
+    "areas": [
+     "ca-santa-clara-san-jose"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 7",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Van Le",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Bien Doan",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED, San José City Council District 7 (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/san-jose-city-council-7th-district"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Runoff from June 2, 2026 primary (top two; June candidates per ROV qualified list 3.13.2026). Designations shown by KQED are role descriptions, not verified ballot designations, so left null."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-san-jose-council-district-9",
+    "existing": false,
+    "name": "San José City Council District 9",
+    "type": "council-district",
+    "parent": "ca-santa-clara-san-jose",
+    "areas": [
+     "ca-santa-clara-san-jose"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 9",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Gordon Chester",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Genny Altwer",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED, San José City Council District 9 (secondary)",
+    "url": "https://www.kqed.org/voterguide/santaclara/san-jose-city-council-9th-district"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Runoff from June 2, 2026 primary (top two; June candidates per ROV qualified list 3.13.2026). Designations shown by KQED are role descriptions, not verified ballot designations, so left null."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-santa-clara",
+    "existing": true,
+    "name": "Santa Clara",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-santa-clara"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Karen Hardy",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "David Kertes",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Kathy Watanabe",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Mike Wiltberger",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Park",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Armando \"Gary\" Ferraris",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San José Spotlight, six Santa Clara mayoral candidates (secondary)",
+    "url": "https://sanjosespotlight.com/six-candidates-vie-for-santa-clara-mayoral-seat"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG reading printed 'Armando (Gary) Ferraris'; Spotlight and BayBallot print Armando \"Gary\" Ferraris."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-santa-clara-council-district-2",
+    "existing": false,
+    "name": "Santa Clara City Council District 2",
+    "type": "council-district",
+    "parent": "ca-santa-clara-santa-clara",
+    "areas": [
+     "ca-santa-clara-santa-clara"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Kimberley Williams",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Yvonne Inciarte",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San José Spotlight, Santa Clara council (secondary)",
+    "url": "https://sanjosespotlight.com/four-candidates-face-off-for-two-santa-clara-council-seats/"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-santa-clara-council-district-3",
+    "existing": false,
+    "name": "Santa Clara City Council District 3",
+    "type": "council-district",
+    "parent": "ca-santa-clara-santa-clara",
+    "areas": [
+     "ca-santa-clara-santa-clara"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Eric Crutchlow",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Kyle Madej",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San José Spotlight, Santa Clara council (secondary)",
+    "url": "https://sanjosespotlight.com/four-candidates-face-off-for-two-santa-clara-council-seats/"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-saratoga",
+    "existing": true,
+    "name": "Saratoga",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-saratoga"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Glenn K. Hendricks",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Ping Li",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Bill Dalton",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jeri Bromley",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. CVIG and LWV forum page agree on 4 candidates."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sunnyvale-council-district-1",
+    "existing": false,
+    "name": "Sunnyvale City Council District 1",
+    "type": "council-district",
+    "parent": "ca-santa-clara-sunnyvale",
+    "areas": [
+     "ca-santa-clara-sunnyvale"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Linda Sell",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "PlayPotus Sunnyvale page citing City of Sunnyvale (secondary)",
+    "url": "https://playpotus.com/ca/sunnyvale"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Single qualified candidate (incumbent) per secondary source citing city; still an on-ballot contest per official write-in list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sunnyvale-council-district-3",
+    "existing": false,
+    "name": "Sunnyvale City Council District 3",
+    "type": "council-district",
+    "parent": "ca-santa-clara-sunnyvale",
+    "areas": [
+     "ca-santa-clara-sunnyvale"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Murali Srinivasan",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "PlayPotus Sunnyvale page citing City of Sunnyvale (secondary)",
+    "url": "https://playpotus.com/ca/sunnyvale"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Single qualified candidate (incumbent) per secondary source citing city; still an on-ballot contest per official write-in list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sunnyvale-council-district-5",
+    "existing": false,
+    "name": "Sunnyvale City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-sunnyvale",
+    "areas": [
+     "ca-santa-clara-sunnyvale"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Richard Mehlinger",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "PlayPotus Sunnyvale page citing City of Sunnyvale (secondary)",
+    "url": "https://playpotus.com/ca/sunnyvale"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Single qualified candidate (incumbent) per secondary source citing city; still an on-ballot contest per official write-in list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-santa-clara-valley-water-district",
+    "existing": false,
+    "name": "Santa Clara Valley Water District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "John L. Varela",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Jimmy Forbis",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Ballotpedia and Morgan Hill Times agree."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-santa-clara-valley-water-district",
+    "existing": false,
+    "name": "Santa Clara Valley Water District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District 6",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Phuong Tran Nguyen",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Milan Balinton",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Ballotpedia prints 'Phuong Nguyen'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-santa-clara-valley-water-district",
+    "existing": false,
+    "name": "Santa Clara Valley Water District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District 7",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Pete Dailey",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Eisenberg",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. Eisenberg is incumbent."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-cupertino-sanitary-district",
+    "existing": false,
+    "name": "Cupertino Sanitary District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Gilbert Wong",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County ROV, County Voter Information Guide - Audio (candidate statements), Nov 3 2026",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0"
+   },
+   "readingsMatched": false,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. 2 seats, on ballot per official write-in list, so at least 3 candidates qualified; only Gilbert Wong found (CVIG statement). Other candidates unknown."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-midpeninsula-regional-open-space-district",
+    "existing": false,
+    "name": "Midpeninsula Regional Open Space District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Ward 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Craig Gleason",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    },
+    {
+     "name": "Tina Marie To",
+     "designation": null,
+     "statementUrl": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Midpeninsula Regional Open Space District, Election Information",
+    "url": "https://www.openspace.org/election-information"
+   },
+   "readingsMatched": true,
+   "note": "Contest confirmed on ballot by the ROV's official Final Qualified List of Local Write-In Candidates (printed 10/20/2026), which lists all 73 on-ballot local contests. Status pending because the ROV's Final Qualified List of Local Eligible Candidates (9-28-26 PDF) could not be fetched (repeated site errors); candidate names are cross-checked from the ROV's County Voter Information Guide audio page (official, lists only candidates who filed statements) and secondary sources. Office title is generic, not verified against the printed ballot. District page lists both as qualified; Genaro Rao withdrew 8/7/2026."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Sheriff",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Assessor",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "District Attorney",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Board of Supervisors, District 1",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Board of Supervisors, District 4",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County Board of Education",
+   "office": "Trustee Area 2",
+   "reason": "Appointed in lieu of election (Yan Zhao)",
+   "source": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx"
+  },
+  {
+   "jurisdiction": "Santa Clara County Board of Education",
+   "office": "Trustee Area 6",
+   "reason": "Reported canceled, Maimona Afzal Berta elected unopposed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "West Valley-Mission Community College District",
+   "office": "Trustee Area 5",
+   "reason": "Appointed in lieu of election (Diane Lamkin)",
+   "source": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx"
+  },
+  {
+   "jurisdiction": "Los Gatos-Saratoga Union High School District",
+   "office": "Trustee Area 3",
+   "reason": "Appointed in lieu of election (Shawn K Mortensen)",
+   "source": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx"
+  },
+  {
+   "jurisdiction": "Lakeside Joint School District",
+   "office": "Governing Board Member (3 seats)",
+   "reason": "Appointed in lieu of election (Mingi Bodine; two seats with no candidate)",
+   "source": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx"
+  },
+  {
+   "jurisdiction": "Loma Prieta Joint Union School District",
+   "office": "Governing Board Member (3 seats)",
+   "reason": "Appointed in lieu of election (Charlotte L Boisvert-Khandelwal, Courtney Thomas, Denise Ramon Herrera)",
+   "source": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx"
+  },
+  {
+   "jurisdiction": "Midpeninsula Regional Open Space District",
+   "office": "Ward 6 (San Mateo/Santa Cruz portion)",
+   "reason": "Appointed in lieu of election (Bryan Beck)",
+   "source": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx"
+  },
+  {
+   "jurisdiction": "Gavilan Joint Community College District",
+   "office": "Trustee Area 1",
+   "reason": "Reported canceled, Kathy Chávez Napoli elected unopposed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "San José-Evergreen Community College District",
+   "office": "Trustee Area 4",
+   "reason": "Reported canceled, Maria Fuentes elected unopposed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "San José-Evergreen Community College District",
+   "office": "Trustee Area 6",
+   "reason": "Reported canceled, Jeffrey Lease elected unopposed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "Foothill-De Anza Community College District",
+   "office": "Trustee Area 2",
+   "reason": "Reported sole candidate Alexander Gvatua (appointed incumbent); Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://padailypost.com/2026/08/10/a-look-at-who-is-running-for-local-offices-this-fall/"
+  },
+  {
+   "jurisdiction": "Cupertino Union School District",
+   "office": "Governing Board Member (3 seats)",
+   "reason": "Reported canceled, one candidate per seat (Ava Chiao, Jerry Liu, Satheesh Madhathil); Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Cupertino_Union_School_District,_California,_elections_(2026)"
+  },
+  {
+   "jurisdiction": "Mountain View-Los Altos Union High School District",
+   "office": "Trustee Areas 1 and 2",
+   "reason": "Reported sole candidates Nir Paz (TA1) and Ellen Kamei (TA2); Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://padailypost.com/2026/08/10/a-look-at-who-is-running-for-local-offices-this-fall/"
+  },
+  {
+   "jurisdiction": "El Camino Healthcare District",
+   "office": "Director (2 seats)",
+   "reason": "Only incumbents Peter C. Fung and George O. Ting filed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026); presumed appointed in lieu",
+   "source": "https://www.losaltosonline.com/news/election-set-a-look-at-the-official-candidates-and-measures-in-los-altos-lah-mountain/article_ca10c518-3f52-4b39-b060-c77cf66db868.html"
+  },
+  {
+   "jurisdiction": "Purissima Hills Water District",
+   "office": "Director (2 seats)",
+   "reason": "Only incumbents Anand Ranganathan and Essy Stone filed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026); presumed appointed in lieu",
+   "source": "https://www.losaltosonline.com/news/election-set-a-look-at-the-official-candidates-and-measures-in-los-altos-lah-mountain/article_ca10c518-3f52-4b39-b060-c77cf66db868.html"
+  },
+  {
+   "jurisdiction": "Santa Clara Valley Open Space Authority",
+   "office": "Districts 2, 5, 6, 7",
+   "reason": "Reported canceled, incumbents elected unopposed (Marjorie Matthews, Cathryn Hyde, Lisanna Dominguez, Kalvin Gill); Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "Santa Clara Valley Water District",
+   "office": "District 4",
+   "reason": "Reported canceled, James Beall Jr. elected unopposed; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "Silver Creek Valley Country Club Geologic Hazard Abatement District",
+   "office": "Director (3 seats)",
+   "reason": "Reported canceled; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://ballotpedia.org/Municipal_elections_in_Santa_Clara_County,_California_(2026)"
+  },
+  {
+   "jurisdiction": "Midpeninsula Regional Open Space District",
+   "office": "Wards 2 and 5",
+   "reason": "Ward 2 sole qualified candidate Yoriko Kishimoto; Ward 5 Karen Holman qualified, Shannon Ramiro filed but not shown as qualified; Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026); presumed appointed in lieu",
+   "source": "https://www.openspace.org/election-information"
+  },
+  {
+   "jurisdiction": "West Bay Sanitary District",
+   "office": "Director (2 seats)",
+   "reason": "Reported no ballot contest (Edward Moritz, Roy Thiele-Sardina); Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026)",
+   "source": "https://padailypost.com/2026/08/10/a-look-at-who-is-running-for-local-offices-this-fall/"
+  },
+  {
+   "jurisdiction": "Gilroy Unified School District",
+   "office": "Trustee Areas 1 and 7",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Santa Clara Unified School District",
+   "office": "Trustee Areas 3, 4, 6",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "East Side Union High School District",
+   "office": "Trustee Area 2",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Fremont Union High School District",
+   "office": "Trustee Area 1",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Los Gatos-Saratoga Union High School District",
+   "office": "Trustee Area 4",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Campbell Union High School District",
+   "office": "Trustee Areas 1, 2, 3",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Alum Rock Union School District",
+   "office": "Trustee Area 1",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Campbell Union School District",
+   "office": "Trustee Area 1",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Los Gatos Union School District",
+   "office": "3 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Luther Burbank School District",
+   "office": "2 full-term seats and 1 short-term seat",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Moreland School District",
+   "office": "Trustee Area 1 (short term) and Trustee Areas 2, 3, 4",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Mt. Pleasant Elementary School District",
+   "office": "3 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "North County Joint Union School District",
+   "office": "2 seats (San Benito lead)",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Sunnyvale School District",
+   "office": "Trustee Areas 1 and 5",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Union School District",
+   "office": "3 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Patterson Joint Unified School District",
+   "office": "Trustee Area 2 (Stanislaus lead)",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Stanislaus County Board of Education",
+   "office": "Trustee Area 5",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Aldercroft Heights County Water District",
+   "office": "2 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Burbank Sanitary District",
+   "office": "3 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Lion's Gate Community Services District",
+   "office": "1 full-term and 2 short-term seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Rancho Rinconada Recreation and Park District",
+   "office": "2 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "San Martin County Water District",
+   "office": "2 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "Saratoga Fire Protection District",
+   "office": "1 seat",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "South Santa Clara Valley Memorial District",
+   "office": "2 seats",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  },
+  {
+   "jurisdiction": "City of Monte Sereno",
+   "office": "City Council",
+   "reason": "Not among the 73 on-ballot contests in the ROV's official write-in list (10/20/2026) although the office was up in 2026 (ROV List of Offices); presumed appointed in lieu of election or no contest; not independently confirmed",
+   "source": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices"
+  }
+ ],
+ "unavailable": [
+  "The ROV's Final Qualified List of Local Eligible Candidates (https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf) and its 8-14-2026 predecessor could not be fetched (repeated site client_error). Because of this every contest is 'pending', ballot designations are mostly from KQED (secondary) or null, and the two-readings check of the official list could not be done. readingsMatched=true here means two independent sources (usually the official CVIG statement page plus a city page, KQED, or news) gave the same candidate set; false means they differed or only one source had some names.",
+  "Candidate lists are incomplete where candidates filed no statement and no second source was found: Cambrian SD (4 names, 3 seats), Cupertino Sanitary District (only Gilbert Wong found for 2 seats), Gavilan TA3 and SJECCD TA2 (second name from Ballotpedia only).",
+  "Yosemite CCD Trustee Area 4 is on the ballot per the write-in list, but no candidate names were found (Stanislaus County is lead; its candidate list was not found).",
+  "Office titles are generic ('Governing Board Member', 'City Council Member', 'Director'), not checked against the printed ballot.",
+  "Incumbent flags left null; some notes mention incumbency from secondary sources.",
+  "Not-on-ballot status for many school and special districts is inferred from their absence in the official write-in contest list, without a county 'appointed in lieu' notice (none was found on the ROV site).",
+  "No local Santa Clara County contests are already in contests.json, so nothing was deduplicated."
+ ]
+}

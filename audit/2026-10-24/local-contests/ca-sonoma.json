@@ -1,0 +1,1725 @@
+{
+ "county": "ca-sonoma",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Sonoma County ROV: November 3, 2026 General Election, Candidates on the Ballot",
+   "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot",
+   "note": "Official ballot candidate list with designations, vote-for lines and statement PDF links. No date printed. Fetch tool truncated text at ~122k chars (ends mid Windsor District 4), so the special-district section (Gold Ridge Fire, Sonoma County Fire) was only visible in the page index."
+  },
+  {
+   "label": "Sonoma County ROV: Local Candidates Who Filed",
+   "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-candidates-who-filed",
+   "note": "Filing list with incumbent flags; last updated 8/17/26 6:45 p.m.; states not final or official. Used for capitalization, incumbent flags, fire district candidates and not-on-ballot inference."
+  },
+  {
+   "label": "Sonoma County ROV: Offices Up for Election",
+   "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-offices-up-for-election",
+   "note": "All local offices up in Nov 2026 with seat counts."
+  },
+  {
+   "label": "Sonoma County ROV: November 3, 2026 General Election page",
+   "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election",
+   "note": "Index of election links."
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Sonoma County (Supervisor Districts 2, 4)",
+  "Cloverdale",
+  "Cotati",
+  "Healdsburg",
+  "Petaluma",
+  "Rohnert Park",
+  "Santa Rosa",
+  "Sebastopol",
+  "Sonoma",
+  "Windsor",
+  "Sonoma County Board of Education",
+  "Sonoma County Junior College District",
+  "All 13 unified, 4 high school and ~30 elementary districts on the county's Offices Up for Election list",
+  "All community services, fire, health care, life support, recreation and park, and water districts on that list"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-supervisor-district-2",
+    "existing": false,
+    "name": "Sonoma County Board of Supervisors, 2nd District",
+    "type": "supervisor-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "County Supervisor",
+   "district": "2nd District",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joanna Paun",
+     "designation": "Trustee, Petaluma Jt. Union High School District, Area 5",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_4020_CandStmts_CountySup2ndDist.pdf",
+     "incumbent": null
+    },
+    {
+     "name": "Sylvia Lemus",
+     "designation": "Councilmember/Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_4020_CandStmts_CountySup2ndDist.pdf",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "November runoff from June 2, 2026 primary. Ballot page prints names in ALL CAPS (normalized here); no 'Vote for' line printed, single seat. Incumbent status not stated."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-supervisor-district-4",
+    "existing": false,
+    "name": "Sonoma County Board of Supervisors, 4th District",
+    "type": "supervisor-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "County Supervisor",
+   "district": "4th District",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tom Schwedhelm",
+     "designation": "Small Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_4040_CandStmts_CountySup4thDist.pdf",
+     "incumbent": null
+    },
+    {
+     "name": "Melanie Bagby",
+     "designation": "Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_4040_CandStmts_CountySup4thDist.pdf",
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "November runoff from June 2, 2026 primary. Names normalized from ALL CAPS. Incumbent status not stated."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-sonoma-county-board-of-education",
+    "existing": false,
+    "name": "Sonoma County Board of Education",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Member, Sonoma County Board of Education",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jonathan Lenz",
+     "designation": "Educator",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2230_CandStmts_SoCoBrdEdArea2.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Caitlin Quinn",
+     "designation": "Nonprofit Union President",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2230_CandStmts_SoCoBrdEdArea2.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Proposed id; county board of education is not a school district but no better type exists. Incumbent flags from filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-ccd-sonoma-county-junior-college-district",
+    "existing": true,
+    "name": "Sonoma County Junior College District",
+    "type": "community-college-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Sonoma County Junior College District",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Leticia Contreras",
+     "designation": "Anthropologist/Archaeologist",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2530_CandStmts_SoCoJrCollDistArea5.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Dorothy Battenfeld",
+     "designation": "SRJC Trustee/Educator",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2530_CandStmts_SoCoJrCollDistArea5.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-ccd-sonoma-county-junior-college-district",
+    "existing": true,
+    "name": "Sonoma County Junior College District",
+    "type": "community-college-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Sonoma County Junior College District",
+   "district": "Trustee Area 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kateliyn Rutkowski",
+     "designation": "Homemaker/Student",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2500_CandStmts_SoCoJrCollDistArea7.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Michael Valdovinos",
+     "designation": "Trustee, Sonoma County Junior College District Area 7",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2500_CandStmts_SoCoJrCollDistArea7.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. 'Kateliyn' spelling as printed."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-calistoga-joint-unified-school-district",
+    "existing": false,
+    "name": "Calistoga Joint Unified School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": [
+     "ca-napa-calistoga"
+    ]
+   },
+   "office": "Governing Board Member, Calistoga Joint Unified School District",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Irene Pena",
+     "designation": "School Psychologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Sager",
+     "designation": "Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cecilia Ramirez",
+     "designation": "Hairdresser/parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laurel Rios",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Multi-county district (Napa lead county); Sonoma filed list showed no Sonoma County residents filed, but the ballot page lists these 4. Names printed ALL CAPS on ballot page and normalized here (could not verify accents, e.g. 'Pena'). No candidate statements submitted."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-cotati-rohnert-park-unified-school-district",
+    "existing": false,
+    "name": "Cotati-Rohnert Park Unified School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": [
+     "ca-sonoma-cotati",
+     "ca-sonoma-rohnert-park"
+    ]
+   },
+   "office": "Governing Board Member, Cotati-Rohnert Park Unified School District",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Angela Marie Scardina",
+     "designation": "Educator",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2635_CandStmts_Cotati-RPUnifSchlDistArea1.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Leff Brown",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2635_CandStmts_Cotati-RPUnifSchlDistArea1.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Nathan Toister",
+     "designation": "Post-Secondary Educator",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2635_CandStmts_Cotati-RPUnifSchlDistArea1.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-sonoma-valley-unified-school-district",
+    "existing": false,
+    "name": "Sonoma Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": [
+     "ca-sonoma-sonoma"
+    ]
+   },
+   "office": "Governing Board Member, Sonoma Valley Unified School District",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Amanda Radzik",
+     "designation": "Parent/Logistics Manager",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2740_CandStmts_SoVlyUnifSchlDistArea1.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Susan Joyce McIntosh",
+     "designation": "Writer",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2740_CandStmts_SoVlyUnifSchlDistArea1.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-windsor-unified-school-district",
+    "existing": true,
+    "name": "Windsor Unified School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Windsor Unified School District",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rich Carnation",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2805_CandStmts_WindsorUnifSchlDist.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Stephanie Ahmad",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2805_CandStmts_WindsorUnifSchlDist.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Patricia \"Trish\" Donoho",
+     "designation": "Business Analytics Director",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2805_CandStmts_WindsorUnifSchlDist.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Michael Brown",
+     "designation": "Local Retail Salesperson",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-city-of-santa-rosa-high-school-district",
+    "existing": false,
+    "name": "City of Santa Rosa High School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": [
+     "ca-sonoma-santa-rosa"
+    ]
+   },
+   "office": "Governing Board Member, City of Santa Rosa High School District",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Shaun A. Du Fosee",
+     "designation": "Appointed Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2952_CandStmts_CityOfSantaRosaHghSchlDistArea2.pdf",
+     "incumbent": null
+    },
+    {
+     "name": "Teresa A. Medina",
+     "designation": "Program Coordinator",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2952_CandStmts_CityOfSantaRosaHghSchlDistArea2.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Incumbent flags from filed list not captured for Du Fosee; designation says Appointed Incumbent."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-petaluma-joint-union-high-school-district",
+    "existing": false,
+    "name": "Petaluma Joint Union High School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": [
+     "ca-sonoma-petaluma"
+    ]
+   },
+   "office": "Governing Board Member, Petaluma Joint Union High School District",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Laura Holmes",
+     "designation": "Parent/HR Consultant",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2923_CandStmts_PetalumaJtUnionHghSchlDistArea3.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "John Garcia",
+     "designation": "Physician/Medical Director",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2923_CandStmts_PetalumaJtUnionHghSchlDistArea3.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Filed list titles this 'Petaluma City (Elementary) and Petaluma Joint Union High School Districts'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-petaluma-joint-union-high-school-district",
+    "existing": false,
+    "name": "Petaluma Joint Union High School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": [
+     "ca-sonoma-petaluma"
+    ]
+   },
+   "office": "Governing Board Member, Petaluma Joint Union High School District",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John La Bare",
+     "designation": "Operations Manager/Father",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2925_CandStmts_PetalumaJtUnionHghSchlDistArea5.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Sarah Seitchik Sebastian",
+     "designation": "Non-Profit Director/Realtor",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2925_CandStmts_PetalumaJtUnionHghSchlDistArea5.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Filed list titles this 'Petaluma City (Elementary) and Petaluma Joint Union High School Districts'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-west-sonoma-county-union-high-school-district",
+    "existing": true,
+    "name": "West Sonoma County Union High School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, West Sonoma County Union High School District",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dani Sheehan-Meyer",
+     "designation": "Community Volunteer",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2985_CandStmts_WestSoCoUnionHghSchlDistArea5.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Lewis Buchner",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_2985_CandStmts_WestSoCoUnionHghSchlDistArea5.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-harmony-union-school-district",
+    "existing": true,
+    "name": "Harmony Union School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Harmony Union School District",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jacquelyn Wilson",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Michael Podshadley",
+     "designation": "Small Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3285_CandStmts_HarmonyUnionSchlDist.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Tiffany Danielle Monroe",
+     "designation": "Parent/Corporate Attorney",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3285_CandStmts_HarmonyUnionSchlDist.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Jasmin Tokatlian",
+     "designation": "Parent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3285_CandStmts_HarmonyUnionSchlDist.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-monte-rio-union-school-district",
+    "existing": false,
+    "name": "Monte Rio Union School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Monte Rio Union School District, Full Term",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mike Wilder",
+     "designation": "Carnivorous Plant Conjuror",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Craig Baker",
+     "designation": "Retired School Superintendent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Melissa Frost",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. No statements submitted. Short-term contest (2 seats) had no Sonoma County filers and is not on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-twin-hills-union-school-district",
+    "existing": false,
+    "name": "Twin Hills Union School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Twin Hills Union School District",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rebecca Houghton",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jeff Harding",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3605_CandStmts_TwinHillsUnionSchlDist.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Anna-Maria Guzman",
+     "designation": "Retired Educator",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "John Moise",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Only Harding submitted a statement."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-two-rock-union-school-district",
+    "existing": false,
+    "name": "Two Rock Union School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Two Rock Union School District",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Nicolas Noyes",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Joel Ruiz",
+     "designation": "School Trustee/Firefighter",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laura B. Gutierrez",
+     "designation": "Mother/Medical Assistant",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3625_CandStmts_TwoRockUnionSchlDist.pdf",
+     "incumbent": null
+    },
+    {
+     "name": "Mauricio Gutierrez",
+     "designation": "Heavy Equipment Operator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John C. Martin",
+     "designation": "School Board Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Only Laura B. Gutierrez submitted a statement. Incumbent flags for designations like 'School Trustee' not verified."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-waugh-school-district",
+    "existing": true,
+    "name": "Waugh School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member, Waugh School District",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Christine D. Pieper",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3665_CandStmts_WaughSchlDist.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Dylan Lloyd",
+     "designation": "Parent/Cloud Architect",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Denise Bugbee",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_3665_CandStmts_WaughSchlDist.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Kevin Gushue",
+     "designation": "Accountant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-cloverdale",
+    "existing": true,
+    "name": "Cloverdale",
+    "type": "city",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Member, City Council, City of Cloverdale",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Steve Kawa",
+     "designation": "Small Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Kimberly Kern",
+     "designation": "Public School Superintendent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Will Carter",
+     "designation": "Cloverdale Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Chris Parker",
+     "designation": "Retired Police Chief",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Jenn Neylon",
+     "designation": "Chief Business Officer",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Colleen Shields",
+     "designation": "Massage Therapist/Bookkeeper",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Kelly Spagnola",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Marjorie A Morgenstern",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Andrés Marquez",
+     "designation": "Appointed Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5120_CandStmts_CloverdaleCityCncl.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-cloverdale",
+    "existing": true,
+    "name": "Cloverdale",
+    "type": "city",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "City Treasurer, City of Cloverdale",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Contest appears on the ballot page with 'no candidates for this office' (write-in only). Seat was vacant per Offices Up for Election."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-healdsburg-council-district-2",
+    "existing": false,
+    "name": "Healdsburg City Council District 2",
+    "type": "council-district",
+    "parent": "ca-sonoma-healdsburg",
+    "areas": [
+     "ca-sonoma-healdsburg"
+    ]
+   },
+   "office": "Member, City Council, City of Healdsburg",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Alex Wood",
+     "designation": "Appointed Planning Commissioner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5260_CandStmts_HealdsburgCityCnclDist2.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Scott Pratt",
+     "designation": "Commercial Advertising Producer",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5260_CandStmts_HealdsburgCityCnclDist2.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Mathew Lopez",
+     "designation": "Math Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. New district seat."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-healdsburg-council-district-4",
+    "existing": false,
+    "name": "Healdsburg City Council District 4",
+    "type": "council-district",
+    "parent": "ca-sonoma-healdsburg",
+    "areas": [
+     "ca-sonoma-healdsburg"
+    ]
+   },
+   "office": "Member, City Council, City of Healdsburg",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Chris Herrod",
+     "designation": "Healdsburg City Councilmember",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5270_CandStmts_HealdsburgCityCnclDist4.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Single candidate but contest is on the ballot. New district seat; filed list marks incumbent 'No' for this seat."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-petaluma",
+    "existing": true,
+    "name": "Petaluma",
+    "type": "city",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Mayor, City of Petaluma",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John Hanania",
+     "designation": "Small Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Kevin McDonnell",
+     "designation": "Petaluma City Mayor",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Shelina Moreda",
+     "designation": "Businesswoman/Farmer/Athlete",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-petaluma-council-district-1",
+    "existing": false,
+    "name": "Petaluma City Council District 1",
+    "type": "council-district",
+    "parent": "ca-sonoma-petaluma",
+    "areas": [
+     "ca-sonoma-petaluma"
+    ]
+   },
+   "office": "Member, City Council, City of Petaluma",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Janice Cader Thompson",
+     "designation": "Petaluma City Councilmember",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5311_CandStmts_PetalumaCityCnclDist1.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Alan W. LaPierre",
+     "designation": "Property Manager",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Nate Martin",
+     "designation": "Retail Manager",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5311_CandStmts_PetalumaCityCnclDist1.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Vote-for line not visible in fetched text for District 1; single-seat district."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-petaluma-council-district-2",
+    "existing": false,
+    "name": "Petaluma City Council District 2",
+    "type": "council-district",
+    "parent": "ca-sonoma-petaluma",
+    "areas": [
+     "ca-sonoma-petaluma"
+    ]
+   },
+   "office": "Member, City Council, City of Petaluma",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Brent Newell",
+     "designation": "Environmental Attorney",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5312_CandStmts_PetalumaCityCnclDist2.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "John Shribbs",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5312_CandStmts_PetalumaCityCnclDist2.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-petaluma-council-district-3",
+    "existing": false,
+    "name": "Petaluma City Council District 3",
+    "type": "council-district",
+    "parent": "ca-sonoma-petaluma",
+    "areas": [
+     "ca-sonoma-petaluma"
+    ]
+   },
+   "office": "Member, City Council, City of Petaluma",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Karen Nau",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5313_CandStmts_PetalumaCityCnclDist3.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Eric Vazquez",
+     "designation": "Affordable Housing Advocate",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5313_CandStmts_PetalumaCityCnclDist3.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-rohnert-park-council-district-2",
+    "existing": false,
+    "name": "Rohnert Park City Council District 2",
+    "type": "council-district",
+    "parent": "ca-sonoma-rohnert-park",
+    "areas": [
+     "ca-sonoma-rohnert-park"
+    ]
+   },
+   "office": "Member, City Council, City of Rohnert Park",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Paul Carey",
+     "designation": "Military Operations Instructor",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5350_CandStmts_RohnerParkCityCnclDist2.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Michael Desimone",
+     "designation": "Healthcare Director/Realtor",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5350_CandStmts_RohnerParkCityCnclDist2.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Linda (Khoury) Tams",
+     "designation": "Business Owner/Realtor",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5350_CandStmts_RohnerParkCityCnclDist2.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Statement PDF filename spelled 'RohnerPark' as published."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-rohnert-park-council-district-5",
+    "existing": false,
+    "name": "Rohnert Park City Council District 5",
+    "type": "council-district",
+    "parent": "ca-sonoma-rohnert-park",
+    "areas": [
+     "ca-sonoma-rohnert-park"
+    ]
+   },
+   "office": "Member, City Council, City of Rohnert Park",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Susan Hollingsworth Adams",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5380_CandStmts_RohnertParkCityCnclDist5.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Arlene G. Linder",
+     "designation": "Retired Artist",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5380_CandStmts_RohnertParkCityCnclDist5.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Mauricio Barreto",
+     "designation": "Retired Peace Officer",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5380_CandStmts_RohnertParkCityCnclDist5.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-santa-rosa-council-district-2",
+    "existing": false,
+    "name": "Santa Rosa City Council District 2",
+    "type": "council-district",
+    "parent": "ca-sonoma-santa-rosa",
+    "areas": [
+     "ca-sonoma-santa-rosa"
+    ]
+   },
+   "office": "Member, City Council, City of Santa Rosa",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mark Stapp",
+     "designation": "City Councilmember",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5052_CandStmts_SantaRosaCityCnclDist2.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Single candidate but contest is on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-santa-rosa-council-district-4",
+    "existing": false,
+    "name": "Santa Rosa City Council District 4",
+    "type": "council-district",
+    "parent": "ca-sonoma-santa-rosa",
+    "areas": [
+     "ca-sonoma-santa-rosa"
+    ]
+   },
+   "office": "Member, City Council, City of Santa Rosa",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Melanie Jones-Carter",
+     "designation": "Non-Profit Board Member",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5054_CandStmts_SantaRosaCityCnclDist4.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Terry Sanders",
+     "designation": "Planning Commissioner/Businessperson",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5054_CandStmts_SantaRosaCityCnclDist4.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-santa-rosa-council-district-6",
+    "existing": false,
+    "name": "Santa Rosa City Council District 6",
+    "type": "council-district",
+    "parent": "ca-sonoma-santa-rosa",
+    "areas": [
+     "ca-sonoma-santa-rosa"
+    ]
+   },
+   "office": "Member, City Council, City of Santa Rosa",
+   "district": "District 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jeff Okrepkie",
+     "designation": "City Councilmember",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5056_CandStmts_SantaRosaCityCnclDist6.pdf",
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Single candidate but contest is on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sebastopol",
+    "existing": true,
+    "name": "Sebastopol",
+    "type": "city",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Member, City Council, City of Sebastopol",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ian Hoff",
+     "designation": "Engineer/Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "James Woodruff",
+     "designation": "Welder/Fabricator",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Kyreen Jorgensen",
+     "designation": "SMART Board Clerk",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Brandie L. Solovay",
+     "designation": "Attorney",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Jill McLewis",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Sandra Maurer",
+     "designation": "Incumbent",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": true
+    },
+    {
+     "name": "Erin Mitchell",
+     "designation": "Environmental Planning Student",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5420_CandStmts_SebastopolCityCncl.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sonoma-council-district-1",
+    "existing": false,
+    "name": "Sonoma City Council District 1",
+    "type": "council-district",
+    "parent": "ca-sonoma-sonoma",
+    "areas": [
+     "ca-sonoma-sonoma"
+    ]
+   },
+   "office": "Member, City Council, City of Sonoma",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Peggy Hutton",
+     "designation": "Business Owner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5460_CandStmts_SonomaCityCnclDist1.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Julian Mackie",
+     "designation": "NonProfit Executive Director",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5460_CandStmts_SonomaCityCnclDist1.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Michael L. Menefee",
+     "designation": "Retired Firefighter Paramedic",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5460_CandStmts_SonomaCityCnclDist1.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. New district seat."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-windsor",
+    "existing": true,
+    "name": "Windsor",
+    "type": "city",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Mayor, Town of Windsor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tanya Potter",
+     "designation": "Councilmember/Police Sergeant",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5500_CandStmts_WindsorMayor.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Rick Massell",
+     "designation": "Retired Educator",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. Two-year mayoral term."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-windsor-council-district-1",
+    "existing": false,
+    "name": "Windsor Town Council District 1",
+    "type": "council-district",
+    "parent": "ca-sonoma-windsor",
+    "areas": [
+     "ca-sonoma-windsor"
+    ]
+   },
+   "office": "Member, Town Council, Town of Windsor",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Evan Kubota",
+     "designation": "Security Executive",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5510_CandStmts_WindsorTownCnclDist1.pdf",
+     "incumbent": false
+    },
+    {
+     "name": "Gina Fortino Dickson",
+     "designation": "Attorney/Planning Commissioner",
+     "statementUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5510_CandStmts_WindsorTownCnclDist1.pdf",
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-windsor-council-district-4",
+    "existing": false,
+    "name": "Windsor Town Council District 4",
+    "type": "council-district",
+    "parent": "ca-sonoma-windsor",
+    "areas": [
+     "ca-sonoma-windsor"
+    ]
+   },
+   "office": "Member, Town Council, Town of Windsor",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Meredith Rennie",
+     "designation": "Certified Public Accountant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Nov 3 2026 General Election: Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   "readingsMatched": true,
+   "note": "Ballot page prints names in ALL CAPS; capitalization taken from the county's Local Candidates Who Filed list. The fetched ballot page text was cut off mid-way through this entry (statement link not visible); Rennie was also the only filer on the 8/17 filed list, so no other candidate is expected but the tail of the page could not be read."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-spd-gold-ridge-fire-protection-district",
+    "existing": false,
+    "name": "Gold Ridge Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Director, Gold Ridge Fire Protection District",
+   "district": null,
+   "seats": 4,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tara Daniels",
+     "designation": "Firefighter",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Doug Jones",
+     "designation": "Firefighter",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Robert Gloeckner",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "David Warburg",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Christina Gibbs",
+     "designation": "Firefighter/Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Steve E Petrucci",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Domenico Carinalli Jr",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Shannon J Shaffer-Killey",
+     "designation": "Deputy Fire Marshal",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Kathleen Molloy Gilbraith",
+     "designation": "EMT/Lifeguard/Parent",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Local Candidates Who Filed (last updated 8/17/26)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-candidates-who-filed"
+   },
+   "readingsMatched": false,
+   "note": "Contest title confirmed on the Candidates on the Ballot page index, but the fetch tool truncated that page before the District section, so the candidate list comes from the county's Local Candidates Who Filed list (last updated 8/17/26, 'not final or official'; filing closed 8/12). Filed list read once only (not double-read). New seats (4) per Offices Up for Election. Statement URLs not found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-spd-sonoma-county-fire-district",
+    "existing": false,
+    "name": "Sonoma County Fire District",
+    "type": "special-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Director, Sonoma County Fire District",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Steve Klick",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Richard H. Alpert",
+     "designation": "Sculptor/Filmmaker",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Robert M. Briare",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Gary So",
+     "designation": "District Director",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Sonoma County ROV, Local Candidates Who Filed (last updated 8/17/26)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-candidates-who-filed"
+   },
+   "readingsMatched": false,
+   "note": "Contest title confirmed on the Candidates on the Ballot page index; candidate list from the 8/17/26 Local Candidates Who Filed list because the ballot page text was truncated before the District section. New seats (3). Statement URLs not found."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Sonoma County Board of Education",
+   "office": "Trustee Area 4 (Steve Herrington only filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Sonoma County Junior College District",
+   "office": "Trustee Area 1 (Ezrah Chaaban only filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Sonoma County Junior College District",
+   "office": "Trustee Area 2 (Margaret Fishman only filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Cloverdale Unified School District",
+   "office": "Full Term, 2 seats (1 filer) and Short Term, 1 seat (1 filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Cotati-Rohnert Park Unified School District",
+   "office": "Trustee Areas 2 and 4 (1 filer each)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Geyserville Unified School District",
+   "office": "Full Term, 2 seats and Short Term, 1 seat",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Healdsburg Unified School District",
+   "office": "Trustee Area 1 (no filers) and Trustee Area 5 (1 filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Sonoma Valley Unified School District",
+   "office": "Trustee Area 2 (1 filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "City of Santa Rosa High School District",
+   "office": "Trustee Areas 4 and 6 (1 filer each)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Petaluma City Elementary / Petaluma Joint Union High School Districts",
+   "office": "Trustee Area 2 (1 filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Point Arena Joint Union and Arena Union School Districts",
+   "office": "Full Term (4) and Short Term (1); no Sonoma County filers",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "West Sonoma County Union High School District",
+   "office": "Trustee Areas 1 and 3 (1 filer each)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Elementary districts",
+   "office": "Governing Board Member: Alexander Valley, Bellevue, Bennett Valley, Cinnabar, Dunham, Forestville, Fort Ross, Gravenstein, Guerneville, Horicon, Kenwood, Laguna Joint, Liberty (full and short), Mark West (full and short), Monte Rio (short term), Montgomery, Oak Grove (Areas 1, 3, 4), Old Adobe, Piner-Olivet (full and short), Rincon Valley (Areas 2, 3, 5), Roseland, Sebastopol Union, West Side (full and short), Wilmar (full and short), Wright",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "City of Cotati",
+   "office": "City Council, 2 seats (Kimberlyn Moffet, Ryan Long filed)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "City of Sonoma",
+   "office": "City Council District 3 (John P. Gurney only filer) and District 5 (Ron Wellander only filer)",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Cazadero / Graton Community Services Districts",
+   "office": "Director",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Cloverdale, Graton, North Sonoma Coast (full and short), Northern Sonoma County, Schell-Vista (full and short), Sonoma Valley, Timber Cove Fire Protection Districts",
+   "office": "Director",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Cloverdale Health Care District; Healthy Petaluma District Zones 1 and 3; North Sonoma County Healthcare District; Sonoma Valley Health Care District",
+   "office": "Director",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Coast Life Support District",
+   "office": "Director, Full Term and Short Term",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Camp Meeker Recreation and Park District",
+   "office": "Director",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  },
+  {
+   "jurisdiction": "Forestville, North Marin (Division 1), Rains Creek/Hiatt Rd County, Sweetwater Springs (full and short), Valley of the Moon Water Districts",
+   "office": "Director",
+   "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+   "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+  }
+ ],
+ "unavailable": [
+  "Gold Ridge Fire Protection District and Sonoma County Fire District candidate lists could not be read from the official ballot page (fetch truncated); recorded as pending from the 8/17/26 filed list.",
+  "Windsor Town Council District 4 entry was the last partially visible item on the ballot page; no additional candidates expected but not verifiable.",
+  "No explicit 'appointed in lieu of election' notice found; notOnBallot entries are inferred from absence on the official ballot page.",
+  "Accents on names printed ALL CAPS only on the ballot page (Calistoga JUSD candidates) could not be verified.",
+  "County voter information guide (omniballot) could not be fetched."
+ ]
+}

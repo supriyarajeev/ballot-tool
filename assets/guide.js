@@ -63,6 +63,13 @@
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function badge(status) { var s = own(STATUS, status) || STATUS.incomplete; return '<span class="badge ' + s.cls + '">' + s.label + "</span>"; }
+  // Lists omit "Needs review": every record is in review during the beta, which the beta notice and About page explain.
+  // The status itself is unchanged in the data and still shows on each item's own page, with what still needs checking.
+  // Lists use a short label so long titles keep their width; the item page shows the full label.
+  function listBadge(status) { return status === "needs-review" ? "" : status === "incomplete" ? '<span class="badge st-inc">Incomplete<span class="vh"> (required info or evidence is missing)</span></span>' : badge(status); }
+  // A record whose key facts were read by OCR or by an AI assistant looking at a page image says so next to those facts.
+  function readingNote(x) { return x && x.readingNote ? '<div class="note warn" data-reading-note="1"><b>How this was read</b><p>' + esc(x.readingNote) + "</p></div>" : ""; }
+  function num(n) { return Number(n).toLocaleString("en-US"); }
   function fmtDate(iso) {
     if (!iso) return "not recorded";
     var d = new Date(iso + "T12:00:00");
@@ -107,6 +114,7 @@
   }
   function fileLabel(p) {
     if (/region\.json$/.test(p)) return "Bay Area regional facts";
+    if (/bay-map\.json$/.test(p)) return "county map";
     if (/statewide\.json$/.test(p)) return "statewide propositions";
     if (/contests\.json$/.test(p)) return "candidate contests";
     if (/candidates\.json$/.test(p)) return "candidate details";
@@ -118,11 +126,13 @@
   }
   function loadData() {
     app.innerHTML = '<p class="loading" role="status">Loading ballot information...</p>';
-    return Promise.all([fetchJSON("data/elections.json"), fetchJSON("data/jurisdictions.json"), soft("data/region.json")]).then(function (r) {
+    return Promise.all([fetchJSON("data/elections.json"), fetchJSON("data/jurisdictions.json"), soft("data/region.json"), soft("data/bay-map.json"), soft("data/candidate-rubric.json")]).then(function (r) {
       DB.elections = r[0].elections || [];
       DB.jurList = r[1].jurisdictions || [];
       DB.jurList.forEach(function (j) { if (j && typeof j.id === "string") DB.jur[j.id] = j; });
       DB.region = r[2] && Array.isArray(r[2].counties) ? r[2] : null;
+      DB.map = r[3] && Array.isArray(r[3].counties) ? r[3] : null;
+      DB.rubric = r[4] && Array.isArray(r[4].offices) ? r[4] : null;
       DB.election = DB.elections.filter(function (e) { return e.status === "current"; })[0] || DB.elections[0];
       if (!DB.election || !DB.election.files) throw new Error("data/elections.json has no current election");
       var f = DB.election.files;
@@ -136,7 +146,8 @@
     });
   }
   function loadWarning() {
-    var f = DB.failed.filter(function (x) { return x.label !== "Bay Area regional facts"; });
+    // The regional facts and the map are optional extras; each has its own fallback where it is shown.
+    var f = DB.failed.filter(function (x) { return x.label !== "Bay Area regional facts" && x.label !== "county map" && !/candidate-rubric/.test(x.file); });
     if (!f.length) return "";
     return '<div class="note warn" data-load-warning="1"><b>Some information could not be loaded.</b><p>Missing right now: ' + esc(andList(f.map(function (x) { return x.label; }))) +
       ". Everything else below loaded normally, but lists may be shorter than they should be. Refresh the page to try again.</p></div>";
@@ -226,15 +237,47 @@
       (gaps.length ? '<ul class="srclist">' + gaps.map(function (g) { return "<li>" + esc(g) + "</li>"; }).join("") + "</ul>" : "") +
       (after ? "<p>" + after + "</p>" : "") + "</div>";
   }
+  // A short line near the top of a record: how many sources, how many official, and a button that opens them.
+  // Measure types come from different counties' documents in different capitalization ("Parcel Tax Measure", "Parcel tax").
+  // Display them in sentence case only; the data keeps the source's own wording.
+  function typeLabel(t) { t = String(t).replace(/\.$/, ""); return /^([A-Z][a-z]+)( (and|or|of|[A-Z][a-z]+))+$/.test(t) ? t.charAt(0) + t.slice(1).toLowerCase() : t; }
+  // Candidate pictures. A photo is shown only when its record has a local file, a credit, a license and a recorded
+  // reuse basis (see the validator). That basis is a license tag on the source file, not permission from the candidate.
+  // Every candidate in a contest gets the same frame, so a missing photo never changes how a candidate is presented.
+  function hasPhoto(p) { var ph = p && p.photo; return !!(ph && typeof ph.src === "string" && /^assets\/candidates\/[a-z0-9-]+\.(jpg|png|webp)$/.test(ph.src) && ph.permission && ph.credit); }
+  // A photo appears for each candidate who has one with a recorded source, credit and license (owner decision,
+  // Oct 24, 2026). A grey placeholder means no reusable photo was found; it says nothing about the candidate.
+  var PHOTO_NOTE = "A grey placeholder means this beta guide did not find a photo it could reuse. It says nothing about the candidate.";
+  function photoCredits(cands) {
+    return '<p class="small credits">Photos: ' + cands.map(function (p) { return esc(p.name) + ", " + esc(p.photo.credit.replace(/\.$/, "")) + " (" + ext(p.photo.sourcePage, "source") + (p.photo.licenseUrl ? ", " + ext(p.photo.licenseUrl, "license") : "") + ")"; }).join("; ") + ". Each was cropped and resized for this guide.</p>";
+  }
+  function initials(name) {
+    var w = String(name || "").replace(/["“”(][^"“”)]*["“”)]/g, " ").replace(/,.*$/, "").split(/\s+/).filter(function (x) { return /^[A-Za-zÀ-ÿ]/.test(x) && !/^(Jr|Sr|II|III|IV)\.?$/i.test(x); });
+    if (!w.length) return "";
+    return (w[0][0] + (w.length > 1 ? w[w.length - 1][0] : "")).toUpperCase();
+  }
+  function candPhoto(p, size, show) {
+    var ph = p && p.photo, ok = show && hasPhoto(p);
+    if (ok) return '<img class="cphoto" src="' + esc(ph.src) + '" width="' + size + '" height="' + size + '" alt="Photo of ' + esc(p.name) + '" loading="lazy" decoding="async">';
+    // Neutral placeholder with the candidate's initials (from the official name; nicknames in quotes or brackets skipped).
+    return '<span class="cphoto ph" aria-hidden="true"><span class="ini">' + esc(initials(p && p.name)) + "</span></span>";
+  }
+  function evidenceLine(x) {
+    var ss = x.sources || [], off = ss.filter(function (s) { return /^Official\b/.test(s.type || ""); }).length;
+    if (!ss.length) return '<p class="evline">' + icon("doc") + "<span>No official source recorded yet.</span></p>";
+    return '<p class="evline">' + icon("doc") + "<span>" + ss.length + (ss.length === 1 ? " source" : " sources") + ", " + off + " official.</span> " +
+      '<button type="button" class="linkbtn" data-jump="sources">Show sources</button></p>';
+  }
   function sourceList(sources) {
     if (!sources || !sources.length) return '<p class="missing">No official source recorded yet.</p>';
     return '<ol class="srclist">' + sources.map(function (s) {
-      return "<li>" + ext(s.url, esc(s.label)) + (s.type ? '<span class="role">' + esc(s.type) + "</span>" : "") + "</li>";
+      var off = /^Official\b/.test(s.type || "");
+      return "<li>" + ext(s.url, esc(s.label)) + (s.type ? '<span class="role' + (off ? " official" : "") + '">' + (off ? icon("check") : "") + esc(s.type) + "</span>" : "") + "</li>";
     }).join("") + "</ol>";
   }
   // Empty fields say "Not collected yet", never the wording of another status badge (FE-08).
   function field(v, missing) { return v ? "<p>" + esc(v) + "</p>" : '<p class="missing">' + esc(missing || "Not collected yet.") + "</p>"; }
-  function sec(title, inner, open) { return '<details class="sec"' + (open ? " open" : "") + "><summary>" + esc(title) + '</summary><div class="body">' + inner + "</div></details>"; }
+  function sec(title, inner, open, id) { return '<details class="sec"' + (id ? ' id="' + esc(id) + '"' : "") + (open ? " open" : "") + "><summary>" + esc(title) + '</summary><div class="body">' + inner + "</div></details>"; }
   function samplePlace(county) {
     if (!county) return "";
     return county.lookupUrl ? "Check " + esc(county.name) + "'s official " + ext(county.lookupUrl, esc(county.lookupLabel || "voter information lookup")) + (county.electionsUrl ? " or its " + ext(county.electionsUrl, "elections office") : "") + "." :
@@ -245,8 +288,8 @@
     return s ? "Your county elections office has the official sample ballot for your address. " + s : "Your county elections office has the official sample ballot for your address: " + ext(SOS_OFFICES, "find your county elections office") + ".";
   }
   // District limitations, shown on Find and on every ballot page.
-  function districtNote(county, id) {
-    return '<div class="note" role="note" data-district-note="1"><b>Districts may not match city or county lines.</b><p>School, community college, special and legislative districts may not match city or county lines. A county and a city or town cannot identify every contest on your ballot, and neither can a ZIP code. This guide marks those items as “may apply”.</p><p' + (id ? ' id="' + id + '"' : "") + ">" + lookupSentence(county) + "</p></div>";
+  function districtNote(county, id, notBallot) {
+    return '<div class="note" role="note" data-district-note="1"><b>Districts may not match city or county lines.</b><p>School, community college, special and legislative districts may not match city or county lines. A county and a city or town cannot identify every contest on your ballot, and neither can a ZIP code. This guide marks those items as “may apply”.</p><p' + (id ? ' id="' + id + '"' : "") + ">" + (notBallot ? "This guide is not your official ballot, which depends on your street address. " : "") + lookupSentence(county) + "</p></div>";
   }
   function statewideNote() {
     return '<div class="note" data-statewide-note="1"><b>Outside the Bay Area</b><p>' + esc(STATEWIDE_MSG) + '</p><p><a href="#/statewide">See all statewide propositions</a> · <a href="propositions.html">Ballot Weighing Tool</a></p></div>';
@@ -281,6 +324,84 @@
   }
   function rowLink(href, title, sub) { return '<a class="row" href="' + href + '"><span class="rt"><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span></a>"; }
 
+  /* ---------- Small visuals: icons, county map, key dates, tool steps, coverage bars ---------- */
+  // Line icons drawn for this guide (24px grid, stroke only). Always decorative: the text next to them carries the meaning.
+  var ICONS = {
+    pin: '<path d="M12 21s-6-5.6-6-11a6 6 0 1 1 12 0c0 5.4-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/>',
+    scale: '<path d="M12 4v16M6 20h12M5 7h14M7 7l-3 6.5a3 3 0 0 0 6 0zM17 7l-3 6.5a3 3 0 0 0 6 0z"/>',
+    calendar: '<rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+    doc: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',
+    sliders: '<path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/>',
+    check: '<path d="M5 12.5l4 4L19 6.5"/>',
+    info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>',
+    ballot: '<path d="M4 11h16v9H4zM8 11V4h8v7M10.5 7.5h3"/>',
+    list: '<path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>'
+  };
+  function icon(name, cls) { return '<svg class="ico' + (cls ? " " + cls : "") + '" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + (ICONS[name] || "") + "</svg>"; }
+
+  // Nine-county map from data/bay-map.json (U.S. Census Bureau outlines). Each county is a link to its ballot.
+  function mapFigure() {
+    var cs = counties(), M = DB.map;
+    var ids = cs.map(function (c) { return c.id; });
+    var shapes = M ? M.counties.filter(function (m) { return ids.indexOf(m.id) >= 0 && typeof m.d === "string" && /^[MLZz0-9.,\- ]+$/.test(m.d); }) : [];
+    if (!M || shapes.length !== cs.length) {
+      return '<nav class="maplist" aria-label="Bay Area counties"><p class="small">Choose a county to see what this guide lists for it.</p><ul>' +
+        cs.map(function (c) { return '<li><a href="#/ballot/' + enc(c.id) + '">' + esc(shortName(c)) + "</a></li>"; }).join("") + "</ul></nav>";
+    }
+    // Each county is one link holding its shape and its label, so the label (and San Francisco's leader line) is part of the target.
+    var svg = '<svg class="baymap-svg" viewBox="' + esc(M.viewBox) + '" role="group" aria-labelledby="map-cap">' +
+      (M.context || []).filter(function (d) { return /^[MLZz0-9.,\- ]+$/.test(d); }).map(function (d) { return '<path class="ctx" d="' + d + '"/>'; }).join("") +
+      shapes.map(function (m) {
+        var c = J(m.id), lab = Array.isArray(m.label) ? m.label : [0, 0];
+        return '<a class="cty" href="#/ballot/' + enc(m.id) + '" aria-label="' + esc(c.name) + ', see what this guide lists"><path d="' + m.d + '"/>' +
+          (m.leader ? '<path class="leader" d="M' + (+m.leader[0][0]) + " " + (+m.leader[0][1]) + "L" + (+m.leader[1][0]) + " " + (+m.leader[1][1]) + '"/>' : "") +
+          '<text class="clab" x="' + (+lab[0]) + '" y="' + (+lab[1]) + '" text-anchor="' + (m.labelAnchor === "end" ? "end" : "middle") + '">' + esc(shortName(c)) + "</text></a>";
+      }).join("") + "</svg>";
+    var src = M.source || {};
+    return '<figure class="baymap">' + svg + '<figcaption id="map-cap"><b>The nine Bay Area counties.</b> Choose one to see what this guide lists for it.' +
+      '<span class="small"> Outlines from the ' + ext(src.url || "https://www.census.gov/", esc(src.publisher || "U.S. Census Bureau")) + " (2017, simplified). Not for finding your district.</span></figcaption></figure>";
+  }
+
+  // Official key dates for this election, from data/elections.json. Past dates are marked using this device's date.
+  function todayISO() { var d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); }
+  function shortDate(iso) { var d = new Date(iso + "T12:00:00"); return isNaN(d) ? iso : d.toLocaleDateString("en-US", { month: "short", day: "numeric" }); }
+  function keyDatesCard() {
+    var kd = (DB.election.keyDates || []).filter(function (k) { return k && /^\d{4}-\d{2}-\d{2}$/.test(k.date) && k.label; });
+    if (!kd.length) return "";
+    var today = todayISO(), nextSet = false;
+    var urls = [], seen = {};
+    kd.forEach(function (k) { if (/^https:/.test(k.url || "") && !seen[k.url]) { seen[k.url] = 1; urls.push(k.url); } });
+    return '<section class="card" aria-labelledby="dates-h" data-key-dates="1"><h2 id="dates-h">' + icon("calendar") + "Key dates for this election</h2>" +
+      '<ol class="timeline">' + kd.map(function (k) {
+        var st = k.date < today ? "past" : k.date === today ? "today" : (!nextSet ? (nextSet = true, "next") : "");
+        var tag = st === "past" ? "Passed" : st === "today" ? "Today" : st === "next" ? "Next" : "";
+        return '<li class="' + st + '"><time datetime="' + esc(k.date) + '">' + esc(shortDate(k.date)) + "</time>" +
+          '<div><b>' + esc(k.label) + "</b>" + (tag ? ' <span class="when">' + tag + "</span>" : "") + '<p class="small">' + esc(k.text) + "</p></div></li>";
+      }).join("") + "</ol>" +
+      '<p class="small">From the California Secretary of State: ' + urls.map(function (u, i) { return ext(u, i === 0 ? "general election page" : "election dates and resources"); }).join(" and ") +
+      (DB.election.keyDatesRetrieved ? ", read " + esc(fmtDate(DB.election.keyDatesRetrieved)) : "") + ". Your county may add its own dates and locations.</p></section>";
+  }
+
+  // Local coverage as bars, one row per county, computed from the records. The grey part is listed, ballot question not collected yet.
+  function coverageBars() {
+    var rows = counties().map(function (c) {
+      var ms = DB.measures.filter(function (x) { var j = J(x.jurisdiction); if (!j || j.type === "state") return false; if (j.type === "region") return (j.counties || []).indexOf(c.id) >= 0; return inCounty(j, c.id); });
+      var ks = DB.contests.filter(function (x) { var j = J(x.jurisdiction); return isLocalJur(j) && inCounty(j, c.id); });
+      var own = ks.filter(function (x) { return (countyOf(J(x.jurisdiction)) || {}).id === c.id; }).length;
+      return { c: c, n: ms.length, q: ms.filter(function (m) { return m.ballotQuestion; }).length, k: ks.length, own: own };
+    });
+    var max = Math.max.apply(null, rows.map(function (r) { return r.n; }).concat([1]));
+    return '<table class="covbars" data-coverage-bars="1"><caption>Local items listed in this guide, by county</caption>' +
+      '<thead><tr><th scope="col">County</th><th scope="col">Local measures listed</th><th scope="col">Local contests listed</th></tr></thead><tbody>' +
+      rows.map(function (r) {
+        var w = Math.round(100 * r.n / max), wq = r.n ? Math.round(100 * r.q / r.n) : 0;
+        return '<tr><th scope="row"><a href="#/ballot/' + enc(r.c.id) + '">' + esc(shortName(r.c)) + "</a></th>" +
+          '<td><svg class="bar" viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true" focusable="false"><rect class="nq" x="0" y="0" width="' + Math.max(w, 1) + '" height="10" rx="0"/><rect class="q" x="0" y="0" width="' + Math.round(w * wq / 100) + '" height="10"/></svg><span class="barnum">' + r.n + " listed" + (r.n ? ", " + r.q + " with ballot question" : "") + "</span></td>" +
+          "<td>" + (r.own ? r.own + (r.k > r.own ? ', plus ' + (r.k - r.own) + " from districts based in a neighboring county" : "") : r.k ? '<span class="muted">' + r.k + (r.k === 1 ? " district contest" : " district contests") + " based in a neighboring county; the county’s own contests are not collected yet</span>" : '<span class="muted">not collected yet</span>') + "</td></tr>";
+      }).join("") + "</tbody></table>" +
+      '<p class="small legend"><span class="sw q" aria-hidden="true"></span> ballot question recorded <span class="sw nq" aria-hidden="true"></span> listed, ballot question not collected yet. Bars show what this guide lists, not everything on the ballot. A measure that covers several counties, such as the regional transit measure, is counted in each.</p>';
+  }
+
   /* ---------- Views ---------- */
   function regionCard() {
     var cs = counties(), R = DB.region;
@@ -305,55 +426,156 @@
     var of = " of " + cs.length + " Bay Area counties";
     var stats = [
       [withMeasures, "counties with local measures listed", withMeasures + of + " have local measures listed"],
-      [completeLists, "counties with a complete city and town list", completeLists + of + " have a city and town list checked as complete"],
+      [completeLists, "counties with a complete city and town list, matched to the regional list", completeLists + of + " have a complete city and town list, matched to the regional list from MTC and ABAG"],
       [cities, "cities and towns listed in this guide", cities + " cities and towns are listed in this guide"],
       [withContests, "counties with local candidate contests listed", withContests + of + " have local candidate contests listed"]
     ];
-    return '<section class="card" aria-labelledby="region-h" data-region-card="1"><h2 id="region-h">The Bay Area in this guide</h2>' +
-      regionLine +
+    // "The region at a glance": two parallel sections, Bay Area and California, with the same four cards in the same
+    // order (counties, incorporated cities, residents, registered voters), the same layout and the same source-note style.
+    // A card is shown only when its figure is in data/region.json with a source; otherwise it says Not available.
+    var G = R && R.glance;
+    function sum(o) { var t = 0, ok = true; cs.forEach(function (c) { var v = o && o.byCounty ? o.byCounty[c.id] : undefined; if (typeof v === "number") t += v; else ok = false; }); return ok && cs.length ? t : null; }
+    function mil(n) { return (Math.round(n / 1e5) / 10) + " million"; }
+    function milN(n) { return String(Math.round(n / 1e5) / 10); }
+    function shortD(iso) { var d = new Date(iso + "T12:00:00"); return isNaN(d) ? iso : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); }
+    function tile(big, unit, label, l1, l2, sr) { return { big: big, unit: unit, label: label, l1: l1, l2: l2, sr: sr }; }
+    function none(label) { return tile("—", "", label, "Not available", "", label + " not available"); }
+    var pop = G && G.population ? sum(G.population) : null, reg = G && G.registration ? sum(G.registration) : null;
+    var regionSrc = [], seenF = {};
+    facts.forEach(function (f) { if (!seenF[f.url]) { seenF[f.url] = 1; regionSrc.push(ext(f.url, esc(f.publisher === "Metropolitan Transportation Commission" ? "MTC" : f.publisher === "Association of Bay Area Governments" ? "ABAG" : f.publisher))); } });
+    var bay = [
+      R && R.countyCount ? tile(String(R.countyCount), "", "counties", "MTC and ABAG definition", "", R.countyCount + " counties in the Bay Area") : none("Counties"),
+      R && R.municipalityCount ? tile(String(R.municipalityCount), "", "incorporated cities", "MTC and ABAG list", "", R.municipalityCount + " incorporated cities and towns in the Bay Area") : none("Incorporated cities"),
+      pop ? tile(milN(pop), "million", "residents", num(pop), "estimate, " + shortD(G.population.asOf), "About " + mil(pop) + " Bay Area residents, " + num(pop) + ", estimate for " + fmtDate(G.population.asOf)) : none("Residents"),
+      reg ? tile(milN(reg), "million", "registered voters", num(reg), "as of " + shortD(G.registration.asOf), "About " + mil(reg) + " registered voters in the nine Bay Area counties, " + num(reg) + ", as of " + fmtDate(G.registration.asOf)) : none("Registered voters")
+    ];
+    var cc = G && G.californiaCounties, ci = G && G.californiaCities;
+    var ca = [
+      cc && cc.count === allCounties().length ? tile(String(cc.count), "", "counties", "Secretary of State list", "", cc.count + " counties in California") : none("Counties"),
+      ci && ci.count ? tile(String(ci.count), "", "incorporated cities", "Department of Finance", "as of " + shortD(ci.asOf), ci.count + " incorporated cities in California, as of " + fmtDate(ci.asOf)) : none("Incorporated cities"),
+      G && G.population && G.population.state ? tile(milN(G.population.state), "million", "residents", num(G.population.state), "estimate, " + shortD(G.population.asOf), "About " + mil(G.population.state) + " California residents, " + num(G.population.state) + ", estimate for " + fmtDate(G.population.asOf)) : none("Residents"),
+      G && G.registration && G.registration.state ? tile(milN(G.registration.state), "million", "registered voters", num(G.registration.state), "as of " + shortD(G.registration.asOf), "About " + mil(G.registration.state) + " registered voters in California, " + num(G.registration.state) + ", as of " + fmtDate(G.registration.asOf)) : none("Registered voters")
+    ];
+    var P = G && G.population, RG = G && G.registration;
+    var baySrc = [
+      regionSrc.length ? regionSrc.join(" and ") + " (counties, cities)" : "",
+      P ? ext(P.url, "Department of Finance E-1") + " (residents, " + esc(P.status || "estimate") + ", " + esc(fmtDate(P.asOf)) + ", nine county rows added)" : "",
+      RG ? ext(RG.url, "Secretary of State, Report of Registration") + " (voters, " + esc(fmtDate(RG.asOf)) + ", nine county rows added)" : ""
+    ].filter(Boolean);
+    var caSrc = [
+      cc ? ext(cc.url, "Secretary of State") + " (counties)" : "",
+      ci ? ext(ci.url, "Department of Finance E-1") + " (cities, " + esc(fmtDate(ci.asOf)) + ")" : "",
+      P ? ext(P.url, "Department of Finance E-1") + " (residents, " + esc(P.status || "estimate") + ", " + esc(fmtDate(P.asOf)) + ")" : "",
+      RG ? ext(RG.url, "Secretary of State, Report of Registration") + " (voters, " + esc(fmtDate(RG.asOf)) + ", state total)" : ""
+    ].filter(Boolean);
+    function group(name, tiles, id, src) {
+      return '<section class="gl-group" aria-labelledby="' + id + '"><h3 class="gl-h" id="' + id + '">' + esc(name) + '</h3><ul class="gl">' + tiles.map(function (t) {
+        return '<li' + (t.big === "—" ? ' class="gl-na"' : "") + '><b aria-hidden="true">' + esc(t.big) + (t.unit ? "<small> " + esc(t.unit) + "</small>" : "") + '</b><span class="gl-l" aria-hidden="true">' + esc(t.label) + "</span>" +
+          '<span class="gl-m" aria-hidden="true">' + esc(t.l1) + "</span>" + '<span class="gl-m" aria-hidden="true">' + (t.l2 ? esc(t.l2) : "&nbsp;") + "</span>" + '<span class="vh">' + esc(t.sr) + "</span></li>";
+      }).join("") + '</ul><p class="small gl-src" data-glance-sources="1"><b>Sources</b> ' + src.join(" · ") + "</p></section>";
+    }
+    return '<section class="card" aria-labelledby="region-h" data-region-card="1"><h2 id="region-h">' + icon("pin") + 'The region at a glance</h2>' +
+      (R ? '<div class="glance" data-glance="1">' + group(R.name || "San Francisco Bay Area", bay, "gl-bay", baySrc) + group("California statewide", ca, "gl-ca", caSrc) + "</div>" : regionLine) +
+      '<p class="small" data-glance-method="1"><b>How these figures were put together.</b> The Bay Area is the nine counties named below, as MTC and ABAG define it. Its residents and registered voters are the nine county rows of the same state tables added together, so both sections use the same sources and dates. Residents are a January 1, 2026 provisional estimate; registered voters are from the September 4, 2026 report for this election (the 15-day report was not yet published when checked on October 24, 2026), so the two dates differ. Residents and registered voters are different counts. Incorporated cities include places named towns, such as Los Gatos. Many residents live in unincorporated communities governed by their county. San Francisco is one city and county.</p>' +
       '<p data-county-names="1">The ' + (cs.length === 9 ? "nine" : esc(cs.length)) + " counties are " + esc(andList(cs.map(shortName))) + ". Elsewhere in California, this guide covers statewide items, plus the few local district items it found that cross county lines from the Bay Area. <a href=\"#/statewide\">Statewide propositions</a>.</p>" +
       quotes +
       (R && R.note ? '<p class="small">' + esc(R.note) + "</p>" : "") +
       (!R ? '<p class="small">The regional facts could not be loaded right now.</p>' : "") +
+      "</section>" +
+      // Guide coverage, computed from the data. Kept apart from the regional facts above.
+      '<section class="card" aria-labelledby="covered-h" data-covered-card="1"><h2 id="covered-h">' + icon("list") + 'What’s covered</h2>' + coveredSummary() +
       '<h3 id="cov-ind-h">This guide’s local coverage is growing county by county</h3>' +
       '<ul class="stats" aria-labelledby="cov-ind-h" data-coverage-indicator="1">' + stats.map(function (s) {
         return '<li><b aria-hidden="true">' + esc(s[0]) + (s[1].indexOf("counties") === 0 ? '<span class="of"> / ' + cs.length + "</span>" : "") + '</b><span aria-hidden="true">' + esc(s[1]) + '</span><span class="vh">' + esc(s[2]) + "</span></li>";
       }).join("") + "</ul>" +
       '<p class="small">Counted from this guide’s data each time the page loads.</p>' +
+      coverageBars() +
+      byCountyDetails() +
       "</section>";
   }
-
-  function viewHome() {
-    var state = DB.measures.filter(function (m) { return m.level === "state"; });
+  function byCountyDetails() {
     var cov = counties().map(function (c) {
       var n = countsFor(c.id);
       return "<li><b>" + esc(c.name) + "</b> " + '<span class="tag">' + esc(own(COVERAGE, (c.coverage || {}).status) || "") + "</span>" +
         ' <span class="small">' + esc(countText(n)) + "</span></li>";
     }).join("");
     var d = statewideDate();
+    return '<details class="sec"><summary>Coverage by Bay Area county</summary><div class="body">' +
+      (d ? '<p class="small">The statewide facts were audited by automated research against official sources on ' + esc(fmtDate(d)) + "; a person has not yet reviewed the audit.</p>" : "") +
+      '<ul class="srclist">' + cov + '</ul><p><a class="textlink" href="#/browse">Browse all available ballots</a></p></div></details>';
+  }
+  // Item counts for "What's covered", from the records. Recorded is not the same as checked by a person.
+  function coverCounts() {
+    var local = DB.measures.filter(function (m) { return m.level !== "state"; });
+    return {
+      state: DB.measures.filter(function (m) { return m.level === "state"; }).length,
+      local: local.length,
+      bq: local.filter(function (m) { return m.ballotQuestion; }).length,
+      th: local.filter(function (m) { return m.threshold; }).length,
+      contests: DB.contests.length,
+      localContests: DB.contests.filter(function (c) { return isLocalJur(J(c.jurisdiction)); }).length,
+      candidates: DB.candidates.length,
+      verified: DB.measures.concat(DB.contests, DB.candidates).filter(function (x) { return x.status === "verified"; }).length
+    };
+  }
+  function coveredSummary() {
+    var n = coverCounts();
+    return '<ul class="srclist" data-covered="1">' +
+      "<li><b>" + n.state + " statewide propositions</b>, each with evidence ratings in the <a href=\"propositions.html\">Ballot Weighing Tool</a>.</li>" +
+      "<li><b>" + num(n.local) + " local measures</b> listed in the Bay Area. " + num(n.bq) + " have their ballot question recorded and " + num(n.th) + " their vote threshold. For the rest these are not collected yet, which does not mean the measure has none.</li>" +
+      "<li><b>" + num(n.contests) + " candidate contests</b> (" + num(n.contests - n.localContests) + " statewide, congressional, legislative or Board of Equalization, and " + num(n.localContests) + " local) with <b>" + num(n.candidates) + " candidates</b>, in the order of the official source.</li>" +
+      "</ul>" +
+      "<p class=\"small\">Recorded means copied from an official document by automated or AI-assisted reading. " + (n.verified ? num(n.verified) + " records have been checked by a person." : "No record has been checked by a person yet.") + ' <a href="#/about">How information is checked</a>.</p>' +
+      '<div class="note warn"><b>Local coverage is incomplete.</b><p>No county’s list has been checked against every city and district, so your ballot may include contests and measures this guide does not show. A missing item does not mean it is not on your ballot.</p></div>';
+  }
+  // Official next steps. Links were checked on Oct 23, 2026.
+  var OFFICIAL = {
+    guide: ["https://voterguide.sos.ca.gov/", "Official California voter information guide"],
+    offices: [SOS_OFFICES, "County elections offices"],
+    hotlines: ["https://www.sos.ca.gov/elections/voting-resources/voting-california/voter-hotlines", "Voter hotlines in ten languages"],
+    access: ["https://voterguide.sos.ca.gov/voter-info/assistance-for-voters-w-disabilities.htm", "Assistance for voters with disabilities"],
+    // Added Oct 24, 2026 (audit/2026-10-24/stage1/official-links.md). The pages marked * could not be opened by the
+    // audit's tools (a bot check or a redirect loop); each is linked by name from a checked Secretary of State page.
+    sameday: ["https://www.sos.ca.gov/elections/voter-registration/same-day-reg", "Same-day (conditional) voter registration"],
+    status: ["https://voterstatus.sos.ca.gov/", "Check your voter registration status"], // *
+    early: ["https://caearlyvoting.sos.ca.gov/", "Early voting and ballot drop-off locations"], // *
+    polling: ["https://www.sos.ca.gov/elections/polling-place", "Polling place lookup by county"],
+    track: ["https://www.sos.ca.gov/elections/ballot-status/wheres-my-ballot", "Track your ballot (Where’s My Ballot?)"],
+    formats: ["https://voterguide.sos.ca.gov/en/alt-versions/", "Voter guide in audio, large print and other languages"],
+    props: ["https://voterguide.sos.ca.gov/propositions/", "All propositions in the official voter guide"],
+    statements: ["https://voterguide.sos.ca.gov/candidates/", "Official candidate statements"],
+    certlist: ["https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf", "Certified list of candidates (PDF)"]
+  };
+  function links(keys) { return keys.map(function (k) { return ext(OFFICIAL[k][0], OFFICIAL[k][1]); }).join(" · "); }
+  function nextSteps() {
+    return '<section class="card" aria-labelledby="next-h" data-next-steps="1"><h2 id="next-h">' + icon("ballot") + 'Before you vote</h2>' +
+      "<p>Check your official sample ballot. <a href=\"#/find\">Find My Ballot</a> links to your county’s own lookup, or use the Secretary of State’s list of " + ext(OFFICIAL.offices[0], OFFICIAL.offices[1].toLowerCase()) + ".</p>" +
+      "<p>Choosing a county or city here does not confirm your districts or what is on your ballot. School, special and supervisor districts often cross city lines.</p>" +
+      "<p>Missed the registration deadline? Through Election Day you can still register and vote at your county elections office, a vote center or a polling place. Your ballot is counted once the county completes its checks. " + ext(OFFICIAL.sameday[0], "How same-day registration works") + ".</p>" +
+      '<p class="small">' + links(["status", "early", "track", "guide", "formats", "hotlines", "access"]) + "</p>" +
+      "</section>";
+  }
+
+  function viewHome() {
     app.innerHTML =
+      '<div class="hero-grid">' +
       '<section class="hero">' +
         '<p class="eyebrow">' + esc(DB.election.name) + "</p>" +
         "<h1>" + SITE + "</h1>" +
         '<p class="tagline">Your local and statewide ballot, explained with evidence.</p>' +
-        '<p class="lede">Find the measures and candidates on your ballot, see what each choice would do, and check the official sources. This guide never tells you how to vote.</p>' +
-        '<div class="cta"><a class="btn primary" href="#/find">Find My Ballot</a><a class="btn secondary" href="propositions.html">Ballot Weighing Tool</a></div>' +
+        '<p class="lede">Find the measures and candidates that may be on your ballot, see what each choice would do, and check the official sources. Every statewide proposition is rated on seven evidence factors with sources, and you decide how much each factor matters. This guide never tells you how to vote.</p>' +
+        '<div class="cta"><a class="btn primary" href="#/find">' + icon("pin") + 'Find My Ballot</a><a class="btn secondary" href="propositions.html">' + icon("scale") + "Ballot Weighing Tool</a></div>" +
+        '<p class="small hero-note">' + icon("info") + "<span>This guide is for information only. Choosing a county or city here does not confirm your exact districts. Your official sample ballot does.</span></p>" +
         '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and contests</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
       "</section>" +
-      regionCard() +
-      '<section class="how" aria-label="How it works">' +
-        '<div class="card"><span class="num">1</span><b>Find your ballot</b><p class="small">Pick your county and your city or town. No address or sign-up needed.</p></div>' +
-        '<div class="card"><span class="num">2</span><b>Understand each choice</b><p class="small">Plain-English facts, what YES and NO mean, costs, trade-offs and official sources.</p></div>' +
-        '<div class="card"><span class="num">3</span><b>Decide for yourself</b><p class="small">No recommendations, scores for people, or rankings. The choice is yours.</p></div>' +
-      "</section>" +
-      '<section class="card" aria-labelledby="cov-h"><h2 id="cov-h">What is covered so far</h2>' +
-        "<p>All " + state.length + " statewide propositions with evidence ratings, and the statewide candidate contests. " +
-        (d ? "Their facts were audited by automated research against official sources on " + esc(fmtDate(d)) + "; a person has not yet reviewed the audit. " : "") +
-        "Bay Area local coverage is partial and growing. Every item shows its status, and anything not yet collected is labeled, never left blank as if nothing were on your ballot.</p>" +
-        '<details class="sec"><summary>Coverage by Bay Area county</summary><div class="body"><ul class="srclist">' + cov + "</ul></div></details>" +
-        '<p><a class="textlink" href="#/browse">Browse all available ballots</a></p>' +
-        '<p class="small">Official election authorities. ' + ext("https://voterguide.sos.ca.gov/", "California voter guide") + " · " + ext(SOS_OFFICES, "Find your county elections office") + "</p>" +
-      "</section>";
+      mapFigure() +
+      "</div>" +
+      // Order for voters: what to do and when first, then the tool, then background figures.
+      keyDatesCard() +
+      nextSteps() +
+      '<section class="card" aria-labelledby="tool-h"><h2 id="tool-h">' + icon("scale") + 'How the Ballot Weighing Tool works</h2>' + toolSteps() +
+        '<p><a class="btn secondary" href="propositions.html">Open the Ballot Weighing Tool</a></p></section>' +
+      regionCard();
   }
 
   function viewFind(params) {
@@ -435,8 +657,9 @@
     var href = isContest ? "#/contest/" + enc(x.id) : "#/item/" + enc(x.id);
     var title = isContest ? x.office + (x.district ? ", " + x.district : "") : x.shortTitle || x.officialTitle;
     var id = isContest ? "Office" : x.identifier;
-    var sub = j.name + (ap && ap.fit === "maybe" ? (ap.split ? " · May apply, this county is split between districts. Check your sample ballot" : " · May apply, check your sample ballot") : "");
-    return '<a class="row" href="' + href + '" data-search="' + esc((id + " " + title + " " + j.name + " " + (x.officialTitle || "")).toLowerCase()) + '"><span class="rt"><span class="rid">' + esc(id) + '</span><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span>" + badge(x.status) + "</a>";
+    var sub = j.name + (ap && ap.fit === "maybe" ? (ap.split ? " · May apply, this county is split between districts. Check your sample ballot" : " · May apply, check your sample ballot") : "") +
+      (isContest && x.listStatus === "pending" ? " · Not yet on a final official list" : "") + (isContest && x.noQualifiedCandidates ? " · No qualified candidates listed" : "");
+    return '<a class="row" href="' + href + '" data-search="' + esc((id + " " + title + " " + j.name + " " + (x.officialTitle || "")).toLowerCase()) + '"><span class="rt"><span class="rid">' + esc(id) + '</span><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span>" + listBadge(x.status) + "</a>";
   }
 
   var INV = {
@@ -446,6 +669,7 @@
     "reconciled": "cross-checked against official county, city and district records",
     "none-found-confirmed": "none found, confirmed with official records"
   };
+  function capFirst(x) { x = String(x); return x.charAt(0).toUpperCase() + x.slice(1); }
   function coverageBox(county) {
     var inv = county.inventory || {}, rc = inv.reconciliation, d = statewideDate(), ci = county.cityInventory || {};
     var rows = [["Local measures", inv.measures], ["Local candidate contests", inv.contests], ["Local candidate rosters", inv.candidates], ["School and special district boundaries", inv.districts]];
@@ -456,11 +680,22 @@
         (rc.notReachable ? esc(rc.notReachable) + " could not be read, so this county’s list is not fully reconciled." : (inv.measures === "reconciled" ? "" : "Those pages are a sample, so this county’s list is not marked as fully reconciled.")) + "</li>";
     }
     return '<details class="sec"><summary>What has been checked for ' + esc(county.name) + '</summary><div class="body"><ul class="srclist">' +
-      "<li><b>City and town list.</b> " + cityRow + ".</li>" +
-      rows.map(function (r) { return "<li><b>" + r[0] + ".</b> " + esc(own(INV, r[1]) || "not recorded") + ".</li>"; }).join("") +
+      "<li><b>City and town list.</b> " + capFirst(cityRow) + ".</li>" +
+      rows.map(function (r) { return "<li><b>" + r[0] + ".</b> " + capFirst(esc(own(INV, r[1]) || "not recorded")) + ".</li>"; }).join("") +
       rcText +
+      notOnBallot(county) +
       "<li><b>Statewide propositions and statewide contests.</b> " + (d ? "Audited on " + esc(fmtDate(d)) + " by automated research against official sources. " : "") + "A person has not yet reviewed the audit.</li>" +
       '</ul><p class="small">Last checked ' + esc(fmtDate(inv.lastChecked)) + ". A missing item never means it is not on your ballot.</p></div></details>";
+  }
+
+  // Seats filled without an election (appointed in lieu, or decided in June) are listed so a voter knows why they are absent.
+  function notOnBallot(county) {
+    var x = county.notOnBallot || [];
+    if (!x.length) return "";
+    var srcs = []; x.forEach(function (r) { if (r.source && /^https:/.test(r.source) && srcs.indexOf(r.source) < 0) srcs.push(r.source); });
+    return '<li data-not-on-ballot="' + x.length + '"><b>Not on the ballot.</b> ' + x.length + (x.length === 1 ? " seat or contest that" : " seats or contests that") + " had an election scheduled are not on the November ballot, usually because no more candidates filed than there are seats, so the seats are filled by appointment instead." +
+      '<details class="nob"><summary>Show the list</summary><ul>' + x.map(function (r) { return "<li>" + esc(r.jurisdiction || "") + (r.office ? ". " + esc(r.office) : "") + (r.reason ? ' <span class="small muted">' + esc(r.reason) + "</span>" : "") + "</li>"; }).join("") + "</ul>" +
+      (srcs.length ? '<p class="small">Sources: ' + srcs.slice(0, 6).map(function (u, i) { return '<a href="' + esc(u) + '" rel="noopener">source ' + (i + 1) + "</a>"; }).join(", ") + "</p>" : "") + "</details></li>";
   }
 
   function candNote(county) {
@@ -526,8 +761,7 @@
         '<p class="muted">' + esc(cov.note || "") + " Open a section to see its items.</p></section>" +
       (bay ? "" : statewideNote()) +
       coverageBox(county) +
-      '<div class="note"><b>This is a guide, not your official ballot.</b><p>Your exact ballot depends on your street address. ' + samplePlace(county) + "</p></div>" +
-      districtNote(county) +
+      districtNote(county, null, true) +
       '<label class="field">Search these choices<input type="search" id="q" placeholder="Try a measure letter, topic or office" autocomplete="off"></label>' +
       '<p class="vh" id="q-status" role="status" aria-live="polite"></p>' +
       groupsHtml;
@@ -548,6 +782,8 @@
       '<section class="ov-head"><p class="eyebrow">' + esc(DB.election.name) + "</p><h1>Statewide California propositions</h1>" +
         '<p class="lede" data-statewide-msg="1">' + esc(STATEWIDE_MSG) + "</p></section>" +
       '<div class="cta"><a class="btn primary" href="propositions.html">Open the Ballot Weighing Tool</a><a class="textlink" href="#/contests">Statewide candidate contests</a></div>' +
+      '<p class="small">From the Secretary of State: ' + links(["props", "guide", "formats"]) + ".</p>" +
+      sec("How the Ballot Weighing Tool works", toolSteps()) +
       '<details class="group" data-group="state" open><summary><h2>All statewide propositions</h2><span class="counts">' + state.length + (state.length === 1 ? " item" : " items") + "</span></summary>" +
         (state.length ? '<div class="rows">' + state.map(function (m) { return itemRow(m, { fit: "yes" }, false); }).join("") + "</div>" : '<div class="empty">The statewide list could not be loaded right now. ' + ext("https://voterguide.sos.ca.gov/", "Official California voter guide") + ".</div>") +
       "</details>" +
@@ -572,8 +808,10 @@
       '<article class="detail">' +
         '<p class="eyebrow">' + esc(j.name || "") + " · " + esc(DB.election.name) + "</p>" +
         "<h1>" + esc(m.identifier) + ". " + esc(m.shortTitle || m.officialTitle) + "</h1>" +
-        ((m.officialTitle || m.measureType || m.threshold) ? '<p class="official">' + [m.officialTitle ? "Official title. " + esc(m.officialTitle.replace(/\.$/, "")) + "." : "", m.measureType ? "Type. " + esc(m.measureType.replace(/\.$/, "")) + "." : "", m.threshold ? "Passes with " + esc(m.threshold) + "." : ""].filter(Boolean).join(" ") + "</p>" : "") +
+        '<p class="official">' + [m.officialTitle ? "Official title. " + esc(m.officialTitle.replace(/\.$/, "")) + "." : "", m.measureType ? "Type. " + esc(typeLabel(m.measureType)) + "." : "Type not collected yet.", m.threshold ? "Passes with " + esc(m.threshold) + "." : (m.level === "state" ? "" : "Vote threshold not collected yet.")].filter(Boolean).join(" ") + "</p>" +
         '<p class="meta">' + badge(m.status) + "<span>Last checked " + esc(fmtDate(m.lastVerified)) + "</span></p>" +
+        evidenceLine(m) +
+        readingNote(m) +
         statusNote(m, "Use the official sources at the bottom. " + (county ? samplePlace(county) : "Check your official sample ballot.")) +
         (m.detailUrl && /^(propositions\.html#prop-\d+|https:)/.test(m.detailUrl) ? '<div class="note"><b>Full evidence ratings available.</b><p>This proposition has ratings on seven evidence factors, reasons and an optional weighing tool. <a href="' + esc(m.detailUrl) + '">Open ' + esc(m.identifier) + " in the full proposition tool</a>.</p></div>" : "") +
         '<section class="card"><h2>In plain English</h2>' + f(m.plainEnglish) + "</section>" +
@@ -586,7 +824,7 @@
         sec("Financial implications", f(m.fiscal)) +
         sec("What the evidence supports, and what is uncertain", f(m.evidence) + (m.uncertain ? "<p><b>Key uncertainty.</b> " + esc(m.uncertain) + "</p>" : "")) +
         sec("Arguments for and against", args) +
-        sec("Official sources and further reading", sourceList(m.sources), true) +
+        sec("Official sources and further reading", sourceList(m.sources), true, "sources") +
         sec("Research notes", f(m.notes)) +
       "</article>";
   }
@@ -594,21 +832,77 @@
   function viewContest(id) {
     var c = rec(id); if (!c || !c.office) return viewNotFound("That contest is not in this guide.");
     var j = J(c.jurisdiction) || {};
-    var cands = (c.candidates || []).map(rec).filter(Boolean);
+    var cands = (c.candidates || []).map(rec).filter(Boolean), withPhoto = cands.filter(hasPhoto);
     app.innerHTML =
       backLink() +
       '<article class="detail"><p class="eyebrow">' + esc(j.name || "") + " · " + esc(DB.election.name) + "</p>" +
         "<h1>" + esc(c.office) + (c.district ? ", " + esc(c.district) : "") + "</h1>" +
         '<p class="meta">' + badge(c.status) + "<span>Last checked " + esc(fmtDate(c.lastVerified)) + "</span></p>" +
+        evidenceLine(c) +
+        readingNote(c) +
         statusNote(c) +
+        (c.listStatus === "pending" ? '<div class="note warn" data-list-status="pending"><b>Not yet confirmed on a final official list</b><p>This contest and its candidates come from a filing list or a secondary source. The final list or your sample ballot may differ.</p></div>' : "") +
+        (c.listStatus === "confirmed" ? '<p class="small" data-list-status="confirmed">This contest appears on the county’s official list of contests on the ballot.</p>' : "") +
         (c.seats ? '<p class="note">Vote for up to ' + esc(c.seats) + ".</p>" : "") +
         '<p class="small">Candidates appear in the order of the official source, not in any ranking. This guide does not score, rank or recommend candidates.</p>' +
         (cands.length ? '<div class="cands">' + cands.map(function (p) {
-          return '<a class="cand" href="#/candidate/' + enc(p.id) + '"><b>' + esc(p.name) + "</b>" + badge(p.status) + '<span class="small">' + esc([p.party ? "Party preference " + p.party : null, p.designation ? "Ballot designation " + p.designation : null].filter(Boolean).join(" · ") || "Details not yet collected") + "</span></a>";
-        }).join("") + "</div>" : '<p class="missing">Candidate names have not been collected for this contest yet. This does not mean the contest has no candidates.</p>') +
+          return '<a class="cand" href="#/candidate/' + enc(p.id) + '">' + candPhoto(p, 48, true) + '<span class="cand-t"><b>' + esc(p.name) + "</b>" + listBadge(p.status) + '<span class="small">' + esc([p.party ? "Party preference " + p.party : null, p.designation ? "Ballot designation " + p.designation : null].filter(Boolean).join(" · ") || "Details not yet collected") + "</span></span></a>";
+        }).join("") + "</div>" : c.noQualifiedCandidates ? '<p class="missing" data-no-candidates="1">The official list shows no qualified candidates for this contest. Write-in candidates may still qualify; check your sample ballot.</p>' : '<p class="missing">Candidate names have not been collected for this contest yet. This does not mean the contest has no candidates.</p>') +
+        (cands.length ? (withPhoto.length ? photoCredits(withPhoto) : "") + '<p class="small">' + (withPhoto.length < cands.length ? PHOTO_NOTE + " " : "") + ext(OFFICIAL.statements[0], "Official candidate statements") + " may include photos the candidates submitted.</p>" : "") +
+        (cands.length ? candidateEval(c, cands) : "") +
         (c.notes ? sec("Research notes", field(c.notes)) : "") +
-        sec("Official sources", sourceList(c.sources), true) +
+        sec("Official sources", sourceList(c.sources), true, "sources") +
       "</article>";
+  }
+
+  /* ---------- Candidate evaluation mode (Oct 24, 2026) ----------
+     The seven factors and the voter's weights from the Ballot Weighing Tool, with rating guidance for the office
+     (data/candidate-rubric.json). A candidate rating exists only in candidates.json under evaluation.ratings, each with
+     its basis and source; none has been recorded yet. Missing ratings show Insufficient evidence and are never counted.
+     A weighted summary is shown only when every factor the voter weights is rated. Candidates keep the official order;
+     nothing here ranks or recommends them. */
+  var FACTOR_NAMES = { nb: "Net benefit", ev: "Evidence strength", lr: "Safety", ac: "Accountability", if: "Feasibility", fc: "Fiscal clarity", oc: "Outcome clarity" };
+  function rubricFor(c) {
+    var offs = (DB.rubric && DB.rubric.offices) || [];
+    for (var i = 0; i < offs.length; i++) { try { if (new RegExp(offs[i].match).test(c.office || "")) return offs[i]; } catch (e) {} }
+    return null;
+  }
+  function candRatings(p) {
+    var ev = p && p.evaluation, out = {};
+    if (!ev || !ev.ratings) return out;
+    window.BallotWeights.KEYS.forEach(function (k) { var r = ev.ratings[k]; if (r && window.BallotWeights.validRating(r.rating) && r.basis && r.source && /^https:/.test(r.source.url || "")) out[k] = r; });
+    return out;
+  }
+  function candidateEval(c, cands) {
+    var BW = window.BallotWeights, R = rubricFor(c);
+    if (!BW || !R) return "";
+    var sw = BW.savedWeights(), w = sw.w, sh = BW.shares(w);
+    var basisLabel = {}; (DB.rubric.bases || []).forEach(function (b) { basisLabel[b.id] = b.label; });
+    var weights = '<ul class="ce-w">' + BW.KEYS.map(function (k) {
+      return "<li><span>" + esc(FACTOR_NAMES[k]) + '</span><span class="ce-pct">' + (sh.total === 0 ? "No weight" : w[k] === 0 ? "Ignored" : BW.fmt(sh.pct[k], 1) + "%") + '</span><span class="small">' + esc(R.guide[k] || "") + "</span></li>";
+    }).join("") + "</ul>";
+    var rated = 0;
+    var cards = cands.map(function (p) {
+      var rs = candRatings(p), n = Object.keys(rs).length; rated += n;
+      var needed = BW.KEYS.filter(function (k) { return w[k] > 0; }), complete = needed.length > 0 && needed.every(function (k) { return rs[k]; });
+      var nums = {}; Object.keys(rs).forEach(function (k) { nums[k] = rs[k].rating; });
+      var wr = complete ? BW.weighted(nums, w) : null;
+      var rows = BW.KEYS.map(function (k) {
+        var r = rs[k];
+        return "<tr><th scope=\"row\">" + esc(FACTOR_NAMES[k]) + "</th><td>" + (r ? r.rating + "/5" : '<span class="muted">Insufficient evidence</span>') + "</td><td>" +
+          (r ? esc(basisLabel[r.basis] || r.basis) + ". " + esc(r.note || "") + " " + ext(r.source.url, esc(r.source.title || "Source")) : "") + "</td></tr>";
+      }).join("");
+      return '<div class="ce-cand" data-ce-cand="' + esc(p.id) + '"><h3>' + esc(p.name) + "</h3>" +
+        '<p class="ce-sum">' + (wr && !wr.off ? "<b>Weighted rating: " + wr.percent + "% (" + wr.average.toFixed(1) + "/5)</b> under your weights." : "<b>Weighted rating not calculated.</b> " + n + " of 7 factors have a documented rating" + (n === 0 ? " yet" : "") + ".") + "</p>" +
+        (n ? '<div class="tablewrap"><table class="ce-t"><thead><tr><th scope="col">Factor</th><th scope="col">Rating</th><th scope="col">Evidence</th></tr></thead><tbody>' + rows + "</tbody></table></div>" :
+          '<p class="small muted">All seven factors: Insufficient evidence.</p>') + "</div>";
+    }).join("");
+    return '<details class="sec ce" data-candidate-eval="1"><summary>Evaluate candidates with your priorities (beta)</summary><div class="body">' +
+      '<div class="note" role="note"><b>No candidate has been rated yet.</b><p>This mode applies the seven factors of the ' + '<a href="propositions.html">Ballot Weighing Tool</a>' + " to candidates, with guidance written for the office of " + esc(c.office) + " (" + esc(R.label) + "). A rating is added only with attributable evidence, so every factor shows Insufficient evidence for now. It does not rank candidates, predict results or recommend a vote.</p></div>" +
+      "<h2 class=\"ce-h\">What matters most to you</h2><p class=\"small\">" + (sw.saved ? "Your weights from the Ballot Weighing Tool, saved in this browser." : "The standard weights. Change them in the Ballot Weighing Tool and they are used here too.") + " The same percentages apply to every candidate in this contest.</p>" + weights +
+      "<h2 class=\"ce-h\">How candidates are rated</h2><p class=\"small\">" + esc(DB.rubric.scale) + " Each rating names its basis.</p><ul class=\"srclist small\">" + (DB.rubric.bases || []).map(function (b) { return "<li><b>" + esc(b.label) + ".</b> " + esc(b.d) + "</li>"; }).join("") + "</ul>" +
+      '<p class="small">' + esc(DB.rubric.missingPolicy) + "</p>" +
+      "<h2 class=\"ce-h\">Candidates, in the official order</h2>" + cards + "</div></details>";
   }
 
   function viewCandidate(id) {
@@ -620,8 +914,12 @@
     app.innerHTML =
       '<a class="back" href="#/contest/' + enc(p.contest) + '">' + esc(c.office || "Contest") + "</a>" +
       '<article class="detail"><p class="eyebrow">Candidate for ' + esc(c.office || "") + (c.district ? ", " + esc(c.district) : "") + "</p>" +
-        "<h1>" + esc(p.name) + "</h1>" +
+        '<div class="cand-head">' + candPhoto(p, 96, true) + "<h1>" + esc(p.name) + "</h1></div>" +
+        (hasPhoto(p) ? '<p class="small">Photo: ' + esc(p.photo.credit) + " " + ext(p.photo.sourcePage, "Source") + (p.photo.licenseUrl ? " · " + ext(p.photo.licenseUrl, "License") : "") + ". " + esc(p.photo.modified || "") + "</p>" :
+          '<p class="small">' + PHOTO_NOTE + " " + (p.statementUrl && /^https:/.test(p.statementUrl) ? ext(p.statementUrl, "See the official candidate statement page") + ", which shows a photo when the candidate submitted one." : "Your official voter guide shows candidate statements, and photos where candidates submitted them.") + "</p>") +
         '<p class="meta">' + badge(p.status) + "<span>Last checked " + esc(fmtDate(p.lastVerified)) + "</span></p>" +
+        evidenceLine(p) +
+        readingNote(c) +
         statusNote(p) +
         sec("From the official candidate list", (p.incumbent ? "<p>Marked as the incumbent in the official source.</p>" : "") + "<p>" + esc([p.party ? "Party preference. " + p.party + "." : "Party preference not listed or not collected.", p.designation ? "Ballot designation. " + p.designation + "." : "Ballot designation not collected."].join(" ")) + '</p><p class="small">Facts as printed in the official source listed at the bottom of this page.</p>' + (p.notes ? '<p class="small">' + esc(p.notes) + "</p>" : ""), true) +
         sec("In the candidate's own words", (p.statementNote && !p.statementUrl ? '<div class="claim"><p class="who">Candidate statement</p><p>' + esc(p.statementNote) + "</p></div>" : block("Read the official candidate statement", p.statementUrl, "Candidate statement, the candidate's own claims")) + '<p class="small">Statements are written by candidates and are not fact-checked by elections officials. Not every candidate submits one.</p>') +
@@ -629,7 +927,7 @@
         sec("Stated policy positions", field(p.positions)) +
         sec("Documented public record", field(p.publicRecord)) +
         sec("Campaign finance", block("Search official campaign finance filings", p.financeUrl, "Official disclosure records") + '<p class="small">Totals change through Election Day. Check the filing dates on the official site.</p>') +
-        sec("Sources", sourceList(p.sources), true) +
+        sec("Sources", sourceList(p.sources), true, "sources") +
       "</article>";
   }
 
@@ -659,8 +957,9 @@
     var places = localContestPlaces();
     app.innerHTML = backLink() +
       '<section class="ov-head"><h1>Candidates and contests</h1><p class="muted">' + esc(DB.election.name) + ". Statewide, congressional and legislative contests come from the Secretary of State's certified list. " +
-        (places.length ? "Local contests are collected so far only for these places: " + places.join("; ") + ". " : "No local contests have been collected yet. ") +
-        "This is not a full list of every race on your ballot. Use Find My Ballot to see what may apply where you live.</p></section>" +
+        (places.length >= counties().length ? "Local contests are listed for all " + counties().length + " Bay Area counties, from each county’s official candidate list. " : places.length ? "Local contests are collected so far only for these places: " + places.join("; ") + ". " : "No local contests have been collected yet. ") +
+        "This is not a full list of every race on your ballot. Use Find My Ballot to see what may apply where you live.</p>" +
+        '<p class="small">From the Secretary of State: ' + links(["statements", "certlist"]) + ".</p></section>" +
       html +
       '<p class="small">Candidates are never scored, ranked or recommended here.</p>';
   }
@@ -681,10 +980,77 @@
   // Back goes to the previous page in this guide when there is one, otherwise to Find My Ballot.
   var navCount = 0;
   function backLink() { return '<a class="back" href="#/find" data-back="1">Back</a>'; }
+  // The skip link moves focus to the page heading. It never changes the address, which the router owns (UX-01).
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a.skip") : null;
+    if (!a) return;
+    e.preventDefault();
+    var h = app.querySelector("h1") || app; h.setAttribute("tabindex", "-1"); h.focus();
+  });
+  // "Show sources" opens the sources section and moves focus there, without touching the page address (the router owns the #).
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("button[data-jump]") : null;
+    if (!b) return;
+    var t = document.getElementById(b.getAttribute("data-jump")); if (!t) return;
+    t.open = true; var sm = t.querySelector("summary");
+    t.scrollIntoView({ block: "start" }); if (sm) sm.focus({ preventScroll: true });
+  });
   document.addEventListener("click", function (e) {
     var a = e.target.closest ? e.target.closest("a[data-back]") : null;
     if (a && navCount > 1) { e.preventDefault(); history.back(); }
   });
+
+  // How the Ballot Weighing Tool works, in three steps. Matches propositions.html; the tool itself is unchanged.
+  function toolSteps() {
+    var steps = [
+      ["sliders", "Set your priorities", "The tool starts with standard weights for seven evidence factors, such as net benefit, evidence strength and fiscal clarity. You can keep them or set how much each one matters to you."],
+      ["doc", "Review each proposition", "Read the plain-English facts, the ratings with their reasons, and the official sources, then say how you feel about the measure’s goal."],
+      ["scale", "See how your priorities shape the result", "If you support a measure’s goal, the tool checks its evidence score under your weights and shows Leans toward YES or Mixed / uncertain. If you oppose the goal, it shows Leans toward NO, which reflects your view, not the evidence. Not sure is not counted either way."]
+    ];
+    return '<ol class="steps3" data-tool-steps="1">' + steps.map(function (s) {
+      return "<li>" + icon(s[0], "big") + "<div><b>" + esc(s[1]) + ".</b> " + esc(s[2]) + "</div></li>";
+    }).join("") + "</ol>" +
+      '<p class="small">A lean is the result of this tool’s method and the weights you chose. It is not an official recommendation, a prediction, or an instruction on how to vote.</p>';
+  }
+
+  function viewAbout() {
+    var n = coverCounts(), R = DB.region || {};
+    var nc = counties().length;
+    app.innerHTML =
+      '<a class="back" href="#/">Home</a>' +
+      '<article class="detail" data-about="1"><p class="eyebrow">Beta release</p><h1>About this guide</h1>' +
+      '<p class="lede">Scope, coverage and limitations of this beta.</p>' +
+      '<div class="note warn"><b>Beta release. Coverage and evidence are still being verified.</b>' +
+        "<p>This independent guide helps voters explore California ballot measures and candidates, review supporting evidence, and weigh issues according to their own priorities. Its summaries, evidence, ratings and local ballot listings have not yet been independently verified by a person. Local coverage may be incomplete, and district-specific contests may not apply to every voter.</p>" +
+        "<p>Please confirm your ballot and important details with your county elections office’s official voter information.</p></div>" +
+      sec("Disclaimer and who made this", '<div data-disclaimer="1">' +
+        "<p>This is an independent civic technology project, built by Supriya Rajeev for educational and informational purposes. It gathers public election information in one place so voters can find it more easily.</p>" +
+        "<p>It is not an official election resource. It is not affiliated with, endorsed by or sponsored by the California Secretary of State, any county elections office, or any candidate, campaign, party or committee, and it does not endorse any candidate or position.</p>" +
+        "<p>The information is provided as is, without warranty of any kind. It may contain errors or be out of date. Do not rely on it as your only source, and always confirm with your county elections office and the official voter guide.</p>" +
+        "<p>Candidate photos come from Wikimedia Commons, where each is tagged as public domain or under a Creative Commons license. Some public-domain tags, such as those on California Legislature portraits, rest on readings that are not settled law. Every photo is credited on its contest and candidate pages with a link to its source and license. Photos are shown only to help voters recognize candidates and do not imply endorsement by the candidate or the photographer. A grey placeholder means no reusable photo was found. Candidates or rights holders who want a photo corrected or removed can contact the developer through the " + ext("https://github.com/supriyarajeev/ballot-tool", "project’s GitHub repository") + ". Requests will be reviewed, and photos removed where appropriate.</p></div>", true) +
+      sec("What this guide does", "<p>It lists statewide propositions, Bay Area local measures and candidate contests for the " + esc(DB.election.name) + ", explains each in plain English with its official sources, and shows what has not been collected yet. It never tells you how to vote, and it never scores, ranks or recommends candidates.</p>", true) +
+      sec("What it covers", "<p>All of California for the " + n.state + " statewide propositions and the statewide contests, such as Governor. Congressional, State Senate and State Assembly contests only for the districts that include Bay Area counties. Local measures and contests only for the " + nc + " Bay Area counties" + (R.municipalityCount ? " and their " + num(R.municipalityCount) + " cities and towns" : "") + ", plus a few districts that cross into neighboring counties. Other counties show statewide items only.</p>" + coveredSummary(), true) +
+      sec("How information is checked", "<p>Four different things happen. Only review by a person confirms a fact, and it has not happened yet.</p><ul class=\"srclist\">" +
+        "<li><b>Software tests.</b> Automated checks test that the site works and that the data is consistent. For example, every published ballot question must match its quoted official source, links must use https (two county links that offer only http are labeled), and counts must add up. They cannot tell whether a source was read correctly.</li>" +
+        "<li><b>Automated and AI-assisted reading.</b> Most facts were collected by automated research and an AI assistant reading official documents. Scanned forms were read by OCR. Where that matters most, the item says so next to the facts.</li>" +
+        "<li><b>Review by a person.</b> " + (n.verified ? num(n.verified) + " records have been checked by a person against the official source." : "No record has yet been checked by a person against the official source.") + " That is why items carry a review status on their own pages, and why nothing is marked Verified.</li>" +
+        "<li><b>Completeness.</b> No county’s local list has been reconciled against every city and district, so local coverage is incomplete.</li></ul>", true) +
+      sec("Districts and eligibility", "<p>District lines for schools, special districts, supervisors, Congress and the Legislature are not mapped to addresses here. Those contests are marked “may apply.” Choosing a county or city in this guide does not confirm which districts you live in or what is on your ballot.</p>") +
+      sec("How the Ballot Weighing Tool works", toolSteps() +
+        "<p>The ratings are structured judgments made for this tool with AI research assistance, using one published rubric for every proposition. They are not official ratings. On October 24, 2026 the owner approved resolving four ratings that had been flagged because their written reasons might not match the rubric. After reading the legal text and the LAO analysis, Proposition 44’s accountability went from 5 to 4, because audits are allowed but not required. The evidence strength of Propositions 37 and 38 and Proposition 37’s accountability stayed at 3, with clearer reasons. No person outside the project has reviewed the ratings.</p>" +
+        "<p>The tool shows each factor's share of your weighting as a percentage, and each proposition's weighted evidence rating as a percentage of the top rating, with the points each factor adds. These are a clearer view of the same weighted average; no score or lean changed.</p>" +
+        "<p>Contest pages have a candidate evaluation mode that applies the same seven factors and your weights, with guidance written for each office. No candidate has been rated yet, because a rating needs attributable evidence. It never ranks candidates or recommends a vote.</p>" +
+        '<p><a href="propositions.html">Open the Ballot Weighing Tool</a></p>') +
+      sec("What the labels mean", '<ul class="srclist">' +
+        "<li><b>Incomplete (required info or evidence is missing).</b> Something a voter needs, such as the ballot question or the official text, has not been collected. The item lists what is missing.</li>" +
+        "<li><b>Needs review.</b> The facts have sources, but a person has not yet checked them. During the beta every item is at this stage or Incomplete, so lists leave this label out. Each item’s own page shows it, with what still needs checking.</li>" +
+        "<li><b>May apply.</b> The contest or measure covers only part of your county or city. Check your sample ballot.</li>" +
+        "<li><b>Verified.</b> A person has checked the item against the official source. No item has this label yet.</li></ul>") +
+      sec("Confirm your ballot", "<p>Your county elections office has your official sample ballot. <a href=\"#/find\">Find My Ballot</a> links to your county’s lookup.</p><ul class=\"srclist\">" +
+        ["offices", "sameday", "status", "early", "polling", "track", "guide", "props", "statements", "certlist", "formats", "hotlines", "access"].map(function (k) { return "<li>" + ext(OFFICIAL[k][0], OFFICIAL[k][1]) + "</li>"; }).join("") + "</ul>", true) +
+      '<p class="small">Coverage and checking are ongoing. Figures on this page are counted from the guide’s data each time it loads.</p>' +
+      "</article>";
+  }
 
   function viewNotFound(msg) {
     app.innerHTML = '<a class="back" href="#/">Home</a><h1>Not found</h1><p>' + esc(msg) + ' <a href="#/find">Find your ballot</a>.</p>';
@@ -707,6 +1073,7 @@
     else if (v === "") viewHome();
     else if (v === "find" && parts.length === 1) viewFind(qs);
     else if (v === "statewide" && parts.length === 1) viewStatewide();
+    else if (v === "about" && parts.length === 1) viewAbout();
     else if (v === "ballot") viewBallot(parts[1], parts[2], parts.slice(3).join("/"));
     else if (v === "item") viewItem(parts.slice(1).join("/"));
     else if (v === "contest") viewContest(parts.slice(1).join("/"));
@@ -720,7 +1087,8 @@
     var h1 = app.querySelector("h1");
     document.title = (v && h1 ? h1.textContent + " · " : "") + SITE;
     // Route changes are announced by moving focus to the new h1, not by a live region over the whole page.
-    focusTop();
+    // On the first load focus stays at the top of the document, so the skip link, menu and beta notice come first (UX-03).
+    if (navCount > 1) focusTop(); else window.scrollTo(0, 0);
   }
 
   countVisit();

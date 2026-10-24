@@ -36,29 +36,29 @@ Regional facts describe the region. They are not a measure of this guide's cover
 | Type | Count |
 | --- | --- |
 | city | 101 |
-| community-college-district | 3 |
-| council-district | 16 |
+| community-college-district | 15 |
+| council-district | 116 |
 | county | 58 |
 | region | 1 |
-| school-district | 30 |
-| special-district | 14 |
+| school-district | 91 |
+| special-district | 48 |
 | state | 1 |
-| state-district | 18 |
-| supervisor-district | 5 |
+| state-district | 38 |
+| supervisor-district | 9 |
 
 ## Bay Area counties
 
 | County | Coverage | Local measures | Local contests | Candidates | District boundaries | Measure items listed | Contests listed | Cross-check pages reached | Last checked | Official elections page |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Alameda County | pilot | Collected, not reconciled | Partly collected | Partly collected | Not collected | 28 | 45 | 10 of 14 | 2026-10-22 | https://acvote.alamedacountyca.gov/election-information/elections?id=260 |
-| Contra Costa County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 13 | 6 | 20 of 23 | 2026-10-22 | https://www.contracostavote.gov/ |
-| Marin County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 20 | 1 | 4 of 8 | 2026-10-22 | https://www.marincounty.gov/departments/elections/november-3-2026-general-election |
-| Napa County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 4 | 1 | 1 of 6 | 2026-10-22 | https://www.napacounty.gov/396 |
-| San Francisco (City and County) | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 11 | 17 | 4 of 4 | 2026-10-22 | https://www.sf.gov/november-3-2026-consolidated-general-election |
-| San Mateo County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 29 | 3 | 6 of 23 | 2026-10-22 | https://smcacre.gov/elections |
-| Santa Clara County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 20 | 4 | 11 of 12 | 2026-10-22 | https://vote.santaclaracounty.gov/ |
-| Solano County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 11 | 1 | 6 of 10 | 2026-10-22 | https://app.solanocounty.gov/depts/rov |
-| Sonoma County | list-only | Collected, not reconciled | Not collected | Not collected | Not collected | 12 | 1 | 5 of 9 | 2026-10-22 | https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters |
+| Alameda County | pilot | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 28 | 95 | 10 of 14 | 2026-10-24 | https://acvote.alamedacountyca.gov/election-information/elections?id=260 |
+| Contra Costa County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 13 | 68 | 20 of 23 | 2026-10-24 | https://www.contracostavote.gov/ |
+| Marin County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 20 | 47 | 4 of 8 | 2026-10-24 | https://www.marincounty.gov/departments/elections/november-3-2026-general-election |
+| Napa County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 4 | 17 | 1 of 6 | 2026-10-24 | https://www.napacounty.gov/396 |
+| San Francisco (City and County) | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 11 | 19 | 4 of 4 | 2026-10-24 | https://www.sf.gov/november-3-2026-consolidated-general-election |
+| San Mateo County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 29 | 68 | 6 of 23 | 2026-10-24 | https://smcacre.gov/elections |
+| Santa Clara County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 20 | 85 | 11 of 12 | 2026-10-24 | https://vote.santaclaracounty.gov/ |
+| Solano County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 11 | 30 | 6 of 10 | 2026-10-24 | https://app.solanocounty.gov/depts/rov |
+| Sonoma County | list-only | Collected, not reconciled | Collected, not reconciled | Collected, not reconciled | Not collected | 12 | 46 | 5 of 9 | 2026-10-24 | https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters |
 
 "Cross-check pages reached" counts the city clerk and district pages the audit tried and could read. The audit files are in `audit/2026-10-22/raw/`. No county's measure list is marked reconciled. Some cross-check pages could not be reached for Alameda, Contra Costa, Marin, Napa, San Mateo, Santa Clara, Solano and Sonoma. Every page tried was reached for San Francisco, but reaching the pages tried is not the same as checking every city and district record.
 

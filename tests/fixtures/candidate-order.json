@@ -1,6 +1,6 @@
 {
- "note": "Candidate order per contest as recorded in the data (taken from each contest's official source when the record was made). This catches accidental reordering; a deliberate change is re-recorded with --update-candidate-order after checking the source.",
- "recordedOn": "2026-10-23",
+ "note": "Candidate order per contest, as listed by the official source. Changed only on purpose with: node tools/validate.mjs --update-candidate-order",
+ "recordedOn": "2026-10-24",
  "contests": {
   "2026-11-03.ca.governor": [
    "2026-11-03.ca.governor.xavier-becerra",
@@ -50,6 +50,26 @@
    "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.tom-umberg",
    "2026-11-03.ca-boe-4.member-state-board-of-equalization-district-4.denis-bilodeau"
   ],
+  "2026-11-03.ca-cd-1.u-s-representative-district-1": [
+   "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire",
+   "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher"
+  ],
+  "2026-11-03.ca-cd-2.u-s-representative-district-2": [
+   "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "2026-11-03.ca-cd-2.u-s-representative-district-2.robin-littau"
+  ],
+  "2026-11-03.ca-cd-4.u-s-representative-district-4": [
+   "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+   "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson"
+  ],
+  "2026-11-03.ca-cd-8.u-s-representative-district-8": [
+   "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+   "2026-11-03.ca-cd-8.u-s-representative-district-8.rudy-recile"
+  ],
+  "2026-11-03.ca-cd-9.u-s-representative-district-9": [
+   "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "2026-11-03.ca-cd-9.u-s-representative-district-9.john-mcbride"
+  ],
   "2026-11-03.ca-cd-10.u-s-representative-district-10": [
    "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
    "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese"
@@ -70,17 +90,52 @@
    "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
    "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter"
   ],
+  "2026-11-03.ca-cd-16.u-s-representative-district-16": [
+   "2026-11-03.ca-cd-16.u-s-representative-district-16.sam-liccardo",
+   "2026-11-03.ca-cd-16.u-s-representative-district-16.peter-sundin-soul"
+  ],
   "2026-11-03.ca-cd-17.u-s-representative-district-17": [
    "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
    "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon"
+  ],
+  "2026-11-03.ca-cd-18.u-s-representative-district-18": [
+   "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis"
+  ],
+  "2026-11-03.ca-cd-19.u-s-representative-district-19": [
+   "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica"
+  ],
+  "2026-11-03.ca-sd-2.state-senator-district-2": [
+   "2026-11-03.ca-sd-2.state-senator-district-2.damon-connolly",
+   "2026-11-03.ca-sd-2.state-senator-district-2.tief-gibbs"
   ],
   "2026-11-03.ca-sd-10.state-senator-district-10": [
    "2026-11-03.ca-sd-10.state-senator-district-10.scott-sakakihara",
    "2026-11-03.ca-sd-10.state-senator-district-10.linda-r-price"
   ],
+  "2026-11-03.ca-ad-2.member-of-the-state-assembly-district-2": [
+   "2026-11-03.ca-ad-2.member-of-the-state-assembly-district-2.chris-rogers",
+   "2026-11-03.ca-ad-2.member-of-the-state-assembly-district-2.michael-greer"
+  ],
+  "2026-11-03.ca-ad-4.member-of-the-state-assembly-district-4": [
+   "2026-11-03.ca-ad-4.member-of-the-state-assembly-district-4.cecilia-m-aguiar-curry"
+  ],
+  "2026-11-03.ca-ad-11.member-of-the-state-assembly-district-11": [
+   "2026-11-03.ca-ad-11.member-of-the-state-assembly-district-11.lori-d-wilson",
+   "2026-11-03.ca-ad-11.member-of-the-state-assembly-district-11.jenny-leilani-callison"
+  ],
+  "2026-11-03.ca-ad-12.member-of-the-state-assembly-district-12": [
+   "2026-11-03.ca-ad-12.member-of-the-state-assembly-district-12.jackie-elward",
+   "2026-11-03.ca-ad-12.member-of-the-state-assembly-district-12.eric-lucan"
+  ],
   "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14": [
    "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.buffy-wicks",
    "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.mark-rendon"
+  ],
+  "2026-11-03.ca-ad-15.member-of-the-state-assembly-district-15": [
+   "2026-11-03.ca-ad-15.member-of-the-state-assembly-district-15.anamarie-avila-farias",
+   "2026-11-03.ca-ad-15.member-of-the-state-assembly-district-15.arthur-webb"
   ],
   "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16": [
    "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.rebecca-bauer-kahan",
@@ -102,9 +157,33 @@
    "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.liz-ortega",
    "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.patricia-muga"
   ],
+  "2026-11-03.ca-ad-21.member-of-the-state-assembly-district-21": [
+   "2026-11-03.ca-ad-21.member-of-the-state-assembly-district-21.diane-papan",
+   "2026-11-03.ca-ad-21.member-of-the-state-assembly-district-21.jabra-j-muhawieh"
+  ],
+  "2026-11-03.ca-ad-23.member-of-the-state-assembly-district-23": [
+   "2026-11-03.ca-ad-23.member-of-the-state-assembly-district-23.marc-berman",
+   "2026-11-03.ca-ad-23.member-of-the-state-assembly-district-23.david-g-johnson"
+  ],
   "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24": [
    "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.alex-lee",
    "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.max-hsia"
+  ],
+  "2026-11-03.ca-ad-25.member-of-the-state-assembly-district-25": [
+   "2026-11-03.ca-ad-25.member-of-the-state-assembly-district-25.ash-kalra",
+   "2026-11-03.ca-ad-25.member-of-the-state-assembly-district-25.himat-singh-bainiwal"
+  ],
+  "2026-11-03.ca-ad-26.member-of-the-state-assembly-district-26": [
+   "2026-11-03.ca-ad-26.member-of-the-state-assembly-district-26.patrick-ahrens",
+   "2026-11-03.ca-ad-26.member-of-the-state-assembly-district-26.tim-gorsulowsky"
+  ],
+  "2026-11-03.ca-ad-28.member-of-the-state-assembly-district-28": [
+   "2026-11-03.ca-ad-28.member-of-the-state-assembly-district-28.gail-pellerin",
+   "2026-11-03.ca-ad-28.member-of-the-state-assembly-district-28.carol-pefley"
+  ],
+  "2026-11-03.ca-ad-29.member-of-the-state-assembly-district-29": [
+   "2026-11-03.ca-ad-29.member-of-the-state-assembly-district-29.robert-rivas",
+   "2026-11-03.ca-ad-29.member-of-the-state-assembly-district-29.dennis-p-sanchez"
   ],
   "2026-11-03.ca-sf.assessor-recorder": [
    "2026-11-03.ca-sf.assessor-recorder.joaquin-torres"
@@ -333,6 +412,1713 @@
    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.alexandra-williams",
    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.leana-powell",
    "2026-11-03.ca-alameda-sd-oakland-unified-school-district.school-board-director-district-6.valarie-bachelor"
+  ],
+  "2026-11-03.ca-alameda-ccd-ohlone-community-college-district.trustee-area-6": [
+   "2026-11-03.ca-alameda-ccd-ohlone-community-college-district.trustee-area-6.suzanne-sue-lee-chan",
+   "2026-11-03.ca-alameda-ccd-ohlone-community-college-district.trustee-area-6.sonia-salwan"
+  ],
+  "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-2": [
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-2.linda-granger",
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-2.cindy-rocha"
+  ],
+  "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-3": [
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-3.mark-fay",
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-3.wendy-huang",
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-3.harris-mojadedi"
+  ],
+  "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-6": [
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-6.hal-g-gin",
+   "2026-11-03.ca-alameda-ccd-chabot-las-positas-community-college-district.trustee-area-6.joe-orlando-ramos"
+  ],
+  "2026-11-03.ca-alameda-ccd-peralta-community-college-district.trustee-area-5": [
+   "2026-11-03.ca-alameda-ccd-peralta-community-college-district.trustee-area-5.cindi-reiss",
+   "2026-11-03.ca-alameda-ccd-peralta-community-college-district.trustee-area-5.sandra-weese"
+  ],
+  "2026-11-03.ca-alameda-sd-alameda-unified-school-district.governing-board-member-full-term": [
+   "2026-11-03.ca-alameda-sd-alameda-unified-school-district.governing-board-member-full-term.joyce-boyd",
+   "2026-11-03.ca-alameda-sd-alameda-unified-school-district.governing-board-member-full-term.carrie-hahnel",
+   "2026-11-03.ca-alameda-sd-alameda-unified-school-district.governing-board-member-full-term.gary-lym",
+   "2026-11-03.ca-alameda-sd-alameda-unified-school-district.governing-board-member-full-term.mike-mcmahon",
+   "2026-11-03.ca-alameda-sd-alameda-unified-school-district.governing-board-member-full-term.sarah-putnam"
+  ],
+  "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-2-short-term": [
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-2-short-term.jesus-jacobo",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-2-short-term.myla-long",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-2-short-term.frederick-regala"
+  ],
+  "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-3": [
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-3.dan-jacowitz",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-3.eryka-n-mathews-cain",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-3.glenn-a-miller",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-3.kara-wong"
+  ],
+  "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-4": [
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-4.faith-carroll",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-4.brian-a-foster",
+   "2026-11-03.ca-alameda-sd-castro-valley-unified-school-district.governing-board-member-area-4.joseph-grcar"
+  ],
+  "2026-11-03.ca-alameda-sd-dublin-unified-school-district.governing-board-member-area-3-short-term": [
+   "2026-11-03.ca-alameda-sd-dublin-unified-school-district.governing-board-member-area-3-short-term.shalini-bhandari",
+   "2026-11-03.ca-alameda-sd-dublin-unified-school-district.governing-board-member-area-3-short-term.tanner-frye"
+  ],
+  "2026-11-03.ca-alameda-sd-dublin-unified-school-district.governing-board-member-area-5": [
+   "2026-11-03.ca-alameda-sd-dublin-unified-school-district.governing-board-member-area-5.seema-badar",
+   "2026-11-03.ca-alameda-sd-dublin-unified-school-district.governing-board-member-area-5.dan-cherrier"
+  ],
+  "2026-11-03.ca-alameda-sd-emery-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-alameda-sd-emery-unified-school-district.governing-board-member.christopher-keith-allen",
+   "2026-11-03.ca-alameda-sd-emery-unified-school-district.governing-board-member.regina-chagolla",
+   "2026-11-03.ca-alameda-sd-emery-unified-school-district.governing-board-member.brian-donahue",
+   "2026-11-03.ca-alameda-sd-emery-unified-school-district.governing-board-member.david-ridlehuber",
+   "2026-11-03.ca-alameda-sd-emery-unified-school-district.governing-board-member.kimberly-solis"
+  ],
+  "2026-11-03.ca-alameda-sd-hayward-unified-school-district.governing-board-member-area-2": [
+   "2026-11-03.ca-alameda-sd-hayward-unified-school-district.governing-board-member-area-2.joann-guzman",
+   "2026-11-03.ca-alameda-sd-hayward-unified-school-district.governing-board-member-area-2.joe-orlando-ramos"
+  ],
+  "2026-11-03.ca-alameda-sd-hayward-unified-school-district.governing-board-member-area-4": [
+   "2026-11-03.ca-alameda-sd-hayward-unified-school-district.governing-board-member-area-4.michelle-fernelius",
+   "2026-11-03.ca-alameda-sd-hayward-unified-school-district.governing-board-member-area-4.maria-araceli-orozco"
+  ],
+  "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-2": [
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-2.tara-boyce",
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-2.stephen-r-orgain"
+  ],
+  "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-3": [
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-3.angela-m-brady",
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-3.deborah-gibson"
+  ],
+  "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-5": [
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-5.deena-kaplanis",
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-5.sam-phelps",
+   "2026-11-03.ca-alameda-sd-livermore-valley-joint-unified-school-district.governing-board-member-area-5.christiaan-vandenheuvel"
+  ],
+  "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-4": [
+   "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-4.shruti-kumar",
+   "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-4.charandeep-singh-tatlah",
+   "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-4.kashif-wasim"
+  ],
+  "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-5": [
+   "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-5.deepti-garg",
+   "2026-11-03.ca-alameda-sd-new-haven-unified-school-district.governing-board-member-area-5.francis-rojas"
+  ],
+  "2026-11-03.ca-alameda-sd-pleasanton-unified-school-district.governing-board-member-area-5": [
+   "2026-11-03.ca-alameda-sd-pleasanton-unified-school-district.governing-board-member-area-5.thomas-choi",
+   "2026-11-03.ca-alameda-sd-pleasanton-unified-school-district.governing-board-member-area-5.karen-fletcher",
+   "2026-11-03.ca-alameda-sd-pleasanton-unified-school-district.governing-board-member-area-5.brett-gerald-martinez"
+  ],
+  "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.governing-board-member.gagan-bassi",
+   "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.governing-board-member.jennifer-kavouniaris",
+   "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.governing-board-member.karen-ruth-newcomb",
+   "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.governing-board-member.ren-turnbull"
+  ],
+  "2026-11-03.ca-alameda-dublin.mayor": [
+   "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+   "2026-11-03.ca-alameda-dublin.mayor.michael-mccorriston",
+   "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad"
+  ],
+  "2026-11-03.ca-alameda-dublin-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-alameda-dublin-council-district-2.city-council-member-district-2.daniel-hor",
+   "2026-11-03.ca-alameda-dublin-council-district-2.city-council-member-district-2.steve-lorey",
+   "2026-11-03.ca-alameda-dublin-council-district-2.city-council-member-district-2.tejpreet-singh",
+   "2026-11-03.ca-alameda-dublin-council-district-2.city-council-member-district-2.richard-thornbury"
+  ],
+  "2026-11-03.ca-alameda-dublin-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-alameda-dublin-council-district-4.city-council-member-district-4.kashef-qaadri",
+   "2026-11-03.ca-alameda-dublin-council-district-4.city-council-member-district-4.shivraj-singh"
+  ],
+  "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+   "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.keith-parker"
+  ],
+  "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+   "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.vipin-sharma"
+  ],
+  "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.aziz-akbari",
+   "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.ying-min-li",
+   "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.anurag-mishra",
+   "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.manisha-pathak"
+  ],
+  "2026-11-03.ca-alameda-livermore-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-alameda-livermore-council-district-2.city-council-member-district-2.ben-barrientos",
+   "2026-11-03.ca-alameda-livermore-council-district-2.city-council-member-district-2.narayan-tadimeti"
+  ],
+  "2026-11-03.ca-alameda-newark.mayor": [
+   "2026-11-03.ca-alameda-newark.mayor.michael-k-hannon"
+  ],
+  "2026-11-03.ca-alameda-newark.city-council-member": [
+   "2026-11-03.ca-alameda-newark.city-council-member.tonya-connolly",
+   "2026-11-03.ca-alameda-newark.city-council-member.noah-patrick-grushkin",
+   "2026-11-03.ca-alameda-newark.city-council-member.matthew-jorgens",
+   "2026-11-03.ca-alameda-newark.city-council-member.eve-marie-little"
+  ],
+  "2026-11-03.ca-alameda-pleasanton.mayor": [
+   "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+   "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa"
+  ],
+  "2026-11-03.ca-alameda-pleasanton-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-alameda-pleasanton-council-district-1.city-council-member-district-1.vin-kruttiventi",
+   "2026-11-03.ca-alameda-pleasanton-council-district-1.city-council-member-district-1.kathy-narum"
+  ],
+  "2026-11-03.ca-alameda-pleasanton-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-alameda-pleasanton-council-district-3.city-council-member-district-3.reena-gupta",
+   "2026-11-03.ca-alameda-pleasanton-council-district-3.city-council-member-district-3.jamie-yee"
+  ],
+  "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-3": [
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-3.adriana-valencia",
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-3.joel-b-young"
+  ],
+  "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-4": [
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-4.gabriel-morales",
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-4.sarah-syed"
+  ],
+  "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-5": [
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-5.joseph-grcar",
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-5.murphy-mccalley",
+   "2026-11-03.ca-alameda-spd-ac-transit-district.director-ward-5.luis-reynoso"
+  ],
+  "2026-11-03.ca-alameda-spd-alameda-county-water-district.director-ward-2": [
+   "2026-11-03.ca-alameda-spd-alameda-county-water-district.director-ward-2.judy-c-huang",
+   "2026-11-03.ca-alameda-spd-alameda-county-water-district.director-ward-2.jason-miguel"
+  ],
+  "2026-11-03.ca-alameda-spd-alameda-county-water-district.director-ward-3": [
+   "2026-11-03.ca-alameda-spd-alameda-county-water-district.director-ward-3.paul-sethy",
+   "2026-11-03.ca-alameda-spd-alameda-county-water-district.director-ward-3.yang-shao"
+  ],
+  "2026-11-03.ca-bart-district-4.director-district-4": [
+   "2026-11-03.ca-bart-district-4.director-district-4.robert-raburn",
+   "2026-11-03.ca-bart-district-4.director-district-4.luis-reynoso"
+  ],
+  "2026-11-03.ca-alameda-spd-castro-valley-sanitary-district.director": [
+   "2026-11-03.ca-alameda-spd-castro-valley-sanitary-district.director.kristy-dooman-woerz",
+   "2026-11-03.ca-alameda-spd-castro-valley-sanitary-district.director.joseph-grcar",
+   "2026-11-03.ca-alameda-spd-castro-valley-sanitary-district.director.ralph-johnson",
+   "2026-11-03.ca-alameda-spd-castro-valley-sanitary-district.director.ken-owen",
+   "2026-11-03.ca-alameda-spd-castro-valley-sanitary-district.director.darshan-saini"
+  ],
+  "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-3": [
+   "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-3.joseph-grcar",
+   "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-3.rebecca-lewington",
+   "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-3.william-yragui"
+  ],
+  "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-5": [
+   "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-5.bruce-henry",
+   "2026-11-03.ca-alameda-spd-east-bay-regional-park-district.director-ward-5.olivia-sanwong"
+  ],
+  "2026-11-03.ca-alameda-spd-eden-township-healthcare-district.director-area-3": [
+   "2026-11-03.ca-alameda-spd-eden-township-healthcare-district.director-area-3.narges-dillon",
+   "2026-11-03.ca-alameda-spd-eden-township-healthcare-district.director-area-3.joseph-grcar"
+  ],
+  "2026-11-03.ca-alameda-spd-fairview-fire-protection-district.director": [
+   "2026-11-03.ca-alameda-spd-fairview-fire-protection-district.director.michelle-biche",
+   "2026-11-03.ca-alameda-spd-fairview-fire-protection-district.director.vandana-singh-gautam",
+   "2026-11-03.ca-alameda-spd-fairview-fire-protection-district.director.michael-d-justice"
+  ],
+  "2026-11-03.ca-alameda-spd-hayward-area-recreation-and-park-district.director-area-2": [
+   "2026-11-03.ca-alameda-spd-hayward-area-recreation-and-park-district.director-area-2.amanda-alysia-daniels",
+   "2026-11-03.ca-alameda-spd-hayward-area-recreation-and-park-district.director-area-2.sara-lamnin"
+  ],
+  "2026-11-03.ca-alameda-spd-hayward-area-recreation-and-park-district.director-area-4": [
+   "2026-11-03.ca-alameda-spd-hayward-area-recreation-and-park-district.director-area-4.joseph-joe-giltner",
+   "2026-11-03.ca-alameda-spd-hayward-area-recreation-and-park-district.director-area-4.paul-w-hodges-jr"
+  ],
+  "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director": [
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.timothy-barry",
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.larry-bird",
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.matt-bogdanowicz",
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.maryalice-summers-faltings",
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.philip-pierpont",
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.mike-ralph",
+   "2026-11-03.ca-alameda-spd-livermore-area-recreation-and-park-district.director.laureen-turner"
+  ],
+  "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-1": [
+   "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-1.tiare-pe-a",
+   "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-1.shelia-young"
+  ],
+  "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-3": [
+   "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-3.benny-lee",
+   "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-3.fred-simon"
+  ],
+  "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-5": [
+   "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-5.rita-duncan",
+   "2026-11-03.ca-alameda-spd-oro-loma-sanitary-district.director-district-5.koroush-cyrus-farsaei"
+  ],
+  "2026-11-03.ca-contra-costa-sd-contra-costa-county-board-of-education.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-contra-costa-sd-contra-costa-county-board-of-education.governing-board-member-trustee-area-2.pamela-west",
+   "2026-11-03.ca-contra-costa-sd-contra-costa-county-board-of-education.governing-board-member-trustee-area-2.sarah-butler",
+   "2026-11-03.ca-contra-costa-sd-contra-costa-county-board-of-education.governing-board-member-trustee-area-2.sibyl-minighini"
+  ],
+  "2026-11-03.ca-contra-costa-sd-contra-costa-community-college-district.governing-board-member-ward-1": [
+   "2026-11-03.ca-contra-costa-sd-contra-costa-community-college-district.governing-board-member-ward-1.raquel-donoso",
+   "2026-11-03.ca-contra-costa-sd-contra-costa-community-college-district.governing-board-member-ward-1.cameron-sasai"
+  ],
+  "2026-11-03.ca-contra-costa-sd-contra-costa-community-college-district.governing-board-member-ward-3": [
+   "2026-11-03.ca-contra-costa-sd-contra-costa-community-college-district.governing-board-member-ward-3.becca-barrett",
+   "2026-11-03.ca-contra-costa-sd-contra-costa-community-college-district.governing-board-member-ward-3.allyse-tanovitz"
+  ],
+  "2026-11-03.ca-contra-costa-sd-antioch-unified-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-contra-costa-sd-antioch-unified-school-district.governing-board-member-trustee-area-5.brandon-dawkins",
+   "2026-11-03.ca-contra-costa-sd-antioch-unified-school-district.governing-board-member-trustee-area-5.mary-h-rocha"
+  ],
+  "2026-11-03.ca-contra-costa-sd-john-swett-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-contra-costa-sd-john-swett-unified-school-district.governing-board-member.bruce-hoeger",
+   "2026-11-03.ca-contra-costa-sd-john-swett-unified-school-district.governing-board-member.samantha-watson-alvarado",
+   "2026-11-03.ca-contra-costa-sd-john-swett-unified-school-district.governing-board-member.terri-burk",
+   "2026-11-03.ca-contra-costa-sd-john-swett-unified-school-district.governing-board-member.shane-reinhart"
+  ],
+  "2026-11-03.ca-contra-costa-sd-mt-diablo-unified-school-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-contra-costa-sd-mt-diablo-unified-school-district.governing-board-member-trustee-area-2.dorothy-weisenberger",
+   "2026-11-03.ca-contra-costa-sd-mt-diablo-unified-school-district.governing-board-member-trustee-area-2.jane-baulch-enloe"
+  ],
+  "2026-11-03.ca-contra-costa-sd-mt-diablo-unified-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-contra-costa-sd-mt-diablo-unified-school-district.governing-board-member-trustee-area-4.al-anderson",
+   "2026-11-03.ca-contra-costa-sd-mt-diablo-unified-school-district.governing-board-member-trustee-area-4.brian-thomas-lawrence"
+  ],
+  "2026-11-03.ca-contra-costa-sd-san-ramon-valley-unified-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-contra-costa-sd-san-ramon-valley-unified-school-district.governing-board-member-trustee-area-5.rachel-hurd",
+   "2026-11-03.ca-contra-costa-sd-san-ramon-valley-unified-school-district.governing-board-member-trustee-area-5.joel-woods"
+  ],
+  "2026-11-03.ca-contra-costa-sd-acalanes-union-high-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-contra-costa-sd-acalanes-union-high-school-district.governing-board-member-trustee-area-1.stacey-schweppe",
+   "2026-11-03.ca-contra-costa-sd-acalanes-union-high-school-district.governing-board-member-trustee-area-1.nithin-iyengar"
+  ],
+  "2026-11-03.ca-contra-costa-sd-liberty-union-high-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-contra-costa-sd-liberty-union-high-school-district.governing-board-member-trustee-area-4.tamara-weber",
+   "2026-11-03.ca-contra-costa-sd-liberty-union-high-school-district.governing-board-member-trustee-area-4.hillary-fairbairn-pedrotti"
+  ],
+  "2026-11-03.ca-contra-costa-sd-brentwood-union-school-district.governing-board-member": [
+   "2026-11-03.ca-contra-costa-sd-brentwood-union-school-district.governing-board-member.oxsana-pajoluk",
+   "2026-11-03.ca-contra-costa-sd-brentwood-union-school-district.governing-board-member.mark-anderson",
+   "2026-11-03.ca-contra-costa-sd-brentwood-union-school-district.governing-board-member.scott-s-dudek",
+   "2026-11-03.ca-contra-costa-sd-brentwood-union-school-district.governing-board-member.emil-johnson-geddes",
+   "2026-11-03.ca-contra-costa-sd-brentwood-union-school-district.governing-board-member.steve-gursky"
+  ],
+  "2026-11-03.ca-contra-costa-sd-knightsen-elementary-school-district.governing-board-member": [
+   "2026-11-03.ca-contra-costa-sd-knightsen-elementary-school-district.governing-board-member.erik-m-hansen",
+   "2026-11-03.ca-contra-costa-sd-knightsen-elementary-school-district.governing-board-member.liesel-williams",
+   "2026-11-03.ca-contra-costa-sd-knightsen-elementary-school-district.governing-board-member.robin-pastor"
+  ],
+  "2026-11-03.ca-contra-costa-sd-oakley-union-elementary-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-contra-costa-sd-oakley-union-elementary-school-district.governing-board-member-trustee-area-4.craig-pearson",
+   "2026-11-03.ca-contra-costa-sd-oakley-union-elementary-school-district.governing-board-member-trustee-area-4.isaiah-bn-mateas"
+  ],
+  "2026-11-03.ca-contra-costa-sd-orinda-union-school-district.governing-board-member": [
+   "2026-11-03.ca-contra-costa-sd-orinda-union-school-district.governing-board-member.john-chabalko",
+   "2026-11-03.ca-contra-costa-sd-orinda-union-school-district.governing-board-member.edda-collins-coleman",
+   "2026-11-03.ca-contra-costa-sd-orinda-union-school-district.governing-board-member.chloe-aftel",
+   "2026-11-03.ca-contra-costa-sd-orinda-union-school-district.governing-board-member.katie-shogan"
+  ],
+  "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member": [
+   "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member.eryn-holl-king",
+   "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member.wenlei-johnson",
+   "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member.aileen-ong",
+   "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member.geetha-ganti",
+   "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member.heidi-hernandez-gatty",
+   "2026-11-03.ca-contra-costa-sd-walnut-creek-school-district.governing-board-member.rod-ehsani"
+  ],
+  "2026-11-03.ca-contra-costa-antioch-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-contra-costa-antioch-council-district-1.city-council-member-district-1.joy-motts",
+   "2026-11-03.ca-contra-costa-antioch-council-district-1.city-council-member-district-1.tamisha-torres-walker"
+  ],
+  "2026-11-03.ca-contra-costa-antioch-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-contra-costa-antioch-council-district-4.city-council-member-district-4.sandra-g-white",
+   "2026-11-03.ca-contra-costa-antioch-council-district-4.city-council-member-district-4.monica-e-wilson",
+   "2026-11-03.ca-contra-costa-antioch-council-district-4.city-council-member-district-4.matty-mathews-alappat",
+   "2026-11-03.ca-contra-costa-antioch-council-district-4.city-council-member-district-4.andrew-becker"
+  ],
+  "2026-11-03.ca-contra-costa-brentwood-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-contra-costa-brentwood-council-district-2.city-council-member-district-2.tammy-zickuhr",
+   "2026-11-03.ca-contra-costa-brentwood-council-district-2.city-council-member-district-2.kris-brand",
+   "2026-11-03.ca-contra-costa-brentwood-council-district-2.city-council-member-district-2.vinoy-mereddy"
+  ],
+  "2026-11-03.ca-contra-costa-brentwood-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-contra-costa-brentwood-council-district-4.city-council-member-district-4.stephanie-williams-rogers",
+   "2026-11-03.ca-contra-costa-brentwood-council-district-4.city-council-member-district-4.sheree-shannon",
+   "2026-11-03.ca-contra-costa-brentwood-council-district-4.city-council-member-district-4.holley-bishop-mello"
+  ],
+  "2026-11-03.ca-contra-costa-clayton.city-council-member": [
+   "2026-11-03.ca-contra-costa-clayton.city-council-member.maria-shulman",
+   "2026-11-03.ca-contra-costa-clayton.city-council-member.amy-callaghan",
+   "2026-11-03.ca-contra-costa-clayton.city-council-member.charles-j-schmidt",
+   "2026-11-03.ca-contra-costa-clayton.city-council-member.kim-trupiano"
+  ],
+  "2026-11-03.ca-contra-costa-concord-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-contra-costa-concord-council-district-1.city-council-member-district-1.laura-hoffmeister",
+   "2026-11-03.ca-contra-costa-concord-council-district-1.city-council-member-district-1.maria-bagley",
+   "2026-11-03.ca-contra-costa-concord-council-district-1.city-council-member-district-1.trish-brazil"
+  ],
+  "2026-11-03.ca-contra-costa-concord-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-contra-costa-concord-council-district-3.city-council-member-district-3.robyn-kuslits",
+   "2026-11-03.ca-contra-costa-concord-council-district-3.city-council-member-district-3.dena-acosta-beere",
+   "2026-11-03.ca-contra-costa-concord-council-district-3.city-council-member-district-3.douglas-lezameta",
+   "2026-11-03.ca-contra-costa-concord-council-district-3.city-council-member-district-3.don-seta"
+  ],
+  "2026-11-03.ca-contra-costa-concord-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-contra-costa-concord-council-district-5.city-council-member-district-5.aeysha-corio",
+   "2026-11-03.ca-contra-costa-concord-council-district-5.city-council-member-district-5.laura-nakamura"
+  ],
+  "2026-11-03.ca-contra-costa-concord.city-treasurer": [
+   "2026-11-03.ca-contra-costa-concord.city-treasurer.patti-barsotti"
+  ],
+  "2026-11-03.ca-contra-costa-danville.town-council-member": [
+   "2026-11-03.ca-contra-costa-danville.town-council-member.denton-carlson",
+   "2026-11-03.ca-contra-costa-danville.town-council-member.pratima-sonavne",
+   "2026-11-03.ca-contra-costa-danville.town-council-member.robert-storer"
+  ],
+  "2026-11-03.ca-contra-costa-el-cerrito.city-council-member": [
+   "2026-11-03.ca-contra-costa-el-cerrito.city-council-member.kimberly-white",
+   "2026-11-03.ca-contra-costa-el-cerrito.city-council-member.carolyn-wysinger",
+   "2026-11-03.ca-contra-costa-el-cerrito.city-council-member.mary-ann-mj-jawili",
+   "2026-11-03.ca-contra-costa-el-cerrito.city-council-member.forrest-m-lanning",
+   "2026-11-03.ca-contra-costa-el-cerrito.city-council-member.wally-nowinski",
+   "2026-11-03.ca-contra-costa-el-cerrito.city-council-member.gabe-quinto"
+  ],
+  "2026-11-03.ca-contra-costa-hercules.city-council-member": [
+   "2026-11-03.ca-contra-costa-hercules.city-council-member.john-delgado",
+   "2026-11-03.ca-contra-costa-hercules.city-council-member.preet-sidhu",
+   "2026-11-03.ca-contra-costa-hercules.city-council-member.dion-bailey",
+   "2026-11-03.ca-contra-costa-hercules.city-council-member.adrena-breckenridge"
+  ],
+  "2026-11-03.ca-contra-costa-moraga.town-council-member": [
+   "2026-11-03.ca-contra-costa-moraga.town-council-member.kerry-hillis",
+   "2026-11-03.ca-contra-costa-moraga.town-council-member.steven-woehleke",
+   "2026-11-03.ca-contra-costa-moraga.town-council-member.bill-carman",
+   "2026-11-03.ca-contra-costa-moraga.town-council-member.alexis-i-mapel"
+  ],
+  "2026-11-03.ca-contra-costa-martinez-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-contra-costa-martinez-council-district-1.city-council-member-district-1.jay-howard",
+   "2026-11-03.ca-contra-costa-martinez-council-district-1.city-council-member-district-1.nakenya-allen"
+  ],
+  "2026-11-03.ca-contra-costa-orinda.city-council-member": [
+   "2026-11-03.ca-contra-costa-orinda.city-council-member.brandyn-iverson",
+   "2026-11-03.ca-contra-costa-orinda.city-council-member.janet-riley",
+   "2026-11-03.ca-contra-costa-orinda.city-council-member.juana-rudati",
+   "2026-11-03.ca-contra-costa-orinda.city-council-member.latika-malkani"
+  ],
+  "2026-11-03.ca-contra-costa-pinole.city-council-member": [
+   "2026-11-03.ca-contra-costa-pinole.city-council-member.matthew-matt-avery",
+   "2026-11-03.ca-contra-costa-pinole.city-council-member.truc-christy-lam-julian",
+   "2026-11-03.ca-contra-costa-pinole.city-council-member.libby-duarte",
+   "2026-11-03.ca-contra-costa-pinole.city-council-member.gabriel-sandoval",
+   "2026-11-03.ca-contra-costa-pinole.city-council-member.tina-brown"
+  ],
+  "2026-11-03.ca-contra-costa-pittsburg.city-council-member": [
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.arlene-kobata-siu-ling",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.cc-cardinalli-macaluso",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.wolf-croskey",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.amhari-perkins",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.pauline-johnson",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.dionne-adams",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.mark-linde",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.alvin-nelson",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.sonja-shephard",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.carolynne-born",
+   "2026-11-03.ca-contra-costa-pittsburg.city-council-member.iztaccuauhtli-hector-gonzalez"
+  ],
+  "2026-11-03.ca-contra-costa-pittsburg.city-clerk": [
+   "2026-11-03.ca-contra-costa-pittsburg.city-clerk.latoyya-p-ella-bordelon",
+   "2026-11-03.ca-contra-costa-pittsburg.city-clerk.angel-rodriguez",
+   "2026-11-03.ca-contra-costa-pittsburg.city-clerk.melaine-apple-venenciano",
+   "2026-11-03.ca-contra-costa-pittsburg.city-clerk.alice-e-evenson"
+  ],
+  "2026-11-03.ca-contra-costa-pittsburg.city-treasurer": [
+   "2026-11-03.ca-contra-costa-pittsburg.city-treasurer.nancy-parent"
+  ],
+  "2026-11-03.ca-contra-costa-pleasant-hill-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-contra-costa-pleasant-hill-council-district-3.city-council-member-district-3.zac-shess",
+   "2026-11-03.ca-contra-costa-pleasant-hill-council-district-3.city-council-member-district-3.jason-seto"
+  ],
+  "2026-11-03.ca-contra-costa-pleasant-hill-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-contra-costa-pleasant-hill-council-district-4.city-council-member-district-4.sue-noack",
+   "2026-11-03.ca-contra-costa-pleasant-hill-council-district-4.city-council-member-district-4.quy-tran"
+  ],
+  "2026-11-03.ca-contra-costa-richmond.mayor": [
+   "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+   "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson"
+  ],
+  "2026-11-03.ca-contra-costa-san-pablo.city-council-member": [
+   "2026-11-03.ca-contra-costa-san-pablo.city-council-member.rita-xavier",
+   "2026-11-03.ca-contra-costa-san-pablo.city-council-member.caden-cotton-blake",
+   "2026-11-03.ca-contra-costa-san-pablo.city-council-member.elizabeth-pabon-alvarado",
+   "2026-11-03.ca-contra-costa-san-pablo.city-council-member.anna-villalobos"
+  ],
+  "2026-11-03.ca-contra-costa-san-pablo.city-clerk": [
+   "2026-11-03.ca-contra-costa-san-pablo.city-clerk.dorothy-gantt"
+  ],
+  "2026-11-03.ca-contra-costa-san-pablo.city-treasurer": [
+   "2026-11-03.ca-contra-costa-san-pablo.city-treasurer.viviana-toledo"
+  ],
+  "2026-11-03.ca-contra-costa-san-ramon.mayor": [
+   "2026-11-03.ca-contra-costa-san-ramon.mayor.emma-chigbu",
+   "2026-11-03.ca-contra-costa-san-ramon.mayor.mark-h-armstrong",
+   "2026-11-03.ca-contra-costa-san-ramon.mayor.paschalis-ntatsos"
+  ],
+  "2026-11-03.ca-contra-costa-san-ramon-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-contra-costa-san-ramon-council-district-2.city-council-member-district-2.chirag-kathrani",
+   "2026-11-03.ca-contra-costa-san-ramon-council-district-2.city-council-member-district-2.richard-j-adler"
+  ],
+  "2026-11-03.ca-contra-costa-san-ramon-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-contra-costa-san-ramon-council-district-4.city-council-member-district-4.jeffrey-joh",
+   "2026-11-03.ca-contra-costa-san-ramon-council-district-4.city-council-member-district-4.marisol-rubio"
+  ],
+  "2026-11-03.ca-contra-costa-walnut-creek.city-council-member": [
+   "2026-11-03.ca-contra-costa-walnut-creek.city-council-member.cherise-marie-khaund",
+   "2026-11-03.ca-contra-costa-walnut-creek.city-council-member.brendan-moran"
+  ],
+  "2026-11-03.ca-contra-costa-walnut-creek.city-treasurer": [
+   "2026-11-03.ca-contra-costa-walnut-creek.city-treasurer.ronald-cassano"
+  ],
+  "2026-11-03.ca-contra-costa-spd-diablo-community-services-district.director": [
+   "2026-11-03.ca-contra-costa-spd-diablo-community-services-district.director.gregory-r-lorenz",
+   "2026-11-03.ca-contra-costa-spd-diablo-community-services-district.director.steve-lichliter",
+   "2026-11-03.ca-contra-costa-spd-diablo-community-services-district.director.alan-bonny",
+   "2026-11-03.ca-contra-costa-spd-diablo-community-services-district.director.jessica-raefield"
+  ],
+  "2026-11-03.ca-contra-costa-spd-dublin-san-ramon-services-district.director-division-2": [
+   "2026-11-03.ca-contra-costa-spd-dublin-san-ramon-services-district.director-division-2.kismat-kathrani",
+   "2026-11-03.ca-contra-costa-spd-dublin-san-ramon-services-district.director-division-2.donald-downey"
+  ],
+  "2026-11-03.ca-contra-costa-spd-moraga-orinda-fire-protection-district.director-division-3": [
+   "2026-11-03.ca-contra-costa-spd-moraga-orinda-fire-protection-district.director-division-3.steve-cohn",
+   "2026-11-03.ca-contra-costa-spd-moraga-orinda-fire-protection-district.director-division-3.john-donnelly"
+  ],
+  "2026-11-03.ca-contra-costa-spd-moraga-orinda-fire-protection-district.director-division-4": [
+   "2026-11-03.ca-contra-costa-spd-moraga-orinda-fire-protection-district.director-division-4.linda-stevens",
+   "2026-11-03.ca-contra-costa-spd-moraga-orinda-fire-protection-district.director-division-4.mike-roemer"
+  ],
+  "2026-11-03.ca-contra-costa-spd-east-bay-regional-park-district.director-ward-7": [
+   "2026-11-03.ca-contra-costa-spd-east-bay-regional-park-district.director-ward-7.colin-j-coffey",
+   "2026-11-03.ca-contra-costa-spd-east-bay-regional-park-district.director-ward-7.inderprit-indy-rishi-singh-sekhon"
+  ],
+  "2026-11-03.ca-contra-costa-spd-pleasant-hill-recreation-and-park-district.director": [
+   "2026-11-03.ca-contra-costa-spd-pleasant-hill-recreation-and-park-district.director.derek-m-wurst",
+   "2026-11-03.ca-contra-costa-spd-pleasant-hill-recreation-and-park-district.director.raul-ortega",
+   "2026-11-03.ca-contra-costa-spd-pleasant-hill-recreation-and-park-district.director.alex-nichol",
+   "2026-11-03.ca-contra-costa-spd-pleasant-hill-recreation-and-park-district.director.sandra-bonato",
+   "2026-11-03.ca-contra-costa-spd-pleasant-hill-recreation-and-park-district.director.robert-bobby-glover"
+  ],
+  "2026-11-03.ca-contra-costa-spd-central-contra-costa-sanitary-district.director-division-2": [
+   "2026-11-03.ca-contra-costa-spd-central-contra-costa-sanitary-district.director-division-2.brian-henderson",
+   "2026-11-03.ca-contra-costa-spd-central-contra-costa-sanitary-district.director-division-2.michael-robert-mcgill"
+  ],
+  "2026-11-03.ca-contra-costa-spd-ironhouse-sanitary-district.director": [
+   "2026-11-03.ca-contra-costa-spd-ironhouse-sanitary-district.director.kerry-harvey",
+   "2026-11-03.ca-contra-costa-spd-ironhouse-sanitary-district.director.chris-a-christean",
+   "2026-11-03.ca-contra-costa-spd-ironhouse-sanitary-district.director.dave-corridon",
+   "2026-11-03.ca-contra-costa-spd-ironhouse-sanitary-district.director.chris-lauritzen",
+   "2026-11-03.ca-contra-costa-spd-ironhouse-sanitary-district.director.paschal-iwuh"
+  ],
+  "2026-11-03.ca-contra-costa-spd-mt-view-sanitary-district.director-district-area-2": [
+   "2026-11-03.ca-contra-costa-spd-mt-view-sanitary-district.director-district-area-2.gwyneth-gilkey",
+   "2026-11-03.ca-contra-costa-spd-mt-view-sanitary-district.director-district-area-2.ed-mcgee"
+  ],
+  "2026-11-03.ca-contra-costa-spd-contra-costa-water-district.director-division-2": [
+   "2026-11-03.ca-contra-costa-spd-contra-costa-water-district.director-division-2.allison-picard",
+   "2026-11-03.ca-contra-costa-spd-contra-costa-water-district.director-division-2.daniel-t-fitzpatrick"
+  ],
+  "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-3": [
+   "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-3.cynthia-johanson-irish",
+   "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-3.craig-stuart-adams"
+  ],
+  "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-5": [
+   "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-5.marilyn-nemzer",
+   "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-5.avery-lieberman"
+  ],
+  "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-6": [
+   "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-6.curtis-f-robinson",
+   "2026-11-03.ca-marin-sd-marin-county-board-of-education.board-of-education-member-trustee-area-6.james-goddard"
+  ],
+  "2026-11-03.ca-sonoma-sd-sonoma-county-board-of-education.board-of-education-member-trustee-area-2": [
+   "2026-11-03.ca-sonoma-sd-sonoma-county-board-of-education.board-of-education-member-trustee-area-2.jonathan-lenz",
+   "2026-11-03.ca-sonoma-sd-sonoma-county-board-of-education.board-of-education-member-trustee-area-2.caitlin-quinn"
+  ],
+  "2026-11-03.ca-sonoma-sd-petaluma-joint-union-high-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-sonoma-sd-petaluma-joint-union-high-school-district.governing-board-member-trustee-area-3.john-garcia",
+   "2026-11-03.ca-sonoma-sd-petaluma-joint-union-high-school-district.governing-board-member-trustee-area-3.laura-holmes"
+  ],
+  "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member": [
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.cynthia-c-roenisch",
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.kevin-c-saavedra",
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.maria-d-sandoval",
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.joy-scully-koo",
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.brian-a-sutherland",
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.valerie-wynn",
+   "2026-11-03.ca-marin-sd-tamalpais-union-high-school-district.governing-board-member.leslie-j-harlander"
+  ],
+  "2026-11-03.ca-marin-sd-miller-creek-school-district.governing-board-member": [
+   "2026-11-03.ca-marin-sd-miller-creek-school-district.governing-board-member.brad-honsberger",
+   "2026-11-03.ca-marin-sd-miller-creek-school-district.governing-board-member.megan-roberts-hutchinson",
+   "2026-11-03.ca-marin-sd-miller-creek-school-district.governing-board-member.caitlin-mcshane",
+   "2026-11-03.ca-marin-sd-miller-creek-school-district.governing-board-member.adam-compton",
+   "2026-11-03.ca-marin-sd-miller-creek-school-district.governing-board-member.matt-dance"
+  ],
+  "2026-11-03.ca-marin-sd-lagunitas-school-district.governing-board-member": [
+   "2026-11-03.ca-marin-sd-lagunitas-school-district.governing-board-member.aaron-michelson",
+   "2026-11-03.ca-marin-sd-lagunitas-school-district.governing-board-member.charlotte-burger-troy",
+   "2026-11-03.ca-marin-sd-lagunitas-school-district.governing-board-member.ally-dukkers-wilson",
+   "2026-11-03.ca-marin-sd-lagunitas-school-district.governing-board-member.david-cort"
+  ],
+  "2026-11-03.ca-marin-sd-novato-unified-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-marin-sd-novato-unified-school-district.governing-board-member-trustee-area-4.abbey-picus",
+   "2026-11-03.ca-marin-sd-novato-unified-school-district.governing-board-member-trustee-area-4.francis-drouillard"
+  ],
+  "2026-11-03.ca-marin-sd-reed-union-school-district.governing-board-member": [
+   "2026-11-03.ca-marin-sd-reed-union-school-district.governing-board-member.mike-ghaffary",
+   "2026-11-03.ca-marin-sd-reed-union-school-district.governing-board-member.shelby-pasarell-tsai",
+   "2026-11-03.ca-marin-sd-reed-union-school-district.governing-board-member.krupa-antani",
+   "2026-11-03.ca-marin-sd-reed-union-school-district.governing-board-member.lina-godfrey"
+  ],
+  "2026-11-03.ca-marin-sd-ross-school-district.governing-board-member": [
+   "2026-11-03.ca-marin-sd-ross-school-district.governing-board-member.darius-mozaffarian",
+   "2026-11-03.ca-marin-sd-ross-school-district.governing-board-member.gabriella-gabby-solar",
+   "2026-11-03.ca-marin-sd-ross-school-district.governing-board-member.elizabeth-beth-sutro",
+   "2026-11-03.ca-marin-sd-ross-school-district.governing-board-member.david-allen-hughes",
+   "2026-11-03.ca-marin-sd-ross-school-district.governing-board-member.brad-hill"
+  ],
+  "2026-11-03.ca-marin-sd-sausalito-marin-city-school-district.governing-board-member": [
+   "2026-11-03.ca-marin-sd-sausalito-marin-city-school-district.governing-board-member.lauren-j-walters",
+   "2026-11-03.ca-marin-sd-sausalito-marin-city-school-district.governing-board-member.leshawn-holcomb",
+   "2026-11-03.ca-marin-sd-sausalito-marin-city-school-district.governing-board-member.alena-maunder",
+   "2026-11-03.ca-marin-sd-sausalito-marin-city-school-district.governing-board-member.eduardo-vazquez"
+  ],
+  "2026-11-03.ca-marin-belvedere.city-council-member": [
+   "2026-11-03.ca-marin-belvedere.city-council-member.peter-mark",
+   "2026-11-03.ca-marin-belvedere.city-council-member.jane-cooper"
+  ],
+  "2026-11-03.ca-marin-corte-madera.town-council-member": [
+   "2026-11-03.ca-marin-corte-madera.town-council-member.eli-beckman",
+   "2026-11-03.ca-marin-corte-madera.town-council-member.pat-ravasio",
+   "2026-11-03.ca-marin-corte-madera.town-council-member.david-c-bell",
+   "2026-11-03.ca-marin-corte-madera.town-council-member.ava-fruin",
+   "2026-11-03.ca-marin-corte-madera.town-council-member.deborah-e-gallegos"
+  ],
+  "2026-11-03.ca-marin-fairfax.town-council-member": [
+   "2026-11-03.ca-marin-fairfax.town-council-member.larry-bragman",
+   "2026-11-03.ca-marin-fairfax.town-council-member.susan-denise-adams",
+   "2026-11-03.ca-marin-fairfax.town-council-member.matt-da-cunha",
+   "2026-11-03.ca-marin-fairfax.town-council-member.aubrey-harmon",
+   "2026-11-03.ca-marin-fairfax.town-council-member.doug-kelly",
+   "2026-11-03.ca-marin-fairfax.town-council-member.cheryl-scorza"
+  ],
+  "2026-11-03.ca-marin-fairfax.town-clerk": [
+   "2026-11-03.ca-marin-fairfax.town-clerk.deborah-benson",
+   "2026-11-03.ca-marin-fairfax.town-clerk.bruce-ackerman"
+  ],
+  "2026-11-03.ca-marin-fairfax.town-treasurer": [
+   "2026-11-03.ca-marin-fairfax.town-treasurer.talia-friedman"
+  ],
+  "2026-11-03.ca-marin-larkspur.city-council-member": [
+   "2026-11-03.ca-marin-larkspur.city-council-member.stephanie-andre",
+   "2026-11-03.ca-marin-larkspur.city-council-member.sarah-margulies",
+   "2026-11-03.ca-marin-larkspur.city-council-member.gareth-walter",
+   "2026-11-03.ca-marin-larkspur.city-council-member.aaron-burnett",
+   "2026-11-03.ca-marin-larkspur.city-council-member.spencer-doyle",
+   "2026-11-03.ca-marin-larkspur.city-council-member.jeanne-friedel",
+   "2026-11-03.ca-marin-larkspur.city-council-member.brian-h-jaffe"
+  ],
+  "2026-11-03.ca-marin-mill-valley.city-council-member": [
+   "2026-11-03.ca-marin-mill-valley.city-council-member.stephen-burke",
+   "2026-11-03.ca-marin-mill-valley.city-council-member.max-perrey"
+  ],
+  "2026-11-03.ca-marin-novato-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-marin-novato-council-district-2.city-council-member-district-2.rachel-farac",
+   "2026-11-03.ca-marin-novato-council-district-2.city-council-member-district-2.mike-little",
+   "2026-11-03.ca-marin-novato-council-district-2.city-council-member-district-2.bob-rasmussen"
+  ],
+  "2026-11-03.ca-marin-novato-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-marin-novato-council-district-4.city-council-member-district-4.pat-eklund",
+   "2026-11-03.ca-marin-novato-council-district-4.city-council-member-district-4.luiggino-galletto",
+   "2026-11-03.ca-marin-novato-council-district-4.city-council-member-district-4.chris-carpiniello",
+   "2026-11-03.ca-marin-novato-council-district-4.city-council-member-district-4.dan-christian"
+  ],
+  "2026-11-03.ca-marin-ross.town-council-member": [
+   "2026-11-03.ca-marin-ross.town-council-member.robert-herbst",
+   "2026-11-03.ca-marin-ross.town-council-member.jeffrey-kuhn",
+   "2026-11-03.ca-marin-ross.town-council-member.julie-a-mcmillan",
+   "2026-11-03.ca-marin-ross.town-council-member.paul-j-roesler"
+  ],
+  "2026-11-03.ca-marin-san-anselmo.town-council-member": [
+   "2026-11-03.ca-marin-san-anselmo.town-council-member.steve-burdo",
+   "2026-11-03.ca-marin-san-anselmo.town-council-member.philip-chigos",
+   "2026-11-03.ca-marin-san-anselmo.town-council-member.will-dittmar"
+  ],
+  "2026-11-03.ca-marin-san-anselmo.town-clerk": [
+   "2026-11-03.ca-marin-san-anselmo.town-clerk.cecily-t-wilson"
+  ],
+  "2026-11-03.ca-marin-san-anselmo.town-treasurer": [
+   "2026-11-03.ca-marin-san-anselmo.town-treasurer.lori-j-lopin"
+  ],
+  "2026-11-03.ca-marin-san-rafael-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-marin-san-rafael-council-district-2.city-council-member-district-2.eli-hill"
+  ],
+  "2026-11-03.ca-marin-san-rafael-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-marin-san-rafael-council-district-3.city-council-member-district-3.daryoush-davidi",
+   "2026-11-03.ca-marin-san-rafael-council-district-3.city-council-member-district-3.robert-sandoval"
+  ],
+  "2026-11-03.ca-marin-sausalito.city-council-member": [
+   "2026-11-03.ca-marin-sausalito.city-council-member.joan-cox",
+   "2026-11-03.ca-marin-sausalito.city-council-member.jill-james-hoffman",
+   "2026-11-03.ca-marin-sausalito.city-council-member.nastassya-saad",
+   "2026-11-03.ca-marin-sausalito.city-council-member.adrian-brinton"
+  ],
+  "2026-11-03.ca-marin-tiburon.town-council-member": [
+   "2026-11-03.ca-marin-tiburon.town-council-member.kathleen-defever",
+   "2026-11-03.ca-marin-tiburon.town-council-member.alice-fredericks",
+   "2026-11-03.ca-marin-tiburon.town-council-member.chuck-hornbrook",
+   "2026-11-03.ca-marin-tiburon.town-council-member.jack-ryan",
+   "2026-11-03.ca-marin-tiburon.town-council-member.faris-jafar"
+  ],
+  "2026-11-03.ca-marin-spd-bel-marin-keys-community-services-district.director": [
+   "2026-11-03.ca-marin-spd-bel-marin-keys-community-services-district.director.vincent-p-lattanzio",
+   "2026-11-03.ca-marin-spd-bel-marin-keys-community-services-district.director.steven-nash",
+   "2026-11-03.ca-marin-spd-bel-marin-keys-community-services-district.director.kevin-dugan"
+  ],
+  "2026-11-03.ca-marin-spd-marin-city-community-services-district.director": [
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.kevin-douglas",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.angela-haynes",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.eboni-mckinley",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.royce-mclemore",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.derek-morgan",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.capri-m-price",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.la-tanya-j-wiggins",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director.beatra-hall"
+  ],
+  "2026-11-03.ca-marin-spd-marin-city-community-services-district.director-short-term": [
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director-short-term.sarah-elizabeth-canson",
+   "2026-11-03.ca-marin-spd-marin-city-community-services-district.director-short-term.terrie-harris-green"
+  ],
+  "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director": [
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.kurt-chun",
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.cristine-soto-deberry",
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.peter-fleming",
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.thomas-w-perazzo",
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.eric-steinhofer",
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.amy-svendberg",
+   "2026-11-03.ca-marin-spd-southern-marin-fire-protection-district.director.thomas-clark"
+  ],
+  "2026-11-03.ca-marin-spd-marin-healthcare-district.director-division-1": [
+   "2026-11-03.ca-marin-spd-marin-healthcare-district.director-division-1.clayton-hess",
+   "2026-11-03.ca-marin-spd-marin-healthcare-district.director-division-1.kendra-hoepper"
+  ],
+  "2026-11-03.ca-marin-spd-marin-healthcare-district.director-division-3": [
+   "2026-11-03.ca-marin-spd-marin-healthcare-district.director-division-3.brian-su",
+   "2026-11-03.ca-marin-spd-marin-healthcare-district.director-division-3.jonathan-goff"
+  ],
+  "2026-11-03.ca-marin-spd-bolinas-community-public-utility-district.director": [
+   "2026-11-03.ca-marin-spd-bolinas-community-public-utility-district.director.andrew-alexander-green",
+   "2026-11-03.ca-marin-spd-bolinas-community-public-utility-district.director.grace-godino",
+   "2026-11-03.ca-marin-spd-bolinas-community-public-utility-district.director.mickey-murch",
+   "2026-11-03.ca-marin-spd-bolinas-community-public-utility-district.director.nathan-siedman"
+  ],
+  "2026-11-03.ca-marin-spd-strawberry-recreation-district.director": [
+   "2026-11-03.ca-marin-spd-strawberry-recreation-district.director.sohrab-saghezchi",
+   "2026-11-03.ca-marin-spd-strawberry-recreation-district.director.peter-teese",
+   "2026-11-03.ca-marin-spd-strawberry-recreation-district.director.sarah-g-waterfield",
+   "2026-11-03.ca-marin-spd-strawberry-recreation-district.director.david-t-morgenthaler"
+  ],
+  "2026-11-03.ca-marin-spd-strawberry-recreation-district.director-short-term": [
+   "2026-11-03.ca-marin-spd-strawberry-recreation-district.director-short-term.doug-twillman",
+   "2026-11-03.ca-marin-spd-strawberry-recreation-district.director-short-term.aliza-hawkins"
+  ],
+  "2026-11-03.ca-marin-spd-richardson-bay-sanitary-district.director": [
+   "2026-11-03.ca-marin-spd-richardson-bay-sanitary-district.director.mark-fitzgerald",
+   "2026-11-03.ca-marin-spd-richardson-bay-sanitary-district.director.peter-mcintosh",
+   "2026-11-03.ca-marin-spd-richardson-bay-sanitary-district.director.patrick-walravens",
+   "2026-11-03.ca-marin-spd-richardson-bay-sanitary-district.director.john-turnacliff"
+  ],
+  "2026-11-03.ca-marin-spd-north-marin-water-district.director-division-5": [
+   "2026-11-03.ca-marin-spd-north-marin-water-district.director-division-5.marc-hunter-lewis",
+   "2026-11-03.ca-marin-spd-north-marin-water-district.director-division-5.laurie-l-williams"
+  ],
+  "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-2": [
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-2.jeff-dodd",
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-2.heriverto-ruiz"
+  ],
+  "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-3": [
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-3.emily-pastula",
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-3.elizabeth-l-goff",
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-3.karina-servente"
+  ],
+  "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-4": [
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-4.cindy-johnson",
+   "2026-11-03.ca-napa-ccd-napa-valley.trustee-trustee-area-no-4.william-kyle-iverson"
+  ],
+  "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-1": [
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-1.robin-jankiewicz",
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-1.matthew-mcmann"
+  ],
+  "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-6": [
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-6.elba-gonzalez-mares",
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-6.tyrone-navarro"
+  ],
+  "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-7": [
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-7.david-hildebrandt",
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-7.jason-m-dooley",
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-7.john-houser",
+   "2026-11-03.ca-napa-sd-napa-valley-unified.trustee-trustee-area-7.gabriel-champagne-affonso"
+  ],
+  "2026-11-03.ca-napa-sd-calistoga-joint-unified.governing-board-member": [
+   "2026-11-03.ca-napa-sd-calistoga-joint-unified.governing-board-member.cecilia-ramirez",
+   "2026-11-03.ca-napa-sd-calistoga-joint-unified.governing-board-member.laurel-rios",
+   "2026-11-03.ca-napa-sd-calistoga-joint-unified.governing-board-member.irene-pena",
+   "2026-11-03.ca-napa-sd-calistoga-joint-unified.governing-board-member.rebecca-sager"
+  ],
+  "2026-11-03.ca-napa-american-canyon.city-council-member": [
+   "2026-11-03.ca-napa-american-canyon.city-council-member.jason-kishineff",
+   "2026-11-03.ca-napa-american-canyon.city-council-member.sindy-biederman",
+   "2026-11-03.ca-napa-american-canyon.city-council-member.robert-cole",
+   "2026-11-03.ca-napa-american-canyon.city-council-member.jim-giron",
+   "2026-11-03.ca-napa-american-canyon.city-council-member.david-oro"
+  ],
+  "2026-11-03.ca-napa-napa-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-napa-napa-council-district-1.city-council-member-district-1.christopher-denatale"
+  ],
+  "2026-11-03.ca-napa-napa-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-napa-napa-council-district-3.city-council-member-district-3.mary-luros",
+   "2026-11-03.ca-napa-napa-council-district-3.city-council-member-district-3.jim-hinton"
+  ],
+  "2026-11-03.ca-napa-st-helena.mayor": [
+   "2026-11-03.ca-napa-st-helena.mayor.bonnie-schoch",
+   "2026-11-03.ca-napa-st-helena.mayor.patrick-kenealy"
+  ],
+  "2026-11-03.ca-napa-st-helena.city-council-member": [
+   "2026-11-03.ca-napa-st-helena.city-council-member.kate-spadarotto",
+   "2026-11-03.ca-napa-st-helena.city-council-member.joshua-parke",
+   "2026-11-03.ca-napa-st-helena.city-council-member.daniel-hale",
+   "2026-11-03.ca-napa-st-helena.city-council-member.john-pedersen",
+   "2026-11-03.ca-napa-st-helena.city-council-member.scott-diaz"
+  ],
+  "2026-11-03.ca-napa-yountville.mayor": [
+   "2026-11-03.ca-napa-yountville.mayor.marjorie-mohler",
+   "2026-11-03.ca-napa-yountville.mayor.joe-tagliaboschi"
+  ],
+  "2026-11-03.ca-napa-yountville.town-council-member": [
+   "2026-11-03.ca-napa-yountville.town-council-member.robin-mckee",
+   "2026-11-03.ca-napa-yountville.town-council-member.jessi-bugden",
+   "2026-11-03.ca-napa-yountville.town-council-member.matthew-chrzanowski",
+   "2026-11-03.ca-napa-yountville.town-council-member.hillery-bolt-trippe",
+   "2026-11-03.ca-napa-yountville.town-council-member.jill-turner"
+  ],
+  "2026-11-03.ca-san-mateo-supervisor-district-5.supervisor-district-5-short-term": [
+   "2026-11-03.ca-san-mateo-supervisor-district-5.supervisor-district-5-short-term.mark-nagales",
+   "2026-11-03.ca-san-mateo-supervisor-district-5.supervisor-district-5-short-term.juslyn-cabrera-manalo"
+  ],
+  "2026-11-03.ca-san-mateo-sd-san-mateo-county-board-of-education.county-board-of-education-member-trustee-area-2": [
+   "2026-11-03.ca-san-mateo-sd-san-mateo-county-board-of-education.county-board-of-education-member-trustee-area-2.beverly-gerard",
+   "2026-11-03.ca-san-mateo-sd-san-mateo-county-board-of-education.county-board-of-education-member-trustee-area-2.dana-johnson"
+  ],
+  "2026-11-03.ca-san-mateo-ccd-san-mateo-county-community-college-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-san-mateo-ccd-san-mateo-county-community-college-district.governing-board-member-trustee-area-2.mike-guingona",
+   "2026-11-03.ca-san-mateo-ccd-san-mateo-county-community-college-district.governing-board-member-trustee-area-2.jason-holt"
+  ],
+  "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.governing-board-member-trustee-area-c": [
+   "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.governing-board-member-trustee-area-c.peter-tokofsky",
+   "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.governing-board-member-trustee-area-c.lizet-cortes-ronquillo"
+  ],
+  "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.governing-board-member-trustee-area-e": [
+   "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.governing-board-member-trustee-area-e.mary-beth-alexander",
+   "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.governing-board-member-trustee-area-e.andrea-rosenthal"
+  ],
+  "2026-11-03.ca-san-mateo-sd-south-san-francisco-unified-school-district.governing-board-member-trustee-area-c": [
+   "2026-11-03.ca-san-mateo-sd-south-san-francisco-unified-school-district.governing-board-member-trustee-area-c.chialin-hsieh",
+   "2026-11-03.ca-san-mateo-sd-south-san-francisco-unified-school-district.governing-board-member-trustee-area-c.avin-sharma"
+  ],
+  "2026-11-03.ca-san-mateo-sd-south-san-francisco-unified-school-district.governing-board-member-trustee-area-e": [
+   "2026-11-03.ca-san-mateo-sd-south-san-francisco-unified-school-district.governing-board-member-trustee-area-e.frank-lara",
+   "2026-11-03.ca-san-mateo-sd-south-san-francisco-unified-school-district.governing-board-member-trustee-area-e.mina-a-richardson"
+  ],
+  "2026-11-03.ca-san-mateo-sd-san-mateo-union-high-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-san-mateo-sd-san-mateo-union-high-school-district.governing-board-member-trustee-area-3.diana-harris",
+   "2026-11-03.ca-san-mateo-sd-san-mateo-union-high-school-district.governing-board-member-trustee-area-3.jennifer-jacobson"
+  ],
+  "2026-11-03.ca-san-mateo-sd-san-mateo-union-high-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-san-mateo-sd-san-mateo-union-high-school-district.governing-board-member-trustee-area-5.kimo-rosenbaum",
+   "2026-11-03.ca-san-mateo-sd-san-mateo-union-high-school-district.governing-board-member-trustee-area-5.alison-proctor"
+  ],
+  "2026-11-03.ca-san-mateo-sd-sequoia-union-high-school-district.governing-board-member-trustee-area-a": [
+   "2026-11-03.ca-san-mateo-sd-sequoia-union-high-school-district.governing-board-member-trustee-area-a.amy-koo",
+   "2026-11-03.ca-san-mateo-sd-sequoia-union-high-school-district.governing-board-member-trustee-area-a.alon-shiran"
+  ],
+  "2026-11-03.ca-san-mateo-sd-sequoia-union-high-school-district.governing-board-member-trustee-area-d": [
+   "2026-11-03.ca-san-mateo-sd-sequoia-union-high-school-district.governing-board-member-trustee-area-d.michael-dekshenieks",
+   "2026-11-03.ca-san-mateo-sd-sequoia-union-high-school-district.governing-board-member-trustee-area-d.sathvik-nori"
+  ],
+  "2026-11-03.ca-san-mateo-sd-brisbane-school-district.governing-board-member": [
+   "2026-11-03.ca-san-mateo-sd-brisbane-school-district.governing-board-member.charlene-larson",
+   "2026-11-03.ca-san-mateo-sd-brisbane-school-district.governing-board-member.morgan-finlay",
+   "2026-11-03.ca-san-mateo-sd-brisbane-school-district.governing-board-member.emily-wirowek",
+   "2026-11-03.ca-san-mateo-sd-brisbane-school-district.governing-board-member.sarah-duffy"
+  ],
+  "2026-11-03.ca-san-mateo-sd-menlo-park-city-school-district.governing-board-member": [
+   "2026-11-03.ca-san-mateo-sd-menlo-park-city-school-district.governing-board-member.jed-scolnick",
+   "2026-11-03.ca-san-mateo-sd-menlo-park-city-school-district.governing-board-member.maya-herstein",
+   "2026-11-03.ca-san-mateo-sd-menlo-park-city-school-district.governing-board-member.sherwin-chen",
+   "2026-11-03.ca-san-mateo-sd-menlo-park-city-school-district.governing-board-member.andrew-barnes"
+  ],
+  "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term": [
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.bridget-hardt",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.rachel-durkin",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.grace-sobieski",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.tiffany-button",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.christopher-swiedler",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.katy-bradley",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-full-term.laverne-r-villalobos"
+  ],
+  "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-short-term": [
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-short-term.kelly-mendoza",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-short-term.tracey-simmons",
+   "2026-11-03.ca-san-mateo-sd-pacifica-school-district.governing-board-member-short-term.elizabeth-a-bredall"
+  ],
+  "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.governing-board-member": [
+   "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.governing-board-member.boris-lipkin",
+   "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.governing-board-member.richard-f-wahl",
+   "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.governing-board-member.megha-chawla",
+   "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.governing-board-member.shivani-tripathi"
+  ],
+  "2026-11-03.ca-san-mateo-spd-coastside-county-water-district.director-zone-5": [
+   "2026-11-03.ca-san-mateo-spd-coastside-county-water-district.director-zone-5.nancy-eleanora-poss",
+   "2026-11-03.ca-san-mateo-spd-coastside-county-water-district.director-zone-5.joey-p-silva"
+  ],
+  "2026-11-03.ca-san-mateo-spd-coastside-fire-protection-district.director-district-d": [
+   "2026-11-03.ca-san-mateo-spd-coastside-fire-protection-district.director-district-d.ryan-mcgraw",
+   "2026-11-03.ca-san-mateo-spd-coastside-fire-protection-district.director-district-d.cynthia-sherrill"
+  ],
+  "2026-11-03.ca-san-mateo-spd-coastside-fire-protection-district.director-district-e": [
+   "2026-11-03.ca-san-mateo-spd-coastside-fire-protection-district.director-district-e.gary-burke",
+   "2026-11-03.ca-san-mateo-spd-coastside-fire-protection-district.director-district-e.alex-carrillo"
+  ],
+  "2026-11-03.ca-san-mateo-spd-granada-community-services-district.director": [
+   "2026-11-03.ca-san-mateo-spd-granada-community-services-district.director.barbara-dye",
+   "2026-11-03.ca-san-mateo-spd-granada-community-services-district.director.kevin-w-sniecinski",
+   "2026-11-03.ca-san-mateo-spd-granada-community-services-district.director.matt-allen",
+   "2026-11-03.ca-san-mateo-spd-granada-community-services-district.director.patrick-tierney"
+  ],
+  "2026-11-03.ca-san-mateo-belmont.mayor": [
+   "2026-11-03.ca-san-mateo-belmont.mayor.julia-mates"
+  ],
+  "2026-11-03.ca-san-mateo-belmont-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-belmont-council-district-1.city-council-member-district-1.gina-latimerlo"
+  ],
+  "2026-11-03.ca-san-mateo-belmont-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-san-mateo-belmont-council-district-3.city-council-member-district-3.sarah-km-delisle"
+  ],
+  "2026-11-03.ca-san-mateo-brisbane.city-council-member": [
+   "2026-11-03.ca-san-mateo-brisbane.city-council-member.julie-sims",
+   "2026-11-03.ca-san-mateo-brisbane.city-council-member.charles-spencer",
+   "2026-11-03.ca-san-mateo-brisbane.city-council-member.madison-davis",
+   "2026-11-03.ca-san-mateo-brisbane.city-council-member.chaya-bella-david",
+   "2026-11-03.ca-san-mateo-brisbane.city-council-member.christopher-hornick"
+  ],
+  "2026-11-03.ca-san-mateo-burlingame-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-burlingame-council-district-1.city-council-member-district-1.andrea-pappajohn"
+  ],
+  "2026-11-03.ca-san-mateo-burlingame-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-san-mateo-burlingame-council-district-3.city-council-member-district-3.jen-faber",
+   "2026-11-03.ca-san-mateo-burlingame-council-district-3.city-council-member-district-3.howard-wettan"
+  ],
+  "2026-11-03.ca-san-mateo-burlingame-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-san-mateo-burlingame-council-district-5.city-council-member-district-5.peter-w-stevenson"
+  ],
+  "2026-11-03.ca-san-mateo-colma.city-council-member": [
+   "2026-11-03.ca-san-mateo-colma.city-council-member.helen-fisicaro",
+   "2026-11-03.ca-san-mateo-colma.city-council-member.laura-m-walsh",
+   "2026-11-03.ca-san-mateo-colma.city-council-member.joanne-f-del-rosario",
+   "2026-11-03.ca-san-mateo-colma.city-council-member.elisabeth-aurora-jenson"
+  ],
+  "2026-11-03.ca-san-mateo-daly-city.city-council-member": [
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.thomas-a-nuris",
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.pamela-digiovanni",
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.teresa-proa-o",
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.tony-bayudan",
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.rod-daus-magbual",
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.asia-su",
+   "2026-11-03.ca-san-mateo-daly-city.city-council-member.barry-rodriguez"
+  ],
+  "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member": [
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.holifa-windom",
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.gail-wilk-dixon",
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.ruben-abrica",
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.sam-jimenez",
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.ofelia-bello",
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.deborah-lewis-virges",
+   "2026-11-03.ca-san-mateo-east-palo-alto.city-council-member.michael-mashack"
+  ],
+  "2026-11-03.ca-san-mateo-foster-city-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-foster-city-council-district-1.city-council-member-district-1.art-kiesel",
+   "2026-11-03.ca-san-mateo-foster-city-council-district-1.city-council-member-district-1.phoebe-shin-venkat"
+  ],
+  "2026-11-03.ca-san-mateo-foster-city-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-san-mateo-foster-city-council-district-2.city-council-member-district-2.stacy-jimenez"
+  ],
+  "2026-11-03.ca-san-mateo-half-moon-bay-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-half-moon-bay-council-district-1.city-council-member-district-1.robert-brownstone",
+   "2026-11-03.ca-san-mateo-half-moon-bay-council-district-1.city-council-member-district-1.david-gorn"
+  ],
+  "2026-11-03.ca-san-mateo-half-moon-bay-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-san-mateo-half-moon-bay-council-district-4.city-council-member-district-4.ron-kies",
+   "2026-11-03.ca-san-mateo-half-moon-bay-council-district-4.city-council-member-district-4.debbie-ruddock"
+  ],
+  "2026-11-03.ca-san-mateo-half-moon-bay-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-san-mateo-half-moon-bay-council-district-5.city-council-member-district-5.susie-morasci",
+   "2026-11-03.ca-san-mateo-half-moon-bay-council-district-5.city-council-member-district-5.steven-r-booker"
+  ],
+  "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+   "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee"
+  ],
+  "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+   "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi"
+  ],
+  "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+   "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn"
+  ],
+  "2026-11-03.ca-san-mateo-millbrae-council-district-2.city-council-member-district-2-full-term": [
+   "2026-11-03.ca-san-mateo-millbrae-council-district-2.city-council-member-district-2-full-term.sissy-riley"
+  ],
+  "2026-11-03.ca-san-mateo-millbrae-council-district-3.city-council-member-district-3-short-term": [
+   "2026-11-03.ca-san-mateo-millbrae-council-district-3.city-council-member-district-3-short-term.juan-g-mez",
+   "2026-11-03.ca-san-mateo-millbrae-council-district-3.city-council-member-district-3-short-term.ann-schneider"
+  ],
+  "2026-11-03.ca-san-mateo-millbrae-council-district-4.city-council-member-district-4-full-term": [
+   "2026-11-03.ca-san-mateo-millbrae-council-district-4.city-council-member-district-4-full-term.albert-yam",
+   "2026-11-03.ca-san-mateo-millbrae-council-district-4.city-council-member-district-4-full-term.bob-nguyen"
+  ],
+  "2026-11-03.ca-san-mateo-pacifica-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-san-mateo-pacifica-council-district-2.city-council-member-district-2.christine-boles",
+   "2026-11-03.ca-san-mateo-pacifica-council-district-2.city-council-member-district-2.dan-urban"
+  ],
+  "2026-11-03.ca-san-mateo-pacifica-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-san-mateo-pacifica-council-district-3.city-council-member-district-3.cindy-abbott"
+  ],
+  "2026-11-03.ca-san-mateo-pacifica-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-san-mateo-pacifica-council-district-5.city-council-member-district-5.margo-meiman",
+   "2026-11-03.ca-san-mateo-pacifica-council-district-5.city-council-member-district-5.sam-casillas"
+  ],
+  "2026-11-03.ca-san-mateo-portola-valley.town-council-member": [
+   "2026-11-03.ca-san-mateo-portola-valley.town-council-member.mary-hufty",
+   "2026-11-03.ca-san-mateo-portola-valley.town-council-member.craig-s-taylor",
+   "2026-11-03.ca-san-mateo-portola-valley.town-council-member.judith-a-hasko"
+  ],
+  "2026-11-03.ca-san-mateo-redwood-city-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-san-mateo-redwood-city-council-district-2.city-council-member-district-2.chris-sturken"
+  ],
+  "2026-11-03.ca-san-mateo-redwood-city-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-san-mateo-redwood-city-council-district-5.city-council-member-district-5.kaia-eakin"
+  ],
+  "2026-11-03.ca-san-mateo-redwood-city-council-district-6.city-council-member-district-6": [
+   "2026-11-03.ca-san-mateo-redwood-city-council-district-6.city-council-member-district-6.diane-howard"
+  ],
+  "2026-11-03.ca-san-mateo-san-bruno.mayor": [
+   "2026-11-03.ca-san-mateo-san-bruno.mayor.rico-e-medina"
+  ],
+  "2026-11-03.ca-san-mateo-san-bruno-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-san-bruno-council-district-1.city-council-member-district-1.jennifer-m-blanco",
+   "2026-11-03.ca-san-mateo-san-bruno-council-district-1.city-council-member-district-1.kingsley-ma"
+  ],
+  "2026-11-03.ca-san-mateo-san-bruno-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-san-mateo-san-bruno-council-district-4.city-council-member-district-4.marty-p-medina",
+   "2026-11-03.ca-san-mateo-san-bruno-council-district-4.city-council-member-district-4.auros-harman"
+  ],
+  "2026-11-03.ca-san-mateo-san-carlos.city-council-member": [
+   "2026-11-03.ca-san-mateo-san-carlos.city-council-member.pranita-venkatesh",
+   "2026-11-03.ca-san-mateo-san-carlos.city-council-member.sara-mcdowell",
+   "2026-11-03.ca-san-mateo-san-carlos.city-council-member.adam-rak",
+   "2026-11-03.ca-san-mateo-san-carlos.city-council-member.mark-d-iwanowski"
+  ],
+  "2026-11-03.ca-san-mateo-san-mateo-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-1.city-council-member-district-1.taso-zografos",
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-1.city-council-member-district-1.lisa-diaz-nash"
+  ],
+  "2026-11-03.ca-san-mateo-san-mateo-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-3.city-council-member-district-3.seema-patel",
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-3.city-council-member-district-3.robert-g-newsom-jr"
+  ],
+  "2026-11-03.ca-san-mateo-san-mateo-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-5.city-council-member-district-5.dave-johnson",
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-5.city-council-member-district-5.dana-yates-sahae",
+   "2026-11-03.ca-san-mateo-san-mateo-council-district-5.city-council-member-district-5.adam-loraine"
+  ],
+  "2026-11-03.ca-san-mateo-south-san-francisco-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-san-mateo-south-san-francisco-council-district-1.city-council-member-district-1.aysha-dominguez-pamukcu"
+  ],
+  "2026-11-03.ca-san-mateo-south-san-francisco-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-san-mateo-south-san-francisco-council-district-3.city-council-member-district-3.buenaflor-flor-nicolas",
+   "2026-11-03.ca-san-mateo-south-san-francisco-council-district-3.city-council-member-district-3.sophia-cyris",
+   "2026-11-03.ca-san-mateo-south-san-francisco-council-district-3.city-council-member-district-3.melanie-olson"
+  ],
+  "2026-11-03.ca-san-mateo-south-san-francisco-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-san-mateo-south-san-francisco-council-district-5.city-council-member-district-5.eddie-flores"
+  ],
+  "2026-11-03.ca-san-mateo-south-san-francisco.city-clerk": [
+   "2026-11-03.ca-san-mateo-south-san-francisco.city-clerk.rosa-govea-acosta"
+  ],
+  "2026-11-03.ca-san-mateo-south-san-francisco.city-treasurer": [
+   "2026-11-03.ca-san-mateo-south-san-francisco.city-treasurer.frank-risso"
+  ],
+  "2026-11-03.ca-san-mateo-woodside-council-district-2.town-council-member-district-2": [
+   "2026-11-03.ca-san-mateo-woodside-council-district-2.town-council-member-district-2.lyle-weaver"
+  ],
+  "2026-11-03.ca-san-mateo-woodside-council-district-3.town-council-member-district-3": [
+   "2026-11-03.ca-san-mateo-woodside-council-district-3.town-council-member-district-3.daniel-druker"
+  ],
+  "2026-11-03.ca-santa-clara-sd-santa-clara-county-board-of-education.county-board-of-education-member-trustee-area-7": [
+   "2026-11-03.ca-santa-clara-sd-santa-clara-county-board-of-education.county-board-of-education-member-trustee-area-7.raeena-s-lari",
+   "2026-11-03.ca-santa-clara-sd-santa-clara-county-board-of-education.county-board-of-education-member-trustee-area-7.karla-dominguez-vega"
+  ],
+  "2026-11-03.ca-santa-clara-sd-foothill-de-anza-community-college-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-foothill-de-anza-community-college-district.governing-board-member-trustee-area-4.liangfang-liang-chao",
+   "2026-11-03.ca-santa-clara-sd-foothill-de-anza-community-college-district.governing-board-member-trustee-area-4.william-bill-wilson"
+  ],
+  "2026-11-03.ca-santa-clara-sd-gavilan-joint-community-college-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-gavilan-joint-community-college-district.governing-board-member-trustee-area-3.shahida-s-merchant",
+   "2026-11-03.ca-santa-clara-sd-gavilan-joint-community-college-district.governing-board-member-trustee-area-3.gabriel-gutierrez"
+  ],
+  "2026-11-03.ca-santa-clara-sd-san-jose-evergreen-community-college-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-santa-clara-sd-san-jose-evergreen-community-college-district.governing-board-member-trustee-area-2.karen-martinez",
+   "2026-11-03.ca-santa-clara-sd-san-jose-evergreen-community-college-district.governing-board-member-trustee-area-2.scott-hung-pham"
+  ],
+  "2026-11-03.ca-santa-clara-sd-west-valley-mission-community-college-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-west-valley-mission-community-college-district.governing-board-member-trustee-area-3.anne-j-kepner",
+   "2026-11-03.ca-santa-clara-sd-west-valley-mission-community-college-district.governing-board-member-trustee-area-3.colin-lee-elliott-glaves"
+  ],
+  "2026-11-03.ca-santa-clara-sd-west-valley-mission-community-college-district.governing-board-member-trustee-area-7": [
+   "2026-11-03.ca-santa-clara-sd-west-valley-mission-community-college-district.governing-board-member-trustee-area-7.doug-robb",
+   "2026-11-03.ca-santa-clara-sd-west-valley-mission-community-college-district.governing-board-member-trustee-area-7.susan-oster-fish"
+  ],
+  "2026-11-03.ca-santa-clara-sd-yosemite-community-college-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-yosemite-community-college-district.governing-board-member-trustee-area-4.ryan-segoviano",
+   "2026-11-03.ca-santa-clara-sd-yosemite-community-college-district.governing-board-member-trustee-area-4.jenny-nicolau"
+  ],
+  "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.governing-board-member-trustee-area-3.michelle-nelson",
+   "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.governing-board-member-trustee-area-3.daniel-harney"
+  ],
+  "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.governing-board-member-trustee-area-4.trevor-scott-van-laar",
+   "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.governing-board-member-trustee-area-4.jane-stevens"
+  ],
+  "2026-11-03.ca-santa-clara-sd-milpitas-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-milpitas-unified-school-district.governing-board-member.chris-norwood",
+   "2026-11-03.ca-santa-clara-sd-milpitas-unified-school-district.governing-board-member.kelly-yip-chuan",
+   "2026-11-03.ca-santa-clara-sd-milpitas-unified-school-district.governing-board-member.anuradha-sankaran",
+   "2026-11-03.ca-santa-clara-sd-milpitas-unified-school-district.governing-board-member.franchesca-lacanlale"
+  ],
+  "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-1.nancy-altman-palm",
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-1.jason-amezcua"
+  ],
+  "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-2.john-t-horner",
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-2.gabriela-gabby-winter"
+  ],
+  "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-3.art-cohen",
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-3.cesar-gamboa",
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-3.sarah-northrup-gadus"
+  ],
+  "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-4.glen-r-webb",
+   "2026-11-03.ca-santa-clara-sd-morgan-hill-unified-school-district.governing-board-member-trustee-area-4.claudia-ortiz"
+  ],
+  "2026-11-03.ca-santa-clara-sd-palo-alto-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-palo-alto-unified-school-district.governing-board-member.linda-henigin",
+   "2026-11-03.ca-santa-clara-sd-palo-alto-unified-school-district.governing-board-member.john-craig",
+   "2026-11-03.ca-santa-clara-sd-palo-alto-unified-school-district.governing-board-member.avery-wang"
+  ],
+  "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-2.tomara-hall",
+   "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-2.carson-dance",
+   "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-2.jose-magana"
+  ],
+  "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-4.mary-j-grunthaner",
+   "2026-11-03.ca-santa-clara-sd-san-jose-unified-school-district.governing-board-member-trustee-area-4.michael-melillo"
+  ],
+  "2026-11-03.ca-santa-clara-sd-santa-clara-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-santa-clara-sd-santa-clara-unified-school-district.governing-board-member-trustee-area-1.jim-canova",
+   "2026-11-03.ca-santa-clara-sd-santa-clara-unified-school-district.governing-board-member-trustee-area-1.kamal-yassin"
+  ],
+  "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-1-short-term": [
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-1-short-term.mer-curry-nu-ez",
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-1-short-term.patricia-mart-nez-roach",
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-1-short-term.paul-pham"
+  ],
+  "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-4.lorena-chavez",
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-4.tony-lam",
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-4.mahbub-khan",
+   "2026-11-03.ca-santa-clara-sd-east-side-union-high-school-district.governing-board-member-trustee-area-4.stanley-kou"
+  ],
+  "2026-11-03.ca-santa-clara-sd-fremont-union-high-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-fremont-union-high-school-district.governing-board-member-trustee-area-3.rosa-kim",
+   "2026-11-03.ca-santa-clara-sd-fremont-union-high-school-district.governing-board-member-trustee-area-3.jason-lin"
+  ],
+  "2026-11-03.ca-santa-clara-sd-fremont-union-high-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-fremont-union-high-school-district.governing-board-member-trustee-area-4.ilanit-eliaz",
+   "2026-11-03.ca-santa-clara-sd-fremont-union-high-school-district.governing-board-member-trustee-area-4.naomi-nakano-matsumoto"
+  ],
+  "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.governing-board-member-trustee-area-2.sangeeta-balachandran-mallik",
+   "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.governing-board-member-trustee-area-2.ishaan-prasad"
+  ],
+  "2026-11-03.ca-santa-clara-sd-mountain-view-los-altos-union-high-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-mountain-view-los-altos-union-high-school-district.governing-board-member-trustee-area-3.catherine-vonnegut",
+   "2026-11-03.ca-santa-clara-sd-mountain-view-los-altos-union-high-school-district.governing-board-member-trustee-area-3.thida-cornes",
+   "2026-11-03.ca-santa-clara-sd-mountain-view-los-altos-union-high-school-district.governing-board-member-trustee-area-3.sanjay-dave"
+  ],
+  "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-3.andr-s-quintero",
+   "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-3.delia-oseguera"
+  ],
+  "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-5.manisha-kand",
+   "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-5.l-nda-lo-ch-vez",
+   "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.governing-board-member-trustee-area-5.jenny-ludwig"
+  ],
+  "2026-11-03.ca-santa-clara-sd-berryessa-union-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-berryessa-union-school-district.governing-board-member.jaria-jaug",
+   "2026-11-03.ca-santa-clara-sd-berryessa-union-school-district.governing-board-member.thelma-b-boac",
+   "2026-11-03.ca-santa-clara-sd-berryessa-union-school-district.governing-board-member.jamal-khan",
+   "2026-11-03.ca-santa-clara-sd-berryessa-union-school-district.governing-board-member.shanna-brewer"
+  ],
+  "2026-11-03.ca-santa-clara-sd-cambrian-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-cambrian-school-district.governing-board-member.carol-presunka",
+   "2026-11-03.ca-santa-clara-sd-cambrian-school-district.governing-board-member.debora-bodenheimer",
+   "2026-11-03.ca-santa-clara-sd-cambrian-school-district.governing-board-member.sergio-mart-nez",
+   "2026-11-03.ca-santa-clara-sd-cambrian-school-district.governing-board-member.harmony-jay-mcmillin"
+  ],
+  "2026-11-03.ca-santa-clara-sd-campbell-union-school-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-santa-clara-sd-campbell-union-school-district.governing-board-member-trustee-area-4.mohit-vora",
+   "2026-11-03.ca-santa-clara-sd-campbell-union-school-district.governing-board-member-trustee-area-4.chris-miller"
+  ],
+  "2026-11-03.ca-santa-clara-sd-campbell-union-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-santa-clara-sd-campbell-union-school-district.governing-board-member-trustee-area-5.vartika-chandra",
+   "2026-11-03.ca-santa-clara-sd-campbell-union-school-district.governing-board-member-trustee-area-5.sam-krow-lucal"
+  ],
+  "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member.johnny-ray-reyna",
+   "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member.mary-hien-pollett",
+   "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member.corinna-diener",
+   "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member.monte-wright",
+   "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member.thong-quang-la",
+   "2026-11-03.ca-santa-clara-sd-evergreen-school-district.governing-board-member.magaly-fern-ndez"
+  ],
+  "2026-11-03.ca-santa-clara-sd-franklin-mckinley-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-franklin-mckinley-school-district.governing-board-member.rudy-j-rodriguez",
+   "2026-11-03.ca-santa-clara-sd-franklin-mckinley-school-district.governing-board-member.gilbert-borrayo",
+   "2026-11-03.ca-santa-clara-sd-franklin-mckinley-school-district.governing-board-member.marc-cooper",
+   "2026-11-03.ca-santa-clara-sd-franklin-mckinley-school-district.governing-board-member.steven-sanchez"
+  ],
+  "2026-11-03.ca-santa-clara-sd-los-altos-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-los-altos-school-district.governing-board-member.david-poll",
+   "2026-11-03.ca-santa-clara-sd-los-altos-school-district.governing-board-member.brandon-stroy",
+   "2026-11-03.ca-santa-clara-sd-los-altos-school-district.governing-board-member.vaishali-shali-sirkay",
+   "2026-11-03.ca-santa-clara-sd-los-altos-school-district.governing-board-member.bryan-harvey-johnson"
+  ],
+  "2026-11-03.ca-santa-clara-sd-mountain-view-whisman-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-mountain-view-whisman-school-district.governing-board-member.devon-conley",
+   "2026-11-03.ca-santa-clara-sd-mountain-view-whisman-school-district.governing-board-member.william-lambert",
+   "2026-11-03.ca-santa-clara-sd-mountain-view-whisman-school-district.governing-board-member.sundar-subbarayan",
+   "2026-11-03.ca-santa-clara-sd-mountain-view-whisman-school-district.governing-board-member.quintin-riis"
+  ],
+  "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-2.victor-a-ramirez",
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-2.diego-martinez"
+  ],
+  "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-3.sophie-freestone",
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-3.kaushik-c-joglekar"
+  ],
+  "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-5.paul-chun",
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-5.pradeep-kumar",
+   "2026-11-03.ca-santa-clara-sd-oak-grove-school-district.governing-board-member-trustee-area-5.casino-fajardo"
+  ],
+  "2026-11-03.ca-santa-clara-sd-orchard-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-orchard-school-district.governing-board-member.lyseria-evelyn-phillips",
+   "2026-11-03.ca-santa-clara-sd-orchard-school-district.governing-board-member.renee-lo",
+   "2026-11-03.ca-santa-clara-sd-orchard-school-district.governing-board-member.katherine-kasolas-jacobson",
+   "2026-11-03.ca-santa-clara-sd-orchard-school-district.governing-board-member.jeff-tang",
+   "2026-11-03.ca-santa-clara-sd-orchard-school-district.governing-board-member.molly-eslao"
+  ],
+  "2026-11-03.ca-santa-clara-sd-saratoga-union-school-district.governing-board-member": [
+   "2026-11-03.ca-santa-clara-sd-saratoga-union-school-district.governing-board-member.eric-cao",
+   "2026-11-03.ca-santa-clara-sd-saratoga-union-school-district.governing-board-member.catalina-rupert",
+   "2026-11-03.ca-santa-clara-sd-saratoga-union-school-district.governing-board-member.vidya-r-vineet",
+   "2026-11-03.ca-santa-clara-sd-saratoga-union-school-district.governing-board-member.farnoush-drexel",
+   "2026-11-03.ca-santa-clara-sd-saratoga-union-school-district.governing-board-member.anna-goldberg"
+  ],
+  "2026-11-03.ca-santa-clara-sd-sunnyvale-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-santa-clara-sd-sunnyvale-school-district.governing-board-member-trustee-area-3.michelle-maginot",
+   "2026-11-03.ca-santa-clara-sd-sunnyvale-school-district.governing-board-member-trustee-area-3.rommy-kushner"
+  ],
+  "2026-11-03.ca-santa-clara-campbell-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-santa-clara-campbell-council-district-3.city-council-member-district-3.joseph-joe-brenner",
+   "2026-11-03.ca-santa-clara-campbell-council-district-3.city-council-member-district-3.dan-furtado"
+  ],
+  "2026-11-03.ca-santa-clara-campbell-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-santa-clara-campbell-council-district-4.city-council-member-district-4.davis-stuart-fields",
+   "2026-11-03.ca-santa-clara-campbell-council-district-4.city-council-member-district-4.joseph-i-guardado"
+  ],
+  "2026-11-03.ca-santa-clara-campbell-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-santa-clara-campbell-council-district-5.city-council-member-district-5.daraius-r-sorabji"
+  ],
+  "2026-11-03.ca-santa-clara-cupertino.city-council-member": [
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.gopal-kumarappan",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.santosh-rao",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.seema-sharma-lindskog",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.tracy-kosolcharoen",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.mark-fantozzi",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.john-tang",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.jr-fruen",
+   "2026-11-03.ca-santa-clara-cupertino.city-council-member.j-z-wang"
+  ],
+  "2026-11-03.ca-santa-clara-gilroy-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-santa-clara-gilroy-council-district-4.city-council-member-district-4.fred-tovar",
+   "2026-11-03.ca-santa-clara-gilroy-council-district-4.city-council-member-district-4.diana-sanchez-bentz"
+  ],
+  "2026-11-03.ca-santa-clara-gilroy-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-santa-clara-gilroy-council-district-5.city-council-member-district-5.joseph-garcia",
+   "2026-11-03.ca-santa-clara-gilroy-council-district-5.city-council-member-district-5.christina-tovar",
+   "2026-11-03.ca-santa-clara-gilroy-council-district-5.city-council-member-district-5.tom-cline"
+  ],
+  "2026-11-03.ca-santa-clara-gilroy-council-district-6.city-council-member-district-6": [
+   "2026-11-03.ca-santa-clara-gilroy-council-district-6.city-council-member-district-6.elizabeth-bracco",
+   "2026-11-03.ca-santa-clara-gilroy-council-district-6.city-council-member-district-6.brad-starks",
+   "2026-11-03.ca-santa-clara-gilroy-council-district-6.city-council-member-district-6.rebeca-g-armend-riz"
+  ],
+  "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+   "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng"
+  ],
+  "2026-11-03.ca-santa-clara-los-altos-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-santa-clara-los-altos-council-district-4.city-council-member-district-4.larry-lang"
+  ],
+  "2026-11-03.ca-santa-clara-los-altos-hills.town-council-member": [
+   "2026-11-03.ca-santa-clara-los-altos-hills.town-council-member.jim-waschura",
+   "2026-11-03.ca-santa-clara-los-altos-hills.town-council-member.jasmeen-pombra",
+   "2026-11-03.ca-santa-clara-los-altos-hills.town-council-member.indu-kadambi"
+  ],
+  "2026-11-03.ca-santa-clara-los-gatos.town-council-member": [
+   "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+   "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+   "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+   "2026-11-03.ca-santa-clara-los-gatos.town-council-member.jeff-suzuki",
+   "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+   "2026-11-03.ca-santa-clara-los-gatos.town-council-member.heidi-owens"
+  ],
+  "2026-11-03.ca-santa-clara-milpitas.mayor": [
+   "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "2026-11-03.ca-santa-clara-milpitas.mayor.carmen-montano",
+   "2026-11-03.ca-santa-clara-milpitas.mayor.voltaire-s-montemayor",
+   "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo"
+  ],
+  "2026-11-03.ca-santa-clara-milpitas.city-council-member": [
+   "2026-11-03.ca-santa-clara-milpitas.city-council-member.jennie-ha-phan",
+   "2026-11-03.ca-santa-clara-milpitas.city-council-member.bill-chuan",
+   "2026-11-03.ca-santa-clara-milpitas.city-council-member.seema-kanani",
+   "2026-11-03.ca-santa-clara-milpitas.city-council-member.garry-barbadillo",
+   "2026-11-03.ca-santa-clara-milpitas.city-council-member.dipak-awasthi"
+  ],
+  "2026-11-03.ca-santa-clara-morgan-hill.mayor": [
+   "2026-11-03.ca-santa-clara-morgan-hill.mayor.kristopher-l-clayton",
+   "2026-11-03.ca-santa-clara-morgan-hill.mayor.mark-turner",
+   "2026-11-03.ca-santa-clara-morgan-hill.mayor.deborah-m-africa"
+  ],
+  "2026-11-03.ca-santa-clara-morgan-hill-council-district-b.city-council-member-district-b": [
+   "2026-11-03.ca-santa-clara-morgan-hill-council-district-b.city-council-member-district-b.steven-hayes",
+   "2026-11-03.ca-santa-clara-morgan-hill-council-district-b.city-council-member-district-b.yvonne-martinez-beltran"
+  ],
+  "2026-11-03.ca-santa-clara-morgan-hill-council-district-d.city-council-member-district-d": [
+   "2026-11-03.ca-santa-clara-morgan-hill-council-district-d.city-council-member-district-d.dolores-alvarado",
+   "2026-11-03.ca-santa-clara-morgan-hill-council-district-d.city-council-member-district-d.marilyn-librers"
+  ],
+  "2026-11-03.ca-santa-clara-mountain-view.city-council-member": [
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+   "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso"
+  ],
+  "2026-11-03.ca-santa-clara-palo-alto.city-council-member": [
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.vicki-veenker",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.gary-gechlik",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.raymond-l-goins",
+   "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek"
+  ],
+  "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+   "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz"
+  ],
+  "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7": [
+   "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+   "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan"
+  ],
+  "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9": [
+   "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+   "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester"
+  ],
+  "2026-11-03.ca-santa-clara-santa-clara.mayor": [
+   "2026-11-03.ca-santa-clara-santa-clara.mayor.mike-wiltberger",
+   "2026-11-03.ca-santa-clara-santa-clara.mayor.armando-gary-ferraris",
+   "2026-11-03.ca-santa-clara-santa-clara.mayor.karen-hardy",
+   "2026-11-03.ca-santa-clara-santa-clara.mayor.david-kertes",
+   "2026-11-03.ca-santa-clara-santa-clara.mayor.kathy-watanabe",
+   "2026-11-03.ca-santa-clara-santa-clara.mayor.kevin-park"
+  ],
+  "2026-11-03.ca-santa-clara-santa-clara-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-santa-clara-santa-clara-council-district-2.city-council-member-district-2.kimberley-williams",
+   "2026-11-03.ca-santa-clara-santa-clara-council-district-2.city-council-member-district-2.yvonne-inciarte"
+  ],
+  "2026-11-03.ca-santa-clara-santa-clara-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-santa-clara-santa-clara-council-district-3.city-council-member-district-3.kyle-madej",
+   "2026-11-03.ca-santa-clara-santa-clara-council-district-3.city-council-member-district-3.eric-crutchlow"
+  ],
+  "2026-11-03.ca-santa-clara-saratoga.city-council-member": [
+   "2026-11-03.ca-santa-clara-saratoga.city-council-member.jeri-bromley",
+   "2026-11-03.ca-santa-clara-saratoga.city-council-member.ping-li",
+   "2026-11-03.ca-santa-clara-saratoga.city-council-member.bill-dalton",
+   "2026-11-03.ca-santa-clara-saratoga.city-council-member.glenn-k-hendricks"
+  ],
+  "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell"
+  ],
+  "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan"
+  ],
+  "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger"
+  ],
+  "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-1": [
+   "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-1.jimmy-forbis",
+   "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-1.john-l-varela"
+  ],
+  "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-6": [
+   "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-6.phuong-tran-nguyen",
+   "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-6.milan-balinton"
+  ],
+  "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-7": [
+   "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-7.pete-dailey",
+   "2026-11-03.ca-santa-clara-spd-santa-clara-valley-water-district.director-district-7.rebecca-eisenberg"
+  ],
+  "2026-11-03.ca-santa-clara-spd-cupertino-sanitary-district.director": [
+   "2026-11-03.ca-santa-clara-spd-cupertino-sanitary-district.director.patrick-shupui-kwok",
+   "2026-11-03.ca-santa-clara-spd-cupertino-sanitary-district.director.taghi-saadati",
+   "2026-11-03.ca-santa-clara-spd-cupertino-sanitary-district.director.gilbert-wong"
+  ],
+  "2026-11-03.ca-santa-clara-spd-midpeninsula-regional-open-space-district.director-ward-1": [
+   "2026-11-03.ca-santa-clara-spd-midpeninsula-regional-open-space-district.director-ward-1.craig-gleason",
+   "2026-11-03.ca-santa-clara-spd-midpeninsula-regional-open-space-district.director-ward-1.tina-marie-to"
+  ],
+  "2026-11-03.ca-solano-supervisor-district-4.supervisor-district-4": [
+   "2026-11-03.ca-solano-supervisor-district-4.supervisor-district-4.michael-mike-silva",
+   "2026-11-03.ca-solano-supervisor-district-4.supervisor-district-4.john-carli"
+  ],
+  "2026-11-03.ca-solano-sd-solano-county-board-of-education.county-board-of-education-member-trustee-area-6": [
+   "2026-11-03.ca-solano-sd-solano-county-board-of-education.county-board-of-education-member-trustee-area-6.tamika-hamilton",
+   "2026-11-03.ca-solano-sd-solano-county-board-of-education.county-board-of-education-member-trustee-area-6.kathryn-kedarisetty"
+  ],
+  "2026-11-03.ca-solano-ccd-solano-community-college-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-solano-ccd-solano-community-college-district.governing-board-member-trustee-area-4.denis-honeychurch",
+   "2026-11-03.ca-solano-ccd-solano-community-college-district.governing-board-member-trustee-area-4.tony-yang"
+  ],
+  "2026-11-03.ca-san-joaquin-ccd-san-joaquin-delta-community-college-district.governing-board-member-trustee-area-4": [
+   "2026-11-03.ca-san-joaquin-ccd-san-joaquin-delta-community-college-district.governing-board-member-trustee-area-4.charles-r-jennings",
+   "2026-11-03.ca-san-joaquin-ccd-san-joaquin-delta-community-college-district.governing-board-member-trustee-area-4.tony-shah"
+  ],
+  "2026-11-03.ca-solano-sd-benicia-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-solano-sd-benicia-unified-school-district.governing-board-member-trustee-area-1.dan-smith",
+   "2026-11-03.ca-solano-sd-benicia-unified-school-district.governing-board-member-trustee-area-1.barbara-jones"
+  ],
+  "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.jewel-fink",
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.julian-y-cuevas",
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.john-gabby",
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.phil-lockwood",
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.michael-ceremello-jr",
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.cheryl-sommers",
+   "2026-11-03.ca-solano-sd-dixon-unified-school-district.governing-board-member.michael-monson"
+  ],
+  "2026-11-03.ca-solano-sd-river-delta-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-solano-sd-river-delta-unified-school-district.governing-board-member-trustee-area-1.dan-mahoney",
+   "2026-11-03.ca-solano-sd-river-delta-unified-school-district.governing-board-member-trustee-area-1.michael-a-mimiaga"
+  ],
+  "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-1.clarence-john-martin-jr",
+   "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-1.judith-lerner",
+   "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-1.reba-jill-brown"
+  ],
+  "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-3": [
+   "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-3.rizal-mr-riz-v-aliga",
+   "2026-11-03.ca-solano-sd-vallejo-city-unified-school-district.governing-board-member-trustee-area-3.irene-reynolds"
+  ],
+  "2026-11-03.ca-solano-benicia.city-council-member": [
+   "2026-11-03.ca-solano-benicia.city-council-member.terry-scott",
+   "2026-11-03.ca-solano-benicia.city-council-member.kari-birdseye",
+   "2026-11-03.ca-solano-benicia.city-council-member.justin-zollars"
+  ],
+  "2026-11-03.ca-solano-dixon-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-solano-dixon-council-district-1.city-council-member-district-1.jim-ernest",
+   "2026-11-03.ca-solano-dixon-council-district-1.city-council-member-district-1.emily-schroeder"
+  ],
+  "2026-11-03.ca-solano-dixon-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-solano-dixon-council-district-2.city-council-member-district-2.thom-bogue",
+   "2026-11-03.ca-solano-dixon-council-district-2.city-council-member-district-2.christina-m-cerna"
+  ],
+  "2026-11-03.ca-solano-dixon.city-clerk": [
+   "2026-11-03.ca-solano-dixon.city-clerk.lupe-ruiz"
+  ],
+  "2026-11-03.ca-solano-fairfield.mayor": [
+   "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "2026-11-03.ca-solano-fairfield.mayor.scott-tonnesen",
+   "2026-11-03.ca-solano-fairfield.mayor.nikila-walker-gibson",
+   "2026-11-03.ca-solano-fairfield.mayor.george-kennedy"
+  ],
+  "2026-11-03.ca-solano-fairfield-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-solano-fairfield-council-district-1.city-council-member-district-1.k-patrice-williams",
+   "2026-11-03.ca-solano-fairfield-council-district-1.city-council-member-district-1.nora-dizon"
+  ],
+  "2026-11-03.ca-solano-fairfield-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-solano-fairfield-council-district-3.city-council-member-district-3.doug-carr",
+   "2026-11-03.ca-solano-fairfield-council-district-3.city-council-member-district-3.robert-marin",
+   "2026-11-03.ca-solano-fairfield-council-district-3.city-council-member-district-3.susan-bush"
+  ],
+  "2026-11-03.ca-solano-fairfield-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-solano-fairfield-council-district-5.city-council-member-district-5.doriss-panduro",
+   "2026-11-03.ca-solano-fairfield-council-district-5.city-council-member-district-5.lynda-davis-robinson"
+  ],
+  "2026-11-03.ca-solano-rio-vista.city-council-member": [
+   "2026-11-03.ca-solano-rio-vista.city-council-member.rick-dolk",
+   "2026-11-03.ca-solano-rio-vista.city-council-member.robert-butler",
+   "2026-11-03.ca-solano-rio-vista.city-council-member.gloria-j-thibeaux",
+   "2026-11-03.ca-solano-rio-vista.city-council-member.leslie-codling-dichet"
+  ],
+  "2026-11-03.ca-solano-suisun-city.mayor": [
+   "2026-11-03.ca-solano-suisun-city.mayor.alma-hernandez",
+   "2026-11-03.ca-solano-suisun-city.mayor.chauncey-banks",
+   "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+   "2026-11-03.ca-solano-suisun-city.mayor.lilia-dardon",
+   "2026-11-03.ca-solano-suisun-city.mayor.amit-pal"
+  ],
+  "2026-11-03.ca-solano-suisun-city.city-council-member": [
+   "2026-11-03.ca-solano-suisun-city.city-council-member.princess-washington",
+   "2026-11-03.ca-solano-suisun-city.city-council-member.jenalee-dawson",
+   "2026-11-03.ca-solano-suisun-city.city-council-member.xenia-tom",
+   "2026-11-03.ca-solano-suisun-city.city-council-member.katrina-garcia"
+  ],
+  "2026-11-03.ca-solano-vacaville.mayor": [
+   "2026-11-03.ca-solano-vacaville.mayor.sarah-chapman",
+   "2026-11-03.ca-solano-vacaville.mayor.roy-stockton"
+  ],
+  "2026-11-03.ca-solano-vacaville-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-solano-vacaville-council-district-2.city-council-member-district-2.gregory-ritchie-ii",
+   "2026-11-03.ca-solano-vacaville-council-district-2.city-council-member-district-2.tom-chalk"
+  ],
+  "2026-11-03.ca-solano-vacaville-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-solano-vacaville-council-district-4.city-council-member-district-4.john-vogel",
+   "2026-11-03.ca-solano-vacaville-council-district-4.city-council-member-district-4.davonna-finley"
+  ],
+  "2026-11-03.ca-solano-vacaville-council-district-6.city-council-member-district-6": [
+   "2026-11-03.ca-solano-vacaville-council-district-6.city-council-member-district-6.jeanette-wylie",
+   "2026-11-03.ca-solano-vacaville-council-district-6.city-council-member-district-6.kevin-puett"
+  ],
+  "2026-11-03.ca-solano-vallejo-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-solano-vallejo-council-district-2.city-council-member-district-2.diosdado-jr-matulac"
+  ],
+  "2026-11-03.ca-solano-vallejo-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-solano-vallejo-council-district-4.city-council-member-district-4.charles-palmares",
+   "2026-11-03.ca-solano-vallejo-council-district-4.city-council-member-district-4.brianna-rogers",
+   "2026-11-03.ca-solano-vallejo-council-district-4.city-council-member-district-4.chris-platzer"
+  ],
+  "2026-11-03.ca-solano-vallejo-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-solano-vallejo-council-district-5.city-council-member-district-5.tara-beasley-stansberry",
+   "2026-11-03.ca-solano-vallejo-council-district-5.city-council-member-district-5.tanya-hall",
+   "2026-11-03.ca-solano-vallejo-council-district-5.city-council-member-district-5.rebekah-truemper"
+  ],
+  "2026-11-03.ca-sonoma-supervisor-district-2.supervisor-2nd-district": [
+   "2026-11-03.ca-sonoma-supervisor-district-2.supervisor-2nd-district.joanna-paun",
+   "2026-11-03.ca-sonoma-supervisor-district-2.supervisor-2nd-district.sylvia-lemus"
+  ],
+  "2026-11-03.ca-sonoma-supervisor-district-4.supervisor-4th-district": [
+   "2026-11-03.ca-sonoma-supervisor-district-4.supervisor-4th-district.tom-schwedhelm",
+   "2026-11-03.ca-sonoma-supervisor-district-4.supervisor-4th-district.melanie-bagby"
+  ],
+  "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.governing-board-member-trustee-area-5.leticia-contreras",
+   "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.governing-board-member-trustee-area-5.dorothy-battenfeld"
+  ],
+  "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.governing-board-member-trustee-area-7": [
+   "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.governing-board-member-trustee-area-7.kateliyn-rutkowski",
+   "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.governing-board-member-trustee-area-7.michael-valdovinos"
+  ],
+  "2026-11-03.ca-sonoma-sd-cotati-rohnert-park-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-sonoma-sd-cotati-rohnert-park-unified-school-district.governing-board-member-trustee-area-1.angela-marie-scardina",
+   "2026-11-03.ca-sonoma-sd-cotati-rohnert-park-unified-school-district.governing-board-member-trustee-area-1.leff-brown",
+   "2026-11-03.ca-sonoma-sd-cotati-rohnert-park-unified-school-district.governing-board-member-trustee-area-1.nathan-toister"
+  ],
+  "2026-11-03.ca-sonoma-sd-sonoma-valley-unified-school-district.governing-board-member-trustee-area-1": [
+   "2026-11-03.ca-sonoma-sd-sonoma-valley-unified-school-district.governing-board-member-trustee-area-1.amanda-radzik",
+   "2026-11-03.ca-sonoma-sd-sonoma-valley-unified-school-district.governing-board-member-trustee-area-1.susan-joyce-mcintosh"
+  ],
+  "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.governing-board-member": [
+   "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.governing-board-member.rich-carnation",
+   "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.governing-board-member.stephanie-ahmad",
+   "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.governing-board-member.patricia-trish-donoho",
+   "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.governing-board-member.michael-brown"
+  ],
+  "2026-11-03.ca-sonoma-sd-city-of-santa-rosa-high-school-district.governing-board-member-trustee-area-2": [
+   "2026-11-03.ca-sonoma-sd-city-of-santa-rosa-high-school-district.governing-board-member-trustee-area-2.shaun-a-du-fosee",
+   "2026-11-03.ca-sonoma-sd-city-of-santa-rosa-high-school-district.governing-board-member-trustee-area-2.teresa-a-medina"
+  ],
+  "2026-11-03.ca-sonoma-sd-petaluma-joint-union-high-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-sonoma-sd-petaluma-joint-union-high-school-district.governing-board-member-trustee-area-5.john-la-bare",
+   "2026-11-03.ca-sonoma-sd-petaluma-joint-union-high-school-district.governing-board-member-trustee-area-5.sarah-seitchik-sebastian"
+  ],
+  "2026-11-03.ca-sonoma-sd-west-sonoma-county-union-high-school-district.governing-board-member-trustee-area-5": [
+   "2026-11-03.ca-sonoma-sd-west-sonoma-county-union-high-school-district.governing-board-member-trustee-area-5.dani-sheehan-meyer",
+   "2026-11-03.ca-sonoma-sd-west-sonoma-county-union-high-school-district.governing-board-member-trustee-area-5.lewis-buchner"
+  ],
+  "2026-11-03.ca-sonoma-sd-harmony-union-school-district.governing-board-member": [
+   "2026-11-03.ca-sonoma-sd-harmony-union-school-district.governing-board-member.jacquelyn-wilson",
+   "2026-11-03.ca-sonoma-sd-harmony-union-school-district.governing-board-member.michael-podshadley",
+   "2026-11-03.ca-sonoma-sd-harmony-union-school-district.governing-board-member.tiffany-danielle-monroe",
+   "2026-11-03.ca-sonoma-sd-harmony-union-school-district.governing-board-member.jasmin-tokatlian"
+  ],
+  "2026-11-03.ca-sonoma-sd-monte-rio-union-school-district.governing-board-member-full-term": [
+   "2026-11-03.ca-sonoma-sd-monte-rio-union-school-district.governing-board-member-full-term.mike-wilder",
+   "2026-11-03.ca-sonoma-sd-monte-rio-union-school-district.governing-board-member-full-term.craig-baker",
+   "2026-11-03.ca-sonoma-sd-monte-rio-union-school-district.governing-board-member-full-term.melissa-frost"
+  ],
+  "2026-11-03.ca-sonoma-sd-twin-hills-union-school-district.governing-board-member": [
+   "2026-11-03.ca-sonoma-sd-twin-hills-union-school-district.governing-board-member.rebecca-houghton",
+   "2026-11-03.ca-sonoma-sd-twin-hills-union-school-district.governing-board-member.jeff-harding",
+   "2026-11-03.ca-sonoma-sd-twin-hills-union-school-district.governing-board-member.anna-maria-guzman",
+   "2026-11-03.ca-sonoma-sd-twin-hills-union-school-district.governing-board-member.john-moise"
+  ],
+  "2026-11-03.ca-sonoma-sd-two-rock-union-school-district.governing-board-member": [
+   "2026-11-03.ca-sonoma-sd-two-rock-union-school-district.governing-board-member.nicolas-noyes",
+   "2026-11-03.ca-sonoma-sd-two-rock-union-school-district.governing-board-member.joel-ruiz",
+   "2026-11-03.ca-sonoma-sd-two-rock-union-school-district.governing-board-member.laura-b-gutierrez",
+   "2026-11-03.ca-sonoma-sd-two-rock-union-school-district.governing-board-member.mauricio-gutierrez",
+   "2026-11-03.ca-sonoma-sd-two-rock-union-school-district.governing-board-member.john-c-martin"
+  ],
+  "2026-11-03.ca-sonoma-sd-waugh-school-district.governing-board-member": [
+   "2026-11-03.ca-sonoma-sd-waugh-school-district.governing-board-member.christine-d-pieper",
+   "2026-11-03.ca-sonoma-sd-waugh-school-district.governing-board-member.dylan-lloyd",
+   "2026-11-03.ca-sonoma-sd-waugh-school-district.governing-board-member.denise-bugbee",
+   "2026-11-03.ca-sonoma-sd-waugh-school-district.governing-board-member.kevin-gushue"
+  ],
+  "2026-11-03.ca-sonoma-cloverdale.city-council-member": [
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.steve-kawa",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.kimberly-kern",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.will-carter",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.chris-parker",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.jenn-neylon",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.colleen-shields",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.kelly-spagnola",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.marjorie-a-morgenstern",
+   "2026-11-03.ca-sonoma-cloverdale.city-council-member.andr-s-marquez"
+  ],
+  "2026-11-03.ca-sonoma-cloverdale.city-treasurer": [],
+  "2026-11-03.ca-sonoma-healdsburg-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-sonoma-healdsburg-council-district-2.city-council-member-district-2.alex-wood",
+   "2026-11-03.ca-sonoma-healdsburg-council-district-2.city-council-member-district-2.scott-pratt",
+   "2026-11-03.ca-sonoma-healdsburg-council-district-2.city-council-member-district-2.mathew-lopez"
+  ],
+  "2026-11-03.ca-sonoma-healdsburg-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-sonoma-healdsburg-council-district-4.city-council-member-district-4.chris-herrod"
+  ],
+  "2026-11-03.ca-sonoma-petaluma.mayor": [
+   "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda"
+  ],
+  "2026-11-03.ca-sonoma-petaluma-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-sonoma-petaluma-council-district-1.city-council-member-district-1.janice-cader-thompson",
+   "2026-11-03.ca-sonoma-petaluma-council-district-1.city-council-member-district-1.alan-w-lapierre",
+   "2026-11-03.ca-sonoma-petaluma-council-district-1.city-council-member-district-1.nate-martin"
+  ],
+  "2026-11-03.ca-sonoma-petaluma-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-sonoma-petaluma-council-district-2.city-council-member-district-2.brent-newell",
+   "2026-11-03.ca-sonoma-petaluma-council-district-2.city-council-member-district-2.john-shribbs"
+  ],
+  "2026-11-03.ca-sonoma-petaluma-council-district-3.city-council-member-district-3": [
+   "2026-11-03.ca-sonoma-petaluma-council-district-3.city-council-member-district-3.karen-nau",
+   "2026-11-03.ca-sonoma-petaluma-council-district-3.city-council-member-district-3.eric-vazquez"
+  ],
+  "2026-11-03.ca-sonoma-rohnert-park-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-sonoma-rohnert-park-council-district-2.city-council-member-district-2.paul-carey",
+   "2026-11-03.ca-sonoma-rohnert-park-council-district-2.city-council-member-district-2.michael-desimone",
+   "2026-11-03.ca-sonoma-rohnert-park-council-district-2.city-council-member-district-2.linda-khoury-tams"
+  ],
+  "2026-11-03.ca-sonoma-rohnert-park-council-district-5.city-council-member-district-5": [
+   "2026-11-03.ca-sonoma-rohnert-park-council-district-5.city-council-member-district-5.susan-hollingsworth-adams",
+   "2026-11-03.ca-sonoma-rohnert-park-council-district-5.city-council-member-district-5.arlene-g-linder",
+   "2026-11-03.ca-sonoma-rohnert-park-council-district-5.city-council-member-district-5.mauricio-barreto"
+  ],
+  "2026-11-03.ca-sonoma-santa-rosa-council-district-2.city-council-member-district-2": [
+   "2026-11-03.ca-sonoma-santa-rosa-council-district-2.city-council-member-district-2.mark-stapp"
+  ],
+  "2026-11-03.ca-sonoma-santa-rosa-council-district-4.city-council-member-district-4": [
+   "2026-11-03.ca-sonoma-santa-rosa-council-district-4.city-council-member-district-4.melanie-jones-carter",
+   "2026-11-03.ca-sonoma-santa-rosa-council-district-4.city-council-member-district-4.terry-sanders"
+  ],
+  "2026-11-03.ca-sonoma-santa-rosa-council-district-6.city-council-member-district-6": [
+   "2026-11-03.ca-sonoma-santa-rosa-council-district-6.city-council-member-district-6.jeff-okrepkie"
+  ],
+  "2026-11-03.ca-sonoma-sebastopol.city-council-member": [
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.ian-hoff",
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.james-woodruff",
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.kyreen-jorgensen",
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.brandie-l-solovay",
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.jill-mclewis",
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.sandra-maurer",
+   "2026-11-03.ca-sonoma-sebastopol.city-council-member.erin-mitchell"
+  ],
+  "2026-11-03.ca-sonoma-sonoma-council-district-1.city-council-member-district-1": [
+   "2026-11-03.ca-sonoma-sonoma-council-district-1.city-council-member-district-1.peggy-hutton",
+   "2026-11-03.ca-sonoma-sonoma-council-district-1.city-council-member-district-1.julian-mackie",
+   "2026-11-03.ca-sonoma-sonoma-council-district-1.city-council-member-district-1.michael-l-menefee"
+  ],
+  "2026-11-03.ca-sonoma-windsor.mayor": [
+   "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "2026-11-03.ca-sonoma-windsor.mayor.rick-massell"
+  ],
+  "2026-11-03.ca-sonoma-windsor-council-district-1.town-council-member-district-1": [
+   "2026-11-03.ca-sonoma-windsor-council-district-1.town-council-member-district-1.evan-kubota",
+   "2026-11-03.ca-sonoma-windsor-council-district-1.town-council-member-district-1.gina-fortino-dickson"
+  ],
+  "2026-11-03.ca-sonoma-windsor-council-district-4.town-council-member-district-4": [
+   "2026-11-03.ca-sonoma-windsor-council-district-4.town-council-member-district-4.meredith-rennie"
+  ],
+  "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director": [
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.tara-daniels",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.doug-jones",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.robert-gloeckner",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.david-warburg",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.christina-gibbs",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.steve-e-petrucci",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.domenico-carinalli-jr",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.shannon-j-shaffer-killey",
+   "2026-11-03.ca-sonoma-spd-gold-ridge-fire-protection-district.director.kathleen-molloy-gilbraith"
+  ],
+  "2026-11-03.ca-sonoma-spd-sonoma-county-fire-district.director": [
+   "2026-11-03.ca-sonoma-spd-sonoma-county-fire-district.director.steve-klick",
+   "2026-11-03.ca-sonoma-spd-sonoma-county-fire-district.director.richard-h-alpert",
+   "2026-11-03.ca-sonoma-spd-sonoma-county-fire-district.director.robert-m-briare",
+   "2026-11-03.ca-sonoma-spd-sonoma-county-fire-district.director.gary-so"
   ]
  }
 }

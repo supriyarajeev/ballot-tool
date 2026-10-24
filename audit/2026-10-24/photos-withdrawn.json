@@ -1,0 +1,66 @@
+{
+ "2026-11-03.ca.secretary-of-state.shirley-n-weber": {
+  "src": "assets/candidates/weber.jpg",
+  "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shirley_Weber%2C_California_State_Assembly_%282012%29.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Shirley_Weber,_California_State_Assembly_(2012).jpg",
+  "retrieved": "2026-10-24",
+  "credit": "California State Assembly, 2012. Public domain (PD-CAGov). Via Wikimedia Commons.",
+  "license": "Public domain (PD-CAGov)",
+  "year": "2012",
+  "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+  "identityCheck": "Wikidata Q7498880 (Shirley Weber, Secretary of State of California) uses this file; the Commons description reads \"Assemblymember Shirley Weber\"; compared by eye with her photo in the official voter guide on Oct 24, 2026.",
+  "permission": {
+   "grantedBy": "License on the source file (no request to the candidate was needed)",
+   "date": "2026-10-24",
+   "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo."
+  }
+ },
+ "2026-11-03.ca.secretary-of-state.donald-p-don-wagner": {
+  "src": "assets/candidates/wagner.jpg",
+  "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Donald_P_Wagner.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Donald_P_Wagner.jpg",
+  "retrieved": "2026-10-24",
+  "credit": "California State Assembly Republican Caucus, 2009. Public domain (PD-CAGov). Via Wikimedia Commons.",
+  "license": "Public domain (PD-CAGov)",
+  "year": "2009",
+  "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+  "identityCheck": "Wikidata Q5294972 (Donald P. Wagner, former member of the California State Assembly and mayor of Irvine) uses this file; the Commons description reads \"California Assembly member Donald P. Wagner\"; compared by eye with his photo in the official voter guide on Oct 24, 2026.",
+  "permission": {
+   "grantedBy": "License on the source file (no request to the candidate was needed)",
+   "date": "2026-10-24",
+   "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo."
+  }
+ },
+ "2026-11-03.ca.insurance-commissioner.ben-allen": {
+  "src": "assets/candidates/allen.jpg",
+  "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ben_Allen%2C_2021.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Ben_Allen,_2021.jpg",
+  "retrieved": "2026-10-24",
+  "credit": "California State Senate, 2021. Public domain (PD-CAGov). Via Wikimedia Commons.",
+  "license": "Public domain (PD-CAGov)",
+  "year": "2021",
+  "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+  "identityCheck": "Wikidata Q19816391 (Ben Allen, member of the State Senate of California) uses this file; the Commons description reads \"Portrait of State Senator Ben Allen of the 24th district\"; compared by eye with his photo in the official voter guide on Oct 24, 2026.",
+  "permission": {
+   "grantedBy": "License on the source file (no request to the candidate was needed)",
+   "date": "2026-10-24",
+   "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo."
+  }
+ },
+ "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener": {
+  "src": "assets/candidates/wiener.jpg",
+  "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Member_of_the_California_State_Senate_Scott_Wiener.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Member_of_the_California_State_Senate_Scott_Wiener.jpg",
+  "retrieved": "2026-10-24",
+  "credit": "California State Senate, 2018. Public domain (PD-CAGov). Via Wikimedia Commons.",
+  "license": "Public domain (PD-CAGov)",
+  "year": "2018",
+  "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+  "identityCheck": "Wikidata Q7437504 (Scott Wiener, member of the State Senate of California) uses this file; the Commons source is the Senate District 11 website; his ballot designation is State Senator. The state guide has no photo of him to compare.",
+  "permission": {
+   "grantedBy": "License on the source file (no request to the candidate was needed)",
+   "date": "2026-10-24",
+   "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo."
+  }
+ }
+}

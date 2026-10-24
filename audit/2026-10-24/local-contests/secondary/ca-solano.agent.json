@@ -1,0 +1,1157 @@
+{
+ "county": "ca-solano",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Solano County ROV, 2026 November General Election Notice of Election",
+   "url": "https://www.solanocounty.gov/2026-november-general-election-notice-election",
+   "note": "Dated 7/8/2026; lists contests only (Supervisor D4, county boards of education, colleges, school districts, Cordelia FPD, Solano Irrigation District Div 1 and 5, Rural North Vacaville Water District). Cities not listed."
+  },
+  {
+   "label": "Solano County ROV, Notice of Extensions for Offices on the Nov 3, 2026 Ballot",
+   "url": "https://www.solanocounty.gov/notice-extensions-offices-november-3-2026-ballot",
+   "note": "Dated Aug 7, 2026; offices extended to Aug 12."
+  },
+  {
+   "label": "Solano County ROV, Current Election Information",
+   "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+   "note": "Links to Candidate Filed Log 'FINAL as of 08/20/2026' and VIG PDFs on content.solanocounty.gov, which are robots-blocked and could not be read."
+  },
+  {
+   "label": "Suisun City Notice of Nominees for Public Office",
+   "url": "https://www.suisun.com/files/sharedassets/suisuncity/v/1/government/clerk/documents/election-information/2026-election/2026-notice-of-nominees-for-public-office-2026-published-10-04-2026.pdf",
+   "note": "Dated Sept 29, 2026"
+  },
+  {
+   "label": "Suisun City Candidate Filed Log",
+   "url": "https://www.suisun.com/files/sharedassets/suisuncity/v/1/government/clerk/documents/election-information/2026-election/candidate-filed-log-updated-08-19-2026.pdf",
+   "note": "Updated 08-19-2026"
+  },
+  {
+   "label": "City of Dixon nomination papers filing log",
+   "url": "https://www.cityofdixonca.gov/media/Elections/2026-election/filing-log.pdf",
+   "note": "Updated 8/12/2026 4:35 p.m."
+  },
+  {
+   "label": "City of Dixon candidate log",
+   "url": "https://www.cityofdixonca.gov/media/Elections/2026-election/candidate-log.pdf",
+   "note": "Undated"
+  },
+  {
+   "label": "City of Rio Vista Elections Information",
+   "url": "https://www.riovistacity.com/node/2362",
+   "note": "Lists qualified council candidates"
+  },
+  {
+   "label": "City of Vacaville Election Information",
+   "url": "https://www.cityofvacaville.gov/government/city-clerk/election-information",
+   "note": "Offices only (Mayor, Districts 2, 4, 6); candidate list link not readable"
+  },
+  {
+   "label": "City of Vallejo Candidate Information",
+   "url": "https://cityofvallejo.net/our_city/departments_divisions/city_manager/city_clerk/voting_election_information/candidates",
+   "note": "Offices only (Districts 2, 4, 5); candidate list on myvallejo.com not reachable"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Solano County (Supervisor District 4)",
+  "Benicia",
+  "Dixon",
+  "Fairfield",
+  "Rio Vista",
+  "Suisun City",
+  "Vacaville",
+  "Vallejo",
+  "Solano County Board of Education",
+  "Yolo County Board of Education",
+  "Solano Community College District",
+  "San Joaquin Delta Community College District",
+  "Benicia USD",
+  "Dixon USD",
+  "Fairfield-Suisun USD",
+  "River Delta USD",
+  "Travis USD",
+  "Vacaville USD",
+  "Vallejo City USD",
+  "Winters JUSD",
+  "Cordelia Fire Protection District",
+  "Solano Irrigation District",
+  "Rural North Vacaville Water District"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-solano-supervisor-district-4",
+    "existing": false,
+    "name": "Solano County Board of Supervisors District 4",
+    "type": "supervisor-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Member, Board of Supervisors",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Michael Silva",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Carli",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic, Nomination period still open (undated, Aug 2026); contest listed on county Notice of Election 7/8/2026",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": true,
+   "note": "November runoff from June 2, 2026 primary (open seat, Supervisor John Vasquez not running). Contest confirmed by official Notice of Election; candidate names from news only (Daily Republic: Michael Silva 43.03%, John Carli 34.67% in June; Bay City News calls him Mike Silva, Vacaville councilmember; Carli is Vacaville mayor). Ballot spelling unverified. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-benicia",
+    "existing": true,
+    "name": "City of Benicia",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Terry Scott",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kari Birdseye",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Justin Zollars",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Vallejo Sun election guide (updated Oct 22, 2026)",
+    "url": "https://www.vallejosun.com/special-coverage-november-2026-general-election-in-vallejo-and-benicia/"
+   },
+   "readingsMatched": true,
+   "note": "At-large, top two win. Scott and Birdseye are incumbents (both Vallejo Sun articles agree). Daily Republic Aug 11 editor's note: 'Justin Zollars is challenging the two incumbents.' City clerk page not reachable. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-benicia-unified-school-district",
+    "existing": false,
+    "name": "Benicia Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": [
+     "ca-solano-benicia"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Barbara Jones",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Smith",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Vallejo Sun election guide (updated Oct 22, 2026)",
+    "url": "https://www.vallejosun.com/special-coverage-november-2026-general-election-in-vallejo-and-benicia/"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (Sheri Zada not running). KQED shows designations Barbara Jones 'Retired Teacher', Dan Smith 'Substitute Teacher' (not from official list). Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-dixon-council-district-1",
+    "existing": false,
+    "name": "Dixon City Council District 1",
+    "type": "council-district",
+    "parent": "ca-solano-dixon",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jim Ernest",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Emily Schroeder",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Dixon Nomination Papers filing log (updated 8/12/2026 4:35 p.m., 'Date Qualified' column); cross-read with city candidate log",
+    "url": "https://www.cityofdixonca.gov/media/Elections/2026-election/filing-log.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Both qualified per city elections official. Jim Ernest is the incumbent per Daily Republic. No ballot designations printed."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-dixon-council-district-2",
+    "existing": false,
+    "name": "Dixon City Council District 2",
+    "type": "council-district",
+    "parent": "ca-solano-dixon",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Thom Bogue",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Christina M. Cerna",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Dixon candidate log; cross-read with filing log (updated 8/12/2026)",
+    "url": "https://www.cityofdixonca.gov/media/Elections/2026-election/candidate-log.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Candidate log prints 'Christina M. Cerna'; filing log prints 'Christina Cerna'. Both qualified."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-dixon",
+    "existing": true,
+    "name": "City of Dixon",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Elected City Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Lupe Ruiz",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Dixon filing log (updated 8/12/2026)",
+    "url": "https://www.cityofdixonca.gov/media/Elections/2026-election/filing-log.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Only one qualified candidate (qualified 8/12/2026, extended deadline). Could not confirm whether the city kept this on the ballot or appointed in lieu of election (Elections Code 10229)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-dixon-unified-school-district",
+    "existing": true,
+    "name": "Dixon Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": [
+     "ca-solano-dixon"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jewel Fink",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Julian Y. Cuevas",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Gabby",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Phil Lockwood",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Ceremello Jr.",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cheryl Sommers",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Monson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic, Nomination period still open (Aug 2026); KQED Voter Guide school page",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": true,
+   "note": "At-large, 3 seats. Both readings (Daily Republic, KQED) list the same 7 names. Fink and Cuevas are incumbents per KQED. KQED designations (not official): Gabby 'Parent', Ceremello 'Investigative Journalist', Monson 'Electrician/Parent', Lockwood 'Chaplain/Wellness Coach', Sommers 'Attorney'. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield",
+    "existing": true,
+    "name": "City of Fairfield",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Pam Bertani",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Tonnesen",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Nikila Walker Gibson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic, Nomination period still open (Aug 2026)",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": false,
+   "note": "Open seat (appointed mayor Rick Vaccaro not running). Daily Republic lists Bertani, Tonnesen, Nikila Walker Gibson; GoodParty lists Nikila Gibson, Scott Tonnesen, Pam Bertani and also George Kennedy (Aug 3 Daily Republic said Kennedy 'joined the race'). Final field and Gibson's ballot name unverified. Filing extended to Aug 12 because incumbent did not file. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield-council-district-1",
+    "existing": false,
+    "name": "Fairfield City Council District 1",
+    "type": "council-district",
+    "parent": "ca-solano-fairfield",
+    "areas": []
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "K. Patrice Williams",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Nora Dizon",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic (Aug 2026) and GoodParty.org candidate list",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": true,
+   "note": "Williams is incumbent. GoodParty shows 'K. Williams'. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield-council-district-3",
+    "existing": false,
+    "name": "Fairfield City Council District 3",
+    "type": "council-district",
+    "parent": "ca-solano-fairfield",
+    "areas": []
+   },
+   "office": "Member, City Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Doug Carr",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Marin",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic (Aug 2026) and GoodParty.org candidate list",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": true,
+   "note": "Carr is incumbent. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield-council-district-5",
+    "existing": false,
+    "name": "Fairfield City Council District 5",
+    "type": "council-district",
+    "parent": "ca-solano-fairfield",
+    "areas": []
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Doriss Panduro",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Lynda Davis-Robinson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic (Aug 2026) and GoodParty.org candidate list",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": true,
+   "note": "Panduro is incumbent. Daily Republic Aug 11 first listed Panduro as unopposed, then an editor's note says 'Lynda Davis-Robinson did file for District 5'; GoodParty also lists Davis-Robinson for District 5. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-rio-vista",
+    "existing": true,
+    "name": "City of Rio Vista",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robert Butler",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Leslie Codling-Dichet",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rick Dolk",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gloria Thibeaux",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Rio Vista Elections Information page (candidates qualified for Nov 3, 2026)",
+    "url": "https://www.riovistacity.com/node/2362"
+   },
+   "readingsMatched": false,
+   "note": "City page lists all four as 'Qualified'; Dolk is incumbent. Second official reading (printable PDF) failed to load; Daily Republic (Aug) listed Dolk, Butler and 'Gloria J. Thibeaux' but not Codling-Dichet (likely filed during Aug 12 extension). No designations printed."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-suisun-city",
+    "existing": true,
+    "name": "City of Suisun City",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Alma Hernandez",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Amit Pal",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Jefferson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Lilia Dardon",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chauncey Banks",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Suisun City Notice of Nominees for Public Office, dated Sept 29, 2026 ('Vote for One'); cross-read with Candidate Filed Log updated 08-19-2026",
+    "url": "https://www.suisun.com/files/sharedassets/suisuncity/v/1/government/clerk/documents/election-information/2026-election/2026-notice-of-nominees-for-public-office-2026-published-10-04-2026.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Same 5 names in both official city documents. Alma Hernandez is incumbent. No designations printed. City publishes compiled candidate statements (not per-candidate): https://www.suisun.com/files/sharedassets/suisuncity/v/1/government/clerk/documents/election-information/2026-election/candidate-statments/compiled-candidate-statements.pdf"
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-suisun-city",
+    "existing": true,
+    "name": "City of Suisun City",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Member of the City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Princess Washington",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jenalee Dawson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Katrina Garcia",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Xenia Tom",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Suisun City Notice of Nominees for Public Office, dated Sept 29, 2026 ('Vote for no more than Two'); cross-read with Candidate Filed Log",
+    "url": "https://www.suisun.com/files/sharedassets/suisuncity/v/1/government/clerk/documents/election-information/2026-election/2026-notice-of-nominees-for-public-office-2026-published-10-04-2026.pdf"
+   },
+   "readingsMatched": true,
+   "note": "At-large. Washington and Dawson are incumbents per filed log. No designations printed. Compiled statements: https://www.suisun.com/files/sharedassets/suisuncity/v/1/government/clerk/documents/election-information/2026-election/candidate-statments/compiled-candidate-statements.pdf"
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville",
+    "existing": true,
+    "name": "City of Vacaville",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Sarah Chapman",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Roy Stockton",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "TheBallotBook Vacaville candidates; PlayPotus Vacaville guide",
+    "url": "https://theballotbook.com/jurisdictions/981/candidates"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (Mayor John Carli in supervisor runoff). Two secondary sources agree on two names, but a Daily Republic headline reads '3-candidate race to determine next Vacaville mayor' (article not retrievable), so a third candidate may exist. City candidate list link not readable. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville-council-district-2",
+    "existing": false,
+    "name": "Vacaville City Council District 2",
+    "type": "council-district",
+    "parent": "ca-solano-vacaville",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Gregory Ritchie II",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tom Chalk",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "TheBallotBook / PlayPotus Vacaville candidate lists",
+    "url": "https://theballotbook.com/jurisdictions/981/candidates"
+   },
+   "readingsMatched": true,
+   "note": "Ritchie is incumbent. GoodParty shows 'Gregory Ritchie'; Daily Republic shows 'Tony Chalk' once and 'Tom Chalk' once; spellings unverified. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville-council-district-4",
+    "existing": false,
+    "name": "Vacaville City Council District 4",
+    "type": "council-district",
+    "parent": "ca-solano-vacaville",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Davonna Finley",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Vogel",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "TheBallotBook / PlayPotus Vacaville candidate lists",
+    "url": "https://theballotbook.com/jurisdictions/981/candidates"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (filing extended to Aug 12). Names from TheBallotBook and PlayPotus only. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville-council-district-6",
+    "existing": false,
+    "name": "Vacaville City Council District 6",
+    "type": "council-district",
+    "parent": "ca-solano-vacaville",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 6",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jeanette Wylie",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Puett",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "TheBallotBook / PlayPotus Vacaville candidate lists",
+    "url": "https://theballotbook.com/jurisdictions/981/candidates"
+   },
+   "readingsMatched": true,
+   "note": "Wylie is incumbent. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vallejo-council-district-4",
+    "existing": false,
+    "name": "Vallejo City Council District 4",
+    "type": "council-district",
+    "parent": "ca-solano-vallejo",
+    "areas": []
+   },
+   "office": "Member, City Council",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Charles Palmares",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brianna Rogers",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Platzer",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Vallejo Sun election guide (updated Oct 22, 2026); cross-read with Vallejo Sun Aug 13, 2026 article",
+    "url": "https://www.vallejosun.com/special-coverage-november-2026-general-election-in-vallejo-and-benicia/"
+   },
+   "readingsMatched": true,
+   "note": "Palmares is incumbent. Roxann Reyes pulled papers in Aug but is not in either Vallejo Sun list. City list at myvallejo.com not reachable. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vallejo-council-district-5",
+    "existing": false,
+    "name": "Vallejo City Council District 5",
+    "type": "council-district",
+    "parent": "ca-solano-vallejo",
+    "areas": []
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tara Beasley-Stansberry",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tanya Hall",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rebekah Truemper",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Vallejo Sun election guide (updated Oct 22, 2026); cross-read with Vallejo Sun Aug 13, 2026 article",
+    "url": "https://www.vallejosun.com/special-coverage-november-2026-general-election-in-vallejo-and-benicia/"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (filing extended to Aug 12). City list at myvallejo.com not reachable. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-vallejo-city-unified-school-district",
+    "existing": false,
+    "name": "Vallejo City Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": [
+     "ca-solano-vallejo"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Reba Jill Brown",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Judith Lerner",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Clarence John Martin Jr.",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Vallejo Sun election guide; Vallejo Sun Aug 13 article; Daily Republic",
+    "url": "https://www.vallejosun.com/special-coverage-november-2026-general-election-in-vallejo-and-benicia/"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (Carlos Flores not running). Vallejo Sun guide prints \"Reba 'Jill' Brown\" and 'Clarence Martin'; Aug article and Daily Republic print 'Reba Jill Brown', 'Clarence John Martin Jr.'. KQED designations (unofficial): Lerner 'Retired Teacher', Martin 'Business Owner', Brown 'Tax Preparer'. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-vallejo-city-unified-school-district",
+    "existing": false,
+    "name": "Vallejo City Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": [
+     "ca-solano-vallejo"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Rizal Aliga",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Irene Reynolds",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Vallejo Sun election guide; Vallejo Sun Aug 13 article; Daily Republic",
+    "url": "https://www.vallejosun.com/special-coverage-november-2026-general-election-in-vallejo-and-benicia/"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (Glenn Amboy not running). Vallejo Sun Aug article prints 'Rizal \"Riz\" Verder Aliga'. KQED designations (unofficial): Reynolds 'Small Business Owner', Aliga 'Tennis Coach / Educator'. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-river-delta-unified-school-district",
+    "existing": false,
+    "name": "River Delta Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": [
+     "ca-solano-rio-vista"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Dan Mahoney",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael A Mimiaga",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "KQED Voter Guide school page",
+    "url": "https://www.kqed.org/voterguide/solano/school"
+   },
+   "readingsMatched": false,
+   "note": "KQED lists incumbent Dan Mahoney and Michael A Mimiaga ('School Transportation Director'); Daily Republic lists only Mimiaga. TA1 was not on the county extension list, which implies the incumbent filed, and Mimiaga was not in Daily Republic's unopposed list, so contested is likely but unverified. Multi-county district (Solano/Sacramento/Yolo). Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-solano-county-board-of-education",
+    "existing": false,
+    "name": "Solano County Board of Education",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Member, County Board of Education",
+   "district": "Trustee Area 6",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tamika Hamilton",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kathryn Kedarisetty",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic (Aug 2026); KQED Voter Guide school page",
+    "url": "https://www.dailyrepublic.com/news/nomination-period-still-open-for-nearly-half-of-offices-up-for-election/article_0407902c-ce8c-489e-a870-25ffe4604c4f.html"
+   },
+   "readingsMatched": true,
+   "note": "Open seat (filing extended to Aug 12; incumbent Ginger Dunne did not file, though KQED/BallotReady still list her). KQED designations (unofficial): Kedarisetty 'Elementary School Teacher', Hamilton 'Retired USAF Sergeant'. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-ccd-solano-community-college-district",
+    "existing": false,
+    "name": "Solano Community College District",
+    "type": "community-college-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Denis Honeychurch",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Yang",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic, School, special district Nov. 3 candidates emerge (Aug 3, 2026) and Nomination period still open",
+    "url": "https://www.dailyrepublic.com/news/school-special-district-nov-3-candidates-emerge/article_df7945e6-3224-4f91-9d65-d73d1d430df3.html"
+   },
+   "readingsMatched": true,
+   "note": "Honeychurch is incumbent. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-joaquin-ccd-san-joaquin-delta-community-college-district",
+    "existing": false,
+    "name": "San Joaquin Delta Community College District",
+    "type": "community-college-district",
+    "parent": "ca-san-joaquin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Charles R. Jennings",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Shah",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Daily Republic (Aug 3, 2026 and Aug 2026)",
+    "url": "https://www.dailyrepublic.com/news/school-special-district-nov-3-candidates-emerge/article_df7945e6-3224-4f91-9d65-d73d1d430df3.html"
+   },
+   "readingsMatched": true,
+   "note": "Contest listed on Solano Notice of Election (San Joaquin County is lead county). Jennings is incumbent. Official Solano County Candidate Filed Log (content.solanocounty.gov) could not be read (robots-blocked), so names, spellings and designations are not verified against the county list."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Vacaville Unified School District",
+   "office": "Governing Board Member, Trustee Areas 1, 3, 5 (Nancy Dunn, John Jansen, Santiago Serrato)",
+   "reason": "unopposed incumbents receive new terms without election (news report; official appointment record not found)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Cordelia Fire Protection District",
+   "office": "Director, 3 seats (Mark Giugni, Jim Frische, Dave Carpenter)",
+   "reason": "unopposed incumbents receive new terms without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Solano Irrigation District",
+   "office": "Director, Division 1 (John D. Kluge) and Division 5 (Derrick Lum)",
+   "reason": "unopposed incumbents receive new terms without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Solano County Board of Education",
+   "office": "Trustee Area 3 (Dana Dean) and Trustee Area 4 (Teresa Lavell)",
+   "reason": "unopposed incumbents receive new terms without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Yolo County Board of Education",
+   "office": "Trustee Area 2 (Melissa Moreno) and Trustee Area 5 (Julian Munoz)",
+   "reason": "unopposed incumbents receive new terms without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Solano Community College District",
+   "office": "Trustee Areas 1 (Karimah Karah), 2 (Annie M. Young), 6 (Amber M. Cargo-Reed)",
+   "reason": "unopposed incumbents receive new terms without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Benicia Unified School District",
+   "office": "Trustee Area 5 (Amy Hirsh)",
+   "reason": "unopposed incumbent receives new term without election (news report); Vallejo Sun says two Benicia board races are uncontested",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Fairfield-Suisun Unified School District",
+   "office": "Trustee Area 7 (Kai Eusebio)",
+   "reason": "unopposed incumbent receives new term without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Winters Joint Unified School District",
+   "office": "Trustee Area 2 (Carrie Green) and Trustee Area 3 (Joedy Michael)",
+   "reason": "unopposed incumbents receive new terms without election (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Vallejo City Unified School District",
+   "office": "Trustee Area 5 (John Fox)",
+   "reason": "unopposed incumbent; Daily Republic says new term without election, Vallejo Sun only says 'running unopposed'. Not officially confirmed.",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "City of Vallejo",
+   "office": "Council District 2 (Diosdado \"JR\" Matulac)",
+   "reason": "unopposed incumbent; Daily Republic lists him among incumbents getting new terms without facing an election (it labels the seat District 1, but the city lists District 2). Vallejo Sun only says 'running unopposed'. Not officially confirmed.",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  },
+  {
+   "jurisdiction": "Travis Unified School District",
+   "office": "Trustee Area 1",
+   "reason": "no candidates filed for vacant seat; will be filled by appointment by the Board of Trustees (news report)",
+   "source": "https://www.dailyrepublic.com/news/host-of-incumbents-get-free-passes-into-new-terms/article_6bce3660-cdef-4055-a5c8-f33c268e8fdd.html"
+  }
+ ],
+ "unavailable": [
+  "Official Solano County Candidate Filed Log (FINAL 08/20/2026), Results of Randomized Alphabet Drawing and county Voter Information Guides are hosted on content.solanocounty.gov, which blocks automated fetching (robots). Ballot designations, exact ballot spellings and candidate statement URLs could not be verified for any county-administered contest.",
+  "Fairfield-Suisun USD Trustee Area 4 (Tom Ewen filed) and Trustee Area 5 (MaryDelores Wilson filed): filing extended to Aug 12 (incumbents Craig Wilson, Jack Flynn did not file); final field and whether on ballot or appointed in lieu unknown.",
+  "Benicia USD Trustee Area 4 (Erin Fernandez filed, extension to Aug 12): Vallejo Sun says it is uncontested; whether appointed in lieu not confirmed.",
+  "River Delta USD Trustee Area 3 and Winters JUSD Trustee Area 3 (Joedy Michael per Aug 11 Daily Republic): extended filing; final status unknown for RDUSD TA3.",
+  "Travis USD Trustee Area 2 (2 seats; Matthew Bidou and Tierra Ekstrom pulled papers): final field and ballot status unknown.",
+  "Rural North Vacaville Water District (3 seats; Eileen Uthe-Smith, Alan Hanger, Anne Putney reported; on extension list): final field and ballot status unknown.",
+  "Fairfield mayor field (George Kennedy) and Vacaville mayor third candidate unresolved; city candidate pages for Fairfield, Benicia and Vallejo (myvallejo.com) not reachable.",
+  "Fairfield city offices: no Fairfield City Clerk/Treasurer contest identified for 2026."
+ ]
+}

@@ -156,3 +156,178 @@ footer.site { max-width: 860px; margin: 0 auto; padding: 24px 0 48px; border-top
 .stats b .of { font-size: .9rem; color: var(--muted); font-weight: 700; }
 .stats li > span { font-size: .84rem; color: var(--muted); }
 .city-help:empty { display: none; }
+
+/* Beta notice: one compact line under the top bar, using the existing warning tokens. */
+.beta { max-width: 860px; margin: 10px auto 0; display: flex; gap: 10px; align-items: baseline; padding: 8px 12px; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); font-size: .86rem; color: var(--muted); }
+.beta p { max-width: none; }
+.beta b { color: var(--ink); }
+.beta-tag { flex: none; font-family: var(--f-display); font-weight: 800; font-size: .72rem; letter-spacing: .08em; padding: 2px 8px; border-radius: 999px; background: var(--warn-soft); color: var(--warn); }
+
+/* ---------- Visual upgrade (Oct 24, 2026): map hero, key dates, tool steps, coverage bars, evidence cues ---------- */
+:root { --water: #e4edf8; --land: #e9edf2; --map-fill: #cddcf2; --map-hover: #a9c2ea; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --water: #13213a; --land: #1c2636; --map-fill: #2a4470; --map-hover: #3b5f9a; } }
+:root[data-theme="dark"] { --water: #13213a; --land: #1c2636; --map-fill: #2a4470; --map-hover: #3b5f9a; }
+
+.ico { width: 1.15em; height: 1.15em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.2em; margin-right: .45em; }
+.ico.big { width: 30px; height: 30px; margin: 0; color: var(--accent); }
+h2 .ico { color: var(--accent); }
+.btn .ico { margin-right: .5em; }
+
+/* Hero: text and the county map side by side on wide screens. */
+.hero-grid { display: grid; gap: 8px 32px; align-items: center; }
+@media (min-width: 820px) { .hero-grid { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); } }
+.hero-note { display: flex; gap: 2px; align-items: flex-start; max-width: 60ch; }
+.hero-note .ico { margin-top: .15em; color: var(--accent); }
+
+.baymap { margin: 0; display: grid; gap: 8px; justify-items: center; }
+.baymap-svg { width: 100%; max-width: 420px; height: auto; background: var(--water); border-radius: 18px; border: 1px solid var(--rule); }
+.baymap .ctx { fill: var(--land); stroke: var(--rule); stroke-width: 1; }
+.baymap .cty path { fill: var(--map-fill); stroke: var(--accent); stroke-width: 1.2; stroke-linejoin: round; transition: fill .15s; }
+.baymap .cty:hover path { fill: var(--map-hover); }
+.baymap .cty:focus { outline: none; }
+.baymap .cty:focus-visible path { fill: var(--map-hover); stroke: var(--ink); stroke-width: 3; }
+.baymap .clab { font-family: var(--f-display); font-weight: 700; font-size: 13.5px; fill: var(--ink); paint-order: stroke; stroke: var(--map-fill); stroke-width: 3px; stroke-linejoin: round; }
+.baymap .leader { stroke: var(--ink); stroke-width: 1; fill: none; }
+.baymap figcaption { font-size: .9rem; text-align: center; max-width: 40ch; }
+.baymap figcaption .small { display: block; }
+.maplist ul { list-style: none; padding: 0; margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+@media (prefers-reduced-motion: reduce) { .baymap .cty path { transition: none; } }
+
+/* Key dates: a horizontal timeline on wide screens, a vertical one on phones. */
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.timeline li { display: grid; align-content: start; grid-template-columns: 4.2em minmax(0, 1fr); gap: 10px; padding: 10px 0 10px 14px; border-left: 2px solid var(--rule); position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -6px; top: 16px; width: 10px; height: 10px; border-radius: 50%; background: var(--sheet); border: 2px solid var(--accent); }
+.timeline time { font-family: var(--f-display); font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; }
+.timeline b { font-family: var(--f-display); }
+.timeline .when { display: inline-block; margin: 2px 0; font-family: var(--f-display); font-weight: 700; font-size: .74rem; padding: 1px 8px; border-radius: 999px; background: var(--inc-soft); color: var(--inc); }
+.timeline li.next .when, .timeline li.today .when { background: var(--accent); color: var(--sheet); }
+.timeline li.next::before, .timeline li.today::before { background: var(--accent); }
+.timeline li.past time, .timeline li.past b { color: var(--muted); }
+.timeline li.past::before { border-color: var(--rule); }
+@media (min-width: 640px) {
+  .timeline { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px 12px; }
+  .timeline li { grid-template-columns: 1fr; border-left: 0; border-top: 2px solid var(--rule); padding: 14px 0 0; gap: 4px; }
+  .timeline li::before { left: 0; top: -6px; }
+  .timeline li.next, .timeline li.today { border-top-color: var(--accent); }
+}
+
+/* Tool steps: an ordered sequence with an icon for each step. */
+.steps3 { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; counter-reset: st; }
+.steps3 li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 12px; align-items: start; }
+.steps3 b { font-family: var(--f-display); }
+@media (min-width: 760px) { .steps3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; } .steps3 li { grid-template-columns: 1fr; gap: 8px; align-content: start; } }
+
+/* Coverage bars: a table, so every number is also readable as text. */
+.covbars { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.covbars caption { text-align: left; font-family: var(--f-display); font-weight: 700; padding-bottom: 6px; }
+.covbars th, .covbars td { text-align: left; padding: 7px 8px 7px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.covbars thead th { font-size: .78rem; color: var(--muted); font-weight: 700; }
+.covbars tbody th { font-family: var(--f-display); font-weight: 700; white-space: nowrap; }
+.covbars td:nth-child(2) { width: 55%; }
+.covbars .bar { display: block; width: 100%; height: 10px; margin: 4px 0; border-radius: 5px; }
+.covbars .bar .nq { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.covbars .bar .q { fill: var(--accent); }
+.covbars .barnum { font-size: .8rem; color: var(--muted); }
+.legend .sw { display: inline-block; width: 14px; height: 10px; border-radius: 3px; vertical-align: -1px; margin: 0 4px 0 8px; }
+.legend .sw:first-child { margin-left: 0; }
+.legend .sw.q { background: var(--accent); }
+.legend .sw.nq { background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
+
+/* Evidence cues on item pages. */
+.evline { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; font-size: .9rem; color: var(--muted); }
+.evline .ico { color: var(--accent); }
+.linkbtn { font: inherit; font-family: var(--f-display); font-weight: 700; color: var(--accent); background: none; border: 0; padding: 0 2px; min-height: 44px; text-decoration: underline; cursor: pointer; }
+.srclist .role.official { color: var(--ok); font-weight: 700; }
+.srclist .role.official .ico { margin-right: .2em; stroke-width: 2.4; }
+@media (min-width: 1000px) { .timeline { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+/* Skip link: hidden until it has keyboard focus, then shown above the page (UX-02). */
+.skip:focus, .skip:focus-visible { position: absolute; left: 16px; top: 8px; width: auto; height: auto; clip: auto; white-space: normal; overflow: visible; z-index: 10; padding: 10px 14px; border-radius: 8px; background: var(--sheet); color: var(--accent); font-family: var(--f-display); font-weight: 700; box-shadow: 0 0 0 3px var(--accent); }
+
+/* Candidate photo frame: the same size for every candidate in a contest. Placeholder is a neutral outline. */
+.cand { grid-template-columns: 48px minmax(0, 1fr); align-items: center; column-gap: 12px; }
+.cand-t { display: grid; gap: 4px; min-width: 0; }
+.cand-t .badge { justify-self: start; }
+.cphoto { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; background: var(--accent-soft); display: inline-grid; place-items: center; flex: none; }
+.cand-head { display: flex; align-items: center; gap: 16px; }
+.cand-head .cphoto { width: 72px; height: 72px; }
+.cphoto.ph svg { width: 60%; height: 60%; fill: none; stroke: var(--muted); stroke-width: 1.6; stroke-linecap: round; }
+
+/* Region at a glance: a Bay Area group and a California group. One number style, a short label, a small detail line. */
+.glance { display: grid; gap: 14px; }
+.gl-group { display: grid; gap: 8px; }
+.gl-h { font-size: .82rem; font-weight: 700; color: var(--muted); letter-spacing: .02em; }
+.gl { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.gl li { display: grid; align-content: start; gap: 1px; padding: 12px 14px; border-radius: 12px; background: var(--paper); border: 1px solid var(--rule); }
+.gl b { font-family: var(--f-display); font-weight: 800; font-size: 1.55rem; line-height: 1.15; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.gl .gl-l { font-family: var(--f-display); font-weight: 700; font-size: .92rem; color: var(--ink); }
+.gl .gl-m { font-size: .76rem; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: 2px; }
+@media (min-width: 700px) { .gl { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.gl-src { max-width: none; }
+
+/* glance refinements: number and unit on one line, even tiles, two quiet detail lines */
+.gl li { min-height: 100%; }
+.gl b { white-space: nowrap; }
+.gl b small { font-size: .55em; font-weight: 700; letter-spacing: 0; margin-left: 1px; }
+.gl .gl-l { line-height: 1.25; }
+.gl .gl-m + .gl-m { margin-top: 0; }
+@media (min-width: 700px) {
+  .glance { grid-template-columns: 2fr 1fr; align-items: stretch; gap: 12px 16px; }
+  .gl-group { grid-template-rows: auto 1fr; }
+  .gl { grid-auto-rows: 1fr; }
+  .gl-group:first-child .gl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gl-group:last-child .gl { grid-template-columns: 1fr; }
+}
+@media (max-width: 420px) { .gl b { font-size: 1.35rem; } .gl li { padding: 10px 12px; } }
+.gl-src b { color: var(--ink); margin-right: 4px; }
+
+/* Section headers: title on one line, count below, open/close sign at the right (same in every list). */
+.group > summary { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 12px; row-gap: 2px; }
+.group > summary h2 { grid-column: 1; }
+.group > summary .counts { grid-column: 1; grid-row: 2; }
+.group > summary::after { grid-column: 2; grid-row: 1 / span 2; margin-left: 0; }
+/* Coverage table on phones: county and bar side by side, contests on a full line below. */
+@media (max-width: 560px) {
+  .covbars thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .covbars tr { display: grid; grid-template-columns: 6.6em minmax(0, 1fr); column-gap: 10px; row-gap: 2px; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+  .covbars th, .covbars td { border: 0; padding: 0; }
+  .covbars td:nth-child(2) { width: auto; }
+  .covbars td:nth-child(3) { grid-column: 2; font-size: .8rem; }
+  .covbars td:nth-child(3)::before { content: "Contests "; font-weight: 700; color: var(--ink); }
+}
+.disclaimer { font-size: .85rem; }
+[data-disclaimer] p + p { margin-top: 10px; }
+
+/* Candidate evaluation mode */
+.ce .body .ce-h { font-size: 1rem; margin: 6px 0 0; }
+.ce-w { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.ce-w li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 10px; padding: 6px 0; border-bottom: 1px solid var(--rule); }
+.ce-w li .small { grid-column: 1 / -1; }
+.ce-pct { font-variant-numeric: tabular-nums; font-weight: 700; }
+.ce-cand { border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; }
+.ce-cand h3 { margin: 0; }
+.ce-t { width: 100%; border-collapse: collapse; font-size: .84rem; }
+.ce-t th, .ce-t td { text-align: left; padding: 5px 6px 5px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+
+/* Region at a glance, final: two stacked, identical sections of four cards. */
+.glance { grid-template-columns: 1fr !important; gap: 18px; }
+.gl-group { display: grid; gap: 8px; grid-template-rows: none !important; }
+.gl-group + .gl-group { border-top: 1px solid var(--rule); padding-top: 14px; }
+.gl-group .gl { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; grid-auto-rows: 1fr; }
+@media (min-width: 700px) { .gl-group .gl { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; } }
+.gl-h { font-size: .95rem; color: var(--ink); }
+.gl-na b { color: var(--muted); }
+
+.cphoto.ph .ini { font-family: var(--f-display); font-weight: 800; font-size: 1rem; color: var(--accent); letter-spacing: .02em; }
+.cand-head .cphoto.ph .ini { font-size: 1.5rem; }
+
+/* Developer credit and beta disclosure (bottom of every page) */
+.credit { border-top: 1px solid var(--rule); margin-top: 14px; padding-top: 14px; display: grid; gap: 6px; font-size: .86rem; }
+.credit p { margin: 0; }
+.credit .credit-name { font-family: var(--f-display); font-weight: 800; font-size: 1rem; color: var(--ink); }
+.credit .credit-tag { color: var(--ink); }
+/* Seats not on the ballot, inside "What has been checked" (Oct 24, 2026) */
+details.nob { margin-top: 4px; }
+details.nob summary { cursor: pointer; color: var(--accent, inherit); font-size: .9rem; }
+details.nob ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: .9rem; }
+details.nob .muted { display: block; }

@@ -25,7 +25,7 @@ Limits that applied to every pass:
 - No browser was connected, so scanned pages could not be viewed as images either.
 - The shared web-search limit ran out partway through. Several city and district pages were never searched.
 
-## Starting and ending counts
+## Starting and ending counts (October 22 round)
 
 | Item | Start (reproduced Oct 22) | End |
 |---|---|---|
@@ -221,3 +221,105 @@ Correction 7 in `audit/2026-10-22/statewide-changes.json` (Prop 4, `yesE`) gives
 - Sunol Glen K has no published ballot question, because the form has handwritten edits. Emeryville BB has no threshold or type, because no submittal form was found.
 - There is no Content Security Policy, because the pages use inline scripts.
 - Two county election links (Alpine, Mariposa) are http only; they are labeled.
+
+# Beta-release changes, October 23, 2026 (evening)
+
+This round prepared the guide for a limited beta. It did not change any rating, score, weight, formula, saved-state behavior or status in the data. It marked nothing Verified.
+
+## Changes made
+
+- **Beta notice.** A one-line notice sits under the top bar of every guide page. It reads "BETA. Coverage and evidence are still being verified. Confirm your ballot with your county elections office." It links to a new About page (`#/about`), which is also in the top navigation. The About page covers:
+  - what the guide does and covers;
+  - the four kinds of checking (software tests, automated and AI-assisted reading, review by a person, completeness);
+  - districts and eligibility;
+  - how the Ballot Weighing Tool works;
+  - the three ratings under review;
+  - what each label means;
+  - official links.
+- **Labels.** The "Needs review" badge was removed from lists only (ballot overviews, the contest list, the statewide list and candidate cards). Each record's own page still shows it, with what still needs checking. Incomplete badges and "May apply" stay in lists. Statuses in the data are unchanged.
+- **Item-level warnings.** A "How this was read" note now appears next to the facts on 36 records. Those facts were read by OCR or by an AI assistant looking at a page image:
+  - 27 Alameda measures;
+  - 3 Oakland Unified district contests;
+  - 6 Berkeley contests.
+
+  Candidate pages repeat their contest's note.
+- **Home page.**
+  - **"The region at a glance."** About 7.7 million Bay Area residents (California Department of Finance, Jan 1, 2026, provisional). 4,622,492 registered voters in the nine counties and 23,164,977 statewide (Secretary of State, Report of Registration as of Sept 4, 2026). 58 California counties. Each figure is stored by county in `data/region.json` with its source and date. The guide adds the county values, and the validator checks them.
+  - **"What's covered."** Counts computed from the records, with a statement that recorded is not checked by a person and that local coverage is incomplete.
+  - **"Before you vote."** Official county, statewide, language-hotline and accessibility links, each opened and checked on Oct 23, 2026.
+- **Wording.** Several notes said "confirmed" or "audited" about automated reading; they now say so plainly. Internal file paths and audit codes were removed from text voters see. The Ballot Weighing Tool's "Last checked" note now names the three ratings under review, and the ratings themselves are unchanged.
+- **Validator self-test.** Plants now run in parallel, each in its own sandbox, with progress printed every 25 plants. Every plant and every pattern is kept; 8 plants were added for the new region figures. A rule deliberately disabled in a copy was still caught.
+
+## Independent check
+
+A separate agent checked this round's changes against the data (`audit/reports/beta-consistency-audit.md`). It found 1 high, 5 medium and 5 low issues. All were fixed except two:
+- BC-09: inconsistent capitalization of measure types (San Mateo uses title case), and Cupertino Measure L has no measure type recorded.
+- BC-11: the visitor-counter account name, left to the owner as PRD-04.
+
+The fixes after that audit were checked by the test suite, not by another agent.
+
+## The self-test timeout
+
+A run of the full suite by someone else reportedly timed out during the validator self-test. That timeout could not be reproduced here:
+- On a 2-CPU machine the self-test finished in 35 seconds before this change with Node.js 22, and in 45 seconds with Node.js 18.20.8.
+- It now takes about 20 seconds.
+
+The most likely cause is a command time limit in the environment. The full `npm test` takes several minutes, and the self-test used to print nothing until it finished. No hang or defect was found. `README.md` lists the measured times and how to run the steps one at a time.
+
+# Visual upgrade and official-source integration, October 24, 2026
+
+This round was built on the `ux-upgrade` branch and tested before publication. Ratings, weights, formulas, reasons and saved-state behavior did not change. The scoring regression shows 0 differences. Nothing is marked Verified.
+
+## Visual upgrade
+
+- **Hero map.** A map of the nine counties is drawn from U.S. Census Bureau outlines (`data/bay-map.json`). Each county links to what the guide lists for it. The caption credits the Census Bureau and says the map is not for finding a district.
+- **Key dates.** A timeline of six key dates from two Secretary of State pages. Each date is stored with the official sentence it comes from (`data/elections.json` `keyDates`).
+- **Supporting visuals.**
+  - A three-step diagram of how the Ballot Weighing Tool works.
+  - Per-county coverage bars, computed from the records.
+  - Line icons.
+  - A "N sources, M official" line with a "Show sources" button on item, contest and candidate pages.
+  - Measure types shown in sentence case.
+  - "Type not collected yet" where a local measure has none.
+- **Cache-busting.** `?v=` dates on the stylesheet and script, so browsers fetch new copies after an update.
+- **Independent test.** An agent tested the running site (`audit/reports/ux-upgrade-qa.md`). It found 1 high, 1 medium and 9 low issues, and all 11 were fixed. The high one was the live site's "Skip to content" link: it opened a "Not found" page, because the router read `#app` as a page address. It now moves focus to the page heading without changing the address. It is also visible when focused, and focus no longer jumps to the heading on first load.
+
+## Official sources (Stage 1 audit and approved Stage 2)
+
+- **Stage 1.** Five read-only checks compared the site with the Official Voter Information Guide and the certified list of candidates (`audit/2026-10-24/stage1/`). They covered all 14 propositions, all 16 statewide candidates, 26 congressional and legislative candidates, photo reuse rights and official voter links. All 42 candidates matched.
+- **Approved fixes.** The owner approved corrections P1 to P19: wording, attribution and source links, all logged with the official quote in `audit/2026-10-24/statewide-changes-3.json`.
+  - The evidence rows behind the changed fields have their claim text updated.
+  - 16 new rows quote the official text.
+  - Three review gaps about the old wording were removed.
+- **Official links added.** Same-day registration, registration status, early voting and drop-off locations, polling places, ballot tracking, the voter guide in other formats, the propositions index, candidate statements and the certified list. Two of these (status and early voting) could not be opened by the audit's tools. They are linked by name from checked Secretary of State pages.
+- **Candidate photos.** No photo is published, because the reuse rights of the official voter guide photos are unclear. Every candidate gets the same neutral placeholder and a link to the official statement page. The validator rejects any future photo without a recorded permission and identity check.
+
+## Tests
+
+`npm test` on October 24, 2026 (`audit/logs/2026-10-24-stage2-npm-test.log`):
+- generated files: pass;
+- data validation: 0 errors and 0 warnings;
+- validator self-test: 200 of 200;
+- scoring regression: 0 differences;
+- HTML: pass;
+- guide browser tests: 480 of 480;
+- weighing tool: 224 of 224;
+- visitor counter stand-in: 124 of 124.
+
+The Stage 2 edits were made after the independent UX test, so they were checked by the test suite and screenshots only. No agent re-tested them.
+
+## Still open
+
+- No person has reviewed any record.
+- Owner decisions on three ratings.
+- Optional items O1 to O8 from the Stage 1 report.
+- Links that the tools could not open, to be opened once in a browser: the LAO PDFs for Props 38 and 39, the Prop 2 budget summary and the Prop 3 SPUR page.
+
+# Production release, October 24, 2026
+
+- **Optional corrections O1 to O7.** Applied after each source was re-read. Seven review gaps were closed or narrowed and one closure was reopened (`audit/2026-10-24/statewide-changes-4.json`).
+- **Candidate photos.**
+  - All 190 candidates were searched. One photo is shown (SF Public Defender); two cleared photos are stored but not shown.
+  - Four photos were withdrawn after the independent review (`audit/reports/photos-and-optional-review.md`) found their legal basis unclear.
+  - The rules and every candidate's status are in `audit/2026-10-24/PHOTO-MANIFEST.md` and `photo-manifest.json`.
+- **Reports.** `audit/2026-10-24/RELEASE-REPORT.md` and `TEST-REPORT.md`.

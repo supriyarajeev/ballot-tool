@@ -50,7 +50,7 @@ const items = ctx.PROPS.map((p) => {
     supporters: sentence(p.pro),
     opponents: sentence(p.con),
     sources: p.src.map((s) => ({ label: s[0], url: s[1], type: s[2] })),
-    notes: `Every field was audited on ${review.auditDate} against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. Corrections are logged in audit/2026-10-22/statewide-changes.json. No person has reviewed the result, so it is not marked Verified.`,
+    notes: `Every field was audited on ${review.auditDate} against the official voter guide, the LAO analysis, the official arguments and, where it could be read, the legal text, by automated research. A log of the corrections is kept with the guide's records. No person has reviewed the result, so it is not marked Verified.`,
     gaps: ((review.props[p.n] || {}).gaps || [])
   };
 });

@@ -1,0 +1,329 @@
+{
+ "date": "2026-10-24",
+ "reason": "Removed under the owner's final rule: a photo whose rights are uncertain is replaced or removed. These are State Assembly or Senate portraits tagged PD-CAGov on Wikimedia Commons; that tag rests on the California Public Records Act, which does not cover the Legislature, and no Legislature reuse policy was found. Scott Wiener's photo was replaced with a CC BY-SA 3.0 headshot that carries a VRT permission ticket. Ben Allen's only freely licensed alternative is a parade photo with sunglasses, not used. To restore any of these, obtain written permission from the member's office.",
+ "photos": {
+  "2026-11-03.ca.secretary-of-state.shirley-n-weber": {
+   "src": "assets/candidates/weber.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Shirley_Weber%2C_California_State_Assembly_%282012%29.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Shirley_Weber,_California_State_Assembly_(2012).jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2012. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "year": "2012",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q7498880 (Shirley Weber, Secretary of State of California) uses this file; the Commons description reads \"Assemblymember Shirley Weber\"; compared by eye with her photo in the official voter guide on Oct 24, 2026.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   },
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov"
+  },
+  "2026-11-03.ca.secretary-of-state.donald-p-don-wagner": {
+   "src": "assets/candidates/wagner.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Donald_P_Wagner.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Donald_P_Wagner.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly Republican Caucus, 2009. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "year": "2009",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q5294972 (Donald P. Wagner, former member of the California State Assembly and mayor of Irvine) uses this file; the Commons description reads \"California Assembly member Donald P. Wagner\"; compared by eye with his photo in the official voter guide on Oct 24, 2026.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   },
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov"
+  },
+  "2026-11-03.ca.insurance-commissioner.ben-allen": {
+   "src": "assets/candidates/allen.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ben_Allen%2C_2021.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Ben_Allen,_2021.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Senate, 2021. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "year": "2021",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q19816391 (Ben Allen, member of the State Senate of California) uses this file; the Commons description reads \"Portrait of State Senator Ben Allen of the 24th district\"; compared by eye with his photo in the official voter guide on Oct 24, 2026.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Public domain under the PD-CAGov tag on Wikimedia Commons (works of California state and local government, per the California Public Records Act as interpreted in County of Santa Clara v. Superior Court, 2009). This reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   },
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov"
+  },
+  "2026-11-03.ca-boe-1.member-state-board-of-equalization-district-1.shannon-grove": {
+   "src": "assets/candidates/shannon-grove.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Shannon_Grove%2C_2019_%28cropped%29.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Shannon_Grove,_2019_(cropped).jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Senate, 2019. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2019",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q7488882 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Official portrait of California State Senator Shannon Grove of the 16th district.\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-14.member-of-the-state-assembly-district-14.buffy-wicks": {
+   "src": "assets/candidates/buffy-wicks.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Buffy_Wicks%2C_2024.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Buffy_Wicks,_2024.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2024. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2024",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q16216170 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Official portrait of CA State Assemblymember Buffy Wicks of the 14th district.\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-16.member-of-the-state-assembly-district-16.rebecca-bauer-kahan": {
+   "src": "assets/candidates/rebecca-bauer-kahan.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rebecca_Bauer-Kahan_CA_Assembly_official_photo.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Rebecca_Bauer-Kahan_CA_Assembly_official_photo.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2018. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2018",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q58885845 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Official California State Assembly photo of Rebecca Bauer-Kahan\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-18.member-of-the-state-assembly-district-18.mia-bonta": {
+   "src": "assets/candidates/mia-bonta.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Mia_Bonta%2C_2022_%28cropped%29.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Mia_Bonta,_2022_(cropped).jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2022. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2022",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q108523467 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Official portrait of CA State Assembly member Mia Bonta of the 18th district.\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-19.member-of-the-state-assembly-district-19.catherine-stefani": {
+   "src": "assets/candidates/catherine-stefani.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Catherine_Stefani%2C_2024.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Catherine_Stefani,_2024.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2024. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2024",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q47520786 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Official portrait of Assemblymember Catherine Stefani of the 19th district.\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-20.member-of-the-state-assembly-district-20.liz-ortega": {
+   "src": "assets/candidates/liz-ortega.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Liz_Ortega_official_photo_%28cropped%29.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Liz_Ortega_official_photo_(cropped).jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2022. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2022",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q115530600 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Cropped version of the official photo of Assemblymember Liz Ortega\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-24.member-of-the-state-assembly-district-24.alex-lee": {
+   "src": "assets/candidates/alex-lee.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Alex_Lee_official_photo.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Alex_Lee_official_photo.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2020. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2020",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q101503583 was matched to this candidate in the Oct 24, 2026 photo search; the Commons file description reads \"Official photo of California state assemblymember Alex Lee\". Not compared with a photo in the official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire": {
+   "src": "assets/candidates/mike-mcguire.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/CA_Sen_Mike_McGuire.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:CA_Sen_Mike_McGuire.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "State of California (Legislature), 2017. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2017",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q19662567 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"Photo of California State Senator Mike McGuire\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-sd-2.state-senator-district-2.damon-connolly": {
+   "src": "assets/candidates/damon-connolly.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Assemblyman_Damon_Connolly.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Assemblyman_Damon_Connolly.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2022. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2022",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q115669052 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"California State Assemblyman Damon Connolly (D)\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-2.member-of-the-state-assembly-district-2.chris-rogers": {
+   "src": "assets/candidates/chris-rogers.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Chris_Rogers%2C_2024.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Chris_Rogers,_2024.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2024. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2024",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q111353704 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"Official portrait of Assemblymember Chris Rogers of the 2nd district\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-11.member-of-the-state-assembly-district-11.lori-d-wilson": {
+   "src": "assets/candidates/lori-d-wilson.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lori_Wilson%2C_2025.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Lori_Wilson,_2025.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2025. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2025",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q85688491 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"Official portrait of California State Assembly member Lori Wilson of the 11th district.\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-21.member-of-the-state-assembly-district-21.diane-papan": {
+   "src": "assets/candidates/diane-papan.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Diane_Papan%2C_2022.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Diane_Papan,_2022.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2023. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2023",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q115668848 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"State Assemblymember Diane Papan of the 21st district.\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-23.member-of-the-state-assembly-district-23.marc-berman": {
+   "src": "assets/candidates/marc-berman.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Berman%25_20Headshot%25_202021_14.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Berman%25_20Headshot%25_202021_14.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "State of California (Legislature). Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "unknown",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q28052020 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"California state assemblyman Marc Berman\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-26.member-of-the-state-assembly-district-26.patrick-ahrens": {
+   "src": "assets/candidates/patrick-ahrens.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Patrick_Ahrens_Headshot_2024.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Patrick_Ahrens_Headshot_2024.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2024. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2024",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q131150077 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"Official headshot of California State Assemblymember Patrick Ahrens.\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-28.member-of-the-state-assembly-district-28.gail-pellerin": {
+   "src": "assets/candidates/gail-pellerin.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Gail_Pellerin.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Gail_Pellerin.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "unknown",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q115669056 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"Portrait photo of California State Assembly member Gail Pellerin\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  },
+  "2026-11-03.ca-ad-29.member-of-the-state-assembly-district-29.robert-rivas": {
+   "src": "assets/candidates/robert-rivas.jpg",
+   "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Robert_Rivas_official_speaker_portrait.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Robert_Rivas_official_speaker_portrait.jpg",
+   "retrieved": "2026-10-24",
+   "credit": "California State Assembly, 2023. Public domain (PD-CAGov). Via Wikimedia Commons.",
+   "license": "Public domain (PD-CAGov)",
+   "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-CAGov",
+   "year": "2023",
+   "modified": "Cropped to a square and resized to 192 by 192 pixels for this guide.",
+   "identityCheck": "Wikidata Q60734949 (the item for this candidate, found by name and office) uses this file as its image; the Commons description reads \"Official portrait of California State Assembly Speaker Robert Rivas\". The ballot designation and district match. Not compared with a photo in an official voter guide.",
+   "permission": {
+    "grantedBy": "License tag on the source file (no permission was requested from the candidate or photographer)",
+    "date": "2026-10-24",
+    "evidence": "Tagged PD-CAGov on Wikimedia Commons (works of California state and local government). That reading is Wikimedia Commons' and is not a court ruling on this photo. The California Public Records Act, on which that tag rests, does not cover the Legislature, so the legal basis for this Legislature photo is not settled. Shown on the site owner's decision for this beta release (Oct 24, 2026). This is the license tag on Wikimedia Commons, not permission from the candidate or photographer."
+   }
+  }
+ }
+}

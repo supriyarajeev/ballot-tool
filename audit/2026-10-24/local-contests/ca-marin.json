@@ -1,0 +1,2160 @@
+{
+ "county": "ca-marin",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Marin County Elections, Local Candidates On Ballot (Nov 3, 2026)",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326",
+   "note": "Contest/candidate list with ballot designations; 'Created: 8/17/2026 11:27 am'; ** = incumbent; says it may not show full slate. Fetched twice (forward and reverse order)."
+  },
+  {
+   "label": "Marin County Elections, Local Candidates Not On Ballot (Nov 3, 2026)",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326",
+   "note": "Contests whose filers did not exceed seats; 'Created: 8/17/2026 11:27 am'; reason not printed."
+  },
+  {
+   "label": "Marin County Elections, Status of Local Candidates by Office (8/12/2026)",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/status-local-candidates-office-11032026",
+   "note": "Took/filed papers list, created 8/12/2026 7:40 pm; used as cross-check."
+  },
+  {
+   "label": "Marin County Elections, Status of Local Candidates by Office (7/31/2026)",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/status-local-candidates-office-110326",
+   "note": "Earlier status list, created 7/31/2026 4:52 pm."
+  },
+  {
+   "label": "Notice of Election, November 3, 2026 General Election",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/news-releases-110326/notice-election-november-3-2026-general-election",
+   "note": "Offices to be elected, 7/29/2026; no county officer contests besides Boards of Education."
+  },
+  {
+   "label": "Notice of Candidate Filing Extension for Certain Offices",
+   "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/news-releases-110326/notice-candidate-filing-extension-certain-offices",
+   "note": "8/7/2026; extension to 8/12/2026."
+  },
+  {
+   "label": "Voter Information Guide, Ballot Type 80 (PDF)",
+   "url": "https://assets.marincounty.gov/marincounty-prod/public/2026-09/VIG-BT80.pdf?VersionId=CbZXRAPvDaGMEpXZlNPtqUBLreOZSGfU",
+   "note": "Sample ballot; confirms Novato Council District Two contest."
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Marin County (supervisor/county offices: none on Nov ballot; June 2026 D1 and D5 decided in primary)",
+  "Marin County Board of Education",
+  "Sonoma County Board of Education (TA2)",
+  "Marin Community College District",
+  "Sonoma County Junior College District",
+  "San Rafael City Schools",
+  "Tamalpais Union HSD",
+  "Petaluma Joint Union HSD",
+  "Bolinas-Stinson Union SD",
+  "Kentfield SD",
+  "Laguna Joint SD",
+  "Lagunitas SD",
+  "Larkspur-Corte Madera SD",
+  "Mill Valley SD",
+  "Miller Creek SD",
+  "Nicasio SD",
+  "Novato USD",
+  "Reed Union SD",
+  "Ross SD",
+  "Ross Valley SD",
+  "Sausalito Marin City SD",
+  "Shoreline USD",
+  "Belvedere",
+  "Corte Madera",
+  "Fairfax",
+  "Larkspur",
+  "Mill Valley",
+  "Novato",
+  "Ross",
+  "San Anselmo",
+  "San Rafael",
+  "Sausalito",
+  "Tiburon",
+  "Bel Marin Keys CSD",
+  "Marin City CSD",
+  "Marinwood CSD",
+  "Muir Beach CSD",
+  "Tamalpais CSD",
+  "Tomales Village CSD",
+  "Bolinas FPD",
+  "Kentfield FPD",
+  "Novato FPD",
+  "Sleepy Hollow FPD",
+  "Southern Marin FPD",
+  "Stinson Beach FPD",
+  "Tiburon FPD",
+  "Marin Healthcare District",
+  "Bolinas Community PUD",
+  "Inverness PUD",
+  "Mesa Park RD",
+  "Strawberry RD",
+  "Marin Resource Conservation District",
+  "Alto Sanitary District",
+  "Homestead Valley SD",
+  "Las Gallinas Valley SD",
+  "Novato Sanitary District",
+  "Richardson Bay SD",
+  "Sausalito-Marin City SD",
+  "Sanitary District No. 5",
+  "Marin Municipal Water District",
+  "North Marin Water District",
+  "Stinson Beach County Water District"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-marin-county-board-of-education",
+    "existing": false,
+    "name": "Marin County Board of Education",
+    "type": "county",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Board of Education Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cynthia Johanson Irish",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Craig Stuart Adams",
+     "designation": "Realtor / Author",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-marin-county-board-of-education",
+    "existing": false,
+    "name": "Marin County Board of Education",
+    "type": "county",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Board of Education Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Marilyn Nemzer",
+     "designation": "Trustee, Marin County Board Of Education, Trustee Area 5",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Avery Lieberman",
+     "designation": "Dentist / Inventor / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-marin-county-board-of-education",
+    "existing": false,
+    "name": "Marin County Board of Education",
+    "type": "county",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Board of Education Member",
+   "district": "Trustee Area 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Curtis F. Robinson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "James Goddard",
+     "designation": "Chief Financial Officer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-sonoma-county-board-of-education",
+    "existing": false,
+    "name": "Sonoma County Board of Education",
+    "type": "county",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Board of Education Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jonathan Lenz",
+     "designation": "Educator",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Caitlin Quinn",
+     "designation": "Nonprofit Union President",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Sonoma County is filing officer; appears on Marin ballots for the Marin portion of Trustee Area 2."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-sonoma-sd-petaluma-joint-union-high-school-district",
+    "existing": false,
+    "name": "Petaluma Joint Union High School District",
+    "type": "school-district",
+    "parent": "ca-sonoma",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John Garcia",
+     "designation": "Physician / Medical Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Laura Holmes",
+     "designation": "Parent / HR Consultant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Sonoma County is filing officer; on Marin ballots for the Marin portion of the district."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-tamalpais-union-high-school-district",
+    "existing": false,
+    "name": "Tamalpais Union High School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cynthia C. Roenisch",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Kevin C. Saavedra",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Maria D. Sandoval",
+     "designation": "Spanish Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Joy Scully Koo",
+     "designation": "Community Advocate / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Brian A. Sutherland",
+     "designation": "Constitutional Lawyer / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Valerie Wynn",
+     "designation": "Retired District Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Leslie J. Harlander",
+     "designation": "Retired Civil Engineer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Earlier 7/31 status list printed 'Scully Koo, Cynthia Joy'; the 8/17 on-ballot list prints 'Scully Koo, Joy'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-miller-creek-school-district",
+    "existing": true,
+    "name": "Miller Creek School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Brad Honsberger",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Megan Roberts Hutchinson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Caitlin McShane",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Adam Compton",
+     "designation": "Software Engineer / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Matt Dance",
+     "designation": "Parent / School Volunteer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-lagunitas-school-district",
+    "existing": false,
+    "name": "Lagunitas School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Aaron Michelson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Charlotte Burger Troy",
+     "designation": "Mother",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Ally Dukkers Wilson",
+     "designation": "Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "David Cort",
+     "designation": "Retired",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": false,
+   "note": "Source prints name and designation in one cell without a separator: 'Troy, Charlotte Burger Mother' and 'Wilson, Ally Dukkers Parent'. Readings split these differently (designation 'Burger Mother'/'Dukkers Parent' vs middle names Burger/Dukkers). Recorded with Burger and Dukkers as middle names, matching the list's pattern of printing middle names (e.g. 'Hutchinson, Megan Roberts'); verify against the sample ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-novato-unified-school-district",
+    "existing": false,
+    "name": "Novato Unified School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-novato"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Abbey Picus",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Francis Drouillard",
+     "designation": "Registered Professional Engineer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-reed-union-school-district",
+    "existing": true,
+    "name": "Reed Union School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mike Ghaffary",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Shelby Pasarell Tsai",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Krupa Antani",
+     "designation": "Parent / School Volunteer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Lina Godfrey",
+     "designation": "Nonprofit Director / Mother",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-ross-school-district",
+    "existing": false,
+    "name": "Ross School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Darius Mozaffarian",
+     "designation": "Governing Board Member, Ross School District",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Gabriella 'Gabby' Solar",
+     "designation": "Parent / School Volunteer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Elizabeth 'Beth' Sutro",
+     "designation": "Parent / School Volunteer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "David Allen-Hughes",
+     "designation": "School Administrator / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Brad Hill",
+     "designation": "Parent / School Volunteer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Nicknames printed in single quotes (as ' Gabby ' / ' Beth ' with spaces) in the source."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sd-sausalito-marin-city-school-district",
+    "existing": false,
+    "name": "Sausalito Marin City School District",
+    "type": "school-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Lauren J. Walters",
+     "designation": "Trustee, Sausalito Marin City School District",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Leshawn Holcomb",
+     "designation": "Educator / Nonprofit Director",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Alena Maunder",
+     "designation": "Registered Nurse",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Eduardo Vazquez",
+     "designation": "Social Worker / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "7/31 status list printed 'Vazquez Rodriguez, Eduardo'; 8/17 on-ballot list prints 'Vazquez, Eduardo'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-belvedere",
+    "existing": true,
+    "name": "City of Belvedere",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-belvedere"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Peter Mark",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jane Cooper",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Uncontested (2 candidates, 2 seats) but listed on the county's on-ballot list. Cooper not marked ** but designation is 'Incumbent'. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-corte-madera",
+    "existing": true,
+    "name": "Town of Corte Madera",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-corte-madera"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Eli Beckman",
+     "designation": "Councilmember / Architect",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Pat Ravasio",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "David C. Bell",
+     "designation": "Environmental Engineer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Ava Fruin",
+     "designation": "School Board Trustee",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Deborah E. Gallegos",
+     "designation": "Deputy Controller",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-fairfax",
+    "existing": true,
+    "name": "Town of Fairfax",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-fairfax"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Larry Bragman",
+     "designation": "Attorney",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Susan Denise Adams",
+     "designation": "Retired Environmental Attorney",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Matt Da Cunha",
+     "designation": "Retired Firefighter",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Aubrey Harmon",
+     "designation": "Therapist / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Doug Kelly",
+     "designation": "Director, Ross Valley Sanitary District",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Cheryl Scorza",
+     "designation": "Nursing Assistant / Mother",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "8/12 status list printed 'Da Cunha, Matthew V.'; on-ballot list prints 'Da Cunha, Matt'. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-fairfax",
+    "existing": true,
+    "name": "Town of Fairfax",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-fairfax"
+    ]
+   },
+   "office": "Town Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Deborah Benson",
+     "designation": "Accountant / Management Consultant",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Bruce Ackerman",
+     "designation": "Engineer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-fairfax",
+    "existing": true,
+    "name": "Town of Fairfax",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-fairfax"
+    ]
+   },
+   "office": "Town Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Talia Friedman",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Uncontested single candidate, listed on county on-ballot list. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-larkspur",
+    "existing": true,
+    "name": "City of Larkspur",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-larkspur"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Stephanie Andre",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Sarah Margulies",
+     "designation": "Larkspur Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Gareth Walter",
+     "designation": "Nonprofit President / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Aaron Burnett",
+     "designation": "Policy Director / Father",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Spencer Doyle",
+     "designation": "Technology Business Executive",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Jeanne Friedel",
+     "designation": "Operations Manager",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Brian H. Jaffe",
+     "designation": "Homebuilder / Energy Consultant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-mill-valley",
+    "existing": true,
+    "name": "City of Mill Valley",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-mill-valley"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Stephen Burke",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Max Perrey",
+     "designation": "Mill Valley Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Uncontested (2 candidates, 2 seats) but on the county on-ballot list; no city notice of appointment in lieu found. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-novato-council-district-2",
+    "existing": false,
+    "name": "Novato Council District 2",
+    "type": "council-district",
+    "parent": "ca-marin-novato",
+    "areas": [
+     "ca-marin-novato"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rachel Farac",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Mike Little",
+     "designation": "Distribution Design Engineer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Bob Rasmussen",
+     "designation": "Electric Incident Investigator",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Also verified on Marin County Voter Information Guide ballot type 80 sample ballot (contest 'Council Member, District Two', vote for one; names and designations match). County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-novato-council-district-4",
+    "existing": false,
+    "name": "Novato Council District 4",
+    "type": "council-district",
+    "parent": "ca-marin-novato",
+    "areas": [
+     "ca-marin-novato"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Pat Eklund",
+     "designation": "Novato Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Luiggino Galletto",
+     "designation": "Entertainment Development Strategist",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Chris Carpiniello",
+     "designation": "Homebuilder / Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Dan Christian",
+     "designation": "Pastor / Educator / Commissioner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-ross",
+    "existing": true,
+    "name": "Town of Ross",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-ross"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robert Herbst",
+     "designation": "Real Estate Executive",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Jeffrey Kuhn",
+     "designation": "Ross Town Treasurer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Julie A McMillan",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Paul J. Roesler",
+     "designation": "Business Executive",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "McMillan not marked ** but designation 'Incumbent'. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-san-anselmo",
+    "existing": true,
+    "name": "Town of San Anselmo",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-san-anselmo"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Steve Burdo",
+     "designation": "San Anselmo Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Philip Chigos",
+     "designation": "Father / Businessowner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Will Dittmar",
+     "designation": "Nonprofit CEO",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-san-anselmo",
+    "existing": true,
+    "name": "Town of San Anselmo",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-san-anselmo"
+    ]
+   },
+   "office": "Town Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cecily T. Wilson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Uncontested single candidate, listed on county on-ballot list. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-san-anselmo",
+    "existing": true,
+    "name": "Town of San Anselmo",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-san-anselmo"
+    ]
+   },
+   "office": "Town Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Lori J. Lopin",
+     "designation": "Chief Financial Officer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Uncontested single candidate, listed on county on-ballot list. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-san-rafael-council-district-2",
+    "existing": false,
+    "name": "San Rafael Council District 2",
+    "type": "council-district",
+    "parent": "ca-marin-san-rafael",
+    "areas": [
+     "ca-marin-san-rafael"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Eli Hill",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Uncontested single candidate, listed on county on-ballot list; Hill not marked ** but designation 'Incumbent'. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-san-rafael-council-district-3",
+    "existing": false,
+    "name": "San Rafael Council District 3",
+    "type": "council-district",
+    "parent": "ca-marin-san-rafael",
+    "areas": [
+     "ca-marin-san-rafael"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Daryoush Davidi",
+     "designation": "San Rafael Businessowner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Robert Sandoval",
+     "designation": "Planning Commissioner / Attorney",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-sausalito",
+    "existing": true,
+    "name": "City of Sausalito",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-sausalito"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joan Cox",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jill James Hoffman",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Nastassya Saad",
+     "designation": "Consultant / Planning Commissioner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Adrian Brinton",
+     "designation": "Community Advocate",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-tiburon",
+    "existing": true,
+    "name": "Town of Tiburon",
+    "type": "city",
+    "parent": "ca-marin",
+    "areas": [
+     "ca-marin-tiburon"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kathleen Defever",
+     "designation": "Attorney / Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Alice Fredericks",
+     "designation": "Tiburon Town Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Chuck Hornbrook",
+     "designation": "Consultant",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Jack Ryan",
+     "designation": "Tiburon Town Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Faris Jafar",
+     "designation": "Hedge Fund Founder",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "Fredericks and Ryan not marked ** on the list; incumbency inferred from designation. County list notes city/town candidates are qualified by the City/Town Clerk, not the county; county nonetheless lists this contest as on the ballot."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-bel-marin-keys-community-services-district",
+    "existing": false,
+    "name": "Bel Marin Keys Community Services District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Vincent P. Lattanzio",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Steven Nash",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Kevin Dugan",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "No designation printed for Dugan."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-marin-city-community-services-district",
+    "existing": false,
+    "name": "Marin City Community Services District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kevin Douglas",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Angela Haynes",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Eboni McKinley",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Royce McLemore",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Derek Morgan",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Capri M. Price",
+     "designation": "Behavior Technician",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "La Tanya J. Wiggins",
+     "designation": "Childcare Provider / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Beatra Hall",
+     "designation": "Marin City Library Assistant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "No designation printed for McKinley, McLemore, Morgan."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-marin-city-community-services-district",
+    "existing": false,
+    "name": "Marin City Community Services District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director - Short Term",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sarah Elizabeth Canson",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Terrie Harris Green",
+     "designation": "CSD Director",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-southern-marin-fire-protection-district",
+    "existing": false,
+    "name": "Southern Marin Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 4,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kurt Chun",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Cristine Soto Deberry",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Peter Fleming",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Thomas W. Perazzo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Eric Steinhofer",
+     "designation": "Energy Consultant",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Amy Svendberg",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Thomas Clark",
+     "designation": "Retired",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-marin-healthcare-district",
+    "existing": true,
+    "name": "Marin Healthcare District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Clayton Hess",
+     "designation": "Public Health Physician",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Kendra Hoepper",
+     "designation": "Administrator / Professor / Nurse",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-marin-healthcare-district",
+    "existing": true,
+    "name": "Marin Healthcare District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Brian Su",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jonathan Goff",
+     "designation": "Orthopedic Surgeon",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-bolinas-community-public-utility-district",
+    "existing": false,
+    "name": "Bolinas Community Public Utility District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Andrew Alexander Green",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Grace Godino",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Mickey Murch",
+     "designation": "Farmstand Farmer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Nathan Siedman",
+     "designation": "School Board Trustee",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": "No designation printed for Alexander Green (marked ** incumbent)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-strawberry-recreation-district",
+    "existing": false,
+    "name": "Strawberry Recreation District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sohrab Saghezchi",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Peter Teese",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Sarah G. Waterfield",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "David T. Morgenthaler",
+     "designation": "Father / Community Advocate",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-strawberry-recreation-district",
+    "existing": false,
+    "name": "Strawberry Recreation District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director - Short Term",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Doug Twillman",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Aliza Hawkins",
+     "designation": "Businesswoman / Mother",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-richardson-bay-sanitary-district",
+    "existing": false,
+    "name": "Richardson Bay Sanitary District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mark Fitzgerald",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Peter McIntosh",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Patrick Walravens",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "John Turnacliff",
+     "designation": "Equipment Financing Executive",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-marin-spd-north-marin-water-district",
+    "existing": false,
+    "name": "North Marin Water District",
+    "type": "special-district",
+    "parent": "ca-marin",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Marc Hunter Lewis",
+     "designation": "Community Policy Advocate",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Laurie L. Williams",
+     "designation": "Principal Planner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326"
+   },
+   "readingsMatched": true,
+   "note": null
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Marin Community College District",
+   "office": "Governing Board Member, Trustee Area 1 (Crow**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Community College District",
+   "office": "Governing Board Member, Trustee Area 3 (Treanor**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Community College District",
+   "office": "Governing Board Member, Trustee Area 6 (Conti**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Community College District",
+   "office": "Governing Board Member, Trustee Area 7 - Short Term (Deakyne)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sonoma County Junior College District",
+   "office": "Governing Board Member, Trustee Area 2 (Fishman, incumbent)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "San Rafael City Schools",
+   "office": "Board of Education, Trustee Area 2 (Lau**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "San Rafael City Schools",
+   "office": "Board of Education, Trustee Area 4 (Martin**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "San Rafael City Schools",
+   "office": "Board of Education, Trustee Area 5 - Short Term (Rodas-Dias**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Bolinas-Stinson Union School District",
+   "office": "Governing Board Member, 3 seats (Dar**, Tonski**; 2 filers for 3 seats)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Kentfield School District",
+   "office": "Governing Board Member, 3 seats (Goldman, Portnoy, Wilda)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Laguna Joint School District",
+   "office": "Governing Board Member, 3 seats (Sharon Hess**, Daniel Hess; 2 filers for 3 seats)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Larkspur-Corte Madera School District",
+   "office": "Governing Board Member, 3 seats (Dinday**, Movafaghi**, Woodring)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Mill Valley School District",
+   "office": "Governing Board Member, 3 seats (Katz**, Nakatani**, Yoo**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Nicasio School District",
+   "office": "Governing Board Member, 2 seats (Burton**; 1 filer for 2 seats)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Unified School District",
+   "office": "Governing Board Member, Trustee Area 5 (Gasson**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Unified School District",
+   "office": "Governing Board Member, Trustee Area 6 (Rogoff)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Ross Valley School District",
+   "office": "Governing Board Member, 2 seats (Landles-Cobb**, Marsh**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sausalito Marin City School District",
+   "office": "Governing Board Member - Short Term (Graham**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Shoreline Unified School District",
+   "office": "Governing Board Member, Trustee Area 1, 2 seats (Faure, Hernandez)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Shoreline Unified School District",
+   "office": "Governing Board Member, Trustee Area 2 (Healy**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "City of Novato",
+   "office": "Councilmember, District 5 - Short Term (Karkal**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marinwood Community Services District",
+   "office": "Director, 2 seats (Oyserman**, Shea**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Muir Beach Community Services District",
+   "office": "Director, 3 seats (Hills**, Murray**, Shaffer**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Tamalpais Community Services District",
+   "office": "Director, 2 seats (Brown**, Keon)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Tomales Village Community Services District",
+   "office": "Director, 3 seats (Bonini**, O'Neill**, Ward**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Bolinas Fire Protection District",
+   "office": "Director, 2 seats (Molesworth**, Torrey**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Kentfield Fire Protection District",
+   "office": "Director, 3 seats (Naso**, Evergettis**, Ryan**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Fire Protection District",
+   "office": "Director, District 4 (Goines**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Fire Protection District",
+   "office": "Director, District 5 (Davis**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sleepy Hollow Fire Protection District",
+   "office": "Director (Shortall**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sleepy Hollow Fire Protection District",
+   "office": "Director - Short Term (Gauna**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Stinson Beach Fire Protection District",
+   "office": "Director, 2 seats (Poler**; 1 filer for 2 seats)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Stinson Beach Fire Protection District",
+   "office": "Director - Short Term (Bertrand**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Tiburon Fire Protection District",
+   "office": "Director, 3 seats (Ho**, Jones**, Woodford**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Healthcare District",
+   "office": "Director, Division 4 (Rienks**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Inverness Public Utility District",
+   "office": "Director, 2 seats (Press**, Longstreth)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Mesa Park Recreation District",
+   "office": "Director, 3 seats (Dunne**, Lowrance**; 2 filers for 3 seats)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Mesa Park Recreation District",
+   "office": "Director - Short Term (Suda**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Resource Conservation District",
+   "office": "Director, 2 seats (Meral**, Williams**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Homestead Valley Sanitary District",
+   "office": "Director, 2 seats (Leibof**, Saltzman**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Homestead Valley Sanitary District",
+   "office": "Director - Short Term (Alexandris**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Las Gallinas Valley Sanitary District",
+   "office": "Director, 3 seats (Clark**, Lavrov**, Yezman**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Sanitary District",
+   "office": "Director, Division 1 - Short Term (Tarantino**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Sanitary District",
+   "office": "Director, Division 2 (Bentley**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Sanitary District",
+   "office": "Director, Division 3 (Fuette**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Novato Sanitary District",
+   "office": "Director, Division 5 (Jacobs)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sausalito-Marin City Sanitary District",
+   "office": "Director, 3 seats (Rheiner**, Rycerski**, Thornton**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sausalito-Marin City Sanitary District",
+   "office": "Director - Short Term (McKibben**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Sanitary District No. 5",
+   "office": "Director, 2 seats (Benediktsson**, Moody**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Municipal Water District",
+   "office": "Director, Division 1 (Samson**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Municipal Water District",
+   "office": "Director, Division 3 (Khush**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Marin Municipal Water District",
+   "office": "Director, Division 4 (Lovejoy)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "North Marin Water District",
+   "office": "Director, Division 1 (Eichstaedt**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  },
+  {
+   "jurisdiction": "Stinson Beach County Water District",
+   "office": "Director, 2 seats (Baskin**, Zell**)",
+   "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+   "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+  }
+ ],
+ "unavailable": [
+  "Alto Sanitary District (2 full-term seats per Notice of Election and filing-extension notice) appears on neither the on-ballot nor the not-on-ballot county list; status unknown.",
+  "Candidate statement URLs: county VIG has per-contest statement pages (e.g. Novato District 2, Board of Education TA3) but they returned errors when fetched, so statementUrl is null throughout.",
+  "Lagunitas SD: name/designation split for Charlotte Troy and Ally Wilson is ambiguous in the source (see contest note).",
+  "Uncontested city contests (Belvedere council, Mill Valley council, Fairfax treasurer, San Anselmo clerk and treasurer, San Rafael District 2) appear on the county on-ballot list; no city clerk document confirming they were not cancelled was found, and the sample ballot for those areas was not checked.",
+  "The county lists themselves note they may not show the full slate (city/town and Sonoma-administered offices are filed elsewhere)."
+ ]
+}

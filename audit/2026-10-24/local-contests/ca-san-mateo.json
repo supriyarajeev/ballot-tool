@@ -1,0 +1,2798 @@
+{
+ "county": "ca-san-mateo",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+   "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf",
+   "note": "28-page CFMR009 Qualified Candidate List with contest codes, vote-for counts, ballot designations and an 'On Ballot' Yes/No flag per contest; printed 9/3/2026 2:09 PM. Linked as 'Roster of Candidates' from the county election page (checked 2026-10-24)."
+  },
+  {
+   "label": "San Mateo County ACRE, November 3, 2026 Statewide General Election page",
+   "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+   "note": "Election hub linking the roster, certified write-in list and extended filing list."
+  },
+  {
+   "label": "San Mateo County ACRE press release, offices up for election (filing opens July 13)",
+   "url": "https://smcacre.gov/elections/news/candidate-filing-period-opens-july-13-november-3-2026-statewide-general-election",
+   "note": "List of all local offices up for election, used as the checklist of jurisdictions."
+  }
+ ],
+ "jurisdictionsChecked": [
+  "San Mateo County (Board of Supervisors D5 short term)",
+  "San Mateo County Board of Education",
+  "San Mateo County Community College District",
+  "Bayshore Elementary SD",
+  "Belmont-Redwood Shores SD",
+  "Brisbane SD",
+  "Burlingame SD",
+  "Cabrillo USD",
+  "Hillsborough City SD",
+  "Jefferson Elementary SD",
+  "Jefferson Union HSD",
+  "La Honda-Pescadero USD",
+  "Las Lomitas Elementary SD",
+  "Menlo Park City SD",
+  "Millbrae Elementary SD",
+  "Pacifica SD",
+  "Portola Valley SD",
+  "Ravenswood City SD",
+  "Redwood City SD",
+  "San Bruno Park SD",
+  "San Carlos SD",
+  "San Mateo Union HSD",
+  "San Mateo-Foster City SD",
+  "Sequoia Union HSD",
+  "South San Francisco USD",
+  "Woodside Elementary SD",
+  "Bayshore Sanitary District",
+  "Broadmoor Police Protection District",
+  "Coastside County Water District",
+  "Coastside Fire Protection District",
+  "Colma Fire Protection District",
+  "Granada Community Services District",
+  "Highlands Recreation District",
+  "Ladera Recreation District",
+  "Menlo Park Fire Protection District",
+  "Mid-Peninsula Water District",
+  "Midpeninsula Regional Open Space District",
+  "Montara Water and Sanitary District",
+  "North Coast County Water District",
+  "Peninsula Health Care District",
+  "San Mateo County Harbor District",
+  "Sequoia Healthcare District",
+  "West Bay Sanitary District",
+  "Westborough Water District",
+  "Woodside Fire Protection District",
+  "Midcoast Community Council",
+  "Pescadero Municipal Advisory Council",
+  "Atherton",
+  "Belmont",
+  "Brisbane",
+  "Burlingame",
+  "Colma",
+  "Daly City",
+  "East Palo Alto",
+  "Foster City",
+  "Half Moon Bay",
+  "Hillsborough",
+  "Menlo Park",
+  "Millbrae",
+  "Pacifica",
+  "Portola Valley",
+  "Redwood City",
+  "San Bruno",
+  "San Carlos",
+  "San Mateo",
+  "South San Francisco",
+  "Woodside"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-supervisor-district-5",
+    "existing": false,
+    "name": "San Mateo County Board of Supervisors District 5",
+    "type": "supervisor-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Board of Supervisors",
+   "district": "District 5 (Short Term)",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mark Nagales",
+     "designation": "Vice Mayor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Juslyn Cabrera Manalo",
+     "designation": "Daly City Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 4050."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-san-mateo-county-board-of-education",
+    "existing": false,
+    "name": "San Mateo County Board of Education",
+    "type": "county",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "County Board of Education Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Beverly Gerard",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Dana Johnson",
+     "designation": "Program Director / Commissioner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3021."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-ccd-san-mateo-county-community-college-district",
+    "existing": true,
+    "name": "San Mateo County Community College District",
+    "type": "community-college-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mike Guingona",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jason Holt",
+     "designation": "Software Engineer / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3103."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-cabrillo-unified-school-district",
+    "existing": true,
+    "name": "Cabrillo Unified School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area C",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Peter Tokofsky",
+     "designation": "Teacher / Dad / Journalist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Lizet Cortes-Ronquillo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3204."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-cabrillo-unified-school-district",
+    "existing": true,
+    "name": "Cabrillo Unified School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area E",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mary Beth Alexander",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Andrea Rosenthal",
+     "designation": "Teacher / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3206."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-south-san-francisco-unified-school-district",
+    "existing": false,
+    "name": "South San Francisco Unified School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area C",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Chialin Hsieh",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Avin Sharma",
+     "designation": "Parent / Finance Administrator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3244."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-south-san-francisco-unified-school-district",
+    "existing": false,
+    "name": "South San Francisco Unified School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area E",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Frank Lara",
+     "designation": "Teacher / Union Leader",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mina A. Richardson",
+     "designation": "SSFUSD Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3246."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-san-mateo-union-high-school-district",
+    "existing": false,
+    "name": "San Mateo Union High School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Diana Harris",
+     "designation": "Teacher / Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jennifer Jacobson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3324."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-san-mateo-union-high-school-district",
+    "existing": false,
+    "name": "San Mateo Union High School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kimo Rosenbaum",
+     "designation": "Parent / Software Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alison Proctor",
+     "designation": "San Mateo-Foster City School District Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3326."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-sequoia-union-high-school-district",
+    "existing": false,
+    "name": "Sequoia Union High School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area A",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Amy Koo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Alon Shiran",
+     "designation": "Product Executive / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3342."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-sequoia-union-high-school-district",
+    "existing": false,
+    "name": "Sequoia Union High School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Trustee Area D",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michael Dekshenieks",
+     "designation": "Management Executive / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sathvik Nori",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3345."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-brisbane-school-district",
+    "existing": false,
+    "name": "Brisbane School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Charlene Larson",
+     "designation": "Retired Federal Employee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Morgan Finlay",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Emily Wirowek",
+     "designation": "Parent / Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Duffy",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3440."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-menlo-park-city-school-district",
+    "existing": false,
+    "name": "Menlo Park City School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jed Scolnick",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Maya Herstein",
+     "designation": "Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sherwin Chen",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Andrew Barnes",
+     "designation": "County of Santa Clara Facilities Professional",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3541."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-pacifica-school-district",
+    "existing": true,
+    "name": "Pacifica School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Full Term",
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Bridget Hardt",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Rachel Durkin",
+     "designation": "Realtor / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Grace Sobieski",
+     "designation": "Parent / Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tiffany Button",
+     "designation": "Quality Director / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Christopher Swiedler",
+     "designation": "Parent / Software Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Katy Bradley",
+     "designation": "Union Organizer / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laverne R Villalobos",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3580."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-pacifica-school-district",
+    "existing": true,
+    "name": "Pacifica School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": "Short Term",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kelly Mendoza",
+     "designation": "Education Programs Leader",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tracey Simmons",
+     "designation": "Artist / Biologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth A. Bredall",
+     "designation": "Special Education Paraprofessional",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": false,
+   "note": "Contest code 3581. Second reading omitted Elizabeth A. Bredall; first reading, a candidate-count check (3) and a third targeted reading all show her as qualified candidate 3."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-sd-san-carlos-school-district",
+    "existing": true,
+    "name": "San Carlos School District",
+    "type": "school-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Governing Board",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Boris Lipkin",
+     "designation": "Appointed San Carlos School District Member, Governing Board",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Richard F. Wahl",
+     "designation": "Optician / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Megha Chawla",
+     "designation": "Tech Executive / Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Shivani Tripathi",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 3680."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-spd-coastside-county-water-district",
+    "existing": false,
+    "name": "Coastside County Water District",
+    "type": "special-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Board of Directors",
+   "district": "Zone 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Nancy Eleanora Poss",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joey P. Silva",
+     "designation": "Retired Maintenance Supervisor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 6046."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-spd-coastside-fire-protection-district",
+    "existing": false,
+    "name": "Coastside Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Board of Directors",
+   "district": "District D",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ryan McGraw",
+     "designation": "Deputy Fire Marshal",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cynthia Sherrill",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 6065."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-spd-coastside-fire-protection-district",
+    "existing": false,
+    "name": "Coastside Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Board of Directors",
+   "district": "District E",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gary Burke",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Alex Carrillo",
+     "designation": "Crisis Management Professional",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 6066."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-spd-granada-community-services-district",
+    "existing": false,
+    "name": "Granada Community Services District",
+    "type": "special-district",
+    "parent": "ca-san-mateo",
+    "areas": []
+   },
+   "office": "Member, Board of Directors",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Barbara Dye",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Kevin W. Sniecinski",
+     "designation": "Researcher / Community Advocate",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Matt Allen",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Patrick Tierney",
+     "designation": "Retired Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 6120."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-belmont",
+    "existing": true,
+    "name": "Belmont",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-belmont"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Julia Mates",
+     "designation": "Mayor of Belmont",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5022. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-belmont-council-district-1",
+    "existing": false,
+    "name": "Belmont Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-belmont",
+    "areas": [
+     "ca-san-mateo-belmont"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gina Latimerlo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5023. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-belmont-council-district-3",
+    "existing": false,
+    "name": "Belmont Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-belmont",
+    "areas": [
+     "ca-san-mateo-belmont"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sarah K.M. Delisle",
+     "designation": "Mother / Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5025. Name printed in all caps; mixed-case form of surname (Delisle vs DeLisle) not verified. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-brisbane",
+    "existing": true,
+    "name": "Brisbane",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-brisbane"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Julie Sims",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Charles Spencer",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Madison Davis",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Chaya-Bella David",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Christopher Hornick",
+     "designation": "Businessman / Entrepreneur",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5041."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-burlingame-council-district-1",
+    "existing": false,
+    "name": "Burlingame Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-burlingame",
+    "areas": [
+     "ca-san-mateo-burlingame"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Andrea Pappajohn",
+     "designation": "Burlingame Vice Mayor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5062. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-burlingame-council-district-3",
+    "existing": false,
+    "name": "Burlingame Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-burlingame",
+    "areas": [
+     "ca-san-mateo-burlingame"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jen Faber",
+     "designation": "Education Foundation Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Howard Wettan",
+     "designation": "City Commissioner / Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5064."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-burlingame-council-district-5",
+    "existing": false,
+    "name": "Burlingame Council District 5",
+    "type": "council-district",
+    "parent": "ca-san-mateo-burlingame",
+    "areas": [
+     "ca-san-mateo-burlingame"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Peter W. Stevenson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5066. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-colma",
+    "existing": true,
+    "name": "Colma",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-colma"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Helen Fisicaro",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Laura M Walsh",
+     "designation": "Medical Assistant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joanne F. Del Rosario",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Elisabeth Aurora Jenson",
+     "designation": "Entrepreneur / Artist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5081."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-daly-city",
+    "existing": true,
+    "name": "Daly City",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-daly-city"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Thomas A. Nuris",
+     "designation": "Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Pamela DiGiovanni",
+     "designation": "Daly City Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Teresa Proaño",
+     "designation": "City Councilmember / Businesswoman",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Bayudan",
+     "designation": "Chief of Staff",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rod Daus-Magbual",
+     "designation": "Councilman / Professor / Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Asia Su",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Barry Rodriguez",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5100. Ballot order numbers 3, 4 and 6 absent from the list (presumably withdrawn/not qualified); 7 qualified candidates."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-east-palo-alto",
+    "existing": true,
+    "name": "East Palo Alto",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-east-palo-alto"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Holifa Windom",
+     "designation": "Businesswoman",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gail Wilk Dixon",
+     "designation": "Legal Investigator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ruben Abrica",
+     "designation": "Substitute Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sam Jimenez",
+     "designation": "Plumbing Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ofelia Bello",
+     "designation": "Nonprofit Executive Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Deborah Lewis-Virges",
+     "designation": "Pastor / Community Advocate",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Mashack",
+     "designation": "Planning Commissioner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5121."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-foster-city-council-district-1",
+    "existing": false,
+    "name": "Foster City Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-foster-city",
+    "areas": [
+     "ca-san-mateo-foster-city"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Art Kiesel",
+     "designation": "Mayor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Phoebe Shin Venkat",
+     "designation": "Nonprofit Executive / Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5142."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-foster-city-council-district-2",
+    "existing": false,
+    "name": "Foster City Council District 2",
+    "type": "council-district",
+    "parent": "ca-san-mateo-foster-city",
+    "areas": [
+     "ca-san-mateo-foster-city"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Stacy Jimenez",
+     "designation": "Councilmember / Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5143. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-half-moon-bay-council-district-1",
+    "existing": false,
+    "name": "Half Moon Bay Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-half-moon-bay",
+    "areas": [
+     "ca-san-mateo-half-moon-bay"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robert Brownstone",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "David Gorn",
+     "designation": "Planning Commissioner Chair",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5163."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-half-moon-bay-council-district-4",
+    "existing": false,
+    "name": "Half Moon Bay Council District 4",
+    "type": "council-district",
+    "parent": "ca-san-mateo-half-moon-bay",
+    "areas": [
+     "ca-san-mateo-half-moon-bay"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ron Kies",
+     "designation": "Geologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Debbie Ruddock",
+     "designation": "Retired Legislative Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5166."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-half-moon-bay-council-district-5",
+    "existing": false,
+    "name": "Half Moon Bay Council District 5",
+    "type": "council-district",
+    "parent": "ca-san-mateo-half-moon-bay",
+    "areas": [
+     "ca-san-mateo-half-moon-bay"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Susie Morasci",
+     "designation": "Paralegal",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Steven R. Booker",
+     "designation": "Electrician",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5167."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-menlo-park-council-district-1",
+    "existing": false,
+    "name": "Menlo Park Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-menlo-park",
+    "areas": [
+     "ca-san-mateo-menlo-park"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "James Rohr",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wonman Lee",
+     "designation": "Software Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5202. One exploratory reading reported code 5201; later readings show 5202."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-menlo-park-council-district-2",
+    "existing": false,
+    "name": "Menlo Park Council District 2",
+    "type": "council-district",
+    "parent": "ca-san-mateo-menlo-park",
+    "areas": [
+     "ca-san-mateo-menlo-park"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Drew Combs",
+     "designation": "Menlo Park City Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vamsi Velagapudi",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5203."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-menlo-park-council-district-4",
+    "existing": false,
+    "name": "Menlo Park Council District 4",
+    "type": "council-district",
+    "parent": "ca-san-mateo-menlo-park",
+    "areas": [
+     "ca-san-mateo-menlo-park"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Charlotte Reed",
+     "designation": "Communications Professional / Singer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laura Melahn",
+     "designation": "Entrepreneur / Nonprofit Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5205."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-millbrae-council-district-2",
+    "existing": false,
+    "name": "Millbrae Council District 2",
+    "type": "council-district",
+    "parent": "ca-san-mateo-millbrae",
+    "areas": [
+     "ca-san-mateo-millbrae"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 2 (Full Term)",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sissy Riley",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5223. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-millbrae-council-district-3",
+    "existing": false,
+    "name": "Millbrae Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-millbrae",
+    "areas": [
+     "ca-san-mateo-millbrae"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 3 (Short Term)",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Juan Gámez",
+     "designation": "Business Consultant / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ann Schneider",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5224."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-millbrae-council-district-4",
+    "existing": false,
+    "name": "Millbrae Council District 4",
+    "type": "council-district",
+    "parent": "ca-san-mateo-millbrae",
+    "areas": [
+     "ca-san-mateo-millbrae"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 4 (Full Term)",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Albert Yam",
+     "designation": "University Data Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bob Nguyen",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5225."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-pacifica-council-district-2",
+    "existing": false,
+    "name": "Pacifica Council District 2",
+    "type": "council-district",
+    "parent": "ca-san-mateo-pacifica",
+    "areas": [
+     "ca-san-mateo-pacifica"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Christine Boles",
+     "designation": "Architect / Businesswoman / Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Urban",
+     "designation": "Retired Regional Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5243."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-pacifica-council-district-3",
+    "existing": false,
+    "name": "Pacifica Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-pacifica",
+    "areas": [
+     "ca-san-mateo-pacifica"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cindy Abbott",
+     "designation": "Nonprofit Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5244. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-pacifica-council-district-5",
+    "existing": false,
+    "name": "Pacifica Council District 5",
+    "type": "council-district",
+    "parent": "ca-san-mateo-pacifica",
+    "areas": [
+     "ca-san-mateo-pacifica"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Margo Meiman",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sam Casillas",
+     "designation": "Climate Resiliency Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5246."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-portola-valley",
+    "existing": true,
+    "name": "Portola Valley",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-portola-valley"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mary Hufty",
+     "designation": "Portola Valley Vice Mayor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Craig S Taylor",
+     "designation": "Town Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Judith A. Hasko",
+     "designation": "Town Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5260. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-redwood-city-council-district-2",
+    "existing": false,
+    "name": "Redwood City Council District 2",
+    "type": "council-district",
+    "parent": "ca-san-mateo-redwood-city",
+    "areas": [
+     "ca-san-mateo-redwood-city"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Chris Sturken",
+     "designation": "City Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5283. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-redwood-city-council-district-5",
+    "existing": false,
+    "name": "Redwood City Council District 5",
+    "type": "council-district",
+    "parent": "ca-san-mateo-redwood-city",
+    "areas": [
+     "ca-san-mateo-redwood-city"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kaia Eakin",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5286. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-redwood-city-council-district-6",
+    "existing": false,
+    "name": "Redwood City Council District 6",
+    "type": "council-district",
+    "parent": "ca-san-mateo-redwood-city",
+    "areas": [
+     "ca-san-mateo-redwood-city"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Diane Howard",
+     "designation": "City Councilmember / Nurse",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5287. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-bruno",
+    "existing": true,
+    "name": "San Bruno",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-san-bruno"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rico E. Medina",
+     "designation": "Mayor, City of San Bruno",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5300. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-bruno-council-district-1",
+    "existing": false,
+    "name": "San Bruno Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-san-bruno",
+    "areas": [
+     "ca-san-mateo-san-bruno"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jennifer M. Blanco",
+     "designation": "Juvenile Justice Commissioner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kingsley Ma",
+     "designation": "School Board President",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5303."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-bruno-council-district-4",
+    "existing": false,
+    "name": "San Bruno Council District 4",
+    "type": "council-district",
+    "parent": "ca-san-mateo-san-bruno",
+    "areas": [
+     "ca-san-mateo-san-bruno"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Marty P. Medina",
+     "designation": "San Bruno City Councilmember District 4",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Auros Harman",
+     "designation": "Planning Commissioner / Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5306."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-carlos",
+    "existing": true,
+    "name": "San Carlos",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-san-carlos"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Pranita Venkatesh",
+     "designation": "Councilmember / Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sara McDowell",
+     "designation": "City Councilmember / Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Adam Rak",
+     "designation": "San Carlos City Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark D. Iwanowski",
+     "designation": "Business Owner / Entrepreneur",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5320."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-mateo-council-district-1",
+    "existing": false,
+    "name": "San Mateo Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-san-mateo",
+    "areas": [
+     "ca-san-mateo-san-mateo"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Taso Zografos",
+     "designation": "Business Executive / Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Lisa Diaz Nash",
+     "designation": "San Mateo Councilmember, District 1",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5342."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-mateo-council-district-3",
+    "existing": false,
+    "name": "San Mateo Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-san-mateo",
+    "areas": [
+     "ca-san-mateo-san-mateo"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Seema Patel",
+     "designation": "Planning Commissioner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robert G. Newsom Jr.",
+     "designation": "Councilmember / Businessman / Father",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5344."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-san-mateo-council-district-5",
+    "existing": false,
+    "name": "San Mateo Council District 5",
+    "type": "council-district",
+    "parent": "ca-san-mateo-san-mateo",
+    "areas": [
+     "ca-san-mateo-san-mateo"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dave Johnson",
+     "designation": "Pastor / Coach",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dana Yates Sahae",
+     "designation": "Community Advocate / Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Adam Loraine",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5346."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-south-san-francisco-council-district-1",
+    "existing": false,
+    "name": "South San Francisco Council District 1",
+    "type": "council-district",
+    "parent": "ca-san-mateo-south-san-francisco",
+    "areas": [
+     "ca-san-mateo-south-san-francisco"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Aysha Dominguez Pamukcu",
+     "designation": "Policy Fund Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5362. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-south-san-francisco-council-district-3",
+    "existing": false,
+    "name": "South San Francisco Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-south-san-francisco",
+    "areas": [
+     "ca-san-mateo-south-san-francisco"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Buenaflor (Flor) Nicolas",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Sophia Cyris",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Melanie Olson",
+     "designation": "Associate Planner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5364."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-south-san-francisco-council-district-5",
+    "existing": false,
+    "name": "South San Francisco Council District 5",
+    "type": "council-district",
+    "parent": "ca-san-mateo-south-san-francisco",
+    "areas": [
+     "ca-san-mateo-south-san-francisco"
+    ]
+   },
+   "office": "Member, City Council",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Eddie Flores",
+     "designation": "South San Francisco Councilmember, District 5",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5366. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-south-san-francisco",
+    "existing": true,
+    "name": "South San Francisco",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-south-san-francisco"
+    ]
+   },
+   "office": "City Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rosa Govea Acosta",
+     "designation": "City Clerk",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5370. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-south-san-francisco",
+    "existing": true,
+    "name": "South San Francisco",
+    "type": "city",
+    "parent": "ca-san-mateo",
+    "areas": [
+     "ca-san-mateo-south-san-francisco"
+    ]
+   },
+   "office": "City Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Frank Risso",
+     "designation": "City Treasurer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5371. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-woodside-council-district-2",
+    "existing": false,
+    "name": "Woodside Council District 2",
+    "type": "council-district",
+    "parent": "ca-san-mateo-woodside",
+    "areas": [
+     "ca-san-mateo-woodside"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Lyle Weaver",
+     "designation": "Retired Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5381. Uncontested, but roster marks 'On Ballot: Yes'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-mateo-woodside-council-district-3",
+    "existing": false,
+    "name": "Woodside Council District 3",
+    "type": "council-district",
+    "parent": "ca-san-mateo-woodside",
+    "areas": [
+     "ca-san-mateo-woodside"
+    ]
+   },
+   "office": "Member, Town Council",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Daniel Druker",
+     "designation": "Retired Technology Executive",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest code 5382. Uncontested, but roster marks 'On Ballot: Yes'."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "San Mateo County Board of Education",
+   "office": "Member, Trustee Area 1",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3020. Qualified: Susan Alvaro",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo County Board of Education",
+   "office": "Member, Trustee Area 3",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3022. Qualified: John C. Baker",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo County Community College District",
+   "office": "Member, Governing Board, Trustee Area 4",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3105. Qualified: Richard Holober",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Cabrillo Unified School District",
+   "office": "Member, Governing Board, Trustee Area A",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3202. Qualified: Kyle Ekberg",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "La Honda-Pescadero Unified School District",
+   "office": "Member, Governing Board (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3221. Qualified: Deborah Walter-Rosas",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "South San Francisco Unified School District",
+   "office": "Member, Governing Board, Trustee Area D",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3245. Qualified: Amanda Anthony",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Jefferson Union High School District",
+   "office": "Member, Governing Board (Full Term, 3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3300. Qualified: Lasaundra A. Gutter, Rosie Tejada, Sherrett Walker",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Jefferson Union High School District",
+   "office": "Member, Governing Board (Short Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3301. Qualified: Joelle M. Castoreno",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo Union High School District",
+   "office": "Member, Governing Board, Trustee Area 1",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3322. Qualified: Teri L. Chavez",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Bayshore Elementary School District",
+   "office": "Member, Governing Board (Full Term, 3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3400. Qualified: Gloria Karina Ferrusca, David T. Rudolph, Jane W. Camarco",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Belmont-Redwood Shores School District",
+   "office": "Member, Governing Board, Trustee Area 1",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3422. Qualified: Charles Shagong",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Belmont-Redwood Shores School District",
+   "office": "Member, Governing Board, Trustee Area 3",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3424. Qualified: David A. Koss",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Burlingame School District",
+   "office": "Member, Governing Board, Trustee Area 1",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3462. Qualified: Semonti Stephens",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Burlingame School District",
+   "office": "Member, Governing Board, Trustee Area 4",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3465. Qualified: Laura Bull",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Hillsborough City School District",
+   "office": "Member, Governing Board (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3480. Qualified: Gilbert Wai, An Huang Chen, Don Geddis",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Jefferson Elementary School District",
+   "office": "Member, Governing Board (Full Term, 3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3500. Qualified: Aaron Rashba, Anthony Tsujisaka, Shakeel Ali",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Jefferson Elementary School District",
+   "office": "Member, Governing Board (Short Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3501. Qualified: Eileen R. Policarpio",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Las Lomitas Elementary School District",
+   "office": "Member, Governing Board (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3520. Qualified: Gautam Nadella, Heather Hopkins, Erin K. Tiedens",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Millbrae Elementary School District",
+   "office": "Member, Governing Board (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3561. Qualified: Claire Beltrami, Denis Fama, Nnenna C. Okezie-Sanchez",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Portola Valley School District",
+   "office": "Member, Governing Board (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3601. Qualified: Robert Kx Jin, Aimee Armsby",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Ravenswood City School District",
+   "office": "Member, Governing Board (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3620. Qualified: Laura Nunez, Mele Kasavu Latu, Tamara Sobomehin",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Redwood City School District",
+   "office": "Member, Governing Board, Trustee Area 2",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3643. Qualified: David E. Weekly",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Redwood City School District",
+   "office": "Member, Governing Board, Trustee Area 5",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3646. Qualified: Cecilia I. Marquez",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Bruno Park School District",
+   "office": "Member, Governing Board, Trustee Area 2",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3663. Qualified: Denise Cook",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Bruno Park School District",
+   "office": "Member, Governing Board, Trustee Area 3",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3664. Qualified: Duane Beadles",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Bruno Park School District",
+   "office": "Member, Governing Board, Trustee Area 5",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3666. Qualified: Raymond Giusti",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo-Foster City School District",
+   "office": "Member, Governing Board, Trustee Area 1 (Full Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3702. Qualified: Allyson Chan",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo-Foster City School District",
+   "office": "Member, Governing Board, Trustee Area 2 (Full Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3703. Qualified: Sabrina Ocampo",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo-Foster City School District",
+   "office": "Member, Governing Board, Trustee Area 3 (Short Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3704. Qualified: Stacey Ho",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Woodside Elementary School District",
+   "office": "Member, Governing Board (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3720. Qualified: Sujay Jaswa, Amanda Peiffer, Mia Hall",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Town of Atherton",
+   "office": "Member, City Council (Full Term, 3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 5000. Qualified: Rick Degolia, Christine David, Jerry Leugers",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Town of Atherton",
+   "office": "Member, City Council (Short Term, 2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 5001. Qualified: Bill Widmer",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Town of Hillsborough",
+   "office": "Member, City Council (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 5181. Qualified: Leslie Marden Ragsdale, Jeff Baxter",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Bayshore Sanitary District",
+   "office": "Member, Board of Directors (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6001. Qualified: Iris Gallagher, Kenneth A. Tonna",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Broadmoor Police Protection District",
+   "office": "Member, Board of Commissioners (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6021. Qualified: John V. Aguerre, Anna Marie Brizuela",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Coastside County Water District",
+   "office": "Member, Board of Directors, Zone 1 (Short Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6042. Qualified: David R. Dickson",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Coastside County Water District",
+   "office": "Member, Board of Directors, Zone 2 (Full Term)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6043. Qualified: Chris R Mickelsen",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Coastside Fire Protection District",
+   "office": "Member, Board of Directors, District C",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6064. Qualified: Patrick Hanna",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Highlands Recreation District",
+   "office": "Member, Board of Directors (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6140. Qualified: Gordon Strause, Uy Ut",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Ladera Recreation District",
+   "office": "Member, Board of Directors (Full Term, 3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6160. Qualified: Shawn Salmon, Brian Wall",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Ladera Recreation District",
+   "office": "Member, Board of Directors (Short Term, 2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6161. Qualified: Helen Wang",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Menlo Park Fire Protection District",
+   "office": "Member, Board of Directors (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6200. Qualified: Chuck Bernstein, Gary L. Bloom, Robert Jones",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Mid-Peninsula Water District",
+   "office": "Member, Board of Directors, Division 3",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6224. Qualified: Neela Patel",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Mid-Peninsula Water District",
+   "office": "Member, Board of Directors, Division 4",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6225. Qualified: Joann Covington",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Mid-Peninsula Water District",
+   "office": "Member, Board of Directors, Division 5",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6226. Qualified: Charles \"Chuck\" Cotten",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Midcoast Community Council",
+   "office": "Councilmember (4 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6240. Qualified: Scott Bollinger, Joan Brennan",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Midpeninsula Regional Open Space District",
+   "office": "Member, Board of Directors, Ward 5",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6260. Qualified: Karen C. Holman",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Midpeninsula Regional Open Space District",
+   "office": "Member, Board of Directors, Ward 6",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6261. Qualified: Bryan Beck",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Montara Water and Sanitary District",
+   "office": "Member, Board of Directors, Division 1",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6282. Qualified: William \"Bill\" Softky",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Montara Water and Sanitary District",
+   "office": "Member, Board of Directors, Division 3",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6284. Qualified: Scott Boyd",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Montara Water and Sanitary District",
+   "office": "Member, Board of Directors, Division 5",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6286. Qualified: Virginia \"Ginny\" McShane",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "North Coast County Water District",
+   "office": "Member, Board of Directors, Zone A",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6302. Qualified: William Hauser",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "North Coast County Water District",
+   "office": "Member, Board of Directors, Zone B",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6303. Qualified: Anne Dejarnatt",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "North Coast County Water District",
+   "office": "Member, Board of Directors, Zone E",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6306. Qualified: Ron Ash",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Peninsula Health Care District",
+   "office": "Member, Board of Directors (3 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6320. Qualified: Lawrence William Cappel, Dennis Zell, Henry Sanchez",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Pescadero Municipal Advisory Council",
+   "office": "Councilmember (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6349. Qualified: Cullen Rose",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo County Harbor District",
+   "office": "Member, Board of Commissioners, District 2",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6363. Qualified: George W. Domurat",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "San Mateo County Harbor District",
+   "office": "Member, Board of Commissioners, District 3",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6364. Qualified: Kathryn Slater-Carter",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Sequoia Healthcare District",
+   "office": "Member, Board of Directors, Zone A",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6382. Qualified: William Fong",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Sequoia Healthcare District",
+   "office": "Member, Board of Directors, Zone C",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6384. Qualified: Rosanne Foust",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Sequoia Healthcare District",
+   "office": "Member, Board of Directors, Zone E",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6386. Qualified: Brian Greenberg",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "West Bay Sanitary District",
+   "office": "Member, Board of Directors (2 seats)",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6401. Qualified: Edward Moritz, Roy Thiele-Sardina",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Westborough Water District",
+   "office": "Member, Board of Directors, Zone 2",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6423. Qualified: Thomas Chambers",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Westborough Water District",
+   "office": "Member, Board of Directors, Zone 4",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6425. Qualified: Perry Bautista",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Woodside Fire Protection District",
+   "office": "Member, Board of Directors",
+   "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6441. Qualified: Matt Miller",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Bayshore Elementary School District",
+   "office": "Member, Governing Board (Short Term)",
+   "reason": "No qualified candidate listed on the 9/3/2026 roster although the county's offices-up list includes it; not on ballot (vacancy to be filled by appointment)",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Belmont-Redwood Shores School District",
+   "office": "Member, Governing Board, Trustee Area 5",
+   "reason": "No qualified candidate listed on the 9/3/2026 roster although the county's offices-up list includes it; not on ballot (vacancy to be filled by appointment)",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  },
+  {
+   "jurisdiction": "Colma Fire Protection District",
+   "office": "Member, Board of Directors (1 seat)",
+   "reason": "No qualified candidate listed on the 9/3/2026 roster although the county's offices-up list includes it; not on ballot (vacancy to be filled by appointment)",
+   "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+  }
+ ],
+ "unavailable": [
+  "Roster PDF prints names in ALL CAPS; names were converted to normal capitalization, so internal capitals (e.g. DiGiovanni, McGraw, McDowell, Delisle, Latimerlo, Dekshenieks) are not verified against mixed-case sources.",
+  "No county-published online candidate statement URLs were found; statementUrl is null throughout.",
+  "Certified write-in candidate list (https://smcacre.gov/media/9093/download?attachment) was not read; write-ins are not included.",
+  "notOnBallot entries are based on the roster's 'On Ballot: No' flag; board resolutions formally appointing in lieu of election were not individually checked.",
+  "Roster is dated 9/3/2026; no later roster was linked from the county election page as of 2026-10-24.",
+  "Incumbent flag set true only where the ballot designation says Incumbent/Appointed Incumbent; otherwise null."
+ ]
+}

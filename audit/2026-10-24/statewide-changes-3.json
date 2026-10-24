@@ -1,0 +1,178 @@
+{
+ "date": "2026-10-24",
+ "approvedBy": "the site owner, in chat on Oct 24, 2026 (items P1 to P19 of audit/2026-10-24/stage1/STAGE1-REPORT.md)",
+ "note": "Text and source links only. Ratings, weights, reasons and scoring are unchanged; tests/scoring-regression.mjs must report 0 differences. Official text was read with an automated fetch tool; no person has reviewed it.",
+ "changes": [
+  {
+   "id": "P1",
+   "prop": "3",
+   "field": "src (LAO link)",
+   "old": "[\"LAO analysis\", \"https://lao.ca.gov/BallotAnalysis/Proposition?number=3&year=2026\", \"Official\"]",
+   "new": "[\"LAO analysis\", LAO + \"prop3-110326.pdf\", \"Official\"]",
+   "officialQuote": "The old link returned the LAO page for Proposition 45 when fetched. The LAO PDF opens Prop 3: \"Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes.\"",
+   "url": "https://lao.ca.gov/ballot/2026/prop3-110326.pdf"
+  },
+  {
+   "id": "P2",
+   "prop": "4",
+   "field": "argFor",
+   "old": "argFor: \"Supporters' official argument says California alone bans public financing, and this lets communities choose it, with safeguards.\"",
+   "new": "argFor: \"Supporters' official argument says elections should be won, not bought, and this lets communities choose public financing, with safeguards. Their rebuttal says California is the only state that bans it.\"",
+   "officialQuote": "Rebuttal to Argument Against: \"California is the ONLY state that bans public funding of campaigns.\" The Argument in Favor's theme is \"ELECTIONS SHOULD BE WON, NOT BOUGHT.\"",
+   "url": "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm"
+  },
+  {
+   "id": "P3",
+   "prop": "4",
+   "field": "does",
+   "old": "does: \"Repeals the 1988 ban, so governments",
+   "new": "does: \"Repeals the state ban on public funding of campaigns, so governments",
+   "officialQuote": "LAO: \"The Political Reform Act bans the use of public funds for political candidates' campaigns.\" No year is given in the official guide.",
+   "url": "https://voterguide.sos.ca.gov/propositions/4/analysis.htm"
+  },
+  {
+   "id": "P4",
+   "prop": "1",
+   "field": "acct",
+   "old": "acct: \"An annual public report on the bond. Existing law it points to requires homes assisted, households served and where the homes are, plus cost per unit for the main rental program. A yearly",
+   "new": "acct: \"An annual public report on the bond's investments, using the existing state housing annual report (Health and Safety Code Section 50408). A yearly",
+   "officialQuote": "Health and Safety Code Section 54088 (measure text): \"The administering entity shall publish in an annual report detailed information regarding the investments resulting from this bond.\" It points to Section 50408 only.",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf"
+  },
+  {
+   "id": "P5",
+   "prop": "2",
+   "field": "pro",
+   "old": "pro: \"California Professional Firefighters, Assembly Budget Chair Jesse Gabriel, Gov. Newsom.\"",
+   "new": "pro: \"California Professional Firefighters, Assembly Budget Chair Jesse Gabriel, Los Angeles Area Chamber of Commerce (official argument). The official guide also lists Gov. Newsom.\"",
+   "officialQuote": "Argument in Favor signed by \"Darrell Roberts, President, California Professional Firefighters\", \"Jesse Gabriel, Chair, California State Assembly Budget Committee\" and \"Maria S. Salinas, CEO, Los Angeles Area Chamber of Commerce\".",
+   "url": "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm"
+  },
+  {
+   "id": "P6",
+   "prop": "37",
+   "field": "acct",
+   "old": "acct: \"Supporters' official argument says it requires annual audits of the loans and the fund. An independent analysis (Hoover Institution) says program rules are exempt from normal state rulemaking. No target for homes or loans.\"",
+   "new": "acct: \"The measure requires an independent annual audit of the program to confirm bond money is used as the law requires. Program rules are exempt from the state's normal rulemaking process, though CalHFA's board must approve them. No target for homes or loans.\"",
+   "officialQuote": "Legal text Sec. 51515.05(g) requires an \"independent annual audit of the program\"; Sec. 51515.05(a): rules \"shall not be subject to Chapter 3.5 (commencing with Section 11340)\", with board approval.",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf"
+  },
+  {
+   "id": "P7",
+   "prop": "38",
+   "field": "money",
+   "old": "money: \"LAO estimates taxpayers repay $500 million to $600 million a year for about 20 years. The state gets 10% of any revenue from resulting treatments.\"",
+   "new": "money: \"LAO estimates taxpayers repay $500 million to $600 million a year for about 20 years. Funded researchers must pay the state 10% of revenue from licensing or selling their discoveries, which goes to the General Fund until the bond costs are covered. LAO says this could offset part or all of the cost, but it is uncertain and could take decades.\"",
+   "officialQuote": "AG summary: \"General Fund receives 10% of licensing royalties until bonds are repaid.\" LAO: \"The state could recover part or all of this cost in subsequent decades\" \"if the funded research leads to discoveries that generate revenue.\"",
+   "url": "https://voterguide.sos.ca.gov/propositions/38/title-summary.htm"
+  },
+  {
+   "id": "P8",
+   "prop": "38",
+   "field": "src (legal text)",
+   "old": "(no legal text link)",
+   "new": "[\"Legal text\", SOSPDF + \"prop38-text-proposed-laws.pdf\", \"Official\"] appended",
+   "officialQuote": "Official legal text exists: \"California Immunology Research and Cures Initiative\", pp. 123 to 132. Appended at the end of the source list so reason-source indexes are unchanged.",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf"
+  },
+  {
+   "id": "P9",
+   "prop": "39",
+   "field": "pro",
+   "old": "pro: \"Californians for Voter ID (official argument). LAist also lists the Howard Jarvis Taxpayers Association and the California Republican Party.\"",
+   "new": "pro: \"Californians for Voter ID (official argument). The Transparency Foundation, California Women's Leadership Association and Latino American Political Association (official rebuttal). The official guide also lists the Howard Jarvis Taxpayers Association. LAist also lists the California Republican Party.\"",
+   "officialQuote": "Official supporters listing: \"The Transparency Foundation; Latino American Political Assn; Howard Jarvis Taxpayers Assn; CA Women's Leadership Assn\". Rebuttal signed by Johnathan Hale, Cynthia Kaui and Ed Cervantes.",
+   "url": "https://voterguide.sos.ca.gov/propositions/39/"
+  },
+  {
+   "id": "P10",
+   "prop": "40",
+   "field": "pro",
+   "old": "pro: \"SEIU-UHW (official argument). Wikipedia reports Sen. Bernie Sanders endorsed it.\",",
+   "new": "pro: \"SEIU-UHW (official argument and rebuttal). The official guide also lists U.S. Sen. Bernie Sanders as a supporter.\",",
+   "officialQuote": "Official supporters listing: \"US Senator Bernie Sanders; SEIU United Healthcare Workers West\".",
+   "url": "https://voterguide.sos.ca.gov/propositions/40/"
+  },
+  {
+   "id": "P11",
+   "prop": "41",
+   "field": "risk",
+   "old": "risk: \"If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. Counting new taxes under the spending limit could also trigger rebates under existing spending-limit rules, leaving less for other programs.\"",
+   "new": "risk: \"If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. LAO also says the state might not be able to exclude new special tax spending from the spending limit, and calls the net fiscal effect unknown.\"",
+   "officialQuote": "LAO: \"Under Proposition 41, the state might not be able to exclude new special tax spending from the limit.\" AG fiscal summary: \"Unknown net fiscal effect.\" No rebate statement in the official text.",
+   "url": "https://voterguide.sos.ca.gov/propositions/41/analysis.htm"
+  },
+  {
+   "id": "P12",
+   "prop": "41",
+   "field": "src (legal text)",
+   "old": "[\"Legal text (GrowSF copy)\", \"https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/measures/prop-41/legal-text/\", \"Independent copy of official text\"]",
+   "new": "[\"Legal text\", SOSPDF + \"prop41-text-proposed-laws.pdf\", \"Official\"]",
+   "officialQuote": "Official legal text, pp. 147 to 150. Same position in the source list, so reason-source indexes are unchanged.",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf"
+  },
+  {
+   "id": "P13",
+   "prop": "44",
+   "field": "con",
+   "old": "con: \"California Medical Association, American Academy of Pediatrics California (official argument). News reports add",
+   "new": "con: \"American Academy of Pediatrics California, California School Nurses Organization, California Medical Association (official argument). The official listing also names the California Academy of Family Physicians. News reports add",
+   "officialQuote": "Argument against signed by \"Eric Ball, MD, FAAP, President, American Academy of Pediatrics, California\", \"Katie Nilsson, RN, President, California School Nurses Organization\", \"René Bravo, M.D., President, California Medical Association\".",
+   "url": "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm"
+  },
+  {
+   "id": "P14",
+   "prop": "45",
+   "field": "pro",
+   "old": "pro: \"California Water Association, California Children's Hospital Association (official argument). News reports add",
+   "new": "pro: \"California Children's Hospital Association, California Water Association, California Council on Affordable Housing (official listing and argument). News reports add",
+   "officialQuote": "Argument in favor signed by \"Ann-Louise Kuhns, President, California Children's Hospital Association\", \"Jennifer Capitolo, Executive Director, California Water Association\", \"Jenna Abbott, Executive Director, California Council on Affordable Housing\".",
+   "url": "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm"
+  },
+  {
+   "id": "P15",
+   "prop": "45",
+   "field": "no / noE",
+   "old": "no: \"Projects would continue to use existing review and court challenge procedures.\", noE: \"This includes CEQA exemptions the Legislature passed in 2025.\"",
+   "new": "no: \"Public and private projects would continue to use existing project review and court challenge procedures.\", noE: \"\"",
+   "officialQuote": "Official NO: \"Public and private projects would continue to use existing project review and court challenge procedures.\" The 2025 exemptions sentence is not in the guide or the LAO analysis.",
+   "url": "https://voterguide.sos.ca.gov/propositions/45/"
+  },
+  {
+   "id": "P16",
+   "prop": "45",
+   "field": "unk",
+   "old": "A Holland & Knight study led by Jennifer Hernandez, who HousingWire reports helped write the measure, puts it at four to five years.\"",
+   "new": "A Holland & Knight report co-written by Jennifer Hernandez, who HousingWire reports helped write the measure, says CEQA trial and appellate proceedings typically take about five years.\"",
+   "officialQuote": "Holland & Knight: \"CEQA trial and appellate court proceedings typically take about five years to complete\". The report is added to the sources (appended).",
+   "url": "https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects"
+  },
+  {
+   "id": "P17",
+   "prop": "44",
+   "field": "does",
+   "old": "Any shortfall is paid as a penalty into escrow and returned only if the clinic reaches 90% within five years.",
+   "new": "Any shortfall is paid as a penalty into escrow. It is returned only if the clinic reaches 90% within five years and agrees with the Department of Public Health on a plan to spend it on patient services. The department can grant one-year waivers.",
+   "officialQuote": "Legal text H&S Sec. 1234.5: moneys \"held in escrow for a period of five years\", reimbursed only if the clinic meets 90 percent and agrees a spending plan with the Department of Public Health; (c) \"a temporary pause of the 90 percent requirement\".",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf"
+  },
+  {
+   "id": "P18",
+   "prop": "43",
+   "field": "does",
+   "old": "It also bars citizen initiatives from adding local property taxes beyond what the state constitution already allows.",
+   "new": "It also says no local government, including voters using the initiative, may impose ad valorem taxes on real property except as Article XIII D, Section 3(a)(1) of the state constitution allows. The official analysis does not discuss this clause.",
+   "officialQuote": "Legal text Sec. 4.5(b): \"no local government, including the electorate of a local government exercising the initiative power, may impose ad valorem taxes on real property, except as provided in paragraph (1) of subdivision (a) of Section 3 of Article XIII D.\"",
+   "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf"
+  },
+  {
+   "id": "P19",
+   "prop": "44",
+   "field": "yes",
+   "old": "yes: \"Certain private nonprofit health clinics would have",
+   "new": "yes: \"Certain private nonprofit health care clinics would have",
+   "officialQuote": "Official YES: \"Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.\"",
+   "url": "https://voterguide.sos.ca.gov/propositions/44/"
+  }
+ ]
+}

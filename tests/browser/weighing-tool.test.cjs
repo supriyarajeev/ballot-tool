@@ -10,6 +10,7 @@ const { AXE, ALLOWED_HOSTS, blockExternal, watchErrors, counter } = require("./l
 const URL_ = process.argv[2] ? "file://" + path.resolve(process.argv[2]) : process.env.BASE ? process.env.BASE + "propositions.html" : "file://" + path.join(__dirname, "../../propositions.html");
 const NS = ["1", "2", "3", "4", "5", "37", "38", "39", "40", "41", "42", "43", "44", "45"];
 const { ok, done } = counter("weighing tool browser tests");
+const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
 
 (async () => {
   const b = await chromium.launch();
@@ -80,6 +81,28 @@ const { ok, done } = counter("weighing tool browser tests");
     // keyboard: tab to a pill and select with space
     await p.focus("#g-2-3"); await p.keyboard.press("Space"); ok((await T("#pf-2")) === "Support", "keyboard select " + tag);
     await p.keyboard.press("ArrowRight"); ok((await T("#pf-2")) === "Strongly support", "arrow key " + tag);
+    // Percentages (Oct 24, 2026): shares from the actual weights, live updates, single factor, all zero, results and calculation.
+    { await p.click('.preset[data-id="def"]');
+      const fw = await p.$$eval(".fw-p", (e) => e.map((x) => x.textContent));
+      ok(JSON.stringify(fw) === JSON.stringify(["20.83% of the total", "20.83% of the total", "16.67% of the total", "12.50% of the total", "12.50% of the total", "8.33% of the total", "8.33% of the total"]), "framework list shows default shares " + tag + ": " + fw.join(", "));
+      ok((await T("#pct-nb")) === "20.8% of your weighting", "slider share " + tag);
+      await p.fill("#w-nb", "0"); ok((await T("#pct-ev")) === "26.3% of your weighting" && /Not counted/.test(await T("#pct-nb")), "shares update immediately when a weight changes " + tag);
+      for (const k of ["nb", "ev", "lr", "ac", "fc", "oc"]) await p.fill("#w-" + k, "0");
+      ok((await T("#pct-if")) === "100.0% of your weighting", "single factor gets 100% " + tag);
+      await p.fill("#w-if", "0");
+      ok(/every factor is set to Ignore/.test(await T("#pct-nb")) && (await T("#pc-1")) === "" && /Evidence not weighted/.test(await T("#calc-1")), "all zero shows no shares and no score " + tag);
+      await p.click('.preset[data-id="def"]');
+      ok((await T("#pc-1")) === "Weighted evidence rating: 64% (3.2/5)" && (await T("#pc-40")) === "Weighted evidence rating: 50% (2.5/5)", "weighted evidence rating shown " + tag);
+      const rows = await p.$$eval("#all-pct tr", (r) => r.length); ok(rows === 14, "all 14 propositions in the calculation table " + tag);
+      const pts = await p.$$eval("#calc-1 tbody td:last-child", (t) => t.map((x) => parseFloat(x.textContent)));
+      ok(pts.length === 7 && Math.abs(pts.reduce((a, b) => a + b, 0) - 64.17) < 0.02 && (await T("#calc-1 tfoot td:last-child")) === "64.17", "contributions add up to the exact percentage " + tag);
+      ok(/Preference alignment not calculated|giving/.test(await T("#calc-1")), "preference kept separate in the calculation " + tag);
+      ok(/Importance 20\.83% × rating 3\/5 = 12\.50 points/.test(await T("#hs-ex")), "worked example " + tag);
+      await p.fill("#w-oc", "5"); await p.reload(); await p.evaluate(() => { const d = document.getElementById("customize"); if (d) d.open = true; });
+      ok((await T("#pct-oc")) === BWfmt(500 / 27) + "% of your weighting", "saved weights restore with their shares " + tag);
+      await p.click('.preset[data-id="def"]'); }
+    { const t = (await p.textContent("[data-credit]")).replace(/\s+/g, " ");
+      ok(/Developed by Supriya Rajeev for educational purposes\./.test(t) && /Independent civic-tech project · Beta version/.test(t) && (await p.$$eval("[data-credit] a", (as) => as.map((a) => a.href))).includes("https://www.sos.ca.gov/elections"), "tool footer credit and official link " + tag); }
     // overflow, with every disclosure open
     await p.evaluate(() => document.querySelectorAll("details").forEach((d) => (d.open = true)));
     ok((await p.evaluate(() => document.documentElement.scrollWidth)) <= w, "no horizontal overflow " + tag);

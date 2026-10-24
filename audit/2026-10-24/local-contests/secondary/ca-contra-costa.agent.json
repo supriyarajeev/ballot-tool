@@ -1,0 +1,2407 @@
+{
+ "county": "ca-contra-costa",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Contra Costa County Elections, candidate list (8-13-26 FINAL summary PDF)",
+   "url": "https://www.contracostavote.gov/wp-content/uploads/8-13-26_candidatelist_summary_final.pdf",
+   "note": "NOT FETCHED: contracostavote.gov is not on the session allowlist. URL taken from Contra Costa News link."
+  },
+  {
+   "label": "Contra Costa County Elections, Candidate Guide Nov 3, 2026 (hosted by City of Oakley)",
+   "url": "https://www.oakleyca.gov/DocumentCenter/View/1984/November-3-2026-Candidate-Guide",
+   "note": "Offices up for election and seat counts, as of July 2, 2026; lists no candidates"
+  },
+  {
+   "label": "Contra Costa County Statewide Primary Official Results - Final (June 2, 2026)",
+   "url": "https://www.contracosta.ca.gov/DocumentCenter/View/91835/Contra-Costa-County-Statewide-Primary-Official-Results---Final",
+   "note": "Used to identify November runoffs (only Richmond Mayor); all county offices decided in June"
+  },
+  {
+   "label": "City of Antioch final candidate status",
+   "url": "https://www.antiochca.gov/DocumentCenter/View/4845/FINAL-Status-of-Antioch-City-Council-Candidates",
+   "note": "updated 08-10-2026"
+  },
+  {
+   "label": "City of Antioch Aug 20, 2026 special meeting agenda",
+   "url": "https://www.antiochca.gov/AgendaCenter/ViewFile/Agenda/_08202026-2538",
+   "note": "City Clerk appointed in lieu of election"
+  },
+  {
+   "label": "City of Clayton nominees notice",
+   "url": "https://www.claytonca.gov/DocumentCenter/View/832/2026-City-Nominees-for-Public-Office",
+   "note": "posted Aug 14, 2026"
+  },
+  {
+   "label": "City of Oakley Election 2026",
+   "url": "https://www.oakleyca.gov/191/Oakley-Election-2026",
+   "note": "both seats appointed in lieu Aug 20, 2026"
+  },
+  {
+   "label": "City of Pinole candidate roster",
+   "url": "https://www.pinole.gov/wp-content/uploads/2026/08/8.18.26-2026-Candidate-Roster.pdf",
+   "note": "as of 8/18/2026"
+  },
+  {
+   "label": "City of Pittsburg November 2026 candidates",
+   "url": "https://www.pittsburgca.gov/services/city-clerk/elections/november-2026-candidates",
+   "note": "last entry 8/7/2026"
+  },
+  {
+   "label": "City of San Ramon candidates",
+   "url": "https://www.sanramon.ca.gov/our_city/departments_and_divisions/city_clerk/Elections/candidates",
+   "note": "no date printed"
+  },
+  {
+   "label": "EBMUD press release Aug 18, 2026",
+   "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4",
+   "note": "Wards 2, 4 appointed; Wards 3, 7 on ballot"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Contra Costa County (county offices)",
+  "Antioch",
+  "Brentwood",
+  "Clayton",
+  "Concord",
+  "Danville",
+  "El Cerrito",
+  "Hercules",
+  "Lafayette",
+  "Martinez",
+  "Moraga",
+  "Oakley",
+  "Orinda",
+  "Pinole",
+  "Pittsburg",
+  "Pleasant Hill",
+  "Richmond",
+  "San Pablo",
+  "San Ramon",
+  "Walnut Creek",
+  "Contra Costa County Board of Education",
+  "Contra Costa Community College District",
+  "Acalanes UHSD",
+  "Antioch USD",
+  "Brentwood Union SD",
+  "Byron Union SD",
+  "Canyon Elementary SD",
+  "John Swett USD",
+  "Knightsen Elementary SD",
+  "Lafayette SD",
+  "Liberty UHSD",
+  "Livermore Valley JUSD (Area 3)",
+  "Martinez USD",
+  "Moraga SD",
+  "Mt. Diablo USD",
+  "Oakley Union Elementary SD",
+  "Orinda Union SD",
+  "Pittsburg USD",
+  "San Ramon Valley USD",
+  "Walnut Creek SD",
+  "West Contra Costa USD",
+  "AC Transit (Ward 1)",
+  "Ambrose Recreation & Park",
+  "Bethel Island MID",
+  "Byron-Bethany Irrigation",
+  "Byron Sanitary",
+  "Castle Rock County Water",
+  "Central Contra Costa Sanitary",
+  "Contra Costa Water",
+  "Crockett CSD",
+  "Diablo CSD",
+  "Diablo Water",
+  "Town of Discovery Bay CSD",
+  "Dublin San Ramon Services",
+  "EBMUD",
+  "East Bay Regional Park",
+  "East Contra Costa Irrigation",
+  "Green Valley Recreation & Park",
+  "Ironhouse Sanitary",
+  "Kensington CSD",
+  "Moraga-Orinda Fire",
+  "Mt. View Sanitary",
+  "Pleasant Hill Recreation & Park",
+  "Rodeo Sanitary",
+  "BART District 2",
+  "San Ramon Valley Fire",
+  "Stege Sanitary",
+  "West County Wastewater"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-antioch-council-district-1",
+    "existing": false,
+    "name": "Antioch Council District 1",
+    "type": "council-district",
+    "parent": "ca-contra-costa-antioch",
+    "areas": [
+     "ca-contra-costa-antioch"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joyann Motts",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tamisha Torres-Walker",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "City of Antioch, FINAL Status of Antioch City Council Candidates - November 3, 2026 (updated 08-10-2026)",
+    "url": "https://www.antiochca.gov/DocumentCenter/View/4845/FINAL-Status-of-Antioch-City-Council-Candidates"
+   },
+   "readingsMatched": true,
+   "note": "City clerk final status list; Diane Gibson-Gray pulled papers but did not qualify. Asterisk on Torres-Walker read as incumbent marker. News sources spell 'Joy Motts'. No ballot designations printed."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-antioch-council-district-4",
+    "existing": false,
+    "name": "Antioch Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-antioch",
+    "areas": [
+     "ca-contra-costa-antioch"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Metty Mathews Alappat",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sandra White",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Monica Wilson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Andrew Becker",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Antioch, FINAL Status of Antioch City Council Candidates - November 3, 2026 (updated 08-10-2026)",
+    "url": "https://www.antiochca.gov/DocumentCenter/View/4845/FINAL-Status-of-Antioch-City-Council-Candidates"
+   },
+   "readingsMatched": true,
+   "note": "City clerk final status list. Wilson incumbent per news. News spells 'Metty Matthews Alappat'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-brentwood-council-district-2",
+    "existing": false,
+    "name": "Brentwood Council District 2",
+    "type": "council-district",
+    "parent": "ca-contra-costa-brentwood",
+    "areas": [
+     "ca-contra-costa-brentwood"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Kris Brand",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vinoy Mereddy",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tammy Zickuhr",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News editorial, Aug 16, 2026",
+    "url": "https://contracosta.news/2026/08/16/editorial-let-the-contra-costa-county-political-circus-begin/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Aug 7 list showed Brand (q) and Zickuhr (q) with filing extended to Aug 12; Aug 16 editorial adds Vinoy Mereddy. Earlier lists named Mark Duke (not shown as qualified). Brentwood city page not updated for 2026."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-brentwood-council-district-4",
+    "existing": false,
+    "name": "Brentwood Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-brentwood",
+    "areas": [
+     "ca-contra-costa-brentwood"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Stephanie Williams-Rogers",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sheree Shannon",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Holley Bishop-Mello",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News editorial, Aug 16, 2026",
+    "url": "https://contracosta.news/2026/08/16/editorial-let-the-contra-costa-county-political-circus-begin/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Spelling 'Holley' (editorial) vs 'Holly' (county-list transcription) unresolved. Open seat."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-clayton",
+    "existing": true,
+    "name": "Clayton",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-clayton"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "At-large",
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Amy Callaghan",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Charles \"Charlie\" Schmidt",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Maria Shulman",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kim Trupiano",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Clayton, 2026 City Nominees for Public Office (posted Aug 14, 2026)",
+    "url": "https://www.claytonca.gov/DocumentCenter/View/832/2026-City-Nominees-for-Public-Office"
+   },
+   "readingsMatched": true,
+   "note": "Official notice of nominees in ballot order. News lists spelled 'Marie Shulman'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord-council-district-1",
+    "existing": false,
+    "name": "Concord Council District 1",
+    "type": "council-district",
+    "parent": "ca-contra-costa-concord",
+    "areas": [
+     "ca-contra-costa-concord"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Laura Hoffmeister",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Maria Bagley",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Patricia Brazil",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Concord City Council races (cites county final list Aug 14, 2026)",
+    "url": "https://theballotbrief.com/state/california/contra-costa-county"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Aug 7 list: Hoffmeister (q), Bagley (q), Patricia Brazil (q); Ballot Brief prints 'Trish Brazil'. Lance LeDrew not qualified."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord-council-district-3",
+    "existing": false,
+    "name": "Concord Council District 3",
+    "type": "council-district",
+    "parent": "ca-contra-costa-concord",
+    "areas": [
+     "ca-contra-costa-concord"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Don Seta",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robyn Kuslits",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dena Acosta Beere",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Douglas Rodolfo Lezameta",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Concord City Council races (cites county final list Aug 14, 2026)",
+    "url": "https://theballotbrief.com/state/california/contra-costa-county"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Open seat (filing extended to Aug 12). Ballot Brief and county-list transcription agree on 4 names."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord-council-district-5",
+    "existing": false,
+    "name": "Concord Council District 5",
+    "type": "council-district",
+    "parent": "ca-contra-costa-concord",
+    "areas": [
+     "ca-contra-costa-concord"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Laura Nakamura",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Aeysha Corio",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "The Ballot Brief, Concord City Council races (cites county final list Aug 14, 2026)",
+    "url": "https://theballotbrief.com/state/california/contra-costa-county"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Aug 7 list also showed Arezou Bakhtjou (q), but Ballot Brief and Aug 14 county-list transcription show only Nakamura and Corio. Verify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-danville",
+    "existing": true,
+    "name": "Town of Danville",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-danville"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Robert Storer",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Denton Carlson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Pratima Sonavne",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Danville San Ramon, 'San Ramon Valley candidates finalized for November ballot' (Aug 14, 2026)",
+    "url": "https://www.danvillesanramon.com/?p=476010"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Aug 7 list showed all three (q); filing extended to Aug 12 because Karen Stepper did not run."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-el-cerrito",
+    "existing": true,
+    "name": "El Cerrito",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-el-cerrito"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Gabe Quinto",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Carolyn Wysinger",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Ann Jawilli",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wally Nowinski",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kimberly White",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Forest Lanning",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Six qualified per Aug 7 list (Michael McDougall qualified then withdrew). Aug 16 editorial spells 'Mary Ann \"MJ\" Jwaili' and 'Michael Lanning'; exact ballot names unverified. Seat count 2 per county candidate guide."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-hercules",
+    "existing": true,
+    "name": "Hercules",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-hercules"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Dion Bailey",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Preet Sidhu",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Delgado",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Aug 7 list: Bailey (q), Sidhu (q), Delgado (q); Adrena Breckenridge pulled papers, not shown qualified. Chris Kelley (incumbent) not on Aug 7 list. Hercules city page not updated for 2026."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-martinez-council-district-1",
+    "existing": false,
+    "name": "Martinez Council District 1",
+    "type": "council-district",
+    "parent": "ca-contra-costa-martinez",
+    "areas": [
+     "ca-contra-costa-martinez"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jay Howard",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Nakenya Allen",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, Martinez municipal elections (Aug 9, 2026)",
+    "url": "https://contracosta.news/2026/08/09/martinez-municipal-elections-from-crowded-citywide-races-to-quiet-district-elections/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Martinez city election page candidate table was empty when fetched."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-moraga",
+    "existing": true,
+    "name": "Town of Moraga",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-moraga"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Kerry Hillis",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Steve Woehleke",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Alexis Mapel",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bill Carman",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Lamorinda Weekly, 'Candidates and Measures for November election finalized' (Sep 9, 2026)",
+    "url": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Aug 7 list shows all four (q)."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-orinda",
+    "existing": true,
+    "name": "Orinda",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-orinda"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "At-large",
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Brandyn Iverson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Latika Malkani",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Janet Riley",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Juana Rudati",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Lamorinda Weekly, 'Candidates and Measures for November election finalized' (Sep 9, 2026)",
+    "url": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Lamorinda Weekly spells 'Juana Rudate'; Contra Costa News 'Juana Rudati'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pinole",
+    "existing": true,
+    "name": "Pinole",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-pinole"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "At-large",
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gabriel Sandoval",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Truc \"Christy\" Lam-Julian",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Libby Duarte",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mat Avery",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tina Brown",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Pinole, 2026 Candidate Roster as of 8/18/2026",
+    "url": "https://www.pinole.gov/wp-content/uploads/2026/08/8.18.26-2026-Candidate-Roster.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Roster shows papers filed and signatures verified for all five (8/6 and 8/18 rosters match). News spells 'Matt Avery'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pittsburg",
+    "existing": true,
+    "name": "Pittsburg",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-pittsburg"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "At-large",
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dionne Adams",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Arlene Kobata",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Sonja Shephard",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Iztaccuauhtli Hector Gonzalez",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Amhari Perkins",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alvin Nelson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wolf Croskey",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Pittsburg, November 2026 Candidates (city clerk)",
+    "url": "https://www.pittsburgca.gov/services/city-clerk/elections/november-2026-candidates"
+   },
+   "readingsMatched": false,
+   "note": "Candidates with a 'Date Qualified' on the city page. Page prints 'Arlene Kobata (Siu Ling)'. Allen Tatomer, Johanni \"Jay\" Benitez, Mark Linde, Pauline Johnson pulled papers without qualifying as of page's last entry (8/7); filing was extendable to Aug 12, so late qualifiers possible. Aug 16 editorial says 11 candidates."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pittsburg",
+    "existing": true,
+    "name": "Pittsburg",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-pittsburg"
+    ]
+   },
+   "office": "City Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Alice E. Evenson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Angel Rodriguez",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Melaine Apple Venenciano",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Latoyya P. Ella Bordelon",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of Pittsburg, November 2026 Candidates (city clerk)",
+    "url": "https://www.pittsburgca.gov/services/city-clerk/elections/november-2026-candidates"
+   },
+   "readingsMatched": false,
+   "note": "City page names; news spells 'Angel Rodriquez' and 'Melanie Apple Venenciano'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pleasant-hill-council-district-3",
+    "existing": false,
+    "name": "Pleasant Hill Council District 3",
+    "type": "council-district",
+    "parent": "ca-contra-costa-pleasant-hill",
+    "areas": [
+     "ca-contra-costa-pleasant-hill"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Zac Schess",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jason Seto",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Samara Al-Jumaily listed but not marked qualified on Aug 7."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pleasant-hill-council-district-4",
+    "existing": false,
+    "name": "Pleasant Hill Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-pleasant-hill",
+    "areas": [
+     "ca-contra-costa-pleasant-hill"
+    ]
+   },
+   "office": "Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Sue Noack",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Quy Tran",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-richmond",
+    "existing": true,
+    "name": "Richmond",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-richmond"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Claudia Jiménez",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ahmad Anderson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Statewide Primary Official Results - Final (June 2, 2026)",
+    "url": "https://www.contracosta.ca.gov/DocumentCenter/View/91835/Contra-Costa-County-Statewide-Primary-Official-Results---Final"
+   },
+   "readingsMatched": false,
+   "note": "November runoff: top two from June 2 primary (38.56% and 27.98%). PDF text extraction offsets contest headings by one row (this contest appears under 'Supervisor, District 4'); identified by matching to news results. Richmond council Districts 2, 3, 4 decided in June."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-pablo",
+    "existing": true,
+    "name": "San Pablo",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-san-pablo"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Elizabeth Pabon-Alvarado",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Rita Xavier",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Caden Cotton-Blake",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Anna M Villalobos",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. All four (q) on Aug 7 list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-ramon",
+    "existing": true,
+    "name": "San Ramon",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-san-ramon"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Emma Chigbu",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark H. Armstrong",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Paschalis Ntatsos",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "City of San Ramon, Elections - Candidates (city clerk)",
+    "url": "https://www.sanramon.ca.gov/our_city/departments_and_divisions/city_clerk/Elections/candidates"
+   },
+   "readingsMatched": true,
+   "note": "City clerk table with dates qualified. Brian Swanson pulled papers, did not qualify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-ramon-council-district-2",
+    "existing": false,
+    "name": "San Ramon Council District 2",
+    "type": "council-district",
+    "parent": "ca-contra-costa-san-ramon",
+    "areas": [
+     "ca-contra-costa-san-ramon"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Chirag Kathrani",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Richard J. Adler",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "City of San Ramon, Elections - Candidates (city clerk)",
+    "url": "https://www.sanramon.ca.gov/our_city/departments_and_divisions/city_clerk/Elections/candidates"
+   },
+   "readingsMatched": false,
+   "note": "City lists Kathrani qualified 8/7; Danville San Ramon (Aug 7) reported county list showed him not qualified that evening. Verify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-ramon-council-district-4",
+    "existing": false,
+    "name": "San Ramon Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-san-ramon",
+    "areas": [
+     "ca-contra-costa-san-ramon"
+    ]
+   },
+   "office": "Councilmember",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jeffrey Joh",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Marisol Rubio",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "City of San Ramon, Elections - Candidates (city clerk)",
+    "url": "https://www.sanramon.ca.gov/our_city/departments_and_divisions/city_clerk/Elections/candidates"
+   },
+   "readingsMatched": true,
+   "note": "Nick Harvey pulled papers, did not qualify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-contra-costa-county-board-of-education",
+    "existing": false,
+    "name": "Contra Costa County Board of Education",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "County Board of Education Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Sarah Butler",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Pamela West",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sibyl Minighini",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Danville San Ramon spells 'Sybil Minighini'."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-contra-costa-community-college-district",
+    "existing": false,
+    "name": "Contra Costa Community College District",
+    "type": "community-college-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Ward 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Raquel Fanny Donoso",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cameron Noah Sasai",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-contra-costa-community-college-district",
+    "existing": false,
+    "name": "Contra Costa Community College District",
+    "type": "community-college-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Rebecca Faith Barrett",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Allyse Tanovitz",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-antioch-unified-school-district",
+    "existing": false,
+    "name": "Antioch Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Mary Rocha",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Brandon Kenyetta Dawkins",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Brandon William Lawson listed but not marked qualified on Aug 7; final list transcription still includes him. Verify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-john-swett-unified-school-district",
+    "existing": false,
+    "name": "John Swett Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Teresa Jane Burk",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bruce Henrey Hoeger",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Samantha Watson-Alvarado",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Shane Reinhart",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-mt-diablo-unified-school-district",
+    "existing": false,
+    "name": "Mt. Diablo Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Jane Baulch-Enloe",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dorothy Jean Berlemeier",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-mt-diablo-unified-school-district",
+    "existing": false,
+    "name": "Mt. Diablo Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Brian Thomas Lawrence",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Albert William Anderson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-san-ramon-valley-unified-school-district",
+    "existing": false,
+    "name": "San Ramon Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Rachel Madeline Schneider Hurd",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Joel Woods",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Danville San Ramon, 'San Ramon Valley candidates finalized for November ballot' (Aug 14, 2026)",
+    "url": "https://www.danvillesanramon.com/?p=476010"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-acalanes-union-high-school-district",
+    "existing": true,
+    "name": "Acalanes Union High School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Nithin Iyengar",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Stacey Schweppe",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Lamorinda Weekly, 'Candidates and Measures for November election finalized' (Sep 9, 2026)",
+    "url": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-liberty-union-high-school-district",
+    "existing": true,
+    "name": "Liberty Union High School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Tamera Nicole Weber",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Hillary Fairbairn Pedrotti",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-brentwood-union-school-district",
+    "existing": false,
+    "name": "Brentwood Union School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "At-large",
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Steve Gursky",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Emil Johnson Geddes",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Scott S. Dudek",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Oxanna Pajoluk",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Anderson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Mark Anderson (q) appears on Aug 7 list but not on final-page transcription."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-knightsen-elementary-school-district",
+    "existing": false,
+    "name": "Knightsen Elementary School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Erik Hansen",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Liesel Williams",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robin Pastor",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Final-page transcription lists only Erik Hansen; Aug 7 list shows three (q). Verify."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-oakley-union-elementary-school-district",
+    "existing": false,
+    "name": "Oakley Union Elementary School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Isaiah Mateas",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Craig Pearson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-orinda-union-school-district",
+    "existing": false,
+    "name": "Orinda Union School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "At-large",
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Edda Collins Coleman",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Mary Kateri Shogan",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "John Chabalko",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chloe Aftel",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Lamorinda Weekly, 'Candidates and Measures for November election finalized' (Sep 9, 2026)",
+    "url": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Bridget Goodwin appears on county-list transcription but not in Lamorinda Weekly's finalized list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-walnut-creek-school-district",
+    "existing": false,
+    "name": "Walnut Creek School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "At-large",
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Heidi Hernandez Gatty",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wenlei Hu Johnson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Hourdad Ehsaninategh",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Aileen Abaya Ong",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Eryn Elizabeth Holl King",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Geetha Parachuru",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. All six (q) on Aug 7 list."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-diablo-community-services-district",
+    "existing": false,
+    "name": "Diablo Community Services District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "At-large",
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Alan Bonny",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jessica Raefield",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gregory Ray Lorenz",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Steve Lichliter",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. County candidate guide lists 3 seats; Danville San Ramon describes 'two seats'. Verify seat count."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-moraga-orinda-fire-protection-district",
+    "existing": false,
+    "name": "Moraga-Orinda Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 3",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "John James Donnelly",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Steve Cohn",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Lamorinda Weekly, 'Candidates and Measures for November election finalized' (Sep 9, 2026)",
+    "url": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. County-list transcription shows Donnelly, Steven Michael Danziger (incumbent) and Michael Linney; Lamorinda Weekly (Sep 9) says Danziger left the race and Donnelly faces Steve Cohn. Exact ballot names unverified."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-moraga-orinda-fire-protection-district",
+    "existing": false,
+    "name": "Moraga-Orinda Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 4",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Mike Roemer",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Linda Stevens",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Lamorinda Weekly, 'Candidates and Measures for November election finalized' (Sep 9, 2026)",
+    "url": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-east-bay-municipal-utility-district",
+    "existing": false,
+    "name": "East Bay Municipal Utility District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Marguerite Young",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Donald Gray",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "EBMUD press release, 'EBMUD Board of Directors appoint uncontested incumbents in Wards 2 and 4' (Aug 18, 2026)",
+    "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4"
+   },
+   "readingsMatched": true,
+   "note": "District release lists qualified candidates; designations described in prose only. Ward shared with Alameda County per county guide."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-east-bay-municipal-utility-district",
+    "existing": false,
+    "name": "East Bay Municipal Utility District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Ward 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "April Chan",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Joseph Grcar",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Luis Reynoso",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Wolff",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "EBMUD press release, 'EBMUD Board of Directors appoint uncontested incumbents in Wards 2 and 4' (Aug 18, 2026)",
+    "url": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4"
+   },
+   "readingsMatched": true,
+   "note": "Ward shared with Alameda County; Danville San Ramon also lists these four."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-east-bay-regional-park-district",
+    "existing": false,
+    "name": "East Bay Regional Park District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Ward 7",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Collin Jay Coffey",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Inderprit Singh Sekhon",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Mushda Faiez listed but not marked qualified Aug 7."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-pleasant-hill-recreation-and-park-district",
+    "existing": false,
+    "name": "Pleasant Hill Recreation & Park District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "At-large",
+   "seats": 3,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Alexander Paul Nichol",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Derek Marten Wurst",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Robert \"Bobby\" Glover",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Sandra Marie Bonato",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Raul Alberto Ortega, Jr.",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Incumbents per district election notice."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-central-contra-costa-sanitary-district",
+    "existing": false,
+    "name": "Central Contra Costa Sanitary District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Michael Robert McGill",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Brian Henderson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, '2026 Election in Contra Costa County' (mirrors county 8-13-26 FINAL candidate list; page modified 2026-08-14)",
+    "url": "https://contracosta.news/2026-election-in-contra-costa-county/"
+   },
+   "readingsMatched": true,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. "
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-ironhouse-sanitary-district",
+    "existing": false,
+    "name": "Ironhouse Sanitary District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "At-large",
+   "seats": 2,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Chris Lauritzen",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Paschal Chinaenye Iwuh",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kerry Ann Harvey",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "David Corridon",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Christean",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa News, 'November Ballot Taking Shape in Contra Costa County' (Aug 7, 2026, (q)=qualified)",
+    "url": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Chris Christean (q) on Aug 7 list, absent from final-page transcription."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-dublin-san-ramon-services-district",
+    "existing": false,
+    "name": "Dublin San Ramon Services District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 2",
+   "seats": 1,
+   "status": "pending",
+   "candidates": [
+    {
+     "name": "Kismat Kathrani",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Donald Downey",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Danville San Ramon (Aug 14, 2026)",
+    "url": "https://www.danvillesanramon.com/?p=476010"
+   },
+   "readingsMatched": false,
+   "note": "Official county candidate list (contracostavote.gov, 8-13-26 FINAL PDF) could not be fetched (domain not on allowlist); names from secondary news transcription of county list. Only one news source; not on Contra Costa News list."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "City of Antioch",
+   "office": "City Clerk",
+   "reason": "appointed in lieu of election (Michael J. Mandy, Reso 2026/119, Aug 20, 2026)",
+   "source": "https://www.antiochca.gov/AgendaCenter/ViewFile/Agenda/_08202026-2538"
+  },
+  {
+   "jurisdiction": "City of Oakley",
+   "office": "Council Member, District 2",
+   "reason": "appointed in lieu of election (Hugh Henderson, Reso 67-26, Aug 20, 2026)",
+   "source": "https://www.oakleyca.gov/191/Oakley-Election-2026"
+  },
+  {
+   "jurisdiction": "City of Oakley",
+   "office": "Council Member, District 4",
+   "reason": "appointed in lieu of election (Shannon Shaw, Reso 68-26, Aug 20, 2026)",
+   "source": "https://www.oakleyca.gov/191/Oakley-Election-2026"
+  },
+  {
+   "jurisdiction": "City of Lafayette",
+   "office": "City Council (2 four-year seats and 1 two-year seat)",
+   "reason": "appointed in lieu of election (Jim Cervantes, Stella Wotherspoon; Mario DiPrisco short term; Reso 2026-50, Aug 20, 2026)",
+   "source": "https://lamorindaweekly.com/articles/2026/city-council-appoints-two-incumbents-one-new-member-in-lieu-of-election/"
+  },
+  {
+   "jurisdiction": "City of Martinez",
+   "office": "Mayor (and likely Council District 4)",
+   "reason": "appointed in lieu of election per news (Martinez canceled its mayoral race; Brianne Zorn and Debbie McKillop unopposed); not confirmed on city page",
+   "source": "https://localnewsmatters.org/2026/08/22/4-bay-area-cities-cancel-november-races-appoint-uncontested-candidates/"
+  },
+  {
+   "jurisdiction": "East Bay Municipal Utility District",
+   "office": "Director, Ward 2",
+   "reason": "appointed in lieu of election (Luz Gómez)",
+   "source": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4"
+  },
+  {
+   "jurisdiction": "East Bay Municipal Utility District",
+   "office": "Director, Ward 4",
+   "reason": "appointed in lieu of election (Andy Katz)",
+   "source": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4"
+  },
+  {
+   "jurisdiction": "West Contra Costa Unified School District",
+   "office": "Governing Board Member, Trustee Areas 4 and 5",
+   "reason": "uncontested; seated without election (Demetrio Gonzalez Hoy, Caitlin Bourne Garibaldi) per news",
+   "source": "https://www.grandviewindependent.com/gonzalez-hoy-garibaldi-win-wccusd-trustee-seats-without-challengers/"
+  },
+  {
+   "jurisdiction": "Moraga-Orinda Fire Protection District",
+   "office": "Director, Division 2",
+   "reason": "vacancy filled by board appointment (Gov. Code 1780), not on ballot",
+   "source": "https://lamorindaweekly.com/articles/2026/candidates-and-measures-for-november-election-finalized/"
+  },
+  {
+   "jurisdiction": "Contra Costa County Board of Education",
+   "office": "Trustee Area 4 (Mike Maxwell) and Area 5 (Clyde Lewis, Jr.)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Contra Costa Community College District",
+   "office": "Ward 4 (Andy Li)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Antioch Unified School District",
+   "office": "Trustee Area 2 (Roxanne Reece)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Martinez Unified School District",
+   "office": "Trustee Areas 3 (Brenda Ann Leal) and 5 (Tania E. Brugger)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Mt. Diablo Unified School District",
+   "office": "Trustee Area 1 (Debra Mason; James Walsh not shown qualified)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "San Ramon Valley Unified School District",
+   "office": "Trustee Areas 1 (Amanda Jane Butland) and 4 (Susan Wong Ordway)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Acalanes Union High School District",
+   "office": "Trustee Areas 3 (Jennifer Chen) and 5 (Nancy Jo Kendzierski)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Liberty Union High School District",
+   "office": "Trustee Area 3 (Susan Wallace)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Oakley Union Elementary School District",
+   "office": "Trustee Areas 3 and 5",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Byron Union School District",
+   "office": "3 seats, 3 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Pittsburg Unified School District",
+   "office": "3 seats, 3 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Lafayette School District",
+   "office": "3 seats, 2 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Moraga School District",
+   "office": "3 seats, 2 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Crockett Community Services District",
+   "office": "Nicholas Spinner only",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Town of Discovery Bay Community Services District",
+   "office": "3 seats, 3 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Moraga-Orinda Fire Protection District",
+   "office": "Division 1 (Greg Hasler)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "East Bay Regional Park District",
+   "office": "Ward 6 (John Joseph Mercurio)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Central Contra Costa Sanitary District",
+   "office": "Division 3 (Florence Wedington)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "West County Wastewater District",
+   "office": "Districts 1, 3, 5",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "San Francisco Bay Area Rapid Transit District",
+   "office": "District 2 (Mark Foley)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Byron-Bethany Irrigation District",
+   "office": "Divisions 1 and 3",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Contra Costa Water District",
+   "office": "Division 1 (Patricia Moore Young)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Diablo Water District",
+   "office": "Wards 2, 3, 4",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "East Contra Costa Irrigation District",
+   "office": "Divisions 1 and 4",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Rodeo Sanitary District",
+   "office": "2 seats, 2 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Stege Sanitary District",
+   "office": "3 seats, 3 candidates",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  },
+  {
+   "jurisdiction": "Ambrose Recreation & Park District",
+   "office": "3 full-term seats with 3 qualified (Trina Hudson, Mae Torlakson, Lupe Lopez Garcia) and short term (A.J. Fardella)",
+   "reason": "presumed appointed in lieu of election (no more qualified candidates than seats on secondary lists; Elections Code 10515); not confirmed by an official source",
+   "source": "https://contracosta.news/2026/08/07/november-ballot-taking-shape-in-contra-costa-county/"
+  }
+ ],
+ "unavailable": [
+  "Official county candidate list and sample ballot (contracostavote.gov) unreachable: domain not on fetch allowlist. All 'pending' contests rely on news transcriptions of the county list; ballot designations and candidate statement URLs could not be obtained for any contest.",
+  "Walnut Creek City Council (2 seats): only Brendan Moran and Cherise Khaund found (forum Sep 1); 2 for 2 suggests appointment in lieu or uncontested listing, unverified. Walnut Creek City Treasurer: no 2026 candidate info found.",
+  "Concord City Treasurer (Edith Patricia \"Patti\" Barsotti only), San Pablo City Clerk (Dorothy Gantt only) and Treasurer (Viviana Toledo only), Pittsburg City Treasurer (Nancy Parent only qualified): uncontested; whether appointed in lieu or on ballot not verified.",
+  "San Ramon Valley Fire Protection District (2 seats): Ryan Crean and Bill Clarkson qualified; Jason Alan Skeoch listed without (q). Danville San Ramon suggests uncontested. Unverified.",
+  "Kensington Community Services District: full term (Rodney Kenneth Paul, Daniel Levine, Adam Bastein) and short term (Paul, Bastein, Alexandra Aquino-Fike) listings are inconsistent with guide's 3-seat count; could not determine what is on ballot.",
+  "Contra Costa Water District Division 2: Daniel Thomas Fitzpatrick (q) and Allison Picard (not shown qualified); contested status unverified.",
+  "Mt. Diablo USD Area 1: James Walsh pulled papers but not shown qualified; listed as presumed uncontested.",
+  "No 2026 candidate information found for: Canyon Elementary SD, Livermore Valley JUSD Area 3 (Alameda-administered), AC Transit Ward 1 (Alameda-administered), Bethel Island MID, Byron Sanitary, Castle Rock County Water, Green Valley Recreation & Park, Mt. View Sanitary (Areas 1, 2, 5).",
+  "Town of Discovery Bay CSD board names are inconsistent across lists (Bill/William Perry Mayer, Kevin Graves, Ashley Porter vs Bryon Gutow); treated as 3 for 3 uncontested.",
+  "Brentwood, Hercules, Walnut Creek and Martinez city election pages were not updated with 2026 candidates when fetched."
+ ]
+}

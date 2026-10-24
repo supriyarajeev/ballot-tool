@@ -1,0 +1,2749 @@
+{
+ "ca-alameda": {
+  "sources": [
+   {
+    "label": "Alameda County ROV Candidate List (electionId 260, General Election 11/03/2026 Official)",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist",
+    "note": "Election chosen in the form (POST). Shows race status On Ballot/Not On Ballot, Vote For N, name (ALL CAPS), ballot designation, and filing status. Read twice: one full-list request, then three category-filtered requests (School Districts, Special Districts, City). Both readings were identical."
+   },
+   {
+    "label": "SF Dept. of Elections, Candidates for Nov 3 2026",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+    "note": "Used to check SF contests and names"
+   },
+   {
+    "label": "SF Voter Information Pamphlet Nov 3 2026",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "note": "Contest list confirms no other SF local contests"
+   }
+  ],
+  "checked": [
+   "Alameda County (county offices)",
+   "Alameda",
+   "Albany",
+   "Berkeley",
+   "Dublin",
+   "Emeryville",
+   "Fremont",
+   "Hayward",
+   "Livermore",
+   "Newark",
+   "Oakland",
+   "Piedmont",
+   "Pleasanton",
+   "San Leandro",
+   "Union City",
+   "Ohlone CCD",
+   "Chabot-Las Positas CCD",
+   "Peralta CCD",
+   "San Joaquin Delta CCD",
+   "Alameda USD",
+   "Albany USD",
+   "Berkeley USD",
+   "Castro Valley USD",
+   "Dublin USD",
+   "Emery USD",
+   "Fremont USD",
+   "Hayward USD",
+   "Livermore Valley JUSD",
+   "Mountain House ESD",
+   "New Haven USD",
+   "Newark USD",
+   "Oakland USD",
+   "Pleasanton USD",
+   "San Leandro USD",
+   "San Lorenzo USD",
+   "Sunol Glen USD",
+   "AC Transit",
+   "Alameda County Water District",
+   "BART Districts 4, 6",
+   "Byron-Bethany Irrigation District",
+   "Castro Valley Sanitary District",
+   "City of Alameda Healthcare District",
+   "Dublin San Ramon Services District",
+   "EBMUD Wards 3, 4, 7",
+   "East Bay Regional Park District",
+   "Eden Township Healthcare District",
+   "Fairview Fire Protection District",
+   "Hayward Area Recreation and Park District",
+   "Livermore Area Recreation and Park District",
+   "Oro Loma Sanitary District",
+   "Washington Township Healthcare District",
+   "San Francisco (all city offices, Board of Supervisors, SFUSD, SFCCD, BART District 8)"
+  ],
+  "added": 50,
+  "cands": 133,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "Ohlone Community College District",
+    "office": "Trustee, Area 3 (Phuong Nguyen)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Ohlone Community College District",
+    "office": "Trustee, Area 4 (Elisa Martinez)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Ohlone Community College District",
+    "office": "Trustee, Area 7 (Betty Ho)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Peralta Community College District",
+    "office": "Trustee, Area 3 (Louis Quindlen)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Peralta Community College District",
+    "office": "Trustee, Area 7 (Sheweet Yohannes)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "San Joaquin Delta Community College District",
+    "office": "Trustee, Area 4 (Charles R Jennings, Tony Shah listed; Alameda portion)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Alameda Unified School District",
+    "office": "Governing Board Member, Short Term (Ryan LaLonde; Mike McMahon withdrawn)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Dublin Unified School District",
+    "office": "Governing Board Members, Area 2 (Holden Lomeli)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Fremont Unified School District",
+    "office": "Governing Board Members, Area 2 (Larry Sweeney)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Fremont Unified School District",
+    "office": "Governing Board Members, Area 3 (Dianne Jones)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Newark Unified School District",
+    "office": "Governing Board Members, vote for 2 (Christine Kizer, Renu Malhotra qualified; two incomplete filings)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Pleasanton Unified School District",
+    "office": "Governing Board Member, Area 2 (Laurie Walker)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "San Leandro Unified School District",
+    "office": "Governing Board Member, Area 2 (Jacqueline Calderón Perl)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "San Leandro Unified School District",
+    "office": "Governing Board Member, Area 4 (Leo Sheridan)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "San Leandro Unified School District",
+    "office": "Governing Board Member, Area 6 (Natasha Martinez)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "San Lorenzo Unified School District",
+    "office": "Governing Board Members, Area 1 (Yuliana Torres)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "San Lorenzo Unified School District",
+    "office": "Governing Board Members, Area 4 (Samuel Medina)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "City of Livermore",
+    "office": "Mayor (John Marchand)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "City of Livermore",
+    "office": "City Council District 1 (Evan Branning)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "AC Transit District",
+    "office": "Director, Ward 1, Short Term (Harpreet Sandhu)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "AC Transit District",
+    "office": "Director, Ward 7 (Diane Shaw)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "BART",
+    "office": "Director, District 6 (Liz Ames)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Byron-Bethany Irrigation District",
+    "office": "Directors (Tim Maggiore; Alameda portion)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "City of Alameda Healthcare District",
+    "office": "Directors, vote for 3 (Gayle Godfrey Codiga, Robert Deutsch, David W Sayen)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Dublin San Ramon Services District",
+    "office": "Board of Directors, Area 4 (Georgean Vonheeder-Leopold)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "EBMUD",
+    "office": "Director, Ward 4 (Andy Katz)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Eden Township Healthcare District",
+    "office": "Director, Area 1 (Mariellen Faria)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Eden Township Healthcare District",
+    "office": "Director, Area 5 (Ed Hernandez)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Washington Township Healthcare District",
+    "office": "Directors, vote for 3 (Jacob Eapen, Bernard L. Stewart, Michael J. Wallace)",
+    "reason": "ROV candidate list marks race 'Not On Ballot' (sole qualified candidate(s); appointment in lieu of election expected)",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "Mountain House Elementary School District",
+    "office": "Governing Board Member, vote for 2 (Alameda portion)",
+    "reason": "ROV list marks race 'Not On Ballot'; only two filings, both 'Incomplete Filing'",
+    "source": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "jurisdiction": "EBMUD",
+    "office": "Director, Ward 2 and Ward 4",
+    "reason": "appointed in lieu of election (uncontested incumbents), per EBMUD press release",
+    "source": "https://www.ebmud.com/about-us/news/press-releases/ebmud-board-directors-appoint-uncontested-incumbents-wards-2-and-4"
+   }
+  ],
+  "unavailable": [
+   "Peralta Community College District Trustee, Area 1, Short Term: listed as a race in the ROV dropdown but the list shows no candidates and no On/Not On Ballot status; could not verify whether it is on the ballot.",
+   "Candidate statement URLs: the Alameda County ROV candidate list does not link statements; none recorded.",
+   "No Alameda County (countywide) offices appear in the ROV Nov 3 2026 list (categories are only Federal, State, School Districts, Special Districts, City). DA race was decided in June per Wikipedia; no county runoffs found.",
+   "San Francisco: no local contests missing. SF Dept. of Elections candidate page and Voter Information Pamphlet list only Assessor-Recorder, Public Defender, Supervisors D2/4/6/8/10, Board of Education, Community College Board (full and remainder term), and BART District 8, all already in contests.json. SF names in contests.json match sf.gov exactly. SF page reports 0 write-ins.",
+   "MISMATCH: Berkeley Unified School Board (2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director): contests.json has 'Ka'Dijah Brown'; ROV prints 'KA'DIJAH A. BROWN' (middle initial).",
+   "MISMATCH: Berkeley Unified School Board: ROV list also includes 'REICHI LEE', designation 'Write-in Candidate', Filing Completed. Qualified write-in, not printed on the ballot; not in contests.json.",
+   "MISMATCH: Hayward Council District 1: contests.json has 'Brian M Schott'; ROV prints 'BRIAN M. SCHOTT' (period after initial).",
+   "MISMATCH: Alameda (city) Mayor: contests.json has 'Tracy L. Jensen'; ROV prints 'TRACY JENSEN' (no middle initial). ROV designations (missing in contests.json): Tony Daysog 'Councilmember/Urban Planner', Tracy Jensen 'Councilmember/Nonprofit Director', Malia Vella 'Businesswoman/Educator'.",
+   "MISMATCH: Alameda (city) City Council: names match, but contests.json has seats null; ROV says Vote For 2. ROV designations: Amarasiriwardena 'Software Product Manager', Bondonno 'Public Service Attorney', Johnson 'Social Worker', Savage 'Technology Partner Manager', Slauson 'Small Business Owner', White 'Environmental Nonprofit Executive'.",
+   "MISMATCH: Emeryville City Council: contests.json has 'Kalimah Priforce'; ROV prints 'KALIMAH ATREYU PRIFORCE'.",
+   "MISMATCH: Piedmont City Council: contests.json has 'N. \"Sunny\" Bostrom-Fleming'; ROV prints 'SUNNY BOSTROM-FLEMING'.",
+   "MISMATCH: EBMUD Ward 3: contests.json has 'Donald Gray'; ROV prints 'DON GRAY' (designation 'Retired Wastewater Manager').",
+   "All other existing Alameda contests (Oakland mayor/D2/D4/D6/auditor, OUSD D2/D4/D6, Berkeley D1/D4/D7/D8/auditor/rent board, Hayward mayor/D6, Albany council and school board, Union City D2/D3/D4, San Leandro mayor/D1/D2/D3/D5, EBMUD Ward 7) match the ROV list by name and candidate set. Ignoring capitalization, the ROV prints accents as in contests.json (González, López).",
+   "Withdrawn or incomplete filings excluded: Linda Hurley (Sunol Glen), Kate Runyon (LVJUSD Area 3), Mark Williams (AC Transit W4), Heriberto Perez (AC Transit W5), Shanavaz Nasarabadi (LARPD)."
+  ]
+ },
+ "ca-sf": {
+  "sources": [
+   {
+    "label": "Alameda County ROV Candidate List (electionId 260, General Election 11/03/2026 Official)",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist",
+    "note": "Election chosen in the form (POST). Shows race status On Ballot/Not On Ballot, Vote For N, name (ALL CAPS), ballot designation, and filing status. Read twice: one full-list request, then three category-filtered requests (School Districts, Special Districts, City). Both readings were identical."
+   },
+   {
+    "label": "SF Dept. of Elections, Candidates for Nov 3 2026",
+    "url": "https://www.sf.gov/candidates-november-3-2026-general-election",
+    "note": "Used to check SF contests and names"
+   },
+   {
+    "label": "SF Voter Information Pamphlet Nov 3 2026",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "note": "Contest list confirms no other SF local contests"
+   }
+  ],
+  "checked": [
+   "Alameda County (county offices)",
+   "Alameda",
+   "Albany",
+   "Berkeley",
+   "Dublin",
+   "Emeryville",
+   "Fremont",
+   "Hayward",
+   "Livermore",
+   "Newark",
+   "Oakland",
+   "Piedmont",
+   "Pleasanton",
+   "San Leandro",
+   "Union City",
+   "Ohlone CCD",
+   "Chabot-Las Positas CCD",
+   "Peralta CCD",
+   "San Joaquin Delta CCD",
+   "Alameda USD",
+   "Albany USD",
+   "Berkeley USD",
+   "Castro Valley USD",
+   "Dublin USD",
+   "Emery USD",
+   "Fremont USD",
+   "Hayward USD",
+   "Livermore Valley JUSD",
+   "Mountain House ESD",
+   "New Haven USD",
+   "Newark USD",
+   "Oakland USD",
+   "Pleasanton USD",
+   "San Leandro USD",
+   "San Lorenzo USD",
+   "Sunol Glen USD",
+   "AC Transit",
+   "Alameda County Water District",
+   "BART Districts 4, 6",
+   "Byron-Bethany Irrigation District",
+   "Castro Valley Sanitary District",
+   "City of Alameda Healthcare District",
+   "Dublin San Ramon Services District",
+   "EBMUD Wards 3, 4, 7",
+   "East Bay Regional Park District",
+   "Eden Township Healthcare District",
+   "Fairview Fire Protection District",
+   "Hayward Area Recreation and Park District",
+   "Livermore Area Recreation and Park District",
+   "Oro Loma Sanitary District",
+   "Washington Township Healthcare District",
+   "San Francisco (all city offices, Board of Supervisors, SFUSD, SFCCD, BART District 8)"
+  ],
+  "added": 0,
+  "cands": 0,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [],
+  "unavailable": [
+   "Peralta Community College District Trustee, Area 1, Short Term: listed as a race in the ROV dropdown but the list shows no candidates and no On/Not On Ballot status; could not verify whether it is on the ballot.",
+   "Candidate statement URLs: the Alameda County ROV candidate list does not link statements; none recorded.",
+   "No Alameda County (countywide) offices appear in the ROV Nov 3 2026 list (categories are only Federal, State, School Districts, Special Districts, City). DA race was decided in June per Wikipedia; no county runoffs found.",
+   "San Francisco: no local contests missing. SF Dept. of Elections candidate page and Voter Information Pamphlet list only Assessor-Recorder, Public Defender, Supervisors D2/4/6/8/10, Board of Education, Community College Board (full and remainder term), and BART District 8, all already in contests.json. SF names in contests.json match sf.gov exactly. SF page reports 0 write-ins.",
+   "MISMATCH: Berkeley Unified School Board (2026-11-03.ca-alameda-sd-berkeley-unified-school-district.school-board-director): contests.json has 'Ka'Dijah Brown'; ROV prints 'KA'DIJAH A. BROWN' (middle initial).",
+   "MISMATCH: Berkeley Unified School Board: ROV list also includes 'REICHI LEE', designation 'Write-in Candidate', Filing Completed. Qualified write-in, not printed on the ballot; not in contests.json.",
+   "MISMATCH: Hayward Council District 1: contests.json has 'Brian M Schott'; ROV prints 'BRIAN M. SCHOTT' (period after initial).",
+   "MISMATCH: Alameda (city) Mayor: contests.json has 'Tracy L. Jensen'; ROV prints 'TRACY JENSEN' (no middle initial). ROV designations (missing in contests.json): Tony Daysog 'Councilmember/Urban Planner', Tracy Jensen 'Councilmember/Nonprofit Director', Malia Vella 'Businesswoman/Educator'.",
+   "MISMATCH: Alameda (city) City Council: names match, but contests.json has seats null; ROV says Vote For 2. ROV designations: Amarasiriwardena 'Software Product Manager', Bondonno 'Public Service Attorney', Johnson 'Social Worker', Savage 'Technology Partner Manager', Slauson 'Small Business Owner', White 'Environmental Nonprofit Executive'.",
+   "MISMATCH: Emeryville City Council: contests.json has 'Kalimah Priforce'; ROV prints 'KALIMAH ATREYU PRIFORCE'.",
+   "MISMATCH: Piedmont City Council: contests.json has 'N. \"Sunny\" Bostrom-Fleming'; ROV prints 'SUNNY BOSTROM-FLEMING'.",
+   "MISMATCH: EBMUD Ward 3: contests.json has 'Donald Gray'; ROV prints 'DON GRAY' (designation 'Retired Wastewater Manager').",
+   "All other existing Alameda contests (Oakland mayor/D2/D4/D6/auditor, OUSD D2/D4/D6, Berkeley D1/D4/D7/D8/auditor/rent board, Hayward mayor/D6, Albany council and school board, Union City D2/D3/D4, San Leandro mayor/D1/D2/D3/D5, EBMUD Ward 7) match the ROV list by name and candidate set. Ignoring capitalization, the ROV prints accents as in contests.json (González, López).",
+   "Withdrawn or incomplete filings excluded: Linda Hurley (Sunol Glen), Kate Runyon (LVJUSD Area 3), Mark Williams (AC Transit W4), Heriberto Perez (AC Transit W5), Shanavaz Nasarabadi (LARPD)."
+  ]
+ },
+ "ca-contra-costa": {
+  "sources": [
+   {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf",
+    "note": "Every contest on the ballot with each candidate's ballot designation; read in a browser with pdf.js because the county server blocks automated fetching"
+   },
+   {
+    "label": "Contra Costa County Elections, Candidate List, November 3, 2026 General Election (printed 8/14/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf",
+    "note": "Every contest with qualified candidates, on or off the ballot, with vote-for numbers"
+   }
+  ],
+  "checked": [
+   "Contra Costa County (county offices)",
+   "Antioch",
+   "Brentwood",
+   "Clayton",
+   "Concord",
+   "Danville",
+   "El Cerrito",
+   "Hercules",
+   "Lafayette",
+   "Martinez",
+   "Moraga",
+   "Oakley",
+   "Orinda",
+   "Pinole",
+   "Pittsburg",
+   "Pleasant Hill",
+   "Richmond",
+   "San Pablo",
+   "San Ramon",
+   "Walnut Creek",
+   "Contra Costa County Board of Education",
+   "Contra Costa Community College District",
+   "Acalanes UHSD",
+   "Antioch USD",
+   "Brentwood Union SD",
+   "Byron Union SD",
+   "Canyon Elementary SD",
+   "John Swett USD",
+   "Knightsen Elementary SD",
+   "Lafayette SD",
+   "Liberty UHSD",
+   "Livermore Valley JUSD (Area 3)",
+   "Martinez USD",
+   "Moraga SD",
+   "Mt. Diablo USD",
+   "Oakley Union Elementary SD",
+   "Orinda Union SD",
+   "Pittsburg USD",
+   "San Ramon Valley USD",
+   "Walnut Creek SD",
+   "West Contra Costa USD",
+   "AC Transit (Ward 1)",
+   "Ambrose Recreation & Park",
+   "Bethel Island MID",
+   "Byron-Bethany Irrigation",
+   "Byron Sanitary",
+   "Castle Rock County Water",
+   "Central Contra Costa Sanitary",
+   "Contra Costa Water",
+   "Crockett CSD",
+   "Diablo CSD",
+   "Diablo Water",
+   "Town of Discovery Bay CSD",
+   "Dublin San Ramon Services",
+   "EBMUD",
+   "East Bay Regional Park",
+   "East Contra Costa Irrigation",
+   "Green Valley Recreation & Park",
+   "Ironhouse Sanitary",
+   "Kensington CSD",
+   "Moraga-Orinda Fire",
+   "Mt. View Sanitary",
+   "Pleasant Hill Recreation & Park",
+   "Rodeo Sanitary",
+   "BART District 2",
+   "San Ramon Valley Fire",
+   "Stege Sanitary",
+   "West County Wastewater"
+  ],
+  "added": 55,
+  "cands": 163,
+  "skippedExisting": 0,
+  "duplicates": 3,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "CCCBdEdSchBd4",
+    "office": "vote for 1; qualified: Mike Maxwell",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CCCBdEdSchBd5",
+    "office": "vote for 1; qualified: Clyde Henry Lewis, Jr",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CCCollege4",
+    "office": "vote for 1; qualified: Andy Li",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "AntiochUSD Area2",
+    "office": "vote for 1; qualified: Roxanne Reece",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MartinezUSD, Area 3",
+    "office": "vote for 1; qualified: Brenda Leal",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MartinezUSD, Area 5",
+    "office": "vote for 1; qualified: Tania E. Brugger",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MtDiabloUSD Area1",
+    "office": "vote for 1; qualified: Debra Mason",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "PittsburgSchBd",
+    "office": "vote for 3; qualified: Heliodoro \"Helio\" Moreno, Destiny Briscoe, Susan Y Sowels",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "SanRamonVlyUSD, Area 1",
+    "office": "vote for 1; qualified: Amanda Butland",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "SanRamonVlyUSD, Area 4",
+    "office": "vote for 1; qualified: Susanna Wong Ordway",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "WestCCUSD Area4",
+    "office": "vote for 1; qualified: Demetrio Gonzalez Hoy",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "WestCCUSD Area5",
+    "office": "vote for 1; qualified: Caitlin Garibaldi",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "AcalanesUHSD3",
+    "office": "vote for 1; qualified: Jennifer Chen",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "AcalanesUHSD5",
+    "office": "vote for 1; qualified: Nancy Kendzierski",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "LibertyUnionHSD Area3",
+    "office": "vote for 1; qualified: Susan Wallace",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "LibertyUnionHSD Area5",
+    "office": "vote for 1; qualified: Joseph J Magana",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "ByronUnionSchBd",
+    "office": "vote for 3; qualified: Kimberly Carpenter, Kari Cross, Elyssa Cross",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "LafayetteSchBd",
+    "office": "vote for 3; qualified: Katy Foreman, Rob Sturm, Annette McCormick",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MoragaSchBd",
+    "office": "vote for 3; qualified: Larry Jacobs, Martha A. White",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "OakleyUnionElemSch Area3",
+    "office": "vote for 1; qualified: Ann Corridon",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "OakleyUnionElemSch Area5",
+    "office": "vote for 1; qualified: Paul Didonato",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "AntiochCityClerk",
+    "office": "vote for 1; qualified: Michael J. Mandy",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "LafayetteCouncil",
+    "office": "vote for 2; qualified: Jim Cervantes, Stella Wotherspoon",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "LafayetteCouncil-Short",
+    "office": "vote for 1; qualified: Mario Diprisco",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MartinezMayor",
+    "office": "vote for 1; qualified: Brianne E. Zorn",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MartinezCouncil Dist4",
+    "office": "vote for 1; qualified: Debbie McKillop",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "OakleyCouncil Dist2",
+    "office": "vote for 1; qualified: Hugh Henderson",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "OakleyCouncil Dist4",
+    "office": "vote for 1; qualified: Shannon Shaw",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CrockettCmtySvcs",
+    "office": "vote for 3; qualified: Nick Spinner",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "TownOfDBayCmtySvcs",
+    "office": "vote for 3; qualified: Bill Mayer, Kevin Graves, Ashley Porter",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "KensCSD",
+    "office": "vote for 3; qualified: Rodney K. Paul, Daniel S Levine, Adam Bastein",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "KensCSD-Short",
+    "office": "vote for 1; qualified: Alexandra Aquino-Fike",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MoragaOrindaFire1",
+    "office": "vote for 1; qualified: Greg Hasler",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "SanRamonVlyFireProt",
+    "office": "vote for 2; qualified: Bill Clarkson, Ryan T Crean",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "BethelIslandMID",
+    "office": "vote for 2; qualified: Bruce Smith, Vignesh Rama",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "EastBayMUD2",
+    "office": "vote for 1; qualified: Luz María Gómez",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "EastBayMUD4",
+    "office": "vote for 1; qualified: Andy Katz",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "AmbroseRecPark",
+    "office": "vote for 3; qualified: Trina Hudson, Mae Torlakson, Lupe Lopez Garcia",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "AmbroRecPark-Short",
+    "office": "vote for 1; qualified: A.J. Fardella",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "EastBayRegPark6",
+    "office": "vote for 1; qualified: John Mercurio",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "GreenVlyRecPark",
+    "office": "vote for 3; qualified: Todd Fitzsimmons, Paul Burgin, Katy Chanana",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "ByronSanitary",
+    "office": "vote for 2; qualified: Danny A Hamby",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CentralCCSanitary Div3",
+    "office": "vote for 1; qualified: Florence Wedington",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MtViewSanDist1",
+    "office": "vote for 1; qualified: Jared Ruddell",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "MtViewSanDist5-Short",
+    "office": "vote for 1; qualified: Caitlin B. Wiley-Walker",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "StegeSanitary",
+    "office": "vote for 3; qualified: Dwight Merrill, Ted Lam, Alex Borys",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "WestCountyWastewater Div1",
+    "office": "vote for 1; qualified: Arto Rinteela",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "WestCountyWastewater Div3",
+    "office": "vote for 1; qualified: David Alvarado",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "WestCountyWastewater Div5",
+    "office": "vote for 1; qualified: Cheryl Sudduth",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "ACTrans1-Short",
+    "office": "vote for 1; qualified: Harpreet S. Sandhu",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "BART2",
+    "office": "vote for 1; qualified: Mark Foley",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "ByronBethanyIrr1",
+    "office": "vote for 1; qualified: Milan \"Pete\" Petrovich",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "ByronBethanyIrr3",
+    "office": "vote for 1; qualified: Tim Maggiore",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CastleRockCountyWater",
+    "office": "vote for 2; qualified: Joseph Atturio, Jonathan Schimmel",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CRCWater-Short",
+    "office": "vote for 1; qualified: Gary Bettencourt",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "CCWater1",
+    "office": "vote for 1; qualified: Patt Young",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "DiabloWater Ward 2",
+    "office": "vote for 1; qualified: Conan Moats",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "DiabloWater Ward 3",
+    "office": "vote for 1; qualified: Paul Seger",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "DiabloWater Ward 4",
+    "office": "vote for 1; qualified: Jason Shaw",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "EastCCIrr1",
+    "office": "vote for 1; qualified: Michael G. Casey",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   },
+   {
+    "jurisdiction": "EastCCIrr4",
+    "office": "vote for 1; qualified: Kenneth W. Smith",
+    "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+    "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+   }
+  ],
+  "unavailable": [
+   "Both official lists were read once each, by the project lead in a browser; the two lists agree on the candidates of every on-ballot contest. A person should confirm against the official sample ballot.",
+   "Contest names in the notOnBallot list are the county's short codes from the Aug 14 list.",
+   "City clerk decisions on appointments in lieu of election (for example Antioch City Clerk, Oakley Districts 2 and 4) are recorded by the cities; see the earlier research file ca-contra-costa.agent.json."
+  ],
+  "sameAs": [
+   "Livermore Valley Joint Unified School District Governing Board Member Trustee Area 3 = ca-alameda-sd-livermore-valley-joint-unified-school-district",
+   "EBMUD Ward 3 Director Ward 3 = ca-ebmud-ward-3",
+   "EBMUD Ward 7 Director Ward 7 = ca-ebmud-ward-7"
+  ]
+ },
+ "ca-marin": {
+  "sources": [
+   {
+    "label": "Marin County Elections, Local Candidates On Ballot (Nov 3, 2026)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326",
+    "note": "Contest/candidate list with ballot designations; 'Created: 8/17/2026 11:27 am'; ** = incumbent; says it may not show full slate. Fetched twice (forward and reverse order)."
+   },
+   {
+    "label": "Marin County Elections, Local Candidates Not On Ballot (Nov 3, 2026)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326",
+    "note": "Contests whose filers did not exceed seats; 'Created: 8/17/2026 11:27 am'; reason not printed."
+   },
+   {
+    "label": "Marin County Elections, Status of Local Candidates by Office (8/12/2026)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/status-local-candidates-office-11032026",
+    "note": "Took/filed papers list, created 8/12/2026 7:40 pm; used as cross-check."
+   },
+   {
+    "label": "Marin County Elections, Status of Local Candidates by Office (7/31/2026)",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/status-local-candidates-office-110326",
+    "note": "Earlier status list, created 7/31/2026 4:52 pm."
+   },
+   {
+    "label": "Notice of Election, November 3, 2026 General Election",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/news-releases-110326/notice-election-november-3-2026-general-election",
+    "note": "Offices to be elected, 7/29/2026; no county officer contests besides Boards of Education."
+   },
+   {
+    "label": "Notice of Candidate Filing Extension for Certain Offices",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/news-releases-110326/notice-candidate-filing-extension-certain-offices",
+    "note": "8/7/2026; extension to 8/12/2026."
+   },
+   {
+    "label": "Voter Information Guide, Ballot Type 80 (PDF)",
+    "url": "https://assets.marincounty.gov/marincounty-prod/public/2026-09/VIG-BT80.pdf?VersionId=CbZXRAPvDaGMEpXZlNPtqUBLreOZSGfU",
+    "note": "Sample ballot; confirms Novato Council District Two contest."
+   }
+  ],
+  "checked": [
+   "Marin County (supervisor/county offices: none on Nov ballot; June 2026 D1 and D5 decided in primary)",
+   "Marin County Board of Education",
+   "Sonoma County Board of Education (TA2)",
+   "Marin Community College District",
+   "Sonoma County Junior College District",
+   "San Rafael City Schools",
+   "Tamalpais Union HSD",
+   "Petaluma Joint Union HSD",
+   "Bolinas-Stinson Union SD",
+   "Kentfield SD",
+   "Laguna Joint SD",
+   "Lagunitas SD",
+   "Larkspur-Corte Madera SD",
+   "Mill Valley SD",
+   "Miller Creek SD",
+   "Nicasio SD",
+   "Novato USD",
+   "Reed Union SD",
+   "Ross SD",
+   "Ross Valley SD",
+   "Sausalito Marin City SD",
+   "Shoreline USD",
+   "Belvedere",
+   "Corte Madera",
+   "Fairfax",
+   "Larkspur",
+   "Mill Valley",
+   "Novato",
+   "Ross",
+   "San Anselmo",
+   "San Rafael",
+   "Sausalito",
+   "Tiburon",
+   "Bel Marin Keys CSD",
+   "Marin City CSD",
+   "Marinwood CSD",
+   "Muir Beach CSD",
+   "Tamalpais CSD",
+   "Tomales Village CSD",
+   "Bolinas FPD",
+   "Kentfield FPD",
+   "Novato FPD",
+   "Sleepy Hollow FPD",
+   "Southern Marin FPD",
+   "Stinson Beach FPD",
+   "Tiburon FPD",
+   "Marin Healthcare District",
+   "Bolinas Community PUD",
+   "Inverness PUD",
+   "Mesa Park RD",
+   "Strawberry RD",
+   "Marin Resource Conservation District",
+   "Alto Sanitary District",
+   "Homestead Valley SD",
+   "Las Gallinas Valley SD",
+   "Novato Sanitary District",
+   "Richardson Bay SD",
+   "Sausalito-Marin City SD",
+   "Sanitary District No. 5",
+   "Marin Municipal Water District",
+   "North Marin Water District",
+   "Stinson Beach County Water District"
+  ],
+  "added": 40,
+  "cands": 134,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "Marin Community College District",
+    "office": "Governing Board Member, Trustee Area 1 (Crow**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Community College District",
+    "office": "Governing Board Member, Trustee Area 3 (Treanor**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Community College District",
+    "office": "Governing Board Member, Trustee Area 6 (Conti**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Community College District",
+    "office": "Governing Board Member, Trustee Area 7 - Short Term (Deakyne)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sonoma County Junior College District",
+    "office": "Governing Board Member, Trustee Area 2 (Fishman, incumbent)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "San Rafael City Schools",
+    "office": "Board of Education, Trustee Area 2 (Lau**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "San Rafael City Schools",
+    "office": "Board of Education, Trustee Area 4 (Martin**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "San Rafael City Schools",
+    "office": "Board of Education, Trustee Area 5 - Short Term (Rodas-Dias**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Bolinas-Stinson Union School District",
+    "office": "Governing Board Member, 3 seats (Dar**, Tonski**; 2 filers for 3 seats)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Kentfield School District",
+    "office": "Governing Board Member, 3 seats (Goldman, Portnoy, Wilda)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Laguna Joint School District",
+    "office": "Governing Board Member, 3 seats (Sharon Hess**, Daniel Hess; 2 filers for 3 seats)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Larkspur-Corte Madera School District",
+    "office": "Governing Board Member, 3 seats (Dinday**, Movafaghi**, Woodring)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Mill Valley School District",
+    "office": "Governing Board Member, 3 seats (Katz**, Nakatani**, Yoo**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Nicasio School District",
+    "office": "Governing Board Member, 2 seats (Burton**; 1 filer for 2 seats)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Unified School District",
+    "office": "Governing Board Member, Trustee Area 5 (Gasson**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Unified School District",
+    "office": "Governing Board Member, Trustee Area 6 (Rogoff)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Ross Valley School District",
+    "office": "Governing Board Member, 2 seats (Landles-Cobb**, Marsh**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sausalito Marin City School District",
+    "office": "Governing Board Member - Short Term (Graham**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Shoreline Unified School District",
+    "office": "Governing Board Member, Trustee Area 1, 2 seats (Faure, Hernandez)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Shoreline Unified School District",
+    "office": "Governing Board Member, Trustee Area 2 (Healy**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "City of Novato",
+    "office": "Councilmember, District 5 - Short Term (Karkal**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marinwood Community Services District",
+    "office": "Director, 2 seats (Oyserman**, Shea**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Muir Beach Community Services District",
+    "office": "Director, 3 seats (Hills**, Murray**, Shaffer**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Tamalpais Community Services District",
+    "office": "Director, 2 seats (Brown**, Keon)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Tomales Village Community Services District",
+    "office": "Director, 3 seats (Bonini**, O'Neill**, Ward**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Bolinas Fire Protection District",
+    "office": "Director, 2 seats (Molesworth**, Torrey**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Kentfield Fire Protection District",
+    "office": "Director, 3 seats (Naso**, Evergettis**, Ryan**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Fire Protection District",
+    "office": "Director, District 4 (Goines**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Fire Protection District",
+    "office": "Director, District 5 (Davis**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sleepy Hollow Fire Protection District",
+    "office": "Director (Shortall**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sleepy Hollow Fire Protection District",
+    "office": "Director - Short Term (Gauna**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Stinson Beach Fire Protection District",
+    "office": "Director, 2 seats (Poler**; 1 filer for 2 seats)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Stinson Beach Fire Protection District",
+    "office": "Director - Short Term (Bertrand**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Tiburon Fire Protection District",
+    "office": "Director, 3 seats (Ho**, Jones**, Woodford**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Healthcare District",
+    "office": "Director, Division 4 (Rienks**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Inverness Public Utility District",
+    "office": "Director, 2 seats (Press**, Longstreth)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Mesa Park Recreation District",
+    "office": "Director, 3 seats (Dunne**, Lowrance**; 2 filers for 3 seats)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Mesa Park Recreation District",
+    "office": "Director - Short Term (Suda**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Resource Conservation District",
+    "office": "Director, 2 seats (Meral**, Williams**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Homestead Valley Sanitary District",
+    "office": "Director, 2 seats (Leibof**, Saltzman**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Homestead Valley Sanitary District",
+    "office": "Director - Short Term (Alexandris**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Las Gallinas Valley Sanitary District",
+    "office": "Director, 3 seats (Clark**, Lavrov**, Yezman**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Sanitary District",
+    "office": "Director, Division 1 - Short Term (Tarantino**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Sanitary District",
+    "office": "Director, Division 2 (Bentley**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Sanitary District",
+    "office": "Director, Division 3 (Fuette**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Novato Sanitary District",
+    "office": "Director, Division 5 (Jacobs)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sausalito-Marin City Sanitary District",
+    "office": "Director, 3 seats (Rheiner**, Rycerski**, Thornton**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sausalito-Marin City Sanitary District",
+    "office": "Director - Short Term (McKibben**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Sanitary District No. 5",
+    "office": "Director, 2 seats (Benediktsson**, Moody**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Municipal Water District",
+    "office": "Director, Division 1 (Samson**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Municipal Water District",
+    "office": "Director, Division 3 (Khush**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Marin Municipal Water District",
+    "office": "Director, Division 4 (Lovejoy)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "North Marin Water District",
+    "office": "Director, Division 1 (Eichstaedt**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   },
+   {
+    "jurisdiction": "Stinson Beach County Water District",
+    "office": "Director, 2 seats (Baskin**, Zell**)",
+    "reason": "Not on ballot per county 'Local Candidates Not On Ballot' list (8/17/2026); filers did not exceed seats, so presumed appointed in lieu of election (the list does not print the reason)",
+    "source": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-not-ballot-110326"
+   }
+  ],
+  "unavailable": [
+   "Alto Sanitary District (2 full-term seats per Notice of Election and filing-extension notice) appears on neither the on-ballot nor the not-on-ballot county list; status unknown.",
+   "Candidate statement URLs: county VIG has per-contest statement pages (e.g. Novato District 2, Board of Education TA3) but they returned errors when fetched, so statementUrl is null throughout.",
+   "Lagunitas SD: name/designation split for Charlotte Troy and Ally Wilson is ambiguous in the source (see contest note).",
+   "Uncontested city contests (Belvedere council, Mill Valley council, Fairfax treasurer, San Anselmo clerk and treasurer, San Rafael District 2) appear on the county on-ballot list; no city clerk document confirming they were not cancelled was found, and the sample ballot for those areas was not checked.",
+   "The county lists themselves note they may not show the full slate (city/town and Sonoma-administered offices are filed elsewhere)."
+  ]
+ },
+ "ca-napa": {
+  "sources": [
+   {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates (PDF)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF",
+    "note": "Candidate roster for Nov 3, 2026 General Election, printed 8/13/2026 12:36:47PM; shows contest number, 'On Ballot' yes/no, names (all caps), ballot designations, statement filed yes/no. Read twice."
+   },
+   {
+    "label": "Napa County Qualified List of Candidates page",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates",
+    "note": "Same roster; first reading."
+   },
+   {
+    "label": "Napa County Candidate Information Guide, Nov 3 2026",
+    "url": "https://www.napacounty.gov/DocumentCenter/View/45805/",
+    "note": "Offices up for election with seat counts and current officeholders (county-consolidated districts)."
+   },
+   {
+    "label": "City of Napa final candidate listing",
+    "url": "https://www.cityofnapa.org/DocumentCenter/View/15882",
+    "note": "General Municipal Election Nov 3 2026, as of Aug 7 2026; Districts 1 and 3."
+   },
+   {
+    "label": "City of Napa Elections page",
+    "url": "https://www.cityofnapa.org/155/Elections",
+    "note": "Confirms Districts 1 and 3 council seats on Nov 2026 ballot; no mayor race."
+   },
+   {
+    "label": "Napa County June 2, 2026 Statement of Votes, Supervisor District 1",
+    "url": "https://www.napacounty.gov/DocumentCenter/View/45675/Napa-County-Supervisor-District-1-PDF",
+    "note": "Gallagher unopposed in June; no November supervisor runoff."
+   }
+  ],
+  "checked": [
+   "Napa County (Board of Supervisors Districts 1 and 3, Superintendent: decided June, no runoff)",
+   "Napa County Board of Education",
+   "Napa Valley Community College District",
+   "Napa Valley Unified School District",
+   "St. Helena Unified School District",
+   "Calistoga Joint Unified School District",
+   "Howell Mountain Elementary School District",
+   "Pope Valley Union School District",
+   "American Canyon",
+   "Calistoga",
+   "Napa",
+   "St. Helena",
+   "Yountville",
+   "Circle Oaks Water District",
+   "Congress Valley Water District",
+   "Los Carneros Water District",
+   "Spanish Flat Water District",
+   "Napa County Regional Park & Open Space District"
+  ],
+  "added": 14,
+  "cands": 41,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "Napa County Board of Education",
+    "office": "Trustee Area 1",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Don J Huffman (Incumbent)",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Napa County Board of Education",
+    "office": "Trustee Area 2",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Janna Waldinger (Incumbent)",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Napa County Board of Education",
+    "office": "Trustee Area 4",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Nadine Wade (Appointed Incumbent)",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Napa Valley Community College District",
+    "office": "Trustee Area No. 5",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Lotte Cosca",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Napa Valley Unified School District",
+    "office": "Trustee Area 3",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Katherine Hyde Shelton",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "St. Helena Unified School District",
+    "office": "Governing Board Member (3 seats)",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Laura Symon, Shawn Moura, Jeanmarie Wolf",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Pope Valley Union School District",
+    "office": "Governing Board Member (2 seats)",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Shasta Torrey, Brian Varner",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "City of Calistoga",
+    "office": "Mayor",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Kevin Eisenberg",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "City of Calistoga",
+    "office": "City Council (2 seats)",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Lana Richardson, Scott Cooper",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Circle Oaks Water District",
+    "office": "Board Member (2 seats)",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Eva Valenti-Bird, Lisa M Hackett",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Congress Valley Water District",
+    "office": "Board Member",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Erik Erickson, Adam Joffe, Robert Edwin Lee (3 candidates; roster shows 'Vote for 2' but the Candidate Information Guide lists 3 seats, so 3 candidates for 3 seats)",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Los Carneros Water District",
+    "office": "Board Member (2 seats)",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Will Drayton, Jim Lincoln",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Napa County Regional Park & Open Space District",
+    "office": "Director, Ward 1",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Brad Wagenknecht",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Napa County Regional Park & Open Space District",
+    "office": "Director, Ward 5",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Barry Christian",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Spanish Flat Water District",
+    "office": "Board Member (3 seats)",
+    "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Cheryl Bean, Julia Robinson, Megan Jepsen",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   {
+    "jurisdiction": "Howell Mountain Elementary School District",
+    "office": "Governing Board Member (2 four-year seats and 2 two-year seats per Candidate Information Guide)",
+    "reason": "Contest does not appear on the county qualified candidate list at all; presumed no contest on ballot (likely appointed in lieu or no candidates filed). Not separately confirmed.",
+    "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   }
+  ],
+  "unavailable": [
+   "No candidate statement URLs: the county list only flags whether a statement was filed; no sample ballot/voter guide with statements was found online.",
+   "Yountville Town Council number of seats not printed on the roster (likely 2).",
+   "Names are printed in ALL CAPS by the county; converted to normal capitalization (e.g., McMann, DeNatale, Gonzalez-Mares). Accents (e.g., Pena vs Peña) cannot be confirmed from the all-caps source.",
+   "Ballot designations came from the first reading only; the second reading confirmed names, contest titles and On Ballot status; a third targeted reading re-confirmed selected designations.",
+   "Howell Mountain Elementary SD absent from roster; no county appointed-in-lieu notice was found to confirm.",
+   "Board of Supervisors: localnewsmatters reported Districts 1 and 3 incumbents unopposed in June 2026; no November county runoffs found."
+  ]
+ },
+ "ca-san-mateo": {
+  "sources": [
+   {
+    "label": "San Mateo County ACRE, CFMR009 Qualified Candidate List, Nov 3 2026 Statewide General Election (printed 9/3/2026)",
+    "url": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf",
+    "note": "28-page CFMR009 Qualified Candidate List with contest codes, vote-for counts, ballot designations and an 'On Ballot' Yes/No flag per contest; printed 9/3/2026 2:09 PM. Linked as 'Roster of Candidates' from the county election page (checked 2026-10-24)."
+   },
+   {
+    "label": "San Mateo County ACRE, November 3, 2026 Statewide General Election page",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "note": "Election hub linking the roster, certified write-in list and extended filing list."
+   },
+   {
+    "label": "San Mateo County ACRE press release, offices up for election (filing opens July 13)",
+    "url": "https://smcacre.gov/elections/news/candidate-filing-period-opens-july-13-november-3-2026-statewide-general-election",
+    "note": "List of all local offices up for election, used as the checklist of jurisdictions."
+   }
+  ],
+  "checked": [
+   "San Mateo County (Board of Supervisors D5 short term)",
+   "San Mateo County Board of Education",
+   "San Mateo County Community College District",
+   "Bayshore Elementary SD",
+   "Belmont-Redwood Shores SD",
+   "Brisbane SD",
+   "Burlingame SD",
+   "Cabrillo USD",
+   "Hillsborough City SD",
+   "Jefferson Elementary SD",
+   "Jefferson Union HSD",
+   "La Honda-Pescadero USD",
+   "Las Lomitas Elementary SD",
+   "Menlo Park City SD",
+   "Millbrae Elementary SD",
+   "Pacifica SD",
+   "Portola Valley SD",
+   "Ravenswood City SD",
+   "Redwood City SD",
+   "San Bruno Park SD",
+   "San Carlos SD",
+   "San Mateo Union HSD",
+   "San Mateo-Foster City SD",
+   "Sequoia Union HSD",
+   "South San Francisco USD",
+   "Woodside Elementary SD",
+   "Bayshore Sanitary District",
+   "Broadmoor Police Protection District",
+   "Coastside County Water District",
+   "Coastside Fire Protection District",
+   "Colma Fire Protection District",
+   "Granada Community Services District",
+   "Highlands Recreation District",
+   "Ladera Recreation District",
+   "Menlo Park Fire Protection District",
+   "Mid-Peninsula Water District",
+   "Midpeninsula Regional Open Space District",
+   "Montara Water and Sanitary District",
+   "North Coast County Water District",
+   "Peninsula Health Care District",
+   "San Mateo County Harbor District",
+   "Sequoia Healthcare District",
+   "West Bay Sanitary District",
+   "Westborough Water District",
+   "Woodside Fire Protection District",
+   "Midcoast Community Council",
+   "Pescadero Municipal Advisory Council",
+   "Atherton",
+   "Belmont",
+   "Brisbane",
+   "Burlingame",
+   "Colma",
+   "Daly City",
+   "East Palo Alto",
+   "Foster City",
+   "Half Moon Bay",
+   "Hillsborough",
+   "Menlo Park",
+   "Millbrae",
+   "Pacifica",
+   "Portola Valley",
+   "Redwood City",
+   "San Bruno",
+   "San Carlos",
+   "San Mateo",
+   "South San Francisco",
+   "Woodside"
+  ],
+  "added": 62,
+  "cands": 140,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "San Mateo County Board of Education",
+    "office": "Member, Trustee Area 1",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3020. Qualified: Susan Alvaro",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo County Board of Education",
+    "office": "Member, Trustee Area 3",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3022. Qualified: John C. Baker",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo County Community College District",
+    "office": "Member, Governing Board, Trustee Area 4",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3105. Qualified: Richard Holober",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Cabrillo Unified School District",
+    "office": "Member, Governing Board, Trustee Area A",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3202. Qualified: Kyle Ekberg",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "La Honda-Pescadero Unified School District",
+    "office": "Member, Governing Board (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3221. Qualified: Deborah Walter-Rosas",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "South San Francisco Unified School District",
+    "office": "Member, Governing Board, Trustee Area D",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3245. Qualified: Amanda Anthony",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Jefferson Union High School District",
+    "office": "Member, Governing Board (Full Term, 3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3300. Qualified: Lasaundra A. Gutter, Rosie Tejada, Sherrett Walker",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Jefferson Union High School District",
+    "office": "Member, Governing Board (Short Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3301. Qualified: Joelle M. Castoreno",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo Union High School District",
+    "office": "Member, Governing Board, Trustee Area 1",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3322. Qualified: Teri L. Chavez",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Bayshore Elementary School District",
+    "office": "Member, Governing Board (Full Term, 3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3400. Qualified: Gloria Karina Ferrusca, David T. Rudolph, Jane W. Camarco",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Belmont-Redwood Shores School District",
+    "office": "Member, Governing Board, Trustee Area 1",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3422. Qualified: Charles Shagong",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Belmont-Redwood Shores School District",
+    "office": "Member, Governing Board, Trustee Area 3",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3424. Qualified: David A. Koss",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Burlingame School District",
+    "office": "Member, Governing Board, Trustee Area 1",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3462. Qualified: Semonti Stephens",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Burlingame School District",
+    "office": "Member, Governing Board, Trustee Area 4",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3465. Qualified: Laura Bull",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Hillsborough City School District",
+    "office": "Member, Governing Board (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3480. Qualified: Gilbert Wai, An Huang Chen, Don Geddis",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Jefferson Elementary School District",
+    "office": "Member, Governing Board (Full Term, 3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3500. Qualified: Aaron Rashba, Anthony Tsujisaka, Shakeel Ali",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Jefferson Elementary School District",
+    "office": "Member, Governing Board (Short Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3501. Qualified: Eileen R. Policarpio",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Las Lomitas Elementary School District",
+    "office": "Member, Governing Board (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3520. Qualified: Gautam Nadella, Heather Hopkins, Erin K. Tiedens",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Millbrae Elementary School District",
+    "office": "Member, Governing Board (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3561. Qualified: Claire Beltrami, Denis Fama, Nnenna C. Okezie-Sanchez",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Portola Valley School District",
+    "office": "Member, Governing Board (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3601. Qualified: Robert Kx Jin, Aimee Armsby",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Ravenswood City School District",
+    "office": "Member, Governing Board (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3620. Qualified: Laura Nunez, Mele Kasavu Latu, Tamara Sobomehin",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Redwood City School District",
+    "office": "Member, Governing Board, Trustee Area 2",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3643. Qualified: David E. Weekly",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Redwood City School District",
+    "office": "Member, Governing Board, Trustee Area 5",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3646. Qualified: Cecilia I. Marquez",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Bruno Park School District",
+    "office": "Member, Governing Board, Trustee Area 2",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3663. Qualified: Denise Cook",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Bruno Park School District",
+    "office": "Member, Governing Board, Trustee Area 3",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3664. Qualified: Duane Beadles",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Bruno Park School District",
+    "office": "Member, Governing Board, Trustee Area 5",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3666. Qualified: Raymond Giusti",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo-Foster City School District",
+    "office": "Member, Governing Board, Trustee Area 1 (Full Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3702. Qualified: Allyson Chan",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo-Foster City School District",
+    "office": "Member, Governing Board, Trustee Area 2 (Full Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3703. Qualified: Sabrina Ocampo",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo-Foster City School District",
+    "office": "Member, Governing Board, Trustee Area 3 (Short Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3704. Qualified: Stacey Ho",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Woodside Elementary School District",
+    "office": "Member, Governing Board (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 3720. Qualified: Sujay Jaswa, Amanda Peiffer, Mia Hall",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Town of Atherton",
+    "office": "Member, City Council (Full Term, 3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 5000. Qualified: Rick Degolia, Christine David, Jerry Leugers",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Town of Atherton",
+    "office": "Member, City Council (Short Term, 2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 5001. Qualified: Bill Widmer",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Town of Hillsborough",
+    "office": "Member, City Council (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 5181. Qualified: Leslie Marden Ragsdale, Jeff Baxter",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Bayshore Sanitary District",
+    "office": "Member, Board of Directors (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6001. Qualified: Iris Gallagher, Kenneth A. Tonna",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Broadmoor Police Protection District",
+    "office": "Member, Board of Commissioners (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6021. Qualified: John V. Aguerre, Anna Marie Brizuela",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Coastside County Water District",
+    "office": "Member, Board of Directors, Zone 1 (Short Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6042. Qualified: David R. Dickson",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Coastside County Water District",
+    "office": "Member, Board of Directors, Zone 2 (Full Term)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6043. Qualified: Chris R Mickelsen",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Coastside Fire Protection District",
+    "office": "Member, Board of Directors, District C",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6064. Qualified: Patrick Hanna",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Highlands Recreation District",
+    "office": "Member, Board of Directors (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6140. Qualified: Gordon Strause, Uy Ut",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Ladera Recreation District",
+    "office": "Member, Board of Directors (Full Term, 3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6160. Qualified: Shawn Salmon, Brian Wall",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Ladera Recreation District",
+    "office": "Member, Board of Directors (Short Term, 2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6161. Qualified: Helen Wang",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Menlo Park Fire Protection District",
+    "office": "Member, Board of Directors (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6200. Qualified: Chuck Bernstein, Gary L. Bloom, Robert Jones",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Mid-Peninsula Water District",
+    "office": "Member, Board of Directors, Division 3",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6224. Qualified: Neela Patel",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Mid-Peninsula Water District",
+    "office": "Member, Board of Directors, Division 4",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6225. Qualified: Joann Covington",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Mid-Peninsula Water District",
+    "office": "Member, Board of Directors, Division 5",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6226. Qualified: Charles \"Chuck\" Cotten",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Midcoast Community Council",
+    "office": "Councilmember (4 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6240. Qualified: Scott Bollinger, Joan Brennan",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Midpeninsula Regional Open Space District",
+    "office": "Member, Board of Directors, Ward 5",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6260. Qualified: Karen C. Holman",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Midpeninsula Regional Open Space District",
+    "office": "Member, Board of Directors, Ward 6",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6261. Qualified: Bryan Beck",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Montara Water and Sanitary District",
+    "office": "Member, Board of Directors, Division 1",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6282. Qualified: William \"Bill\" Softky",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Montara Water and Sanitary District",
+    "office": "Member, Board of Directors, Division 3",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6284. Qualified: Scott Boyd",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Montara Water and Sanitary District",
+    "office": "Member, Board of Directors, Division 5",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6286. Qualified: Virginia \"Ginny\" McShane",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "North Coast County Water District",
+    "office": "Member, Board of Directors, Zone A",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6302. Qualified: William Hauser",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "North Coast County Water District",
+    "office": "Member, Board of Directors, Zone B",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6303. Qualified: Anne Dejarnatt",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "North Coast County Water District",
+    "office": "Member, Board of Directors, Zone E",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6306. Qualified: Ron Ash",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Peninsula Health Care District",
+    "office": "Member, Board of Directors (3 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6320. Qualified: Lawrence William Cappel, Dennis Zell, Henry Sanchez",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Pescadero Municipal Advisory Council",
+    "office": "Councilmember (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6349. Qualified: Cullen Rose",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo County Harbor District",
+    "office": "Member, Board of Commissioners, District 2",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6363. Qualified: George W. Domurat",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "San Mateo County Harbor District",
+    "office": "Member, Board of Commissioners, District 3",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6364. Qualified: Kathryn Slater-Carter",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Sequoia Healthcare District",
+    "office": "Member, Board of Directors, Zone A",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6382. Qualified: William Fong",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Sequoia Healthcare District",
+    "office": "Member, Board of Directors, Zone C",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6384. Qualified: Rosanne Foust",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Sequoia Healthcare District",
+    "office": "Member, Board of Directors, Zone E",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6386. Qualified: Brian Greenberg",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "West Bay Sanitary District",
+    "office": "Member, Board of Directors (2 seats)",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6401. Qualified: Edward Moritz, Roy Thiele-Sardina",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Westborough Water District",
+    "office": "Member, Board of Directors, Zone 2",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6423. Qualified: Thomas Chambers",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Westborough Water District",
+    "office": "Member, Board of Directors, Zone 4",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6425. Qualified: Perry Bautista",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Woodside Fire Protection District",
+    "office": "Member, Board of Directors",
+    "reason": "Roster marks 'On Ballot: No' (candidates <= seats; appointment in lieu of election expected). Contest 6441. Qualified: Matt Miller",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Bayshore Elementary School District",
+    "office": "Member, Governing Board (Short Term)",
+    "reason": "No qualified candidate listed on the 9/3/2026 roster although the county's offices-up list includes it; not on ballot (vacancy to be filled by appointment)",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Belmont-Redwood Shores School District",
+    "office": "Member, Governing Board, Trustee Area 5",
+    "reason": "No qualified candidate listed on the 9/3/2026 roster although the county's offices-up list includes it; not on ballot (vacancy to be filled by appointment)",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   },
+   {
+    "jurisdiction": "Colma Fire Protection District",
+    "office": "Member, Board of Directors (1 seat)",
+    "reason": "No qualified candidate listed on the 9/3/2026 roster although the county's offices-up list includes it; not on ballot (vacancy to be filled by appointment)",
+    "source": "https://smcacre.gov/system/files/2026-09/52_candidateroster0903.pdf"
+   }
+  ],
+  "unavailable": [
+   "Roster PDF prints names in ALL CAPS; names were converted to normal capitalization, so internal capitals (e.g. DiGiovanni, McGraw, McDowell, Delisle, Latimerlo, Dekshenieks) are not verified against mixed-case sources.",
+   "No county-published online candidate statement URLs were found; statementUrl is null throughout.",
+   "Certified write-in candidate list (https://smcacre.gov/media/9093/download?attachment) was not read; write-ins are not included.",
+   "notOnBallot entries are based on the roster's 'On Ballot: No' flag; board resolutions formally appointing in lieu of election were not individually checked.",
+   "Roster is dated 9/3/2026; no later roster was linked from the county election page as of 2026-10-24.",
+   "Incumbent flag set true only where the ballot designation says Incumbent/Appointed Incumbent; otherwise null."
+  ]
+ },
+ "ca-santa-clara": {
+  "sources": [
+   {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf",
+    "note": "Every local contest with On Ballot Yes/No, vote-for number, qualified candidates and ballot designations; read in a browser because the county's file server refuses automated fetching. Contact details on the list were not copied."
+   },
+   {
+    "label": "Final Qualified List of Local Write-In Candidates (CFMR028)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-10/writeincandidates_102026-v3.pdf?VersionId=XSwtnLJSbo6VZ5rS3.DHdgMF040jZKp.",
+    "note": "Printed 10/20/2026 4:30 PM; 'Contests: 3120 to 6103 - All Contests in Range'; lists 73 local contests on ballot and 2 qualified write-ins (Hina Patel, Orchard SD; Jacob Montoya, Morgan Hill Mayor). Used as the inventory of on-ballot contests."
+   },
+   {
+    "label": "County Voter Information Guide - Audio",
+    "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+    "note": "Official ROV page listing every candidate statement (audio/text) for the Nov 3 2026 guide, by contest; covers only candidates who bought statements."
+   },
+   {
+    "label": "November 3, 2026 General Election List of Offices",
+    "url": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices",
+    "note": "Offices up for election with seats/trustee areas; no candidates. No county or city section rendered."
+   },
+   {
+    "label": "Qualified List of Local Candidates, June 2, 2026 primary (v3)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY",
+    "note": "Shows June county contests and San Jose D5/D7/D9 (source of Nov runoffs)."
+   },
+   {
+    "label": "Santa Cruz County Elections, Appointed in Lieu, Nov 3 2026",
+    "url": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx",
+    "note": "Official list for shared districts (County BOE TA2, WVMCCD TA5, LGSUHSD TA3, Lakeside, Loma Prieta, MROSD Ward 6)."
+   },
+   {
+    "label": "City of Milpitas Certified List of Candidates",
+    "url": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+    "note": "Mayor and Council names and ballot designations."
+   },
+   {
+    "label": "City clerk pages: Gilroy, Cupertino, Palo Alto, Los Altos",
+    "url": "https://cityofgilroy.org/705/Elections-Voter-Information",
+    "note": "Also https://www.cupertino.gov/our-city/departments/city-clerk/cupertino-elections-info , https://www.paloalto.gov/Departments/City-Clerk/Municipal-Elections/City-Council-Election , https://www.losaltosca.gov/604/Elections"
+   }
+  ],
+  "checked": [
+   "Santa Clara County (Supervisors D1, D4, Sheriff, Assessor, DA)",
+   "Campbell",
+   "Cupertino",
+   "Gilroy",
+   "Los Altos",
+   "Los Altos Hills",
+   "Los Gatos",
+   "Milpitas",
+   "Monte Sereno",
+   "Morgan Hill",
+   "Mountain View",
+   "Palo Alto",
+   "San José",
+   "Santa Clara",
+   "Saratoga",
+   "Sunnyvale",
+   "Santa Clara County Board of Education",
+   "Stanislaus County Board of Education",
+   "Foothill-De Anza CCD",
+   "Gavilan Joint CCD",
+   "San José-Evergreen CCD",
+   "West Valley-Mission CCD",
+   "Yosemite CCD",
+   "Alum Rock Union SD",
+   "Berryessa Union SD",
+   "Cambrian SD",
+   "Campbell Union SD",
+   "Cupertino Union SD",
+   "Evergreen SD",
+   "Franklin-McKinley SD",
+   "Lakeside Joint SD",
+   "Loma Prieta Joint Union SD",
+   "Los Altos SD",
+   "Los Gatos Union SD",
+   "Luther Burbank SD",
+   "Moreland SD",
+   "Mountain View Whisman SD",
+   "Mt. Pleasant SD",
+   "North County Joint Union SD",
+   "Oak Grove SD",
+   "Orchard SD",
+   "Saratoga Union SD",
+   "Sunnyvale SD",
+   "Union SD",
+   "Campbell Union HSD",
+   "East Side Union HSD",
+   "Fremont Union HSD",
+   "Los Gatos-Saratoga Union HSD",
+   "Mountain View-Los Altos Union HSD",
+   "Gilroy USD",
+   "Milpitas USD",
+   "Morgan Hill USD",
+   "Palo Alto USD",
+   "Patterson Joint USD",
+   "San José USD",
+   "Santa Clara USD",
+   "Aldercroft Heights County Water District",
+   "Burbank Sanitary District",
+   "Cupertino Sanitary District",
+   "El Camino Healthcare District",
+   "Lion's Gate CSD",
+   "Midpeninsula Regional Open Space District",
+   "Purissima Hills Water District",
+   "Rancho Rinconada Recreation & Park District",
+   "San Martin County Water District",
+   "Santa Clara Valley Open Space Authority",
+   "Santa Clara Valley Water District",
+   "Saratoga Fire Protection District",
+   "Silver Creek Valley Country Club GHAD",
+   "South Santa Clara Valley Memorial District",
+   "West Bay Sanitary District"
+  ],
+  "added": 73,
+  "cands": 210,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "Santa Clara County",
+    "office": "Sheriff",
+    "reason": "Decided at June 2, 2026 primary; no November runoff",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+   },
+   {
+    "jurisdiction": "Santa Clara County",
+    "office": "Assessor",
+    "reason": "Decided at June 2, 2026 primary; no November runoff",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+   },
+   {
+    "jurisdiction": "Santa Clara County",
+    "office": "District Attorney",
+    "reason": "Decided at June 2, 2026 primary; no November runoff",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+   },
+   {
+    "jurisdiction": "Santa Clara County",
+    "office": "Board of Supervisors, District 1",
+    "reason": "Decided at June 2, 2026 primary; no November runoff",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+   },
+   {
+    "jurisdiction": "Santa Clara County",
+    "office": "Board of Supervisors, District 4",
+    "reason": "Decided at June 2, 2026 primary; no November runoff",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+   },
+   {
+    "jurisdiction": "Santa Clara County BOE, Trustee Area 2",
+    "office": "vote for 1; qualified: Yan Zhao",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Santa Clara County BOE, Trustee Area 6",
+    "office": "vote for 1; qualified: Maimona Afzal Berta",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Stanislaus County BOE, Trustee Area 5",
+    "office": "vote for 1; qualified: Cindy Young",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Foothill-De Anza CCD, Trustee Area 2",
+    "office": "vote for 1; qualified: Alexander Gvatua",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Gavilan Joint CCD, Trustee Area 1",
+    "office": "vote for 1; qualified: Kathy Chavez Napoli",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "San José-Evergreen CCD, Trustee Area 4",
+    "office": "vote for 1; qualified: Maria R. Fuentes",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "San José-Evergreen CCD, Trustee Area 6",
+    "office": "vote for 1; qualified: Jeffrey Lease",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "West Valley-Mission CCD, Trustee Area 5",
+    "office": "vote for 1; qualified: Diane Lamkin",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Gilroy Unified SD, Trustee Area 1",
+    "office": "vote for 1; qualified: Gabriela Kim",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Gilroy Unified SD, Trustee Area 7",
+    "office": "vote for 1; qualified: Tuyen Fiack",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Patterson Joint Unified SD, Trustee Area 2",
+    "office": "vote for 1; qualified: Sergio Perez",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Santa Clara Unified SD, Trustee Area 3",
+    "office": "vote for 1; qualified: Vickie Fairchild",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Santa Clara Unified SD, Trustee Area 4",
+    "office": "vote for 1; qualified: Andrew O'Dea Ratermann",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Santa Clara Unified SD, Trustee Area 6",
+    "office": "vote for 1; qualified: Jodi Muirhead",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Campbell Union HSD, Trustee Area 1",
+    "office": "vote for 1; qualified: James Kim",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Campbell Union HSD, Trustee Area 2",
+    "office": "vote for 1; qualified: Elisabeth Halliday",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Campbell Union HSD, Trustee Area 3",
+    "office": "vote for 1; qualified: Jason Baker",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "East Side Union HSD, TA 2",
+    "office": "vote for 1; qualified: Anthony Montes",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Los Gatos-Saratoga Union HSD, TA 3",
+    "office": "vote for 1; qualified: Shawn K. Mortensen",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Los Gatos-Saratoga Union HSD, TA 4",
+    "office": "vote for 1; qualified: Steven Chen",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Mountain View-Los Altos Union HSD, TA 1",
+    "office": "vote for 1; qualified: Nir Paz",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Mountain View-Los Altos Union HSD, TA 2",
+    "office": "vote for 1; qualified: Ellen Kamei",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Alum Rock Union SD, TA 1",
+    "office": "vote for 1; qualified: Darcie Green",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Campbell Union SD, TA 1",
+    "office": "vote for 1; qualified: Richard Nguyen",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Cupertino Union SD",
+    "office": "vote for 3; qualified: Ava Chiao, Satheesh Madhathil, Jerry Liu",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Lakeside Joint SD",
+    "office": "vote for 3; qualified: Mingi Bodine",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Loma Prieta Joint Union SD",
+    "office": "vote for 3; qualified: Charlotte Boisvert-Khandelwal, Denise Ramon Herrera, Courtney Thomas",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Los Gatos Union SD",
+    "office": "vote for 3; qualified: Peter Noymer, Melissa Crow, Heather Wygant",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Luther Burbank SD",
+    "office": "vote for 2; qualified: Antonio R. Perez, Kim A. Perez",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Luther Burbank SD, Short Term",
+    "office": "vote for 1; qualified: Jacob Perez",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Moreland SD, TA 1, Short Term",
+    "office": "vote for 1; qualified: Seshan Sekariapuram",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Moreland SD, Trustee Area 2",
+    "office": "vote for 1; qualified: Tracy Dwyer",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Moreland SD, Trustee Area 3",
+    "office": "vote for 1; qualified: Angelica Woodward",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Moreland SD, Trustee Area 4",
+    "office": "vote for 1; qualified: Heather E. Sutton",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Mount Pleasant SD",
+    "office": "vote for 3; qualified: Lissa Oros, Brenda Serrano, Antonio Perez",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "North County Joint Union SD",
+    "office": "vote for 2; qualified: Cindy King, Ted Brian Zanella",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Sunnyvale SD, Trustee Area 1",
+    "office": "vote for 1; qualified: Bridget Watson",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Sunnyvale SD, Trustee Area 5",
+    "office": "vote for 1; qualified: Evelyn D. Castillo Profeta",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Union School District",
+    "office": "vote for 3; qualified: Aengus Linehan, Sheila Billings, Brooke Libman",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "City of Monte Sereno Council",
+    "office": "vote for 3; qualified: Ken Toren, Allison Zeidler, Burton Craig",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Santa Clara Valley Water, District 4",
+    "office": "vote for 1; qualified: Jim Beall",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Aldercroft Heights County Water District",
+    "office": "vote for 2; qualified: David Gibbs Pearce, Alyce Green",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Burbank Sanitary District",
+    "office": "vote for 3; qualified: Procopio J. Sclafani, Mark Alan Negrete, Kristina Marika Seldal",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "El Camino Healthcare District",
+    "office": "vote for 2; qualified: Peter C. Fung, George O. Ting",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Midpeninsula Regional Open Space District Ward 2",
+    "office": "vote for 1; qualified: Yoriko Kishimoto",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Midpeninsula Regional Open Space District Ward 5",
+    "office": "vote for 1; qualified: Karen C. Holman",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "SCV Open Space Authority, District 2",
+    "office": "vote for 1; qualified: Margie Matthews",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "SCV Open Space Authority, District 5",
+    "office": "vote for 1; qualified: Cathryn Ming Hyde",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "SCV Open Space Authority, District 6",
+    "office": "vote for 1; qualified: Lisanna Dominguez",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "SCV Open Space Authority, District 7",
+    "office": "vote for 1; qualified: Kalvin Gill",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Purissima Hills Water District",
+    "office": "vote for 2; qualified: Anand Ranganathan, Essy Stone",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Rancho Rinconada Recreation and Park District",
+    "office": "vote for 2; qualified: Wayne Lin, Meesha Reiisieh",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "Saratoga Fire Protection District",
+    "office": "vote for 1; qualified: Ernie Kraule",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "South Santa Clara Valley Memorial District",
+    "office": "vote for 2; qualified: Terry L. Palmisano, Danny Edward Molina",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   {
+    "jurisdiction": "West Bay Sanitary District",
+    "office": "vote for 2; qualified: Edward Moritz, Roy Thiele-Sardina",
+    "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+    "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   }
+  ],
+  "unavailable": [
+   "The official list was read once, by the project lead in a browser; its contests and names agree with the county's write-in list and voter guide statement page used in the earlier research (see ca-santa-clara.agent.json). A person should confirm against the official sample ballot.",
+   "Qualified write-in candidates are not printed on the ballot and are not listed: Hina Patel (Orchard School District) and Jacob Montoya (Morgan Hill Mayor), per the county's write-in list printed 10/20/2026."
+  ]
+ },
+ "ca-solano": {
+  "sources": [
+   {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "label": "Solano County Voter Information Guides by ballot type (candidate statements)",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information"
+   }
+  ],
+  "checked": [
+   "Solano County (Supervisor District 4)",
+   "Benicia",
+   "Dixon",
+   "Fairfield",
+   "Rio Vista",
+   "Suisun City",
+   "Vacaville",
+   "Vallejo",
+   "Solano County Board of Education",
+   "Yolo County Board of Education",
+   "Solano Community College District",
+   "San Joaquin Delta Community College District",
+   "Benicia USD",
+   "Dixon USD",
+   "Fairfield-Suisun USD",
+   "River Delta USD",
+   "Travis USD",
+   "Vacaville USD",
+   "Vallejo City USD",
+   "Winters JUSD",
+   "Cordelia Fire Protection District",
+   "Solano Irrigation District",
+   "Rural North Vacaville Water District"
+  ],
+  "added": 27,
+  "cands": 71,
+  "skippedExisting": 0,
+  "duplicates": 0,
+  "pending": 0,
+  "notOnBallot": [
+   {
+    "jurisdiction": "Solano County Board of Education",
+    "office": "Trustee Areas 3 and 4",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Solano Community College District",
+    "office": "Trustee Areas 1, 2 and 6",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Benicia Unified School District",
+    "office": "Trustee Areas 4 and 5",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Fairfield-Suisun Unified School District",
+    "office": "Trustee Areas 4, 5 and 7",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "River Delta Unified School District",
+    "office": "Trustee Area 3 (no candidate filed)",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Travis Unified School District",
+    "office": "Trustee Areas 1 and 2",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Vacaville Unified School District",
+    "office": "Trustee Areas 1, 3 and 5",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Vallejo City Unified School District",
+    "office": "Trustee Area 5",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Cordelia Fire Protection District",
+    "office": "3 seats",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Rural North Vacaville Water District",
+    "office": "3 seats",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   {
+    "jurisdiction": "Solano Irrigation District",
+    "office": "Divisions 1 and 5",
+    "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+    "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   }
+  ],
+  "unavailable": [
+   "Read once by the project lead from the official PDF through a browser (the county's file server blocks automated fetching); the ON/OFF THE BALLOT labels were matched to contests by rule (contested county contests are on the ballot; city contests as the log marks them). A person should confirm against a sample ballot.",
+   "Yolo County Board of Education and Winters Joint Unified contests that include Solano voters were filed in Yolo County and are not listed here."
+  ]
+ },
+ "ca-sonoma": {
+  "sources": [
+   {
+    "label": "Sonoma County ROV: November 3, 2026 General Election, Candidates on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot",
+    "note": "Official ballot candidate list with designations, vote-for lines and statement PDF links. No date printed. Fetch tool truncated text at ~122k chars (ends mid Windsor District 4), so the special-district section (Gold Ridge Fire, Sonoma County Fire) was only visible in the page index."
+   },
+   {
+    "label": "Sonoma County ROV: Local Candidates Who Filed",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-candidates-who-filed",
+    "note": "Filing list with incumbent flags; last updated 8/17/26 6:45 p.m.; states not final or official. Used for capitalization, incumbent flags, fire district candidates and not-on-ballot inference."
+   },
+   {
+    "label": "Sonoma County ROV: Offices Up for Election",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-offices-up-for-election",
+    "note": "All local offices up in Nov 2026 with seat counts."
+   },
+   {
+    "label": "Sonoma County ROV: November 3, 2026 General Election page",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election",
+    "note": "Index of election links."
+   }
+  ],
+  "checked": [
+   "Sonoma County (Supervisor Districts 2, 4)",
+   "Cloverdale",
+   "Cotati",
+   "Healdsburg",
+   "Petaluma",
+   "Rohnert Park",
+   "Santa Rosa",
+   "Sebastopol",
+   "Sonoma",
+   "Windsor",
+   "Sonoma County Board of Education",
+   "Sonoma County Junior College District",
+   "All 13 unified, 4 high school and ~30 elementary districts on the county's Offices Up for Election list",
+   "All community services, fire, health care, life support, recreation and park, and water districts on that list"
+  ],
+  "added": 35,
+  "cands": 104,
+  "skippedExisting": 1,
+  "duplicates": 2,
+  "pending": 2,
+  "notOnBallot": [
+   {
+    "jurisdiction": "Sonoma County Board of Education",
+    "office": "Trustee Area 4 (Steve Herrington only filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Sonoma County Junior College District",
+    "office": "Trustee Area 1 (Ezrah Chaaban only filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Sonoma County Junior College District",
+    "office": "Trustee Area 2 (Margaret Fishman only filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Cloverdale Unified School District",
+    "office": "Full Term, 2 seats (1 filer) and Short Term, 1 seat (1 filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Cotati-Rohnert Park Unified School District",
+    "office": "Trustee Areas 2 and 4 (1 filer each)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Geyserville Unified School District",
+    "office": "Full Term, 2 seats and Short Term, 1 seat",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Healdsburg Unified School District",
+    "office": "Trustee Area 1 (no filers) and Trustee Area 5 (1 filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Sonoma Valley Unified School District",
+    "office": "Trustee Area 2 (1 filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "City of Santa Rosa High School District",
+    "office": "Trustee Areas 4 and 6 (1 filer each)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Petaluma City Elementary / Petaluma Joint Union High School Districts",
+    "office": "Trustee Area 2 (1 filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Point Arena Joint Union and Arena Union School Districts",
+    "office": "Full Term (4) and Short Term (1); no Sonoma County filers",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "West Sonoma County Union High School District",
+    "office": "Trustee Areas 1 and 3 (1 filer each)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Elementary districts",
+    "office": "Governing Board Member: Alexander Valley, Bellevue, Bennett Valley, Cinnabar, Dunham, Forestville, Fort Ross, Gravenstein, Guerneville, Horicon, Kenwood, Laguna Joint, Liberty (full and short), Mark West (full and short), Monte Rio (short term), Montgomery, Oak Grove (Areas 1, 3, 4), Old Adobe, Piner-Olivet (full and short), Rincon Valley (Areas 2, 3, 5), Roseland, Sebastopol Union, West Side (full and short), Wilmar (full and short), Wright",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "City of Cotati",
+    "office": "City Council, 2 seats (Kimberlyn Moffet, Ryan Long filed)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "City of Sonoma",
+    "office": "City Council District 3 (John P. Gurney only filer) and District 5 (Ron Wellander only filer)",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Cazadero / Graton Community Services Districts",
+    "office": "Director",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Cloverdale, Graton, North Sonoma Coast (full and short), Northern Sonoma County, Schell-Vista (full and short), Sonoma Valley, Timber Cove Fire Protection Districts",
+    "office": "Director",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Cloverdale Health Care District; Healthy Petaluma District Zones 1 and 3; North Sonoma County Healthcare District; Sonoma Valley Health Care District",
+    "office": "Director",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Coast Life Support District",
+    "office": "Director, Full Term and Short Term",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Camp Meeker Recreation and Park District",
+    "office": "Director",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   },
+   {
+    "jurisdiction": "Forestville, North Marin (Division 1), Rains Creek/Hiatt Rd County, Sweetwater Springs (full and short), Valley of the Moon Water Districts",
+    "office": "Director",
+    "reason": "Listed as up for election, but not on the county's Candidates on the Ballot page. Filed candidates did not exceed seats (or none filed), so presumed appointed in lieu of election / no election held. No explicit appointment notice found.",
+    "source": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-candidates-on-the-ballot"
+   }
+  ],
+  "unavailable": [
+   "Gold Ridge Fire Protection District and Sonoma County Fire District candidate lists could not be read from the official ballot page (fetch truncated); recorded as pending from the 8/17/26 filed list.",
+   "Windsor Town Council District 4 entry was the last partially visible item on the ballot page; no additional candidates expected but not verifiable.",
+   "No explicit 'appointed in lieu of election' notice found; notOnBallot entries are inferred from absence on the official ballot page.",
+   "Accents on names printed ALL CAPS only on the ballot page (Calistoga JUSD candidates) could not be verified.",
+   "County voter information guide (omniballot) could not be fetched."
+  ],
+  "sameAs": [
+   "Sonoma County Board of Education Member Trustee Area 2 = ca-sonoma-sd-sonoma-county-board-of-education",
+   "Calistoga Joint Unified School District Governing Board Member = ca-napa-sd-calistoga-joint-unified"
+  ]
+ }
+}

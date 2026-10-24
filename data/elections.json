@@ -23,7 +23,53 @@
           "type": "Official"
         }
       ],
-      "lastVerified": "2026-10-22"
+      "lastVerified": "2026-10-22",
+      "keyDates": [
+        {
+          "date": "2026-10-05",
+          "label": "Ballots in the mail",
+          "text": "County elections officials begin mailing ballots, and secure ballot drop-off locations open, by this date.",
+          "quote": "County elections officials will begin mailing ballots by October 5. Secure ballot drop-off locations open by October 5.",
+          "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+        },
+        {
+          "date": "2026-10-19",
+          "label": "Registration deadline",
+          "text": "Last day to register online or by mail (postmark). After this, you can still register conditionally and vote at your county elections office.",
+          "quote": "Online or Postmark by October 19, 2026. You can “conditionally” register and vote at your county elections office after the 15-day voter registration deadline.",
+          "url": "https://www.sos.ca.gov/elections/voting-resources/voting-california/election-dates-and-resources"
+        },
+        {
+          "date": "2026-10-24",
+          "label": "First vote centers open",
+          "text": "The first vote centers open for early in-person voting in counties that use the Voter's Choice Act model.",
+          "quote": "The first vote centers open for early in-person voting in all Voter’s Choice Act counties on October 24.",
+          "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+        },
+        {
+          "date": "2026-10-31",
+          "label": "Weekend early voting",
+          "text": "In-person early voting locations across California are open on Saturday.",
+          "quote": "In-person early voting locations throughout California will be open on Saturday, October 31.",
+          "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+        },
+        {
+          "date": "2026-11-03",
+          "label": "Election Day",
+          "text": "Polls are open 7 a.m. to 8 p.m. Last day to vote in person or return a ballot by 8 p.m. Mailed ballots must be postmarked on or before this day.",
+          "quote": "Polls are open from 7:00 a.m. to 8:00 p.m. Mailed ballots must be postmarked on or before November 3. November 3 is the last day to vote in-person or return a ballot by 8:00 p.m.",
+          "url": "https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026"
+        },
+        {
+          "date": "2026-11-10",
+          "label": "Mailed ballots due",
+          "text": "Mailed ballots postmarked by Election Day must reach your county elections office by this date.",
+          "quote": "Mailed ballots: Must be postmarked on or before November 3, 2026, and received by your county elections office no later than November 10, 2026.",
+          "url": "https://www.sos.ca.gov/elections/voting-resources/voting-california/election-dates-and-resources"
+        }
+      ],
+      "keyDatesRetrieved": "2026-10-23",
+      "keyDatesSource": "California Secretary of State, General Election November 3, 2026 page and Election Dates and Resources page, each read twice on Oct 23, 2026."
     }
   ]
 }

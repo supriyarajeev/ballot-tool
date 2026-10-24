@@ -254,6 +254,33 @@ if (region) {
     for (const m of t.matchAll(/\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve) counties\b/g)) if (num(m[1]) !== region.countyCount) warn(`${w}: text says ${m[1]} counties but countyCount is ${region.countyCount}`);
     for (const m of t.matchAll(/\b(\d+) cities\b/g)) if (+m[1] !== region.municipalityCount) warn(`${w}: text says ${m[1]} cities but municipalityCount is ${region.municipalityCount}`);
   });
+  // "The region at a glance": dated official figures. The guide sums the county values, so each table must list exactly the nine counties.
+  const G = region.glance;
+  if (G !== undefined) {
+    const src = (o, w) => { if (!isUrl(o && o.url)) err(`${w}: url must be https`); if (!o || !o.publisher) err(`${w}: missing publisher`); if (!o || !o.title) err(`${w}: missing title`); pastDate(o && o.retrieved, w, "retrieved"); };
+    for (const k of ["population", "registration"]) {
+      const o = G[k], w = `${R} glance.${k}`;
+      if (!o) { err(`${w}: missing`); continue; }
+      src(o, w); pastDate(o.asOf, w, "asOf");
+      for (const tk of ["byCounty"].concat(k === "registration" ? ["eligibleByCounty"] : [])) {
+        const t = o[tk] || {}, keys = Object.keys(t);
+        const miss = [...regionCounties].filter((c) => !(c in t)), extra = keys.filter((c) => !regionCounties.has(c));
+        if (miss.length || extra.length) err(`${w}.${tk}: must list exactly the region's counties (missing: ${miss.join(", ") || "none"}; extra: ${extra.join(", ") || "none"})`);
+        keys.forEach((c) => { if (!(Number.isInteger(t[c]) && t[c] > 0)) err(`${w}.${tk}.${c}: must be a whole number above 0`); });
+      }
+      if (!(Number.isInteger(o.state) && o.state > 0)) err(`${w}.state: must be a whole number above 0`);
+      const sum = Object.values(o.byCounty || {}).reduce((a, b) => a + (+b || 0), 0);
+      if (o.state && sum >= o.state) err(`${w}: the nine counties add up to ${sum}, which is not below the state total ${o.state}`);
+      if (k === "registration") Object.keys(o.byCounty || {}).forEach((c) => { if (o.eligibleByCounty && o.byCounty[c] > o.eligibleByCounty[c]) err(`${w}.byCounty.${c}: more registered than eligible`); });
+    }
+    const cc = G.californiaCounties, w = `${R} glance.californiaCounties`;
+    if (!cc) err(`${w}: missing`);
+    else { src(cc, w); if (cc.count !== counties.length) err(`${w}: count is ${cc.count} but the data has ${counties.length} county records`); }
+    // California's incorporated cities (Oct 24, 2026): dated, sourced, and at least the region's own count.
+    const ci = G.californiaCities, wc = `${R} glance.californiaCities`;
+    if (!ci) err(`${wc}: missing`);
+    else { src(ci, wc); pastDate(ci.asOf, wc, "asOf"); if (!Number.isInteger(ci.count) || ci.count < region.municipalityCount) err(`${wc}: count must be a whole number at least the region's ${region.municipalityCount} cities`); if (!ci.derivation) err(`${wc}: needs derivation (how the count was read)`); }
+  }
 }
 counties.forEach((c) => {
   const tagged = c.region === "bay-area", listed = regionCounties.has(c.id);
@@ -301,7 +328,64 @@ elections.forEach((e, i) => {
   if (e.date !== e.id) err(`${w}: election id and date must match (id ${e.id}, date ${e.date})`);
   if (!["current", "past", "upcoming"].includes(e.status)) err(`${w}: status must be current, past or upcoming`);
   checkSources(e.sources || [], w, "verified");
+  // Key dates shown on the home page: official, quoted, in order, and not after the last day ballots can arrive.
+  if (e.keyDates !== undefined) {
+    if (!Array.isArray(e.keyDates) || !e.keyDates.length) err(`${w}: keyDates must be a non-empty array`);
+    else {
+      pastDate(e.keyDatesRetrieved, w, "keyDatesRetrieved");
+      let prev = "";
+      e.keyDates.forEach((k, j) => {
+        const kw = `${w} keyDates[${j}]`;
+        if (!k || !isDate(k.date)) { err(`${kw}: date must be a real YYYY-MM-DD date`); return; }
+        if (k.date < prev) err(`${kw}: dates must be in order (${k.date} comes after ${prev})`);
+        prev = k.date;
+        if (!k.label || !k.text) err(`${kw}: needs label and text`);
+        if (!isUrl(k.url) || !/^https:\/\/(www\.)?sos\.ca\.gov\//.test(k.url)) err(`${kw}: url must be an https page on sos.ca.gov`);
+        if (!k.quote || !String(k.quote).trim()) err(`${kw}: needs the quote from the official page`);
+        else {
+          // The quoted sentence must name the same day as the date field.
+          const d = new Date(k.date + "T12:00:00Z"), mon = d.toLocaleString("en-US", { month: "long", timeZone: "UTC" }), day = d.getUTCDate();
+          if (!new RegExp(`\\b${mon} ${day}\\b`).test(k.quote)) err(`${kw}: the quote does not mention ${mon} ${day}`);
+        }
+        if (k.date === e.date && !/election day/i.test(k.label)) warn(`${kw}: the election date is not labeled Election Day`);
+      });
+      if (!e.keyDates.some((k) => k && k.date === e.date)) err(`${w}: keyDates must include the election date ${e.date}`);
+    }
+  }
 });
+// Candidate evaluation rubric (data/candidate-rubric.json, Oct 24, 2026): seven factors per office, a catch-all last.
+const FACTOR_KEYS = ["nb", "ev", "lr", "ac", "if", "fc", "oc"];
+const rubric = readOnce("data/candidate-rubric.json");
+const rubricBases = new Set(((rubric && rubric.bases) || []).map((b) => b.id));
+if (rubric) {
+  const RB = "data/candidate-rubric.json";
+  if (!Array.isArray(rubric.offices) || !rubric.offices.length) err(`${RB}: needs offices`);
+  else {
+    rubric.offices.forEach((o, i) => {
+      try { new RegExp(o.match); } catch (e) { err(`${RB} office ${o.id}: match is not a valid pattern`); }
+      FACTOR_KEYS.forEach((k) => { if (!o.guide || typeof o.guide[k] !== "string" || o.guide[k].length < 20) err(`${RB} office ${o.id}: needs guidance for factor ${k}`); });
+    });
+    if (rubric.offices[rubric.offices.length - 1].match !== ".") err(`${RB}: the last office must be a catch-all (match ".")`);
+  }
+  ["record", "proposal", "statement", "independent"].forEach((b) => { if (!rubricBases.has(b)) err(`${RB}: missing evidence basis ${b}`); });
+  if (!rubric.missingPolicy) err(`${RB}: needs missingPolicy`);
+}
+// County map (data/bay-map.json): the shapes must be exactly the region's counties, with a source.
+const bayMap = readOnce("data/bay-map.json");
+if (bayMap) {
+  const M = "data/bay-map.json";
+  if (!/^0 0 \d+ \d+$/.test(bayMap.viewBox || "")) err(`${M}: viewBox must be "0 0 width height"`);
+  if (!bayMap.source || !isUrl(bayMap.source.url) || !bayMap.source.publisher) err(`${M}: source needs publisher and an https url`);
+  const ids = (bayMap.counties || []).map((c) => c.id);
+  const miss = [...regionCounties].filter((c) => !ids.includes(c)), extra = ids.filter((c) => !regionCounties.has(c));
+  if (miss.length || extra.length || ids.length !== new Set(ids).size) err(`${M}: counties must be exactly the region's counties, once each (missing: ${miss.join(", ") || "none"}; extra or repeated: ${extra.join(", ") || (ids.length !== new Set(ids).size ? "a repeat" : "none")})`);
+  (bayMap.counties || []).forEach((c) => {
+    if (typeof c.d !== "string" || !/^M[MLZz0-9.,\- ]+$/.test(c.d)) err(`${M} ${c.id}: d must be SVG path data (M, L, Z and numbers only)`);
+    const jj = J.get(c.id);
+    if (jj && c.name && jj.name.replace(/ County$| \(City and County\)$/, "") !== c.name) err(`${M} ${c.id}: name "${c.name}" does not match the jurisdiction "${jj.name}"`);
+    if (!Array.isArray(c.label) || c.label.length !== 2 || !c.label.every(Number.isFinite)) err(`${M} ${c.id}: label must be [x, y]`);
+  });
+}
 const allContests = [];
 const measuresAll = [];
 for (const e of elections) {
@@ -350,6 +434,38 @@ for (const e of elections) {
   });
   const candIds = new Set();
   candidates.forEach((p) => {
+    // Candidate photos: only with a recorded permission, a local file and its source (Stage 2, Oct 24, 2026).
+    if (p.photo !== undefined && p.photo !== null) {
+      const ph = p.photo, w = `candidate ${p.id} photo`;
+      if (typeof ph.src !== "string" || !/^assets\/candidates\/[a-z0-9-]+\.(jpg|png|webp)$/.test(ph.src)) err(`${w}: src must be a file under assets/candidates/`);
+      else if (!fs.existsSync(path.join(root, ph.src))) err(`${w}: file ${ph.src} does not exist`);
+      if (!isUrl(ph.sourceUrl) || !isUrl(ph.sourcePage)) err(`${w}: needs sourceUrl and sourcePage (https)`);
+      pastDate(ph.retrieved, w, "retrieved");
+      const pm = ph.permission || {};
+      if (!pm.grantedBy || !pm.evidence) err(`${w}: needs permission.grantedBy and permission.evidence; public availability is not permission`);
+      pastDate(pm.date, w, "permission.date");
+      if (!ph.identityCheck) err(`${w}: needs identityCheck saying how the photo was matched to this candidate (never by name alone)`);
+      if (!ph.credit || !ph.license) err(`${w}: needs credit and license for attribution`);
+      // Accepted bases: public domain, CC0, CC BY, CC BY-SA, or recorded written permission.
+      if (ph.license && !/^(Public domain|CC0|CC BY(-SA)? \d\.\d|Written permission)\b/.test(ph.license)) err(`${w}: license "${ph.license}" is not an accepted reuse basis`);
+      if (!isUrl(ph.licenseUrl)) err(`${w}: needs licenseUrl (https) so the license can be linked`);
+      if (!ph.year || !ph.modified) err(`${w}: needs year and modified (what was changed for this guide)`);
+    }
+    // Candidate evaluation ratings: each needs a 1-5 rating, a known basis, a note and an https source. A campaign
+    // statement alone cannot support Evidence strength (a promise is not evidence that a policy works).
+    if (p.evaluation !== undefined && p.evaluation !== null) {
+      const ev = p.evaluation, w = `candidate ${p.id} evaluation`;
+      if (!ev.ratings || typeof ev.ratings !== "object") err(`${w}: needs ratings`);
+      else Object.entries(ev.ratings).forEach(([k, r]) => {
+        if (!FACTOR_KEYS.includes(k)) { err(`${w}: unknown factor ${k}`); return; }
+        if (!r || !Number.isInteger(r.rating) || r.rating < 1 || r.rating > 5) err(`${w} ${k}: rating must be a whole number from 1 to 5`);
+        if (!r || !rubricBases.has(r.basis)) err(`${w} ${k}: basis must be one of ${[...rubricBases].join(", ")}`);
+        if (!r || !r.note) err(`${w} ${k}: needs a note explaining the rating`);
+        if (!r || !r.source || !isUrl(r.source.url)) err(`${w} ${k}: needs an https source`);
+        if (r && k === "ev" && r.basis === "statement") err(`${w} ev: Evidence strength cannot rest on a campaign statement alone`);
+      });
+      pastDate(ev.reviewed, w, "reviewed");
+    }
     const w = `${f.candidates} ${p.id}`;
     claimId(p.id, f.candidates); candIds.add(p.id);
     checkRecord(p, w, ["name", "contest", "status", "lastVerified"]);

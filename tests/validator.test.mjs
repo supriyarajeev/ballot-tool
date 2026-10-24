@@ -1,6 +1,7 @@
 // Self-test for tools/validate.mjs (VAL-14). It checks that each rule fires, with the right message, for the record that was broken.
 //   node tests/validator.test.mjs            run every plant
 //   node tests/validator.test.mjs --list     list the plants
+//   VALIDATOR_TEST_JOBS=N                    run N plants at once (default: number of CPUs, at most 8)
 // How it works:
 //   1. Copy data/, propositions.html and the candidate-order fixture into a temporary base folder.
 //   2. Rebuild the evidence ledger there and record the candidate order, so the base reflects the current source data.
@@ -10,10 +11,12 @@
 //   4. For each plant: copy the base, break one thing, optionally rebuild the ledger, run the validator, and require
 //      (a) exit 1 for error plants, and (b) a NEW error or warning line, not in the baseline, matching the pattern.
 //      Patterns name the broken record's id, so a different rule that happens to fire does not count.
+//   5. Plants are queued, then run in parallel, each in its own sandbox. Progress is printed as they finish, so a
+//      slow machine shows steady output instead of a long silence. Results are reported in plant order.
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { spawnSync } from "node:child_process";
+import { spawnSync, spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -34,6 +37,8 @@ const base = path.join(tmpRoot, "base");
 fs.mkdirSync(path.join(base, "tests/fixtures"), { recursive: true });
 fs.cpSync(path.join(root, "data"), path.join(base, "data"), { recursive: true });
 fs.copyFileSync(path.join(root, "propositions.html"), path.join(base, "propositions.html"));
+// Candidate photos are checked for existence, so the sandbox needs them too.
+if (fs.existsSync(path.join(root, "assets/candidates"))) fs.cpSync(path.join(root, "assets/candidates"), path.join(base, "assets/candidates"), { recursive: true });
 rebuild(base);
 spawnSync(process.execPath, [validator, "--update-candidate-order"], { env: { ...process.env, VALIDATE_ROOT: base }, encoding: "utf8" });
 const baseRun = run(base);
@@ -46,21 +51,37 @@ else {
 }
 
 function sandbox() { const d = fs.mkdtempSync(path.join(tmpRoot, "case-")); fs.cpSync(base, d, { recursive: true }); return d; }
+// Async versions of run and rebuild, so plants can run in parallel. Same commands, same timeout.
+function spawnAsync(args, env, timeout) {
+  return new Promise((resolve) => {
+    const c = spawn(process.execPath, args, { env, stdio: ["ignore", "pipe", "pipe"] });
+    let stdout = "", stderr = "", timedOut = false;
+    c.stdout.on("data", (b) => (stdout += b)); c.stderr.on("data", (b) => (stderr += b));
+    const t = setTimeout(() => { timedOut = true; c.kill("SIGKILL"); }, timeout);
+    c.on("close", (status) => { clearTimeout(t); resolve({ status: timedOut ? null : status, stdout, stderr, error: timedOut ? { code: "ETIMEDOUT" } : null }); });
+  });
+}
+const runAsync = (dir) => spawnAsync([validator], { ...process.env, VALIDATE_ROOT: dir }, 20000);
+const rebuildAsync = async (dir) => { const r = await spawnAsync([ledger, "--root", dir], process.env, 20000); if (r.status !== 0) throw new Error("ledger rebuild failed: " + (r.error ? r.error.code : r.stderr)); };
+const queue = [];
 function plant(kind, name, mutate, pattern, opts = {}) {
   if (process.argv.includes("--list")) { console.log(kind, name); return; }
+  queue.push({ kind, name, mutate, pattern, opts });
+}
+async function runPlant({ kind, name, mutate, pattern, opts }) {
   const dir = sandbox();
   try {
     mutate(dir);
-    if (opts.rebuild) rebuild(dir);
-    const r = run(dir);
+    if (opts.rebuild) await rebuildAsync(dir);
+    const r = await runAsync(dir);
     const fresh = kind === "warn" ? lines(r, "WARN").filter((l) => !baseWarn.has(l)) : lines(r, "ERROR").filter((l) => !baseErr.has(l));
     let ok, why = "";
     if (kind === "error") { ok = r.status === 1 && fresh.some((l) => pattern.test(l)); why = r.error ? `validator did not finish (${r.error.code})` : `exit ${r.status}`; }
-    else if (kind === "warn") { ok = fresh.some((l) => pattern.test(l)); why = `exit ${r.status}`; }
-    else { ok = !lines(r, "ERROR").concat(lines(r, "WARN")).some((l) => pattern.test(l)); why = "rule fired on valid data"; } // "none": the rule must NOT fire
-    if (ok) { pass++; results.push(`PASS ${name}`); }
-    else { fail++; console.log(`FAIL ${name}: ${why}\n  expected ${kind} ${pattern}\n  new lines: ${(kind === "none" ? lines(r, "ERROR").concat(lines(r, "WARN")).filter((l) => pattern.test(l)) : fresh).slice(0, 3).join("\n  ") || "(none)"}`); }
-  } catch (e) { fail++; console.log(`FAIL ${name}: plant could not be applied (${e.message})`); }
+    else if (kind === "warn") { ok = fresh.some((l) => pattern.test(l)); why = r.error ? `validator did not finish (${r.error.code})` : `exit ${r.status}`; }
+    else { ok = !r.error && !lines(r, "ERROR").concat(lines(r, "WARN")).some((l) => pattern.test(l)); why = r.error ? `validator did not finish (${r.error.code})` : "rule fired on valid data"; } // "none": the rule must NOT fire
+    if (ok) return { ok, text: `PASS ${name}` };
+    return { ok, text: `FAIL ${name}: ${why}\n  expected ${kind} ${pattern}\n  new lines: ${(kind === "none" ? lines(r, "ERROR").concat(lines(r, "WARN")).filter((l) => pattern.test(l)) : fresh).slice(0, 3).join("\n  ") || "(none)"}` };
+  } catch (e) { return { ok: false, text: `FAIL ${name}: plant could not be applied (${e.message})` }; }
   finally { fs.rmSync(dir, { recursive: true, force: true }); }
 }
 const E = (n, m, p, o) => plant("error", n, m, p, o), W = (n, m, p, o) => plant("warn", n, m, p, o), N = (n, m, p, o) => plant("none", n, m, p, o);
@@ -107,6 +128,41 @@ E("region fact without publisher", edit(RG, (d) => delete d.facts[0].publisher),
 E("region fact retrieved in the future", edit(RG, (d) => (d.facts[0].retrieved = "2099-01-01")), /data\/region\.json facts\[0\]: retrieved 2099-01-01 is after today/);
 W("region fact text contradicts municipalityCount", edit(RG, (d) => (d.facts[0].text = "The Bay Area is home to 102 cities and nine counties.")), /data\/region\.json facts\[0\]: text says 102 cities but municipalityCount is \d+/);
 W("region fact text contradicts countyCount", edit(RG, (d) => (d.facts[0].text = "The Bay Area is home to 101 cities and ten counties.")), /data\/region\.json facts\[0\]: text says ten counties but countyCount is 9/);
+E("glance population missing a county", edit(RG, (d) => delete d.glance.population.byCounty["ca-napa"]), /data\/region\.json glance\.population\.byCounty: must list exactly the region's counties \(missing: ca-napa/);
+E("glance registration lists a non-region county", edit(RG, (d) => (d.glance.registration.byCounty["ca-fresno"] = 1)), /data\/region\.json glance\.registration\.byCounty: must list exactly the region's counties \(missing: none; extra: ca-fresno\)/);
+E("glance county value not a whole number", edit(RG, (d) => (d.glance.population.byCounty["ca-napa"] = "136,374")), /data\/region\.json glance\.population\.byCounty\.ca-napa: must be a whole number above 0/);
+E("glance more registered than eligible", edit(RG, (d) => (d.glance.registration.byCounty["ca-marin"] = 999999)), /data\/region\.json glance\.registration\.byCounty\.ca-marin: more registered than eligible/);
+E("glance Bay Area sum not below state", edit(RG, (d) => (d.glance.population.state = 1000)), /data\/region\.json glance\.population: the nine counties add up to \d+, which is not below the state total 1000/);
+E("glance California county count wrong", edit(RG, (d) => (d.glance.californiaCounties.count = 57)), /data\/region\.json glance\.californiaCounties: count is 57 but the data has 58 county records/);
+E("glance figure with an http source", edit(RG, (d) => (d.glance.registration.url = "http://elections.cdn.sos.ca.gov/ror/60day-gen-2026/county.pdf")), /data\/region\.json glance\.registration: url must be https/);
+E("glance as-of date in the future", edit(RG, (d) => (d.glance.registration.asOf = "2099-01-01")), /data\/region\.json glance\.registration: asOf 2099-01-01 is after today/);
+const CAND0 = (d) => d.candidates.find((c) => c.id.startsWith("2026-11-03.ca.governor"));
+E("candidate photo without permission", edit(CA, (d) => (CAND0(d).photo = { src: "assets/candidates/x.jpg", sourceUrl: "https://voterguide.sos.ca.gov/img/x.jpg", sourcePage: "https://voterguide.sos.ca.gov/candidates/", retrieved: "2026-10-24", identityCheck: "official page" })), /photo: needs permission\.grantedBy and permission\.evidence/);
+E("candidate photo hotlinked from another site", edit(CA, (d) => (CAND0(d).photo = { src: "https://voterguide.sos.ca.gov/img/x.jpg", permission: { grantedBy: "x", evidence: "x", date: "2026-10-24" }, identityCheck: "x" })), /photo: src must be a file under assets\/candidates\//);
+E("candidate photo file missing", edit(CA, (d) => (CAND0(d).photo = { src: "assets/candidates/nobody.jpg", sourceUrl: "https://a.gov/x.jpg", sourcePage: "https://a.gov/", retrieved: "2026-10-24", identityCheck: "x", permission: { grantedBy: "x", evidence: "x", date: "2026-10-24" } })), /photo: file assets\/candidates\/nobody\.jpg does not exist/);
+E("candidate photo without identity check", edit(CA, (d) => (CAND0(d).photo = { src: "assets/candidates/x.jpg", sourceUrl: "https://a.gov/x.jpg", sourcePage: "https://a.gov/", retrieved: "2026-10-24", permission: { grantedBy: "x", evidence: "x", date: "2026-10-24" } })), /photo: needs identityCheck/);
+const RAJU = (d) => d.candidates.find((c) => c.id === "2026-11-03.ca-sf.public-defender.manohar-raju");
+E("candidate photo with a non-reusable license", edit(CA, (d) => (RAJU(d).photo.license = "All rights reserved")), /photo: license "All rights reserved" is not an accepted reuse basis/);
+E("candidate photo without a license link", edit(CA, (d) => delete RAJU(d).photo.licenseUrl), /photo: needs licenseUrl/);
+const BM = "data/bay-map.json";
+// Candidate evaluation mode (Oct 24, 2026).
+const RU = "data/candidate-rubric.json";
+const goodRating = { rating: 3, basis: "record", note: "x", source: { title: "x", url: "https://a.gov/x" } };
+E("candidate rating on a campaign statement alone for Evidence strength", edit(CA, (d) => (CAND0(d).evaluation = { reviewed: "2026-10-24", ratings: { ev: Object.assign({}, goodRating, { basis: "statement" }) } })), /evaluation ev: Evidence strength cannot rest on a campaign statement alone/);
+E("candidate rating without a source", edit(CA, (d) => (CAND0(d).evaluation = { reviewed: "2026-10-24", ratings: { nb: Object.assign({}, goodRating, { source: {} }) } })), /evaluation nb: needs an https source/);
+E("candidate rating outside 1 to 5", edit(CA, (d) => (CAND0(d).evaluation = { reviewed: "2026-10-24", ratings: { nb: Object.assign({}, goodRating, { rating: 0 }) } })), /evaluation nb: rating must be a whole number from 1 to 5/);
+E("candidate rubric office missing a factor", edit(RU, (d) => delete d.offices[0].guide.oc), /office governor: needs guidance for factor oc/);
+E("candidate rubric without a catch-all", edit(RU, (d) => d.offices.pop()), /the last office must be a catch-all/);
+E("key date with a quote for another day", edit(EL, (d) => (d.elections[0].keyDates[1].quote = "Online or Postmark by October 18, 2026.")), /keyDates\[1\]: the quote does not mention October 19/);
+E("key dates out of order", edit(EL, (d) => d.elections[0].keyDates.reverse()), /keyDates\[\d\]: dates must be in order/);
+E("key date from a non-official site", edit(EL, (d) => (d.elections[0].keyDates[0].url = "https://example.org/dates")), /keyDates\[0\]: url must be an https page on sos\.ca\.gov/);
+E("key dates without Election Day", edit(EL, (d) => (d.elections[0].keyDates = d.elections[0].keyDates.filter((k) => k.date !== "2026-11-03"))), /keyDates must include the election date 2026-11-03/);
+E("key date that is not a real date", edit(EL, (d) => (d.elections[0].keyDates[2].date = "2026-10-32")), /keyDates\[2\]: date must be a real YYYY-MM-DD date/);
+E("map missing a county", edit(BM, (d) => (d.counties = d.counties.filter((c) => c.id !== "ca-napa"))), /data\/bay-map\.json: counties must be exactly the region's counties, once each \(missing: ca-napa/);
+E("map shows a non-region county", edit(BM, (d) => (d.counties[0].id = "ca-fresno")), /data\/bay-map\.json: counties must be exactly the region's counties/);
+E("map path with script-like content", edit(BM, (d) => (d.counties[0].d = "M0 0\"/><script>x</script>")), /data\/bay-map\.json ca-alameda: d must be SVG path data/);
+E("map county name differs from the jurisdiction", edit(BM, (d) => (d.counties[0].name = "Almeda")), /data\/bay-map\.json ca-alameda: name "Almeda" does not match the jurisdiction "Alameda County"/);
+E("map without a source", edit(BM, (d) => delete d.source), /data\/bay-map\.json: source needs publisher and an https url/);
 E("cityInventory complete with the wrong count", edit(JU, (d) => (j(d, "ca-marin").cityInventory = { status: "complete", count: 12, source: "https://census.bayareametro.gov/cities-counties", checked: "2026-10-23" })), /county ca-marin: cityInventory is "complete" with count 12, but the data has 11 cities/);
 E("cityInventory complete without a source", edit(JU, (d) => (j(d, "ca-marin").cityInventory = { status: "complete", count: 11, checked: "2026-10-23" })), /county ca-marin: cityInventory "complete" needs an https source/);
 E("cityInventory complete without a checked date", edit(JU, (d) => (j(d, "ca-marin").cityInventory = { status: "complete", count: 11, source: "https://census.bayareametro.gov/cities-counties" })), /county ca-marin: cityInventory\.checked must be a real YYYY-MM-DD date/);
@@ -281,6 +337,23 @@ E("statewide title differs from the tool", txt("propositions.html", (s) => s.rep
 
 function rdBase(p) { return rd(base, p); }
 
+if (!process.argv.includes("--list")) {
+  const jobs = Math.max(1, Number(process.env.VALIDATOR_TEST_JOBS) || Math.min(8, (os.availableParallelism ? os.availableParallelism() : os.cpus().length) || 1));
+  const out = new Array(queue.length);
+  let next = 0, done = 0;
+  const t0 = Date.now();
+  console.log(`validator tests: running ${queue.length} plants, ${jobs} at a time`);
+  await Promise.all(Array.from({ length: jobs }, async () => {
+    while (next < queue.length) {
+      const i = next++;
+      out[i] = await runPlant(queue[i]);
+      done++;
+      if (!out[i].ok) console.log(out[i].text);
+      if (done % 25 === 0 || done === queue.length) console.log(`  ${done}/${queue.length} plants done (${((Date.now() - t0) / 1000).toFixed(1)} s)`);
+    }
+  }));
+  out.forEach((r) => { if (r.ok) { pass++; results.push(r.text); } else fail++; });
+}
 fs.rmSync(tmpRoot, { recursive: true, force: true });
 if (process.argv.includes("--verbose")) results.forEach((r) => console.log(r));
 console.log(`validator tests: ${pass} passed, ${fail} failed`);

@@ -1,0 +1,2803 @@
+{
+ "county": "ca-contra-costa",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+   "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf",
+   "note": "Every contest on the ballot with each candidate's ballot designation; read in a browser with pdf.js because the county server blocks automated fetching"
+  },
+  {
+   "label": "Contra Costa County Elections, Candidate List, November 3, 2026 General Election (printed 8/14/2026)",
+   "url": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf",
+   "note": "Every contest with qualified candidates, on or off the ballot, with vote-for numbers"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Contra Costa County (county offices)",
+  "Antioch",
+  "Brentwood",
+  "Clayton",
+  "Concord",
+  "Danville",
+  "El Cerrito",
+  "Hercules",
+  "Lafayette",
+  "Martinez",
+  "Moraga",
+  "Oakley",
+  "Orinda",
+  "Pinole",
+  "Pittsburg",
+  "Pleasant Hill",
+  "Richmond",
+  "San Pablo",
+  "San Ramon",
+  "Walnut Creek",
+  "Contra Costa County Board of Education",
+  "Contra Costa Community College District",
+  "Acalanes UHSD",
+  "Antioch USD",
+  "Brentwood Union SD",
+  "Byron Union SD",
+  "Canyon Elementary SD",
+  "John Swett USD",
+  "Knightsen Elementary SD",
+  "Lafayette SD",
+  "Liberty UHSD",
+  "Livermore Valley JUSD (Area 3)",
+  "Martinez USD",
+  "Moraga SD",
+  "Mt. Diablo USD",
+  "Oakley Union Elementary SD",
+  "Orinda Union SD",
+  "Pittsburg USD",
+  "San Ramon Valley USD",
+  "Walnut Creek SD",
+  "West Contra Costa USD",
+  "AC Transit (Ward 1)",
+  "Ambrose Recreation & Park",
+  "Bethel Island MID",
+  "Byron-Bethany Irrigation",
+  "Byron Sanitary",
+  "Castle Rock County Water",
+  "Central Contra Costa Sanitary",
+  "Contra Costa Water",
+  "Crockett CSD",
+  "Diablo CSD",
+  "Diablo Water",
+  "Town of Discovery Bay CSD",
+  "Dublin San Ramon Services",
+  "EBMUD",
+  "East Bay Regional Park",
+  "East Contra Costa Irrigation",
+  "Green Valley Recreation & Park",
+  "Ironhouse Sanitary",
+  "Kensington CSD",
+  "Moraga-Orinda Fire",
+  "Mt. View Sanitary",
+  "Pleasant Hill Recreation & Park",
+  "Rodeo Sanitary",
+  "BART District 2",
+  "San Ramon Valley Fire",
+  "Stege Sanitary",
+  "West County Wastewater"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-contra-costa-county-board-of-education",
+    "existing": false,
+    "name": "Contra Costa County Board of Education",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Pamela West",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Butler",
+     "designation": "Governing Board Member, Contra Costa County Board of Education, Area 2",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sibyl Minighini",
+     "designation": "School Psychologist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-contra-costa-community-college-district",
+    "existing": false,
+    "name": "Contra Costa Community College District",
+    "type": "community-college-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Ward 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Raquel Donoso",
+     "designation": "Education Program Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cameron Sasai",
+     "designation": "Councilmember/Policy Coordinator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-contra-costa-community-college-district",
+    "existing": false,
+    "name": "Contra Costa Community College District",
+    "type": "community-college-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Becca Barrett",
+     "designation": "Contra Costa Community College District, Governing Board Member, Ward 3",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Allyse Tanovitz",
+     "designation": "Principal/Teacher/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-antioch-unified-school-district",
+    "existing": false,
+    "name": "Antioch Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Brandon Dawkins",
+     "designation": "Health Worker/Organizer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mary H Rocha",
+     "designation": "Antioch Unified School District Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-john-swett-unified-school-district",
+    "existing": false,
+    "name": "John Swett Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Bruce Hoeger",
+     "designation": "Equity Investor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Samantha Watson-Alvarado",
+     "designation": "Parent/Family Therapist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Terri Burk",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Shane Reinhart",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-mt-diablo-unified-school-district",
+    "existing": false,
+    "name": "Mt. Diablo Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dorothy Weisenberger",
+     "designation": "Family Support Specialist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jane Baulch-Enloe",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-mt-diablo-unified-school-district",
+    "existing": false,
+    "name": "Mt. Diablo Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Al Anderson",
+     "designation": "Proposal Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Thomas Lawrence",
+     "designation": "Coach/Appointed Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-san-ramon-valley-unified-school-district",
+    "existing": false,
+    "name": "San Ramon Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rachel Hurd",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Joel Woods",
+     "designation": "Educator/Teacher/Referee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-alameda-sd-livermore-valley-joint-unified-school-district",
+    "existing": false,
+    "name": "Livermore Valley Joint Unified School District",
+    "type": "school-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Angela M. Brady",
+     "designation": "Parent/Data Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Deborah Gibson",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-acalanes-union-high-school-district",
+    "existing": true,
+    "name": "Acalanes Union High School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Stacey Schweppe",
+     "designation": "Appointed Board Member, Acalanes Union High School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Nithin Iyengar",
+     "designation": "Education Nonprofit Executive",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-liberty-union-high-school-district",
+    "existing": true,
+    "name": "Liberty Union High School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tamara Weber",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Hillary Fairbairn Pedrotti",
+     "designation": "Retired English Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-brentwood-union-school-district",
+    "existing": false,
+    "name": "Brentwood Union School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Oxsana Pajoluk",
+     "designation": "Mother/Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Anderson",
+     "designation": "Principal IT Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Scott S. Dudek",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Emil Johnson Geddes",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Steve Gursky",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-knightsen-elementary-school-district",
+    "existing": false,
+    "name": "Knightsen Elementary School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Erik M. Hansen",
+     "designation": "Electrical Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Liesel Williams",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Robin Pastor",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-oakley-union-elementary-school-district",
+    "existing": false,
+    "name": "Oakley Union Elementary School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Craig Pearson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Isaiah B.N. Mateas",
+     "designation": "Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-orinda-union-school-district",
+    "existing": false,
+    "name": "Orinda Union School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John Chabalko",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Edda Collins Coleman",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Chloe Aftel",
+     "designation": "Photographer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Katie Shogan",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-sd-walnut-creek-school-district",
+    "existing": false,
+    "name": "Walnut Creek School District",
+    "type": "school-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Eryn Holl King",
+     "designation": "Mother/School Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wenlei Johnson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Aileen Ong",
+     "designation": "Communications Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Geetha Ganti",
+     "designation": "Healthcare Director/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Heidi Hernandez Gatty",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Rod Ehsani",
+     "designation": "Real Estate Investor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-antioch-council-district-1",
+    "existing": false,
+    "name": "Antioch Council District 1",
+    "type": "council-district",
+    "parent": "ca-contra-costa-antioch",
+    "areas": [
+     "ca-contra-costa-antioch"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joy Motts",
+     "designation": "Executive Director Nonprofit",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tamisha Torres-Walker",
+     "designation": "Councilwoman/Nonprofit Executive",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-antioch-council-district-4",
+    "existing": false,
+    "name": "Antioch Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-antioch",
+    "areas": [
+     "ca-contra-costa-antioch"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sandra G White",
+     "designation": "Human Resources Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Monica E Wilson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Matty Mathews Alappat",
+     "designation": "Information Technology Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Andrew Becker",
+     "designation": "Housing Development Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-brentwood-council-district-2",
+    "existing": false,
+    "name": "Brentwood Council District 2",
+    "type": "council-district",
+    "parent": "ca-contra-costa-brentwood",
+    "areas": [
+     "ca-contra-costa-brentwood"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tammy Zickuhr",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kris Brand",
+     "designation": "Technical Program Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vinoy Mereddy",
+     "designation": "Senior Software Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-brentwood-council-district-4",
+    "existing": false,
+    "name": "Brentwood Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-brentwood",
+    "areas": [
+     "ca-contra-costa-brentwood"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Stephanie Williams-Rogers",
+     "designation": "Healthcare Professional",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sheree Shannon",
+     "designation": "Business Manager/Realtor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Holley Bishop-Mello",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-clayton",
+    "existing": true,
+    "name": "Clayton",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-clayton"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Maria Shulman",
+     "designation": "Registered Nurse",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Amy Callaghan",
+     "designation": "Real Estate Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Charles J. Schmidt",
+     "designation": "Chemist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kim Trupiano",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord-council-district-1",
+    "existing": false,
+    "name": "Concord Council District 1",
+    "type": "council-district",
+    "parent": "ca-contra-costa-concord",
+    "areas": [
+     "ca-contra-costa-concord"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Laura Hoffmeister",
+     "designation": "Concord Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Maria Bagley",
+     "designation": "Government Finance Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Trish Brazil",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord-council-district-3",
+    "existing": false,
+    "name": "Concord Council District 3",
+    "type": "council-district",
+    "parent": "ca-contra-costa-concord",
+    "areas": [
+     "ca-contra-costa-concord"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robyn Kuslits",
+     "designation": "Substitute Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dena Acosta Beere",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Douglas Lezameta",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Don Seta",
+     "designation": "Retired Lt. Colonel",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord-council-district-5",
+    "existing": false,
+    "name": "Concord Council District 5",
+    "type": "council-district",
+    "parent": "ca-contra-costa-concord",
+    "areas": [
+     "ca-contra-costa-concord"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Aeysha Corio",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laura Nakamura",
+     "designation": "City Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-concord",
+    "existing": true,
+    "name": "Concord",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Patti Barsotti",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-danville",
+    "existing": true,
+    "name": "Town of Danville",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-danville"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Denton Carlson",
+     "designation": "Retired Police Chief",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Pratima Sonavne",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Storer",
+     "designation": "Danville Town Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-el-cerrito",
+    "existing": true,
+    "name": "El Cerrito",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kimberly White",
+     "designation": "Executive Advisor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Carolyn Wysinger",
+     "designation": "City Councilmember/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Ann \"MJ\" Jawili",
+     "designation": "Accessibility Product Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Forrest M. Lanning",
+     "designation": "Earthquake Resilience Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wally Nowinski",
+     "designation": "Clean Energy Marketer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gabe Quinto",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-hercules",
+    "existing": true,
+    "name": "Hercules",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John Delgado",
+     "designation": "Assistant District Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Preet Sidhu",
+     "designation": "Educator/Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dion Bailey",
+     "designation": "Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Adrena Breckenridge",
+     "designation": "Civil Service Employee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-moraga",
+    "existing": true,
+    "name": "Town of Moraga",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-moraga"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kerry Hillis",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Steven Woehleke",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Bill Carman",
+     "designation": "Feeder Driver",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alexis I. Mapel",
+     "designation": "Businesswoman",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-martinez-council-district-1",
+    "existing": false,
+    "name": "Martinez Council District 1",
+    "type": "council-district",
+    "parent": "ca-contra-costa-martinez",
+    "areas": [
+     "ca-contra-costa-martinez"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jay Howard",
+     "designation": "City Councilmember District 1",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Nakenya Allen",
+     "designation": "IHSS Care Provider",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-orinda",
+    "existing": true,
+    "name": "Orinda",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-orinda"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Brandyn Iverson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Janet Riley",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Juana Rudati",
+     "designation": "Physicist/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Latika Malkani",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pinole",
+    "existing": true,
+    "name": "Pinole",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-pinole"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Matthew \"Matt\" Avery",
+     "designation": "Retired Police Commander",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Truc \"Christy\" Lam-Julian",
+     "designation": "Mother/Nonprofit CEO",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Libby Duarte",
+     "designation": "Corporate Services Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gabriel Sandoval",
+     "designation": "Legislative Staff",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tina Brown",
+     "designation": "Human Service Professional",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pittsburg",
+    "existing": true,
+    "name": "Pittsburg",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Arlene Kobata (Siu Ling)",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "C.C. Cardinalli-Macaluso",
+     "designation": "Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Wolf Croskey",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Amhari Perkins",
+     "designation": "Homemaker",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Pauline Johnson",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dionne Adams",
+     "designation": "Diversity Executive/Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Linde",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alvin Nelson",
+     "designation": "Business Leader",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sonja Shephard",
+     "designation": "Environmental Activist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Carolynne Born",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Iztaccuauhtli Hector Gonzalez",
+     "designation": "Businessman/Realtor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pittsburg",
+    "existing": true,
+    "name": "Pittsburg",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-pittsburg"
+    ]
+   },
+   "office": "City Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Latoyya P. Ella Bordelon",
+     "designation": "Realtor/Notary Public",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Angel Rodriguez",
+     "designation": "Assistant District Secretary",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Melaine Apple Venenciano",
+     "designation": "Clerk Services Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alice E. Evenson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pittsburg",
+    "existing": true,
+    "name": "Pittsburg",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Nancy Parent",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pleasant-hill-council-district-3",
+    "existing": false,
+    "name": "Pleasant Hill Council District 3",
+    "type": "council-district",
+    "parent": "ca-contra-costa-pleasant-hill",
+    "areas": [
+     "ca-contra-costa-pleasant-hill"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Zac Shess",
+     "designation": "Councilmember, City of Pleasant Hill",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jason Seto",
+     "designation": "University Student",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-pleasant-hill-council-district-4",
+    "existing": false,
+    "name": "Pleasant Hill Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-pleasant-hill",
+    "areas": [
+     "ca-contra-costa-pleasant-hill"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sue Noack",
+     "designation": "Pleasant Hill City Councilmember",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Quy Tran",
+     "designation": "Physician/Clinical Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-richmond",
+    "existing": true,
+    "name": "Richmond",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-richmond"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Claudia Jiménez",
+     "designation": "Councilmember, City of Richmond",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ahmad Anderson",
+     "designation": "Human Resources Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-pablo",
+    "existing": true,
+    "name": "San Pablo",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rita Xavier",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Caden Cotton-Blake",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth Pabon Alvarado",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Anna Villalobos",
+     "designation": "Union Secretary",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-pablo",
+    "existing": true,
+    "name": "San Pablo",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dorothy Gantt",
+     "designation": "City Clerk",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-pablo",
+    "existing": true,
+    "name": "San Pablo",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Viviana Toledo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-ramon",
+    "existing": true,
+    "name": "San Ramon",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": [
+     "ca-contra-costa-san-ramon"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Emma Chigbu",
+     "designation": "Student",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark H. Armstrong",
+     "designation": "Mayor/Retired Colonel",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Paschalis Ntatsos",
+     "designation": "Nonprofit Director/CEO",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-ramon-council-district-2",
+    "existing": false,
+    "name": "San Ramon Council District 2",
+    "type": "council-district",
+    "parent": "ca-contra-costa-san-ramon",
+    "areas": [
+     "ca-contra-costa-san-ramon"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Chirag Kathrani",
+     "designation": "Founder/Entrepreneur",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Richard J. Adler",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-san-ramon-council-district-4",
+    "existing": false,
+    "name": "San Ramon Council District 4",
+    "type": "council-district",
+    "parent": "ca-contra-costa-san-ramon",
+    "areas": [
+     "ca-contra-costa-san-ramon"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jeffrey Joh",
+     "designation": "Technology Strategist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Marisol Rubio",
+     "designation": "Councilwoman/In-Home Provider",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-walnut-creek",
+    "existing": true,
+    "name": "Walnut Creek",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cherise Marie Khaund",
+     "designation": "Community Organizer/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brendan Moran",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-walnut-creek",
+    "existing": true,
+    "name": "Walnut Creek",
+    "type": "city",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "City Treasurer",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ronald Cassano",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-diablo-community-services-district",
+    "existing": false,
+    "name": "Diablo Community Services District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gregory R Lorenz",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Steve Lichliter",
+     "designation": "Retired Civil Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alan Bonny",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jessica Raefield",
+     "designation": "Chief HR Officer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-dublin-san-ramon-services-district",
+    "existing": false,
+    "name": "Dublin San Ramon Services District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kismat Kathrani",
+     "designation": "Technology Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Donald Downey",
+     "designation": "Registered Geologist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-moraga-orinda-fire-protection-district",
+    "existing": false,
+    "name": "Moraga-Orinda Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Steve Cohn",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Donnelly",
+     "designation": "Medical Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-moraga-orinda-fire-protection-district",
+    "existing": false,
+    "name": "Moraga-Orinda Fire Protection District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Linda Stevens",
+     "designation": "Geospatial Technology Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mike Roemer",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-ebmud-ward-3",
+    "existing": true,
+    "name": "EBMUD Ward 3",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "EBMUD Board of Directors",
+   "district": "Ward 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Marguerite Young",
+     "designation": "EBMUD Director Ward 3",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Don Gray",
+     "designation": "Retired Wastewater Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-ebmud-ward-7",
+    "existing": true,
+    "name": "EBMUD Ward 7",
+    "type": "special-district",
+    "parent": "ca-alameda",
+    "areas": []
+   },
+   "office": "EBMUD Board of Directors",
+   "district": "Ward 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gary Wolff",
+     "designation": "Licensed Civil Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "April Chan",
+     "designation": "Director, East Bay Municipal Utility District, Ward 7",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Luis Reynoso",
+     "designation": "University Business Professor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph Grcar",
+     "designation": "Retired Laboratory Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-east-bay-regional-park-district",
+    "existing": false,
+    "name": "East Bay Regional Park District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Ward 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Colin J. Coffey",
+     "designation": "Board Member, East Bay Regional Park District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Inderprit \"Indy Rishi Singh\" Sekhon",
+     "designation": "Organic Farmer/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-pleasant-hill-recreation-and-park-district",
+    "existing": false,
+    "name": "Pleasant Hill Recreation & Park District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Derek M Wurst",
+     "designation": "Director, Pleasant Hill Recreation & Park District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Raul Ortega",
+     "designation": "Cyber Security Officer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alex Nichol",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sandra Bonato",
+     "designation": "Pleasant Hill Recreation and Park District, Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robert \"Bobby\" Glover",
+     "designation": "Director, Pleasant Hill Recreation and Park District",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-central-contra-costa-sanitary-district",
+    "existing": false,
+    "name": "Central Contra Costa Sanitary District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Brian Henderson",
+     "designation": "Retired Wastewater Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Robert McGill",
+     "designation": "Director, Central Contra Costa Sanitary District, Div 2",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-ironhouse-sanitary-district",
+    "existing": false,
+    "name": "Ironhouse Sanitary District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kerry Harvey",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chris A. Christean",
+     "designation": "Wastewater Manager CPO",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dave Corridon",
+     "designation": "Operations Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Lauritzen",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Paschal Iwuh",
+     "designation": "Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-mt-view-sanitary-district",
+    "existing": false,
+    "name": "Mt. View Sanitary District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gwyneth Gilkey",
+     "designation": "Data Scientist, Cybersecurity",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ed McGee",
+     "designation": "Landscaper",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-contra-costa-spd-contra-costa-water-district",
+    "existing": false,
+    "name": "Contra Costa Water District",
+    "type": "special-district",
+    "parent": "ca-contra-costa",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Division 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Allison Picard",
+     "designation": "Retired County Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Daniel T. Fitzpatrick",
+     "designation": "Appointed Director, Contra Costa Water District Division 2",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Contra Costa County Elections, Contest/Candidate Proof List, Contests On Ballot, November 3, 2026 General Election (printed 8/27/2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/8-27-26_candidatelist_detail_final.pdf"
+   },
+   "readingsMatched": true,
+   "note": "On the county's Contests On Ballot list (Aug 27, 2026). Names are printed in capitals on the official list; the capitalization here is ours. The Aug 14 summary list names the same candidates and the vote-for number."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "CCCBdEdSchBd4",
+   "office": "vote for 1; qualified: Mike Maxwell",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CCCBdEdSchBd5",
+   "office": "vote for 1; qualified: Clyde Henry Lewis, Jr",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CCCollege4",
+   "office": "vote for 1; qualified: Andy Li",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "AntiochUSD Area2",
+   "office": "vote for 1; qualified: Roxanne Reece",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MartinezUSD, Area 3",
+   "office": "vote for 1; qualified: Brenda Leal",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MartinezUSD, Area 5",
+   "office": "vote for 1; qualified: Tania E. Brugger",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MtDiabloUSD Area1",
+   "office": "vote for 1; qualified: Debra Mason",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "PittsburgSchBd",
+   "office": "vote for 3; qualified: Heliodoro \"Helio\" Moreno, Destiny Briscoe, Susan Y Sowels",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "SanRamonVlyUSD, Area 1",
+   "office": "vote for 1; qualified: Amanda Butland",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "SanRamonVlyUSD, Area 4",
+   "office": "vote for 1; qualified: Susanna Wong Ordway",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "WestCCUSD Area4",
+   "office": "vote for 1; qualified: Demetrio Gonzalez Hoy",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "WestCCUSD Area5",
+   "office": "vote for 1; qualified: Caitlin Garibaldi",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "AcalanesUHSD3",
+   "office": "vote for 1; qualified: Jennifer Chen",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "AcalanesUHSD5",
+   "office": "vote for 1; qualified: Nancy Kendzierski",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "LibertyUnionHSD Area3",
+   "office": "vote for 1; qualified: Susan Wallace",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "LibertyUnionHSD Area5",
+   "office": "vote for 1; qualified: Joseph J Magana",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "ByronUnionSchBd",
+   "office": "vote for 3; qualified: Kimberly Carpenter, Kari Cross, Elyssa Cross",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "LafayetteSchBd",
+   "office": "vote for 3; qualified: Katy Foreman, Rob Sturm, Annette McCormick",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MoragaSchBd",
+   "office": "vote for 3; qualified: Larry Jacobs, Martha A. White",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "OakleyUnionElemSch Area3",
+   "office": "vote for 1; qualified: Ann Corridon",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "OakleyUnionElemSch Area5",
+   "office": "vote for 1; qualified: Paul Didonato",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "AntiochCityClerk",
+   "office": "vote for 1; qualified: Michael J. Mandy",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "LafayetteCouncil",
+   "office": "vote for 2; qualified: Jim Cervantes, Stella Wotherspoon",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "LafayetteCouncil-Short",
+   "office": "vote for 1; qualified: Mario Diprisco",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MartinezMayor",
+   "office": "vote for 1; qualified: Brianne E. Zorn",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MartinezCouncil Dist4",
+   "office": "vote for 1; qualified: Debbie McKillop",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "OakleyCouncil Dist2",
+   "office": "vote for 1; qualified: Hugh Henderson",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "OakleyCouncil Dist4",
+   "office": "vote for 1; qualified: Shannon Shaw",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CrockettCmtySvcs",
+   "office": "vote for 3; qualified: Nick Spinner",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "TownOfDBayCmtySvcs",
+   "office": "vote for 3; qualified: Bill Mayer, Kevin Graves, Ashley Porter",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "KensCSD",
+   "office": "vote for 3; qualified: Rodney K. Paul, Daniel S Levine, Adam Bastein",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "KensCSD-Short",
+   "office": "vote for 1; qualified: Alexandra Aquino-Fike",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MoragaOrindaFire1",
+   "office": "vote for 1; qualified: Greg Hasler",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "SanRamonVlyFireProt",
+   "office": "vote for 2; qualified: Bill Clarkson, Ryan T Crean",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "BethelIslandMID",
+   "office": "vote for 2; qualified: Bruce Smith, Vignesh Rama",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "EastBayMUD2",
+   "office": "vote for 1; qualified: Luz María Gómez",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "EastBayMUD4",
+   "office": "vote for 1; qualified: Andy Katz",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "AmbroseRecPark",
+   "office": "vote for 3; qualified: Trina Hudson, Mae Torlakson, Lupe Lopez Garcia",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "AmbroRecPark-Short",
+   "office": "vote for 1; qualified: A.J. Fardella",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "EastBayRegPark6",
+   "office": "vote for 1; qualified: John Mercurio",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "GreenVlyRecPark",
+   "office": "vote for 3; qualified: Todd Fitzsimmons, Paul Burgin, Katy Chanana",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "ByronSanitary",
+   "office": "vote for 2; qualified: Danny A Hamby",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CentralCCSanitary Div3",
+   "office": "vote for 1; qualified: Florence Wedington",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MtViewSanDist1",
+   "office": "vote for 1; qualified: Jared Ruddell",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "MtViewSanDist5-Short",
+   "office": "vote for 1; qualified: Caitlin B. Wiley-Walker",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "StegeSanitary",
+   "office": "vote for 3; qualified: Dwight Merrill, Ted Lam, Alex Borys",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "WestCountyWastewater Div1",
+   "office": "vote for 1; qualified: Arto Rinteela",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "WestCountyWastewater Div3",
+   "office": "vote for 1; qualified: David Alvarado",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "WestCountyWastewater Div5",
+   "office": "vote for 1; qualified: Cheryl Sudduth",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "ACTrans1-Short",
+   "office": "vote for 1; qualified: Harpreet S. Sandhu",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "BART2",
+   "office": "vote for 1; qualified: Mark Foley",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "ByronBethanyIrr1",
+   "office": "vote for 1; qualified: Milan \"Pete\" Petrovich",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "ByronBethanyIrr3",
+   "office": "vote for 1; qualified: Tim Maggiore",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CastleRockCountyWater",
+   "office": "vote for 2; qualified: Joseph Atturio, Jonathan Schimmel",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CRCWater-Short",
+   "office": "vote for 1; qualified: Gary Bettencourt",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "CCWater1",
+   "office": "vote for 1; qualified: Patt Young",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "DiabloWater Ward 2",
+   "office": "vote for 1; qualified: Conan Moats",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "DiabloWater Ward 3",
+   "office": "vote for 1; qualified: Paul Seger",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "DiabloWater Ward 4",
+   "office": "vote for 1; qualified: Jason Shaw",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "EastCCIrr1",
+   "office": "vote for 1; qualified: Michael G. Casey",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  },
+  {
+   "jurisdiction": "EastCCIrr4",
+   "office": "vote for 1; qualified: Kenneth W. Smith",
+   "reason": "Qualified on the Aug 14 candidate list but not on the Aug 27 Contests On Ballot list, so not on the ballot. Each has no more qualified candidates than seats, which under state law leads to appointment in lieu of election; the list does not state the reason.",
+   "source": "https://www.contracostavote.gov/wp-content/uploads/8-14-26_candidatelist_summary_final.pdf"
+  }
+ ],
+ "unavailable": [
+  "Both official lists were read once each, by the project lead in a browser; the two lists agree on the candidates of every on-ballot contest. A person should confirm against the official sample ballot.",
+  "Contest names in the notOnBallot list are the county's short codes from the Aug 14 list.",
+  "City clerk decisions on appointments in lieu of election (for example Antioch City Clerk, Oakley Districts 2 and 4) are recorded by the cities; see the earlier research file ca-contra-costa.agent.json."
+ ]
+}

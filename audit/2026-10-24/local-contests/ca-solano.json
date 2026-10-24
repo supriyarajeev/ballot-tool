@@ -1,0 +1,1133 @@
+{
+ "county": "ca-solano",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+   "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "label": "Solano County Voter Information Guides by ballot type (candidate statements)",
+   "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Solano County (Supervisor District 4)",
+  "Benicia",
+  "Dixon",
+  "Fairfield",
+  "Rio Vista",
+  "Suisun City",
+  "Vacaville",
+  "Vallejo",
+  "Solano County Board of Education",
+  "Yolo County Board of Education",
+  "Solano Community College District",
+  "San Joaquin Delta Community College District",
+  "Benicia USD",
+  "Dixon USD",
+  "Fairfield-Suisun USD",
+  "River Delta USD",
+  "Travis USD",
+  "Vacaville USD",
+  "Vallejo City USD",
+  "Winters JUSD",
+  "Cordelia Fire Protection District",
+  "Solano Irrigation District",
+  "Rural North Vacaville Water District"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-solano-supervisor-district-4",
+    "existing": false,
+    "name": "Solano County Board of Supervisors District 4",
+    "type": "supervisor-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Member, Board of Supervisors",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michael \"Mike\" Silva",
+     "designation": "Professor / Vacaville Councilmember",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "John Carli",
+     "designation": "Mayor, City of Vacaville",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "November runoff from the June primary. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-solano-county-board-of-education",
+    "existing": false,
+    "name": "Solano County Board of Education",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Member, County Board of Education",
+   "district": "Trustee Area 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tamika Hamilton",
+     "designation": "Retired USAF Sergeant",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Kathryn Kedarisetty",
+     "designation": "Elementary School Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-ccd-solano-community-college-district",
+    "existing": false,
+    "name": "Solano Community College District",
+    "type": "community-college-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Denis Honeychurch",
+     "designation": "College Trustee / Attorney",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Tony Yang",
+     "designation": "College Analyst / Administrator",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-san-joaquin-ccd-san-joaquin-delta-community-college-district",
+    "existing": false,
+    "name": "San Joaquin Delta Community College District",
+    "type": "community-college-district",
+    "parent": "ca-san-joaquin",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Charles R. Jennings",
+     "designation": "Delta College Trustee",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Tony Shah",
+     "designation": "Retired School Administrator",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "Filed in San Joaquin County; the Solano log lists it for Solano voters in Trustee Area 4. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-benicia-unified-school-district",
+    "existing": false,
+    "name": "Benicia Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dan Smith",
+     "designation": "Substitute Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Barbara Jones",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-dixon-unified-school-district",
+    "existing": true,
+    "name": "Dixon Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jewel Fink",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Julian Y. Cuevas",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "John Gabby",
+     "designation": "Parent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Phil Lockwood",
+     "designation": "Chaplain / Wellness Coach",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Michael Ceremello Jr.",
+     "designation": "Investigative Journalist",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Cheryl Sommers",
+     "designation": "Attorney",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Michael Monson",
+     "designation": "Electrician / Parent",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "Voted at large, vote for 3. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-river-delta-unified-school-district",
+    "existing": false,
+    "name": "River Delta Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dan Mahoney",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Michael A Mimiaga",
+     "designation": "School Transportation Director",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-vallejo-city-unified-school-district",
+    "existing": false,
+    "name": "Vallejo City Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Clarence John Martin Jr",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Judith Lerner",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Reba Jill Brown",
+     "designation": "Tax Preparer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-sd-vallejo-city-unified-school-district",
+    "existing": false,
+    "name": "Vallejo City Unified School District",
+    "type": "school-district",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rizal \"Mr. Riz\" V. Aliga",
+     "designation": "Tennis Coach / Educator",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Irene Reynolds",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-benicia",
+    "existing": true,
+    "name": "City of Benicia",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Terry Scott",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Kari Birdseye",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Justin Zollars",
+     "designation": "Software Engineer",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-dixon-council-district-1",
+    "existing": false,
+    "name": "Dixon City Council District 1",
+    "type": "council-district",
+    "parent": "ca-solano-dixon",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jim Ernest",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Emily Schroeder",
+     "designation": "Legislative Assistant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-dixon-council-district-2",
+    "existing": false,
+    "name": "Dixon City Council District 2",
+    "type": "council-district",
+    "parent": "ca-solano-dixon",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Thom Bogue",
+     "designation": "Councilmember / Business Owner",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Christina M. Cerna",
+     "designation": "Education Compliance Specialist",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-dixon",
+    "existing": true,
+    "name": "City of Dixon",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Elected City Clerk",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Lupe Ruiz",
+     "designation": "Administrative City Clerk",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "One candidate; the log marks it on the ballot, and the county voter guide prints her statement. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield",
+    "existing": true,
+    "name": "City of Fairfield",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Pam Bertani",
+     "designation": "Mother / Councilmember / Attorney",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Scott Tonnesen",
+     "designation": "Small Businessman / Councilmember",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Nikila Walker Gibson",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "George Kennedy",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield-council-district-1",
+    "existing": false,
+    "name": "Fairfield City Council District 1",
+    "type": "council-district",
+    "parent": "ca-solano-fairfield",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "K. Patrice Williams",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Nora Dizon",
+     "designation": "Real Estate Broker",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield-council-district-3",
+    "existing": false,
+    "name": "Fairfield City Council District 3",
+    "type": "council-district",
+    "parent": "ca-solano-fairfield",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Doug Carr",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Robert Marin",
+     "designation": "Retired Police Officer",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Susan Bush",
+     "designation": "Independent Contractor / Homemaker",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-fairfield-council-district-5",
+    "existing": false,
+    "name": "Fairfield City Council District 5",
+    "type": "council-district",
+    "parent": "ca-solano-fairfield",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Doriss Panduro",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Lynda Davis-Robinson",
+     "designation": "Educator / Pastor / Mother",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-rio-vista",
+    "existing": true,
+    "name": "City of Rio Vista",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rick Dolk",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Robert Butler",
+     "designation": "Retired USMC SGT",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Gloria J. Thibeaux",
+     "designation": "Retired HR Manager",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Leslie Codling-Dichet",
+     "designation": "Human Resources Manager",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-suisun-city",
+    "existing": true,
+    "name": "City of Suisun City",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Alma Hernandez",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Chauncey Banks",
+     "designation": "Entrepreneur",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Michael Jefferson",
+     "designation": "Political Consultant",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Lilia Dardon",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Amit Pal",
+     "designation": "Councilmember / Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "Mayor, full term. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-suisun-city",
+    "existing": true,
+    "name": "City of Suisun City",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Princess Washington",
+     "designation": "Non-Profit Executive",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jenalee Dawson",
+     "designation": "Non-Profit Director / Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Xenia Tom",
+     "designation": "Home Maker",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Katrina Garcia",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville",
+    "existing": true,
+    "name": "City of Vacaville",
+    "type": "city",
+    "parent": "ca-solano",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sarah Chapman",
+     "designation": "Vacaville City Councilmember",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Roy Stockton",
+     "designation": "Councilmember / Sheriff's Sergeant",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville-council-district-2",
+    "existing": false,
+    "name": "Vacaville City Council District 2",
+    "type": "council-district",
+    "parent": "ca-solano-vacaville",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gregory Ritchie II",
+     "designation": "Councilmember / Business Owner",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Tom Chalk",
+     "designation": "Retired Assistant Sheriff",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville-council-district-4",
+    "existing": false,
+    "name": "Vacaville City Council District 4",
+    "type": "council-district",
+    "parent": "ca-solano-vacaville",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John Vogel",
+     "designation": "Public Works Supervisor",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Davonna Finley",
+     "designation": "Community Relations Director",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vacaville-council-district-6",
+    "existing": false,
+    "name": "Vacaville City Council District 6",
+    "type": "council-district",
+    "parent": "ca-solano-vacaville",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jeanette Wylie",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Kevin Puett",
+     "designation": "Retired Associate Director",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vallejo-council-district-2",
+    "existing": false,
+    "name": "Vallejo City Council District 2",
+    "type": "council-district",
+    "parent": "ca-solano-vallejo",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Diosdado \"JR\" Matulac",
+     "designation": "Councilmember / Restorative Specialist",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "One candidate; the log marks the city contest on the ballot. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vallejo-council-district-4",
+    "existing": false,
+    "name": "Vallejo City Council District 4",
+    "type": "council-district",
+    "parent": "ca-solano-vallejo",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Charles Palmares",
+     "designation": "Councilmember / Senior Manager",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Brianna Rogers",
+     "designation": "Community Foundation Strategist",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Chris Platzer",
+     "designation": "Merchant Mariner",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "Roxann Reyes did not complete filing. Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-solano-vallejo-council-district-5",
+    "existing": false,
+    "name": "Vallejo City Council District 5",
+    "type": "council-district",
+    "parent": "ca-solano-vallejo",
+    "areas": []
+   },
+   "office": "Councilmember",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tara Beasley Stansberry",
+     "designation": "Businessowner / HR Recruiter",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Tanya Hall",
+     "designation": "Retired Career Advisor",
+     "statementUrl": null,
+     "incumbent": false
+    },
+    {
+     "name": "Rebekah Truemper",
+     "designation": "Nonprofit Organization Advisor",
+     "statementUrl": null,
+     "incumbent": false
+    }
+   ],
+   "source": {
+    "label": "Solano County Registrar of Voters, Candidate Filed Log, November 3, 2026 General Election, as of 8/20/2026 (ON/OFF THE BALLOT columns; city contests as reported by city clerks)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+   },
+   "readingsMatched": false,
+   "note": "On the ballot per the county's filed log (contested, or city contest reported on the ballot by the city clerk). Read once from the official PDF in a browser; the agent's earlier secondary-source reading agrees on the contests it found."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Solano County Board of Education",
+   "office": "Trustee Areas 3 and 4",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Solano Community College District",
+   "office": "Trustee Areas 1, 2 and 6",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Benicia Unified School District",
+   "office": "Trustee Areas 4 and 5",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Fairfield-Suisun Unified School District",
+   "office": "Trustee Areas 4, 5 and 7",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "River Delta Unified School District",
+   "office": "Trustee Area 3 (no candidate filed)",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Travis Unified School District",
+   "office": "Trustee Areas 1 and 2",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Vacaville Unified School District",
+   "office": "Trustee Areas 1, 3 and 5",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Vallejo City Unified School District",
+   "office": "Trustee Area 5",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Cordelia Fire Protection District",
+   "office": "3 seats",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Rural North Vacaville Water District",
+   "office": "3 seats",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  },
+  {
+   "jurisdiction": "Solano Irrigation District",
+   "office": "Divisions 1 and 5",
+   "reason": "Off the ballot on the county filed log (no more candidates than seats; appointment in lieu of election expected)",
+   "source": "https://content.solanocounty.gov/sites/default/files/2026-07/CANDIDATE_FILED_LOG_Nov_3_2026_7.13.26.pdf"
+  }
+ ],
+ "unavailable": [
+  "Read once by the project lead from the official PDF through a browser (the county's file server blocks automated fetching); the ON/OFF THE BALLOT labels were matched to contests by rule (contested county contests are on the ballot; city contests as the log marks them). A person should confirm against a sample ballot.",
+  "Yolo County Board of Education and Winters Joint Unified contests that include Solano voters were filed in Yolo County and are not listed here."
+ ]
+}

@@ -1,0 +1,3409 @@
+{
+ "county": "ca-santa-clara",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+   "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf",
+   "note": "Every local contest with On Ballot Yes/No, vote-for number, qualified candidates and ballot designations; read in a browser because the county's file server refuses automated fetching. Contact details on the list were not copied."
+  },
+  {
+   "label": "Final Qualified List of Local Write-In Candidates (CFMR028)",
+   "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-10/writeincandidates_102026-v3.pdf?VersionId=XSwtnLJSbo6VZ5rS3.DHdgMF040jZKp.",
+   "note": "Printed 10/20/2026 4:30 PM; 'Contests: 3120 to 6103 - All Contests in Range'; lists 73 local contests on ballot and 2 qualified write-ins (Hina Patel, Orchard SD; Jacob Montoya, Morgan Hill Mayor). Used as the inventory of on-ballot contests."
+  },
+  {
+   "label": "County Voter Information Guide - Audio",
+   "url": "https://vote.santaclaracounty.gov/county-voter-information-guide-audio-0",
+   "note": "Official ROV page listing every candidate statement (audio/text) for the Nov 3 2026 guide, by contest; covers only candidates who bought statements."
+  },
+  {
+   "label": "November 3, 2026 General Election List of Offices",
+   "url": "https://vote.santaclaracounty.gov/november-3-2026-general-election-list-offices",
+   "note": "Offices up for election with seats/trustee areas; no candidates. No county or city section rendered."
+  },
+  {
+   "label": "Qualified List of Local Candidates, June 2, 2026 primary (v3)",
+   "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY",
+   "note": "Shows June county contests and San Jose D5/D7/D9 (source of Nov runoffs)."
+  },
+  {
+   "label": "Santa Cruz County Elections, Appointed in Lieu, Nov 3 2026",
+   "url": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/AppointedInLieu.aspx",
+   "note": "Official list for shared districts (County BOE TA2, WVMCCD TA5, LGSUHSD TA3, Lakeside, Loma Prieta, MROSD Ward 6)."
+  },
+  {
+   "label": "City of Milpitas Certified List of Candidates",
+   "url": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "note": "Mayor and Council names and ballot designations."
+  },
+  {
+   "label": "City clerk pages: Gilroy, Cupertino, Palo Alto, Los Altos",
+   "url": "https://cityofgilroy.org/705/Elections-Voter-Information",
+   "note": "Also https://www.cupertino.gov/our-city/departments/city-clerk/cupertino-elections-info , https://www.paloalto.gov/Departments/City-Clerk/Municipal-Elections/City-Council-Election , https://www.losaltosca.gov/604/Elections"
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Santa Clara County (Supervisors D1, D4, Sheriff, Assessor, DA)",
+  "Campbell",
+  "Cupertino",
+  "Gilroy",
+  "Los Altos",
+  "Los Altos Hills",
+  "Los Gatos",
+  "Milpitas",
+  "Monte Sereno",
+  "Morgan Hill",
+  "Mountain View",
+  "Palo Alto",
+  "San José",
+  "Santa Clara",
+  "Saratoga",
+  "Sunnyvale",
+  "Santa Clara County Board of Education",
+  "Stanislaus County Board of Education",
+  "Foothill-De Anza CCD",
+  "Gavilan Joint CCD",
+  "San José-Evergreen CCD",
+  "West Valley-Mission CCD",
+  "Yosemite CCD",
+  "Alum Rock Union SD",
+  "Berryessa Union SD",
+  "Cambrian SD",
+  "Campbell Union SD",
+  "Cupertino Union SD",
+  "Evergreen SD",
+  "Franklin-McKinley SD",
+  "Lakeside Joint SD",
+  "Loma Prieta Joint Union SD",
+  "Los Altos SD",
+  "Los Gatos Union SD",
+  "Luther Burbank SD",
+  "Moreland SD",
+  "Mountain View Whisman SD",
+  "Mt. Pleasant SD",
+  "North County Joint Union SD",
+  "Oak Grove SD",
+  "Orchard SD",
+  "Saratoga Union SD",
+  "Sunnyvale SD",
+  "Union SD",
+  "Campbell Union HSD",
+  "East Side Union HSD",
+  "Fremont Union HSD",
+  "Los Gatos-Saratoga Union HSD",
+  "Mountain View-Los Altos Union HSD",
+  "Gilroy USD",
+  "Milpitas USD",
+  "Morgan Hill USD",
+  "Palo Alto USD",
+  "Patterson Joint USD",
+  "San José USD",
+  "Santa Clara USD",
+  "Aldercroft Heights County Water District",
+  "Burbank Sanitary District",
+  "Cupertino Sanitary District",
+  "El Camino Healthcare District",
+  "Lion's Gate CSD",
+  "Midpeninsula Regional Open Space District",
+  "Purissima Hills Water District",
+  "Rancho Rinconada Recreation & Park District",
+  "San Martin County Water District",
+  "Santa Clara Valley Open Space Authority",
+  "Santa Clara Valley Water District",
+  "Saratoga Fire Protection District",
+  "Silver Creek Valley Country Club GHAD",
+  "South Santa Clara Valley Memorial District",
+  "West Bay Sanitary District"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-santa-clara-county-board-of-education",
+    "existing": false,
+    "name": "Santa Clara County Board of Education",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "County Board of Education Member",
+   "district": "Trustee Area 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Raeena S. Lari",
+     "designation": "Governing Board Member, Santa Clara County Board of Education,TA #7",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Karla Dominguez Vega",
+     "designation": "Student Support Specialist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3170 \"Santa Clara County BOE, Trustee Area 7\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-foothill-de-anza-community-college-district",
+    "existing": false,
+    "name": "Foothill-De Anza Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Liangfang \"Liang\" Chao",
+     "designation": "City Councilmember/Technologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "William \"Bill\" Wilson",
+     "designation": "Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3216 \"Foothill-De Anza CCD, Trustee Area 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-gavilan-joint-community-college-district",
+    "existing": false,
+    "name": "Gavilan Joint Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Shahida S. Merchant",
+     "designation": "Scientist/College Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gabriel Gutierrez",
+     "designation": "Governing Board Member, Gavilan Joint Community College District, Trustee Area 3",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3227 \"Gavilan Joint CCD, Trustee Area 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-san-jose-evergreen-community-college-district",
+    "existing": false,
+    "name": "San José-Evergreen Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Karen Martinez",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Scott Hung Pham",
+     "designation": "Retired College Professor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3234 \"San José-Evergreen CCD, Trustee Area 2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-west-valley-mission-community-college-district",
+    "existing": false,
+    "name": "West Valley-Mission Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Anne J. Kepner",
+     "designation": "Governing Board Member, West Valley-Mission Community College District, Trustee Area 3",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Colin Lee Elliott Glaves",
+     "designation": "Materials Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3253 \"West Valley-Mission CCD, Trustee Area 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-west-valley-mission-community-college-district",
+    "existing": false,
+    "name": "West Valley-Mission Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Doug Robb",
+     "designation": "College Professor/Coach",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Susan Oster Fish",
+     "designation": "Nurse/College Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3257 \"West Valley-Mission CCD, Trustee Area 7\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-yosemite-community-college-district",
+    "existing": false,
+    "name": "Yosemite Community College District",
+    "type": "community-college-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ryan Segoviano",
+     "designation": "Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jenny Nicolau",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3264 \"Yosemite CCD, Trustee Area 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-gilroy-unified-school-district",
+    "existing": true,
+    "name": "Gilroy Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michelle Nelson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Daniel Harney",
+     "designation": "Parent/Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3312 \"Gilroy Unified SD, Trustee Area 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-gilroy-unified-school-district",
+    "existing": true,
+    "name": "Gilroy Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Trevor Scott Van Laar",
+     "designation": "Pastor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jane Stevens",
+     "designation": "Retired Registered Nurse",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3314 \"Gilroy Unified SD, Trustee Area 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-milpitas-unified-school-district",
+    "existing": false,
+    "name": "Milpitas Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Chris Norwood",
+     "designation": "Governing Board Member, Milpitas Unified School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kelly Yip-Chuan",
+     "designation": "Governing Board Member, Milpitas Unified School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Anuradha Sankaran",
+     "designation": "Engineer/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Franchesca Lacanlale",
+     "designation": "Non Profit Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3321 \"Milpitas Unified SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Nancy Altman-Palm",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jason Amezcua",
+     "designation": "Father/College Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3333 \"Morgan Hill Unified SD, Trustee Area 1\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "John T. Horner",
+     "designation": "Governing Board Member, Morgan Hill Unified School District, TA 2",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gabriela \"Gabby\" Winter",
+     "designation": "Homemaker",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3334 \"Morgan Hill Unified SD, Trustee Area 2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Art Cohen",
+     "designation": "Parent/Business Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Cesar Gamboa",
+     "designation": "Father/Translator/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sarah Northrup Gadus",
+     "designation": "Parent/Student",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3335 \"Morgan Hill Unified SD, Trustee Area 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-morgan-hill-unified-school-district",
+    "existing": false,
+    "name": "Morgan Hill Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Glen R. Webb",
+     "designation": "Educator/Coach/Administrator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Claudia Ortiz",
+     "designation": "Parent/Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3336 \"Morgan Hill Unified SD, Trustee Area 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-palo-alto-unified-school-district",
+    "existing": false,
+    "name": "Palo Alto Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Linda Henigin",
+     "designation": "Math Teacher/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Craig",
+     "designation": "Parent/Operations Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Avery Wang",
+     "designation": "Research Scientist/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3340 \"Palo Alto Unified SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-san-jose-unified-school-district",
+    "existing": false,
+    "name": "San José Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Tomara Hall",
+     "designation": "Public School Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Carson Dance",
+     "designation": "Student Service Administrator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jose Magana",
+     "designation": "San José Unified School District, Governing Board Member, Trustee Area 2",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3352 \"San José Unified SD, Trustee Area 2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-san-jose-unified-school-district",
+    "existing": false,
+    "name": "San José Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mary J. Grunthaner",
+     "designation": "Retired Educator/Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Michael Melillo",
+     "designation": "Parent/Data Scientist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3354 \"San José Unified SD, Trustee Area 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-santa-clara-unified-school-district",
+    "existing": false,
+    "name": "Santa Clara Unified School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jim Canova",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Kamal Yassin",
+     "designation": "Engineer/Manager/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3371 \"Santa Clara Unified SD, Trustee Area 1\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-east-side-union-high-school-district",
+    "existing": false,
+    "name": "East Side Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 1 (Short Term)",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mer Curry Nuñez",
+     "designation": "Educator/Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Patricia Martínez-Roach",
+     "designation": "Retired Public Schoolteacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Paul Pham",
+     "designation": "School District Auditor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3422 \"East Side Union HSD, TA 1, Short Term\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-east-side-union-high-school-district",
+    "existing": false,
+    "name": "East Side Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Lorena Chavez",
+     "designation": "Governing Board Member, East Side Union High School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tony Lam",
+     "designation": "Parent/Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mahbub Khan",
+     "designation": "Professor of Physics",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Stanley Kou",
+     "designation": "Governing Board Member, Fremont Union High School District",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3425 \"East Side Union HSD, TA 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-fremont-union-high-school-district",
+    "existing": false,
+    "name": "Fremont Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rosa Kim",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jason Lin",
+     "designation": "Executive/Educator/Father",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3435 \"Fremont Union HSD, TA 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-fremont-union-high-school-district",
+    "existing": false,
+    "name": "Fremont Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Ilanit Eliaz",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Naomi Nakano-Matsumoto",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3436 \"Fremont Union HSD, TA 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district",
+    "existing": true,
+    "name": "Los Gatos-Saratoga Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sangeeta Balachandran Mallik",
+     "designation": "Psychologist/Researcher/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ishaan Prasad",
+     "designation": "Educational Advocate",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3444 \"Los Gatos-Saratoga Union HSD, TA 2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-mountain-view-los-altos-union-high-school-district",
+    "existing": false,
+    "name": "Mountain View-Los Altos Union High School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Catherine Vonnegut",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Thida Cornes",
+     "designation": "Governing Board Member, Mountain View-Los Altos Union High School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sanjay Dave",
+     "designation": "Engineer/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3455 \"Mountain View-Los Altos Union HSD, TA 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+    "existing": true,
+    "name": "Alum Rock Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Andrés Quintero",
+     "designation": "Governing Board Member, Alum Rock Union School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Delia Oseguera",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3503 \"Alum Rock Union SD, TA 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+    "existing": true,
+    "name": "Alum Rock Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Manisha Kand",
+     "designation": "Education Consultant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Línda Lo Chávez",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jenny Ludwig",
+     "designation": "Retired School Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3505 \"Alum Rock Union SD, TA 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-berryessa-union-school-district",
+    "existing": false,
+    "name": "Berryessa Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jaria Jaug",
+     "designation": "Governing Board Member, Berryessa Union School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Thelma B. Boac",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jamal Khan",
+     "designation": "Nonprofit Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Shanna Brewer",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3511 \"Berryessa Union SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-cambrian-school-district",
+    "existing": true,
+    "name": "Cambrian School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Carol Presunka",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Debora Bodenheimer",
+     "designation": "Retired Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sergio Martínez",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Harmony \"Jay\" McMillin",
+     "designation": "Program Specialist/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3521 \"Cambrian SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-campbell-union-school-district",
+    "existing": false,
+    "name": "Campbell Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mohit Vora",
+     "designation": "Parent/Technology Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Chris Miller",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3533 \"Campbell Union SD, TA 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-campbell-union-school-district",
+    "existing": false,
+    "name": "Campbell Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Vartika Chandra",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sam Krow-Lucal",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3534 \"Campbell Union SD, TA 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-evergreen-school-district",
+    "existing": false,
+    "name": "Evergreen School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Johnny Ray Reyna",
+     "designation": "Teacher/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Hien Pollett",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Corinna Diener",
+     "designation": "Retired Secretary/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Monte Wright",
+     "designation": "Nurse/Parent/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Thong Quang La",
+     "designation": "Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Magaly Fernández",
+     "designation": "Mother/Artist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3551 \"Evergreen SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-franklin-mckinley-school-district",
+    "existing": false,
+    "name": "Franklin-McKinley School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Rudy J. Rodriguez",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gilbert Borrayo",
+     "designation": "Educator/Advisory President",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Marc Cooper",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Steven Sanchez",
+     "designation": "Governing Board Member",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3561 \"Franklin-McKinley SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-los-altos-school-district",
+    "existing": false,
+    "name": "Los Altos School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "David Poll",
+     "designation": "Parent/Engineering Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brandon Stroy",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Vaishali \"Shali\" Sirkay",
+     "designation": "Governing Board Member, Los Altos School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bryan Harvey Johnson",
+     "designation": "Governing Board Member, Los Altos School District",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3591 \"Los Altos SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-mountain-view-whisman-school-district",
+    "existing": false,
+    "name": "Mountain View Whisman School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Devon Conley",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "William Lambert",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Sundar Subbarayan",
+     "designation": "Retired Tech Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Quintin Riis",
+     "designation": "Father",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3641 \"Mountain View Whisman SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-oak-grove-school-district",
+    "existing": false,
+    "name": "Oak Grove School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Victor A. Ramirez",
+     "designation": "Air Traffic Controller",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Diego Martinez",
+     "designation": "Governing Board Member, Oak Grove School District, Trustee Area 2",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3672 \"Oak Grove SD, Trustee Area 2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-oak-grove-school-district",
+    "existing": false,
+    "name": "Oak Grove School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Sophie Freestone",
+     "designation": "Homemaker/Mother/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kaushik C. Joglekar",
+     "designation": "Appointed Governing Board Member, Oak Grove School District, Trustee Area 3",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3673 \"Oak Grove SD, Trustee Area 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-oak-grove-school-district",
+    "existing": false,
+    "name": "Oak Grove School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Paul Chun",
+     "designation": "Public School Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Pradeep Kumar",
+     "designation": "Cyber Security Professional",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Casino Fajardo",
+     "designation": "School Administrator/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3675 \"Oak Grove SD, Trustee Area 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-orchard-school-district",
+    "existing": true,
+    "name": "Orchard School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Lyseria Evelyn Phillips",
+     "designation": "Union Inside Wireman",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Renee Lo",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Katherine Kasolas-Jacobson",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jeff Tang",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Molly Eslao",
+     "designation": "Senior Placement Counselor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3681 \"Orchard SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-saratoga-union-school-district",
+    "existing": false,
+    "name": "Saratoga Union School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Eric Cao",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Catalina Rupert",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vidya R. Vineet",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Farnoush Drexel",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Anna Goldberg",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3691 \"Saratoga Union SD\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sd-sunnyvale-school-district",
+    "existing": false,
+    "name": "Sunnyvale School District",
+    "type": "school-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Governing Board Member",
+   "district": "Trustee Area 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Michelle Maginot",
+     "designation": "Governing Board Member, Sunnyvale School District, Trustee Area 3",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rommy Kushner",
+     "designation": "Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 3705 \"Sunnyvale SD, Trustee Area 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-campbell-council-district-3",
+    "existing": false,
+    "name": "Campbell City Council District 3",
+    "type": "council-district",
+    "parent": "ca-santa-clara-campbell",
+    "areas": [
+     "ca-santa-clara-campbell"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joseph \"Joe\" Brenner",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dan Furtado",
+     "designation": "City Councilmember/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5022 \"City of Campbell Council, District 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-campbell-council-district-4",
+    "existing": false,
+    "name": "Campbell City Council District 4",
+    "type": "council-district",
+    "parent": "ca-santa-clara-campbell",
+    "areas": [
+     "ca-santa-clara-campbell"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Davis Stuart Fields",
+     "designation": "Product Manager/Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Joseph I. Guardado",
+     "designation": "Grocery Store Clerk",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5025 \"City of Campbell Council, District 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-campbell-council-district-5",
+    "existing": false,
+    "name": "Campbell City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-campbell",
+    "areas": [
+     "ca-santa-clara-campbell"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Daraius R. Sorabji",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5026 \"City of Campbell Council, District 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-cupertino",
+    "existing": true,
+    "name": "Cupertino",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-cupertino"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Gopal Kumarappan",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Santosh Rao",
+     "designation": "Technology Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Seema Sharma Lindskog",
+     "designation": "Nonprofit Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tracy Kosolcharoen",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Fantozzi",
+     "designation": "Civil Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Tang",
+     "designation": "Educator/Engineer/Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "J.R. Fruen",
+     "designation": "Member of the City Council, City of Cupertino",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "J. Z. Wang",
+     "designation": "Engineer/Caregiver/Businesswoman",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5031 \"City of Cupertino Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-gilroy-council-district-4",
+    "existing": false,
+    "name": "Gilroy City Council District 4",
+    "type": "council-district",
+    "parent": "ca-santa-clara-gilroy",
+    "areas": [
+     "ca-santa-clara-gilroy"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Fred Tovar",
+     "designation": "College Admissions Counselor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Diana Sanchez Bentz",
+     "designation": "Specialist Paralegal",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5044 \"City of Gilroy Council, District 4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-gilroy-council-district-5",
+    "existing": false,
+    "name": "Gilroy City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-gilroy",
+    "areas": [
+     "ca-santa-clara-gilroy"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Joseph Garcia",
+     "designation": "Locomotive Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Christina Tovar",
+     "designation": "Gilroy Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Tom Cline",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5045 \"City of Gilroy Council, District 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-gilroy-council-district-6",
+    "existing": false,
+    "name": "Gilroy City Council District 6",
+    "type": "council-district",
+    "parent": "ca-santa-clara-gilroy",
+    "areas": [
+     "ca-santa-clara-gilroy"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Elizabeth Bracco",
+     "designation": "Chief Financial Officer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brad Starks",
+     "designation": "Father/Marketing Director",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rebeca G. Armendáriz",
+     "designation": "Nonprofit Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5046 \"City of Gilroy Council, District 6\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-altos-council-district-2",
+    "existing": false,
+    "name": "Los Altos City Council District 2",
+    "type": "council-district",
+    "parent": "ca-santa-clara-los-altos",
+    "areas": [
+     "ca-santa-clara-los-altos"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Anky van Deursen",
+     "designation": "Housing Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Lynette Lee Eng",
+     "designation": "Community Programs Coordinator",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5054 \"City of Los Altos Council, D2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-altos-council-district-4",
+    "existing": false,
+    "name": "Los Altos City Council District 4",
+    "type": "council-district",
+    "parent": "ca-santa-clara-los-altos",
+    "areas": [
+     "ca-santa-clara-los-altos"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Larry Lang",
+     "designation": "Councilmember, City of Los Altos",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5056 \"City of Los Altos Council, D4\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-altos-hills",
+    "existing": true,
+    "name": "Los Altos Hills",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-los-altos-hills"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jim Waschura",
+     "designation": "Los Altos Hills Planning Commissioner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jasmeen Pombra",
+     "designation": "Physician",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Indu Kadambi",
+     "designation": "Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5060 \"Town of Los Altos Hills Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-los-gatos",
+    "existing": true,
+    "name": "Los Gatos",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-los-gatos"
+    ]
+   },
+   "office": "Town Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Steve Raspe",
+     "designation": "Attorney/Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rob Stump",
+     "designation": "Retired Business Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mary Badame",
+     "designation": "Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jeff Suzuki",
+     "designation": "Economic Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rob Moore",
+     "designation": "Los Gatos Town Council Member",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Heidi Owens",
+     "designation": "Senior Management Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5071 \"Town of Los Gatos Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-milpitas",
+    "existing": true,
+    "name": "Milpitas",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-milpitas"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Hon Lien",
+     "designation": "Council Member, City of Milpitas",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Carmen Montano",
+     "designation": "Mayor/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Voltaire S. Montemayor",
+     "designation": "Retired Geologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Santosh Sahoo",
+     "designation": "Tech Entrepreneur",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5080 \"Mayor, City of Milpitas\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-milpitas",
+    "existing": true,
+    "name": "Milpitas",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-milpitas"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jennie Ha Phan",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bill Chuan",
+     "designation": "Engineer/Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Seema Kanani",
+     "designation": "Clinical Social Worker",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Garry Barbadillo",
+     "designation": "City Councilmember/Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Dipak Awasthi",
+     "designation": "Milpitas Planning Commissioner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5081 \"City of Milpitas Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-morgan-hill",
+    "existing": true,
+    "name": "Morgan Hill",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-morgan-hill"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kristopher L. Clayton",
+     "designation": "Carpenter",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Mark Turner",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Deborah M. Africa",
+     "designation": "Retired RN/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5100 \"Mayor, City of Morgan Hill\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-morgan-hill-council-district-b",
+    "existing": false,
+    "name": "Morgan Hill City Council District B",
+    "type": "council-district",
+    "parent": "ca-santa-clara-morgan-hill",
+    "areas": [
+     "ca-santa-clara-morgan-hill"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District B",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Steven Hayes",
+     "designation": "Fire Captain/Paramedic",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Yvonne Martinez Beltran",
+     "designation": "Councilwoman/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5107 \"City of Morgan Hill Council, District B\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-morgan-hill-council-district-d",
+    "existing": false,
+    "name": "Morgan Hill City Council District D",
+    "type": "council-district",
+    "parent": "ca-santa-clara-morgan-hill",
+    "areas": [
+     "ca-santa-clara-morgan-hill"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District D",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Dolores Alvarado",
+     "designation": "Chief Executive Officer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Marilyn Librers",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5109 \"City of Morgan Hill Council, District D\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-mountain-view",
+    "existing": true,
+    "name": "Mountain View",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-mountain-view"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Paul Donahue",
+     "designation": "Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Cox",
+     "designation": "Retired Software Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "James Kuszmaul",
+     "designation": "Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Samuel Ali",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "IdaRose Sylvester",
+     "designation": "Entrepreneur/Educator",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Silja Paymer",
+     "designation": "Teacher/Mother/Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Erik Poicon",
+     "designation": "Library Outreach Specalist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Alex Amoroso",
+     "designation": "Army Reserve Officer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5110 \"City of Mountain View Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-palo-alto",
+    "existing": true,
+    "name": "Palo Alto",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-palo-alto"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Henry Etzkowitz",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ed Lauing",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bryna Chang",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Vicki Veenker",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Yu \"Yudy\" Deng",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gary Gechlik",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Raymond L. Goins",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Brian Hamachek",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5121 \"City of Palo Alto Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-san-jose-council-district-5",
+    "existing": false,
+    "name": "San José City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-san-jose",
+    "areas": [
+     "ca-santa-clara-san-jose"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Nora Campos",
+     "designation": "Businesswoman/Policy Analyst",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Peter Ortiz",
+     "designation": "Councilmember, City of San Jose District 5",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5205 \"City of San José Council, District 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-san-jose-council-district-7",
+    "existing": false,
+    "name": "San José City Council District 7",
+    "type": "council-district",
+    "parent": "ca-santa-clara-san-jose",
+    "areas": [
+     "ca-santa-clara-san-jose"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Van Le",
+     "designation": "Trustee East Side Union High School District",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bien Doan",
+     "designation": "Council Member, City of San Jose District 7",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5207 \"City of San José Council, District 7\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-san-jose-council-district-9",
+    "existing": false,
+    "name": "San José City Council District 9",
+    "type": "council-district",
+    "parent": "ca-santa-clara-san-jose",
+    "areas": [
+     "ca-santa-clara-san-jose"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 9",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Genny Altwer",
+     "designation": "Business Owner/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gordon Chester",
+     "designation": "City of San Jose Infrastructure Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5209 \"City of San José Council, District 9\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-santa-clara",
+    "existing": true,
+    "name": "Santa Clara",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-santa-clara"
+    ]
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mike Wiltberger",
+     "designation": "Research Scientist/Entrepreneur",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Armando \"Gary\" Ferraris",
+     "designation": "Retired City Employee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Karen Hardy",
+     "designation": "City of Santa Clara Councilmember District 3",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "David Kertes",
+     "designation": "Bussinessman/Father/Coach",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kathy Watanabe",
+     "designation": "School Board Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Kevin Park",
+     "designation": "City of Santa Clara Councilmember, District 4",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5230 \"Mayor, City of Santa Clara\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-santa-clara-council-district-2",
+    "existing": false,
+    "name": "Santa Clara City Council District 2",
+    "type": "council-district",
+    "parent": "ca-santa-clara-santa-clara",
+    "areas": [
+     "ca-santa-clara-santa-clara"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kimberley Williams",
+     "designation": "University Administrator/Mother",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Yvonne Inciarte",
+     "designation": "Government Relations Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5232 \"City of Santa Clara Council, District 2\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-santa-clara-council-district-3",
+    "existing": false,
+    "name": "Santa Clara City Council District 3",
+    "type": "council-district",
+    "parent": "ca-santa-clara-santa-clara",
+    "areas": [
+     "ca-santa-clara-santa-clara"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kyle Madej",
+     "designation": "Businessman/Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Eric Crutchlow",
+     "designation": "Cybersecurity Product Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5233 \"City of Santa Clara Council, District 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-saratoga",
+    "existing": true,
+    "name": "Saratoga",
+    "type": "city",
+    "parent": "ca-santa-clara",
+    "areas": [
+     "ca-santa-clara-saratoga"
+    ]
+   },
+   "office": "City Council Member",
+   "district": null,
+   "seats": 3,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jeri Bromley",
+     "designation": "Commissioner, Saratoga Library and Public Art Commission",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Ping Li",
+     "designation": "Chairperson, Planning Commission",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Bill Dalton",
+     "designation": "Retired Programmer/Engineer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Glenn K. Hendricks",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5240 \"City of Saratoga Council\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sunnyvale-council-district-1",
+    "existing": false,
+    "name": "Sunnyvale City Council District 1",
+    "type": "council-district",
+    "parent": "ca-santa-clara-sunnyvale",
+    "areas": [
+     "ca-santa-clara-sunnyvale"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Linda Sell",
+     "designation": "Sunnyvale Councilmember, District 1",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5251 \"City of Sunnyvale Council, District 1\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sunnyvale-council-district-3",
+    "existing": false,
+    "name": "Sunnyvale City Council District 3",
+    "type": "council-district",
+    "parent": "ca-santa-clara-sunnyvale",
+    "areas": [
+     "ca-santa-clara-sunnyvale"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Murali Srinivasan",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5253 \"City of Sunnyvale Council, District 3\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-sunnyvale-council-district-5",
+    "existing": false,
+    "name": "Sunnyvale City Council District 5",
+    "type": "council-district",
+    "parent": "ca-santa-clara-sunnyvale",
+    "areas": [
+     "ca-santa-clara-sunnyvale"
+    ]
+   },
+   "office": "City Council Member",
+   "district": "District 5",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Richard Mehlinger",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 5255 \"City of Sunnyvale Council, District 5\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-santa-clara-valley-water-district",
+    "existing": false,
+    "name": "Santa Clara Valley Water District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jimmy Forbis",
+     "designation": "Retired City Manager",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John L. Varela",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 6001 \"Santa Clara Valley Water, District 1\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-santa-clara-valley-water-district",
+    "existing": false,
+    "name": "Santa Clara Valley Water District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Phuong Tran Nguyen",
+     "designation": "Field Representative",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Milan Balinton",
+     "designation": "Nonprofit Executive Director",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 6006 \"Santa Clara Valley Water, District 6\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-santa-clara-valley-water-district",
+    "existing": false,
+    "name": "Santa Clara Valley Water District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "District 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Pete Dailey",
+     "designation": "Member, Los Altos City Council",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Eisenberg",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 6007 \"Santa Clara Valley Water, District 7\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-cupertino-sanitary-district",
+    "existing": false,
+    "name": "Cupertino Sanitary District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Patrick Shupui Kwok",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Taghi Saadati",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Gilbert Wong",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 6020 \"Cupertino Sanitary District\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-santa-clara-spd-midpeninsula-regional-open-space-district",
+    "existing": false,
+    "name": "Midpeninsula Regional Open Space District",
+    "type": "special-district",
+    "parent": "ca-santa-clara",
+    "areas": []
+   },
+   "office": "Director",
+   "district": "Ward 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Craig Gleason",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Tina Marie To",
+     "designation": "Director of Operations",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Santa Clara County Registrar of Voters, Final Qualified List of Local Eligible Candidates, November 3, 2026 General Election (posted Sept 28, 2026; printed 8/27/2026)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+   },
+   "readingsMatched": true,
+   "note": "Contest 6051 \"Midpeninsula Regional Open Space District Ward 1\", On Ballot: Yes, on the county's final qualified list. Names and ballot designations as printed there. The county's write-in list (printed 10/20/2026) shows the same 73 on-ballot contests."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Sheriff",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Assessor",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "District Attorney",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Board of Supervisors, District 1",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County",
+   "office": "Board of Supervisors, District 4",
+   "reason": "Decided at June 2, 2026 primary; no November runoff",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-04/qualified-list-local-on-ballot-rad-3.13.2026-v3.pdf?VersionId=1WnwGMDaWwwAbro3XtDAGzbZZqeaJnNY"
+  },
+  {
+   "jurisdiction": "Santa Clara County BOE, Trustee Area 2",
+   "office": "vote for 1; qualified: Yan Zhao",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Santa Clara County BOE, Trustee Area 6",
+   "office": "vote for 1; qualified: Maimona Afzal Berta",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Stanislaus County BOE, Trustee Area 5",
+   "office": "vote for 1; qualified: Cindy Young",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Foothill-De Anza CCD, Trustee Area 2",
+   "office": "vote for 1; qualified: Alexander Gvatua",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Gavilan Joint CCD, Trustee Area 1",
+   "office": "vote for 1; qualified: Kathy Chavez Napoli",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "San José-Evergreen CCD, Trustee Area 4",
+   "office": "vote for 1; qualified: Maria R. Fuentes",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "San José-Evergreen CCD, Trustee Area 6",
+   "office": "vote for 1; qualified: Jeffrey Lease",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "West Valley-Mission CCD, Trustee Area 5",
+   "office": "vote for 1; qualified: Diane Lamkin",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Gilroy Unified SD, Trustee Area 1",
+   "office": "vote for 1; qualified: Gabriela Kim",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Gilroy Unified SD, Trustee Area 7",
+   "office": "vote for 1; qualified: Tuyen Fiack",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Patterson Joint Unified SD, Trustee Area 2",
+   "office": "vote for 1; qualified: Sergio Perez",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Santa Clara Unified SD, Trustee Area 3",
+   "office": "vote for 1; qualified: Vickie Fairchild",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Santa Clara Unified SD, Trustee Area 4",
+   "office": "vote for 1; qualified: Andrew O'Dea Ratermann",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Santa Clara Unified SD, Trustee Area 6",
+   "office": "vote for 1; qualified: Jodi Muirhead",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Campbell Union HSD, Trustee Area 1",
+   "office": "vote for 1; qualified: James Kim",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Campbell Union HSD, Trustee Area 2",
+   "office": "vote for 1; qualified: Elisabeth Halliday",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Campbell Union HSD, Trustee Area 3",
+   "office": "vote for 1; qualified: Jason Baker",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "East Side Union HSD, TA 2",
+   "office": "vote for 1; qualified: Anthony Montes",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Los Gatos-Saratoga Union HSD, TA 3",
+   "office": "vote for 1; qualified: Shawn K. Mortensen",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Los Gatos-Saratoga Union HSD, TA 4",
+   "office": "vote for 1; qualified: Steven Chen",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Mountain View-Los Altos Union HSD, TA 1",
+   "office": "vote for 1; qualified: Nir Paz",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Mountain View-Los Altos Union HSD, TA 2",
+   "office": "vote for 1; qualified: Ellen Kamei",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Alum Rock Union SD, TA 1",
+   "office": "vote for 1; qualified: Darcie Green",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Campbell Union SD, TA 1",
+   "office": "vote for 1; qualified: Richard Nguyen",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Cupertino Union SD",
+   "office": "vote for 3; qualified: Ava Chiao, Satheesh Madhathil, Jerry Liu",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Lakeside Joint SD",
+   "office": "vote for 3; qualified: Mingi Bodine",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Loma Prieta Joint Union SD",
+   "office": "vote for 3; qualified: Charlotte Boisvert-Khandelwal, Denise Ramon Herrera, Courtney Thomas",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Los Gatos Union SD",
+   "office": "vote for 3; qualified: Peter Noymer, Melissa Crow, Heather Wygant",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Luther Burbank SD",
+   "office": "vote for 2; qualified: Antonio R. Perez, Kim A. Perez",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Luther Burbank SD, Short Term",
+   "office": "vote for 1; qualified: Jacob Perez",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Moreland SD, TA 1, Short Term",
+   "office": "vote for 1; qualified: Seshan Sekariapuram",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Moreland SD, Trustee Area 2",
+   "office": "vote for 1; qualified: Tracy Dwyer",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Moreland SD, Trustee Area 3",
+   "office": "vote for 1; qualified: Angelica Woodward",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Moreland SD, Trustee Area 4",
+   "office": "vote for 1; qualified: Heather E. Sutton",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Mount Pleasant SD",
+   "office": "vote for 3; qualified: Lissa Oros, Brenda Serrano, Antonio Perez",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "North County Joint Union SD",
+   "office": "vote for 2; qualified: Cindy King, Ted Brian Zanella",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Sunnyvale SD, Trustee Area 1",
+   "office": "vote for 1; qualified: Bridget Watson",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Sunnyvale SD, Trustee Area 5",
+   "office": "vote for 1; qualified: Evelyn D. Castillo Profeta",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Union School District",
+   "office": "vote for 3; qualified: Aengus Linehan, Sheila Billings, Brooke Libman",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "City of Monte Sereno Council",
+   "office": "vote for 3; qualified: Ken Toren, Allison Zeidler, Burton Craig",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Santa Clara Valley Water, District 4",
+   "office": "vote for 1; qualified: Jim Beall",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Aldercroft Heights County Water District",
+   "office": "vote for 2; qualified: David Gibbs Pearce, Alyce Green",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Burbank Sanitary District",
+   "office": "vote for 3; qualified: Procopio J. Sclafani, Mark Alan Negrete, Kristina Marika Seldal",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "El Camino Healthcare District",
+   "office": "vote for 2; qualified: Peter C. Fung, George O. Ting",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Midpeninsula Regional Open Space District Ward 2",
+   "office": "vote for 1; qualified: Yoriko Kishimoto",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Midpeninsula Regional Open Space District Ward 5",
+   "office": "vote for 1; qualified: Karen C. Holman",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "SCV Open Space Authority, District 2",
+   "office": "vote for 1; qualified: Margie Matthews",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "SCV Open Space Authority, District 5",
+   "office": "vote for 1; qualified: Cathryn Ming Hyde",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "SCV Open Space Authority, District 6",
+   "office": "vote for 1; qualified: Lisanna Dominguez",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "SCV Open Space Authority, District 7",
+   "office": "vote for 1; qualified: Kalvin Gill",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Purissima Hills Water District",
+   "office": "vote for 2; qualified: Anand Ranganathan, Essy Stone",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Rancho Rinconada Recreation and Park District",
+   "office": "vote for 2; qualified: Wayne Lin, Meesha Reiisieh",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "Saratoga Fire Protection District",
+   "office": "vote for 1; qualified: Ernie Kraule",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "South Santa Clara Valley Memorial District",
+   "office": "vote for 2; qualified: Terry L. Palmisano, Danny Edward Molina",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  },
+  {
+   "jurisdiction": "West Bay Sanitary District",
+   "office": "vote for 2; qualified: Edward Moritz, Roy Thiele-Sardina",
+   "reason": "Marked \"On Ballot: No\" on the county's final qualified candidate list (no more qualified candidates than seats, so not on the ballot)",
+   "source": "https://files.santaclaracounty.gov/exjcpb1296/2026-09/qualified-list-of-local-candidates-9-28-26.pdf"
+  }
+ ],
+ "unavailable": [
+  "The official list was read once, by the project lead in a browser; its contests and names agree with the county's write-in list and voter guide statement page used in the earlier research (see ca-santa-clara.agent.json). A person should confirm against the official sample ballot.",
+  "Qualified write-in candidates are not printed on the ballot and are not listed: Hina Patel (Orchard School District) and Jacob Montoya (Morgan Hill Mayor), per the county's write-in list printed 10/20/2026."
+ ]
+}

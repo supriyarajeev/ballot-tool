@@ -1,0 +1,754 @@
+{
+ "county": "ca-napa",
+ "checkedOn": "2026-10-24",
+ "officialSources": [
+  {
+   "label": "Napa County Registrar of Voters, Qualified List of Candidates (PDF)",
+   "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF",
+   "note": "Candidate roster for Nov 3, 2026 General Election, printed 8/13/2026 12:36:47PM; shows contest number, 'On Ballot' yes/no, names (all caps), ballot designations, statement filed yes/no. Read twice."
+  },
+  {
+   "label": "Napa County Qualified List of Candidates page",
+   "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates",
+   "note": "Same roster; first reading."
+  },
+  {
+   "label": "Napa County Candidate Information Guide, Nov 3 2026",
+   "url": "https://www.napacounty.gov/DocumentCenter/View/45805/",
+   "note": "Offices up for election with seat counts and current officeholders (county-consolidated districts)."
+  },
+  {
+   "label": "City of Napa final candidate listing",
+   "url": "https://www.cityofnapa.org/DocumentCenter/View/15882",
+   "note": "General Municipal Election Nov 3 2026, as of Aug 7 2026; Districts 1 and 3."
+  },
+  {
+   "label": "City of Napa Elections page",
+   "url": "https://www.cityofnapa.org/155/Elections",
+   "note": "Confirms Districts 1 and 3 council seats on Nov 2026 ballot; no mayor race."
+  },
+  {
+   "label": "Napa County June 2, 2026 Statement of Votes, Supervisor District 1",
+   "url": "https://www.napacounty.gov/DocumentCenter/View/45675/Napa-County-Supervisor-District-1-PDF",
+   "note": "Gallagher unopposed in June; no November supervisor runoff."
+  }
+ ],
+ "jurisdictionsChecked": [
+  "Napa County (Board of Supervisors Districts 1 and 3, Superintendent: decided June, no runoff)",
+  "Napa County Board of Education",
+  "Napa Valley Community College District",
+  "Napa Valley Unified School District",
+  "St. Helena Unified School District",
+  "Calistoga Joint Unified School District",
+  "Howell Mountain Elementary School District",
+  "Pope Valley Union School District",
+  "American Canyon",
+  "Calistoga",
+  "Napa",
+  "St. Helena",
+  "Yountville",
+  "Circle Oaks Water District",
+  "Congress Valley Water District",
+  "Los Carneros Water District",
+  "Spanish Flat Water District",
+  "Napa County Regional Park & Open Space District"
+ ],
+ "contests": [
+  {
+   "jurisdiction": {
+    "id": "ca-napa-ccd-napa-valley",
+    "existing": false,
+    "name": "Napa Valley Community College District",
+    "type": "community-college-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-american-canyon",
+     "ca-napa-calistoga",
+     "ca-napa-napa",
+     "ca-napa-st-helena",
+     "ca-napa-yountville"
+    ]
+   },
+   "office": "Napa Valley College Trustee",
+   "district": "Trustee Area No. 2",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jeff Dodd",
+     "designation": "Napa Valley College Trustee",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Heriverto Ruiz",
+     "designation": "School Counselor",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Seats=1 from the county Candidate Information Guide (one seat per trustee area). The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-ccd-napa-valley",
+    "existing": false,
+    "name": "Napa Valley Community College District",
+    "type": "community-college-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-american-canyon",
+     "ca-napa-calistoga",
+     "ca-napa-napa",
+     "ca-napa-st-helena",
+     "ca-napa-yountville"
+    ]
+   },
+   "office": "Napa Valley College Trustee",
+   "district": "Trustee Area No. 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Emily Pastula",
+     "designation": "Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Elizabeth L Goff",
+     "designation": "Retired Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Karina Servente",
+     "designation": "Community Parent Liaison",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Open seat; incumbent Jason Kishineff is running for American Canyon City Council. Seats=1 from the Candidate Information Guide. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-ccd-napa-valley",
+    "existing": false,
+    "name": "Napa Valley Community College District",
+    "type": "community-college-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-american-canyon",
+     "ca-napa-calistoga",
+     "ca-napa-napa",
+     "ca-napa-st-helena",
+     "ca-napa-yountville"
+    ]
+   },
+   "office": "Napa Valley College Trustee",
+   "district": "Trustee Area No. 4",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cindy Johnson",
+     "designation": "High School Counselor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "William \"Kyle\" Iverson",
+     "designation": "Napa Valley College Trustee Dist. 4",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Seats=1 from the Candidate Information Guide. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-sd-napa-valley-unified",
+    "existing": false,
+    "name": "Napa Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-napa",
+     "ca-napa-american-canyon",
+     "ca-napa-yountville"
+    ]
+   },
+   "office": "Napa Valley Unified School District Trustee",
+   "district": "Trustee Area 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robin Jankiewicz",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Matthew McMann",
+     "designation": "Small Business Owner",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Seats=1 from the Candidate Information Guide. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-sd-napa-valley-unified",
+    "existing": false,
+    "name": "Napa Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-napa",
+     "ca-napa-american-canyon",
+     "ca-napa-yountville"
+    ]
+   },
+   "office": "Napa Valley Unified School District Trustee",
+   "district": "Trustee Area 6",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Elba Gonzalez-Mares",
+     "designation": "Executive Director",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Tyrone Navarro",
+     "designation": "Retired Public Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Incumbent per Candidate Information Guide officeholder table. Seats=1. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-sd-napa-valley-unified",
+    "existing": false,
+    "name": "Napa Valley Unified School District",
+    "type": "school-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-napa",
+     "ca-napa-american-canyon",
+     "ca-napa-yountville"
+    ]
+   },
+   "office": "Napa Valley Unified School District Trustee",
+   "district": "Trustee Area 7",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "David Hildebrandt",
+     "designation": "Higher Education Professor",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jason M. Dooley",
+     "designation": "Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Houser",
+     "designation": "Recreation Specialist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Gabriel Champagne Affonso",
+     "designation": "Community Volunteer",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Two-year short term; seat listed as vacant in the Candidate Information Guide. Seats=1. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-sd-calistoga-joint-unified",
+    "existing": false,
+    "name": "Calistoga Joint Unified School District",
+    "type": "school-district",
+    "parent": "ca-napa",
+    "areas": [
+     "ca-napa-calistoga"
+    ]
+   },
+   "office": "Governing Board Member",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Cecilia Ramirez",
+     "designation": "Hairdresser/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Laurel Rios",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Irene Pena",
+     "designation": "School Psychologist",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Rebecca Sager",
+     "designation": "Teacher",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Seats=2 at large from the Candidate Information Guide (the roster's 'Vote for' line is not clearly tied to this contest). District extends partly into Sonoma County. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-american-canyon",
+    "existing": true,
+    "name": "American Canyon",
+    "type": "city",
+    "parent": "ca-napa",
+    "areas": []
+   },
+   "office": "City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Jason Kishineff",
+     "designation": "Napa Valley College Board Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Sindy Biederman",
+     "designation": "Napa County Office of Education Board Trustee",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Robert Cole",
+     "designation": "Non-Profit Organization President",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jim Giron",
+     "designation": "Retired IT Executive",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "David Oro",
+     "designation": "Business Owner/Councilmember",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-napa-council-district-1",
+    "existing": false,
+    "name": "City of Napa City Council District 1",
+    "type": "council-district",
+    "parent": "ca-napa-napa",
+    "areas": [
+     "ca-napa-napa"
+    ]
+   },
+   "office": "City Council District 1",
+   "district": "District 1",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Christopher DeNatale",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Only one candidate but the county roster marks this contest 'On Ballot: Yes'. Spelling 'DeNatale' from City of Napa final candidate listing (Aug 7, 2026); county prints all caps. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-napa-council-district-3",
+    "existing": false,
+    "name": "City of Napa City Council District 3",
+    "type": "council-district",
+    "parent": "ca-napa-napa",
+    "areas": [
+     "ca-napa-napa"
+    ]
+   },
+   "office": "City Council District 3",
+   "district": "District 3",
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Mary Luros",
+     "designation": "Councilmember/Attorney/Mom",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jim Hinton",
+     "designation": "Caregiver",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Also matched against City of Napa final candidate listing (Aug 7, 2026). The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-st-helena",
+    "existing": true,
+    "name": "St. Helena",
+    "type": "city",
+    "parent": "ca-napa",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Bonnie Schoch",
+     "designation": "Accountant",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Patrick Kenealy",
+     "designation": "Venture Capitalist",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-st-helena",
+    "existing": true,
+    "name": "St. Helena",
+    "type": "city",
+    "parent": "ca-napa",
+    "areas": []
+   },
+   "office": "City Council",
+   "district": null,
+   "seats": 2,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Kate Spadarotto",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Joshua Parke",
+     "designation": "Business Owner/Parent",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Daniel Hale",
+     "designation": "Designer",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "John Pedersen",
+     "designation": "Father",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Scott Diaz",
+     "designation": "Appointed Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-yountville",
+    "existing": true,
+    "name": "Yountville",
+    "type": "city",
+    "parent": "ca-napa",
+    "areas": []
+   },
+   "office": "Mayor",
+   "district": null,
+   "seats": 1,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Marjorie Mohler",
+     "designation": "Mayor",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Joe Tagliaboschi",
+     "designation": "City Manager",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "The county list shows whether a candidate statement was filed but publishes no statement URL."
+  },
+  {
+   "jurisdiction": {
+    "id": "ca-napa-yountville",
+    "existing": true,
+    "name": "Yountville",
+    "type": "city",
+    "parent": "ca-napa",
+    "areas": []
+   },
+   "office": "Member of Town Council",
+   "district": null,
+   "seats": null,
+   "status": "confirmed",
+   "candidates": [
+    {
+     "name": "Robin McKee",
+     "designation": "Incumbent",
+     "statementUrl": null,
+     "incumbent": true
+    },
+    {
+     "name": "Jessi Bugden",
+     "designation": null,
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Matthew Chrzanowski",
+     "designation": "Winegrower",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Hillery Bolt Trippe",
+     "designation": "Retired Attorney",
+     "statementUrl": null,
+     "incumbent": null
+    },
+    {
+     "name": "Jill Turner",
+     "designation": "Businessperson",
+     "statementUrl": null,
+     "incumbent": null
+    }
+   ],
+   "source": {
+    "label": "Napa County Registrar of Voters, Qualified List of Candidates, Nov 3 2026 General Election (printed 8/13/2026)",
+    "url": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+   },
+   "readingsMatched": true,
+   "note": "Roster prints no 'Vote for' line for this contest; seats likely 2 (two council seats were elected in 2022) but unverified. Jessi Bugden listed with '(No Ballot Designation)'. The county list shows whether a candidate statement was filed but publishes no statement URL."
+  }
+ ],
+ "notOnBallot": [
+  {
+   "jurisdiction": "Napa County Board of Education",
+   "office": "Trustee Area 1",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Don J Huffman (Incumbent)",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Napa County Board of Education",
+   "office": "Trustee Area 2",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Janna Waldinger (Incumbent)",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Napa County Board of Education",
+   "office": "Trustee Area 4",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Nadine Wade (Appointed Incumbent)",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Napa Valley Community College District",
+   "office": "Trustee Area No. 5",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Lotte Cosca",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Napa Valley Unified School District",
+   "office": "Trustee Area 3",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Katherine Hyde Shelton",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "St. Helena Unified School District",
+   "office": "Governing Board Member (3 seats)",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Laura Symon, Shawn Moura, Jeanmarie Wolf",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Pope Valley Union School District",
+   "office": "Governing Board Member (2 seats)",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Shasta Torrey, Brian Varner",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "City of Calistoga",
+   "office": "Mayor",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Kevin Eisenberg",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "City of Calistoga",
+   "office": "City Council (2 seats)",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Lana Richardson, Scott Cooper",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Circle Oaks Water District",
+   "office": "Board Member (2 seats)",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Eva Valenti-Bird, Lisa M Hackett",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Congress Valley Water District",
+   "office": "Board Member",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Erik Erickson, Adam Joffe, Robert Edwin Lee (3 candidates; roster shows 'Vote for 2' but the Candidate Information Guide lists 3 seats, so 3 candidates for 3 seats)",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Los Carneros Water District",
+   "office": "Board Member (2 seats)",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Will Drayton, Jim Lincoln",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Napa County Regional Park & Open Space District",
+   "office": "Director, Ward 1",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Brad Wagenknecht",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Napa County Regional Park & Open Space District",
+   "office": "Director, Ward 5",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Barry Christian",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Spanish Flat Water District",
+   "office": "Board Member (3 seats)",
+   "reason": "not on ballot: county qualified list marks contest 'On Ballot: No' (candidates did not exceed seats; presumed appointed in lieu of election). Qualified: Cheryl Bean, Julia Robinson, Megan Jepsen",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  },
+  {
+   "jurisdiction": "Howell Mountain Elementary School District",
+   "office": "Governing Board Member (2 four-year seats and 2 two-year seats per Candidate Information Guide)",
+   "reason": "Contest does not appear on the county qualified candidate list at all; presumed no contest on ballot (likely appointed in lieu or no candidates filed). Not separately confirmed.",
+   "source": "https://www.napacounty.gov/2328/Qualified-List-of-Candidates-PDF"
+  }
+ ],
+ "unavailable": [
+  "No candidate statement URLs: the county list only flags whether a statement was filed; no sample ballot/voter guide with statements was found online.",
+  "Yountville Town Council number of seats not printed on the roster (likely 2).",
+  "Names are printed in ALL CAPS by the county; converted to normal capitalization (e.g., McMann, DeNatale, Gonzalez-Mares). Accents (e.g., Pena vs Peña) cannot be confirmed from the all-caps source.",
+  "Ballot designations came from the first reading only; the second reading confirmed names, contest titles and On Ballot status; a third targeted reading re-confirmed selected designations.",
+  "Howell Mountain Elementary SD absent from roster; no county appointed-in-lieu notice was found to confirm.",
+  "Board of Supervisors: localnewsmatters reported Districts 1 and 3 incumbents unopposed in June 2026; no November county runoffs found."
+ ]
+}
