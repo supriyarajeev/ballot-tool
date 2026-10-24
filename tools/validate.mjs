@@ -369,6 +369,9 @@ if (rubric) {
   }
   ["record", "proposal", "statement", "independent"].forEach((b) => { if (!rubricBases.has(b)) err(`${RB}: missing evidence basis ${b}`); });
   if (!rubric.missingPolicy) err(`${RB}: needs missingPolicy`);
+  // Release gate: candidate scores are public only when release.public is true (see assets/guide.js evalPublic).
+  if (!rubric.release || typeof rubric.release.public !== "boolean") err(`${RB}: needs release.public (true or false)`);
+  else if (!Array.isArray(rubric.release.enableWhen) || !rubric.release.enableWhen.length) err(`${RB}: release needs enableWhen, the conditions for turning candidate evaluation on`);
 }
 // County map (data/bay-map.json): the shapes must be exactly the region's counties, with a source.
 const bayMap = readOnce("data/bay-map.json");
@@ -465,6 +468,7 @@ for (const e of elections) {
         if (r && k === "ev" && r.basis === "statement") err(`${w} ev: Evidence strength cannot rest on a campaign statement alone`);
       });
       pastDate(ev.reviewed, w, "reviewed");
+      if (ev.reviewedBy !== undefined && (typeof ev.reviewedBy !== "string" || !ev.reviewedBy.trim())) err(`${w}: reviewedBy must name the person who reviewed it`);
     }
     const w = `${f.candidates} ${p.id}`;
     claimId(p.id, f.candidates); candIds.add(p.id);

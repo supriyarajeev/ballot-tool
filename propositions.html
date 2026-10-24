@@ -100,6 +100,14 @@ header { display: grid; gap: 12px; }
 .prog-l { font-size: .8rem; color: var(--muted); }
 .prog-l b { color: var(--ink); font-family: var(--f-data); font-weight: 500; }
 .tally { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+/* Phones: the progress bar stays one compact row (count, bar, See my ballot); the lean tally is shown in Step 3. */
+@media (max-width: 600px) {
+  .sticky { padding-block: 6px; margin-block: -6px; padding-top: max(6px, env(safe-area-inset-top, 0px)); }
+  .sticky-in { flex-wrap: nowrap; padding: 6px 10px; gap: 10px; }
+  .sticky .tally { display: none; }
+  .prog { min-width: 0; flex: 1 1 auto; }
+  .sticky .linkbtn { flex: none; min-height: 44px; display: inline-flex; align-items: center; white-space: nowrap; }
+}
 
 .panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; display: grid; gap: 16px; }
 .sec-head { display: grid; gap: 6px; }
@@ -232,6 +240,13 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
 .hs-track i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ballot-soft); border-right: 2px solid var(--ballot); }
 .hs-track b { position: absolute; left: 0; top: 0; bottom: 0; background: var(--ballot); }
 .hs-legend { font-size: .76rem; color: var(--muted); }
+.hs-key { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .76rem; color: var(--muted); }
+.hs-key span { display: inline-flex; align-items: center; gap: 6px; }
+.hs-key i { width: 14px; height: 10px; border-radius: 3px; display: inline-block; }
+.hs-key .k-l { background: var(--ballot-soft); border: 1.5px solid var(--ballot); }
+.hs-key .k-d { background: var(--ballot); }
+.calc-scroll { overflow-x: auto; }
+@media (max-width: 600px) { .sticky .linkbtn { padding: 0 12px; border: 1.5px solid var(--ballot); border-radius: 10px; background: var(--sheet); } }
 .calc-all summary, .calc summary { cursor: pointer; font-weight: 700; font-size: .86rem; color: var(--ballot); }
 .calc-body { display: grid; gap: 6px; font-size: .84rem; padding-top: 6px; }
 .pct { font-size: .86rem; }
@@ -329,10 +344,10 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     </div>
   </header>
 
-  <div class="sticky" aria-live="polite">
+  <div class="sticky">
     <div class="sticky-in">
       <div class="prog">
-        <div class="prog-l">Answered <b id="ans-n">0</b> of 14</div>
+        <div class="prog-l" aria-live="polite">Answered <b id="ans-n">0</b> of 14</div>
         <div class="bar"><i id="ans-bar"></i></div>
       </div>
       <div class="tally" id="tally-top"></div>
@@ -1062,8 +1077,8 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       return "<tr><th scope=\"row\">" + esc(f.name) + "</th><td>" + (r.weight === 0 ? "Ignored" : BW.fmt(sh.pct[r.k], 1) + "%") + "</td><td>" + rating + "</td><td>" + (r.counted ? BW.fmt(r.points, 2) : "0 (left out)") + "</td></tr>";
     }).join("");
     return '<p class="note-s">Importance is how much each factor counts for you. Rating is how this measure scores on it. Points are what the factor adds to the result.</p>' +
-      "<table><thead><tr><th scope=\"col\">Factor</th><th scope=\"col\">Importance</th><th scope=\"col\">Rating</th><th scope=\"col\">Points</th></tr></thead><tbody>" + rows + "</tbody>" +
-      "<tfoot><tr><td>Total</td><td>100%</td><td></td><td>" + BW.fmt(wr.exactPercent, 2) + "</td></tr></tfoot></table>" +
+      '<div class="calc-scroll" tabindex="0" role="region" aria-label="Calculation table for Prop ' + p.n + '"><table><caption class="vh">How Prop ' + p.n + "'s score is calculated</caption><thead><tr><th scope=\"col\">Factor</th><th scope=\"col\">Importance</th><th scope=\"col\">Rating</th><th scope=\"col\">Points</th></tr></thead><tbody>" + rows + "</tbody>" +
+      "<tfoot><tr><td>Total</td><td>100%</td><td></td><td>" + BW.fmt(wr.exactPercent, 2) + "</td></tr></tfoot></table></div>" +
       '<p class="note-s">Exact average ' + BW.fmt(wr.exactAverage, 2) + " of 5 (" + BW.fmt(wr.exactPercent, 2) + "%). The tool rounds it to " + wr.average.toFixed(1) + " of 5, shown as " + wr.percent + "%, and uses that for the score and the lean." +
       (rescaled ? " Some weighted factors are not rated, so the others were scaled up to fill their share." : "") + "</p>" +
       '<p class="note-s">Your preference. ' + (l.g === null ? "Preference alignment not calculated, because you have not answered this question." : esc(l.pref) + ", giving " + esc(l.label) + ". The evidence rating alone never decides Yes or No.") + "</p>";
@@ -1076,6 +1091,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     var f = FACTORS.filter(function (x) { return x.k === row.k; })[0];
     el.innerHTML = "<p><b>Example, Prop " + p.n + ", " + esc(f.name) + ".</b> Importance " + BW.fmt(row.share, 2) + "% × rating " + row.rating + "/5 = " + BW.fmt(row.points, 2) + " points toward the weighted result.</p>" +
       '<div class="hs-bar"><div class="hs-track" role="img" aria-label="' + esc(f.name) + " can add up to " + BW.fmt(row.share, 1) + " points and adds " + BW.fmt(row.points, 1) + '"><i style="width:' + BW.fmt(row.share, 2) + '%"></i><b style="width:' + BW.fmt(row.points, 2) + '%"></b></div>' +
+      '<span class="hs-key" aria-hidden="true"><span><i class="k-l"></i>Most it can add</span><span><i class="k-d"></i>What it adds</span></span>' +
       '<span class="hs-legend">Light: the most this factor can add (its importance). Dark: what it adds with a rating of ' + row.rating + "/5. All seven factors together make the result, here " + wr.percent + "% (" + wr.average.toFixed(1) + "/5).</span></div>";
   }
 

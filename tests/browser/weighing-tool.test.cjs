@@ -25,6 +25,14 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     await p.evaluate(() => { const d = document.getElementById("customize"); if (d) d.open = true; });
     const T = async (s) => (await p.textContent(s)).trim();
     ok((await p.locator("article.prop").count()) === 14, "14 cards " + tag);
+    if (w === 360) {
+      const sh = await p.$eval(".sticky", (e) => e.getBoundingClientRect().height);
+      ok(sh <= 70 && !(await p.isVisible(".sticky .tally")), "phone: the progress bar is one compact row (" + Math.round(sh) + "px) " + tag);
+      const bt = await p.$eval(".sticky .linkbtn", (e) => e.getBoundingClientRect().height); ok(bt >= 44, "phone: See my ballot is a 44px target " + tag);
+      await p.click('a.step[href="#s2"]'); await p.waitForTimeout(900);
+      const g = await p.evaluate(() => [document.querySelector(".sticky").getBoundingClientRect().bottom, document.querySelector("#s2 h2").getBoundingClientRect().top]);
+      ok(g[1] >= g[0] - 1, "phone: jumping to Step 2 leaves its heading below the progress bar " + JSON.stringify(g.map(Math.round)) + " " + tag);
+      await p.evaluate(() => window.scrollTo(0, 0)); }
     // defaults
     ok((await p.getAttribute('.preset[data-id="def"]', "aria-pressed")) === "true", "default preset active " + tag);
     ok((await T("#tally")).includes("Not answered 14"), "all unanswered " + tag);

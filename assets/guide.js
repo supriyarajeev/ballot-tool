@@ -561,10 +561,10 @@
       '<div class="hero-grid">' +
       '<section class="hero">' +
         '<p class="eyebrow">' + esc(DB.election.name) + "</p>" +
-        "<h1>" + SITE + "</h1>" +
+        '<h1 class="hero-title"><span>California Bay Area</span> <span>Ballot Guide</span></h1>' +
         '<p class="tagline">Your local and statewide ballot, explained with evidence.</p>' +
-        '<p class="lede">Find the measures and candidates that may be on your ballot, see what each choice would do, and check the official sources. Every statewide proposition is rated on seven evidence factors with sources, and you decide how much each factor matters. This guide never tells you how to vote.</p>' +
         '<div class="cta"><a class="btn primary" href="#/find">' + icon("pin") + 'Find My Ballot</a><a class="btn secondary" href="propositions.html">' + icon("scale") + "Ballot Weighing Tool</a></div>" +
+        '<p class="lede">Find the measures and candidates that may be on your ballot, see what each choice would do, and check the official sources. Every statewide proposition is rated on seven evidence factors with sources, and you decide how much each factor matters. This guide never tells you how to vote.</p>' +
         '<p class="small hero-note">' + icon("info") + "<span>This guide is for information only. Choosing a county or city here does not confirm your exact districts. Your official sample ballot does.</span></p>" +
         '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and contests</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
       "</section>" +
@@ -873,9 +873,29 @@
     window.BallotWeights.KEYS.forEach(function (k) { var r = ev.ratings[k]; if (r && window.BallotWeights.validRating(r.rating) && r.basis && r.source && /^https:/.test(r.source.url || "")) out[k] = r; });
     return out;
   }
+  /* Release gate (Oct 24, 2026). Candidate scores stay hidden from the public until data/candidate-rubric.json sets
+     release.public to true AND every candidate in the contest has all seven factors rated, sourced and reviewed by a
+     person (evaluation.reviewedBy). Until then a research-pending notice is shown, with no scores, tables or weights.
+     To re-enable: complete the research, record reviewedBy, run tools/validate.mjs, then set release.public to true. */
+  function evalPublic(cands) {
+    var rel = (DB.rubric && DB.rubric.release) || {};
+    if (rel.public !== true || !cands.length) return false;
+    return cands.every(function (p) { return p.evaluation && p.evaluation.reviewedBy && Object.keys(candRatings(p)).length === 7; });
+  }
+  function evalPending() {
+    var rel = (DB.rubric && DB.rubric.release) || {};
+    var src = (rel.futureSources || ["Official public records", "Published policy proposals", "Statements attributable to the candidate", "Reliable independent reporting"]).map(function (x) { return x.toLowerCase(); });
+    return '<section class="ce-pending" data-candidate-eval="pending" aria-labelledby="ce-pend-h">' +
+      '<div class="ce-pend-head"><h2 id="ce-pend-h">Candidate evaluation</h2><span class="pill-status">Research pending</span></div>' +
+      "<p>Candidate-specific evidence profiles are not complete yet, and none has been reviewed by a person. <b>No candidate has been given a score or rating in this release.</b></p>" +
+      "<p>Missing information is not a low score. It says nothing about a candidate’s qualifications, positions or record.</p>" +
+      '<p class="small">A future evaluation would use the same seven factors as the <a href="propositions.html">Ballot Weighing Tool</a>, apply one rubric to every candidate in a contest, and rest on ' + esc(andList(src)) + ', each rating with its source and reason. Until then, read each candidate’s official statement and your county’s voter guide. <a href="#/about">How this guide works</a>.</p>' +
+      "</section>";
+  }
   function candidateEval(c, cands) {
     var BW = window.BallotWeights, R = rubricFor(c);
     if (!BW || !R) return "";
+    if (!evalPublic(cands)) return evalPending();
     var sw = BW.savedWeights(), w = sw.w, sh = BW.shares(w);
     var basisLabel = {}; (DB.rubric.bases || []).forEach(function (b) { basisLabel[b.id] = b.label; });
     var weights = '<ul class="ce-w">' + BW.KEYS.map(function (k) {
@@ -1020,6 +1040,11 @@
       '<a class="back" href="#/">Home</a>' +
       '<article class="detail" data-about="1"><p class="eyebrow">Beta release</p><h1>About this guide</h1>' +
       '<p class="lede">Scope, coverage and limitations of this beta.</p>' +
+      '<ul class="about-glance" data-about-glance="1">' +
+        '<li><b>Covers</b><span>' + n.state + " statewide propositions, statewide and Bay Area district contests, and local measures and contests in the " + nc + " Bay Area counties.</span></li>" +
+        "<li><b>Checked by software</b><span>Data consistency, sources, links and the scoring arithmetic, on every release.</span></li>" +
+        "<li><b>Reviewed by a person</b><span>" + (n.verified ? num(n.verified) + " records so far." : "Not yet. Nothing is marked Verified.") + "</span></li>" +
+        "<li><b>Candidate scores</b><span>None assigned. Candidate research is pending.</span></li></ul>" +
       '<div class="note warn"><b>Beta release. Coverage and evidence are still being verified.</b>' +
         "<p>This independent guide helps voters explore California ballot measures and candidates, review supporting evidence, and weigh issues according to their own priorities. Its summaries, evidence, ratings and local ballot listings have not yet been independently verified by a person. Local coverage may be incomplete, and district-specific contests may not apply to every voter.</p>" +
         "<p>Please confirm your ballot and important details with your county elections office’s official voter information.</p></div>" +
@@ -1027,7 +1052,7 @@
         "<p>This is an independent civic technology project, built by Supriya Rajeev for educational and informational purposes. It gathers public election information in one place so voters can find it more easily.</p>" +
         "<p>It is not an official election resource. It is not affiliated with, endorsed by or sponsored by the California Secretary of State, any county elections office, or any candidate, campaign, party or committee, and it does not endorse any candidate or position.</p>" +
         "<p>The information is provided as is, without warranty of any kind. It may contain errors or be out of date. Do not rely on it as your only source, and always confirm with your county elections office and the official voter guide.</p>" +
-        "<p>Candidate photos come from Wikimedia Commons, where each is tagged as public domain or under a Creative Commons license. Some public-domain tags, such as those on California Legislature portraits, rest on readings that are not settled law. Every photo is credited on its contest and candidate pages with a link to its source and license. Photos are shown only to help voters recognize candidates and do not imply endorsement by the candidate or the photographer. A grey placeholder means no reusable photo was found. Candidates or rights holders who want a photo corrected or removed can contact the developer through the " + ext("https://github.com/supriyarajeev/ballot-tool", "project’s GitHub repository") + ". Requests will be reviewed, and photos removed where appropriate.</p></div>", true) +
+        "<p>Candidate photos come from Wikimedia Commons, where each is tagged as public domain or under a Creative Commons license. Some public-domain tags rest on Wikimedia Commons’ reading of California public records law, which is not a court ruling on each photo. Every photo is credited on its contest and candidate pages with a link to its source and license. Photos are shown only to help voters recognize candidates and do not imply endorsement by the candidate or the photographer. A grey placeholder means no reusable photo was found. Candidates or rights holders who want a photo corrected or removed can contact the developer through the " + ext("https://github.com/supriyarajeev/ballot-tool", "project’s GitHub repository") + ". Requests will be reviewed, and photos removed where appropriate.</p></div>", true) +
       sec("What this guide does", "<p>It lists statewide propositions, Bay Area local measures and candidate contests for the " + esc(DB.election.name) + ", explains each in plain English with its official sources, and shows what has not been collected yet. It never tells you how to vote, and it never scores, ranks or recommends candidates.</p>", true) +
       sec("What it covers", "<p>All of California for the " + n.state + " statewide propositions and the statewide contests, such as Governor. Congressional, State Senate and State Assembly contests only for the districts that include Bay Area counties. Local measures and contests only for the " + nc + " Bay Area counties" + (R.municipalityCount ? " and their " + num(R.municipalityCount) + " cities and towns" : "") + ", plus a few districts that cross into neighboring counties. Other counties show statewide items only.</p>" + coveredSummary(), true) +
       sec("How information is checked", "<p>Four different things happen. Only review by a person confirms a fact, and it has not happened yet.</p><ul class=\"srclist\">" +
@@ -1039,8 +1064,16 @@
       sec("How the Ballot Weighing Tool works", toolSteps() +
         "<p>The ratings are structured judgments made for this tool with AI research assistance, using one published rubric for every proposition. They are not official ratings. On October 24, 2026 the owner approved resolving four ratings that had been flagged because their written reasons might not match the rubric. After reading the legal text and the LAO analysis, Proposition 44’s accountability went from 5 to 4, because audits are allowed but not required. The evidence strength of Propositions 37 and 38 and Proposition 37’s accountability stayed at 3, with clearer reasons. No person outside the project has reviewed the ratings.</p>" +
         "<p>The tool shows each factor's share of your weighting as a percentage, and each proposition's weighted evidence rating as a percentage of the top rating, with the points each factor adds. These are a clearer view of the same weighted average; no score or lean changed.</p>" +
-        "<p>Contest pages have a candidate evaluation mode that applies the same seven factors and your weights, with guidance written for each office. No candidate has been rated yet, because a rating needs attributable evidence. It never ranks candidates or recommends a vote.</p>" +
+        "<p>Your preference and the evidence rating are separate. Your answer says whether you support a measure’s goal; the rating says how well the measure is built on the factors you weigh. The tool shows how the two line up and never decides for you.</p>" +
         '<p><a href="propositions.html">Open the Ballot Weighing Tool</a></p>') +
+      sec("Evidence ratings and your preferences", "<p><b>Evidence ratings</b> are this guide’s structured judgments of how well a proposition is built, on seven factors from 1 (weak) to 5 (strong), each with a written reason and sources. They are the same for every visitor.</p>" +
+        "<p><b>Your weights</b> say how much each factor matters to you. The weighted rating is the weighted average of the ratings under your weights, shown out of 5 and as a percentage of the top rating.</p>" +
+        "<p><b>Your preference</b> is whether you support a measure’s goal. It is kept separate from the evidence rating. A score is never a chance of passing, a share of voters, a guarantee of benefit or a recommendation.</p>") +
+      sec("What “Insufficient evidence” means", "<p>A factor shows Insufficient evidence when no documented, sourced rating exists for it. It is left out of the calculation; it is never counted as 0, 1 or 5, and it is not a judgment against the measure or candidate. If no weighted factor is rated, no score is shown.</p>") +
+      sec("Candidate evaluation", "<p><b>Research pending.</b> Candidate-specific evidence profiles are not complete and have not been reviewed by a person, so no candidate has a score or rating in this release, and contest pages show a status notice instead.</p>" +
+        "<p>A future evaluation would apply the same seven factors and one rubric to every candidate in a contest. Each rating would name its source (official records, published proposals, attributable statements or reliable independent reporting), its date and its reason, and would keep a candidate’s own claims apart from independently established facts. Missing information would show as Insufficient evidence, never as a low score, and no overall score would be shown until every factor is documented and a person has reviewed it.</p>" +
+        "<p>Candidates always appear in the official ballot order. This guide never ranks candidates, predicts results or recommends a vote.</p>") +
+      sec("How sources are chosen", "<p>Official sources come first: the Secretary of State, the Legislative Analyst’s Office, county elections offices and official measure documents. News reports are used only where official sources are silent, and are labeled as reported. Each item lists its sources and the date it was last checked.</p>") +
       sec("What the labels mean", '<ul class="srclist">' +
         "<li><b>Incomplete (required info or evidence is missing).</b> Something a voter needs, such as the ballot question or the official text, has not been collected. The item lists what is missing.</li>" +
         "<li><b>Needs review.</b> The facts have sources, but a person has not yet checked them. During the beta every item is at this stage or Incomplete, so lists leave this label out. Each item’s own page shows it, with what still needs checking.</li>" +
@@ -1081,6 +1114,7 @@
     else if (v === "browse" && parts.length === 1) viewBrowse();
     else if (v === "contests" && parts.length === 1) viewContests();
     else viewNotFound("That page does not exist.");
+    setNav(v);
     var warn = loadWarning();
     if (warn) app.insertAdjacentHTML("afterbegin", warn);
     // The title is for the browser tab and history only. The visitor counter never reads it (see countVisit).
@@ -1089,6 +1123,20 @@
     // Route changes are announced by moving focus to the new h1, not by a live region over the whole page.
     // On the first load focus stays at the top of the document, so the skip link, menu and beta notice come first (UX-03).
     if (navCount > 1) focusTop(); else window.scrollTo(0, 0);
+  }
+
+  // Compact menu on phones (CSS shows the button below 640px). Without JavaScript the links stay visible.
+  var topbar = document.querySelector(".topbar"), menuBtn = document.querySelector(".menu-btn");
+  function setMenu(open) { if (!topbar || !menuBtn) return; topbar.classList.toggle("open", open); menuBtn.setAttribute("aria-expanded", open ? "true" : "false"); }
+  if (menuBtn) {
+    menuBtn.addEventListener("click", function () { setMenu(menuBtn.getAttribute("aria-expanded") !== "true"); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && menuBtn.getAttribute("aria-expanded") === "true") { setMenu(false); menuBtn.focus(); } });
+  }
+  // Marks the current section in the menu and closes the phone menu after navigating.
+  function setNav(v) {
+    setMenu(false);
+    var map = { find: "#/find", ballot: "#/find", contests: "#/contests", contest: "#/contests", candidate: "#/contests", browse: "#/browse", item: "#/browse", statewide: "#/browse", about: "#/about" };
+    document.querySelectorAll(".topnav a").forEach(function (a) { if (map[v] && a.getAttribute("href") === map[v]) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
   }
 
   countVisit();

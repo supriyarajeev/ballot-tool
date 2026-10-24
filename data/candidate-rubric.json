@@ -5,10 +5,26 @@
  "scale": "1 weak to 5 strong. 3 means mixed or partly documented. A 2 or 4 falls between the descriptions.",
  "missingPolicy": "A factor without a documented rating shows Insufficient evidence. It is never counted as 1, 0 or 5. A weighted summary is calculated for a candidate only when every factor the voter weights has a documented rating; otherwise the summary says Not calculated and how many factors are rated.",
  "bases": [
-  { "id": "record", "label": "Documented past record", "d": "What the candidate did in public office or a public role, from official records such as votes, budgets, audits or court records." },
-  { "id": "proposal", "label": "Published policy proposal", "d": "A specific plan the candidate published, with details that can be checked." },
-  { "id": "statement", "label": "Campaign statement", "d": "What the candidate says, including the official candidate statement. A campaign promise alone is not evidence that a policy will work." },
-  { "id": "independent", "label": "Independent evidence", "d": "Analysis by a nonpartisan source, such as the Legislative Analyst's Office, an auditor or peer-reviewed research." }
+  {
+   "id": "record",
+   "label": "Documented past record",
+   "d": "What the candidate did in public office or a public role, from official records such as votes, budgets, audits or court records."
+  },
+  {
+   "id": "proposal",
+   "label": "Published policy proposal",
+   "d": "A specific plan the candidate published, with details that can be checked."
+  },
+  {
+   "id": "statement",
+   "label": "Campaign statement",
+   "d": "What the candidate says, including the official candidate statement. A campaign promise alone is not evidence that a policy will work."
+  },
+  {
+   "id": "independent",
+   "label": "Independent evidence",
+   "d": "Analysis by a nonpartisan source, such as the Legislative Analyst's Office, an auditor or peer-reviewed research."
+  }
  ],
  "offices": [
   {
@@ -95,5 +111,22 @@
     "oc": "Measurable goals and reporting."
    }
   }
- ]
+ ],
+ "release": {
+  "public": false,
+  "status": "research-pending",
+  "note": "Candidate evaluation is turned off for the public. Contest pages show a research-pending notice and no scores, ratings tables or weight controls.",
+  "enableWhen": [
+   "Every candidate in the contest has a documented rating on all seven factors, each with its evidence basis, a written rationale and an https source.",
+   "Each candidate's evaluation records the date and the person who reviewed it (evaluation.reviewed and evaluation.reviewedBy).",
+   "The ratings pass node tools/validate.mjs.",
+   "The owner sets release.public to true in this file."
+  ],
+  "futureSources": [
+   "Official public records",
+   "Published policy proposals",
+   "Statements attributable to the candidate",
+   "Reliable independent reporting"
+  ]
+ }
 }

@@ -331,3 +331,71 @@ details.nob { margin-top: 4px; }
 details.nob summary { cursor: pointer; color: var(--accent, inherit); font-size: .9rem; }
 details.nob ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px; font-size: .9rem; }
 details.nob .muted { display: block; }
+
+/* ---------- Professional polish and mobile pass (Oct 24, 2026) ---------- */
+/* Header: one line on desktop; on phones the brand stays on one line and the links sit behind a Menu button. */
+.brand { white-space: nowrap; }
+.menu-btn { display: none; }
+.topnav a { min-height: 44px; display: inline-flex; align-items: center; }
+.topnav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+@media (max-width: 639px) {
+  .topbar { flex-wrap: nowrap; padding-top: max(10px, env(safe-area-inset-top, 0px)); }
+  .brand { font-size: .98rem; display: block; padding: 11px 0; line-height: 22px; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .js .menu-btn { display: inline-flex; flex: none; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border: 1.5px solid var(--rule); border-radius: 10px; background: var(--sheet); color: var(--ink); font-family: var(--f-display); font-weight: 700; font-size: .9rem; cursor: pointer; }
+  .menu-ico, .menu-ico::before, .menu-ico::after { display: block; width: 16px; height: 2px; background: currentColor; border-radius: 1px; position: relative; }
+  .menu-ico::before, .menu-ico::after { content: ""; position: absolute; left: 0; }
+  .menu-ico::before { top: -5px; } .menu-ico::after { top: 5px; }
+  .topbar.open .menu-ico { background: transparent; }
+  .topbar.open .menu-ico::before { top: 0; transform: rotate(45deg); }
+  .topbar.open .menu-ico::after { top: 0; transform: rotate(-45deg); }
+  .js .topnav { display: none; }
+  .js .topbar { flex-wrap: wrap; }
+  .js .topbar.open .topnav { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; width: 100%; padding: 6px 0 4px; }
+  .js .topbar.open .topnav a { justify-content: flex-start; padding: 0 12px; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); font-size: .95rem; }
+  .js .topbar.open .topnav a[aria-current="page"] { border-color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+  /* No JavaScript: the links wrap as a tidy two-column grid. */
+  html:not(.js) .topnav { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; width: 100%; }
+}
+@media (max-width: 379px) { .b-long { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; } }
+
+/* Beta notice: smaller on phones so it informs without dominating. */
+@media (max-width: 639px) {
+  .beta { font-size: .8rem; padding: 7px 10px; gap: 8px; line-height: 1.45; margin-top: 6px; }
+  .beta-tag { font-size: .66rem; padding: 1px 7px; }
+}
+
+/* Home hero: the title breaks between "California Bay Area" and "Ballot Guide"; actions come right after the tagline. */
+.hero-title span { display: inline-block; }
+@media (max-width: 639px) {
+  .wrap { padding-block: 12px 48px; gap: 20px; }
+  .hero { padding-block: 10px 4px; gap: 12px; }
+  .hero-title { font-size: clamp(1.55rem, 7.6vw, 2rem); line-height: 1.15; }
+  .tagline { font-size: 1.04rem; }
+  .lede { font-size: 1rem; }
+  .cta { gap: 10px; margin-top: 2px; }
+  .quick { display: grid; gap: 0; border-top: 1px solid var(--rule); }
+  .quick .textlink { border-bottom: 1px solid var(--rule); justify-content: space-between; }
+  .quick .textlink::after { content: "\203A"; font-size: 1.3rem; color: var(--muted); }
+}
+
+/* Long names, offices and URLs wrap instead of overflowing. */
+.detail h1, .cand-t b, .rti, .rsub, .srclist li, .claim p, .note p { overflow-wrap: anywhere; }
+.srclist a, .claim a { overflow-wrap: anywhere; }
+h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; }
+
+/* Candidate evaluation, research pending: an intentional status panel, not an empty scoring interface. */
+.ce-pending p { font-size: .95rem; }
+.ce-pending { border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: 12px; background: var(--sheet); padding: 16px 18px; display: grid; gap: 10px; }
+.ce-pend-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.ce-pend-head h2 { font-size: 1.1rem; }
+.pill-status { font-family: var(--f-display); font-weight: 800; font-size: .74rem; letter-spacing: .04em; padding: 3px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); border: 1px solid currentColor; }
+
+/* About: a compact status summary before the detailed sections. */
+.about-glance { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+.about-glance li { border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); padding: 10px 12px; display: grid; gap: 2px; align-content: start; }
+.about-glance b { font-family: var(--f-display); font-size: .92rem; }
+.about-glance span { font-size: .88rem; color: var(--muted); }
+
+/* Phones: section bodies and summaries keep a touch-friendly size; bottom padding respects the home indicator. */
+footer.site { padding-bottom: max(48px, calc(24px + env(safe-area-inset-bottom, 0px))); }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

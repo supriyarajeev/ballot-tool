@@ -175,31 +175,34 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
       ok(rows >= want, `${cid} ballot page lists at least its ${want} local contests (${rows} rows)`); }
     await go(p, "#/contests", "h1");
     ok(/Local contests are listed for all 9 Bay Area counties/.test(await main(p)), "the contests page says local contests are listed for all nine counties"); }
-  // Candidate evaluation mode: same seven factors and the voter's weights, no ratings yet, nothing calculated or ranked.
+  // Candidate evaluation: research pending. No scores, rating tables, weight shares or "0 of 7" messages are public.
   { await go(p, "#/contest/2026-11-03.ca.governor", "[data-candidate-eval]");
-    const pct = await p.$$eval("[data-candidate-eval] .ce-pct", (e) => e.map((x) => x.textContent));
-    ok(JSON.stringify(pct) === JSON.stringify(["20.8%", "20.8%", "16.7%", "12.5%", "12.5%", "8.3%", "8.3%"]), "candidate mode uses the standard weight shares: " + pct.join(", "));
     const t = await p.$eval("[data-candidate-eval]", (d) => d.textContent);
-    ok(/No candidate has been rated yet/.test(t) && /governor's powers/.test(t) && !/Weighted rating:/.test(t) && (t.match(/Weighted rating not calculated/g) || []).length === 2, "Governor candidates show office guidance and no calculated rating");
-    const order = await p.$$eval("[data-ce-cand] h3", (h) => h.map((x) => x.textContent));
-    ok(JSON.stringify(order) === JSON.stringify(D.contests.find((c) => c.id === "2026-11-03.ca.governor").candidates.map((id) => D.candidates.find((c) => c.id === id).name)), "candidate mode keeps the official order");
-    // Saved tool weights carry over.
-    await p.evaluate(() => localStorage.setItem("ballot-weighing-v2", JSON.stringify({ w: { nb: 5, ev: 0, lr: 0, ac: 0, if: 0, fc: 0, oc: 5 }, g: {} })));
-    await p.reload(); await p.waitForSelector("[data-candidate-eval]", { state: "attached", timeout: 10000 });
-    const pct2 = await p.$$eval("[data-candidate-eval] .ce-pct", (e) => e.map((x) => x.textContent));
-    ok(pct2[0] === "50.0%" && pct2[1] === "Ignored" && pct2[6] === "50.0%", "candidate mode applies the voter's saved weights: " + pct2.join(", "));
-    await p.evaluate(() => localStorage.removeItem("ballot-weighing-v2"));
-    // A complete, sourced set of ratings is calculated with the shared engine (test data injected, not real ratings).
-    const ctx2 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const q = await ctx2.newPage();
-    await q.route(/candidates\.json/, async (route) => { const r = await route.fetch(); const j = await r.json();
-      const c = j.candidates.find((x) => x.id === D.contests.find((k) => k.id === "2026-11-03.ca.governor").candidates[0]);
-      c.evaluation = { reviewed: "2026-10-24", ratings: Object.fromEntries(["nb", "ev", "lr", "ac", "if", "fc", "oc"].map((k, i) => [k, { rating: [3, 3, 3, 3, 4, 4, 3][i], basis: "record", note: "test", source: { title: "test", url: "https://example.gov/" } }])) };
-      await route.fulfill({ response: r, json: j }); });
-    await q.route(/fonts\.g|gc\.zgo/, (r) => r.abort());
-    await q.goto(B + "#/contest/2026-11-03.ca.governor"); await q.waitForSelector("[data-candidate-eval]", { state: "attached", timeout: 10000 });
-    const sums = await q.$$eval(".ce-sum", (e) => e.map((x) => x.textContent));
-    ok(/Weighted rating: 64% \(3\.2\/5\)/.test(sums[0]) && /not calculated/.test(sums[1]), "complete sourced ratings give a weighted rating; missing ones do not: " + sums.join(" | "));
-    await ctx2.close(); }
+    ok((await p.getAttribute("[data-candidate-eval]", "data-candidate-eval")) === "pending" && /Research pending/.test(t) && /No candidate has been given a score or rating in this release/.test(t) && /Missing information is not a low score/.test(t), "Governor shows the research-pending notice");
+    ok(!/Weighted rating|of 7 factors|Insufficient evidence|%/.test(t) && (await p.$$eval(".ce-pct, .ce-t, .ce-cand, [data-candidate-eval] input, [data-candidate-eval] table", (e) => e.length)) === 0, "the pending notice has no scores, percentages, tables or controls");
+    const order = await p.$$eval("a.cand b", (bs) => bs.map((b) => b.textContent));
+    ok(JSON.stringify(order) === JSON.stringify(D.contests.find((c) => c.id === "2026-11-03.ca.governor").candidates.map((id) => D.candidates.find((c) => c.id === id).name)), "candidates stay in the official order");
+    await go(p, "#/contest/" + D.contests.find((c) => c.listStatus === "confirmed" && (c.candidates || []).length > 2).id, "[data-candidate-eval]");
+    ok(/Research pending/.test(await p.textContent("[data-candidate-eval]")), "local contests show the same pending notice");
+    // The full mode still works behind the gate: release.public true plus reviewed ratings for every candidate (test data, not real ratings).
+    const gov = D.contests.find((k) => k.id === "2026-11-03.ca.governor");
+    const ratings = (vals) => Object.fromEntries(["nb", "ev", "lr", "ac", "if", "fc", "oc"].map((k, i) => [k, { rating: vals[i], basis: "record", note: "test", source: { title: "test", url: "https://example.gov/" } }]));
+    async function gated(pub, reviewers) {
+      const ctx2 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const q = await ctx2.newPage();
+      await q.route(/candidate-rubric\.json/, async (route) => { const r = await route.fetch(); const j = await r.json(); j.release.public = pub; await route.fulfill({ response: r, json: j }); });
+      await q.route(/candidates\.json/, async (route) => { const r = await route.fetch(); const j = await r.json();
+        gov.candidates.forEach((id, i) => { const c = j.candidates.find((x) => x.id === id); c.evaluation = { reviewed: "2026-10-24", reviewedBy: reviewers[i], ratings: ratings(i ? [4, 3, 3, 3, 3, 3, 3] : [3, 3, 3, 3, 4, 4, 3]) }; if (!reviewers[i]) delete c.evaluation.reviewedBy; });
+        await route.fulfill({ response: r, json: j }); });
+      await q.route(/fonts\.g|gc\.zgo/, (r) => r.abort());
+      await q.goto(B + "#/contest/2026-11-03.ca.governor"); await q.waitForSelector("[data-candidate-eval]", { state: "attached", timeout: 10000 });
+      const out = { mode: await q.getAttribute("[data-candidate-eval]", "data-candidate-eval"), sums: await q.$$eval(".ce-sum", (e) => e.map((x) => x.textContent)), pct: await q.$$eval(".ce-pct", (e) => e.map((x) => x.textContent)) };
+      await ctx2.close(); return out; }
+    const off = await gated(false, ["Test Reviewer", "Test Reviewer"]);
+    ok(off.mode === "pending" && !off.sums.length, "with release.public false, even complete ratings stay hidden");
+    const partial = await gated(true, ["Test Reviewer", ""]);
+    ok(partial.mode === "pending", "with release.public true, one unreviewed candidate keeps the contest pending");
+    const on = await gated(true, ["Test Reviewer", "Test Reviewer"]);
+    ok(on.mode === "1" && /Weighted rating: 64% \(3\.2\/5\)/.test(on.sums[0]) && JSON.stringify(on.pct) === JSON.stringify(["20.8%", "20.8%", "16.7%", "12.5%", "12.5%", "8.3%", "8.3%"]), "when enabled with reviewed ratings, the shared engine calculates with the standard weights: " + on.sums.join(" | ")); }
   // Disclaimer: unofficial, educational, by the developer; on About and in the footer of every page.
   { await go(p, "#/about", "[data-about]");
     const t = await p.$eval("[data-disclaimer]", (d) => d.textContent);
@@ -297,7 +300,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   ok((await p.textContent("h1")).trim() === "About this guide", "beta link opens About this guide");
   ok(await p.evaluate(() => document.activeElement && document.activeElement.tagName === "H1"), "focus moves to the About heading");
   const about = (await main(p));
-  for (const t of ["Its summaries, evidence, ratings and local ballot listings have not yet been independently verified by a person", "Only review by a person confirms a fact", "districts that include Bay Area counties", "Software tests", "Automated and AI-assisted reading", "Review by a person", "Completeness", "may apply", "It is not an official recommendation", "Proposition 44", "Propositions 37 and 38", "accountability went from 5 to 4", "stayed at 3"]) ok(about.includes(t), `About covers "${t}"`);
+  for (const t of ["Its summaries, evidence, ratings and local ballot listings have not yet been independently verified by a person", "Only review by a person confirms a fact", "districts that include Bay Area counties", "Software tests", "Automated and AI-assisted reading", "Review by a person", "Completeness", "may apply", "It is not an official recommendation", "Proposition 44", "Propositions 37 and 38", "accountability went from 5 to 4", "stayed at 3", "Research pending", "Insufficient evidence", "Evidence ratings and your preferences"]) ok(about.includes(t), `About covers "${t}"`);
   ok(!/automated (tests|checks) (verify|confirm) (facts|accuracy)/i.test(about), "About does not say automated checks verify facts");
   await p.goBack(); await p.waitForSelector("[data-region-card]");
   ok(new URL(p.url()).hash === "#/" || new URL(p.url()).hash === "", "back from About returns home");
@@ -529,6 +532,42 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   ok(await p.evaluate(() => [...document.querySelectorAll('a[target="_blank"]')].every((a) => /noopener/.test(a.rel))), "new-tab links use rel=noopener");
   ok(errs.length === 0, "console errors: " + errs.slice(0, 5).join(" | "));
   await ctx.close();
+
+  // ---------- Phone header, compact menu, hero and the nine requested widths (Oct 24 polish) ----------
+  { const c3 = await b.newContext({ viewport: { width: 360, height: 800 } }); const m = await c3.newPage(); await blockExternal(m, new Set());
+    await m.goto(B + "#/"); await m.waitForSelector("h1.hero-title");
+    ok(await m.isVisible(".menu-btn") && !(await m.isVisible("#topnav")), "phone: Menu button shown and links collapsed");
+    const bh = await m.$eval(".brand", (e) => e.getBoundingClientRect().height);
+    ok(bh <= 46, "phone: the header title stays on one line (" + Math.round(bh) + "px)");
+    await m.click(".menu-btn");
+    ok((await m.getAttribute(".menu-btn", "aria-expanded")) === "true" && await m.isVisible("#topnav a[href='#/about']"), "phone: Menu opens the links");
+    const tgt = await m.$$eval("#topnav a, .menu-btn", (as) => as.map((a) => a.getBoundingClientRect().height));
+    ok(tgt.every((h) => h >= 44), "phone: menu targets are at least 44px tall: " + tgt.map(Math.round).join(","));
+    await m.keyboard.press("Escape");
+    ok((await m.getAttribute(".menu-btn", "aria-expanded")) === "false" && !(await m.isVisible("#topnav")), "phone: Escape closes the menu");
+    await m.click(".menu-btn"); await m.click("#topnav a[href='#/about']"); await m.waitForSelector("[data-about]");
+    ok((await m.getAttribute(".menu-btn", "aria-expanded")) === "false" && (await m.getAttribute("#topnav a[href='#/about']", "aria-current")) === "page", "phone: choosing a link navigates, closes the menu and marks the current page");
+    await m.goBack(); await m.waitForSelector("h1.hero-title");
+    ok((await m.textContent("h1")).replace(/\s+/g, " ").trim() === "California Bay Area Ballot Guide", "browser Back returns to the home page");
+    await m.goForward(); await m.waitForSelector("[data-about]"); ok(true, "browser Forward returns to About");
+    await m.goto(B + "#/"); await m.waitForSelector("h1.hero-title");
+    const lines = await m.$$eval("h1.hero-title span", (sp) => sp.map((x) => x.getClientRects().length));
+    ok(lines.every((n) => n === 1), "phone: 'California Bay Area' and 'Ballot Guide' each stay on one line");
+    const ctaTop = await m.$eval(".cta .btn.primary", (e) => e.getBoundingClientRect().top);
+    ok(ctaTop < 560, "phone: Find My Ballot is visible without scrolling (top " + Math.round(ctaTop) + "px)");
+    await c3.close();
+    const c4 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const d = await c4.newPage(); await blockExternal(d, new Set());
+    await d.goto(B + "#/"); await d.waitForSelector("h1");
+    ok(!(await d.isVisible(".menu-btn")) && await d.isVisible("#topnav a[href='#/browse']"), "desktop: links shown, no Menu button");
+    await c4.close();
+    const sweep = ["#/", "#/find?county=ca-contra-costa", "#/ballot/ca-santa-clara/ca-santa-clara-san-jose", "#/contests", "#/contest/2026-11-03.ca.governor", "#/candidate/2026-11-03.ca-sf.public-defender.manohar-raju", "#/browse", "#/about"];
+    const over = [];
+    for (const w of [320, 360, 375, 390, 414, 430, 768, 1024, 1280]) {
+      const c5 = await b.newContext({ viewport: { width: w, height: 800 } }); const z = await c5.newPage(); await blockExternal(z, new Set());
+      for (const h of sweep) { await z.goto(B + h); await z.waitForSelector("h1"); const sw = await z.evaluate(() => document.documentElement.scrollWidth); if (sw > w) over.push(h + "@" + w + "=" + sw); }
+      await c5.close(); }
+    ok(over.length === 0, "no horizontal overflow on 8 routes at 9 widths from 320 to 1280: " + over.join(", "));
+  }
 
   // ---------- Widths, themes, axe, overflow, console errors, rendered HTML ----------
   // Rendered DOM is checked with the project config, minus rules about attribute spelling that only reflect how the

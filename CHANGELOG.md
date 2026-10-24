@@ -1,5 +1,13 @@
 # Changelog
 
+## October 24, 2026, polish and mobile pass
+
+- **Phones.** A compact Menu replaces wrapped links. The home title breaks as "California Bay Area / Ballot Guide". The main buttons appear right after the tagline. Spacing is tighter and the beta notice is smaller.
+- **Candidate evaluation.** The zero-score interface is replaced by a "Research pending" status panel. No candidate has a score. Scores stay behind a switch until every candidate in a contest is rated and reviewed (docs/CANDIDATE-EVALUATION.md).
+- **Ballot Weighing Tool.** On phones the progress bar is one compact row that never covers step headings. Calculation tables scroll on their own, and the contribution bar has a color key. No scoring change.
+- **About.** A status summary at the top, plus new sections on evidence and preferences, "Insufficient evidence", candidate evaluation and sources.
+- **Tests.** Phone menu, header and title layout, back and forward, overflow at 9 widths, the candidate switch and the sticky bar. Details are in audit/2026-10-24/POLISH-REPORT.md.
+
 ## October 24, 2026, production push (informational beta)
 
 ### Local contests in all nine counties
