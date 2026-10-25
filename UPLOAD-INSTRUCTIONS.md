@@ -1,4 +1,4 @@
-# Upload instructions (October 24, 2026, polish and mobile pass)
+# Upload instructions (October 24, 2026, polish, mobile and statewide unification)
 
 GitHub Pages settings, the domain and the public link (https://supriyarajeev.github.io/ballot-tool/) do not change.
 
@@ -7,14 +7,14 @@ GitHub Pages settings, the domain and the public link (https://supriyarajeev.git
 ```
 cd ~/Desktop/ballot-tool        # your clone; if it is gone: git clone https://github.com/supriyarajeev/ballot-tool.git
 git pull
-unzip -o ~/Downloads/ballot-guide-polish-oct24.zip
+unzip -o ~/Downloads/ballot-guide-unified-oct24.zip
 git add -A
-git status                      # expect about 14 changed or new files
-git commit -m "Polish and mobile pass"
+git status                      # expect about 16 changed or new files
+git commit -m "Polish, mobile and statewide propositions in the tool"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-polish-oct24.zip | tail -1` should show 213 files. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-unified-oct24.zip | tail -1` should show 215 files. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 
@@ -37,6 +37,8 @@ On a phone (about 390 px wide):
 - [ ] Answer one question; a lean appears. Open "How this score is calculated"; the table fits or scrolls inside its box.
 
 On a computer:
+- [ ] Find My Ballot, Alameda. Open Statewide propositions. A "Go to Ballot Weighing Tool — All 14 Propositions" button is above the list. Click Prop 1: the tool opens at Prop 1 with "Back to your ballot: Alameda County". Click it to return.
+- [ ] Open a local measure on the same page; it opens the guide's own measure page, not the tool.
 - [ ] The links show in the header with no Menu button.
 - [ ] Candidates, then Governor. Both photos show. Below them is "Candidate evaluation · Research pending" with no percentages or "Insufficient evidence" lists.
 - [ ] Prop 44 in the tool shows 52% with standard weights.
@@ -46,4 +48,4 @@ On a computer:
 
 ## 6. If something is wrong
 
-Open the repository's commit list and revert the "Polish and mobile pass" commit. The site returns to the previous version within a few minutes.
+Open the repository's commit list and revert the latest release commit. The site returns to the previous version within a few minutes.

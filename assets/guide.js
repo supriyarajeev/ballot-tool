@@ -652,13 +652,38 @@
     });
   }
 
+  /* Statewide propositions open inside the Ballot Weighing Tool (propositions.html#prop-N), the single place where each
+     one is explained, rated and weighed. The tool's own data is the source of statewide.json (tools/extract-statewide.mjs).
+     Only items whose jurisdiction is the state and whose detailUrl names a tool card are routed there; local measures
+     keep their #/item pages. "from" and "place" let the tool offer a link back to the ballot the voter came from. */
+  var CTX = { from: "", place: "" };
+  function toolAnchor(m) {
+    var j = m && J(m.jurisdiction);
+    var k = m && m.level === "state" && j && j.type === "state" && /^propositions\.html#prop-(\d+)$/.exec(m.detailUrl || "");
+    return k ? "prop-" + k[1] : null;
+  }
+  function toolHref(m) {
+    var a = toolAnchor(m); if (!a) return null;
+    var q = CTX.from ? "?from=" + encodeURIComponent(CTX.from) + (CTX.place ? "&place=" + encodeURIComponent(CTX.place) : "") : "";
+    return "propositions.html" + q + "#" + a;
+  }
+  function toolAllHref() {
+    return "propositions.html" + (CTX.from ? "?from=" + encodeURIComponent(CTX.from) + (CTX.place ? "&place=" + encodeURIComponent(CTX.place) : "") : "");
+  }
+  // The button above the statewide list: the whole tool, all propositions, with the same way back.
+  function toolAllButton(n) {
+    return '<div class="group-cta"><a class="btn secondary" data-tool-all="1" href="' + esc(toolAllHref()) + '">' + icon("scale") + "Go to Ballot Weighing Tool \u2014 All " + n + ' Propositions</a>' +
+      '<p class="small">Or choose a proposition below to open it in the tool, with its ratings, your weights and your lean.</p></div>';
+  }
   function itemRow(x, ap, isContest) {
     var j = J(x.jurisdiction) || {};
-    var href = isContest ? "#/contest/" + enc(x.id) : "#/item/" + enc(x.id);
+    var th = isContest ? null : toolHref(x);
+    var href = isContest ? "#/contest/" + enc(x.id) : (th || "#/item/" + enc(x.id));
     var title = isContest ? x.office + (x.district ? ", " + x.district : "") : x.shortTitle || x.officialTitle;
     var id = isContest ? "Office" : x.identifier;
     var sub = j.name + (ap && ap.fit === "maybe" ? (ap.split ? " · May apply, this county is split between districts. Check your sample ballot" : " · May apply, check your sample ballot") : "") +
       (isContest && x.listStatus === "pending" ? " · Not yet on a final official list" : "") + (isContest && x.noQualifiedCandidates ? " · No qualified candidates listed" : "");
+    if (th) return '<a class="row to-tool" href="' + esc(href) + '" data-search="' + esc((id + " " + title + " " + j.name + " " + (x.officialTitle || "")).toLowerCase()) + '"><span class="rt"><span class="rid">' + esc(id) + '</span><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span>" + listBadge(x.status) + '<span class="go">Open in the Ballot Weighing Tool<span aria-hidden="true"> \u203A</span></span></a>';
     return '<a class="row" href="' + href + '" data-search="' + esc((id + " " + title + " " + j.name + " " + (x.officialTitle || "")).toLowerCase()) + '"><span class="rt"><span class="rid">' + esc(id) + '</span><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span>" + listBadge(x.status) + "</a>";
   }
 
@@ -748,6 +773,7 @@
       var rows = buckets[g.key];
       var cnt = rows.length ? rows.length + (rows.length === 1 ? " item" : " items") + summarize(rows) : emptyCount(g.key);
       return '<details class="group" data-group="' + g.key + '"><summary><h2>' + esc(g.title) + '</h2><span class="counts">' + cnt + "</span></summary>" +
+        (g.key === "state" && rows.length ? toolAllButton(rows.length) : "") +
         (rows.length ? '<div class="rows">' + rows.join("") + "</div>" : '<div class="empty">' + emptyText(g.key) + "</div>") +
         (g.key === "candidates" ? '<div class="empty">' + candNote(county) + " " + samplePlace(county) + "</div>" : "") + "</details>";
     }).join("");
@@ -785,6 +811,7 @@
       '<p class="small">From the Secretary of State: ' + links(["props", "guide", "formats"]) + ".</p>" +
       sec("How the Ballot Weighing Tool works", toolSteps()) +
       '<details class="group" data-group="state" open><summary><h2>All statewide propositions</h2><span class="counts">' + state.length + (state.length === 1 ? " item" : " items") + "</span></summary>" +
+        (state.length ? toolAllButton(state.length) : "") +
         (state.length ? '<div class="rows">' + state.map(function (m) { return itemRow(m, { fit: "yes" }, false); }).join("") + "</div>" : '<div class="empty">The statewide list could not be loaded right now. ' + ext("https://voterguide.sos.ca.gov/", "Official California voter guide") + ".</div>") +
       "</details>" +
       '<div class="note"><b>Live in a Bay Area county?</b><p>' + esc(andList(counties().map(shortName))) + ' have local items too. <a href="#/find">Find My Ballot</a>.</p></div>' +
@@ -796,6 +823,13 @@
 
   function viewItem(id) {
     var m = rec(id); if (!m || !m.identifier) return viewNotFound("That ballot item is not in this guide.");
+    var th = toolHref(m);
+    if (th) {
+      // Old links to #/item/<statewide prop> open the same proposition in the tool. replace() keeps Back working.
+      app.innerHTML = '<h1>' + esc(m.identifier) + '</h1><p>Opening ' + esc(m.identifier) + ' in the <a href="' + esc(th) + '">Ballot Weighing Tool</a>…</p>';
+      location.replace(th);
+      return;
+    }
     var j = J(m.jurisdiction) || {}, county = countyOf(j);
     var h = own(STATUS_HELP, m.status);
     var miss = h ? "Not collected yet. See “" + h[0] + "” above." : "Not collected yet.";
@@ -1102,6 +1136,12 @@
     var parts = h.split("/").filter(Boolean).map(dec);
     if (parts.some(function (p) { return p === null; })) bad = true;
     var v = bad ? "\u0000" : parts[0] || "";
+    CTX = { from: "", place: "" };
+    if (!bad && (v === "ballot" || v === "browse" || v === "statewide" || v === "contests")) {
+      CTX.from = "#/" + parts.map(enc).join("/");
+      var cj = v === "ballot" ? J(parts[1]) : null, cy = cj && parts[2] && parts[2] !== "unincorporated" ? J(parts[2]) : null;
+      CTX.place = v === "ballot" ? (cy ? cy.name + ", " : "") + (cj ? cj.name : "") : v === "browse" ? "Browse" : v === "statewide" ? "Statewide propositions" : "Candidates and contests";
+    }
     if (bad) viewNotFound("That page address is not valid.");
     else if (v === "") viewHome();
     else if (v === "find" && parts.length === 1) viewFind(qs);

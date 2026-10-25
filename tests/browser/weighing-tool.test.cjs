@@ -25,10 +25,22 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     await p.evaluate(() => { const d = document.getElementById("customize"); if (d) d.open = true; });
     const T = async (s) => (await p.textContent(s)).trim();
     ok((await p.locator("article.prop").count()) === 14, "14 cards " + tag);
+    ok((await p.$$eval("#propnav a", (a) => a.map((x) => x.getAttribute("href")))).join() === NS.map((n) => "#prop-" + n).join(), "proposition jump links for all 14 " + tag);
+    ok(await p.isHidden("#ballot-return") && await p.isHidden("#ret-mini"), "no ballot link when not arriving from a ballot " + tag);
+    if (process.env.BASE && w === 360) {
+      const c2 = await b.newContext({ viewport: { width: 360, height: 800 } }); const q = await c2.newPage(); await blockExternal(q, new Set());
+      await q.goto(process.env.BASE + "propositions.html?from=" + encodeURIComponent("javascript:alert(1)") + "&place=x#prop-5"); await q.waitForSelector("#prop-5.is-target");
+      ok(await q.isHidden("#ballot-return"), "an unsafe return address is ignored");
+      await q.goto(process.env.BASE + "propositions.html?from=" + encodeURIComponent("#/ballot/ca-napa") + "&place=" + encodeURIComponent("Napa County") + "#prop-40"); await q.waitForSelector("#prop-40.is-target");
+      const g = await q.evaluate(() => [document.querySelector(".sticky").getBoundingClientRect().bottom, document.getElementById("prop-40").getBoundingClientRect().top, document.documentElement.scrollWidth]);
+      ok(g[1] >= g[0] - 1 && g[2] <= 360, "phone: the chosen card sits below the progress bar, no overflow " + JSON.stringify(g.map(Math.round)));
+      ok(await q.isVisible("#ret-mini") && (await q.getAttribute("#ret-mini", "href")) === "index.html#/ballot/ca-napa", "phone: the progress bar has a Ballot link back");
+      await q.click('label[for="g-40-3"]'); ok((await q.textContent("#v-40")).trim() !== "Not answered", "answering still works after arriving from a ballot");
+      await c2.close(); }
     if (w === 360) {
       const sh = await p.$eval(".sticky", (e) => e.getBoundingClientRect().height);
       ok(sh <= 70 && !(await p.isVisible(".sticky .tally")), "phone: the progress bar is one compact row (" + Math.round(sh) + "px) " + tag);
-      const bt = await p.$eval(".sticky .linkbtn", (e) => e.getBoundingClientRect().height); ok(bt >= 44, "phone: See my ballot is a 44px target " + tag);
+      const bt = await p.$eval('.sticky a.linkbtn[href="#s3"]', (e) => e.getBoundingClientRect().height); ok(bt >= 44, "phone: See my ballot is a 44px target " + tag);
       await p.click('a.step[href="#s2"]'); await p.waitForTimeout(900);
       const g = await p.evaluate(() => [document.querySelector(".sticky").getBoundingClientRect().bottom, document.querySelector("#s2 h2").getBoundingClientRect().top]);
       ok(g[1] >= g[0] - 1, "phone: jumping to Step 2 leaves its heading below the progress bar " + JSON.stringify(g.map(Math.round)) + " " + tag);

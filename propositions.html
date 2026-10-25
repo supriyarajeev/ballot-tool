@@ -100,6 +100,21 @@ header { display: grid; gap: 12px; }
 .prog-l { font-size: .8rem; color: var(--muted); }
 .prog-l b { color: var(--ink); font-family: var(--f-data); font-weight: 500; }
 .tally { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+/* Arriving from a ballot page: a link back to it, and a highlight on the proposition that was chosen. */
+.ballot-return { margin: 8px 0 0; }
+.ret-mini::before { content: "\2190\00a0"; }
+.sticky-in .ret-mini { order: -1; }
+.ret-mini[hidden], .ballot-return[hidden] { display: none !important; }
+.prog-l { white-space: nowrap; }
+@media (max-width: 480px) { .sticky.has-ret .pl-w { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } }
+.ballot-return a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1.5px solid var(--ballot); border-radius: 10px; background: var(--sheet); font-family: var(--f-display); font-weight: 700; font-size: .92rem; text-decoration: none; }
+.ballot-return a::before { content: "\2190\00a0"; }
+.propnav { display: flex; flex-wrap: wrap; gap: 6px; }
+.propnav a { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; min-height: 44px; padding: 0 10px; border: 1px solid var(--rule); border-radius: 999px; background: var(--sheet); font-family: var(--f-display); font-weight: 700; font-size: .84rem; text-decoration: none; }
+.propnav a[aria-current="true"] { border-color: var(--ballot); background: var(--ballot-soft); }
+article.prop.is-target { outline: 3px solid var(--ballot); outline-offset: 3px; }
+article.prop { scroll-margin-top: 84px; }
+article.prop h3[tabindex="-1"]:focus { outline: none; }
 /* Phones: the progress bar stays one compact row (count, bar, See my ballot); the lean tally is shown in Step 3. */
 @media (max-width: 600px) {
   .sticky { padding-block: 6px; margin-block: -6px; padding-top: max(6px, env(safe-area-inset-top, 0px)); }
@@ -329,6 +344,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   <noscript><p class="warn">This tool needs JavaScript to show the 14 propositions and work out your leans. Without JavaScript, read every statewide proposition in the official <a href="https://voterguide.sos.ca.gov/">California voter guide</a>.</p></noscript>
   <header>
     <a class="home-link" href="./">California Bay Area Ballot Guide</a>
+    <nav class="ballot-return" id="ballot-return" aria-label="Your ballot" hidden><a id="ballot-return-a" href="./"></a></nav>
     <p class="note beta-note" data-beta="1"><b>Beta.</b> An independent, unofficial civic tech project for education. Ratings are this tool's own judgments and are still being verified. Confirm your ballot with your county elections office. <a href="index.html#/about">About and disclaimer</a></p>
     <div class="eyebrow">California ballot, November 3, 2026</div>
     <h1>Ballot Weighing Tool</h1>
@@ -347,10 +363,11 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   <div class="sticky">
     <div class="sticky-in">
       <div class="prog">
-        <div class="prog-l" aria-live="polite">Answered <b id="ans-n">0</b> of 14</div>
+        <div class="prog-l" aria-live="polite"><span class="pl-w">Answered </span><b id="ans-n">0</b> of 14</div>
         <div class="bar"><i id="ans-bar"></i></div>
       </div>
       <div class="tally" id="tally-top"></div>
+      <a class="linkbtn ret-mini" id="ret-mini" href="./" hidden>Ballot</a>
       <a class="linkbtn" href="#s3">See my ballot</a>
     </div>
   </div>
@@ -407,6 +424,8 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       <h2 id="s2-h">How do you feel about each measure's goal?</h2>
       <p class="small">Each card gives the official title, what the measure does, and what a YES or NO vote legally means. Open <b>More facts</b> for the money, accountability, the official arguments on each side, ratings and numbered sources. <b>Not sure</b> records that you are undecided. Leaving a card blank skips it. Neither counts for or against.</p>
     </div>
+    <p class="small">Every card is rated with the <a href="#s1">Standard Evaluation Framework in Step 1</a>; your weights there apply to all 14. Jump to a proposition:</p>
+    <nav class="propnav" id="propnav" aria-label="Jump to a proposition"></nav>
     <div class="props" id="props"></div>
   </section>
 
@@ -1164,6 +1183,42 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     trackUse(answered);
   }
   renderAll();
+
+  /* Ballot context and proposition links (Oct 24, 2026). The guide links each statewide proposition here as
+     propositions.html?from=<ballot route>&place=<name>#prop-N. "from" is checked against the guide's route
+     pattern and only ever used as a link back to index.html; it is kept for this tab so moving around the tool,
+     refreshing, or answering questions does not lose the way back. Nothing here changes a weight, rating or lean. */
+  var RET_KEY = "ballot-return-v1";
+  function readReturn() {
+    var q = new URLSearchParams(location.search), f = q.get("from"), pl = q.get("place");
+    var ok = typeof f === "string" && /^#\/(ballot|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(f);
+    if (ok) { try { sessionStorage.setItem(RET_KEY, JSON.stringify({ f: f, p: (pl || "").slice(0, 120) })); } catch (e) {} return { f: f, p: (pl || "").slice(0, 120) }; }
+    try { var v = JSON.parse(sessionStorage.getItem(RET_KEY) || "null"); if (v && /^#\/(ballot|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(v.f)) return v; } catch (e) {}
+    return null;
+  }
+  var ret = readReturn();
+  if (ret) {
+    var ra = $("ballot-return-a");
+    ra.href = "index.html" + ret.f;
+    ra.textContent = ret.p ? "Back to your ballot: " + ret.p : "Back to your ballot";
+    $("ballot-return").hidden = false;
+    var rm = $("ret-mini"); rm.setAttribute("href", "index.html" + ret.f); rm.hidden = false; rm.setAttribute("aria-label", ra.textContent);
+    document.querySelector(".sticky").classList.add("has-ret");
+  }
+  $("propnav").innerHTML = PROPS.map(function (p) { return '<a href="#prop-' + p.n + '">Prop ' + p.n + "</a>"; }).join("");
+  function showTarget() {
+    var m = /^#prop-(\d+)$/.exec(location.hash), el = m && document.getElementById("prop-" + m[1]);
+    document.querySelectorAll("article.prop.is-target").forEach(function (a) { a.classList.remove("is-target"); });
+    document.querySelectorAll("#propnav a").forEach(function (a) { if (m && a.getAttribute("href") === "#prop-" + m[1]) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+    if (!el) return;
+    el.classList.add("is-target");
+    var h = document.getElementById("h-" + m[1]);
+    // The cards are drawn by script after load, so the browser's own jump to #prop-N may have missed; do it here.
+    el.scrollIntoView({ block: "start" });
+    if (h) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
+  }
+  window.addEventListener("hashchange", showTarget);
+  showTarget();
 })();
 </script>
 <!-- Visitor counter (GoatCounter v5, pinned with its published integrity hash). Counts one visit with a fixed path and title, plus the two anonymous usage events above. no_onload stops automatic counting. Delete these two scripts to turn counting off, and remove the GoatCounter sentences in the privacy note. -->

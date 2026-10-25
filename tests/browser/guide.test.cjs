@@ -13,7 +13,8 @@ const bay = D.bayIds.map((id) => D.J.get(id));
 const others = D.counties.filter((c) => !D.bayIds.includes(c.id));
 const shortName = (c) => c.name.replace(/ County$/, "").replace(/ \(City and County\)$/, "");
 const statewide = D.measures.filter((m) => m.level === "state");
-const incomplete = D.measures.filter((m) => m.status === "incomplete");
+const incomplete = D.measures.filter((m) => m.status === "incomplete" && m.level !== "state");
+const localItem = D.measures.find((m) => m.level !== "state");
 const sfCounty = D.J.get("ca-sf");
 const sfMeasures = D.measures.filter((m) => m.jurisdiction === "ca-sf" || (sfCounty && m.jurisdiction === sfCounty.consolidatedCity));
 
@@ -234,7 +235,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   await collectBadges();
 
   // ---------- Skip link and first-load focus (UX-01 to UX-03) ----------
-  for (const h of ["#/", "#/about", "#/item/" + encodeURIComponent(statewide[0].id)]) {
+  for (const h of ["#/", "#/about", "#/item/" + encodeURIComponent(localItem.id)]) {
     await p.goto("about:blank"); await go(p, h);
     const h1before = await H1(p), urlBefore = p.url();
     ok(await p.evaluate(() => document.activeElement === document.body || document.activeElement === document.documentElement), `${h}: on first load focus stays at the top of the document`);
@@ -479,14 +480,14 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   await go(p, "#/ballot/ca-alameda/ca-alameda-oakland"); await openAll(p);
   { const rows = await p.$$eval("main a.row", (rs) => rs.map((r) => ({ href: decodeURIComponent(r.getAttribute("href")), badge: (r.querySelector(".badge") || {}).textContent || "", text: r.textContent.replace(/\s+/g, " ") })));
     const byId = new Map(D.measures.concat(D.contests).map((x) => [x.id, x]));
-    const recs = rows.map((r) => ({ r, x: byId.get(r.href.replace(/^#\/(item|contest)\//, "")) })).filter((o) => o.x);
+    const recs = rows.map((r) => ({ r, x: byId.get(r.href.replace(/^#\/(item|contest)\//, "")) || (/^propositions\.html.*#prop-(\d+)$/.test(r.href) ? statewide.find((m) => m.detailUrl === "propositions.html#prop-" + r.href.match(/#prop-(\d+)$/)[1]) : null) })).filter((o) => o.x);
     ok(recs.length > 20 && recs.every((o) => (o.x.status === "incomplete") === /^Incomplete/.test(o.r.badge)), "Oakland: every Incomplete item, and only those, keeps its badge in the list (" + recs.length + " rows)");
     ok(rows.some((o) => /May apply/.test(o.text)), "Oakland: district items still say May apply"); }
   // The status stays on each record's own page.
   await go(p, "#/contest/2026-11-03.ca.governor", ".detail");
   ok((await p.textContent(".meta .badge")).trim() === "Needs review" && await p.isVisible('[data-status-note="needs-review"]'), "a Needs review record shows its status and what still needs checking on its own page");
   // Item-level warnings where facts rest on OCR or an AI reading of a page image.
-  for (const rec of D.measures.concat(D.contests).filter((x) => x.readingNote).slice(0, 40)) {
+  for (const rec of D.measures.filter((x) => x.level !== "state").concat(D.contests).filter((x) => x.readingNote).slice(0, 40)) {
     await go(p, (rec.office ? "#/contest/" : "#/item/") + encodeURIComponent(rec.id), ".detail");
     ok((await p.locator("[data-reading-note]").innerText()).includes("A person has not checked this reading"), `${rec.id}: reading note shown near its facts`);
   }
@@ -533,6 +534,40 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   ok(errs.length === 0, "console errors: " + errs.slice(0, 5).join(" | "));
   await ctx.close();
 
+  // ---------- Statewide propositions open in the Ballot Weighing Tool (one experience) ----------
+  { const T = (h) => h.match(/#prop-(\d+)$/);
+    const cu = await b.newContext({ viewport: { width: 1280, height: 900 } }); const p = await cu.newPage(); await blockExternal(p, new Set());
+    await go(p, "#/ballot/ca-alameda"); await openAll(p);
+    const st = await p.$$eval('.group[data-group="state"] a.row', (as) => as.map((a) => [a.getAttribute("href"), a.querySelector(".rid").textContent.trim()]));
+    ok(st.length === 14 && st.every(([h, id]) => /^propositions\.html\?from=%23%2Fballot%2Fca-alameda&place=Alameda%20County#prop-\d+$/.test(h) && "Prop " + T(h)[1] === id), "Alameda: all 14 statewide rows open their own card in the tool, with the way back: " + st.slice(0, 2).map((x) => x[0]).join(" "));
+    ok(statewide.every((m) => st.some(([h]) => "propositions.html#prop-" + T(h)[1] === m.detailUrl)), "each statewide record maps to its tool card");
+    const loc = await p.$$eval('main a.row', (as) => as.map((a) => a.getAttribute("href")).filter((h) => !/^propositions\.html/.test(h)));
+    const locRecs = loc.filter((h) => h.startsWith("#/item/")).map((h) => D.measures.find((m) => m.id === decodeURIComponent(h.slice(7))));
+    ok(locRecs.length > 0 && locRecs.every((m) => m && m.level !== "state"), "local measures keep their own pages (" + locRecs.length + ")");
+    { const btn = p.locator('.group[data-group="state"] [data-tool-all]');
+      ok((await btn.innerText()).trim() === "Go to Ballot Weighing Tool \u2014 All 14 Propositions" && (await btn.getAttribute("href")) === "propositions.html?from=%23%2Fballot%2Fca-alameda&place=Alameda%20County", "the full-tool button sits above the statewide list with the way back");
+      const before = await p.evaluate(() => { const g = document.querySelector('.group[data-group="state"]'); return [g.querySelector("[data-tool-all]").getBoundingClientRect().top, g.querySelector("a.row").getBoundingClientRect().top]; });
+      ok(before[0] < before[1], "the button comes before the first proposition row");
+      ok((await p.$$eval('.group[data-group="state"] a.row .go', (g) => g.length)) === 14, "each proposition row says it opens in the tool");
+      await p.focus('.group[data-group="state"] a.row[href$="#prop-2"]');
+      ok(await p.evaluate(() => getComputedStyle(document.activeElement).outlineStyle !== "none" && getComputedStyle(document.activeElement).cursor === "pointer"), "rows show a focus outline and a pointer cursor");
+      await btn.click(); await p.waitForSelector("#props article.prop");
+      ok(/propositions\.html\?from=/.test(p.url()) && !/#prop-/.test(p.url()) && (await p.locator("article.prop").count()) === 14 && (await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County", "the button opens the full tool with all 14 and the way back");
+      await p.goBack(); await p.waitForSelector('.group[data-group="state"]'); await openAll(p); }
+    await p.click('.group[data-group="state"] a.row[href$="#prop-1"]'); await p.waitForSelector("#prop-1.is-target", { timeout: 10000 });
+    ok(/propositions\.html/.test(p.url()) && (await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County" && (await p.getAttribute("#ballot-return-a", "href")) === "index.html#/ballot/ca-alameda", "Prop 1 opens in the tool with a link back to the Alameda ballot");
+    ok((await p.$$eval("#fw-body li", (l) => l.length)) === 7 && await p.isVisible("#prop-1 .facts summary"), "the framework and the card's facts are on the same page");
+    await p.click("#propnav a[href='#prop-44']"); await p.waitForSelector("#prop-44.is-target");
+    await p.reload(); await p.waitForSelector("#prop-44.is-target");
+    ok((await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County", "moving between propositions and refreshing keep the way back");
+    await p.goBack(); await p.waitForSelector("#prop-1.is-target"); ok(true, "Back returns to the previous proposition");
+    await p.goBack(); await p.waitForSelector("h1"); ok(/#\/ballot\/ca-alameda$/.test(p.url()), "Back again returns to the Alameda ballot");
+    await go(p, "#/item/2026-11-03.ca.prop-38"); await p.waitForURL(/propositions\.html#prop-38$/, { timeout: 10000 }); await p.waitForSelector("#prop-38.is-target");
+    ok(true, "an old #/item link to a statewide proposition opens that card in the tool");
+    await go(p, "#/statewide"); await openAll(p);
+    ok((await p.$$eval('main a.row[href^="propositions.html?from=%23%2Fstatewide"]', (a) => a.length)) === 14, "the statewide page links the 14 propositions into the tool");
+    await cu.close(); }
+
   // ---------- Phone header, compact menu, hero and the nine requested widths (Oct 24 polish) ----------
   { const c3 = await b.newContext({ viewport: { width: 360, height: 800 } }); const m = await c3.newPage(); await blockExternal(m, new Set());
     await m.goto(B + "#/"); await m.waitForSelector("h1.hero-title");
@@ -574,7 +609,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   // browser serializes the DOM (open="", async="", crossorigin="") and the per-route document title length.
   const rcfg = readJSON(".htmlvalidate.json");
   const htmlv = new HtmlValidate({ ...rcfg, rules: { ...(rcfg.rules || {}), "attribute-boolean-style": "off", "attribute-empty-style": "off", "script-type": "off", "long-title": "off" } });
-  const pages = ["#/", "#/find?county=ca-alameda&city=ca-alameda-oakland", "#/ballot/ca-alameda/ca-alameda-oakland", "#/ballot/ca-sf", "#/ballot/ca-fresno", "#/item/" + encodeURIComponent((incomplete[0] || statewide[0]).id), "#/item/" + encodeURIComponent(statewide[0].id), "#/contest/2026-11-03.ca.governor", "#/contests", "#/browse", "#/about", "#/statewide", "#/item/2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i"];
+  const pages = ["#/", "#/find?county=ca-alameda&city=ca-alameda-oakland", "#/ballot/ca-alameda/ca-alameda-oakland", "#/ballot/ca-sf", "#/ballot/ca-fresno", "#/item/" + encodeURIComponent((incomplete[0] || localItem).id), "#/contest/2026-11-03.ca.governor", "#/contests", "#/browse", "#/about", "#/statewide", "#/item/2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i"];
   for (const w of [360, 768, 1280]) for (const scheme of ["light", "dark"]) {
     const c2 = await b.newContext({ viewport: { width: w, height: 850 }, colorScheme: scheme });
     const q = await c2.newPage(); const e2 = [], h2 = new Set();

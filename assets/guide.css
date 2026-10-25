@@ -399,3 +399,16 @@ h1, h2, h3 { overflow-wrap: break-word; hyphens: manual; }
 /* Phones: section bodies and summaries keep a touch-friendly size; bottom padding respects the home indicator. */
 footer.site { padding-bottom: max(48px, calc(24px + env(safe-area-inset-bottom, 0px))); }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+
+/* Statewide propositions open in the Ballot Weighing Tool (Oct 24, 2026) */
+.group-cta { display: grid; gap: 6px; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+.group-cta .btn { justify-self: start; }
+.row { cursor: pointer; }
+.row:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; background: var(--accent-soft); }
+.row.to-tool { grid-template-columns: minmax(0, 1fr) auto auto; }
+.row.to-tool .go { font-family: var(--f-display); font-weight: 700; font-size: .8rem; color: var(--accent); white-space: nowrap; }
+@media (max-width: 560px) {
+  .group-cta .btn { justify-self: stretch; text-align: center; }
+  .row.to-tool { grid-template-columns: minmax(0, 1fr) auto; }
+  .row.to-tool .go { grid-column: 1 / -1; justify-self: start; }
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## October 24, 2026, one experience for statewide propositions
+
+- **Statewide propositions open in the tool.** On every ballot page and the statewide page, each of the 14 opens its own card in the Ballot Weighing Tool, with a link back to the ballot. A "Go to Ballot Weighing Tool — All 14 Propositions" button above the list opens the full tool.
+- **Local measures** keep their own pages.
+- **Old links** to statewide item pages forward to the tool.
+- **In the tool:** a "Back to your ballot" link, a Ballot link in the progress bar, and jump links for all 14 propositions.
+- **No scoring change.** See audit/2026-10-24/UNIFY-REPORT.md.
+
 ## October 24, 2026, polish and mobile pass
 
 - **Phones.** A compact Menu replaces wrapped links. The home title breaks as "California Bay Area / Ballot Guide". The main buttons appear right after the tagline. Spacing is tighter and the beta notice is smaller.
