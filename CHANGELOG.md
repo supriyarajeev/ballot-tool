@@ -1,5 +1,15 @@
 # Changelog
 
+## October 24, 2026, source link audit
+
+- **All 68 links checked.** Every source link in the Ballot Weighing Tool was checked at its destination. None was broken, and a blank page could not be reproduced in Chrome.
+- **HTML first.** LAO analyses (14) and the official arguments for Props 38, 39, 40, 42, 44 and 45 now open the official HTML pages. The PDFs are kept beside them.
+- **Redirects.** Four redirecting addresses now point to their final pages.
+- **Safe new tabs.** Every source link uses `noopener noreferrer`.
+- **New check.** `tools/check-source-links.mjs` checks the links before a release. See audit/2026-10-24/SOURCE-LINK-AUDIT.md.
+- **PDF labels.** Each PDF source link shows a PDF tag, and a short note under the sources explains how to view PDFs.
+- **Fresh files.** Script and style version tags were updated so returning visitors get the new files at once.
+
 ## October 24, 2026, one experience for statewide propositions
 
 - **Statewide propositions open in the tool.** On every ballot page and the statewide page, each of the 14 opens its own card in the Ballot Weighing Tool, with a link back to the ballot. A "Go to Ballot Weighing Tool — All 14 Propositions" button above the list opens the full tool.

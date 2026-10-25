@@ -26,6 +26,17 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     const T = async (s) => (await p.textContent(s)).trim();
     ok((await p.locator("article.prop").count()) === 14, "14 cards " + tag);
     ok((await p.$$eval("#propnav a", (a) => a.map((x) => x.getAttribute("href")))).join() === NS.map((n) => "#prop-" + n).join(), "proposition jump links for all 14 " + tag);
+    if (w === 1280) {
+      // Source links (Oct 24 audit): https only, safe new-tab attributes, official HTML first with the PDF beside it.
+      const L = await p.$$eval("article.prop .facts a[target=_blank]", (as) => as.map((x) => [x.getAttribute("href"), x.rel, x.closest("article").id, x.className, x.textContent]));
+      ok(L.length > 80 && L.every(([h, r]) => /^https:\/\//.test(h) && /noopener/.test(r) && /noreferrer/.test(r)), "every source link is https and opens safely in a new tab (" + L.length + ")");
+      for (const n of NS) {
+        const mine = L.filter((x) => x[2] === "prop-" + n);
+        ok(mine.some(([h, , , c]) => !c && h === "https://voterguide.sos.ca.gov/propositions/" + n + "/analysis.htm") && mine.some(([h, , , c]) => c === "alt" && h === "https://lao.ca.gov/ballot/2026/prop" + n + "-110326.pdf"), `Prop ${n}: LAO analysis links the official HTML page with the LAO PDF beside it`);
+        ok(!mine.some(([h, , , c, t]) => !c && /Official arguments/.test(t) && /\.pdf$/.test(h)), `Prop ${n}: official arguments link the HTML page, not a PDF`);
+      }
+      ok(!L.some(([h]) => /hoover\.org\/research\/|lwvc\.org\/ballot-recs$/.test(h)), "no source link uses an address that is known to redirect");
+    }
     ok(await p.isHidden("#ballot-return") && await p.isHidden("#ret-mini"), "no ballot link when not arriving from a ballot " + tag);
     if (process.env.BASE && w === 360) {
       const c2 = await b.newContext({ viewport: { width: 360, height: 800 } }); const q = await c2.newPage(); await blockExternal(q, new Set());

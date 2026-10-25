@@ -33,6 +33,7 @@ This is a plain-English, nonpartisan guide to the November 3, 2026 California ba
 - `audit/2026-10-24/COVERAGE-MATRIX.md`: local contests by county, with sources and gaps. Regenerate with `python3 audit/2026-10-24/coverage_matrix.py`.
 - `audit/2026-10-24/LIMITATIONS.md`: known limitations.
 - `audit/2026-10-24/POLISH-REPORT.md`: the polish and mobile pass, with tests.
+- `audit/2026-10-24/SOURCE-LINK-AUDIT.md`: every source link in the tool, checked at its destination. Recheck with `node tools/check-source-links.mjs` (needs internet).
 - `audit/2026-10-24/UNIFY-REPORT.md`: statewide propositions open in the Ballot Weighing Tool; routes and tests.
 - `docs/CANDIDATE-EVALUATION.md`: why candidate scores are hidden and how to turn them on.
 - `audit/2026-10-24/local-contests/`: the county research files. `apply_local_contests.py`, `apply_name_corrections.py` and `update_coverage_notes.py` merged them into `data/`.

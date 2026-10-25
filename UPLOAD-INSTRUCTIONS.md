@@ -7,14 +7,14 @@ GitHub Pages settings, the domain and the public link (https://supriyarajeev.git
 ```
 cd ~/Desktop/ballot-tool        # your clone; if it is gone: git clone https://github.com/supriyarajeev/ballot-tool.git
 git pull
-unzip -o ~/Downloads/ballot-guide-unified-oct24.zip
+unzip -o ~/Downloads/ballot-guide-links-oct24.zip
 git add -A
-git status                      # expect about 16 changed or new files
-git commit -m "Polish, mobile and statewide propositions in the tool"
+git status                      # expect about 13 changed or new files
+git commit -m "Source link audit: official HTML first, PDFs kept"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-unified-oct24.zip | tail -1` should show 215 files. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-links-oct24.zip | tail -1` should show 218 files. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 
@@ -37,6 +37,7 @@ On a phone (about 390 px wide):
 - [ ] Answer one question; a lean appears. Open "How this score is calculated"; the table fits or scrolls inside its box.
 
 On a computer:
+- [ ] Open the Ballot Weighing Tool, Prop 1, More facts. Source [1] "LAO analysis" opens the official voter guide's analysis page, and "LAO PDF" beside it opens the LAO's PDF.
 - [ ] Find My Ballot, Alameda. Open Statewide propositions. A "Go to Ballot Weighing Tool — All 14 Propositions" button is above the list. Click Prop 1: the tool opens at Prop 1 with "Back to your ballot: Alameda County". Click it to return.
 - [ ] Open a local measure on the same page; it opens the guide's own measure page, not the tool.
 - [ ] The links show in the header with no Menu button.
