@@ -333,6 +333,8 @@
     doc: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>',
     sliders: '<path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/>',
     check: '<path d="M5 12.5l4 4L19 6.5"/>',
+    share: '<circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><path d="M8.2 10.8l7.6-4.1M8.2 13.2l7.6 4.1"/>',
+    print: '<path d="M7 9V3.5h10V9M7 17H4.5v-7a1 1 0 011-1h13a1 1 0 011 1v7H17"/><rect x="7" y="14" width="10" height="6.5"/>',
     info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>',
     ballot: '<path d="M4 11h16v9H4zM8 11V4h8v7M10.5 7.5h3"/>',
     list: '<path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/>'
@@ -786,6 +788,7 @@
       '<section class="ov-head"><p class="eyebrow">' + esc(DB.election.name) + "</p><h1>Ballot choices for " + esc(placeName) + "</h1>" +
         '<p class="muted">' + esc(cov.note || "") + " Open a section to see its items.</p></section>" +
       (bay ? "" : statewideNote()) +
+      sheetCta(countyId, cityId, placeName) +
       coverageBox(county) +
       districtNote(county, null, true) +
       '<label class="field">Search these choices<input type="search" id="q" placeholder="Try a measure letter, topic or office" autocomplete="off"></label>' +
@@ -798,6 +801,7 @@
       Array.prototype.forEach.call(app.querySelectorAll(".group"), function (g) { if (t) g.open = !!g.querySelector(".row:not([hidden])"); });
       document.getElementById("q-status").textContent = t ? shown + " matching items" : "";
     });
+    bindShare();
   }
 
   function viewStatewide() {
@@ -1119,6 +1123,162 @@
       "</article>";
   }
 
+  // ---- Ballot cheat sheet and sharing ----
+  // The voter marks their own choices. Marks are kept only in this browser (localStorage) and are never sent anywhere.
+  // Sharing sends the page link only, never the marks.
+  var SHEET_KEY = "ballot-sheet-v1", LEANS_KEY = "ballot-leans-v1";
+  function readJSON(k) { try { var v = JSON.parse(localStorage.getItem(k) || "null"); return v && typeof v === "object" && !Array.isArray(v) ? v : {}; } catch (e) { return {}; } }
+  function writeJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  function siteBase() { return location.href.split("#")[0].split("?")[0]; }
+  function placeLabel(county, place) {
+    var cc = consolidated(county), city = place.city, mode = place.mode;
+    return mode === "city" ? (cc && city.id === cc.id ? city.name : city.name + ", " + county.name) : mode === "unincorporated" ? "unincorporated " + county.name : county.name;
+  }
+  function ballotPath(countyId, cityId) { return enc(countyId) + (cityId ? "/" + enc(cityId) : ""); }
+  function shareBox(url, text) {
+    return '<div class="share no-print" data-share="1" data-url="' + esc(url) + '" data-text="' + esc(text) + '">' +
+      '<button type="button" class="btn secondary" data-act="share">' + icon("share") + "Share</button>" +
+      '<a class="btn secondary" data-act="wa" href="https://wa.me/?text=' + esc(encodeURIComponent(text + " " + url)) + '" target="_blank" rel="noopener noreferrer">WhatsApp</a>' +
+      '<button type="button" class="btn secondary" data-act="copy">Copy link</button>' +
+      '<p class="small share-msg" role="status" aria-live="polite">Sharing sends the link only. Your marks stay on this device.</p></div>';
+  }
+  function bindShare() {
+    Array.prototype.forEach.call(app.querySelectorAll("[data-share]"), function (box) {
+      var url = box.getAttribute("data-url"), text = box.getAttribute("data-text"), msg = box.querySelector(".share-msg");
+      var sb = box.querySelector('[data-act="share"]');
+      if (!navigator.share) sb.hidden = true;
+      sb.addEventListener("click", function () { navigator.share({ title: text, text: text, url: url }).catch(function () {}); });
+      box.querySelector('[data-act="copy"]').addEventListener("click", function () {
+        var done = function () { msg.textContent = "Link copied. Sharing sends the link only. Your marks stay on this device."; };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, function () { msg.textContent = url; });
+        else msg.textContent = url;
+      });
+    });
+  }
+  function sheetCta(countyId, cityId, name) {
+    var url = siteBase() + "#/ballot/" + ballotPath(countyId, cityId);
+    return '<section class="card sheet-cta" data-sheet-cta="1"><h2>' + icon("print") + "Take it with you</h2>" +
+      '<p class="small">Mark your own choices on a one-page cheat sheet, then print it or keep it on your phone. Bring it when you fill in your ballot.</p>' +
+      '<div class="cta"><a class="btn primary" href="#/sheet/' + ballotPath(countyId, cityId) + '">Open my ballot cheat sheet</a><a class="textlink" href="#/how-to-vote">How and when to vote</a></div>' +
+      shareBox(url, "Ballot choices for " + name + ", " + DB.election.name) + "</section>";
+  }
+
+  function viewSheet(countyId, cityId, extra) {
+    var county = J(countyId);
+    if (!county || county.type !== "county") return viewNotFound("That county is not in this guide.");
+    if (extra) return viewPlaceNotFound(county, extra);
+    var place = resolvePlace(county, cityId);
+    if (!place) return viewPlaceNotFound(county, cityId);
+    var applyCity = place.city ? place.city.id : null, name = placeLabel(county, place);
+    var marks = readJSON(SHEET_KEY), leans = readJSON(LEANS_KEY);
+    var buckets = {}; GROUPS.forEach(function (g) { buckets[g.key] = []; });
+    DB.measures.forEach(function (m) { var a = applies(m.jurisdiction, countyId, applyCity); if (a) buckets[groupOf(m.jurisdiction, false)].push({ x: m, a: a }); });
+    var sure = [], maybe = [];
+    DB.contests.forEach(function (c) { var a = applies(c.jurisdiction, countyId, applyCity); if (a && (c.candidates || []).length) (a.fit === "yes" ? sure : maybe).push({ x: c, a: a }); });
+    var tag = '<span class="dep">Depends on your address</span>';
+    function measureRow(it) {
+      var m = it.x, id = m.id, v = own(marks, id), anchor = toolAnchor(m), ln = "";
+      if (anchor) {
+        var l = own(leans, anchor.slice(5));
+        ln = '<p class="lean small">' + (l && l.label && l.cls !== "none" ? "Your lean in the Weighing Tool: <b>" + esc(l.label) + "</b>" : "Not answered in the Weighing Tool yet.") +
+          ' <a class="no-print" href="' + esc(toolHref(m)) + '">Open in the tool</a></p>';
+      }
+      return '<li class="srow" data-id="' + esc(id) + '"><div class="stx"><span class="rid">' + esc(m.identifier) + "</span> " + esc(m.shortTitle || m.officialTitle) +
+        (it.a.fit === "maybe" ? " " + tag : "") + ln + "</div>" +
+        '<div class="yn" role="group" aria-label="' + esc(m.identifier + " " + (m.shortTitle || "")) + '">' +
+        ["yes", "no"].map(function (o) { return '<label class="box"><input type="checkbox" value="' + o + '"' + (v === o ? " checked" : "") + "><span>" + o.toUpperCase() + "</span></label>"; }).join("") +
+        "</div></li>";
+    }
+    function contestRow(it) {
+      var c = it.x, v = own(marks, c.id); v = Array.isArray(v) ? v : [];
+      var cands = (c.candidates || []).map(rec).filter(Boolean);
+      return '<li class="srow contest" data-id="' + esc(c.id) + '"><div class="stx"><b>' + esc(c.office) + (c.district ? ", " + esc(c.district) : "") + "</b>" +
+        '<span class="small muted"> · ' + esc((J(c.jurisdiction) || {}).name || "") + (c.seats ? " · Vote for up to " + esc(c.seats) : "") + "</span>" +
+        (c.listStatus === "pending" ? ' <span class="dep">Not yet on a final list</span>' : "") + "</div>" +
+        '<ul class="cands" data-seats="' + esc(c.seats || "") + '">' + cands.map(function (k) {
+          return '<li><label class="box"><input type="checkbox" value="' + esc(k.id) + '"' + (v.indexOf(k.id) >= 0 ? " checked" : "") + "><span>" + esc(k.name) + "</span></label>" +
+            (k.designation || k.party ? '<span class="small muted">' + esc([k.party, k.designation].filter(Boolean).join(" · ")) + "</span>" : "") + "</li>";
+        }).join("") + '</ul><p class="small seat-msg" role="status" aria-live="polite"></p></li>';
+    }
+    var sections = GROUPS.filter(function (g) { return g.key !== "candidates" && buckets[g.key].length; }).map(function (g) {
+      return '<section class="sheet-sec"><h2>' + esc(g.title) + ' <span class="counts">' + buckets[g.key].length + "</span></h2><ul class=\"slist\">" + buckets[g.key].map(measureRow).join("") + "</ul></section>";
+    }).join("");
+    var csec = (sure.length ? '<section class="sheet-sec"><h2>Candidate contests <span class="counts">' + sure.length + '</span></h2><ul class="slist">' + sure.map(contestRow).join("") + "</ul></section>" : "") +
+      (maybe.length ? '<details class="sheet-sec maybe" data-maybe="1"><summary><h2>Contests that depend on your address <span class="counts">' + maybe.length + '</span></h2></summary>' +
+        '<p class="small">Only some of these are on your ballot. Your official sample ballot shows which. Leave the others blank.</p><ul class="slist">' + maybe.map(contestRow).join("") + "</ul></details>" : "");
+    var url = siteBase() + "#/sheet/" + ballotPath(countyId, cityId);
+    app.innerHTML =
+      '<a class="back no-print" href="#/ballot/' + ballotPath(countyId, cityId) + '">Back to ballot choices</a>' +
+      '<section class="ov-head sheet-head"><p class="eyebrow">' + esc(DB.election.name) + "</p><h1>My ballot cheat sheet</h1>" +
+      '<p class="place">' + esc(name) + "</p>" +
+      '<p class="muted">Tick your own choices, then print this page or keep it on your phone. Your marks are saved only in this browser and are never sent anywhere. This is not an official ballot. Check your county’s sample ballot for the exact list.</p></section>' +
+      '<div class="cta no-print sheet-tools"><button type="button" class="btn primary" id="sheet-print">' + icon("print") + 'Print or save as PDF</button><button type="button" class="btn secondary" id="sheet-clear">Clear my marks</button></div>' +
+      shareBox(url, "Ballot cheat sheet for " + name + ", " + DB.election.name) +
+      sections + csec +
+      '<section class="sheet-sec sheet-foot"><h2>Before you vote</h2><p class="small">Election Day is ' + esc(fmtDate(DB.election.date)) + ". " + samplePlace(county) +
+      ' <a class="no-print" href="#/how-to-vote">Key dates, drop boxes and ballot tracking</a>.</p><p class="small print-only">Printed from ' + esc(url) + "</p></section>";
+    // Marks
+    function store() { writeJSON(SHEET_KEY, marks); }
+    Array.prototype.forEach.call(app.querySelectorAll(".srow:not(.contest)"), function (row) {
+      var id = row.getAttribute("data-id"), boxes = row.querySelectorAll("input");
+      Array.prototype.forEach.call(boxes, function (b) {
+        b.addEventListener("change", function () {
+          if (b.checked) Array.prototype.forEach.call(boxes, function (o) { if (o !== b) o.checked = false; });
+          if (b.checked) marks[id] = b.value; else delete marks[id];
+          store();
+        });
+      });
+    });
+    Array.prototype.forEach.call(app.querySelectorAll(".srow.contest"), function (row) {
+      var id = row.getAttribute("data-id"), ul = row.querySelector(".cands"), seats = parseInt(ul.getAttribute("data-seats"), 10) || 0, msg = row.querySelector(".seat-msg");
+      ul.addEventListener("change", function (e) {
+        var on = Array.prototype.filter.call(ul.querySelectorAll("input"), function (i) { return i.checked; });
+        if (seats && on.length > seats) { e.target.checked = false; msg.textContent = "Vote for up to " + seats + ". Untick one first."; return; }
+        msg.textContent = "";
+        var ids = Array.prototype.filter.call(ul.querySelectorAll("input"), function (i) { return i.checked; }).map(function (i) { return i.value; });
+        if (ids.length) marks[id] = ids; else delete marks[id];
+        store();
+      });
+    });
+    document.getElementById("sheet-print").addEventListener("click", function () {
+      var d = app.querySelector("details.maybe"); if (d) d.open = true;
+      window.print();
+    });
+    document.getElementById("sheet-clear").addEventListener("click", function () {
+      Array.prototype.forEach.call(app.querySelectorAll(".srow"), function (r) { delete marks[r.getAttribute("data-id")]; });
+      Array.prototype.forEach.call(app.querySelectorAll(".srow input"), function (i) { i.checked = false; });
+      store();
+    });
+    bindShare();
+  }
+
+  // Official California tools, named in the Secretary of State's 2026 news release (read October 25, 2026):
+  // https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-more-54-million-california-voters-signed-track-their-ballot
+  var VOTER_TOOLS = [
+    { label: "Check your registration", url: "https://voterstatus.sos.ca.gov/", text: "See whether you are registered and where." },
+    { label: "Track your ballot", url: "https://wheresmyballot.sos.ca.gov/", text: "Where's My Ballot? sends updates when your ballot is mailed, received and counted." },
+    { label: "Find a drop box", url: "https://caearlyvoting.sos.ca.gov/", text: "Secure ballot drop-off locations near you." },
+    { label: "Official voter guide", url: "https://voterguide.sos.ca.gov/", text: "Every statewide proposition and statewide candidate, with official arguments." }
+  ];
+  function viewHowToVote() {
+    var cs = counties().filter(isBay);
+    app.innerHTML =
+      '<a class="back" href="#/">Home</a>' +
+      '<section class="ov-head"><p class="eyebrow">' + esc(DB.election.name) + "</p><h1>How and when to vote</h1>" +
+      '<p class="muted">Dates and tools from the California Secretary of State, and your county elections office for vote centers, polling places and your sample ballot. Rules can change, so the official pages have the final word.</p></section>' +
+      keyDatesCard() +
+      '<section class="card" data-voter-tools="1"><h2>' + icon("check") + "Official tools</h2><ul class=\"tools\">" +
+        VOTER_TOOLS.map(function (t) { return "<li>" + ext(t.url, "<b>" + esc(t.label) + "</b>") + '<span class="small">' + esc(t.text) + "</span></li>"; }).join("") +
+        '</ul><p class="small">From the California Secretary of State. Tool addresses as listed in its ' + ext("https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-more-54-million-california-voters-signed-track-their-ballot", "2026 news release") + ", read October 25, 2026.</p></section>" +
+      '<section class="card" data-county-offices="1"><h2>' + icon("pin") + "Your county elections office</h2>" +
+        '<p class="small">Vote center and polling place locations, hours and your sample ballot come from your county.</p><ul class="tools">' +
+        cs.map(function (c) {
+          return "<li><b>" + esc(c.name) + "</b><span class=\"small\">" + [c.electionsUrl ? ext(c.electionsUrl, "Elections office") : "", c.lookupUrl ? ext(c.lookupUrl, esc(capFirst(c.lookupLabel || "voter lookup"))) : ""].filter(Boolean).join(" · ") + "</span></li>";
+        }).join("") +
+        '</ul><p class="small">Elsewhere in California, see the ' + ext("https://www.sos.ca.gov/elections/voting-resources/county-elections-offices", "list of county elections offices") + ".</p></section>" +
+      '<div class="cta"><a class="btn primary" href="#/find">' + icon("pin") + "Find My Ballot</a><a class=\"btn secondary\" href=\"propositions.html\">" + icon("scale") + "Ballot Weighing Tool</a></div>";
+  }
+
   function viewNotFound(msg) {
     app.innerHTML = '<a class="back" href="#/">Home</a><h1>Not found</h1><p>' + esc(msg) + ' <a href="#/find">Find your ballot</a>.</p>';
   }
@@ -1137,10 +1297,10 @@
     if (parts.some(function (p) { return p === null; })) bad = true;
     var v = bad ? "\u0000" : parts[0] || "";
     CTX = { from: "", place: "" };
-    if (!bad && (v === "ballot" || v === "browse" || v === "statewide" || v === "contests")) {
+    if (!bad && (v === "ballot" || v === "sheet" || v === "browse" || v === "statewide" || v === "contests")) {
       CTX.from = "#/" + parts.map(enc).join("/");
-      var cj = v === "ballot" ? J(parts[1]) : null, cy = cj && parts[2] && parts[2] !== "unincorporated" ? J(parts[2]) : null;
-      CTX.place = v === "ballot" ? (cy ? cy.name + ", " : "") + (cj ? cj.name : "") : v === "browse" ? "Browse" : v === "statewide" ? "Statewide propositions" : "Candidates and contests";
+      var cj = v === "ballot" || v === "sheet" ? J(parts[1]) : null, cy = cj && parts[2] && parts[2] !== "unincorporated" ? J(parts[2]) : null;
+      CTX.place = v === "ballot" || v === "sheet" ? (cy ? cy.name + ", " : "") + (cj ? cj.name : "") : v === "browse" ? "Browse" : v === "statewide" ? "Statewide propositions" : "Candidates and contests";
     }
     if (bad) viewNotFound("That page address is not valid.");
     else if (v === "") viewHome();
@@ -1148,6 +1308,8 @@
     else if (v === "statewide" && parts.length === 1) viewStatewide();
     else if (v === "about" && parts.length === 1) viewAbout();
     else if (v === "ballot") viewBallot(parts[1], parts[2], parts.slice(3).join("/"));
+    else if (v === "sheet") viewSheet(parts[1], parts[2], parts.slice(3).join("/"));
+    else if (v === "how-to-vote" && parts.length === 1) viewHowToVote();
     else if (v === "item") viewItem(parts.slice(1).join("/"));
     else if (v === "contest") viewContest(parts.slice(1).join("/"));
     else if (v === "candidate") viewCandidate(parts.slice(1).join("/"));
@@ -1175,7 +1337,7 @@
   // Marks the current section in the menu and closes the phone menu after navigating.
   function setNav(v) {
     setMenu(false);
-    var map = { find: "#/find", ballot: "#/find", contests: "#/contests", contest: "#/contests", candidate: "#/contests", browse: "#/browse", item: "#/browse", statewide: "#/browse", about: "#/about" };
+    var map = { find: "#/find", ballot: "#/find", sheet: "#/find", "how-to-vote": "#/how-to-vote", contests: "#/contests", contest: "#/contests", candidate: "#/contests", browse: "#/browse", item: "#/browse", statewide: "#/browse", about: "#/about" };
     document.querySelectorAll(".topnav a").forEach(function (a) { if (map[v] && a.getAttribute("href") === map[v]) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
   }
 

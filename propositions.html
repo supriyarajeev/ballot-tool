@@ -1155,6 +1155,8 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       $("c-" + p.n).hidden = l.qu.off || !limitedWeighted(p);
       $("y-" + p.n).textContent = l.why;
     });
+    // A copy of each lean label for the guide's printable cheat sheet. Read only by the cheat sheet, on this device.
+    try { var snap = {}; PROPS.forEach(function (p) { snap[p.n] = { cls: res[p.n].cls, label: res[p.n].label }; }); localStorage.setItem("ballot-leans-v1", JSON.stringify(snap)); } catch (e) {}
 
     $("all-pct").innerHTML = PROPS.map(function (p) {
       var wr = BW.weighted(p.s, state.w);
@@ -1194,9 +1196,9 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   var RET_KEY = "ballot-return-v1";
   function readReturn() {
     var q = new URLSearchParams(location.search), f = q.get("from"), pl = q.get("place");
-    var ok = typeof f === "string" && /^#\/(ballot|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(f);
+    var ok = typeof f === "string" && /^#\/(ballot|sheet|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(f);
     if (ok) { try { sessionStorage.setItem(RET_KEY, JSON.stringify({ f: f, p: (pl || "").slice(0, 120) })); } catch (e) {} return { f: f, p: (pl || "").slice(0, 120) }; }
-    try { var v = JSON.parse(sessionStorage.getItem(RET_KEY) || "null"); if (v && /^#\/(ballot|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(v.f)) return v; } catch (e) {}
+    try { var v = JSON.parse(sessionStorage.getItem(RET_KEY) || "null"); if (v && /^#\/(ballot|sheet|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(v.f)) return v; } catch (e) {}
     return null;
   }
   var ret = readReturn();

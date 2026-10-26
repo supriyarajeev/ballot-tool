@@ -1,4 +1,4 @@
-# Upload instructions (October 24, 2026, polish, mobile and statewide unification)
+# Upload instructions (October 25, 2026, ballot cheat sheet and How to vote)
 
 GitHub Pages settings, the domain and the public link (https://supriyarajeev.github.io/ballot-tool/) do not change.
 
@@ -7,14 +7,14 @@ GitHub Pages settings, the domain and the public link (https://supriyarajeev.git
 ```
 cd ~/Desktop/ballot-tool        # your clone; if it is gone: git clone https://github.com/supriyarajeev/ballot-tool.git
 git pull
-unzip -o ~/Downloads/ballot-guide-links-oct24.zip
+unzip -o ~/Downloads/ballot-guide-sheet-oct25.zip
 git add -A
-git status                      # expect about 13 changed or new files
-git commit -m "Source link audit: official HTML first, PDFs kept"
+git status                      # expect about 8 changed or new files
+git commit -m "Ballot cheat sheet, sharing and How to vote page"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-links-oct24.zip | tail -1` should show 218 files. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-sheet-oct25.zip | tail -1` should show 220 files. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 

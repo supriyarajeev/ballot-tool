@@ -534,6 +534,49 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   ok(errs.length === 0, "console errors: " + errs.slice(0, 5).join(" | "));
   await ctx.close();
 
+
+  // ---------- Ballot cheat sheet, sharing and How to vote ----------
+  { const cu = await b.newContext({ viewport: { width: 390, height: 844 } }); const p = await cu.newPage(); await blockExternal(p, new Set());
+    await go(p, "#/ballot/ca-alameda/ca-alameda-fremont");
+    ok((await p.getAttribute("[data-sheet-cta] a.btn.primary", "href")) === "#/sheet/ca-alameda/ca-alameda-fremont", "the ballot page links to its cheat sheet");
+    ok(/#\/ballot\/ca-alameda\/ca-alameda-fremont$/.test(await p.getAttribute("[data-sheet-cta] [data-share]", "data-url")), "the ballot page shares its own link");
+    const rows = await p.evaluate(() => document.querySelectorAll("main a.row").length);
+    await go(p, "#/sheet/ca-alameda/ca-alameda-fremont", ".srow");
+    const sheet = await p.evaluate(() => ({ m: document.querySelectorAll(".srow:not(.contest)").length, st: document.querySelectorAll(".sheet-sec .srow .lean").length, place: document.querySelector(".place").textContent }));
+    ok(sheet.st === 14 && sheet.place === "Fremont, Alameda County", "sheet lists all 14 statewide propositions for Fremont: " + JSON.stringify(sheet));
+    const contestsOnBallot = await p.evaluate(() => document.querySelectorAll(".srow.contest").length);
+    ok(sheet.m + contestsOnBallot <= rows, "sheet items come from the same ballot list (" + (sheet.m + contestsOnBallot) + " of " + rows + " rows, contests without candidates left off)");
+    ok((await p.$$eval(".srow.contest", (r) => r.every((x) => x.querySelectorAll(".cands input").length > 0))), "every contest on the sheet has candidates to tick");
+    const y = p.locator(".srow:not(.contest)").first().locator('input[value="yes"]'), n = p.locator(".srow:not(.contest)").first().locator('input[value="no"]');
+    await y.check(); await n.check();
+    ok(!(await y.isChecked()) && (await n.isChecked()), "YES and NO cannot both be ticked");
+    await p.reload(); await p.waitForSelector(".srow");
+    ok(await p.locator(".srow:not(.contest)").first().locator('input[value="no"]').isChecked(), "marks survive a reload");
+    await p.evaluate(() => { const d = document.querySelector("details.maybe"); if (d) d.open = true; });
+    const seats1 = p.locator('.srow.contest .cands[data-seats="1"]').filter({ has: p.locator("li:nth-child(2)") }).first();
+    await seats1.locator("li:nth-child(1) input").check(); await seats1.locator("li:nth-child(2) input").click();
+    ok((await seats1.locator("input:checked").count()) === 1, "a vote-for-1 contest keeps one tick");
+    const stored = await p.evaluate(() => localStorage.getItem("ballot-sheet-v1"));
+    ok(stored && Object.keys(JSON.parse(stored)).length === 2, "marks are stored in this browser");
+    ok(!/[?&](yes|no|m)=/.test(await p.getAttribute("[data-share]", "data-url")), "the shared link carries no marks");
+    await p.click("#sheet-clear");
+    ok((await p.locator(".srow input:checked").count()) === 0 && (await p.evaluate(() => Object.keys(JSON.parse(localStorage.getItem("ballot-sheet-v1") || "{}")).length)) === 0, "Clear my marks clears every mark");
+    ok((await p.getAttribute('.srow .lean a', "href")).startsWith("propositions.html?from=%23%2Fsheet%2Fca-alameda%2Fca-alameda-fremont"), "proposition links open the tool with a way back to the sheet");
+    await p.goto(B + "propositions.html"); await p.waitForSelector("#props article.prop");
+    await p.evaluate(() => localStorage.setItem("ballot-weighing-v2", JSON.stringify({ w: {}, g: { 1: 2 } })));
+    await p.reload(); await p.waitForSelector("#props article.prop");
+    const tl = await p.textContent("#v-1");
+    await go(p, "#/sheet/ca-alameda/ca-alameda-fremont", ".srow");
+    ok((await p.textContent('.srow[data-id$="prop-1"] .lean b').catch(() => "")) === tl, "the sheet shows the lean the tool computed for Prop 1: " + tl);
+    await p.emulateMedia({ media: "print" });
+    ok(await p.evaluate(() => [".topbar", ".beta", ".share", "#sheet-print"].every((s) => { const e = document.querySelector(s); return !e || e.getClientRects().length === 0; }) && getComputedStyle(document.querySelector(".print-only")).display !== "none"), "print hides the menu, beta notice and buttons, and shows the page address");
+    await p.emulateMedia({ media: "screen" });
+    await go(p, "#/how-to-vote", "[data-voter-tools]");
+    const htv = await p.evaluate(() => ({ dates: document.querySelectorAll("[data-key-dates] li").length, tools: [...document.querySelectorAll("[data-voter-tools] a")].map((a) => a.href), counties: document.querySelectorAll("[data-county-offices] li").length, cur: document.querySelector('.topnav a[aria-current="page"]')?.getAttribute("href") }));
+    ok(htv.dates > 0 && htv.counties === 9 && htv.cur === "#/how-to-vote" && htv.tools.every((u) => u.startsWith("https://")), "How to vote shows key dates, official tools and all 9 county offices: " + JSON.stringify({ d: htv.dates, c: htv.counties }));
+    await go(p, "#/sheet/ca-nowhere"); ok(/Not found/.test(await p.textContent("h1")), "an unknown county on the sheet shows Not found");
+    await cu.close(); }
+
   // ---------- Statewide propositions open in the Ballot Weighing Tool (one experience) ----------
   { const T = (h) => h.match(/#prop-(\d+)$/);
     const cu = await b.newContext({ viewport: { width: 1280, height: 900 } }); const p = await cu.newPage(); await blockExternal(p, new Set());
@@ -595,7 +638,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     await d.goto(B + "#/"); await d.waitForSelector("h1");
     ok(!(await d.isVisible(".menu-btn")) && await d.isVisible("#topnav a[href='#/browse']"), "desktop: links shown, no Menu button");
     await c4.close();
-    const sweep = ["#/", "#/find?county=ca-contra-costa", "#/ballot/ca-santa-clara/ca-santa-clara-san-jose", "#/contests", "#/contest/2026-11-03.ca.governor", "#/candidate/2026-11-03.ca-sf.public-defender.manohar-raju", "#/browse", "#/about"];
+    const sweep = ["#/", "#/find?county=ca-contra-costa", "#/ballot/ca-santa-clara/ca-santa-clara-san-jose", "#/contests", "#/contest/2026-11-03.ca.governor", "#/candidate/2026-11-03.ca-sf.public-defender.manohar-raju", "#/browse", "#/about", "#/sheet/ca-alameda/ca-alameda-fremont", "#/how-to-vote"];
     const over = [];
     for (const w of [320, 360, 375, 390, 414, 430, 768, 1024, 1280]) {
       const c5 = await b.newContext({ viewport: { width: w, height: 800 } }); const z = await c5.newPage(); await blockExternal(z, new Set());
@@ -609,7 +652,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   // browser serializes the DOM (open="", async="", crossorigin="") and the per-route document title length.
   const rcfg = readJSON(".htmlvalidate.json");
   const htmlv = new HtmlValidate({ ...rcfg, rules: { ...(rcfg.rules || {}), "attribute-boolean-style": "off", "attribute-empty-style": "off", "script-type": "off", "long-title": "off" } });
-  const pages = ["#/", "#/find?county=ca-alameda&city=ca-alameda-oakland", "#/ballot/ca-alameda/ca-alameda-oakland", "#/ballot/ca-sf", "#/ballot/ca-fresno", "#/item/" + encodeURIComponent((incomplete[0] || localItem).id), "#/contest/2026-11-03.ca.governor", "#/contests", "#/browse", "#/about", "#/statewide", "#/item/2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i"];
+  const pages = ["#/", "#/find?county=ca-alameda&city=ca-alameda-oakland", "#/ballot/ca-alameda/ca-alameda-oakland", "#/ballot/ca-sf", "#/ballot/ca-fresno", "#/item/" + encodeURIComponent((incomplete[0] || localItem).id), "#/contest/2026-11-03.ca.governor", "#/contests", "#/browse", "#/about", "#/statewide", "#/item/2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i", "#/sheet/ca-alameda/ca-alameda-fremont", "#/how-to-vote"];
   for (const w of [360, 768, 1280]) for (const scheme of ["light", "dark"]) {
     const c2 = await b.newContext({ viewport: { width: w, height: 850 }, colorScheme: scheme });
     const q = await c2.newPage(); const e2 = [], h2 = new Set();

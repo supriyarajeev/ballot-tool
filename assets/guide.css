@@ -412,3 +412,58 @@ footer.site { padding-bottom: max(48px, calc(24px + env(safe-area-inset-bottom, 
   .row.to-tool { grid-template-columns: minmax(0, 1fr) auto; }
   .row.to-tool .go { grid-column: 1 / -1; justify-self: start; }
 }
+
+/* Cheat sheet, sharing and How to vote (Oct 25) */
+.sheet-cta { margin: 16px 0; }
+.sheet-cta h2, [data-voter-tools] h2, [data-county-offices] h2 { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 1.1rem; }
+.share { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 4px 0 12px; }
+.share .btn { min-height: 44px; padding: 8px 16px; font-size: .95rem; }
+.share .btn .ico { margin-right: 6px; }
+.share-msg { flex-basis: 100%; margin: 0; color: var(--muted); }
+.sheet-head .place { font-family: var(--f-display); font-weight: 800; font-size: 1.15rem; margin: 2px 0 6px; }
+.sheet-tools { margin: 4px 0 8px; }
+.sheet-tools .btn .ico { margin-right: 8px; }
+.sheet-sec { margin: 18px 0; }
+.sheet-sec > h2, .sheet-sec > summary h2 { font-size: 1.05rem; display: flex; gap: 8px; align-items: baseline; border-bottom: 2px solid var(--ink); padding-bottom: 6px; margin: 0 0 4px; }
+.sheet-sec .counts { font-size: .85rem; color: var(--muted); font-weight: 700; }
+details.sheet-sec > summary { cursor: pointer; list-style: none; min-height: 44px; display: flex; align-items: center; }
+details.sheet-sec > summary::-webkit-details-marker { display: none; }
+details.sheet-sec > summary h2 { flex: 1; }
+details.sheet-sec > summary::after { content: "+"; font-weight: 800; color: var(--accent); margin-left: 8px; }
+details.sheet-sec[open] > summary::after { content: "\2212"; }
+.slist { list-style: none; margin: 0; padding: 0; }
+.srow { display: flex; gap: 12px; justify-content: space-between; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--rule); break-inside: avoid; }
+.srow.contest { display: block; }
+.stx { min-width: 0; overflow-wrap: anywhere; }
+.stx .rid { font-family: var(--f-display); font-weight: 800; }
+.srow .lean { margin: 4px 0 0; color: var(--muted); }
+.dep { display: inline-block; font-size: .72rem; font-weight: 700; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--rule); color: var(--muted); white-space: nowrap; }
+.yn { display: flex; gap: 6px; flex-shrink: 0; border: 0; padding: 0; background: none; }
+.box { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; cursor: pointer; }
+.yn .box { padding: 0 10px; border: 1.5px solid var(--rule); border-radius: 8px; font-family: var(--f-display); font-weight: 800; font-size: .85rem; }
+.yn .box:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.box input { width: 20px; height: 20px; accent-color: var(--accent); margin: 0; }
+.cands { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 0 18px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.cands li { display: flex; flex-direction: column; padding: 2px 0 6px; }
+.cands .small { margin-left: 26px; margin-top: -8px; }
+.seat-msg { color: #b3261e; margin: 0; }
+.seat-msg:empty { display: none; }
+.tools { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.tools li { display: grid; gap: 2px; }
+.print-only { display: none; }
+@media (max-width: 480px) { .share .btn { flex: 1 1 0; min-width: 0; padding: 8px 6px; font-size: .9rem; } .sheet-tools .btn { flex: 1 1 auto; } .srow { gap: 8px; } .yn .box { padding: 0 7px; } }
+@media print {
+  .topbar, .beta, footer.site, .no-print, .skip { display: none !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .wrap { max-width: none; padding: 0; }
+  .print-only { display: block; }
+  .sheet-head .muted, .srow .lean { color: #333; }
+  details.sheet-sec > summary::after { content: none; }
+  .srow { padding: 5px 0; }
+  .box { min-height: 0; }
+  .yn .box { border-color: #000; }
+  .cands { grid-template-columns: 1fr 1fr; }
+  a { color: #000; text-decoration: none; }
+}
+@media (max-width: 340px) { .share .btn { flex: 1 1 40%; } .yn .box { padding: 0 5px; } }
+@media (max-width: 480px) { .dep { white-space: normal; } }

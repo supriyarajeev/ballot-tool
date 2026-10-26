@@ -1,5 +1,13 @@
 # Changelog
 
+## October 25, 2026, ballot cheat sheet, sharing and How to vote
+
+- **Ballot cheat sheet.** Every ballot page links to `#/sheet/<county>/<city>`. Voters tick YES or NO on each measure and pick candidates, then print it or keep it on their phone. Vote-for limits are enforced. Contests that depend on the address are grouped separately.
+- **Weighing Tool leans on the sheet.** Each statewide proposition shows the lean the tool last computed on this device, read from a copy the tool now saves (`ballot-leans-v1`). No rating, weight or lean logic changed.
+- **Private by design.** Marks stay in this browser (`ballot-sheet-v1`). Share, WhatsApp and Copy link send the page link only.
+- **How to vote page** (`#/how-to-vote`, in the menu). Key dates already in the data, the Secretary of State's registration check, ballot tracking, drop box finder and voter guide, and each Bay Area county's elections office.
+- **Tests.** 42 new browser checks for the sheet, sharing, print layout and How to vote.
+
 ## October 24, 2026, source link audit
 
 - **All 68 links checked.** Every source link in the Ballot Weighing Tool was checked at its destination. None was broken, and a blank page could not be reproduced in Chrome.
