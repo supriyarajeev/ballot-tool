@@ -115,7 +115,14 @@ header { display: grid; gap: 12px; }
 .propnav { display: flex; flex-wrap: wrap; gap: 6px; }
 .propnav a { display: inline-flex; align-items: center; justify-content: center; min-width: 64px; min-height: 44px; padding: 0 10px; border: 1px solid var(--rule); border-radius: 999px; background: var(--sheet); font-family: var(--f-display); font-weight: 700; font-size: .84rem; text-decoration: none; }
 .propnav a[aria-current="true"] { border-color: var(--ballot); background: var(--ballot-soft); }
-article.prop.is-target { outline: 3px solid var(--ballot); outline-offset: 3px; }
+/* The card the voter is working on (Oct 26, 2026): a blue ring, a lifted shadow, a tinted edge and a filled Prop number.
+   It follows the last card the voter clicked, tapped, focused, answered or jumped to. Only one card is marked at a time. */
+article.prop { transition: box-shadow .15s ease, border-color .15s ease; }
+article.prop.is-active { border-color: var(--ballot); box-shadow: 0 0 0 3px var(--ballot), 0 10px 28px rgba(15, 35, 70, .16); background: linear-gradient(90deg, var(--ballot-soft) 0 6px, var(--sheet) 6px); }
+article.prop.is-active .tags .num { background: var(--ballot); color: var(--sheet); padding: 2px 10px; border-radius: 999px; }
+article.prop.is-active .tags .num::after { content: " · you're here"; font-weight: 700; font-size: .78rem; }
+@media (prefers-reduced-motion: reduce) { article.prop { transition: none; } }
+@media print { article.prop.is-active { box-shadow: none; background: none; } }
 article.prop { scroll-margin-top: 84px; }
 article.prop h3[tabindex="-1"]:focus { outline: none; }
 /* Phones: the progress bar stays one compact row (count, bar, See my ballot); the answer tally is shown in Step 3. */
@@ -181,7 +188,7 @@ details.facts[open] summary { border-bottom: 1px solid var(--rule); }
 .facts dd { margin: 0; }
 .ratings { display: grid; gap: 6px; }
 .ratings-h { font-family: var(--f-display); font-weight: 700; font-size: .8rem; color: var(--muted); }
-.rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 4px 16px; }
+.rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 4px 16px; }
 .rt { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .82rem; }
 .dots { display: inline-flex; gap: 3px; }
 .dots i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--ballot); display: inline-block; }
@@ -385,6 +392,17 @@ a.next[hidden] { display: none; }
 .done[hidden] { display: none; }
 .sticky .linkbtn.go { background: var(--ballot); color: var(--sheet); border: 1.5px solid var(--ballot); border-radius: 10px; padding: 0 14px; min-height: 40px; display: inline-flex; align-items: center; }
 @media (max-width: 600px) { .take .btn-go { flex: 1 1 100%; } }
+
+.result-h .rp { letter-spacing: .04em; }
+.now { display: inline-block; margin-left: 8px; padding: 1px 9px; border-radius: 999px; background: var(--ballot); color: var(--sheet); font-family: var(--f-display); font-weight: 800; font-size: .78rem; white-space: nowrap; }
+.now[hidden] { display: none; }
+
+/* Limited-information key and tag (Oct 26, 2026) */
+.rkey { margin: 2px 0 6px; font-size: .78rem; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
+.rkey { gap: 4px 18px; } .rkey .k { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+@media (max-width: 380px) { .rkey .k { white-space: normal; } }
+.rv { display: inline-flex; align-items: center; gap: 6px; }
+.ltag { font-size: .68rem; font-weight: 700; letter-spacing: .02em; color: var(--muted); border: 1px dashed var(--muted); border-radius: 999px; padding: 0 6px; line-height: 1.5; }
 </style>
 </head>
 <body>
@@ -411,7 +429,7 @@ a.next[hidden] { display: none; }
   <div class="sticky">
     <div class="sticky-in">
       <div class="prog">
-        <div class="prog-l" aria-live="polite"><span class="pl-w">Answered </span><b id="ans-n">0</b> of 14</div>
+        <div class="prog-l"><span aria-live="polite"><span class="pl-w">Answered </span><b id="ans-n">0</b> of 14</span><span class="now" id="now" hidden></span></div>
         <div class="bar"><i id="ans-bar"></i></div>
       </div>
       <div class="tally" id="tally-top"></div>
@@ -1031,7 +1049,8 @@ a.next[hidden] { display: none; }
     for (var i = 1; i <= 5; i++) h += '<i class="' + (i <= n ? "on" : "") + '"></i>';
     var lim = p.u[k] ? " limited" : "";
     var lab = n + " of 5" + (lim ? ", limited information" : "");
-    return '<span class="dots' + lim + '" role="img" title="' + lab + '" aria-label="' + lab + '">' + h + '</span>';
+    // Striped dots mark a rating that rests on limited information; a visible "limited" tag says so without relying on the pattern.
+    return '<span class="rv"><span class="dots' + lim + '" role="img" title="' + lab + '" aria-label="' + lab + '">' + h + '</span>' + (lim ? '<span class="ltag" aria-hidden="true">limited</span>' : "") + '</span>';
   }
   function srcRefs(p, k) {
     return (p.rs[k] || []).filter(function (i) { return p.src[i]; }).map(function (i) {
@@ -1071,16 +1090,18 @@ a.next[hidden] { display: none; }
           '<dt>Key uncertainty</dt><dd>' + esc(p.unk) + '</dd>' +
           '<dt>Backers</dt><dd>' + esc(p.pro) + '</dd>' +
           '<dt>Opponents</dt><dd>' + esc(p.con) + '</dd>' +
-        '</dl><div class="ratings"><div class="ratings-h">This tool\'s ratings, 1 weak to 5 strong</div><div class="rgrid">' + ratings + '</div>' +
+        '</dl><div class="ratings"><div class="ratings-h">This tool\'s ratings, 1 weak to 5 strong</div>' +
+        (FACTORS.some(function (f) { return rated(p, f.k) && p.u[f.k]; }) ? '<p class="rkey"><span class="k"><span class="dots" aria-hidden="true"><i class="on"></i></span>Solid, enough information</span><span class="k"><span class="dots limited" aria-hidden="true"><i class="on"></i></span>Striped, limited information, read with caution</span></p>' : "") +
+        '<div class="rgrid">' + ratings + '</div>' +
         '<details class="why-r"><summary>Why these ratings</summary><ul>' + reasons + '</ul></details></div>' +
         '<div class="srcs"><b>Sources</b><ol>' + srcs + '</ol><p class="pdf-note">PDF links open in your browser’s PDF viewer, which can stay blank for a few seconds while a long document loads. If a PDF does not appear, use the web page version where one is listed, or your browser’s download button. Some in-app browsers and previews cannot show PDFs at all; open the page in Safari or Chrome instead.</p></div></div></details>' +
         '<fieldset class="ask"><legend>How would you vote on this proposition?<span class="vh"> Prop ' + p.n + '</span></legend><div class="pills">' + pills + '</div>' +
           '<p class="skip"><span>Not sure counts as a choice. Leave all three empty to skip.</span> <button type="button" class="clear-a" id="clr-' + p.n + '" data-n="' + p.n + '"' + (state.g[p.n] === null ? " hidden" : "") + '>Clear answer<span class="vh"> for Prop ' + p.n + '</span></button></p></fieldset>' +
       '</div>' +
       '<div class="result" role="group" aria-label="Your answer and the evidence for Prop ' + p.n + '">' +
-        '<div class="result-h">Your answer</div>' +
+        '<div class="result-h">Your answer <span class="rp">· Prop ' + p.n + '</span></div>' +
         '<div class="verdict v-none" id="v-' + p.n + '" aria-live="polite"></div>' +
-        '<div class="result-h ev-h">Evidence check</div>' +
+        '<div class="result-h ev-h">Evidence check <span class="rp">· Prop ' + p.n + '</span></div>' +
         '<p class="ev-sent" id="y-' + p.n + '"></p>' +
         '<div class="meter"><div class="meter-label vh"><span class="ev-lab">Evidence score</span><span id="q-' + p.n + '"></span></div>' +
           '<div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i><span class="mid"></span></div>' +
@@ -1325,10 +1346,38 @@ a.next[hidden] { display: none; }
   renderNext(Object.keys(state.g).filter(function (k) { return state.g[k] !== null; }).length);
 
   $("propnav").innerHTML = PROPS.map(function (p) { return '<a href="#prop-' + p.n + '">Prop ' + p.n + "</a>"; }).join("");
+  // Marks the card the voter is working on and the matching jump link. Only one at a time.
+  function setActive(card) {
+    if (!card || card.classList.contains("is-active")) return;
+    document.querySelectorAll("article.prop.is-active").forEach(function (a) { a.classList.remove("is-active"); });
+    card.classList.add("is-active");
+    var nw = document.getElementById("now"); if (nw) { nw.textContent = "Prop " + card.id.replace("prop-", ""); nw.hidden = false; }
+    var n = card.id.replace("prop-", "");
+    document.querySelectorAll("#propnav a").forEach(function (a) { if (a.getAttribute("href") === "#prop-" + n) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+  }
+  ["focusin", "pointerdown", "change"].forEach(function (ev) {
+    document.getElementById("props").addEventListener(ev, function (e) { var c = e.target.closest ? e.target.closest("article.prop") : null; if (c) setActive(c); });
+  });
+  // While reading, the highlight follows the card under the reading line (a third of the way down, below the sticky bar),
+  // and the sticky bar names it, so the voter always knows which proposition the details on screen belong to.
+  var nowEl = $("now"), stickyEl = document.querySelector(".sticky"), scrollT = 0;
+  function trackReading() {
+    scrollT = 0;
+    var top = stickyEl.getBoundingClientRect().bottom, y = top + (window.innerHeight - top) * 0.33, hit = null;
+    document.querySelectorAll("article.prop").forEach(function (a) { var r = a.getBoundingClientRect(); if (r.top <= y && r.bottom >= y) hit = a; });
+    // While the focused control (a choice the voter just picked, or one reached with Tab) is on screen, its card stays marked.
+    var fe = document.activeElement, fc = fe && fe.closest ? fe.closest("article.prop") : null;
+    if (fc) { var fel = fe.type === "radio" ? fe.parentElement : fe, fr = fel.getBoundingClientRect(); if (fr.bottom > top && fr.top < window.innerHeight) hit = fc; }
+    if (hit) setActive(hit);
+    var act = document.querySelector("article.prop.is-active"), r2 = act && act.getBoundingClientRect();
+    var show = act && r2.bottom > top && r2.top < window.innerHeight;
+    nowEl.hidden = !show; if (show) nowEl.textContent = "Prop " + act.id.replace("prop-", "");
+  }
+  window.addEventListener("scroll", function () { if (!scrollT) scrollT = window.requestAnimationFrame ? requestAnimationFrame(trackReading) : setTimeout(trackReading, 50); }, { passive: true });
   function showTarget() {
     var m = /^#prop-(\d+)$/.exec(location.hash), el = m && document.getElementById("prop-" + m[1]);
     document.querySelectorAll("article.prop.is-target").forEach(function (a) { a.classList.remove("is-target"); });
-    document.querySelectorAll("#propnav a").forEach(function (a) { if (m && a.getAttribute("href") === "#prop-" + m[1]) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+    if (el) setActive(el);
     if (!el) return;
     el.classList.add("is-target");
     var h = document.getElementById("h-" + m[1]);

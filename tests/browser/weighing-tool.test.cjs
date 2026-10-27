@@ -163,6 +163,22 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
       await p.evaluate(() => document.querySelector("#prop-5 .pills").scrollIntoView({ block: "center", behavior: "instant" })); await p.waitForTimeout(300);
       const hit = await p.evaluate(() => [...document.querySelectorAll("#prop-5 .pill span")].map((s) => { const r = s.getBoundingClientRect(); const e = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2); return e && s.parentElement.contains(e) ? "ok" : (e ? e.tagName + "." + e.className : "none") + "@" + Math.round(r.top); }));
       ok(hit.every((h) => h === "ok"), "Prop 5 buttons are not covered (" + hit.join(", ") + ") " + tag);
+      // Striped (limited-information) ratings have a key and a visible "limited" tag (Oct 26, 2026).
+      const lk = await p.evaluate(() => [...document.querySelectorAll("article.prop")].map((c) => { const lim = c.querySelectorAll(".rgrid .dots.limited"); return { n: c.id, lim: lim.length, tags: c.querySelectorAll(".rgrid .ltag").length, key: !!c.querySelector(".rkey"), aria: [...lim].every((d) => /limited information$/.test(d.getAttribute("aria-label"))) }; }));
+      ok(lk.some((x) => x.lim > 0) && lk.every((x) => x.tags === x.lim && x.key === (x.lim > 0) && x.aria), "every striped rating has a visible limited tag and the card has a key, only where needed " + tag);
+      // The card being worked on is highlighted, one at a time, and named in the sticky bar (Oct 26, 2026).
+      const act = () => p.evaluate(() => ({ ids: [...document.querySelectorAll("article.prop.is-active")].map((a) => a.id), now: document.getElementById("now").hidden ? "" : document.getElementById("now").textContent, ring: getComputedStyle(document.querySelector("article.prop.is-active") || document.body).boxShadow, nav: [...document.querySelectorAll('#propnav a[aria-current="true"]')].map((a) => a.getAttribute("href")) }));
+      await p.click('label[for="g-5-3"]'); let A = await act();
+      ok(A.ids.join() === "prop-5" && A.now === "Prop 5" && A.ring !== "none" && A.nav.join() === "#prop-5", "answering Prop 5 highlights its whole card, names it in the sticky bar and in the jump links " + tag + " " + JSON.stringify(A.ids));
+      await p.focus("#g-37-3"); await p.waitForTimeout(500); A = await act();
+      ok(A.ids.join() === "prop-37" && A.now === "Prop 37", "keyboard focus moves the highlight to Prop 37 " + tag);
+      await p.evaluate(() => { document.activeElement.blur(); const r = document.getElementById("prop-38").getBoundingClientRect(); window.scrollBy({ top: r.top - window.innerHeight * 0.2, behavior: "instant" }); }); await p.waitForTimeout(250); A = await act();
+      ok(A.ids.join() === "prop-38" && A.now === "Prop 38", "scrolling to read Prop 38 moves the highlight there " + tag + " " + JSON.stringify(A.ids));
+      await p.click('label[for="g-39-2"]'); await p.evaluate(() => { const r = document.getElementById("prop-41").getBoundingClientRect(); window.scrollBy({ top: r.top - window.innerHeight * 0.2, behavior: "instant" }); }); await p.waitForTimeout(250);
+      A = await act(); ok(A.ids.join() === "prop-41" && A.now === "Prop 41", "after answering Prop 39 and scrolling on to Prop 41, the highlight follows " + tag + " " + JSON.stringify(A.ids));
+      ok((await p.textContent("#prop-38 .result-h")).trim() === "Your answer · Prop 38", "the result heading names the proposition " + tag);
+      await p.evaluate(() => { document.activeElement.blur(); window.scrollTo({ top: 0, behavior: "instant" }); }); await p.waitForTimeout(250);
+      ok(await p.isHidden("#now"), "the sticky Prop label hides when no card is on screen " + tag);
       await p.click("#reset"); }
     // Percentages (Oct 24, 2026): shares from the actual weights, live updates, single factor, all zero, results and calculation.
     { await p.click('.preset[data-id="def"]');
@@ -226,6 +242,8 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     ok((await p.isChecked("#g-38-3")) && (await p.isChecked("#g-39-2")) && (await T("#ans-n")) === "2", "taps survive a refresh " + tag);
     await p.locator("#clr-38").scrollIntoViewIfNeeded(); await p.tap("#clr-38");
     ok(!(await p.isChecked("#g-38-3")) && (await T("#v-38")) === "Not answered" && (await T("#ans-n")) === "1", "tap Clear answer " + tag);
+    await p.locator("#prop-41 .pills").scrollIntoViewIfNeeded(); await p.tap('label[for="g-41-3"]');
+    ok((await p.evaluate(() => document.querySelector("#prop-41").classList.contains("is-active") && document.getElementById("now").textContent === "Prop 41")) && (await p.evaluate(() => document.documentElement.scrollWidth)) <= w, "tapping Prop 41 highlights it and the sticky bar still fits " + tag);
     const sticky = await p.evaluate(() => document.querySelector(".sticky").getBoundingClientRect().height);
     ok(sticky <= 70, "sticky bar stays compact (" + Math.round(sticky) + "px) " + tag);
     ok(errs.length === 0, "console errors " + tag + ": " + errs.join(" | "));
