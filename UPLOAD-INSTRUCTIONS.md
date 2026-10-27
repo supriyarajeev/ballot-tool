@@ -7,14 +7,14 @@ GitHub Pages settings, the domain and the public link (https://supriyarajeev.git
 ```
 cd ~/Desktop/ballot-tool        # your clone; if it is gone: git clone https://github.com/supriyarajeev/ballot-tool.git
 git pull
-unzip -o ~/Downloads/ballot-guide-active2-oct26.zip
+unzip -o ~/Downloads/ballot-guide-ratings-oct26.zip
 git add -A
-git status                      # expect about 7 changed or new files
-git commit -m "Highlight the current proposition and explain striped ratings"
+git status                      # expect about 5 changed or new files
+git commit -m "Tidy the ratings key and the calculation table"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-active2-oct26.zip | tail -1` should show 227 files. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-ratings-oct26.zip | tail -1` should show 228 files. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 

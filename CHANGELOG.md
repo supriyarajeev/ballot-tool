@@ -4,7 +4,8 @@
 
 - **The card you're working on stands out.** In the Ballot Weighing Tool, the proposition you click, tap, answer, tab into, jump to or scroll to read gets a blue ring, a lifted shadow and a filled "Prop N · you're here" label. Only one card is marked at a time.
 - **Always named.** The sticky progress bar shows the current Prop while its card is on screen, and the result headings read "Your answer · Prop N" and "Evidence check · Prop N".
-- **Striped ratings explained.** Cards with a rating based on limited information show a key (solid means enough information, striped means limited information, read with caution) and a visible "limited" tag beside each striped rating. No rating changed.
+- **Striped ratings explained.** Cards with a rating based on limited information show a key (solid means enough information, striped means limited information, read with caution) above the ratings. The dots line up in one column. No rating changed.
+- **Calculation table fits.** The result column is a little wider, so "How this score is calculated" no longer scrolls sideways or breaks words, and "limited" sits under the rating instead of widening the column.
 - **Tests.** 27 new browser checks (click, keyboard, scroll, jump, touch at 320 and 390 px, and the limited-information key).
 
 ## October 26, 2026, Yes | Not sure | No

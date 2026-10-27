@@ -167,7 +167,7 @@ article.prop h3[tabindex="-1"]:focus { outline: none; }
 
 /* Proposition cards */
 .props { display: grid; gap: 14px; }
-.prop { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; grid-template-columns: minmax(0, 1fr) 250px; gap: 16px 24px; }
+.prop { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 16px 24px; }
 .prop-main { min-width: 0; display: grid; gap: 12px; align-content: start; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .num { font-family: var(--f-display); font-weight: 800; font-size: 1rem; color: var(--ballot); margin-right: 4px; }
@@ -401,8 +401,17 @@ a.next[hidden] { display: none; }
 .rkey { margin: 2px 0 6px; font-size: .78rem; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; }
 .rkey { gap: 4px 18px; } .rkey .k { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 @media (max-width: 380px) { .rkey .k { white-space: normal; } }
-.rv { display: inline-flex; align-items: center; gap: 6px; }
-.ltag { font-size: .68rem; font-weight: 700; letter-spacing: .02em; color: var(--muted); border: 1px dashed var(--muted); border-radius: 999px; padding: 0 6px; line-height: 1.5; }
+.rt .dots { flex-shrink: 0; }
+
+/* Calculation table fits the result column (Oct 26, 2026): a wider column on large screens, tighter cells, and the
+   "limited" note on its own line under the rating instead of widening the column. */
+@media (min-width: 860px) { .prop { grid-template-columns: minmax(0, 1fr) 300px; } }
+.calc table { font-size: .76rem; }
+.calc th, .calc td { padding: 4px 6px 4px 0; }
+.calc td + td, .calc th + th { white-space: nowrap; }
+.calc tbody th { font-weight: 600; overflow-wrap: normal; hyphens: auto; }
+.calc td:last-child, .calc th:last-child { padding-right: 0; }
+.lim-s { display: block; font-size: .66rem; color: var(--muted); font-weight: 700; }
 </style>
 </head>
 <body>
@@ -1049,8 +1058,8 @@ a.next[hidden] { display: none; }
     for (var i = 1; i <= 5; i++) h += '<i class="' + (i <= n ? "on" : "") + '"></i>';
     var lim = p.u[k] ? " limited" : "";
     var lab = n + " of 5" + (lim ? ", limited information" : "");
-    // Striped dots mark a rating that rests on limited information; a visible "limited" tag says so without relying on the pattern.
-    return '<span class="rv"><span class="dots' + lim + '" role="img" title="' + lab + '" aria-label="' + lab + '">' + h + '</span>' + (lim ? '<span class="ltag" aria-hidden="true">limited</span>' : "") + '</span>';
+    // Striped dots mark a rating that rests on limited information; the key above the ratings explains them.
+    return '<span class="dots' + lim + '" role="img" title="' + lab + '" aria-label="' + lab + '">' + h + '</span>';
   }
   function srcRefs(p, k) {
     return (p.rs[k] || []).filter(function (i) { return p.src[i]; }).map(function (i) {
@@ -1192,13 +1201,13 @@ a.next[hidden] { display: none; }
     var sh = BW.shares(state.w), rescaled = wr.weightUsed !== wr.weightTotal;
     var rows = wr.rows.map(function (r) {
       var f = FACTORS.filter(function (x) { return x.k === r.k; })[0];
-      var rating = r.rating === null ? "Not rated" : r.rating + "/5" + (p.u[r.k] ? " (limited)" : "");
+      var rating = r.rating === null ? "Not rated" : r.rating + "/5" + (p.u[r.k] ? '<span class="lim-s">limited</span>' : "");
       return "<tr><th scope=\"row\">" + esc(f.name) + "</th><td>" + (r.weight === 0 ? "Ignored" : BW.fmt(sh.pct[r.k], 1) + "%") + "</td><td>" + rating + "</td><td>" + (r.counted ? BW.fmt(r.points, 2) : "0 (left out)") + "</td></tr>";
     }).join("");
     return '<p class="note-s">Importance is how much each factor counts for you. Rating is how this measure scores on it. Points are what the factor adds to the result.</p>' +
       '<div class="calc-scroll" tabindex="0" role="region" aria-label="Calculation table for Prop ' + p.n + '"><table><caption class="vh">How Prop ' + p.n + "'s score is calculated</caption><thead><tr><th scope=\"col\">Factor</th><th scope=\"col\">Importance</th><th scope=\"col\">Rating</th><th scope=\"col\">Points</th></tr></thead><tbody>" + rows + "</tbody>" +
       "<tfoot><tr><td>Total</td><td>100%</td><td></td><td>" + BW.fmt(wr.exactPercent, 2) + "</td></tr></tfoot></table></div>" +
-      '<p class="note-s">Exact average ' + BW.fmt(wr.exactAverage, 2) + " of 5 (" + BW.fmt(wr.exactPercent, 2) + "%). The tool rounds it to " + wr.average.toFixed(1) + " of 5, shown as " + wr.percent + "%, and uses that for the score and the lean." +
+      '<p class="note-s">Exact average ' + BW.fmt(wr.exactAverage, 2) + " of 5 (" + BW.fmt(wr.exactPercent, 2) + "%). The tool rounds it to " + wr.average.toFixed(1) + " of 5, shown as " + wr.percent + "%, and uses that rounded value for the evidence score." +
       (rescaled ? " Some weighted factors are not rated, so the others were scaled up to fill their share." : "") + "</p>" +
       '<p class="note-s">Your answer. ' + (l.g === null ? "Not answered yet." : esc(l.pref) + ". The evidence score is shown beside your answer and never changes it.") + "</p>";
   }
