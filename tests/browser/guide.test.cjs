@@ -560,7 +560,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(stored && Object.keys(JSON.parse(stored)).length === 2, "marks are stored in this browser");
     ok(!/[?&](yes|no|m)=/.test(await p.getAttribute("[data-share]", "data-url")), "the shared link carries no marks");
     await p.click("#sheet-clear");
-    ok((await p.locator(".srow input:checked").count()) === 0 && (await p.evaluate(() => Object.keys(JSON.parse(localStorage.getItem("ballot-sheet-v1") || "{}")).length)) === 0, "Clear my marks clears every mark");
+    ok((await p.locator(".srow input:checked").count()) === 0 && (await p.evaluate(() => Object.values(JSON.parse(localStorage.getItem("ballot-sheet-v1") || "{}")).every((v) => v === ""))), "Clear my marks leaves every box blank");
     ok((await p.getAttribute('.srow .lean a', "href")).startsWith("propositions.html?from=%23%2Fsheet%2Fca-alameda%2Fca-alameda-fremont"), "proposition links open the tool with a way back to the sheet");
     await p.goto(B + "propositions.html"); await p.waitForSelector("#props article.prop");
     await p.evaluate(() => localStorage.setItem("ballot-weighing-v2", JSON.stringify({ w: {}, g: { 1: 2 } })));
@@ -576,6 +576,59 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(htv.dates > 0 && htv.counties === 9 && htv.cur === "#/how-to-vote" && htv.tools.every((u) => u.startsWith("https://")), "How to vote shows key dates, official tools and all 9 county offices: " + JSON.stringify({ d: htv.dates, c: htv.counties }));
     await go(p, "#/sheet/ca-nowhere"); ok(/Not found/.test(await p.textContent("h1")), "an unknown county on the sheet shows Not found");
     await cu.close(); }
+
+
+  // ---------- Weighing Tool answers carry over to the cheat sheet (Oct 26, 2026) ----------
+  { const cu = await b.newContext({ viewport: { width: 390, height: 844 } }); const p = await cu.newPage(); await blockExternal(p, new Set());
+    const FROM = "propositions.html?from=%23%2Fballot%2Fca-alameda%2Fca-alameda-fremont&place=Fremont%2C%20Alameda%20County";
+    const SHEET = "#/sheet/ca-alameda/ca-alameda-fremont";
+    const row = (n) => '.srow[data-id="2026-11-03.ca.prop-' + n + '"]';
+    const ticks = (n) => p.$eval(row(n), (r) => [...r.querySelectorAll("input")].filter((i) => i.checked).map((i) => i.value).join("") || "blank");
+    await p.goto(B + FROM); await p.waitForSelector("#props article.prop");
+    ok((await p.getAttribute("#take-a", "href")) === "index.html" + SHEET, "from a Fremont ballot, the tool's cheat sheet button goes to Fremont's sheet");
+    await p.click('label[for="g-1-3"]'); await p.click('label[for="g-2-1"]'); await p.click('label[for="g-3-2"]');
+    ok(/11 propositions are still unanswered and will be blank on your sheet/.test(await p.textContent("#take-p")) && (await p.textContent("#next-top")).trim() === "See my ballot" && await p.isHidden("#done"), "partly answered: Step 3 says 11 will be blank, no completion message yet");
+    await p.goto(B + "index.html" + SHEET); await p.waitForSelector(row(1));
+    ok((await ticks(1)) === "yes" && (await ticks(2)) === "no" && (await ticks(3)) === "blank" && (await ticks(4)) === "blank", "Yes and No carry over; Not sure (Prop 3) and unanswered (Prop 4) stay blank");
+    ok(/From your Weighing Tool answer, Yes/.test(await p.textContent(row(1) + " .lean")) && /Not sure in the Weighing Tool, so left blank/.test(await p.textContent(row(3) + " .lean")) && /Not answered in the Weighing Tool, so left blank/.test(await p.textContent(row(4) + " .lean")), "each statewide row says where its tick came from");
+    ok(/1 Yes and 1 No ticked for you\. 1 Not sure left blank\. 11 not answered, left blank\./.test(await p.textContent("#from-sum")), "the summary counts what was carried over: " + (await p.textContent("#from-sum")).trim());
+    // A change on the sheet wins and is kept; the tool answer can be restored.
+    await p.click(row(1) + ' input[value="no"]');
+    ok((await ticks(1)) === "no" && /Changed on this sheet\. Your Weighing Tool answer is Yes/.test(await p.textContent(row(1) + " .lean")) && (await p.evaluate(() => document.activeElement.value)) === "no", "changing Prop 1 to NO on the sheet is shown as your own change, and focus stays on NO");
+    await p.click(row(2) + ' input[value="no"]');
+    ok((await ticks(2)) === "blank", "unticking a carried-over box leaves it blank");
+    await p.reload(); await p.waitForSelector(row(1));
+    ok((await ticks(1)) === "no" && (await ticks(2)) === "blank", "sheet changes survive a refresh");
+    // A later change in the tool carries over only where the voter has not changed the sheet.
+    await p.goto(B + FROM); await p.waitForSelector("#props article.prop");
+    await p.click('label[for="g-4-3"]'); await p.click('label[for="g-1-2"]');
+    await p.goto(B + "index.html" + SHEET); await p.waitForSelector(row(1));
+    ok((await ticks(4)) === "yes" && (await ticks(1)) === "no", "a new tool answer (Prop 4 Yes) carries over; the sheet's own change to Prop 1 is kept");
+    await p.click(row(1) + " .use-tool");
+    ok((await ticks(1)) === "blank" && /Not sure in the Weighing Tool/.test(await p.textContent(row(1) + " .lean")), "Use it brings back the tool answer, now Not sure, so Prop 1 is blank");
+    await p.click("#sheet-clear");
+    ok((await p.locator(".srow input:checked").count()) === 0, "Clear my marks blanks the carried-over ticks too");
+    await p.click('#from-sum .use-tool');
+    ok((await ticks(2)) === "no" && (await ticks(4)) === "yes" && (await ticks(1)) === "blank" && (await ticks(3)) === "blank", "Use all my Weighing Tool answers restores every carried-over tick");
+    // Opened directly, the tool sends the voter through Find My Ballot to the sheet.
+    const c2 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const q = await c2.newPage(); await blockExternal(q, new Set());
+    await q.goto(B + "propositions.html"); await q.waitForSelector("#props article.prop");
+    ok((await q.getAttribute("#take-a", "href")) === "index.html#/find?next=sheet" && /Choose your place/.test(await q.textContent("#take-a")), "opened directly, the tool's button asks for the voter's place first");
+    for (const n of ["1", "2", "3", "4", "5", "37", "38", "39", "40", "41", "42", "43", "44"]) await q.click('label[for="g-' + n + '-3"]');
+    ok(await q.isHidden("#done"), "no completion message at 13 of 14");
+    await q.click('label[for="g-45-1"]');
+    ok(await q.isVisible("#prop-45 #done") && /That's all 14/.test(await q.textContent("#done")) && (await q.textContent("#next-top")).trim() === "Next: my cheat sheet" && (await q.getAttribute("#next-top", "href")) === "index.html#/find?next=sheet", "the 14th answer shows That's all 14 under that card, and the sticky bar becomes Next: my cheat sheet");
+    ok(/You've answered all 14/.test(await q.textContent("#take-h")), "Step 3 says all 14 are answered");
+    await q.click("#clr-45");
+    ok(await q.isHidden("#done") && (await q.textContent("#next-top")).trim() === "See my ballot", "clearing an answer hides the completion message again");
+    await q.click('label[for="g-45-1"]');
+    await q.click("#done a.btn-go"); await q.waitForSelector("#findform");
+    ok(/next=sheet/.test(q.url()) && (await q.textContent("#go")).trim() === "Open my cheat sheet", "Find My Ballot opens ready to go on to the cheat sheet");
+    await chooseCounty(q, "ca-alameda"); await citySelect(q).selectOption("ca-alameda-fremont");
+    ok(/next=sheet/.test(q.url()), "choosing a place keeps the next step in the address");
+    await q.click("#go"); await q.waitForSelector(".srow");
+    ok(q.url().endsWith(SHEET) && (await q.$eval(row(45), (r) => r.querySelector('input[value="no"]').checked)) && (await q.$eval(row(1), (r) => r.querySelector('input[value="yes"]').checked)), "it opens Fremont's cheat sheet with all 14 answers ticked");
+    await c2.close(); await cu.close(); }
 
   // ---------- Statewide propositions open in the Ballot Weighing Tool (one experience) ----------
   { const T = (h) => h.match(/#prop-(\d+)$/);

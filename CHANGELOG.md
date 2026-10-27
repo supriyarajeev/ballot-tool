@@ -1,5 +1,13 @@
 # Changelog
 
+## October 26, 2026, Yes | Not sure | No
+
+- **Three answers.** Each proposition now asks "How would you vote on this proposition?" with Yes, Not sure and No buttons in one row. The selected one is filled and shows a check mark. Each answered card has a Clear answer link.
+- **Scoring unchanged.** Yes uses the existing 3.0 evidence line, No is always Leans toward NO, Not sure and skipped stay separate. Saved Strongly for and Strongly against answers load as Yes and No. See audit/2026-10-26/THREE-CHOICE-REPORT.md.
+- **Your answer is the result.** Each card shows your answer exactly as chosen and, beside it, the same evidence check for every answer, with a marker at the 3.0 midpoint and a link to the argument on the other side. The "Leans toward" and "Mixed / uncertain" labels are gone. Step 3 counts Yes, No, Not sure and Not answered.
+- **On to the cheat sheet.** Answering all 14 shows "That's all 14" with a button to your cheat sheet, and the sticky bar becomes "Next: my cheat sheet". Your Yes and No answers are ticked on the sheet; Not sure and unanswered stay blank. Changes made on the sheet are kept.
+- **Tests.** New `tests/three-choice.test.mjs` and browser checks for tapping, keyboard, refresh and layout.
+
 ## October 25, 2026, ballot cheat sheet, sharing and How to vote
 
 - **Ballot cheat sheet.** Every ballot page links to `#/sheet/<county>/<city>`. Voters tick YES or NO on each measure and pick candidates, then print it or keep it on their phone. Vote-for limits are enforced. Contests that depend on the address are grouped separately.

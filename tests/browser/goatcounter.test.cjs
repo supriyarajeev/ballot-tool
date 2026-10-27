@@ -128,7 +128,7 @@ async function settle(p, ms) { await p.waitForTimeout(ms); }
     await settle(p, delay + 800);
     await p.click('label[for="g-1-3"]');
     for (const n of ["2", "3", "4", "5", "37", "38", "39", "40", "41", "42", "43", "44", "45"]) await p.click(`label[for="g-${n}-2"]`);
-    await p.click('label[for="g-1-0"]'); // changing an answer must not send anything new
+    await p.click('label[for="g-1-1"]'); // changing an answer must not send anything new
     await settle(p, 600);
     const rec = await records(p);
     const tag = `(propositions.html${hash}, count.js after ${delay} ms)`;

@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* One working column. A sticky progress bar, three numbered steps, and a closing explainer. Each proposition card pairs facts (left) with the live lean (right). */
+/* One working column. A sticky progress bar, three numbered steps, and a closing explainer. Each proposition card pairs facts (left) with the voter's answer and the evidence check (right). */
 :root {
   --paper: #f6f8fa;
   --sheet: #ffffff;
@@ -118,7 +118,7 @@ header { display: grid; gap: 12px; }
 article.prop.is-target { outline: 3px solid var(--ballot); outline-offset: 3px; }
 article.prop { scroll-margin-top: 84px; }
 article.prop h3[tabindex="-1"]:focus { outline: none; }
-/* Phones: the progress bar stays one compact row (count, bar, See my ballot); the lean tally is shown in Step 3. */
+/* Phones: the progress bar stays one compact row (count, bar, See my ballot); the answer tally is shown in Step 3. */
 @media (max-width: 600px) {
   .sticky { padding-block: 6px; margin-block: -6px; padding-top: max(6px, env(safe-area-inset-top, 0px)); }
   .sticky-in { flex-wrap: nowrap; padding: 6px 10px; gap: 10px; }
@@ -189,14 +189,22 @@ details.facts[open] summary { border-bottom: 1px solid var(--rule); }
 
 fieldset.ask { border: 0; padding: 0; margin: 0; display: grid; gap: 8px; }
 fieldset.ask legend { font-family: var(--f-display); font-weight: 700; font-size: .95rem; padding: 0; margin-bottom: 8px; }
-.pills { display: flex; flex-wrap: wrap; gap: 6px; }
-.pill { position: relative; cursor: pointer; }
+/* Yes | Not sure | No: three equal buttons in one row, 48px tall. Selected = filled, with a check mark (not color alone). */
+.pills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; max-width: 460px; }
+.pill { position: relative; cursor: pointer; display: block; -webkit-tap-highlight-color: transparent; }
 .pill input { position: absolute; opacity: 0; width: 1px; height: 1px; }
-.pill span { display: inline-block; font-size: .84rem; font-weight: 700; padding: 6px 12px; border-radius: 999px; border: 1.5px solid var(--rule); background: var(--sheet); }
-.pill:hover span { border-color: var(--ballot); }
-.pill input:focus-visible + span { outline: 2px solid var(--ballot); outline-offset: 2px; }
-.pill input:checked + span { border-color: transparent; }
-.pill input:checked + span { background: var(--ballot); color: var(--sheet); }
+.pill span { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 48px; padding: 8px 6px; border-radius: 10px; border: 2px solid var(--muted); background: var(--sheet); color: var(--ink); font-family: var(--f-display); font-weight: 700; font-size: .95rem; line-height: 1.15; text-align: center; transition: background-color .12s, border-color .12s, box-shadow .12s; }
+.pill .tick { display: none; width: 14px; height: 9px; border: solid currentColor; border-width: 0 0 3px 3px; transform: translateY(-2px) rotate(-45deg); flex-shrink: 0; }
+.pill:hover span { border-color: var(--ballot); background: var(--ballot-soft); box-shadow: 0 1px 0 var(--ballot); }
+.pill:active span { transform: translateY(1px); box-shadow: none; }
+.pill input:focus-visible + span { outline: 3px solid var(--ballot); outline-offset: 3px; }
+.pill input:checked + span { background: var(--ballot); border-color: var(--ballot); color: var(--sheet); font-weight: 800; box-shadow: inset 0 0 0 2px var(--sheet); }
+.pill input:checked + span .tick { display: inline-block; }
+.skip { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.clear-a { background: none; border: 0; padding: 0 2px; min-height: 44px; font: inherit; font-size: .84rem; font-weight: 700; color: var(--ballot); text-decoration: underline; cursor: pointer; }
+.clear-a:focus-visible { outline: 3px solid var(--ballot); outline-offset: 2px; }
+@media (forced-colors: active) { .pill input:checked + span { outline: 3px solid CanvasText; } }
+@media (max-width: 380px) { .pills { gap: 6px; } .pill span { white-space: nowrap; font-size: .9rem; padding: 8px 2px; gap: 4px; } .pill .tick { width: 11px; height: 7px; } }
 
 .result { display: grid; gap: 10px; align-content: start; border-left: 1px solid var(--rule); padding-left: 20px; }
 .result-h { font-family: var(--f-display); font-weight: 700; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -340,26 +348,63 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
 @media (prefers-reduced-motion: no-preference) {
   .bar i { transition: width .25s ease; }
 }
+
+/* Your answer and the evidence check (Oct 26, 2026). The answer is shown as chosen; the evidence is the same for every answer. */
+.result .verdict { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.25rem; padding: 12px; border: 2px solid transparent; }
+.verdict.v-yes { border-color: var(--yes); } .verdict.v-no { border-color: var(--no); }
+.verdict.v-yes::before, .verdict.v-no::before, .verdict.v-unsure::before { content: ""; width: 14px; height: 8px; border: solid currentColor; border-width: 0 0 3px 3px; transform: translateY(-3px) rotate(-45deg); }
+.verdict.v-unsure::before { content: "?"; border: 0; transform: none; width: auto; height: auto; font-size: 1.1rem; }
+.result .verdict.v-none { display: block; font-size: .95rem; font-weight: 700; border: 1.5px dashed var(--rule); background: transparent; color: var(--muted); }
+.verdict.v-none::after { content: "Choose Yes, Not sure or No"; display: block; font-weight: 400; font-size: .8rem; margin-top: 2px; }
+.ev-h { margin-top: 4px; }
+.ev-sent { margin: 0; font-size: .88rem; }
+.bar { position: relative; height: 10px; }
+.bar .mid { position: absolute; left: 60%; top: 0; bottom: 0; width: 2px; background: var(--ink); opacity: .55; }
+.scale { position: relative; height: 1.2em; font-size: .7rem; color: var(--muted); }
+.scale span { position: absolute; top: 0; white-space: nowrap; }
+.scale .s1 { left: 20%; transform: translateX(-50%); } .scale .m { left: 60%; transform: translateX(-50%); } .scale .s5 { right: 0; }
+a.next { display: inline-block; padding: 10px 0; line-height: 1.35; font-family: var(--f-display); font-weight: 700; font-size: .88rem; color: var(--ballot); }
+a.next::after { content: "\00a0\203A"; }
+a.next[hidden] { display: none; }
+.facts dt[tabindex]:focus { outline: 3px solid var(--ballot); outline-offset: 2px; border-radius: 4px; }
+.chip .tick { display: inline-block; width: 9px; height: 5px; border: solid currentColor; border-width: 0 0 2px 2px; transform: translateY(-2px) rotate(-45deg); margin-right: 5px; }
+.b-row .chip { min-width: 70px; text-align: center; }
+
+/* Next step to the cheat sheet (Oct 26, 2026) */
+.take { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin: 14px 0; padding: 16px 18px; border: 1.5px solid var(--rule); border-radius: 12px; background: var(--sheet); }
+.take.all { border-color: var(--yes); background: var(--yes-soft); }
+.take-t { flex: 1 1 280px; display: grid; gap: 4px; }
+.take-t b { font-family: var(--f-display); font-size: 1.05rem; }
+.take-t p { margin: 0; }
+.btn-go { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 20px; border-radius: 10px; background: var(--ballot); color: var(--sheet); font-family: var(--f-display); font-weight: 800; font-size: .98rem; text-decoration: none; text-align: center; }
+.btn-go::after { content: "\00a0\203A"; }
+.btn-go:hover { filter: brightness(1.1); }
+.btn-go:focus-visible { outline: 3px solid var(--ballot); outline-offset: 3px; }
+.done { margin-top: 14px; padding: 14px 16px; border-radius: 10px; background: var(--yes-soft); border: 1.5px solid var(--yes); display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.done b { font-family: var(--f-display); }
+.done[hidden] { display: none; }
+.sticky .linkbtn.go { background: var(--ballot); color: var(--sheet); border: 1.5px solid var(--ballot); border-radius: 10px; padding: 0 14px; min-height: 40px; display: inline-flex; align-items: center; }
+@media (max-width: 600px) { .take .btn-go { flex: 1 1 100%; } }
 </style>
 </head>
 <body>
 <main class="wrap">
-  <noscript><p class="warn">This tool needs JavaScript to show the 14 propositions and work out your leans. Without JavaScript, read every statewide proposition in the official <a href="https://voterguide.sos.ca.gov/">California voter guide</a>.</p></noscript>
+  <noscript><p class="warn">This tool needs JavaScript to show the 14 propositions and show your answers and the evidence. Without JavaScript, read every statewide proposition in the official <a href="https://voterguide.sos.ca.gov/">California voter guide</a>.</p></noscript>
   <header>
     <a class="home-link" href="./">California Bay Area Ballot Guide</a>
     <nav class="ballot-return" id="ballot-return" aria-label="Your ballot" hidden><a id="ballot-return-a" href="./"></a></nav>
     <p class="note beta-note" data-beta="1"><b>Beta.</b> An independent, unofficial civic tech project for education. Ratings are this tool's own judgments and are still being verified. Confirm your ballot with your county elections office. <a href="index.html#/about">About and disclaimer</a></p>
     <div class="eyebrow">California ballot, November 3, 2026</div>
     <h1>Ballot Weighing Tool</h1>
-    <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say how you feel about each measure's goal. The tool pairs that with evidence ratings from its Standard Evaluation Framework and shows where you lean. It never tells you how to vote.</p>
+    <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say how you would vote on each one. Beside each answer the tool shows how well the measure is built, using evidence ratings from its Standard Evaluation Framework. Your answer is never changed, and the tool never tells you how to vote.</p>
     <nav class="steps" aria-label="Steps">
       <a class="step" href="#s1"><span class="n">1</span><b>See the framework</b><span class="t">Standard weights are set. Customizing is optional</span></a>
-      <a class="step" href="#s2"><span class="n">2</span><b>Answer 14 questions</b><span class="t">Read the facts, then say how you feel about each goal</span></a>
-      <a class="step" href="#s3"><span class="n">3</span><b>Review your ballot</b><span class="t">See every lean in one list, plus any conflicts</span></a>
+      <a class="step" href="#s2"><span class="n">2</span><b>Answer 14 questions</b><span class="t">Read the facts, then answer Yes, Not sure or No</span></a>
+      <a class="step" href="#s3"><span class="n">3</span><b>Review your ballot</b><span class="t">See your answers and the evidence in one list</span></a>
     </nav>
     <div class="idea">
       <b>How it works</b>
-      <p>For each measure you see two separate things. <b>Your preference</b> is whether you support its goal. <b>The evidence score</b> shows how well the measure is built on the factors you care about. The tool shows how the two line up, but it never decides your vote.</p>
+      <p>For each measure you see two separate things. <b>Your answer</b> is how you would vote: Yes, Not sure or No. <b>The evidence score</b> shows how well the measure is built on the factors you care about. The tool shows the two side by side and never changes your answer.</p>
     </div>
   </header>
 
@@ -371,7 +416,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       </div>
       <div class="tally" id="tally-top"></div>
       <a class="linkbtn ret-mini" id="ret-mini" href="./" hidden>Ballot</a>
-      <a class="linkbtn" href="#s3">See my ballot</a>
+      <a class="linkbtn" id="next-top" href="#s3">See my ballot</a>
     </div>
   </div>
 
@@ -418,13 +463,14 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
         <div class="factors" id="factors"></div>
       </div>
     </details>
-    <div class="warn" id="zero" hidden><span>You've turned off all evidence factors. Your results will reflect your stated preferences rather than the evidence ratings.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
+    <div class="warn" id="zero" hidden><span>You've turned off all evidence factors. No evidence score is shown, and your answers are still recorded as you chose them.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
   </section>
 
+  <div class="done" id="done" role="status" aria-live="polite" hidden></div>
   <section id="s2" class="stack" aria-labelledby="s2-h">
     <div class="sec-head">
       <div class="kicker">Step 2</div>
-      <h2 id="s2-h">How do you feel about each measure's goal?</h2>
+      <h2 id="s2-h">How would you vote on each proposition?</h2>
       <p class="small">Each card gives the official title, what the measure does, and what a YES or NO vote legally means. Open <b>More facts</b> for the money, accountability, the official arguments on each side, ratings and numbered sources. <b>Not sure</b> records that you are undecided. Leaving a card blank skips it. Neither counts for or against.</p>
     </div>
     <p class="small">Every card is rated with the <a href="#s1">Standard Evaluation Framework in Step 1</a>; your weights there apply to all 14. Jump to a proposition:</p>
@@ -443,30 +489,22 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       <button type="button" id="reset">Clear my answers</button>
     </div>
     <div class="warn" id="conflict" hidden></div>
+    <div class="take" id="take">
+      <div class="take-t"><b id="take-h">Take your choices with you</b><p class="small" id="take-p"></p></div>
+      <a class="btn-go" id="take-a" href="index.html#/find?next=sheet">Open my ballot cheat sheet</a>
+    </div>
     <div class="ballot" id="ballot"></div>
     <p class="small">Tap any row to see that measure's details and sources.</p>
   </section>
 
   <section class="panel method" id="method" aria-labelledby="m-h">
-    <h2 id="m-h">How your result is worked out</h2>
+    <h2 id="m-h">How your answer and the evidence are shown</h2>
     <ol>
-      <li><b>Your preference</b> is how you feel about the measure's goal. Against or Strongly against always shows Leans toward NO. That reflects your view, not a finding that the measure is bad. Not sure and Not answered never count as support or opposition.</li>
-      <li><b>The evidence score</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. If every factor is set to Ignore, it shows Evidence not weighted. If you weigh factors but none of them has a rating for a measure, it shows No evidence score available. Either way the result follows your preference alone.</li>
-      <li><b>When you support the goal,</b> the evidence score decides whether the evidence backs you up, using the table below. Either way, the vote is yours.</li>
+      <li><b>Your answer is your result.</b> Each card and the list in Step 3 show Yes, No or Not sure exactly as you chose it. The tool never changes or overrides it. A card you leave blank shows Not answered, which is different from Not sure.</li>
+      <li><b>The evidence check</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. It is shown the same way whatever you answer. If every factor is set to Ignore, or none of your weighted factors is rated, no score is shown.</li>
+      <li><b>The 3.0 midpoint</b> is the middle of the 1 to 5 scale, marked on each bar. It is a reference point, not a pass mark. It is not a probability that a measure will work, and it has not been statistically validated.</li>
+      <li><b>When your answer and the evidence point different ways,</b> for example Yes on a measure rated below 3.0, it is a reason to read the other side's argument again, not a sign that you are wrong. Some people vote yes anyway because the goal matters most. Others vote no and wait for a better-written version. Each card links to the argument on the other side of your answer.</li>
     </ol>
-    <table class="rules">
-      <thead><tr><th scope="col">Your preference</th><th scope="col">Evidence score</th><th scope="col">Result</th></tr></thead>
-      <tbody>
-        <tr><td>Strongly support</td><td>2.0 or higher</td><td><span class="chip c-yes">Leans toward YES</span></td></tr>
-        <tr><td>Strongly support</td><td>Below 2.0</td><td><span class="chip c-close">Mixed / uncertain</span></td></tr>
-        <tr><td>Support</td><td>3.0 or higher</td><td><span class="chip c-yes">Leans toward YES</span></td></tr>
-        <tr><td>Support</td><td>Below 3.0</td><td><span class="chip c-close">Mixed / uncertain</span></td></tr>
-        <tr><td>Not sure</td><td>Any</td><td><span class="chip c-unsure">Not sure</span></td></tr>
-        <tr><td>Oppose or Strongly oppose</td><td>Any</td><td><span class="chip c-no">Leans toward NO</span></td></tr>
-        <tr><td>Skipped</td><td>Any</td><td><span class="chip c-none">Not answered</span></td></tr>
-      </tbody>
-    </table>
-    <p><b>About the cutoffs.</b> The 2.0 and 3.0 lines are illustrative rules of thumb. They are not probabilities that a measure will work, and they have not been statistically validated. Mixed / uncertain means you like the goal but the measure rates below the line on what you said matters. Some people vote yes anyway because the goal matters most. Others vote no and wait for a better-written version.</p>
 
     <h2 id="sm-h">Sources and methodology</h2>
     <p><b>Facts.</b> Each card's facts come from the Secretary of State's official voter guide (titles, what YES and NO mean, official arguments and legal text) and the Legislative Analyst's Office (fiscal estimates). Independent reporting and research are used where official sources are silent, and are labeled as Independent. Campaign claims are attributed to the side that makes them. Every card lists its sources, numbered so each rating can point to them.</p>
@@ -508,8 +546,9 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   1. Weights (state.w). One integer per evidence factor, 0 (Ignore) to 5 (Top priority).
      The Standard preset ("def") is the framework's fixed default, a starting point, not a claim about the right weights.
   2. Preference (state.g). One value per measure:
-       null = not answered (skipped), 0 = Not sure,
-       1 = Support, 2 = Strongly support, -1 = Oppose, -2 = Strongly oppose.
+       null = not answered (skipped), 0 = Not sure, 1 = Yes, -1 = No.
+       Since October 26, 2026 the card offers only Yes, Not sure and No. Saved answers from the old
+       five-choice version are converted on load: 2 (Strongly support) -> 1, -2 (Strongly oppose) -> -1.
   3. Ratings (PROPS[i].s). The tool's 1 to 5 rating per factor under RUBRIC below, higher always better.
      null means "Not rated" (too little verified information to score). PROPS[i].u flags ratings
      that rest on limited information. Each rating has a reason (r) and source indexes (rs).
@@ -520,11 +559,15 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
      computed and the result follows the preference alone. No division by zero can occur.
      avg is clamped to 1..5 and rounded to one decimal; the same rounded value is shown and used.
 
-  RESULT (lean)
-     null -> "Not answered"     0 -> "Not sure"     -1 or -2 -> "Leans toward NO"
-     +1   -> "Leans toward YES" if avg >= 3.0, else "Mixed / uncertain"
-     +2   -> "Leans toward YES" if avg >= 2.0, else "Mixed / uncertain"
-     Cutoffs are illustrative rules of thumb, not probabilities and not statistically validated.
+  RESULT (lean), internal since October 26, 2026
+     The page shows the voter's answer itself (Yes, No, Not sure, Not answered) and, beside it, the evidence
+     score with a marker at the 3.0 midpoint. lean() still runs and is covered by the regression below, but its
+     labels are no longer displayed:
+     null -> "Not answered"     0 -> "Not sure"     -1 (No) -> "Leans toward NO"
+     +1 (Yes) -> "Leans toward YES" if avg >= 3.0, else "Mixed / uncertain"
+     lean() still contains the old +2 branch (cutoff 2.0). It is unreachable from the page, and it is
+     kept so the function itself is unchanged and the 1,008-case regression still covers it.
+     The cutoff is an illustrative rule of thumb, not a probability and not statistically validated.
      Skipped and Not sure never count as support or opposition.
      A caution line appears when any weighted factor is limited or Not rated.
 
@@ -867,10 +910,10 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   ];
 
   var ANSWERS = [
-    { v: -2, t: "Strongly against" }, { v: -1, t: "Against" }, { v: 0, t: "Not sure" },
-    { v: 1, t: "For" }, { v: 2, t: "Strongly for" }
+    { v: 1, t: "Yes" }, { v: 0, t: "Not sure" }, { v: -1, t: "No" }
   ];
-  var PREF_TEXT = { "-2": "Strongly oppose", "-1": "Oppose", "0": "Not sure", "1": "Support", "2": "Strongly support" };
+  // Three answers since October 26, 2026: Yes (1), Not sure (0), No (-1). The old strength levels (2, -2) can no longer be chosen.
+  var PREF_TEXT = { "-2": "No", "-1": "No", "0": "Not sure", "1": "Yes", "2": "Yes" };
 
   var KEY = "ballot-weighing-v2";
   var state = { w: {}, g: {} };
@@ -886,7 +929,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       });
       Object.keys(saved.g).forEach(function (k) {
         var v = saved.g[k];
-        if (k in state.g && (v === null || (typeof v === "number" && v >= -2 && v <= 2))) state.g[k] = v === null ? null : Math.round(v);
+        if (k in state.g && (v === null || (typeof v === "number" && v >= -2 && v <= 2))) state.g[k] = v === null ? null : Math.max(-1, Math.min(1, Math.round(v)));
       });
     }
   } catch (e) {}
@@ -921,16 +964,16 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   function lean(p) {
     var g = state.g[p.n], qu = quality(p), r = { qu: qu, g: g };
     r.pref = g === null ? "Not answered" : PREF_TEXT[String(g)];
-    if (g === null) { r.cls = "none"; r.label = "Not answered"; r.why = "Pick an answer above to see how your preference and the evidence line up."; }
+    if (g === null) { r.cls = "none"; r.label = "Not answered"; r.why = "Pick an answer above to see how your answer and the evidence line up."; }
     else if (g === 0) { r.cls = "unsure"; r.label = "Not sure"; r.why = "Not sure is not counted as support or opposition. Compare the YES and NO boxes, or open More facts."; }
-    else if (g < 0) { r.cls = "no"; r.label = "Leans toward NO"; r.why = "This reflects your opposition to the goal. It is not a finding that the evidence shows the measure is bad."; }
+    else if (g < 0) { r.cls = "no"; r.label = "Leans toward NO"; r.why = "This reflects your answer of No. It is not a finding that the evidence shows the measure is bad."; }
     else if (qu.off) {
       r.cls = "yes"; r.label = "Leans toward YES";
-      r.why = totalWeight() === 0 ? "Based on your preference only, because every evidence factor is turned off." : "Based on your preference only, because none of your weighted factors has a rating for this measure.";
+      r.why = totalWeight() === 0 ? "Based on your answer only, because every evidence factor is turned off." : "Based on your answer only, because none of your weighted factors has a rating for this measure.";
     } else {
       var cut = g === 2 ? 2 : 3;
-      if (qu.avg >= cut) { r.cls = "yes"; r.label = "Leans toward YES"; r.why = "You " + (g === 2 ? "strongly " : "") + "support the goal, and on your priorities it rates " + qualityWord(qu.avg) + " (" + qu.avg.toFixed(1) + "), at or above the " + cut.toFixed(1) + " line."; }
-      else { r.cls = "close"; r.label = "Mixed / uncertain"; r.why = "You " + (g === 2 ? "strongly " : "") + "support the goal, but on your priorities it rates " + qualityWord(qu.avg) + " (" + qu.avg.toFixed(1) + "), below the " + cut.toFixed(1) + " line."; }
+      if (qu.avg >= cut) { r.cls = "yes"; r.label = "Leans toward YES"; r.why = "You would vote yes, and on your priorities it rates " + qualityWord(qu.avg) + " (" + qu.avg.toFixed(1) + "), at or above the " + cut.toFixed(1) + " line."; }
+      else { r.cls = "close"; r.label = "Mixed / uncertain"; r.why = "You would vote yes, but on your priorities it rates " + qualityWord(qu.avg) + " (" + qu.avg.toFixed(1) + "), below the " + cut.toFixed(1) + " line."; }
     }
     return r;
   }
@@ -998,8 +1041,8 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   $("props").innerHTML = PROPS.map(function (p) {
     var pills = ANSWERS.map(function (a) {
       var id = "g-" + p.n + "-" + (a.v + 2);
-      return '<label class="pill" for="' + id + '"><input type="radio" name="g-' + p.n + '" id="' + id + '" value="' + a.v + '"' +
-        (state.g[p.n] === a.v ? " checked" : "") + '><span>' + esc(a.t) + '</span></label>';
+      return '<label class="pill p-' + (a.v > 0 ? "yes" : a.v < 0 ? "no" : "unsure") + '" for="' + id + '"><input type="radio" name="g-' + p.n + '" id="' + id + '" value="' + a.v + '"' +
+        (state.g[p.n] === a.v ? " checked" : "") + '><span><i class="tick" aria-hidden="true"></i>' + esc(a.t) + '</span></label>';
     }).join("");
     var ratings = FACTORS.map(function (f) { return '<div class="rt"><span>' + esc(f.name) + '</span>' + dots(p, f.k) + '</div>'; }).join("");
     var reasons = FACTORS.map(function (f) {
@@ -1022,8 +1065,8 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
           '<dt>Who is affected</dt><dd>' + esc(p.who) + '</dd>' +
           '<dt>Expected outcome</dt><dd>' + esc(p.out) + '</dd>' +
           '<dt>Accountability</dt><dd>' + esc(p.acct) + '</dd>' +
-          '<dt>Argument for</dt><dd>' + esc(p.argFor) + '</dd>' +
-          '<dt>Argument against</dt><dd>' + esc(p.argAgainst) + '</dd>' +
+          '<dt id="af-' + p.n + '" tabindex="-1">Argument for</dt><dd>' + esc(p.argFor) + '</dd>' +
+          '<dt id="aa-' + p.n + '" tabindex="-1">Argument against</dt><dd>' + esc(p.argAgainst) + '</dd>' +
           '<dt>Biggest risk</dt><dd>' + esc(p.risk) + '</dd>' +
           '<dt>Key uncertainty</dt><dd>' + esc(p.unk) + '</dd>' +
           '<dt>Backers</dt><dd>' + esc(p.pro) + '</dd>' +
@@ -1031,23 +1074,35 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
         '</dl><div class="ratings"><div class="ratings-h">This tool\'s ratings, 1 weak to 5 strong</div><div class="rgrid">' + ratings + '</div>' +
         '<details class="why-r"><summary>Why these ratings</summary><ul>' + reasons + '</ul></details></div>' +
         '<div class="srcs"><b>Sources</b><ol>' + srcs + '</ol><p class="pdf-note">PDF links open in your browser’s PDF viewer, which can stay blank for a few seconds while a long document loads. If a PDF does not appear, use the web page version where one is listed, or your browser’s download button. Some in-app browsers and previews cannot show PDFs at all; open the page in Safari or Chrome instead.</p></div></div></details>' +
-        '<fieldset class="ask"><legend>' + esc(p.ask) + '</legend><div class="pills">' + pills + '</div><p class="skip">Not sure counts as a choice. Leave all buttons empty to skip.</p></fieldset>' +
+        '<fieldset class="ask"><legend>How would you vote on this proposition?<span class="vh"> Prop ' + p.n + '</span></legend><div class="pills">' + pills + '</div>' +
+          '<p class="skip"><span>Not sure counts as a choice. Leave all three empty to skip.</span> <button type="button" class="clear-a" id="clr-' + p.n + '" data-n="' + p.n + '"' + (state.g[p.n] === null ? " hidden" : "") + '>Clear answer<span class="vh"> for Prop ' + p.n + '</span></button></p></fieldset>' +
       '</div>' +
-      '<div class="result" role="group" aria-label="Your result for Prop ' + p.n + '"><div class="result-h">Your result</div>' +
-        '<div class="kv"><span>Your preference</span><b id="pf-' + p.n + '"></b></div>' +
-        '<div class="meter"><div class="meter-label"><span class="ev-lab">Evidence score</span><span id="q-' + p.n + '"></span></div><div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i></div></div>' +
+      '<div class="result" role="group" aria-label="Your answer and the evidence for Prop ' + p.n + '">' +
+        '<div class="result-h">Your answer</div>' +
+        '<div class="verdict v-none" id="v-' + p.n + '" aria-live="polite"></div>' +
+        '<div class="result-h ev-h">Evidence check</div>' +
+        '<p class="ev-sent" id="y-' + p.n + '"></p>' +
+        '<div class="meter"><div class="meter-label vh"><span class="ev-lab">Evidence score</span><span id="q-' + p.n + '"></span></div>' +
+          '<div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i><span class="mid"></span></div>' +
+          '<div class="scale" aria-hidden="true"><span class="s1">1</span><span class="m">3.0 midpoint</span><span class="s5">5</span></div></div>' +
         '<div class="pct" id="pc-' + p.n + '"></div>' +
         '<div class="sw" id="sw-' + p.n + '"></div>' +
         '<div class="caution" id="c-' + p.n + '" hidden>Limited evidence on factors you weigh. Interpret this score cautiously.</div>' +
-        '<div class="verdict" id="v-' + p.n + '" aria-live="polite"></div>' +
-        '<div class="why" id="y-' + p.n + '"></div>' +
+        '<a class="next" id="nx-' + p.n + '" data-n="' + p.n + '" href="#facts-' + p.n + '" hidden></a>' +
         '<details class="calc" id="cd-' + p.n + '"><summary>How this score is calculated</summary><div class="calc-body" id="calc-' + p.n + '"></div></details>' +
         '<div class="consider"><b>Worth weighing</b> ' + esc(p.tw) + '</div></div>' +
       '</article>';
   }).join("");
   PROPS.forEach(function (p) {
     document.getElementsByName("g-" + p.n).forEach(function (r) {
-      r.addEventListener("change", function (e) { state.g[p.n] = +e.target.value; save(); renderAll(); });
+      r.addEventListener("change", function (e) { state.g[p.n] = +e.target.value; $("clr-" + p.n).hidden = false; save(); renderAll(); });
+    });
+    // Clears this one answer, back to Not answered (skipped). Focus moves to the first choice so keyboard users stay in place.
+    $("clr-" + p.n).addEventListener("click", function () {
+      state.g[p.n] = null;
+      document.getElementsByName("g-" + p.n).forEach(function (r) { r.checked = false; });
+      this.hidden = true; document.getElementsByName("g-" + p.n)[0].focus();
+      save(); renderAll();
     });
   });
 
@@ -1056,6 +1111,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     PROPS.forEach(function (p) {
       state.g[p.n] = null;
       document.getElementsByName("g-" + p.n).forEach(function (r) { r.checked = false; });
+      $("clr-" + p.n).hidden = true;
     });
     save(); renderAll();
   });
@@ -1067,10 +1123,30 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   });
 
   function tallyHtml(c) {
-    return '<span class="chip c-yes">Leans YES ' + c.yes + '</span><span class="chip c-no">Leans NO ' + c.no + '</span>' +
-      '<span class="chip c-close">Mixed ' + c.close + '</span><span class="chip c-unsure">Not sure ' + c.unsure + '</span>' +
-      '<span class="chip c-none">Not answered ' + c.none + '</span>';
+    return '<span class="chip c-yes">Yes ' + c.yes + '</span><span class="chip c-no">No ' + c.no + '</span>' +
+      '<span class="chip c-unsure">Not sure ' + c.unsure + '</span><span class="chip c-none">Not answered ' + c.none + '</span>';
   }
+  // The voter's answer as a display class. Not answered (null) is kept apart from Not sure (0).
+  function answerClass(g) { return g === null ? "none" : g > 0 ? "yes" : g < 0 ? "no" : "unsure"; }
+  // The next thing worth reading, pointing to the other side of the voter's answer. Text, then the target id prefix.
+  var NEXT = {
+    yes: ["Before you vote Yes, read the argument against and the biggest risk", "aa"],
+    no: ["Before you vote No, read the argument for", "af"],
+    unsure: ["Still deciding? Compare the arguments for and against", "af"]
+  };
+  // One neutral sentence about the evidence, the same for every answer.
+  function evidenceSentence(qu) {
+    if (qu.off) return totalWeight() === 0 ? "Every evidence factor is set to Ignore, so there is no evidence score. Your answer is recorded as you chose it." : "None of the factors you weigh has a rating for this measure, so there is no evidence score. Your answer is recorded as you chose it.";
+    return "On the factors you weigh, this measure rates " + qualityWord(qu.avg) + ", " + qu.avg.toFixed(1) + " of 5, " + (qu.avg >= 3 ? "at or above" : "below") + " the 3.0 midpoint.";
+  }
+  // The next-step link opens More facts and brings the argument into view.
+  document.getElementById("props").addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a.next") : null; if (!a) return;
+    var t = document.getElementById(a.getAttribute("href").slice(1)); if (!t) return;
+    e.preventDefault();
+    var d = $("facts-" + a.dataset.n); if (d) d.open = true;
+    t.scrollIntoView({ block: "center" }); t.focus({ preventScroll: true });
+  });
 
   // Anonymous usage counts (GoatCounter, GitHub copy only). Sends only "used" and "finished" events, never answers.
   var GC_SENT = "ballot-gc-sent-v1";
@@ -1103,7 +1179,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       "<tfoot><tr><td>Total</td><td>100%</td><td></td><td>" + BW.fmt(wr.exactPercent, 2) + "</td></tr></tfoot></table></div>" +
       '<p class="note-s">Exact average ' + BW.fmt(wr.exactAverage, 2) + " of 5 (" + BW.fmt(wr.exactPercent, 2) + "%). The tool rounds it to " + wr.average.toFixed(1) + " of 5, shown as " + wr.percent + "%, and uses that for the score and the lean." +
       (rescaled ? " Some weighted factors are not rated, so the others were scaled up to fill their share." : "") + "</p>" +
-      '<p class="note-s">Your preference. ' + (l.g === null ? "Preference alignment not calculated, because you have not answered this question." : esc(l.pref) + ", giving " + esc(l.label) + ". The evidence rating alone never decides Yes or No.") + "</p>";
+      '<p class="note-s">Your answer. ' + (l.g === null ? "Not answered yet." : esc(l.pref) + ". The evidence score is shown beside your answer and never changes it.") + "</p>";
   }
   function renderExample(sh) {
     var el = $("hs-ex"), p = PROPS[0], wr = BW.weighted(p.s, state.w);
@@ -1139,12 +1215,17 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     $("fw-status").innerHTML = isStd ? "Using the <b>standard weights</b>." : "Using <b>your custom weights</b>, not the standard ones. Open Customize and pick Standard to switch back.";
     Array.prototype.forEach.call(document.querySelectorAll(".ev-lab"), function (e) { e.textContent = isStd ? "Evidence score" : "Evidence score, custom weights"; });
 
-    var counts = { yes: 0, no: 0, close: 0, unsure: 0, none: 0 }, res = {}, answered = 0;
+    // Since October 26, 2026 the result is the voter's own answer, shown exactly as chosen. The evidence score is shown
+    // beside it the same way for every answer. lean() still runs (its score and the calculation details are used), but
+    // its YES / NO / Mixed labels are no longer shown, so the tool never restates or overrides the voter's answer.
+    var counts = { yes: 0, no: 0, unsure: 0, none: 0 }, res = {}, answered = 0;
     PROPS.forEach(function (p) {
-      var l = lean(p); res[p.n] = l; counts[l.cls]++;
+      var l = lean(p); res[p.n] = l;
+      var ac = answerClass(l.g); counts[ac]++;
       if (state.g[p.n] !== null) answered++;
-      $("pf-" + p.n).textContent = l.pref;
-      var v = $("v-" + p.n); v.className = "verdict v-" + l.cls; v.textContent = l.label;
+      var v = $("v-" + p.n); v.className = "verdict v-" + ac; v.textContent = l.pref;
+      var nx = $("nx-" + p.n), nt = NEXT[ac];
+      nx.hidden = !nt; nx.textContent = nt ? nt[0] : ""; nx.setAttribute("href", nt ? "#" + nt[1] + "-" + p.n : "#facts-" + p.n);
       $("q-" + p.n).textContent = l.qu.off ? offText() : l.qu.avg.toFixed(1) + " of 5 · " + qualityWord(l.qu.avg);
       // The bar shows the same percentage as the text (average of 5 as a share of 5), so the two never disagree.
       $("b-" + p.n).style.width = l.qu.off ? "0%" : Math.round(l.qu.avg * 20) + "%";
@@ -1153,10 +1234,10 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
       $("pc-" + p.n).innerHTML = l.qu.off ? "" : "<b>Weighted evidence rating: " + wr.percent + "%</b> (" + l.qu.avg.toFixed(1) + "/5)";
       $("calc-" + p.n).innerHTML = calcHtml(p, wr, l);
       $("c-" + p.n).hidden = l.qu.off || !limitedWeighted(p);
-      $("y-" + p.n).textContent = l.why;
+      $("y-" + p.n).textContent = evidenceSentence(l.qu);
     });
-    // A copy of each lean label for the guide's printable cheat sheet. Read only by the cheat sheet, on this device.
-    try { var snap = {}; PROPS.forEach(function (p) { snap[p.n] = { cls: res[p.n].cls, label: res[p.n].label }; }); localStorage.setItem("ballot-leans-v1", JSON.stringify(snap)); } catch (e) {}
+    // A copy of each answer and evidence score for the guide's printable cheat sheet. Read only by the cheat sheet, on this device.
+    try { var snap = {}; PROPS.forEach(function (p) { var q = res[p.n].qu; snap[p.n] = { a: answerClass(res[p.n].g), label: res[p.n].pref, ev: q.off ? offText() : qualityWord(q.avg) + ", " + q.avg.toFixed(1) + " of 5" }; }); localStorage.setItem("ballot-answers-v1", JSON.stringify(snap)); } catch (e) {}
 
     $("all-pct").innerHTML = PROPS.map(function (p) {
       var wr = BW.weighted(p.s, state.w);
@@ -1168,20 +1249,20 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     $("tally").innerHTML = tallyHtml(counts);
 
     $("ballot").innerHTML = PROPS.map(function (p) {
-      var l = res[p.n];
-      var ev = l.qu.off ? offText() : "Evidence " + l.qu.avg.toFixed(1) + " of 5 · " + qualityWord(l.qu.avg);
+      var l = res[p.n], ac = answerClass(l.g);
+      var ev = l.qu.off ? offText() : "Evidence " + qualityWord(l.qu.avg) + ", " + l.qu.avg.toFixed(1) + " of 5";
       return '<a class="b-row" data-n="' + p.n + '" href="#prop-' + p.n + '"><span class="bn">Prop ' + p.n + '</span>' +
-        '<span class="bmid"><span class="bname">' + esc(p.name) + '</span><span class="bsub">You said ' + esc(l.pref) + ' · ' + ev + '</span></span>' +
-        '<span class="chip c-' + l.cls + '">' + esc(l.label) + '</span></a>';
+        '<span class="bmid"><span class="bname">' + esc(p.name) + '</span><span class="bsub">' + ev + '</span></span>' +
+        '<span class="chip c-' + ac + '">' + (ac === "yes" || ac === "no" ? '<i class="tick" aria-hidden="true"></i>' : "") + esc(l.pref) + '</span></a>';
     }).join("");
 
-    // Prop 40 conflict note, shown when the user leans toward YES or is mixed on 40 and on 41 or 42.
-    var on = function (n) { return res[n].cls === "yes" || res[n].cls === "close"; }, hits = [];
+    // Prop 40 conflict note, shown when the voter answers Yes on 40 and on 41 or 42.
+    var on = function (n) { return res[n].g > 0; }, hits = [];
     ["41", "42"].forEach(function (n) { if (on("40") && on(n)) hits.push(n); });
     var c = $("conflict");
     if (hits.length) {
       c.hidden = false;
-      c.textContent = "Heads up. You lean toward YES on Prop 40 and on Prop " + hits.join(" and ") + ". The LAO says that if Prop " + hits.join(" or ") +
+      c.textContent = "Heads up. You answered Yes on Prop 40 and on Prop " + hits.join(" and ") + ". The LAO says that if Prop " + hits.join(" or ") +
         " gets more yes votes than Prop 40, courts could find a conflict and block Prop 40 even if it passes. Decide which outcome you want more.";
     } else { c.hidden = true; c.textContent = ""; }
 
@@ -1210,6 +1291,39 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
     var rm = $("ret-mini"); rm.setAttribute("href", "index.html" + ret.f); rm.hidden = false; rm.setAttribute("aria-label", ra.textContent);
     document.querySelector(".sticky").classList.add("has-ret");
   }
+  /* Next step: the ballot cheat sheet (Oct 26, 2026). If the voter came from a ballot or cheat sheet page, the link goes
+     straight to that place's sheet. Otherwise Find My Ballot opens and goes on to the sheet. The sheet reads the answers
+     saved on this device (ballot-answers-v1): Yes and No are ticked for the voter, Not sure and unanswered stay blank. */
+  var placeM = ret && /^#\/(?:ballot|sheet)\/([A-Za-z0-9._%-]+)(?:\/([A-Za-z0-9._%-]+))?$/.exec(ret.f);
+  var SHEET_HREF = placeM ? "index.html#/sheet/" + placeM[1] + (placeM[2] ? "/" + placeM[2] : "") : "index.html#/find?next=sheet";
+  var sheetPlace = placeM && ret.p ? ret.p : "";
+  $("take-a").setAttribute("href", SHEET_HREF);
+  if (!placeM) $("take-a").textContent = "Choose your place, then open your cheat sheet";
+  var wasDone = null;
+  function renderNext(answered) {
+    var left = PROPS.length - answered, all = left === 0;
+    $("take-h").textContent = all ? "You've answered all " + PROPS.length + ". Take your choices with you." : "Take your choices with you";
+    $("take-p").textContent = (all ? "" : (answered === 0 ? "Answer any proposition above and it carries over. " : left + (left === 1 ? " proposition is" : " propositions are") + " still unanswered and will be blank on your sheet. ")) +
+      "Your Yes and No answers are ticked for you on a one-page cheat sheet" + (sheetPlace ? " for " + sheetPlace : "") + ", with your local contests. Not sure stays blank. You can print it or keep it on your phone.";
+    $("take").classList.toggle("all", all);
+    var top = $("next-top");
+    top.textContent = all ? "Next: my cheat sheet" : "See my ballot";
+    top.setAttribute("href", all ? SHEET_HREF : "#s3");
+    top.classList.toggle("go", all);
+    // A short message under the card that completed the set, shown once each time the count reaches 14.
+    var d = $("done");
+    if (all && wasDone === false && lastCard) {
+      d.innerHTML = '<b>That\'s all ' + PROPS.length + '.</b> <a class="btn-go" href="' + SHEET_HREF + '">Open my ballot cheat sheet</a> <a href="#s3">or review them in Step 3</a>';
+      d.hidden = false; lastCard.querySelector(".prop-main").appendChild(d);
+    } else if (!all) { d.hidden = true; d.innerHTML = ""; }
+    wasDone = all;
+  }
+  var lastCard = null;
+  document.getElementById("props").addEventListener("change", function (e) { lastCard = e.target.closest ? e.target.closest("article.prop") : null; renderNext(Object.keys(state.g).filter(function (k) { return state.g[k] !== null; }).length); });
+  document.getElementById("props").addEventListener("click", function (e) { if (e.target.closest && e.target.closest(".clear-a")) renderNext(Object.keys(state.g).filter(function (k) { return state.g[k] !== null; }).length); });
+  $("reset").addEventListener("click", function () { renderNext(0); });
+  renderNext(Object.keys(state.g).filter(function (k) { return state.g[k] !== null; }).length);
+
   $("propnav").innerHTML = PROPS.map(function (p) { return '<a href="#prop-' + p.n + '">Prop ' + p.n + "</a>"; }).join("");
   function showTarget() {
     var m = /^#prop-(\d+)$/.exec(location.hash), el = m && document.getElementById("prop-" + m[1]);

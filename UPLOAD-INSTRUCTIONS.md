@@ -1,4 +1,4 @@
-# Upload instructions (October 25, 2026, ballot cheat sheet and How to vote)
+# Upload instructions (October 26, 2026, Yes | Not sure | No)
 
 GitHub Pages settings, the domain and the public link (https://supriyarajeev.github.io/ballot-tool/) do not change.
 
@@ -7,14 +7,14 @@ GitHub Pages settings, the domain and the public link (https://supriyarajeev.git
 ```
 cd ~/Desktop/ballot-tool        # your clone; if it is gone: git clone https://github.com/supriyarajeev/ballot-tool.git
 git pull
-unzip -o ~/Downloads/ballot-guide-sheet-oct25.zip
+unzip -o ~/Downloads/ballot-guide-cheatsheet-oct26.zip
 git add -A
-git status                      # expect about 8 changed or new files
-git commit -m "Ballot cheat sheet, sharing and How to vote page"
+git status                      # expect about 17 changed or new files
+git commit -m "Yes, Not sure, No answers carry over to the cheat sheet"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-sheet-oct25.zip | tail -1` should show 220 files. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-cheatsheet-oct26.zip | tail -1` should show 225 files. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 

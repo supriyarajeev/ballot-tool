@@ -582,7 +582,7 @@
 
   function viewFind(params) {
     var cs = counties(), notice = "";
-    var county = null, pc = own(params, "county"), pcity = own(params, "city");
+    var county = null, pc = own(params, "county"), pcity = own(params, "city"), toSheet = own(params, "next") === "sheet";
     if (pc) {
       var pj = J(pc);
       if (pj && pj.type === "county" && isBay(pj)) county = pj;
@@ -597,7 +597,7 @@
     } else if (!pc && pcity) notice = "This page address names a city or town but no county, so it was not used. Choose your county first.";
     app.innerHTML =
       '<a class="back" href="#/">Home</a>' +
-      '<section class="ov-head"><h1>Find your ballot</h1><p class="muted">Three quick choices. Nothing you pick is stored or sent anywhere.</p></section>' +
+      '<section class="ov-head"><h1>Find your ballot</h1><p class="muted">' + (toSheet ? "Choose where you vote, and your cheat sheet opens with your Weighing Tool answers ticked. " : "Three quick choices. ") + "Nothing you pick is stored or sent anywhere.</p></section>" +
       (notice ? '<div class="note warn" data-find-notice="1"><b>Please choose again.</b><p>' + notice + "</p></div>" : "") +
       '<form class="card steps-form" id="findform" novalidate>' +
         // Only the current election is loaded, so it is shown as a fixed label, not a selector.
@@ -610,7 +610,7 @@
         '<div class="stepq"><label class="field">Select a city or town<select id="city" disabled aria-describedby="city-help"><option value="">Choose your county first</option></select></label>' +
           '<div class="small city-help" id="city-help"></div>' +
           '<p class="small">Why not a ZIP code? ZIP codes can cross county, city and district lines, so they cannot reliably tell which local items are on your ballot.</p></div>' +
-        '<div class="cta"><button class="btn primary" type="submit" id="go" disabled>Show my ballot choices</button><a class="textlink" href="#/browse">Browse all available ballots</a></div>' +
+        '<div class="cta"><button class="btn primary" type="submit" id="go" disabled>' + (toSheet ? "Open my cheat sheet" : "Show my ballot choices") + '</button><a class="textlink" href="#/browse">Browse all available ballots</a></div>' +
       "</form>" +
       districtNote(null, "find-lookup");
     var form = document.getElementById("findform"), citySel = document.getElementById("city"), go = document.getElementById("go"), help = document.getElementById("city-help");
@@ -619,7 +619,7 @@
     function syncUrl() {
       var c = current(); if (!c || !history.replaceState) return;
       var v = citySel.value, cc = consolidated(c);
-      history.replaceState(null, "", "#/find?county=" + enc(c.id) + (v && !(cc && v === cc.id) ? "&city=" + enc(v) : ""));
+      history.replaceState(null, "", "#/find?county=" + enc(c.id) + (v && !(cc && v === cc.id) ? "&city=" + enc(v) : "") + (toSheet ? "&next=sheet" : ""));
     }
     function fillCities(c, selected) {
       var cities = citiesOf(c.id), cc = consolidated(c), opts = "", msg = "";
@@ -650,7 +650,7 @@
       var c = current(); if (!c) return;
       var v = citySel.value, cc = consolidated(c);
       var tail = !v || v === "not-sure" || (cc && v === cc.id) ? "" : "/" + enc(v);
-      location.hash = "#/ballot/" + enc(c.id) + tail;
+      location.hash = (toSheet ? "#/sheet/" : "#/ballot/") + enc(c.id) + tail;
     });
   }
 
@@ -1062,8 +1062,8 @@
   function toolSteps() {
     var steps = [
       ["sliders", "Set your priorities", "The tool starts with standard weights for seven evidence factors, such as net benefit, evidence strength and fiscal clarity. You can keep them or set how much each one matters to you."],
-      ["doc", "Review each proposition", "Read the plain-English facts, the ratings with their reasons, and the official sources, then say how you feel about the measure’s goal."],
-      ["scale", "See how your priorities shape the result", "If you support a measure’s goal, the tool checks its evidence score under your weights and shows Leans toward YES or Mixed / uncertain. If you oppose the goal, it shows Leans toward NO, which reflects your view, not the evidence. Not sure is not counted either way."]
+      ["doc", "Review each proposition", "Read the plain-English facts, the ratings with their reasons, and the official sources, then answer how you would vote: Yes, Not sure or No."],
+      ["scale", "See how your priorities shape the result", "Your answer is shown exactly as you chose it. Beside it, the tool shows the evidence score under your weights, with a marker at the 3.0 midpoint, and links to the argument on the other side."]
     ];
     return '<ol class="steps3" data-tool-steps="1">' + steps.map(function (s) {
       return "<li>" + icon(s[0], "big") + "<div><b>" + esc(s[1]) + ".</b> " + esc(s[2]) + "</div></li>";
@@ -1102,11 +1102,11 @@
       sec("How the Ballot Weighing Tool works", toolSteps() +
         "<p>The ratings are structured judgments made for this tool with AI research assistance, using one published rubric for every proposition. They are not official ratings. On October 24, 2026 the owner approved resolving four ratings that had been flagged because their written reasons might not match the rubric. After reading the legal text and the LAO analysis, Proposition 44’s accountability went from 5 to 4, because audits are allowed but not required. The evidence strength of Propositions 37 and 38 and Proposition 37’s accountability stayed at 3, with clearer reasons. No person outside the project has reviewed the ratings.</p>" +
         "<p>The tool shows each factor's share of your weighting as a percentage, and each proposition's weighted evidence rating as a percentage of the top rating, with the points each factor adds. These are a clearer view of the same weighted average; no score or lean changed.</p>" +
-        "<p>Your preference and the evidence rating are separate. Your answer says whether you support a measure’s goal; the rating says how well the measure is built on the factors you weigh. The tool shows how the two line up and never decides for you.</p>" +
+        "<p>Your preference and the evidence rating are separate. Your answer says how you would vote, Yes, Not sure or No; the rating says how well the measure is built on the factors you weigh. The tool shows how the two line up and never decides for you.</p>" +
         '<p><a href="propositions.html">Open the Ballot Weighing Tool</a></p>') +
       sec("Evidence ratings and your preferences", "<p><b>Evidence ratings</b> are this guide’s structured judgments of how well a proposition is built, on seven factors from 1 (weak) to 5 (strong), each with a written reason and sources. They are the same for every visitor.</p>" +
         "<p><b>Your weights</b> say how much each factor matters to you. The weighted rating is the weighted average of the ratings under your weights, shown out of 5 and as a percentage of the top rating.</p>" +
-        "<p><b>Your preference</b> is whether you support a measure’s goal. It is kept separate from the evidence rating. A score is never a chance of passing, a share of voters, a guarantee of benefit or a recommendation.</p>") +
+        "<p><b>Your answer</b> is how you would vote on a measure: Yes, Not sure or No. It is kept separate from the evidence rating. A score is never a chance of passing, a share of voters, a guarantee of benefit or a recommendation.</p>") +
       sec("What “Insufficient evidence” means", "<p>A factor shows Insufficient evidence when no documented, sourced rating exists for it. It is left out of the calculation; it is never counted as 0, 1 or 5, and it is not a judgment against the measure or candidate. If no weighted factor is rated, no score is shown.</p>") +
       sec("Candidate evaluation", "<p><b>Research pending.</b> Candidate-specific evidence profiles are not complete and have not been reviewed by a person, so no candidate has a score or rating in this release, and contest pages show a status notice instead.</p>" +
         "<p>A future evaluation would apply the same seven factors and one rubric to every candidate in a contest. Each rating would name its source (official records, published proposals, attributable statements or reliable independent reporting), its date and its reason, and would keep a candidate’s own claims apart from independently established facts. Missing information would show as Insufficient evidence, never as a low score, and no overall score would be shown until every factor is documented and a person has reviewed it.</p>" +
@@ -1126,7 +1126,7 @@
   // ---- Ballot cheat sheet and sharing ----
   // The voter marks their own choices. Marks are kept only in this browser (localStorage) and are never sent anywhere.
   // Sharing sends the page link only, never the marks.
-  var SHEET_KEY = "ballot-sheet-v1", LEANS_KEY = "ballot-leans-v1";
+  var SHEET_KEY = "ballot-sheet-v1", LEANS_KEY = "ballot-answers-v1";
   function readJSON(k) { try { var v = JSON.parse(localStorage.getItem(k) || "null"); return v && typeof v === "object" && !Array.isArray(v) ? v : {}; } catch (e) { return {}; } }
   function writeJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   function siteBase() { return location.href.split("#")[0].split("?")[0]; }
@@ -1176,14 +1176,26 @@
     var sure = [], maybe = [];
     DB.contests.forEach(function (c) { var a = applies(c.jurisdiction, countyId, applyCity); if (a && (c.candidates || []).length) (a.fit === "yes" ? sure : maybe).push({ x: c, a: a }); });
     var tag = '<span class="dep">Depends on your address</span>';
+    // Statewide rows carry the Weighing Tool answers saved on this device: Yes and No are ticked, Not sure and
+    // unanswered stay blank. A mark made on the sheet (including unticking) is kept as the voter's own and wins.
+    // A sheet mark that matches the tool answer is not stored, so later changes in the tool still carry over.
+    var TA = { yes: 0, no: 0, unsure: 0, none: 0 }, overridden = 0;
+    function toolOf(m) {
+      var anchor = toolAnchor(m); if (!anchor) return null;
+      var l = own(leans, anchor.slice(5)), a = l && (l.a === "yes" || l.a === "no" || l.a === "unsure") ? l.a : "none";
+      return { a: a, tick: a === "yes" || a === "no" ? a : "", label: l && l.label, ev: l && l.ev, href: toolHref(m) };
+    }
     function measureRow(it) {
-      var m = it.x, id = m.id, v = own(marks, id), anchor = toolAnchor(m), ln = "";
-      if (anchor) {
-        var l = own(leans, anchor.slice(5));
-        ln = '<p class="lean small">' + (l && l.label && l.cls !== "none" ? "Your lean in the Weighing Tool: <b>" + esc(l.label) + "</b>" : "Not answered in the Weighing Tool yet.") +
-          ' <a class="no-print" href="' + esc(toolHref(m)) + '">Open in the tool</a></p>';
+      var m = it.x, id = m.id, t = toolOf(m), mine = hasOwn.call(marks, id), v = mine ? marks[id] : t ? t.tick : "", ln = "";
+      if (t) {
+        TA[t.a]++; if (mine && marks[id] !== t.tick) overridden++;
+        var ev = t.ev ? '<span class="ev"> · evidence ' + esc(t.ev) + "</span>" : "";
+        var open = ' <a class="no-print" href="' + esc(t.href) + '">' + (t.a === "none" ? "Answer in the tool" : "Open in the tool") + "</a>";
+        if (mine && marks[id] !== t.tick) ln = '<p class="lean small own">Changed on this sheet. Your Weighing Tool answer is <b>' + esc(t.a === "none" ? "Not answered" : t.label) + '</b>. <button type="button" class="use-tool no-print" data-id="' + esc(id) + '">Use it</button></p>';
+        else if (t.tick) ln = '<p class="lean small from"><span class="ok" aria-hidden="true"></span>From your Weighing Tool answer, <b>' + esc(t.label) + "</b>" + ev + open + "</p>";
+        else ln = '<p class="lean small blank">' + (t.a === "unsure" ? "Not sure in the Weighing Tool, so left blank" : "Not answered in the Weighing Tool, so left blank") + ev + open + "</p>";
       }
-      return '<li class="srow" data-id="' + esc(id) + '"><div class="stx"><span class="rid">' + esc(m.identifier) + "</span> " + esc(m.shortTitle || m.officialTitle) +
+      return '<li class="srow' + (t && !mine && t.tick ? " from-tool" : "") + '" data-id="' + esc(id) + '"' + (t ? ' data-tool="' + t.tick + '"' : "") + '><div class="stx"><span class="rid">' + esc(m.identifier) + "</span> " + esc(m.shortTitle || m.officialTitle) +
         (it.a.fit === "maybe" ? " " + tag : "") + ln + "</div>" +
         '<div class="yn" role="group" aria-label="' + esc(m.identifier + " " + (m.shortTitle || "")) + '">' +
         ["yes", "no"].map(function (o) { return '<label class="box"><input type="checkbox" value="' + o + '"' + (v === o ? " checked" : "") + "><span>" + o.toUpperCase() + "</span></label>"; }).join("") +
@@ -1201,32 +1213,59 @@
         }).join("") + '</ul><p class="small seat-msg" role="status" aria-live="polite"></p></li>';
     }
     var sections = GROUPS.filter(function (g) { return g.key !== "candidates" && buckets[g.key].length; }).map(function (g) {
-      return '<section class="sheet-sec"><h2>' + esc(g.title) + ' <span class="counts">' + buckets[g.key].length + "</span></h2><ul class=\"slist\">" + buckets[g.key].map(measureRow).join("") + "</ul></section>";
+      var rows = buckets[g.key].map(measureRow).join("");
+      return '<section class="sheet-sec"><h2>' + esc(g.title) + ' <span class="counts">' + buckets[g.key].length + "</span></h2>" + (g.key === "state" ? toolSummary() : "") + '<ul class="slist">' + rows + "</ul></section>";
     }).join("");
+    function toolSummary() {
+      // Counted after the statewide rows are built, so it is filled in below.
+      return '<div class="from-sum no-print" id="from-sum" tabindex="-1"></div>';
+    }
     var csec = (sure.length ? '<section class="sheet-sec"><h2>Candidate contests <span class="counts">' + sure.length + '</span></h2><ul class="slist">' + sure.map(contestRow).join("") + "</ul></section>" : "") +
       (maybe.length ? '<details class="sheet-sec maybe" data-maybe="1"><summary><h2>Contests that depend on your address <span class="counts">' + maybe.length + '</span></h2></summary>' +
         '<p class="small">Only some of these are on your ballot. Your official sample ballot shows which. Leave the others blank.</p><ul class="slist">' + maybe.map(contestRow).join("") + "</ul></details>" : "");
     var url = siteBase() + "#/sheet/" + ballotPath(countyId, cityId);
+    var nTool = TA.yes + TA.no + TA.unsure;
+    var sumHtml = nTool ? '<p><b>Carried over from the Ballot Weighing Tool.</b> ' + TA.yes + " Yes and " + TA.no + " No ticked for you" +
+        (TA.unsure ? ". " + TA.unsure + " Not sure left blank" : "") + (TA.none ? ". " + TA.none + " not answered, left blank" : "") + ". Tick or untick any box to change it here." +
+        (overridden ? ' <button type="button" class="use-tool" data-id="*">Use all my Weighing Tool answers</button>' : "") + "</p>"
+      : '<p><b>Not answered in the Ballot Weighing Tool yet.</b> Answer there and your Yes and No choices are ticked here for you, or tick them yourself below. <a href="' + esc(toolAllHref()) + '">Open the Ballot Weighing Tool</a></p>';
     app.innerHTML =
       '<a class="back no-print" href="#/ballot/' + ballotPath(countyId, cityId) + '">Back to ballot choices</a>' +
       '<section class="ov-head sheet-head"><p class="eyebrow">' + esc(DB.election.name) + "</p><h1>My ballot cheat sheet</h1>" +
       '<p class="place">' + esc(name) + "</p>" +
-      '<p class="muted">Tick your own choices, then print this page or keep it on your phone. Your marks are saved only in this browser and are never sent anywhere. This is not an official ballot. Check your county’s sample ballot for the exact list.</p></section>' +
+      '<p class="muted">Your Ballot Weighing Tool answers are ticked for you. Tick your local choices, then print this page or keep it on your phone. Your marks are saved only in this browser and are never sent anywhere. This is not an official ballot. Check your county’s sample ballot for the exact list.</p></section>' +
       '<div class="cta no-print sheet-tools"><button type="button" class="btn primary" id="sheet-print">' + icon("print") + 'Print or save as PDF</button><button type="button" class="btn secondary" id="sheet-clear">Clear my marks</button></div>' +
       shareBox(url, "Ballot cheat sheet for " + name + ", " + DB.election.name) +
       sections + csec +
       '<section class="sheet-sec sheet-foot"><h2>Before you vote</h2><p class="small">Election Day is ' + esc(fmtDate(DB.election.date)) + ". " + samplePlace(county) +
       ' <a class="no-print" href="#/how-to-vote">Key dates, drop boxes and ballot tracking</a>.</p><p class="small print-only">Printed from ' + esc(url) + "</p></section>";
+    var fs = document.getElementById("from-sum"); if (fs) fs.innerHTML = sumHtml;
     // Marks
     function store() { writeJSON(SHEET_KEY, marks); }
+    // Redraws the sheet so each statewide line says where its tick came from, keeping the scroll position and the focus.
+    function redraw(focusSel) {
+      var y = window.scrollY; viewSheet(countyId, cityId); bindSheetScroll(y);
+      var f = focusSel && app.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
+    }
     Array.prototype.forEach.call(app.querySelectorAll(".srow:not(.contest)"), function (row) {
-      var id = row.getAttribute("data-id"), boxes = row.querySelectorAll("input");
+      var id = row.getAttribute("data-id"), boxes = row.querySelectorAll("input"), tool = row.getAttribute("data-tool");
       Array.prototype.forEach.call(boxes, function (b) {
         b.addEventListener("change", function () {
           if (b.checked) Array.prototype.forEach.call(boxes, function (o) { if (o !== b) o.checked = false; });
-          if (b.checked) marks[id] = b.value; else delete marks[id];
+          var val = b.checked ? b.value : "";
+          if (tool !== null && val === tool) delete marks[id];      // same as the tool answer: keep following the tool
+          else if (tool !== null) marks[id] = val;                   // differs from the tool, including a blank: the voter's own
+          else if (val) marks[id] = val; else delete marks[id];
           store();
+          if (tool !== null) redraw('.srow[data-id="' + id + '"] input[value="' + b.value + '"]');
         });
+      });
+    });
+    Array.prototype.forEach.call(app.querySelectorAll(".use-tool"), function (b) {
+      b.addEventListener("click", function () {
+        var id = b.getAttribute("data-id");
+        Array.prototype.forEach.call(app.querySelectorAll(".srow[data-tool]"), function (r) { var k = r.getAttribute("data-id"); if (id === "*" || id === k) delete marks[k]; });
+        store(); redraw(id === "*" ? "#from-sum" : '.srow[data-id="' + id + '"] input');
       });
     });
     Array.prototype.forEach.call(app.querySelectorAll(".srow.contest"), function (row) {
@@ -1244,13 +1283,18 @@
       var d = app.querySelector("details.maybe"); if (d) d.open = true;
       window.print();
     });
+    // Clear makes every box blank, including the ones ticked from the Weighing Tool. "Use all my Weighing Tool answers" brings those back.
     document.getElementById("sheet-clear").addEventListener("click", function () {
-      Array.prototype.forEach.call(app.querySelectorAll(".srow"), function (r) { delete marks[r.getAttribute("data-id")]; });
-      Array.prototype.forEach.call(app.querySelectorAll(".srow input"), function (i) { i.checked = false; });
-      store();
+      Array.prototype.forEach.call(app.querySelectorAll(".srow"), function (r) {
+        var k = r.getAttribute("data-id"), t = r.getAttribute("data-tool");
+        if (t) marks[k] = ""; else delete marks[k];
+      });
+      store(); redraw();
     });
     bindShare();
   }
+
+  function bindSheetScroll(y) { window.scrollTo(0, y); }
 
   // Official California tools, named in the Secretary of State's 2026 news release (read October 25, 2026):
   // https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-more-54-million-california-voters-signed-track-their-ballot

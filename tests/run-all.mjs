@@ -11,6 +11,7 @@ const STEPS = [
   ["data validation", ["tools/validate.mjs"]],
   ["validator self-test", ["tests/validator.test.mjs"]],
   ["scoring regression", ["tests/scoring-regression.mjs"]],
+  ["three-choice answers", ["tests/three-choice.test.mjs"]],
   ["percentage arithmetic", ["tests/weights.test.mjs"]],
   ["static HTML validation", [path.join("node_modules", "html-validate", "bin", "html-validate.js"), "index.html", "propositions.html"]],
   ["browser tests", ["tests/browser/run.mjs"]],

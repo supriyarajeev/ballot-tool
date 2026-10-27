@@ -13,6 +13,7 @@
     "fixtures:candidate-order": "node tools/validate.mjs --update-candidate-order",
     "test:generated": "node tests/check-generated.mjs",
     "test:scoring": "node tests/scoring-regression.mjs",
+    "test:three-choice": "node tests/three-choice.test.mjs",
     "test:validator": "node tests/validator.test.mjs",
     "test:html": "html-validate index.html propositions.html",
     "test:browser": "node tests/browser/run.mjs",

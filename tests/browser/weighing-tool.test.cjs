@@ -66,8 +66,8 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     for (const n of NS) await p.click(`label[for="g-${n}-2"]`);
     ok((await T("#tally")).includes("Not sure 14"), "all not sure " + tag); ok((await T("#ans-n")) === "14", "answered 14 " + tag);
     // every preference state on prop 1
-    const exp = { 0: "Leans toward NO", 1: "Leans toward NO", 2: "Not sure" };
-    for (const k of [0, 1, 2]) { await p.click(`label[for="g-1-${k}"]`); ok((await T("#v-1")) === exp[k], "pref state " + k + " " + tag); }
+    const exp = { 1: "No", 2: "Not sure", 3: "Yes" };
+    for (const k of [1, 2, 3]) { await p.click(`label[for="g-1-${k}"]`); ok((await T("#v-1")) === exp[k], "pref state " + k + " " + tag); }
     await p.click('label[for="g-1-3"]'); ok(/^\d\.\d of 5/.test(await T("#q-1")), "q format " + tag);
     // The scoring math itself is checked against the original tool by tests/scoring-regression.mjs.
     // card vs summary agreement
@@ -80,7 +80,7 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     for (const k of ["nb", "ev", "lr", "ac", "if", "fc", "oc"]) await p.fill("#w-" + k, "0");
     ok(await p.isVisible("#zero"), "zero note " + tag);
     ok((await T("#q-38")) === "Evidence not weighted" && (await p.textContent('#ballot a[data-n="38"] .bsub')).includes("Evidence not weighted"), "zero not weighted " + tag);
-    ok((await T("#v-38")) === "Leans toward YES", "zero pref only " + tag);
+    ok((await T("#v-38")) === "Yes" && /no evidence score/.test(await T("#y-38")), "all weights off: the answer is shown and the evidence says there is no score " + tag);
     ok(!/NaN|Infinity/.test(await p.evaluate(() => document.body.innerText)), "no NaN " + tag);
     ok((await agree()) === true, "card/summary agree zero " + tag);
     await p.click("#zero-reset"); ok((await p.inputValue("#w-nb")) === "5" && !(await p.isVisible("#zero")), "reset defaults " + tag);
@@ -101,17 +101,69 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     // clear answers keeps weights
     await p.click('.preset[data-id="eq"]'); await p.click("#reset"); ok((await T("#tally")).includes("Not answered 14"), "clear answers " + tag); ok((await p.getAttribute('.preset[data-id="eq"]', "aria-pressed")) === "true", "clear keeps weights " + tag);
     // partial + persistence
-    await p.click('label[for="g-40-4"]'); await p.click('label[for="g-41-3"]'); await p.click('label[for="g-5-2"]');
+    await p.click('label[for="g-40-3"]'); await p.click('label[for="g-41-3"]'); await p.click('label[for="g-5-2"]');
     ok(await p.isVisible("#conflict"), "conflict shown " + tag);
     await p.reload(); await p.evaluate(() => { const d = document.getElementById("customize"); if (d) d.open = true; });
-    ok((await T("#pf-40")) === "Strongly support" && (await T("#pf-5")) === "Not sure" && (await T("#pf-1")) === "Not answered", "persist answers " + tag);
+    ok((await T("#v-40")) === "Yes" && (await T("#v-5")) === "Not sure" && (await T("#v-1")) === "Not answered", "persist answers " + tag);
     ok((await p.getAttribute('.preset[data-id="eq"]', "aria-pressed")) === "true", "persist weights " + tag);
     // limited caution: Prop 4 with only fc weighted
     for (const k of ["nb", "ev", "lr", "ac", "if", "oc"]) await p.fill("#w-" + k, "0"); await p.fill("#w-fc", "3"); await p.click('label[for="g-4-3"]');
     ok(await p.isVisible("#c-4"), "caution shown " + tag); ok(!(await p.isVisible("#c-1")), "caution hidden when not limited " + tag);
     // keyboard: tab to a pill and select with space
-    await p.focus("#g-2-3"); await p.keyboard.press("Space"); ok((await T("#pf-2")) === "Support", "keyboard select " + tag);
-    await p.keyboard.press("ArrowRight"); ok((await T("#pf-2")) === "Strongly support", "arrow key " + tag);
+    await p.focus("#g-2-3"); await p.keyboard.press("Space"); ok((await T("#v-2")) === "Yes", "keyboard select " + tag);
+    await p.keyboard.press("ArrowRight"); ok((await T("#v-2")) === "Not sure", "arrow key moves to the next choice " + tag);
+    // Three choices (Oct 26, 2026): Yes | Not sure | No, run in the real page at each width and color scheme.
+    { await p.click('.preset[data-id="def"]'); await p.click("#reset");
+      const leg = await p.$$eval("fieldset.ask legend", (l) => l.map((x) => x.firstChild.textContent));
+      ok(leg.length === 14 && leg.every((x) => x === "How would you vote on this proposition?"), "every card asks How would you vote on this proposition? " + tag);
+      ok(JSON.stringify(await p.$$eval("#prop-1 .pill", (l) => l.map((x) => x.textContent.trim()))) === JSON.stringify(["Yes", "Not sure", "No"]), "three choices in order Yes, Not sure, No " + tag);
+      ok((await p.$$eval("article.prop", (a) => a.every((x) => x.querySelectorAll('input[type="radio"]').length === 3))), "each of the 14 cards has exactly three radio buttons " + tag);
+      const geo = await p.$$eval("#prop-1 .pill span", (s) => s.map((x) => { const r = x.getBoundingClientRect(); return [Math.round(r.top), Math.round(r.height), Math.round(r.width), x.scrollWidth <= x.clientWidth]; }));
+      ok(geo.every((g) => Math.abs(g[0] - geo[0][0]) <= 1 && g[1] >= 44 && g[2] >= 64 && g[3]), "one row, each at least 44px tall and 64px wide, no clipped text " + tag + " " + JSON.stringify(geo));
+      const look = await p.$eval('label[for="g-1-3"]', (l) => { const c = getComputedStyle(l.querySelector("span")); return [parseFloat(c.borderTopWidth), c.borderTopStyle, getComputedStyle(l).cursor]; });
+      ok(look[0] >= 2 && look[1] === "solid" && look[2] === "pointer", "unselected buttons have a 2px border and a pointer cursor " + tag);
+      const pick = async (id) => { await p.waitForTimeout(200); return p.evaluate((id) => {
+        const sp = document.querySelector('label[for="' + id + '"] span'), name = document.getElementById(id).name;
+        return { sel: [...document.getElementsByName(name)].filter((r) => r.checked).map((r) => r.id), bg: getComputedStyle(sp).backgroundColor, tick: getComputedStyle(sp.querySelector(".tick")).display,
+          others: [...document.getElementsByName(name)].filter((r) => r.id !== id).map((r) => { const o = r.nextElementSibling; return [getComputedStyle(o.querySelector(".tick")).display, getComputedStyle(o).backgroundColor]; }),
+          saved: JSON.parse(localStorage.getItem("ballot-weighing-v2")).g };
+      }, id); };
+      // Prop 4 under Standard weights scores 2.9. Each answer is shown exactly as chosen, with the same evidence line.
+      for (const [id, said, res, v] of [["g-4-3", "Yes", "Yes", 1], ["g-4-2", "Not sure", "Not sure", 0], ["g-4-1", "No", "No", -1]]) {
+        await p.click('label[for="' + id + '"]'); const x = await pick(id);
+        ok(x.sel.length === 1 && x.sel[0] === id, said + " is the only selected choice on Prop 4 " + tag);
+        ok(x.tick !== "none" && x.others.every((o) => o[0] === "none" && o[1] !== x.bg), said + " is filled and shows a check mark, the others do not " + tag);
+        ok(x.saved["4"] === v, said + " is stored as " + v + " " + tag);
+        ok((await T("#v-4")) === res && (await p.getAttribute("#v-4", "class")).includes("v-" + { 1: "yes", 0: "unsure", "-1": "no" }[v]), "Prop 4 card shows your answer, " + said + ", exactly as chosen " + tag);
+        ok((await T("#y-4")) === "On the factors you weigh, this measure rates Fair, 2.9 of 5, below the 3.0 midpoint.", "the evidence line is the same whatever you answer (" + said + ") " + tag);
+        const nx = await p.$eval("#nx-4", (a) => [a.hidden, a.textContent, a.getAttribute("href")]);
+        ok(!nx[0] && nx[2] === (v === 1 ? "#aa-4" : "#af-4") && (v === 1 ? /^Before you vote Yes, read the argument against/ : v === -1 ? /^Before you vote No, read the argument for/ : /^Still deciding\? Compare/).test(nx[1]), "the next-step link points to the other side of " + said + " " + tag);
+        ok((await T('#ballot .b-row[data-n="4"] .chip')) === res && (await T('#ballot .b-row[data-n="4"] .bsub')) === "Evidence Fair, 2.9 of 5", "Step 3 row shows " + said + " and the evidence " + tag);
+      }
+      await p.click("#nx-4");
+      ok(await p.evaluate(() => document.getElementById("facts-4").open && document.activeElement.id === "af-4"), "the next-step link opens More facts at the argument for (answer No) " + tag);
+      await p.evaluate(() => { document.getElementById("facts-4").open = false; });
+      await p.click('label[for="g-1-3"]'); await p.click('label[for="g-1-1"]');
+      ok((await pick("g-1-1")).sel.join() === "g-1-1" && (await T("#v-1")) === "No", "Yes then No leaves only No selected " + tag);
+      await p.click('label[for="g-2-2"]');
+      ok((await p.$$eval("#tally .chip", (c) => c.map((x) => x.textContent).join("|"))) === "Yes 0|No 2|Not sure 1|Not answered 11" && (await T("#ans-n")) === "3", "Not sure is counted as answered and as Not sure, not as YES or NO " + tag);
+      ok(await p.isVisible("#clr-4") && !(await p.isVisible("#clr-5")), "Clear answer shows only on answered cards " + tag);
+      await p.click("#clr-4");
+      ok((await pick("g-4-1")).sel.length === 0 && (await T("#v-4")) === "Not answered" && (await T("#ans-n")) === "2" && !(await p.isVisible("#clr-4")) && (await pick("g-4-1")).saved["4"] === null, "Clear answer returns Prop 4 to Not answered, distinct from Not sure " + tag);
+      ok(await p.evaluate(() => document.activeElement && document.activeElement.id === "g-4-3"), "focus moves to Yes after clearing " + tag);
+      await p.click('label[for="g-3-3"]');
+      await p.reload(); await p.waitForSelector("article.prop"); await p.evaluate(() => { const d = document.getElementById("customize"); if (d) d.open = true; });
+      ok((await pick("g-1-1")).sel.join() === "g-1-1" && (await pick("g-2-2")).sel.join() === "g-2-2" && (await pick("g-3-3")).sel.join() === "g-3-3" && (await pick("g-4-3")).sel.length === 0, "after a refresh Prop 1 No, Prop 2 Not sure, Prop 3 Yes stay selected and Prop 4 stays empty " + tag);
+      ok((await T("#ans-n")) === "3" && (await p.$$eval("#tally .chip", (c) => c.map((x) => x.textContent).join("|"))) === "Yes 1|No 1|Not sure 1|Not answered 11", "progress and totals after refresh " + tag);
+      // Keyboard: arrow keys move and select, and the focused button shows an outline.
+      await p.focus("#g-3-3"); await p.keyboard.press("ArrowRight");
+      ok(await p.evaluate(() => { const a = document.activeElement; const c = getComputedStyle(a.nextElementSibling); return a.id === "g-3-2" && a.checked && c.outlineStyle !== "none" && parseFloat(c.outlineWidth) >= 2; }), "arrow key selects Not sure with a visible focus outline " + tag);
+      ok((await p.evaluate(() => document.getElementById("g-3-2").matches('input[type="radio"]') && document.querySelector("#prop-3 fieldset.ask legend").textContent.includes("Prop 3"))), "radio buttons in a fieldset whose legend names the proposition for screen readers " + tag);
+      // Not hidden under the sticky bar: the middle of each button is the button itself.
+      await p.evaluate(() => document.querySelector("#prop-5 .pills").scrollIntoView({ block: "center", behavior: "instant" })); await p.waitForTimeout(300);
+      const hit = await p.evaluate(() => [...document.querySelectorAll("#prop-5 .pill span")].map((s) => { const r = s.getBoundingClientRect(); const e = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2); return e && s.parentElement.contains(e) ? "ok" : (e ? e.tagName + "." + e.className : "none") + "@" + Math.round(r.top); }));
+      ok(hit.every((h) => h === "ok"), "Prop 5 buttons are not covered (" + hit.join(", ") + ") " + tag);
+      await p.click("#reset"); }
     // Percentages (Oct 24, 2026): shares from the actual weights, live updates, single factor, all zero, results and calculation.
     { await p.click('.preset[data-id="def"]');
       const fw = await p.$$eval(".fw-p", (e) => e.map((x) => x.textContent));
@@ -127,7 +179,7 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
       const rows = await p.$$eval("#all-pct tr", (r) => r.length); ok(rows === 14, "all 14 propositions in the calculation table " + tag);
       const pts = await p.$$eval("#calc-1 tbody td:last-child", (t) => t.map((x) => parseFloat(x.textContent)));
       ok(pts.length === 7 && Math.abs(pts.reduce((a, b) => a + b, 0) - 64.17) < 0.02 && (await T("#calc-1 tfoot td:last-child")) === "64.17", "contributions add up to the exact percentage " + tag);
-      ok(/Preference alignment not calculated|giving/.test(await T("#calc-1")), "preference kept separate in the calculation " + tag);
+      ok(/Your answer\. (Not answered yet|.*never changes it)/.test(await T("#calc-1")), "answer kept separate in the calculation " + tag);
       ok(/Importance 20\.83% × rating 3\/5 = 12\.50 points/.test(await T("#hs-ex")), "worked example " + tag);
       await p.fill("#w-oc", "5"); await p.reload(); await p.evaluate(() => { const d = document.getElementById("customize"); if (d) d.open = true; });
       ok((await T("#pct-oc")) === BWfmt(500 / 27) + "% of your weighting", "saved weights restore with their shares " + tag);
@@ -149,6 +201,34 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
     ok(errs.length === 0, "console errors " + tag + ": " + errs.join(" | "));
     ok([...hosts].every((h) => ALLOWED_HOSTS.has(h)), "unexpected external hosts " + tag + ": " + [...hosts].filter((h) => !ALLOWED_HOSTS.has(h)).join(", "));
     console.log(tag, "external hosts requested (blocked in test):", [...hosts].join(", ") || "none");
+    await ctx.close();
+  }
+  // Touch phones (Oct 26, 2026): tap each choice at 320 and 390 px with touch events, and check the layout.
+  for (const w of [320, 390]) {
+    const tag = `@${w} touch`;
+    const ctx = await b.newContext({ viewport: { width: w, height: 760 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2 });
+    const p = await ctx.newPage(); const errs = []; watchErrors(p, errs); await blockExternal(p, new Set());
+    await p.goto(URL_); await p.waitForSelector("article.prop");
+    const T = async (s) => (await p.textContent(s)).trim();
+    const geo = await p.$$eval("#prop-38 .pill span", (s) => s.map((x) => { const r = x.getBoundingClientRect(); return [Math.round(r.top), Math.round(r.height), Math.round(r.left), Math.round(r.right), x.scrollWidth <= x.clientWidth]; }));
+    ok(geo.every((g) => g[0] === geo[0][0] && g[1] >= 44 && g[2] >= 0 && g[3] <= w && g[4]), "three buttons in one row inside the screen, 44px or taller, no clipped text " + tag + " " + JSON.stringify(geo));
+    ok((await p.evaluate(() => document.documentElement.scrollWidth)) <= w, "no sideways scrolling " + tag);
+    for (const [id, said, res] of [["g-38-3", "Yes", "Yes"], ["g-38-2", "Not sure", "Not sure"], ["g-38-1", "No", "No"], ["g-38-3", "Yes", "Yes"]]) {
+      await p.locator('label[for="' + id + '"]').scrollIntoViewIfNeeded(); await p.tap('label[for="' + id + '"]');
+      const sel = await p.$$eval('input[name="g-38"]', (r) => r.filter((x) => x.checked).map((x) => x.id));
+      const tick = await p.$eval('label[for="' + id + '"] .tick', (t) => getComputedStyle(t).display);
+      ok(sel.join() === id && tick !== "none", "tap " + said + " selects it alone and shows the check mark " + tag);
+      ok((await T("#v-38")) === res && (await T('#ballot .b-row[data-n="38"] .chip')) === res, "tap " + said + " shows " + res + " on the card and in Step 3 " + tag);
+    }
+    await p.tap('label[for="g-39-2"]');
+    ok((await T("#ans-n")) === "2" && (await T("#tally")).includes("Not sure 1"), "tapped Not sure counts as answered and as Not sure " + tag);
+    await p.reload(); await p.waitForSelector("article.prop");
+    ok((await p.isChecked("#g-38-3")) && (await p.isChecked("#g-39-2")) && (await T("#ans-n")) === "2", "taps survive a refresh " + tag);
+    await p.locator("#clr-38").scrollIntoViewIfNeeded(); await p.tap("#clr-38");
+    ok(!(await p.isChecked("#g-38-3")) && (await T("#v-38")) === "Not answered" && (await T("#ans-n")) === "1", "tap Clear answer " + tag);
+    const sticky = await p.evaluate(() => document.querySelector(".sticky").getBoundingClientRect().height);
+    ok(sticky <= 70, "sticky bar stays compact (" + Math.round(sticky) + "px) " + tag);
+    ok(errs.length === 0, "console errors " + tag + ": " + errs.join(" | "));
     await ctx.close();
   }
   await b.close();
