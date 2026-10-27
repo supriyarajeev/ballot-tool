@@ -294,7 +294,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     await go(p, h);
     const beta = p.locator('aside.beta[aria-label="Beta release"]');
     ok(await beta.isVisible(), `beta notice visible on ${h}`);
-    ok(/BETA/.test(await beta.innerText()) && /Coverage and evidence are still being verified/.test(await beta.innerText()), `beta notice wording on ${h}`);
+    ok(/Beta Tool/i.test(await beta.innerText()) && /Coverage and evidence are still being verified/.test(await beta.innerText()), `beta notice wording on ${h}`);
   }
   await go(p, "#/");
   await p.click('aside.beta a[href="#/about"]'); await p.waitForSelector("[data-about] h1");
@@ -685,7 +685,11 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     const lines = await m.$$eval("h1.hero-title span", (sp) => sp.map((x) => x.getClientRects().length));
     ok(lines.every((n) => n === 1), "phone: 'California Bay Area' and 'Ballot Guide' each stay on one line");
     const ctaTop = await m.$eval(".cta .btn.primary", (e) => e.getBoundingClientRect().top);
-    ok(ctaTop < 560, "phone: Find My Ballot is visible without scrolling (top " + Math.round(ctaTop) + "px)");
+    ok((await m.getAttribute(".hero .cta .btn.primary", "href")) === "propositions.html" && (await m.getAttribute(".hero .cta .btn.secondary", "href")) === "#/find", "home: the Ballot Weighing Tool leads, Find My Ballot second");
+    ok((await m.$$eval("[data-attrs] li", (l) => l.map((x) => x.textContent.trim()).join("|"))) === "Source-linked information|User-controlled preferences|Transparent methodology", "home: the three key attributes");
+    ok(/Not an official election website\. Results are informational and are not voting recommendations\./.test(await m.textContent("[data-disclaimer]")) && (await m.getAttribute("[data-disclaimer] a", "href")) === "https://voterguide.sos.ca.gov/", "home: disclaimer with a link to the official voter guide");
+    ok(/statewide propositions/.test(await m.textContent(".tagline")) && /not a complete official ballot/.test(await m.textContent(".hero .lede")), "home: statewide focus and local coverage limits are stated");
+    ok(ctaTop < 560, "phone: the main call to action is visible without scrolling (top " + Math.round(ctaTop) + "px)");
     await c3.close();
     const c4 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const d = await c4.newPage(); await blockExternal(d, new Set());
     await d.goto(B + "#/"); await d.waitForSelector("h1");

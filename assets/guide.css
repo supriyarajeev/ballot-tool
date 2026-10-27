@@ -480,3 +480,8 @@ details.sheet-sec[open] > summary::after { content: "\2212"; }
 .use-tool:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 .srow.from-tool .yn .box:has(input:checked) { border-color: var(--accent); }
 @media print { .srow .lean.from .ok { color: #000; } .srow .lean .ev { color: #333; } }
+
+/* Landing positioning (Oct 26, 2026) */
+.attrs { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--f-display); font-weight: 700; font-size: .95rem; }
+.attrs li { display: inline-flex; align-items: center; gap: 6px; }
+.attrs .ico { width: 18px; height: 18px; color: var(--accent); }

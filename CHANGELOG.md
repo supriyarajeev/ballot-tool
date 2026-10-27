@@ -1,5 +1,12 @@
 # Changelog
 
+## October 26, 2026, public release readiness
+
+- **Neutral wording.** 45 logged changes across the propositions: contested claims attributed, one unsourced risk removed (Prop 37), party positions no longer listed, three interested-party sources relabeled, and Props 2 and 5 matched to the official YES wording. No rating, weight or formula changed. See audit/2026-10-26/RELEASE-READINESS.md.
+- **Props 40, 41 and 42.** One neutral note on how they interact, shown on all three.
+- **Trust signals.** Check dates and "a person has not yet reviewed them" in the tool's beta note; ratings labeled as this tool's own, not LAO or state ratings; "Biggest risk if it passes"; a short summary at the top of the methods section.
+- **Landing page.** New positioning, three key attributes, the disclaimer with a link to the official voter guide, the Ballot Weighing Tool first, and a "Beta Tool" label.
+
 ## October 26, 2026, you're here
 
 - **The card you're working on stands out.** In the Ballot Weighing Tool, the proposition you click, tap, answer, tab into, jump to or scroll to read gets a blue ring, a lifted shadow and a filled "Prop N · you're here" label. Only one card is marked at a time.

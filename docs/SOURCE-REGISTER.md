@@ -272,7 +272,7 @@ A URL that opens is not support for a claim. Support comes from the excerpts in 
 | hcd.ca.gov | [HCD Annual Report 2023-24](https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/plan-report/annual-report-23-24.pdf) | Official | 2026-10-23 | accessed |
 | herculesca.gov | [Hercules Municipal Elections](https://www.herculesca.gov/government/city-clerk/elections) | Official | 2026-10-22 | accessed |
 | hklaw.com | [Holland & Knight press release on CEQA appeals study](https://www.hklaw.com/en/news/pressreleases/2026/09/ceqa-appeals-increasingly-target-infill-development) | Independent | 2026-10-22 | accessed |
-| hklaw.com | [Holland & Knight report on CEQA litigation](https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects) | Independent | 2026-10-24 | accessed |
+| hklaw.com | [Holland & Knight report on CEQA litigation](https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects) | Interested party | 2026-10-24 | accessed |
 | hoover.org | [Hoover Institution analysis](https://www.hoover.org/proposition-lab-proposition-5) | Independent | 2026-10-22 | accessed |
 | hoover.org | [Hoover Institution analysis](https://www.hoover.org/proposition-lab-proposition-40) | Independent | 2026-10-23 | accessed |
 | hoover.org | [Prop 37 Quick Facts](https://www.hoover.org/research/prop-37-middle-class-homeownership-bond-initiative) | Independent | 2026-10-23 | accessed |
@@ -311,7 +311,7 @@ A URL that opens is not support for a claim. Support comes from the excerpts in 
 | losaltosca.gov | [City Attorney's Impartial Analysis of Measure D](https://www.losaltosca.gov/DocumentCenter/View/3028) | Official | 2026-10-22 | accessed |
 | losaltosca.gov | [Official document with the ballot question](https://www.losaltosca.gov/DocumentCenter/View/3001/Notice-of-Measurepdf) | Official | 2026-10-22 | accessed |
 | luhsd.net | [LUHSD Measure X page](https://www.luhsd.net/measure-x) | Official | 2026-10-22 | accessed |
-| lwvc.org | [League of Women Voters of California, ballot recommendations](https://lwvc.org/ballot-recommendations/) | Independent | 2026-10-22 | accessed |
+| lwvc.org | [League of Women Voters of California, ballot recommendations](https://lwvc.org/ballot-recommendations/) | Advocacy group, opposes | 2026-10-22 | accessed |
 | lwvc.org | [League of Women Voters of California, ballot recommendations](https://lwvc.org/ballot-recs) | Independent | 2026-10-24 | accessed |
 | manatt.com | [Manatt client alert on AB 130 and SB 131](https://www.manatt.com/insights/newsletters/client-alert/major-ceqa-reform-bills-exempt-variety-of-residential-and-nonresidential-projects) | Independent | 2026-10-22 | accessed |
 | marincounty.gov | [Marin County Elections, Local Candidates On Ballot (onballot.txt, created 8/17/2026 11:27 am)](https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-and-about-candidates-110326/local-candidates-ballot-110326) | Official | 2026-10-24 | accessed |
@@ -345,7 +345,7 @@ A URL that opens is not support for a claim. Support comes from the excerpts in 
 | morganhill.ca.gov | [Official document with the ballot question](https://morganhill.ca.gov/1736/Measures) | Official | 2026-10-22 | accessed |
 | my.lwv.org | [INDEPENDENT: League of Women Voters pros and cons](https://my.lwv.org/sites/default/files/2026_nov_bay_transit_measure_pros_cons.pdf) | Independent | 2026-10-22 | accessed |
 | my.lwv.org | [Vote with the League! CA Ballot Measure Recommendations 2026](https://my.lwv.org/node/73812) | Independent | 2026-10-22 | accessed |
-| nachc.org | [NACHC California health center fact sheet (patient count)](https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf) | Independent | 2026-10-22 | accessed |
+| nachc.org | [NACHC California health center fact sheet (patient count)](https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf) | Industry association | 2026-10-22 | accessed |
 | napacounty.gov | [County of Napa - Measure B (county measure page)](https://www.napacounty.gov/2471/County-of-Napa---Measure-B) | Official | 2026-10-22 | accessed |
 | napacounty.gov | [County page for Measure P](https://www.napacounty.gov/2470/City-of-American-Canyon---Measure-P) | Official | 2026-10-22 | accessed |
 | napacounty.gov | [County page for Measure S](https://www.napacounty.gov/2330/City-of-St-Helena---Measure-S) | Official | 2026-10-22 | accessed |

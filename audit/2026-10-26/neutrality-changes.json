@@ -1,0 +1,317 @@
+[
+ {
+  "prop": 1,
+  "field": "risk",
+  "old": "risk: \"Decades of fixed debt with no guaranteed number of homes.\"",
+  "new": "risk: \"About 25 years of fixed debt with no guaranteed number of homes.\"",
+  "reason": "'Decades' overstated the LAO's 25-year repayment period."
+ },
+ {
+  "prop": 3,
+  "field": "tw",
+  "old": "tw: \"Steady school and health funding, in exchange",
+  "new": "tw: \"Continued school and health funding, in exchange",
+  "reason": "'Steady' conflicted with the tool's own note that this revenue swings with markets."
+ },
+ {
+  "prop": 3,
+  "field": "out",
+  "old": "out: \"Continued funding for schools and health care after 2030.\"",
+  "new": "out: \"Current top rates continue after 2030, with part of the revenue going to schools and health care.\"",
+  "reason": "The outcome named only the benefit, not the tax that produces it."
+ },
+ {
+  "prop": 4,
+  "field": "tw",
+  "old": "tw: \"A path for candidates without wealthy backers, in exchange for public money spent on campaigns at costs set later.\"",
+  "new": "tw: \"What supporters describe as a path for candidates without wealthy backers, in exchange for public money spent on campaigns at costs set later.\"",
+  "reason": "A contested benefit was stated in the tool's own voice; now attributed to supporters."
+ },
+ {
+  "prop": 4,
+  "field": "argFor",
+  "old": " Their rebuttal says California is the only state that bans it.\"",
+  "new": "\"",
+  "reason": "Only one side's rebuttal was quoted; dropped so both sides get their main argument only."
+ },
+ {
+  "prop": 4,
+  "field": "r.lr",
+  "old": "lr: \"Familiar, limited risks.\"",
+  "new": "lr: \"Risks depend on how programs are designed. LAO says program costs could be significant for governments that create them.\"",
+  "reason": "'Familiar, limited' read as dismissive and conflicted with the LAO cost statement in the risk field. Rating unchanged."
+ },
+ {
+  "prop": 5,
+  "field": "noE",
+  "old": "noE: \"In 2003 there were 135 replacement candidates on the ballot, and the winner needed only the most votes.\"",
+  "new": "noE: \"\"",
+  "reason": "The NO box carried a fact framed in support of YES; the YES box had no matching note."
+ },
+ {
+  "prop": 5,
+  "field": "con",
+  "old": " CalMatters reports almost all legislative Republicans also opposed it.\"",
+  "new": "\"",
+  "reason": "Party positions were named for one side only. Rule now: party positions are not listed; see the official guide."
+ },
+ {
+  "prop": 37,
+  "field": "risk",
+  "old": "risk: \"Buyers carry a second loan of up to 17% of the price. More buying power could also push new-home prices up, a risk no official analysis addresses.\"",
+  "new": "risk: \"Buyers carry a second loan of up to 17% of the price.\"",
+  "reason": "The price-increase risk was the tool's own, with no source."
+ },
+ {
+  "prop": 37,
+  "field": "tw",
+  "old": "in exchange for more household debt and possible upward pressure on new-home prices.\"",
+  "new": "in exchange for more household debt.\"",
+  "reason": "Same unsourced price risk."
+ },
+ {
+  "prop": 37,
+  "field": "r.lr",
+  "old": "lr: \"Risks of higher prices and more household debt.\"",
+  "new": "lr: \"Buyers take on more household debt. The official materials do not analyze any effect on home prices.\"",
+  "reason": "Same unsourced price risk, restated as what the official materials do and do not cover. Rating unchanged."
+ },
+ {
+  "prop": 37,
+  "field": "r.nb",
+  "old": "and real help for some buyers.",
+  "new": "and assistance for some buyers.",
+  "reason": "'Real help' was approving language in the tool's voice."
+ },
+ {
+  "prop": 37,
+  "field": "out",
+  "old": "out: \"More middle-income households able to buy newly built homes with 3% down.\"",
+  "new": "out: \"Some middle-income households could buy newly built homes with 3% down. How many is unknown.\"",
+  "reason": "The outcome was stated as certain while the uncertainty field says usage is unknown."
+ },
+ {
+  "prop": 37,
+  "field": "argAgainst",
+  "old": "argAgainst: \"No official argument against was filed. CalMatters lists Reform California and the League of Women Voters as opponents.\"",
+  "new": "argAgainst: \"No official argument against was filed. Opponents named in news reports are listed under Opponents.\"",
+  "reason": "Gave names but no argument. No sourced statement of opponents' reasons is in this tool, so none is invented."
+ },
+ {
+  "prop": 38,
+  "field": "who",
+  "old": "who: \"Taxpayers, researchers, one UC-affiliated institute, patients.\"",
+  "new": "who: \"Taxpayers, researchers, one institute selected by the state health department, patients.\"",
+  "reason": "Stated as fact what the risk field says is contested; now matches the summary."
+ },
+ {
+  "prop": 39,
+  "field": "r.nb",
+  "old": "nb: \"LAO projects net costs, and a national study found strict ID laws had no effect on fraud, actual or perceived. A possible gain in voter trust is unmeasured.\"",
+  "new": "nb: \"LAO projects net costs. One national study cited in the sources found strict ID laws had no measurable effect on fraud or perceived fraud. That is one study, not a full review of the research. A possible gain in voter trust is unmeasured.\"",
+  "reason": "One study was used to dismiss supporters' core claim; now presented as one study with its limits. Rating unchanged."
+ },
+ {
+  "prop": 39,
+  "field": "risk",
+  "old": "and the measure sets no notice or fix-it process.",
+  "new": "and the official materials describe no notice or fix-it process.",
+  "reason": "The tool's own legal reading was stated as fact."
+ },
+ {
+  "prop": 39,
+  "field": "pro",
+  "old": " LAist also lists the California Republican Party.\"",
+  "new": "\"",
+  "reason": "Party rule, as for Prop 5."
+ },
+ {
+  "prop": 40,
+  "field": "risk",
+  "old": "risk: \"Court challenges are likely. LAO's analysis of Prop 40 says that if Prop 41 or 42 gets more yes votes, courts could find a conflict and Prop 40 could be stopped even if a majority votes yes.\"",
+  "new": "risk: \"Opponents and analysts expect legal challenges, including over the look-back residency date. Its interaction with Props 41 and 42 is described in the note on this card.\"",
+  "reason": "'Likely' was an unattributed prediction. The 40/41/42 conflict moves to one neutral note shown on all three cards."
+ },
+ {
+  "prop": 40,
+  "field": "r.lr",
+  "old": "lr: \"Departures, lawsuits, and possible blocking by Props 41 or 42.\"",
+  "new": "lr: \"Departures and lawsuits. See the note on Props 41 and 42.\"",
+  "reason": "Conflict moved to the shared note. Rating unchanged."
+ },
+ {
+  "prop": 40,
+  "field": "r.nb",
+  "old": "so the overall effect is genuinely uncertain.\"",
+  "new": "so the overall effect is uncertain.\"",
+  "reason": "Emphasis word removed."
+ },
+ {
+  "prop": 41,
+  "field": "does",
+  "old": "If it gets more yes votes than another initiative on this ballot with a tax excluded from the spending limit, that whole measure is void.\"",
+  "new": "The measure says that if it gets more yes votes than another initiative on this ballot with a tax excluded from the spending limit, that whole measure is void. LAO says courts could find a conflict.\"",
+  "reason": "Stated a court outcome as certain; now attributed to the measure's text and LAO."
+ },
+ {
+  "prop": 41,
+  "field": "risk",
+  "old": "risk: \"If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. LAO also says",
+  "new": "risk: \"LAO says",
+  "reason": "Blocking Prop 40 was framed as a harm; it is now in the shared neutral note."
+ },
+ {
+  "prop": 41,
+  "field": "tw",
+  "old": "tw: \"More audits and spending-limit discipline, in exchange for less budget flexibility and the chance of blocking Prop 40.\"",
+  "new": "tw: \"More audits and stricter spending-limit rules, in exchange for less budget flexibility.\"",
+  "reason": "'Discipline' was approving; blocking Prop 40 was framed as a cost. The interaction is in the shared note."
+ },
+ {
+  "prop": 41,
+  "field": "r.lr",
+  "old": "lr: \"Could block Prop 40 and tighten future budgets.\"",
+  "new": "lr: \"Could tighten future budgets. Its interaction with Prop 40 is described in the note on this card.\"",
+  "reason": "Same. Rating unchanged."
+ },
+ {
+  "prop": 41,
+  "field": "r.nb",
+  "old": "plus a large but uncertain effect through Prop 40.\"",
+  "new": "plus a large but uncertain effect through its interaction with Prop 40.\"",
+  "reason": "Neutral wording for the interaction."
+ },
+ {
+  "prop": 41,
+  "field": "con",
+  "old": "Sen. Bernie Sanders (official listing). News reports add the California Democratic Party.\"",
+  "new": "Sen. Bernie Sanders (official listing).\"",
+  "reason": "Party rule, as for Prop 5."
+ },
+ {
+  "prop": 42,
+  "field": "does",
+  "old": "If it gets more yes votes than a conflicting initiative on this ballot, that whole measure is void.\"",
+  "new": "The measure says that if it gets more yes votes than a conflicting initiative on this ballot, that whole measure is void. LAO says courts could find a conflict.\"",
+  "reason": "Same as Prop 41."
+ },
+ {
+  "prop": 42,
+  "field": "risk",
+  "old": "risk: \"If it gets more yes votes than Prop 40, LAO says courts could find a conflict and Prop 40 could be stopped. Undefined terms",
+  "new": "risk: \"Undefined terms",
+  "reason": "Same as Prop 41."
+ },
+ {
+  "prop": 42,
+  "field": "tw",
+  "old": "in exchange for giving up that revenue option and the chance of blocking Prop 40.\"",
+  "new": "in exchange for giving up that revenue option.\"",
+  "reason": "Same as Prop 41."
+ },
+ {
+  "prop": 42,
+  "field": "r.lr",
+  "old": "lr: \"Scope questions, undefined terms, and possible blocking of Prop 40.\"",
+  "new": "lr: \"Scope questions and undefined terms. Its interaction with Prop 40 is described in the note on this card.\"",
+  "reason": "Same. Rating unchanged."
+ },
+ {
+  "prop": 43,
+  "field": "money",
+  "old": " CalMatters reports that Sonoma County's 2024 half-cent sales tax for wildfire and emergency services passed with 62%, below two-thirds.\"",
+  "new": "\"",
+  "reason": "A single vivid example helpful to one side, with no counterexample."
+ },
+ {
+  "prop": 43,
+  "field": "r.ev",
+  "old": "ev: \"Text and LAO are clear, and a reported local example shows the effect.\"",
+  "new": "ev: \"Text and LAO are clear.\"",
+  "reason": "Same example removed. Rating unchanged."
+ },
+ {
+  "prop": 43,
+  "field": "risk",
+  "old": "risk: \"Local services like fire and transit lose an easier funding path.\"",
+  "new": "risk: \"Citizen-proposed local special taxes would need two-thirds approval. LAO says local revenue could be lower.\"",
+  "reason": "Echoed opponents in the tool's voice; now states the rule and the LAO's finding."
+ },
+ {
+  "prop": 43,
+  "field": "does",
+  "old": "a broader anti-tax initiative",
+  "new": "a broader tax-limitation initiative",
+  "reason": "'Anti-tax' is a loaded label."
+ },
+ {
+  "prop": 43,
+  "field": "con",
+  "old": "California School Employees Association (official listing and argument). News reports add the California Democratic Party.\"",
+  "new": "California School Employees Association (official listing and argument).\"",
+  "reason": "Party rule, as for Prop 5."
+ },
+ {
+  "prop": 44,
+  "field": "src role",
+  "old": "\"https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf\", \"Independent\"]",
+  "new": "\"https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf\", \"Industry association\"]",
+  "reason": "The clinics' national association is an affected party, not an independent source."
+ },
+ {
+  "prop": 44,
+  "field": "r.nb",
+  "old": "but no evidence it improves care,",
+  "new": "but no study of its effect on care was found,",
+  "reason": "Absolute claim softened to what was found."
+ },
+ {
+  "prop": 44,
+  "field": "con",
+  "old": "..., Planned Parenthood Affiliates of California, and the Democratic and Republican parties.",
+  "new": "... and Planned Parenthood Affiliates of California.",
+  "reason": "Party rule, as for Prop 5."
+ },
+ {
+  "prop": 45,
+  "field": "pro",
+  "old": "..., the California Hospital Association and the California Republican Party.",
+  "new": "... and the California Hospital Association.",
+  "reason": "Party rule, as for Prop 5."
+ },
+ {
+  "prop": 45,
+  "field": "con",
+  "old": "...the California Labor Federation, Sierra Club California and the California Democratic Party.",
+  "new": "...the California Labor Federation and Sierra Club California.",
+  "reason": "Party rule, as for Prop 5."
+ },
+ {
+  "prop": 45,
+  "field": "src role",
+  "old": "\"https://lwvc.org/ballot-recommendations/\", \"Independent\"]",
+  "new": "\"https://lwvc.org/ballot-recommendations/\", \"Advocacy group, opposes\"]",
+  "reason": "The League of Women Voters is a listed opponent of Prop 45, so 'Independent' was misleading."
+ },
+ {
+  "prop": 45,
+  "field": "src role",
+  "old": "\"https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects\", \"Independent\"]",
+  "new": "\"https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects\", \"Interested party\"]",
+  "reason": "Co-written by an attorney whom HousingWire reports helped write the measure, as the card already says."
+ },
+ {
+  "prop": 2,
+  "field": "yes",
+  "old": "yes: \"Rules for building state budget reserves and paying down extra state debts would change.\"",
+  "new": "yes: \"Rules for building state budget reserves and paying down extra state debts would change. As a result, state budget reserves would be higher. The state also would be required to make extra debt payments for longer.\"",
+  "reason": "Matched to the official voter guide's YES statement, which includes both consequences (checked October 26, 2026)."
+ },
+ {
+  "prop": 5,
+  "field": "yes",
+  "old": "Vacancies would be filled through special elections or appointments",
+  "new": "Instead, vacancies typically would be filled through special elections or appointments",
+  "reason": "The official YES statement says 'typically'; the qualifier had been dropped (checked October 26, 2026)."
+ }
+]

@@ -163,6 +163,22 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
       await p.evaluate(() => document.querySelector("#prop-5 .pills").scrollIntoView({ block: "center", behavior: "instant" })); await p.waitForTimeout(300);
       const hit = await p.evaluate(() => [...document.querySelectorAll("#prop-5 .pill span")].map((s) => { const r = s.getBoundingClientRect(); const e = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2); return e && s.parentElement.contains(e) ? "ok" : (e ? e.tagName + "." + e.className : "none") + "@" + Math.round(r.top); }));
       ok(hit.every((h) => h === "ok"), "Prop 5 buttons are not covered (" + hit.join(", ") + ") " + tag);
+      // Release-readiness content rules (Oct 26, 2026).
+      const rr = await p.evaluate(() => ({
+        ix: [...document.querySelectorAll("article.prop")].filter((c) => c.querySelector("[data-ix]")).map((c) => c.id),
+        risk: [...document.querySelectorAll(".facts dt")].filter((d) => /risk/i.test(d.textContent)).map((d) => d.textContent),
+        rh: document.querySelector(".ratings-h").textContent,
+        beta: document.querySelector("[data-beta]").textContent,
+        party: /Republican|Democratic Party|Democratic and Republican/.test(document.getElementById("props").textContent),
+        roles: [...document.querySelectorAll(".srcs li")].filter((li) => /nachc|hklaw|lwvc/.test(li.innerHTML)).map((li) => li.querySelector(".role").textContent),
+        inshort: !!document.querySelector("[data-inshort]") }));
+      ok(rr.ix.join() === "prop-40,prop-41,prop-42", "the neutral 40/41/42 interaction note appears on exactly those three cards " + tag);
+      ok(rr.risk.length === 14 && rr.risk.every((t) => t === "Biggest risk if it passes"), "risk is labeled Biggest risk if it passes on all 14 " + tag);
+      ok(/own ratings.*Not LAO or state ratings/.test(rr.rh), "ratings are labeled as this tool's own, not LAO or state ratings " + tag);
+      ok(/Beta Tool/.test(rr.beta) && /October 22 and 23, 2026/.test(rr.beta) && /a person has not yet reviewed them/.test(rr.beta), "the tool shows its beta status, check dates, and that no person has reviewed it " + tag);
+      ok(!rr.party, "no party positions are listed on any card " + tag);
+      ok(rr.roles.length === 3 && rr.roles.every((r) => r !== "Independent"), "interested-party sources are not labeled Independent: " + rr.roles.join(" | ") + " " + tag);
+      ok(rr.inshort, "the methods section opens with a short summary " + tag);
       // Striped (limited-information) ratings have a key and a visible "limited" tag (Oct 26, 2026).
       const lk = await p.evaluate(() => [...document.querySelectorAll("article.prop")].map((c) => { const lim = c.querySelectorAll(".rgrid .dots.limited"); return { n: c.id, lim: lim.length, tags: c.querySelectorAll(".rgrid .ltag").length, key: !!c.querySelector(".rkey"), aria: [...lim].every((d) => /limited information$/.test(d.getAttribute("aria-label"))) }; }));
       ok(lk.some((x) => x.lim > 0) && lk.every((x) => x.tags === 0 && x.key === (x.lim > 0) && x.aria), "cards with striped ratings show the key once, with no extra tags, and screen readers still hear limited information " + tag);

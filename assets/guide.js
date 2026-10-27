@@ -564,10 +564,12 @@
       '<section class="hero">' +
         '<p class="eyebrow">' + esc(DB.election.name) + "</p>" +
         '<h1 class="hero-title"><span>California Bay Area</span> <span>Ballot Guide</span></h1>' +
-        '<p class="tagline">Your local and statewide ballot, explained with evidence.</p>' +
-        '<div class="cta"><a class="btn primary" href="#/find">' + icon("pin") + 'Find My Ballot</a><a class="btn secondary" href="propositions.html">' + icon("scale") + "Ballot Weighing Tool</a></div>" +
-        '<p class="lede">Find the measures and candidates that may be on your ballot, see what each choice would do, and check the official sources. Every statewide proposition is rated on seven evidence factors with sources, and you decide how much each factor matters. This guide never tells you how to vote.</p>' +
-        '<p class="small hero-note">' + icon("info") + "<span>This guide is for information only. Choosing a county or city here does not confirm your exact districts. Your official sample ballot does.</span></p>" +
+        // Public positioning (Oct 26, 2026): statewide propositions first, the beta status in the banner above, and a plain disclaimer.
+        '<p class="tagline">An independent, nonpartisan resource to explore California’s statewide propositions, review supporting information, and see how your own priorities influence your results.</p>' +
+        '<div class="cta"><a class="btn primary" href="propositions.html">' + icon("scale") + 'Ballot Weighing Tool</a><a class="btn secondary" href="#/find">' + icon("pin") + "Find My Ballot</a></div>" +
+        '<ul class="attrs" data-attrs="1"><li>' + icon("check") + "Source-linked information</li><li>" + icon("check") + "User-controlled preferences</li><li>" + icon("check") + "Transparent methodology</li></ul>" +
+        '<p class="lede">The Ballot Weighing Tool covers all 14 statewide propositions: the facts, official sources, this tool’s evidence ratings, and how much each factor matters to you. Find My Ballot lists the Bay Area local measures and contests collected so far, by county and city. It is not a complete official ballot.</p>' +
+        '<p class="small hero-note" data-disclaimer="1">' + icon("info") + "<span>Not an official election website. Results are informational and are not voting recommendations. For official information, see the California Secretary of State’s " + ext("https://voterguide.sos.ca.gov/", "official voter guide") + ". Your sample ballot shows your exact contests.</span></p>" +
         '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and contests</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
       "</section>" +
       mapFigure() +
@@ -675,7 +677,7 @@
   // The button above the statewide list: the whole tool, all propositions, with the same way back.
   function toolAllButton(n) {
     return '<div class="group-cta"><a class="btn secondary" data-tool-all="1" href="' + esc(toolAllHref()) + '">' + icon("scale") + "Go to Ballot Weighing Tool \u2014 All " + n + ' Propositions</a>' +
-      '<p class="small">Or choose a proposition below to open it in the tool, with its ratings, your weights and your lean.</p></div>';
+      '<p class="small">Or choose a proposition below to open it in the tool, with its ratings, your weights and your answer.</p></div>';
   }
   function itemRow(x, ap, isContest) {
     var j = J(x.jurisdiction) || {};
@@ -1068,7 +1070,7 @@
     return '<ol class="steps3" data-tool-steps="1">' + steps.map(function (s) {
       return "<li>" + icon(s[0], "big") + "<div><b>" + esc(s[1]) + ".</b> " + esc(s[2]) + "</div></li>";
     }).join("") + "</ol>" +
-      '<p class="small">A lean is the result of this tool’s method and the weights you chose. It is not an official recommendation, a prediction, or an instruction on how to vote.</p>';
+      '<p class="small">The evidence score is the result of this tool’s ratings and the weights you chose. It is not an official recommendation, a prediction, or an instruction on how to vote.</p>';
   }
 
   function viewAbout() {
