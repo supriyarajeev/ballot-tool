@@ -1,5 +1,12 @@
 # Changelog
 
+## October 26, 2026, banner and wording
+
+- **One banner.** The Ballot Weighing Tool uses the same "Beta version" banner as the guide. Check dates moved to its Sources and methodology section.
+- **Back to your ballot** shows only when you arrive from a ballot page, never from an earlier visit in the same tab.
+- **No GitHub links** on the site, and no "How information is checked" link in the coverage note.
+- **Review wording.** "Officially reviewed or verified" replaces references to review by a person, on the pages and in the data notes.
+
 ## October 26, 2026, public release readiness
 
 - **Neutral wording.** 45 logged changes across the propositions: contested claims attributed, one unsourced risk removed (Prop 37), party positions no longer listed, three interested-party sources relabeled, and Props 2 and 5 matched to the official YES wording. No rating, weight or formula changed. See audit/2026-10-26/RELEASE-READINESS.md.

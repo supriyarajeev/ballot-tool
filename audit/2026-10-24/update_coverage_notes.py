@@ -24,7 +24,7 @@ for cty in ['ca-alameda', 'ca-contra-costa', 'ca-marin', 'ca-napa', 'ca-sf', 'ca
             + (" and, for contests added earlier, city clerk and district lists" if cty == 'ca-alameda' else "")
             + (f"; {pend} are not yet on a final official list" if pend else "")
             + (f". {nob} seats not on the ballot are listed separately" if nob else "")
-            + ". The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot.")
+            + ". The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot.")
     cov = J[cty].setdefault('coverage', {}); note = cov.get('note', '')
     note = re.sub(r'\s*Local (candidate )?contests (are not collected yet|are collected only for some cities and districts, from city clerk and district sources|come from the Department of Elections candidate page \(names only\))\.', '', note).strip()
     note = re.sub(r"\s*The county's own candidate contests \(city, school and other district races\) are not collected\. Two East Bay Municipal Utility District wards, recorded under Alameda County, cross into the county and are shown where they may apply\.", ' The two East Bay Municipal Utility District wards on the ballot are recorded under Alameda County and also apply here.', note)

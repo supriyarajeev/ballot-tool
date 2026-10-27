@@ -117,9 +117,9 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(new RegExp(label === "have their ballot question recorded" ? `${n} ${label}` : `${fmt(n)} ${label}`).test(covText), `What's covered says ${fmt(n)} ${label}`);
   }
   ok(covText.includes(`${loc.filter((m) => m.threshold).length} their vote threshold`), "What's covered threshold count from data");
-  ok(/No record has been checked by a person yet/.test(covText) === (D.measures.concat(D.contests, D.candidates).every((x) => x.status !== "verified")), "What's covered states the human-review count from statuses");
+  ok(/No record has been officially reviewed or verified yet/.test(covText) === (D.measures.concat(D.contests, D.candidates).every((x) => x.status !== "verified")), "What's covered states the human-review count from statuses");
   ok(/Local coverage is incomplete/.test(covText) && /does not mean it is not on your ballot/.test(covText), "What's covered says local coverage is incomplete");
-  ok(!/\bverified\b/i.test(covText.replace(/checked by a person/g, "")), "What's covered never calls recorded items verified");
+  ok(!/\bverified\b/i.test(covText.replace(/officially reviewed or verified/g, "")), "What's covered never calls recorded items verified");
   ok(/growing county by county/i.test(covText), "says local coverage is growing county by county");
   // Next steps: official links only.
   const nsLinks = await p.$$eval("[data-next-steps] a", (as) => as.map((a) => a.getAttribute("href")));
@@ -294,14 +294,14 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     await go(p, h);
     const beta = p.locator('aside.beta[aria-label="Beta release"]');
     ok(await beta.isVisible(), `beta notice visible on ${h}`);
-    ok(/Beta Tool/i.test(await beta.innerText()) && /Coverage and evidence are still being verified/.test(await beta.innerText()), `beta notice wording on ${h}`);
+    ok(/Beta version/.test(await beta.innerText()) && /Coverage and evidence are still being verified/.test(await beta.innerText()), `beta notice wording on ${h}`);
   }
   await go(p, "#/");
   await p.click('aside.beta a[href="#/about"]'); await p.waitForSelector("[data-about] h1");
   ok((await p.textContent("h1")).trim() === "About this guide", "beta link opens About this guide");
   ok(await p.evaluate(() => document.activeElement && document.activeElement.tagName === "H1"), "focus moves to the About heading");
   const about = (await main(p));
-  for (const t of ["Its summaries, evidence, ratings and local ballot listings have not yet been independently verified by a person", "Only review by a person confirms a fact", "districts that include Bay Area counties", "Software tests", "Automated and AI-assisted reading", "Review by a person", "Completeness", "may apply", "It is not an official recommendation", "Proposition 44", "Propositions 37 and 38", "accountability went from 5 to 4", "stayed at 3", "Research pending", "Insufficient evidence", "Evidence ratings and your preferences"]) ok(about.includes(t), `About covers "${t}"`);
+  for (const t of ["Its summaries, evidence, ratings and local ballot listings have not yet been officially reviewed or verified", "Only an official review confirms a fact", "districts that include Bay Area counties", "Software tests", "Automated and AI-assisted reading", "Official review", "Completeness", "may apply", "It is not an official recommendation", "Proposition 44", "Propositions 37 and 38", "accountability went from 5 to 4", "stayed at 3", "Research pending", "Insufficient evidence", "Evidence ratings and your preferences"]) ok(about.includes(t), `About covers "${t}"`);
   ok(!/automated (tests|checks) (verify|confirm) (facts|accuracy)/i.test(about), "About does not say automated checks verify facts");
   await p.goBack(); await p.waitForSelector("[data-region-card]");
   ok(new URL(p.url()).hash === "#/" || new URL(p.url()).hash === "", "back from About returns home");
@@ -489,7 +489,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   // Item-level warnings where facts rest on OCR or an AI reading of a page image.
   for (const rec of D.measures.filter((x) => x.level !== "state").concat(D.contests).filter((x) => x.readingNote).slice(0, 40)) {
     await go(p, (rec.office ? "#/contest/" : "#/item/") + encodeURIComponent(rec.id), ".detail");
-    ok((await p.locator("[data-reading-note]").innerText()).includes("A person has not checked this reading"), `${rec.id}: reading note shown near its facts`);
+    ok((await p.locator("[data-reading-note]").innerText()).includes("This reading has not been officially reviewed"), `${rec.id}: reading note shown near its facts`);
   }
   { const c = D.contests.find((x) => x.readingNote && x.candidates && x.candidates.length);
     await go(p, "#/candidate/" + encodeURIComponent(c.candidates[0]), ".detail");
@@ -656,6 +656,10 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     await p.click("#propnav a[href='#prop-44']"); await p.waitForSelector("#prop-44.is-target");
     await p.reload(); await p.waitForSelector("#prop-44.is-target");
     ok((await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County", "moving between propositions and refreshing keep the way back");
+    await p.goto(B + "propositions.html"); await p.waitForSelector("#props article.prop");
+    ok(await p.isHidden("#ballot-return") && await p.isHidden("#ret-mini"), "opening the tool fresh in the same tab shows no old ballot link");
+    await p.goBack(); await p.waitForSelector("#props article.prop");
+    ok((await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County", "Back to the earlier visit still has its way back");
     await p.goBack(); await p.waitForSelector("#prop-1.is-target"); ok(true, "Back returns to the previous proposition");
     await p.goBack(); await p.waitForSelector("h1"); ok(/#\/ballot\/ca-alameda$/.test(p.url()), "Back again returns to the Alameda ballot");
     await go(p, "#/item/2026-11-03.ca.prop-38"); await p.waitForURL(/propositions\.html#prop-38$/, { timeout: 10000 }); await p.waitForSelector("#prop-38.is-target");
@@ -688,6 +692,8 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok((await m.getAttribute(".hero .cta .btn.primary", "href")) === "propositions.html" && (await m.getAttribute(".hero .cta .btn.secondary", "href")) === "#/find", "home: the Ballot Weighing Tool leads, Find My Ballot second");
     ok((await m.$$eval("[data-attrs] li", (l) => l.map((x) => x.textContent.trim()).join("|"))) === "Source-linked information|User-controlled preferences|Transparent methodology", "home: the three key attributes");
     ok(/Not an official election website\. Results are informational and are not voting recommendations\./.test(await m.textContent("[data-disclaimer]")) && (await m.getAttribute("[data-disclaimer] a", "href")) === "https://voterguide.sos.ca.gov/", "home: disclaimer with a link to the official voter guide");
+    for (const h of ["#/", "#/about", "#/find", "#/how-to-vote"]) { await m.goto(B + h); await m.waitForSelector("h1"); ok((await m.$$eval('a[href*="github.com"]', (a) => a.length)) === 0, "no GitHub link on " + h); }
+    await m.goto(B + "#/"); await m.waitForSelector("h1.hero-title");
     ok(/statewide propositions/.test(await m.textContent(".tagline")) && /not a complete official ballot/.test(await m.textContent(".hero .lede")), "home: statewide focus and local coverage limits are stated");
     ok(ctaTop < 560, "phone: the main call to action is visible without scrolling (top " + Math.round(ctaTop) + "px)");
     await c3.close();

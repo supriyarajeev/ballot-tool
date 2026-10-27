@@ -419,6 +419,15 @@ a.next[hidden] { display: none; }
 
 .inshort { display: grid; gap: 6px; padding: 12px 16px; border-radius: 10px; background: var(--ballot-soft); border-left: 4px solid var(--ballot); margin-bottom: 8px; }
 .inshort p { margin: 0; }
+
+/* Same beta banner as the guide pages (Oct 26, 2026) */
+.beta { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; padding: 8px 12px; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); font-size: .86rem; color: var(--muted); }
+.beta p { margin: 0; max-width: none; }
+.beta b { color: var(--ink); }
+.beta-tag { flex: none; font-family: var(--f-display); font-weight: 800; font-size: .72rem; letter-spacing: .08em; padding: 2px 8px; border-radius: 999px; background: #f6eccd; color: #6b4f08; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .beta-tag { background: #3a3016; color: #e3c25e; } }
+:root[data-theme="dark"] .beta-tag { background: #3a3016; color: #e3c25e; }
+@media (max-width: 640px) { .beta { font-size: .8rem; padding: 7px 10px; gap: 8px; line-height: 1.45; } }
 </style>
 </head>
 <body>
@@ -427,7 +436,10 @@ a.next[hidden] { display: none; }
   <header>
     <a class="home-link" href="./">California Bay Area Ballot Guide</a>
     <nav class="ballot-return" id="ballot-return" aria-label="Your ballot" hidden><a id="ballot-return-a" href="./"></a></nav>
-    <p class="note beta-note" data-beta="1"><b>Beta Tool.</b> An independent, unofficial civic tech project for education. Ratings are this tool's own judgments and are still being verified. Facts were checked against official sources on October 22 and 23, 2026, source links on October 24, and wording for neutrality on October 26. These checks were automated, and a person has not yet reviewed them. Confirm your ballot with your county elections office. <a href="index.html#/about">About and disclaimer</a></p>
+    <aside class="beta" data-beta="1" aria-label="Beta release">
+      <span class="beta-tag">Beta version</span>
+      <p><b>Coverage and evidence are still being verified.</b> An independent, unofficial civic tech project for education. Confirm your ballot with your county elections office. <a href="index.html#/about">About this guide: scope, coverage and limitations</a></p>
+    </aside>
     <div class="eyebrow">California ballot, November 3, 2026</div>
     <h1>Ballot Weighing Tool</h1>
     <p class="lede">A guide for working out your own yes or no on all 14 statewide propositions. You say how you would vote on each one. Beside each answer the tool shows how well the measure is built, using evidence ratings from its Standard Evaluation Framework. Your answer is never changed, and the tool never tells you how to vote.</p>
@@ -546,6 +558,7 @@ a.next[hidden] { display: none; }
     </ol>
 
     <h2 id="sm-h">Sources and methodology</h2>
+    <p id="checks" data-checks="1"><b>When this was checked.</b> Facts were checked against official sources on October 22 and 23, 2026, the YES and NO meanings against the official voter guide on October 26, source links on October 24, and wording for neutrality on October 26. These checks were automated. They have not yet been officially reviewed or verified. Confirm your ballot with your county elections office.</p>
     <p><b>Facts.</b> Each card's facts come from the Secretary of State's official voter guide (titles, what YES and NO mean, official arguments and legal text) and the Legislative Analyst's Office (fiscal estimates). Independent reporting and research are used where official sources are silent, and are labeled as Independent. Sources with a stake in a measure are labeled by that interest, such as Industry association, Advocacy group or Interested party. Political party positions are not listed, because they could not be sourced the same way for every measure. Each card names the biggest risk if the measure passes. What a NO vote keeps is in "A NO vote means". Campaign claims are attributed to the side that makes them. Every card lists its sources, numbered so each rating can point to them.</p>
     <p><b>Ratings.</b> The ratings are structured analytical judgments made for this tool, drafted with AI research assistance and published by the tool's creator. They are not official government ratings or scientific measurements. One rubric is applied to all 14 measures, whatever the topic. Dashed dots mean a rating rests on limited information, and Not rated means there was too little verified information to score it. Missing information is not treated as a good or bad sign.</p>
     <details class="rubric"><summary>See the rating rubric</summary>
@@ -563,7 +576,7 @@ a.next[hidden] { display: none; }
       </table></section>
       <p class="small">A 2 or 4 falls between the descriptions. For Accountability, 2 means a self-executing rule or limited reporting with no review, and 4 means independent audits plus public reporting. For Fiscal clarity, 2 means the official analysis gives a direction but no dollars. For Outcome clarity, 4 means a clear observable rule or required reporting on results.</p>
     </details>
-    <p><b>Last checked.</b> Facts and source links were first reviewed October 15 and 16, 2026. On October 22, 2026, every fact on this page was audited again by automated research against the Secretary of State's voter guide, the LAO analyses, the official arguments and, where it could be read, the legal text. 93 statements were corrected or labeled as reported by news sources. The ratings themselves were not changed. On October 23, 2026 an independent review led to three more wording fixes (Props 3, 39 and 44), again without changing any rating. On October 24, 2026 four flagged ratings were resolved against the legal text and the LAO analysis: Prop 44's accountability went from 5 to 4 because audits are allowed but not required, and the evidence strength of Props 37 and 38 and Prop 37's accountability stayed at 3 with clearer reasons. On October 24, 2026 a cross-check against the Official Voter Information Guide led to 19 more corrections of wording, attribution and source links, again without changing any rating. No person has yet reviewed the audit. Official materials can change, so confirm anything important in the <a href="https://voterguide.sos.ca.gov/" target="_blank" rel="noopener noreferrer">official voter guide<span class="vh"> (opens in a new tab)</span></a>, which also has <a href="https://voterguide.sos.ca.gov/propositions/" target="_blank" rel="noopener noreferrer">all 14 propositions<span class="vh"> (opens in a new tab)</span></a> and an <a href="https://voterguide.sos.ca.gov/en/alt-versions/" target="_blank" rel="noopener noreferrer">audio, large-print and other-language version<span class="vh"> (opens in a new tab)</span></a>.</p>
+    <p><b>Last checked.</b> Facts and source links were first reviewed October 15 and 16, 2026. On October 22, 2026, every fact on this page was audited again by automated research against the Secretary of State's voter guide, the LAO analyses, the official arguments and, where it could be read, the legal text. 93 statements were corrected or labeled as reported by news sources. The ratings themselves were not changed. On October 23, 2026 an independent review led to three more wording fixes (Props 3, 39 and 44), again without changing any rating. On October 24, 2026 four flagged ratings were resolved against the legal text and the LAO analysis: Prop 44's accountability went from 5 to 4 because audits are allowed but not required, and the evidence strength of Props 37 and 38 and Prop 37's accountability stayed at 3 with clearer reasons. On October 24, 2026 a cross-check against the Official Voter Information Guide led to 19 more corrections of wording, attribution and source links, again without changing any rating. The audit has not yet been officially reviewed or verified. Official materials can change, so confirm anything important in the <a href="https://voterguide.sos.ca.gov/" target="_blank" rel="noopener noreferrer">official voter guide<span class="vh"> (opens in a new tab)</span></a>, which also has <a href="https://voterguide.sos.ca.gov/propositions/" target="_blank" rel="noopener noreferrer">all 14 propositions<span class="vh"> (opens in a new tab)</span></a> and an <a href="https://voterguide.sos.ca.gov/en/alt-versions/" target="_blank" rel="noopener noreferrer">audio, large-print and other-language version<span class="vh"> (opens in a new tab)</span></a>.</p>
     <p id="privacy"><b>Your privacy.</b> Your answers and weights are saved only in this browser's local storage so they are there when you return. They are never sent anywhere, and the tool asks for no name or contact details. Clear my answers removes saved answers. Weights stay until you change them or pick Standard. The page loads fonts from Google Fonts and a visitor counter from GoatCounter, and like any web request these send your IP address and browser details to those services. GoatCounter records one visit each time this page loads, using only the page's fixed name and title, plus the referring site, browser, screen size, language and country. It also records two anonymous counts, when someone answers at least one question and when someone answers all 14. It is never sent which propositions you open or how you answer. Its privacy policy says it does not store IP addresses or set cookies. This page keeps a small note in local storage so each count is sent only once. If storage is blocked, each count is sent at most once per page load. Source links take you to other websites only when you click them.</p>
   </section>
   <footer class="credit" data-credit="1">
@@ -572,7 +585,7 @@ a.next[hidden] { display: none; }
     <p class="credit-tag"><b>Independent civic-tech project · Beta version</b></p>
     <p>This is an independent informational resource and is not an official government website or an endorsement of any candidate, party, or ballot position.</p>
     <p>Information may change as election details are finalized. Please verify your ballot, registration, polling location, and official election information with the relevant election office.</p>
-    <p class="credit-links"><a href="https://www.sos.ca.gov/elections" target="_blank" rel="noopener noreferrer">Official California election information (Secretary of State)<span class="vh"> (opens in a new tab)</span></a> · <a href="index.html#/about">About, methodology and full disclaimer</a> · <a href="https://github.com/supriyarajeev/ballot-tool" target="_blank" rel="noopener noreferrer">Feedback and corrections on GitHub<span class="vh"> (opens in a new tab)</span></a></p>
+    <p class="credit-links"><a href="https://www.sos.ca.gov/elections" target="_blank" rel="noopener noreferrer">Official California election information (Secretary of State)<span class="vh"> (opens in a new tab)</span></a> · <a href="index.html#/about">About, methodology and full disclaimer</a></p>
   </footer>
 </main>
 
@@ -1325,8 +1338,10 @@ a.next[hidden] { display: none; }
   function readReturn() {
     var q = new URLSearchParams(location.search), f = q.get("from"), pl = q.get("place");
     var ok = typeof f === "string" && /^#\/(ballot|sheet|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(f);
-    if (ok) { try { sessionStorage.setItem(RET_KEY, JSON.stringify({ f: f, p: (pl || "").slice(0, 120) })); } catch (e) {} return { f: f, p: (pl || "").slice(0, 120) }; }
-    try { var v = JSON.parse(sessionStorage.getItem(RET_KEY) || "null"); if (v && /^#\/(ballot|sheet|browse|statewide|contests)(\/[A-Za-z0-9._%-]+)*$/.test(v.f)) return v; } catch (e) {}
+    // Oct 26, 2026: the way back comes only from this page's own address, which survives refresh and jumps between
+    // propositions. It is no longer remembered for the tab, so opening the tool fresh never shows an old place.
+    try { sessionStorage.removeItem(RET_KEY); } catch (e) {}
+    if (ok) return { f: f, p: (pl || "").slice(0, 120) };
     return null;
   }
   var ret = readReturn();

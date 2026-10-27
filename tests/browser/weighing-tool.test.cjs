@@ -168,14 +168,14 @@ const BWfmt = (x) => (Math.round(x * 10) / 10).toFixed(1);
         ix: [...document.querySelectorAll("article.prop")].filter((c) => c.querySelector("[data-ix]")).map((c) => c.id),
         risk: [...document.querySelectorAll(".facts dt")].filter((d) => /risk/i.test(d.textContent)).map((d) => d.textContent),
         rh: document.querySelector(".ratings-h").textContent,
-        beta: document.querySelector("[data-beta]").textContent,
+        beta: document.querySelector("[data-beta]").textContent + " " + document.querySelector("[data-checks]").textContent,
         party: /Republican|Democratic Party|Democratic and Republican/.test(document.getElementById("props").textContent),
         roles: [...document.querySelectorAll(".srcs li")].filter((li) => /nachc|hklaw|lwvc/.test(li.innerHTML)).map((li) => li.querySelector(".role").textContent),
         inshort: !!document.querySelector("[data-inshort]") }));
       ok(rr.ix.join() === "prop-40,prop-41,prop-42", "the neutral 40/41/42 interaction note appears on exactly those three cards " + tag);
       ok(rr.risk.length === 14 && rr.risk.every((t) => t === "Biggest risk if it passes"), "risk is labeled Biggest risk if it passes on all 14 " + tag);
       ok(/own ratings.*Not LAO or state ratings/.test(rr.rh), "ratings are labeled as this tool's own, not LAO or state ratings " + tag);
-      ok(/Beta Tool/.test(rr.beta) && /October 22 and 23, 2026/.test(rr.beta) && /a person has not yet reviewed them/.test(rr.beta), "the tool shows its beta status, check dates, and that no person has reviewed it " + tag);
+      ok(/Beta version/.test(rr.beta) && /Coverage and evidence are still being verified/.test(rr.beta) && /October 22 and 23, 2026/.test(rr.beta) && /have not yet been officially reviewed or verified/.test(rr.beta) && (await p.$$eval('a[href*="github.com"]', (a) => a.length)) === 0, "the tool shows the same Beta Tool banner as the guide, the methods section gives the check dates, and there is no GitHub link " + tag);
       ok(!rr.party, "no party positions are listed on any card " + tag);
       ok(rr.roles.length === 3 && rr.roles.every((r) => r !== "Independent"), "interested-party sources are not labeled Independent: " + rr.roles.join(" | ") + " " + tag);
       ok(rr.inshort, "the methods section opens with a short summary " + tag);

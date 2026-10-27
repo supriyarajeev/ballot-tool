@@ -15,7 +15,7 @@
    "electionsUrl": "https://acvote.alamedacountyca.gov/election-information/elections?id=260",
    "coverage": {
     "status": "pilot",
-    "note": "Pilot county. All 27 local measures are listed from the registrar's official election page; 26 have the ballot question and 26 the vote threshold from the official submittal forms or city documents. Congressional and legislative contests are listed. Local candidate contests: 84 contests with 228 candidates, from the Alameda County Registrar of Voters official candidate list and, for contests added earlier, city clerk and district lists. 31 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot.",
+    "note": "Pilot county. All 27 local measures are listed from the registrar's official election page; 26 have the ballot question and 26 the vote threshold from the official submittal forms or city documents. Congressional and legislative contests are listed. Local candidate contests: 84 contests with 228 candidates, from the Alameda County Registrar of Voters official candidate list and, for contests added earlier, city clerk and district lists. 31 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot.",
     "listComplete": true
    },
    "citySource": "https://acgov.org/about/cities.htm",
@@ -333,7 +333,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "12 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. The two East Bay Municipal Utility District wards on the ballot are recorded under Alameda County and also apply here. Local candidate contests: 60 contests with 176 candidates, from the Contra Costa County Elections official candidate list. 61 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "12 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. The two East Bay Municipal Utility District wards on the ballot are recorded under Alameda County and also apply here. Local candidate contests: 60 contests with 176 candidates, from the Contra Costa County Elections official candidate list. 61 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://www.contracosta.ca.gov/1243/Cities-of-Contra-Costa",
    "cityInventory": {
@@ -865,7 +865,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "20 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 43 contests with 140 candidates, from the Marin County Elections official candidate list. 54 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "20 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 43 contests with 140 candidates, from the Marin County Elections official candidate list. 54 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://www.marincounty.gov/departments/elections/general-voting-information-and-resources/citytown-clerks-office",
    "cityInventory": {
@@ -1307,7 +1307,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "4 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 14 contests with 41 candidates, from the Napa County Registrar of Voters official candidate list. 16 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "4 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 14 contests with 41 candidates, from the Napa County Registrar of Voters official candidate list. 16 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://www.napa.lafco.ca.gov/files/dfbfa43b7/2026+LAFCO+Directory+of+Local+Agencies.pdf",
    "cityInventory": {
@@ -1486,7 +1486,7 @@
    "electionsUrl": "https://www.sf.gov/november-3-2026-consolidated-general-election",
    "coverage": {
     "status": "list-only",
-    "note": "All local measures are listed from the official sf.gov list of qualified ballot measures; the regional transit measure, Measure RTM, is shown separately. Detailed content is still being researched. Local candidate contests: 11 contests with 43 candidates, from the San Francisco Department of Elections official candidate list. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot.",
+    "note": "All local measures are listed from the official sf.gov list of qualified ballot measures; the regional transit measure, Measure RTM, is shown separately. Detailed content is still being researched. Local candidate contests: 11 contests with 43 candidates, from the San Francisco Department of Elections official candidate list. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot.",
     "listComplete": true
    },
    "citySource": "https://census.bayareametro.gov/cities-counties/san_francisco_county",
@@ -1539,7 +1539,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "28 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 62 contests with 140 candidates, from the San Mateo County Elections Office official candidate list. 68 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "28 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 62 contests with 140 candidates, from the San Mateo County Elections Office official candidate list. 68 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://www.smcgov.org/lafco/cities-san-mateo-county",
    "cityInventory": {
@@ -2121,7 +2121,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "19 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 73 contests with 210 candidates, from the Santa Clara County Registrar of Voters official candidate list. 60 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "19 local measures are listed from the county's official list (the regional transit measure, Measure RTM, is shown separately). Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 73 contests with 210 candidates, from the Santa Clara County Registrar of Voters official candidate list. 60 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://santaclaralafco.org/node/23",
    "cityInventory": {
@@ -2623,7 +2623,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "11 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 27 contests with 71 candidates, from the Solano County Registrar of Voters official candidate list. 11 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "11 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. On October 22, 2026 the list was partly cross-checked against city clerk and district pages; it is not reconciled. Local candidate contests: 27 contests with 71 candidates, from the Solano County Registrar of Voters official candidate list. 11 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://app.solanocounty.gov/depts/rov",
    "cityInventory": {
@@ -2783,7 +2783,7 @@
    "coverage": {
     "status": "list-only",
     "listComplete": false,
-    "note": "12 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. The county list does not say it is final. Local candidate contests: 38 contests with 112 candidates, from the Sonoma County Registrar of Voters official candidate list; 2 are not yet on a final official list. 21 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been checked by a person against the sample ballot."
+    "note": "12 local measures are listed from the county's official list. Only letters, jurisdictions and printed titles are recorded; the measures themselves have not been researched. The county list does not say it is final. Local candidate contests: 38 contests with 112 candidates, from the Sonoma County Registrar of Voters official candidate list; 2 are not yet on a final official list. 21 seats not on the ballot are listed separately. The county lists were last read on October 24, 2026; contests have not been officially reviewed against the sample ballot."
    },
    "citySource": "https://socogis.sonomacounty.ca.gov/map/rest/services/OWTSPublic/City_Limit/MapServer/layers",
    "cityInventory": {
