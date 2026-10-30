@@ -79,6 +79,17 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
 
   // ---------- Home ----------
   await go(p, "#/");
+  // Folded sections (Oct 29, 2026): the home page starts with its reference sections folded behind Show details.
+  { const f = await p.$$eval("main button.sec-fold", (bs) => bs.map((b) => [b.getAttribute("data-body"), b.getAttribute("aria-expanded"), document.getElementById(b.getAttribute("data-body")).hidden]));
+    ok(f.length >= 3 && f.every((x) => x[1] === "false" && x[2] === true), "home starts with its reference sections folded: " + f.map((x) => x[0]).join(", "));
+    ok(await p.isVisible("[data-eday]") && /Election Day is Tuesday, November 3/.test(await p.textContent("[data-eday]")), "home leads its key dates with Election Day");
+    const pill = await p.$eval("main .sec-fold .fold-hint", (e) => { const c = getComputedStyle(e); return [parseFloat(c.borderTopWidth), c.borderTopStyle, e.textContent]; });
+    ok(pill[0] >= 1 && pill[1] === "solid" && pill[2] === "Show details", "Show details is a bordered button, as in the tool");
+    await p.click('main button.sec-fold[data-body="region-body"]');
+    ok(await p.isVisible("[data-glance]") && (await p.textContent('main button.sec-fold[data-body="region-body"] .fold-hint')) === "Hide details", "Show details opens the regional figures");
+    await p.click('main button.sec-fold[data-body="region-body"]'); ok(await p.isHidden("[data-glance]"), "and Hide details folds them");
+    ok(await p.$eval("#foot-body", (e) => e.hidden) && await p.isVisible("footer.site [data-credit]"), "the footer folds How this guide works but keeps the credit visible"); }
+  await p.evaluate(() => document.querySelectorAll("button.sec-fold").forEach((b) => { if (b.getAttribute("aria-expanded") !== "true") b.click(); }));
   ok((await H1(p)) === "California Bay Area Ballot Guide", "home h1");
   ok((await p.title()).startsWith("California Bay Area Ballot Guide"), "document title");
   ok(await p.isVisible('a:has-text("Find My Ballot")'), "Find My Ballot entry point");
@@ -118,7 +129,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   }
   ok(covText.includes(`${loc.filter((m) => m.threshold).length} their vote threshold`), "What's covered threshold count from data");
   ok(/No record has been officially reviewed or verified yet/.test(covText) === (D.measures.concat(D.contests, D.candidates).every((x) => x.status !== "verified")), "What's covered states the human-review count from statuses");
-  ok(/Local coverage is incomplete/.test(covText) && /does not mean it is not on your ballot/.test(covText), "What's covered says local coverage is incomplete");
+  ok(/does not mean it is not on your ballot/.test(covText) && (await p.$$eval("[data-covered-card] .note.warn", (e) => e.length)) === 0, "What's covered still says a missing item may be on your ballot, as plain text, not a warning box");
   ok(!/\bverified\b/i.test(covText.replace(/officially reviewed or verified/g, "")), "What's covered never calls recorded items verified");
   ok(/growing county by county/i.test(covText), "says local coverage is growing county by county");
   // Next steps: official links only.
@@ -142,7 +153,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     const noPhoto = D.candidates.find((c) => !c.photo && c.contest.startsWith("2026-11-03.ca") && /^https:/.test(c.statementUrl || ""));
     if (noPhoto) { await go(p, "#/candidate/" + encodeURIComponent(noPhoto.id), ".detail");
       ok((await p.$$eval(".cand-head img", (is) => is.length)) === 0 && (await p.$$eval(".cand-head .cphoto.ph[aria-hidden=true]", (is) => is.length)) === 1, "a candidate without a photo gets the hidden placeholder");
-      ok((await p.$$eval("main a", (as) => as.map((a) => a.href))).includes(noPhoto.statementUrl) && /grey placeholder means this beta guide did not find a photo/.test(await main(p)), "candidate page without a photo explains the placeholder and links to the official statement page"); } }
+      ok((await p.$$eval("main a", (as) => as.map((a) => a.href))).includes(noPhoto.statementUrl) && /grey placeholder means this guide did not find a photo/.test(await main(p)), "candidate page without a photo explains the placeholder and links to the official statement page"); } }
   // Every contest: photo where the record has one, placeholder otherwise, and the note when any placeholder shows.
   { let mixed = null, bad = [];
     for (const con of D.contests.filter((c) => (c.candidates || []).length)) {
@@ -150,7 +161,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
       const want = con.candidates.map((id) => !!(D.candidates.find((c) => c.id === id) || {}).photo);
       const got = await p.$$eval("a.cand .cphoto", (fs) => fs.map((f) => f.tagName === "IMG"));
       if (JSON.stringify(want) !== JSON.stringify(got)) bad.push(con.id);
-      if (!mixed && want.some(Boolean) && !want.every(Boolean)) { mixed = con.id; ok(/grey placeholder means this beta guide did not find a photo/.test(await main(p)), `${con.id}: a contest with some placeholders explains them`); }
+      if (!mixed && want.some(Boolean) && !want.every(Boolean)) { mixed = con.id; ok(/grey placeholder means this guide did not find a photo/.test(await main(p)), `${con.id}: a contest with some placeholders explains them`); }
     }
     ok(bad.length === 0, "every contest shows a photo exactly for the candidates with a photo record: " + bad.join(", "));
     await go(p, "#/candidate/2026-11-03.ca-sf.public-defender.manohar-raju", ".detail"); await p.waitForTimeout(200);
@@ -180,19 +191,19 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   { await go(p, "#/contest/2026-11-03.ca.governor", "[data-candidate-eval]");
     const t = await p.$eval("[data-candidate-eval]", (d) => d.textContent);
     ok((await p.getAttribute("[data-candidate-eval]", "data-candidate-eval")) === "pending" && /Research pending/.test(t) && /No candidate has been given a score or rating in this release/.test(t) && /Missing information is not a low score/.test(t), "Governor shows the research-pending notice");
-    ok(!/Weighted rating|of 7 factors|Insufficient evidence|%/.test(t) && (await p.$$eval(".ce-pct, .ce-t, .ce-cand, [data-candidate-eval] input, [data-candidate-eval] table", (e) => e.length)) === 0, "the pending notice has no scores, percentages, tables or controls");
+    ok(!/Weighted rating|of 5 factors|Insufficient evidence|%/.test(t) && (await p.$$eval(".ce-pct, .ce-t, .ce-cand, [data-candidate-eval] input, [data-candidate-eval] table", (e) => e.length)) === 0, "the pending notice has no scores, percentages, tables or controls");
     const order = await p.$$eval("a.cand b", (bs) => bs.map((b) => b.textContent));
     ok(JSON.stringify(order) === JSON.stringify(D.contests.find((c) => c.id === "2026-11-03.ca.governor").candidates.map((id) => D.candidates.find((c) => c.id === id).name)), "candidates stay in the official order");
     await go(p, "#/contest/" + D.contests.find((c) => c.listStatus === "confirmed" && (c.candidates || []).length > 2).id, "[data-candidate-eval]");
     ok(/Research pending/.test(await p.textContent("[data-candidate-eval]")), "local contests show the same pending notice");
     // The full mode still works behind the gate: release.public true plus reviewed ratings for every candidate (test data, not real ratings).
     const gov = D.contests.find((k) => k.id === "2026-11-03.ca.governor");
-    const ratings = (vals) => Object.fromEntries(["nb", "ev", "lr", "ac", "if", "fc", "oc"].map((k, i) => [k, { rating: vals[i], basis: "record", note: "test", source: { title: "test", url: "https://example.gov/" } }]));
+    const ratings = (vals) => Object.fromEntries(["ev", "lr", "ac", "if", "fc"].map((k, i) => [k, { rating: vals[i], basis: "record", note: "test", source: { title: "test", url: "https://example.gov/" } }]));
     async function gated(pub, reviewers) {
       const ctx2 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const q = await ctx2.newPage();
       await q.route(/candidate-rubric\.json/, async (route) => { const r = await route.fetch(); const j = await r.json(); j.release.public = pub; await route.fulfill({ response: r, json: j }); });
       await q.route(/candidates\.json/, async (route) => { const r = await route.fetch(); const j = await r.json();
-        gov.candidates.forEach((id, i) => { const c = j.candidates.find((x) => x.id === id); c.evaluation = { reviewed: "2026-10-24", reviewedBy: reviewers[i], ratings: ratings(i ? [4, 3, 3, 3, 3, 3, 3] : [3, 3, 3, 3, 4, 4, 3]) }; if (!reviewers[i]) delete c.evaluation.reviewedBy; });
+        gov.candidates.forEach((id, i) => { const c = j.candidates.find((x) => x.id === id); c.evaluation = { reviewed: "2026-10-24", reviewedBy: reviewers[i], ratings: ratings(i ? [4, 3, 3, 3, 3] : [3, 3, 3, 4, 4]) }; if (!reviewers[i]) delete c.evaluation.reviewedBy; });
         await route.fulfill({ response: r, json: j }); });
       await q.route(/fonts\.g|gc\.zgo/, (r) => r.abort());
       await q.goto(B + "#/contest/2026-11-03.ca.governor"); await q.waitForSelector("[data-candidate-eval]", { state: "attached", timeout: 10000 });
@@ -203,14 +214,21 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     const partial = await gated(true, ["Test Reviewer", ""]);
     ok(partial.mode === "pending", "with release.public true, one unreviewed candidate keeps the contest pending");
     const on = await gated(true, ["Test Reviewer", "Test Reviewer"]);
-    ok(on.mode === "1" && /Weighted rating: 64% \(3\.2\/5\)/.test(on.sums[0]) && JSON.stringify(on.pct) === JSON.stringify(["20.8%", "20.8%", "16.7%", "12.5%", "12.5%", "8.3%", "8.3%"]), "when enabled with reviewed ratings, the shared engine calculates with the standard weights: " + on.sums.join(" | ")); }
+    ok(on.mode === "1" && /Weighted rating: 66% \(3\.3\/5\)/.test(on.sums[0]) && JSON.stringify(on.pct) === JSON.stringify(["29.4%", "23.5%", "17.6%", "17.6%", "11.8%"]), "when enabled with reviewed ratings, the shared engine calculates with the standard weights: " + on.sums.join(" | ")); }
   // Disclaimer: unofficial, educational, by the developer; on About and in the footer of every page.
   { await go(p, "#/about", "[data-about]");
     const t = await p.$eval("[data-disclaimer]", (d) => d.textContent);
     ok(/independent civic technology project/.test(t) && /Supriya Rajeev/.test(t) && /educational and informational purposes/.test(t) && /not an official election resource/.test(t) && /without warranty/.test(t) && /Wikimedia Commons/.test(t), "About page carries the full disclaimer");
     const cr = await p.$eval("footer.site [data-credit]", (d) => ({ t: d.textContent, links: [...d.querySelectorAll("a")].map((a) => a.href) }));
-    ok(/California Ballot Guide/.test(cr.t) && /Developed by Supriya Rajeev for educational purposes\./.test(cr.t.replace(/\s+/g, " ")) && /Independent civic-tech project · Beta version/.test(cr.t) && /not an official government website or an endorsement of any candidate, party, or ballot position/.test(cr.t.replace(/\s+/g, " ")) && cr.links.includes("https://www.sos.ca.gov/elections"), "the footer carries the developer credit, beta disclosure and official election link");
+    ok(/California Ballot Guide/.test(cr.t) && /Developed by Supriya Rajeev for educational purposes\./.test(cr.t.replace(/\s+/g, " ")) && /An independent civic-tech project/.test(cr.t) && /not an official government website or an endorsement of any candidate, party, or ballot position/.test(cr.t.replace(/\s+/g, " ")) && cr.links.includes("https://www.sos.ca.gov/elections"), "the footer carries the developer credit, beta disclosure and official election link");
     for (const h of ["#/", "#/contests", "#/browse"]) { await go(p, h); ok((await p.$$eval("[data-credit]", (e) => e.length)) === 1, "credit footer on " + h); } }
+  // Oct 29, 2026: the footer's About link works while already on About, and How to vote's two buttons match in size.
+  { await go(p, "#/about", "[data-about]"); await p.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); await p.waitForTimeout(100);
+    await p.click('footer.site [data-credit] a[href="#/about"]'); await p.waitForTimeout(200);
+    ok(await p.evaluate(() => window.scrollY < 50 && document.activeElement && document.activeElement.tagName === "H1"), "About, methodology and full disclaimer works while already on About (back to the top)");
+    await go(p, "#/how-to-vote", "[data-voter-tools]");
+    const bw = await p.$$eval(".cta.two .btn", (bs) => bs.map((b) => [Math.round(b.getBoundingClientRect().width), Math.round(b.getBoundingClientRect().height)]));
+    ok(bw.length === 2 && bw[0][0] === bw[1][0] && bw[0][1] === bw[1][1], "How to vote: Find My Ballot and Ballot Weighing Tool are the same size " + JSON.stringify(bw)); }
   { const all = D.candidates.filter((c) => c.photo); const fs = require("fs"), path = require("path");
     ok(all.length >= 1 && all.every((c) => fs.existsSync(path.join(__dirname, "..", "..", c.photo.src))), "every photo record points to a file in the site"); }
   await go(p, "#/contests");
@@ -262,7 +280,14 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   await go(p, "#/");
   const KD = D.election.keyDates || [];
   const tl = await p.$$eval("[data-key-dates] .timeline li", (ls) => ls.map((l) => ({ t: l.querySelector("time").getAttribute("datetime"), b: l.querySelector("b").textContent })));
-  ok(tl.length === KD.length && tl.every((x, i) => x.t === KD[i].date && x.b === KD[i].label), "key dates timeline matches data/elections.json: " + tl.map((x) => x.t).join(", "));
+  { const srt = tl.slice().sort((a, b) => a.t.localeCompare(b.t)), today = new Date().toISOString().slice(0, 10), firstPast = tl.findIndex((x) => x.t < today);
+    ok(srt.length === KD.length && srt.every((x, i) => x.t === KD[i].date && x.b === KD[i].label), "key dates timeline has every date in data/elections.json: " + tl.map((x) => x.t).join(", "));
+    ok(JSON.stringify(tl.map((x) => x.t)) === JSON.stringify(KD.map((k) => k.date)), "every key date is shown in date order, none folded");
+    const det = await p.$$eval("[data-key-dates] .timeline li", (ls) => ls.map((l) => [l.className, !!l.querySelector("p")]));
+    ok(det.every(([c, hasP]) => (c === "past") === !hasP), "dates that have passed are one short line; dates ahead keep their details");
+    ok(await p.evaluate(() => { const r = document.querySelector("[data-region-card]"), k = document.querySelector("[data-key-dates]"); return !!(r.compareDocumentPosition(k) & Node.DOCUMENT_POSITION_FOLLOWING); }), "the region at a glance comes before the key dates");
+    const cta = await p.$$eval(".hero .cta .btn", (bs) => bs.map((b) => Math.round(b.getBoundingClientRect().width)));
+    ok(cta.length === 2 && cta[0] === cta[1], "the two main buttons are the same width " + JSON.stringify(cta)); }
   ok((await p.$$eval("[data-key-dates] a", (as) => as.map((a) => a.href))).every((u) => /^https:\/\/www\.sos\.ca\.gov\//.test(u)), "key dates link only to the Secretary of State");
   { const today = new Date().toISOString().slice(0, 10), past = await p.$$eval("[data-key-dates] li.past time", (ts) => ts.map((t) => t.getAttribute("datetime")));
     ok(past.every((d) => d <= today), "only past dates are marked Passed"); }
@@ -290,18 +315,22 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   await go(p, "#/");
 
   // ---------- Beta notice and About page ----------
+  // Oct 29, 2026: the beta banner and the "Local coverage is incomplete" warning are gone from every page. Status, scope,
+  // sources and development are stated once on About this guide, reached from the header on every page.
   for (const h of ["#/", "#/find", "#/ballot/ca-napa", "#/contests", "#/about"]) {
     await go(p, h);
-    const beta = p.locator('aside.beta[aria-label="Beta release"]');
-    ok(await beta.isVisible(), `beta notice visible on ${h}`);
-    ok(/Beta version/.test(await beta.innerText()) && /Coverage and evidence are still being verified/.test(await beta.innerText()), `beta notice wording on ${h}`);
+    ok((await p.$$eval("aside.beta, .beta-tag", (e) => e.length)) === 0 && !/Coverage and evidence are still being verified|Local coverage is incomplete/.test(await p.evaluate(() => document.body.innerText)), `no warning banner on ${h}`);
+    ok(await p.locator('#topnav a[href="#/about"]').count() === 1, `About this guide is linked from the header on ${h}`);
   }
   await go(p, "#/");
-  await p.click('aside.beta a[href="#/about"]'); await p.waitForSelector("[data-about] h1");
-  ok((await p.textContent("h1")).trim() === "About this guide", "beta link opens About this guide");
+  await p.click('[data-scope-note] a[href="#/about"]'); await p.waitForSelector("[data-about] h1");
+  ok((await p.textContent("h1")).trim() === "About this guide", "the home scope note links to About this guide");
+  { const core = (await p.locator("[data-about-core]").innerText()).replace(/\s+/g, " ");
+    ok(["Coverage", "Sources and methodology", "Development status"].every((h) => core.includes(h)) && /independent, unofficial civic information resource/.test(core) && /not a complete list/.test(core) && /consult your county elections office/.test(core) && /not official government ratings or independent validations/.test(core) && /does not make this guide’s summaries or ratings official/.test(core), "About this guide states status, coverage, sources and methodology, and development, with every limit kept");
+    ok(await p.isVisible("[data-about-core]"), "the About statement is visible without expanding anything"); }
   ok(await p.evaluate(() => document.activeElement && document.activeElement.tagName === "H1"), "focus moves to the About heading");
   const about = (await main(p));
-  for (const t of ["Its summaries, evidence, ratings and local ballot listings have not yet been officially reviewed or verified", "Only an official review confirms a fact", "districts that include Bay Area counties", "Software tests", "Automated and AI-assisted reading", "Official review", "Completeness", "may apply", "It is not an official recommendation", "Proposition 44", "Propositions 37 and 38", "accountability went from 5 to 4", "stayed at 3", "Research pending", "Insufficient evidence", "Evidence ratings and your preferences"]) ok(about.includes(t), `About covers "${t}"`);
+  for (const t of ["are not official government ratings or independent validations", "Only an official review confirms a fact", "districts that include Bay Area counties", "Software tests", "Automated and AI-assisted reading", "Official review", "Completeness", "may apply", "It is not an official recommendation", "Proposition 44", "Propositions 37 and 38", "accountability went from 5 to 4", "stayed at 3", "Research pending", "Insufficient evidence", "Evidence ratings and your preferences"]) ok(about.includes(t), `About covers "${t}"`);
   ok(!/automated (tests|checks) (verify|confirm) (facts|accuracy)/i.test(about), "About does not say automated checks verify facts");
   await p.goBack(); await p.waitForSelector("[data-region-card]");
   ok(new URL(p.url()).hash === "#/" || new URL(p.url()).hash === "", "back from About returns home");
@@ -652,8 +681,9 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
       await p.goBack(); await p.waitForSelector('.group[data-group="state"]'); await openAll(p); }
     await p.click('.group[data-group="state"] a.row[href$="#prop-1"]'); await p.waitForSelector("#prop-1.is-target", { timeout: 10000 });
     ok(/propositions\.html/.test(p.url()) && (await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County" && (await p.getAttribute("#ballot-return-a", "href")) === "index.html#/ballot/ca-alameda", "Prop 1 opens in the tool with a link back to the Alameda ballot");
-    ok((await p.$$eval("#fw-body li", (l) => l.length)) === 7 && await p.isVisible("#prop-1 .facts summary"), "the framework and the card's facts are on the same page");
-    await p.click("#propnav a[href='#prop-44']"); await p.waitForSelector("#prop-44.is-target");
+    ok((await p.$$eval("#fw-body li", (l) => l.length)) === 5 && await p.isVisible("#prop-1 .facts summary"), "the framework and the card's facts are on the same page");
+    await p.evaluate(() => { location.hash = "#prop-44"; }); await p.waitForSelector("#prop-44.is-target");
+    ok(await p.evaluate(() => !document.getElementById("prop-44").classList.contains("folded") && !document.getElementById("prop-1").classList.contains("folded") === false), "jumping to Prop 44 opens it and folds Prop 1");
     await p.reload(); await p.waitForSelector("#prop-44.is-target");
     ok((await p.textContent("#ballot-return-a")) === "Back to your ballot: Alameda County", "moving between propositions and refreshing keep the way back");
     await p.goto(B + "propositions.html"); await p.waitForSelector("#props article.prop");
@@ -691,10 +721,10 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     const ctaTop = await m.$eval(".cta .btn.primary", (e) => e.getBoundingClientRect().top);
     ok((await m.getAttribute(".hero .cta .btn.primary", "href")) === "propositions.html" && (await m.getAttribute(".hero .cta .btn.secondary", "href")) === "#/find", "home: the Ballot Weighing Tool leads, Find My Ballot second");
     ok((await m.$$eval("[data-attrs] li", (l) => l.map((x) => x.textContent.trim()).join("|"))) === "Source-linked information|User-controlled preferences|Transparent methodology", "home: the three key attributes");
-    ok(/Not an official election website\. Results are informational and are not voting recommendations\./.test(await m.textContent("[data-disclaimer]")) && (await m.getAttribute("[data-disclaimer] a", "href")) === "https://voterguide.sos.ca.gov/", "home: disclaimer with a link to the official voter guide");
+    ok(/not an official government website/.test(await m.textContent("footer.site [data-credit]")) && /not a complete official ballot/.test(await m.textContent("[data-scope-note]")) && (await m.$$eval("[data-scope-note] a", (a) => a.map((x) => x.getAttribute("href")))).includes("https://voterguide.sos.ca.gov/"), "home: the footer says it is unofficial, and a small scope note links to the official voter guide");
     for (const h of ["#/", "#/about", "#/find", "#/how-to-vote"]) { await m.goto(B + h); await m.waitForSelector("h1"); ok((await m.$$eval('a[href*="github.com"]', (a) => a.length)) === 0, "no GitHub link on " + h); }
     await m.goto(B + "#/"); await m.waitForSelector("h1.hero-title");
-    ok(/statewide propositions/.test(await m.textContent(".tagline")) && /not a complete official ballot/.test(await m.textContent(".hero .lede")), "home: statewide focus and local coverage limits are stated");
+    ok(/statewide propositions/.test(await m.textContent(".tagline")) && /not a complete official ballot/.test(await m.textContent("[data-scope-note]")), "home: statewide focus and local coverage limits are stated");
     ok(ctaTop < 560, "phone: the main call to action is visible without scrolling (top " + Math.round(ctaTop) + "px)");
     await c3.close();
     const c4 = await b.newContext({ viewport: { width: 1280, height: 900 } }); const d = await c4.newPage(); await blockExternal(d, new Set());

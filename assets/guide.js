@@ -1,6 +1,6 @@
 /*
   California Ballot Guide. Plain JavaScript, no build step, no dependencies.
-  Data lives in /data as JSON (see docs/DATA-MODEL.md). Routes use the URL hash so the site works on GitHub Pages:
+  Data lives in /data as JSON (see docs/DATA-MODEL.md). Routes use the URL hash so the site works on any static host:
     #/                       home
     #/find                   choose a Bay Area county and a city or town (?county=<id>&city=<id>|unincorporated|not-sure)
     #/statewide              statewide propositions, for voters outside the Bay Area
@@ -247,7 +247,7 @@
   function hasPhoto(p) { var ph = p && p.photo; return !!(ph && typeof ph.src === "string" && /^assets\/candidates\/[a-z0-9-]+\.(jpg|png|webp)$/.test(ph.src) && ph.permission && ph.credit); }
   // A photo appears for each candidate who has one with a recorded source, credit and license (owner decision,
   // Oct 24, 2026). A grey placeholder means no reusable photo was found; it says nothing about the candidate.
-  var PHOTO_NOTE = "A grey placeholder means this beta guide did not find a photo it could reuse. It says nothing about the candidate.";
+  var PHOTO_NOTE = "A grey placeholder means this guide did not find a photo it could reuse. It says nothing about the candidate.";
   function photoCredits(cands) {
     return '<p class="small credits">Photos: ' + cands.map(function (p) { return esc(p.name) + ", " + esc(p.photo.credit.replace(/\.$/, "")) + " (" + ext(p.photo.sourcePage, "source") + (p.photo.licenseUrl ? ", " + ext(p.photo.licenseUrl, "license") : "") + ")"; }).join("; ") + ". Each was cropped and resized for this guide.</p>";
   }
@@ -277,6 +277,12 @@
   }
   // Empty fields say "Not collected yet", never the wording of another status badge (FE-08).
   function field(v, missing) { return v ? "<p>" + esc(v) + "</p>" : '<p class="missing">' + esc(missing || "Not collected yet.") + "</p>"; }
+  // Folded section, the same "Show details" pattern as the Ballot Weighing Tool (Oct 29, 2026). Opened by the click
+  // handler near the end of this file.
+  function fold(id, title, summary, inner) {
+    return '<div class="sec-bar"><button type="button" class="fold sec-fold" data-body="' + id + '" aria-expanded="false" aria-controls="' + id + '"><span class="fold-name">' + esc(title) + '</span><span class="fold-hint" aria-hidden="true">Show details</span></button>' +
+      (summary ? '<p class="small">' + summary + "</p>" : "") + '</div><div class="sec-body" id="' + id + '" hidden>' + inner + "</div>";
+  }
   function sec(title, inner, open, id) { return '<details class="sec"' + (id ? ' id="' + esc(id) + '"' : "") + (open ? " open" : "") + "><summary>" + esc(title) + '</summary><div class="body">' + inner + "</div></details>"; }
   function samplePlace(county) {
     if (!county) return "";
@@ -373,13 +379,17 @@
     var today = todayISO(), nextSet = false;
     var urls = [], seen = {};
     kd.forEach(function (k) { if (/^https:/.test(k.url || "") && !seen[k.url]) { seen[k.url] = 1; urls.push(k.url); } });
-    return '<section class="card" aria-labelledby="dates-h" data-key-dates="1"><h2 id="dates-h">' + icon("calendar") + "Key dates for this election</h2>" +
-      '<ol class="timeline">' + kd.map(function (k) {
-        var st = k.date < today ? "past" : k.date === today ? "today" : (!nextSet ? (nextSet = true, "next") : "");
-        var tag = st === "past" ? "Passed" : st === "today" ? "Today" : st === "next" ? "Next" : "";
-        return '<li class="' + st + '"><time datetime="' + esc(k.date) + '">' + esc(shortDate(k.date)) + "</time>" +
-          '<div><b>' + esc(k.label) + "</b>" + (tag ? ' <span class="when">' + tag + "</span>" : "") + '<p class="small">' + esc(k.text) + "</p></div></li>";
-      }).join("") + "</ol>" +
+    function item(k) {
+      var st = k.date < today ? "past" : k.date === today ? "today" : (!nextSet ? (nextSet = true, "next") : "");
+      var tag = st === "past" ? "Passed" : st === "today" ? "Today" : st === "next" ? "Next" : "";
+      return '<li class="' + st + '"><time datetime="' + esc(k.date) + '">' + esc(shortDate(k.date)) + "</time>" +
+        // A date that has passed shows only its name, so the list stays short; dates still ahead keep their details.
+        '<div><b>' + esc(k.label) + "</b>" + (tag ? ' <span class="when">' + tag + "</span>" : "") + (st === "past" ? "" : '<p class="small">' + esc(k.text) + "</p>") + "</div></li>";
+    }
+    var eday = DB.election.date, days = eday ? Math.round((new Date(eday + "T12:00:00") - new Date(today + "T12:00:00")) / 864e5) : null;
+    var lead = eday && days !== null && days >= 0 ? '<p class="eday" data-eday="1"><b>Election Day is ' + esc(new Date(eday + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })) + "</b>" + (days === 0 ? ", today." : days === 1 ? ", tomorrow." : ", in " + days + " days.") + "</p>" : "";
+    return '<section class="card" aria-labelledby="dates-h" data-key-dates="1"><h2 id="dates-h">' + icon("calendar") + "Key dates for this election</h2>" + lead +
+      '<ol class="timeline">' + kd.map(item).join("") + "</ol>" +
       '<p class="small">From the California Secretary of State: ' + urls.map(function (u, i) { return ext(u, i === 0 ? "general election page" : "election dates and resources"); }).join(" and ") +
       (DB.election.keyDatesRetrieved ? ", read " + esc(fmtDate(DB.election.keyDatesRetrieved)) : "") + ". Your county may add its own dates and locations.</p></section>";
   }
@@ -411,7 +421,7 @@
     var pubs = [], seen = {};
     facts.forEach(function (f) { if (!seen[f.url]) { seen[f.url] = 1; pubs.push("the " + ext(f.url, esc(f.publisher || f.url))); } });
     var regionLine = R && R.countyCount && R.municipalityCount && pubs.length ?
-      "<p>The " + esc(R.name || "San Francisco Bay Area") + " has " + esc(R.countyCount) + " counties and " + esc(R.municipalityCount) + " incorporated cities and towns. These counts come from " + andList(pubs) + "; their exact wording is below.</p>" :
+      "<p>The " + esc(R.name || "San Francisco Bay Area") + " has " + esc(R.countyCount) + " counties and " + esc(R.municipalityCount) + " incorporated cities and towns. These counts come from " + andList(pubs) + ". Their exact wording is under Show details.</p>" :
       "<p>The Bay Area counties in this guide are listed below.</p>";
     var quotes = facts.length ? '<details class="sec"><summary>What the regional sources say</summary><div class="body"><ul class="srclist">' + facts.map(function (f) {
       return "<li>“" + esc(f.text) + "” " + ext(f.url, esc(f.publisher || "Source")) + (f.retrieved ? ' <span class="small">Read on ' + esc(fmtDate(f.retrieved)) + ".</span>" : "") + "</li>";
@@ -476,23 +486,27 @@
           '<span class="gl-m" aria-hidden="true">' + esc(t.l1) + "</span>" + '<span class="gl-m" aria-hidden="true">' + (t.l2 ? esc(t.l2) : "&nbsp;") + "</span>" + '<span class="vh">' + esc(t.sr) + "</span></li>";
       }).join("") + '</ul><p class="small gl-src" data-glance-sources="1"><b>Sources</b> ' + src.join(" · ") + "</p></section>";
     }
+    var bayLine = pop && reg ? " About " + esc(mil(pop)) + " residents and " + esc(mil(reg)) + " registered voters." : "";
     return '<section class="card" aria-labelledby="region-h" data-region-card="1"><h2 id="region-h">' + icon("pin") + 'The region at a glance</h2>' +
-      (R ? '<div class="glance" data-glance="1">' + group(R.name || "San Francisco Bay Area", bay, "gl-bay", baySrc) + group("California statewide", ca, "gl-ca", caSrc) + "</div>" : regionLine) +
+      regionLine.replace("</p>", bayLine + "</p>") +
+      fold("region-body", "Population, voters and sources", "Bay Area and California figures, each with its source and date.",
+      (R ? '<div class="glance" data-glance="1">' + group(R.name || "San Francisco Bay Area", bay, "gl-bay", baySrc) + group("California statewide", ca, "gl-ca", caSrc) + "</div>" : "") +
       '<p class="small" data-glance-method="1"><b>How these figures were put together.</b> The Bay Area is the nine counties named below, as MTC and ABAG define it. Its residents and registered voters are the nine county rows of the same state tables added together, so both sections use the same sources and dates. Residents are a January 1, 2026 provisional estimate; registered voters are from the September 4, 2026 report for this election (the 15-day report was not yet published when checked on October 24, 2026), so the two dates differ. Residents and registered voters are different counts. Incorporated cities include places named towns, such as Los Gatos. Many residents live in unincorporated communities governed by their county. San Francisco is one city and county.</p>' +
       '<p data-county-names="1">The ' + (cs.length === 9 ? "nine" : esc(cs.length)) + " counties are " + esc(andList(cs.map(shortName))) + ". Elsewhere in California, this guide covers statewide items, plus the few local district items it found that cross county lines from the Bay Area. <a href=\"#/statewide\">Statewide propositions</a>.</p>" +
       quotes +
-      (R && R.note ? '<p class="small">' + esc(R.note) + "</p>" : "") +
+      (R && R.note ? '<p class="small">' + esc(R.note) + "</p>" : "")) +
       (!R ? '<p class="small">The regional facts could not be loaded right now.</p>' : "") +
-      "</section>" +
+      "</section>" + "<!--covered-->" +
       // Guide coverage, computed from the data. Kept apart from the regional facts above.
       '<section class="card" aria-labelledby="covered-h" data-covered-card="1"><h2 id="covered-h">' + icon("list") + 'What’s covered</h2>' + coveredSummary() +
+      fold("covered-body", "Coverage by county", "How much of each county’s local ballot this guide lists so far.",
       '<h3 id="cov-ind-h">This guide’s local coverage is growing county by county</h3>' +
       '<ul class="stats" aria-labelledby="cov-ind-h" data-coverage-indicator="1">' + stats.map(function (s) {
         return '<li><b aria-hidden="true">' + esc(s[0]) + (s[1].indexOf("counties") === 0 ? '<span class="of"> / ' + cs.length + "</span>" : "") + '</b><span aria-hidden="true">' + esc(s[1]) + '</span><span class="vh">' + esc(s[2]) + "</span></li>";
       }).join("") + "</ul>" +
       '<p class="small">Counted from this guide’s data each time the page loads.</p>' +
       coverageBars() +
-      byCountyDetails() +
+      byCountyDetails()) +
       "</section>";
   }
   function byCountyDetails() {
@@ -503,7 +517,7 @@
     }).join("");
     var d = statewideDate();
     return '<details class="sec"><summary>Coverage by Bay Area county</summary><div class="body">' +
-      (d ? '<p class="small">The statewide facts were audited by automated research against official sources on ' + esc(fmtDate(d)) + "; the audit has not yet been officially reviewed or verified.</p>" : "") +
+      (d ? '<p class="small">The statewide facts were audited by automated research against official sources on ' + esc(fmtDate(d)) + ". The audit is this project's own and is not reviewed by any outside organization.</p>" : "") +
       '<ul class="srclist">' + cov + '</ul><p><a class="textlink" href="#/browse">Browse all available ballots</a></p></div></details>';
   }
   // Item counts for "What's covered", from the records. Recorded is not the same as officially reviewed or verified.
@@ -528,7 +542,7 @@
       "<li><b>" + num(n.contests) + " candidate contests</b> (" + num(n.contests - n.localContests) + " statewide, congressional, legislative or Board of Equalization, and " + num(n.localContests) + " local) with <b>" + num(n.candidates) + " candidates</b>, in the order of the official source.</li>" +
       "</ul>" +
       "<p class=\"small\">Recorded means copied from an official document by automated or AI-assisted reading. " + (n.verified ? num(n.verified) + " records have been officially reviewed." : "No record has been officially reviewed or verified yet.") + "</p>" +
-      '<div class="note warn"><b>Local coverage is incomplete.</b><p>No county’s list has been checked against every city and district, so your ballot may include contests and measures this guide does not show. A missing item does not mean it is not on your ballot.</p></div>';
+      '<p class="small" data-coverage-note="1">No county’s list has been checked against every city and district, so your ballot may include contests and measures this guide does not show. A missing item does not mean it is not on your ballot.</p>';
   }
   // Official next steps. Links were checked on Oct 23, 2026.
   var OFFICIAL = {
@@ -554,7 +568,8 @@
       "<p>Check your official sample ballot. <a href=\"#/find\">Find My Ballot</a> links to your county’s own lookup, or use the Secretary of State’s list of " + ext(OFFICIAL.offices[0], OFFICIAL.offices[1].toLowerCase()) + ".</p>" +
       "<p>Choosing a county or city here does not confirm your districts or what is on your ballot. School, special and supervisor districts often cross city lines.</p>" +
       "<p>Missed the registration deadline? Through Election Day you can still register and vote at your county elections office, a vote center or a polling place. Your ballot is counted once the county completes its checks. " + ext(OFFICIAL.sameday[0], "How same-day registration works") + ".</p>" +
-      '<p class="small">' + links(["status", "early", "track", "guide", "formats", "hotlines", "access"]) + "</p>" +
+      fold("tools-body", "Official voter tools", "Registration status, early voting, ballot tracking, other formats and languages, and accessibility.",
+        '<ul class="srclist">' + ["status", "early", "track", "guide", "formats", "hotlines", "access"].map(function (k) { return "<li>" + ext(OFFICIAL[k][0], OFFICIAL[k][1]) + "</li>"; }).join("") + "</ul>") +
       "</section>";
   }
 
@@ -568,18 +583,18 @@
         '<p class="tagline">An independent, nonpartisan resource to explore California’s statewide propositions, review supporting information, and see how your own priorities influence your results.</p>' +
         '<div class="cta"><a class="btn primary" href="propositions.html">' + icon("scale") + 'Ballot Weighing Tool</a><a class="btn secondary" href="#/find">' + icon("pin") + "Find My Ballot</a></div>" +
         '<ul class="attrs" data-attrs="1"><li>' + icon("check") + "Source-linked information</li><li>" + icon("check") + "User-controlled preferences</li><li>" + icon("check") + "Transparent methodology</li></ul>" +
-        '<p class="lede">The Ballot Weighing Tool covers all 14 statewide propositions: the facts, official sources, this tool’s evidence ratings, and how much each factor matters to you. Find My Ballot lists the Bay Area local measures and contests collected so far, by county and city. It is not a complete official ballot.</p>' +
-        '<p class="small hero-note" data-disclaimer="1">' + icon("info") + "<span>Not an official election website. Results are informational and are not voting recommendations. For official information, see the California Secretary of State’s " + ext("https://voterguide.sos.ca.gov/", "official voter guide") + ". Your sample ballot shows your exact contests.</span></p>" +
+        '<p class="small scope-note" data-scope-note="1">Focused on the 14 statewide propositions, with the Bay Area local measures and contests collected so far, not a complete official ballot. Confirm your ballot with your county elections office or the ' + ext("https://voterguide.sos.ca.gov/", "official voter guide") + '. <a href="#/about">About this guide</a></p>' +
         '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and contests</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
       "</section>" +
       mapFigure() +
       "</div>" +
-      // Order for voters: what to do and when first, then the tool, then background figures.
+      // Order (Oct 29, 2026): the region, then the key dates and what to do, then the tool, then coverage.
+      regionCard().split("<!--covered-->")[0] +
       keyDatesCard() +
       nextSteps() +
       '<section class="card" aria-labelledby="tool-h"><h2 id="tool-h">' + icon("scale") + 'How the Ballot Weighing Tool works</h2>' + toolSteps() +
         '<p><a class="btn secondary" href="propositions.html">Open the Ballot Weighing Tool</a></p></section>' +
-      regionCard();
+      regionCard().split("<!--covered-->")[1];
   }
 
   function viewFind(params) {
@@ -853,7 +868,7 @@
         evidenceLine(m) +
         readingNote(m) +
         statusNote(m, "Use the official sources at the bottom. " + (county ? samplePlace(county) : "Check your official sample ballot.")) +
-        (m.detailUrl && /^(propositions\.html#prop-\d+|https:)/.test(m.detailUrl) ? '<div class="note"><b>Full evidence ratings available.</b><p>This proposition has ratings on seven evidence factors, reasons and an optional weighing tool. <a href="' + esc(m.detailUrl) + '">Open ' + esc(m.identifier) + " in the full proposition tool</a>.</p></div>" : "") +
+        (m.detailUrl && /^(propositions\.html#prop-\d+|https:)/.test(m.detailUrl) ? '<div class="note"><b>Full evidence ratings available.</b><p>This proposition has ratings on five evidence factors with reasons, who could gain and who pays, how hard it is to change later, and an optional weighing tool. <a href="' + esc(m.detailUrl) + '">Open ' + esc(m.identifier) + " in the full proposition tool</a>.</p></div>" : "") +
         '<section class="card"><h2>In plain English</h2>' + f(m.plainEnglish) + "</section>" +
         (m.ballotQuestion ? sec("Ballot question, as printed in the official source", '<blockquote class="bq">' + esc(m.ballotQuestion) + "</blockquote>", true) : "") +
         '<div class="yesno"><div class="yn"><b>A YES vote means</b>' + f(m.yes) + '</div><div class="yn"><b>A NO vote means</b>' + f(m.no) + "</div></div>" +
@@ -896,12 +911,12 @@
   }
 
   /* ---------- Candidate evaluation mode (Oct 24, 2026) ----------
-     The seven factors and the voter's weights from the Ballot Weighing Tool, with rating guidance for the office
+     The five factors and the voter's weights from the Ballot Weighing Tool, with rating guidance for the office
      (data/candidate-rubric.json). A candidate rating exists only in candidates.json under evaluation.ratings, each with
      its basis and source; none has been recorded yet. Missing ratings show Insufficient evidence and are never counted.
      A weighted summary is shown only when every factor the voter weights is rated. Candidates keep the official order;
      nothing here ranks or recommends them. */
-  var FACTOR_NAMES = { nb: "Net benefit", ev: "Evidence strength", lr: "Safety", ac: "Accountability", if: "Feasibility", fc: "Fiscal clarity", oc: "Outcome clarity" };
+  var FACTOR_NAMES = { ev: "Evidence strength", lr: "Low risk of side effects", ac: "Accountability and results", if: "Implementation readiness", fc: "Cost clarity" };
   function rubricFor(c) {
     var offs = (DB.rubric && DB.rubric.offices) || [];
     for (var i = 0; i < offs.length; i++) { try { if (new RegExp(offs[i].match).test(c.office || "")) return offs[i]; } catch (e) {} }
@@ -914,13 +929,13 @@
     return out;
   }
   /* Release gate (Oct 24, 2026). Candidate scores stay hidden from the public until data/candidate-rubric.json sets
-     release.public to true AND every candidate in the contest has all seven factors rated, sourced and reviewed by a
+     release.public to true AND every candidate in the contest has all five factors rated, sourced and reviewed by a
      person (evaluation.reviewedBy). Until then a research-pending notice is shown, with no scores, tables or weights.
      To re-enable: complete the research, record reviewedBy, run tools/validate.mjs, then set release.public to true. */
   function evalPublic(cands) {
     var rel = (DB.rubric && DB.rubric.release) || {};
     if (rel.public !== true || !cands.length) return false;
-    return cands.every(function (p) { return p.evaluation && p.evaluation.reviewedBy && Object.keys(candRatings(p)).length === 7; });
+    return cands.every(function (p) { return p.evaluation && p.evaluation.reviewedBy && Object.keys(candRatings(p)).length === window.BallotWeights.KEYS.length; });
   }
   function evalPending() {
     var rel = (DB.rubric && DB.rubric.release) || {};
@@ -929,7 +944,7 @@
       '<div class="ce-pend-head"><h2 id="ce-pend-h">Candidate evaluation</h2><span class="pill-status">Research pending</span></div>' +
       "<p>Candidate-specific evidence profiles are not complete yet, and none has been officially reviewed. <b>No candidate has been given a score or rating in this release.</b></p>" +
       "<p>Missing information is not a low score. It says nothing about a candidate’s qualifications, positions or record.</p>" +
-      '<p class="small">A future evaluation would use the same seven factors as the <a href="propositions.html">Ballot Weighing Tool</a>, apply one rubric to every candidate in a contest, and rest on ' + esc(andList(src)) + ', each rating with its source and reason. Until then, read each candidate’s official statement and your county’s voter guide. <a href="#/about">How this guide works</a>.</p>' +
+      '<p class="small">A future evaluation would use the same five factors as the <a href="propositions.html">Ballot Weighing Tool</a>, apply one rubric to every candidate in a contest, and rest on ' + esc(andList(src)) + ', each rating with its source and reason. Until then, read each candidate’s official statement and your county’s voter guide. <a href="#/about">How this guide works</a>.</p>' +
       "</section>";
   }
   function candidateEval(c, cands) {
@@ -953,12 +968,12 @@
           (r ? esc(basisLabel[r.basis] || r.basis) + ". " + esc(r.note || "") + " " + ext(r.source.url, esc(r.source.title || "Source")) : "") + "</td></tr>";
       }).join("");
       return '<div class="ce-cand" data-ce-cand="' + esc(p.id) + '"><h3>' + esc(p.name) + "</h3>" +
-        '<p class="ce-sum">' + (wr && !wr.off ? "<b>Weighted rating: " + wr.percent + "% (" + wr.average.toFixed(1) + "/5)</b> under your weights." : "<b>Weighted rating not calculated.</b> " + n + " of 7 factors have a documented rating" + (n === 0 ? " yet" : "") + ".") + "</p>" +
+        '<p class="ce-sum">' + (wr && !wr.off ? "<b>Weighted rating: " + wr.percent + "% (" + wr.average.toFixed(1) + "/5)</b> under your weights." : "<b>Weighted rating not calculated.</b> " + n + " of " + BW.KEYS.length + " factors have a documented rating" + (n === 0 ? " yet" : "") + ".") + "</p>" +
         (n ? '<div class="tablewrap"><table class="ce-t"><thead><tr><th scope="col">Factor</th><th scope="col">Rating</th><th scope="col">Evidence</th></tr></thead><tbody>' + rows + "</tbody></table></div>" :
-          '<p class="small muted">All seven factors: Insufficient evidence.</p>') + "</div>";
+          '<p class="small muted">All five factors: Insufficient evidence.</p>') + "</div>";
     }).join("");
     return '<details class="sec ce" data-candidate-eval="1"><summary>Evaluate candidates with your priorities (beta)</summary><div class="body">' +
-      '<div class="note" role="note"><b>No candidate has been rated yet.</b><p>This mode applies the seven factors of the ' + '<a href="propositions.html">Ballot Weighing Tool</a>' + " to candidates, with guidance written for the office of " + esc(c.office) + " (" + esc(R.label) + "). A rating is added only with attributable evidence, so every factor shows Insufficient evidence for now. It does not rank candidates, predict results or recommend a vote.</p></div>" +
+      '<div class="note" role="note"><b>No candidate has been rated yet.</b><p>This mode applies the five factors of the ' + '<a href="propositions.html">Ballot Weighing Tool</a>' + " to candidates, with guidance written for the office of " + esc(c.office) + " (" + esc(R.label) + "). A rating is added only with attributable evidence, so every factor shows Insufficient evidence for now. It does not rank candidates, predict results or recommend a vote.</p></div>" +
       "<h2 class=\"ce-h\">What matters most to you</h2><p class=\"small\">" + (sw.saved ? "Your weights from the Ballot Weighing Tool, saved in this browser." : "The standard weights. Change them in the Ballot Weighing Tool and they are used here too.") + " The same percentages apply to every candidate in this contest.</p>" + weights +
       "<h2 class=\"ce-h\">How candidates are rated</h2><p class=\"small\">" + esc(DB.rubric.scale) + " Each rating names its basis.</p><ul class=\"srclist small\">" + (DB.rubric.bases || []).map(function (b) { return "<li><b>" + esc(b.label) + ".</b> " + esc(b.d) + "</li>"; }).join("") + "</ul>" +
       '<p class="small">' + esc(DB.rubric.missingPolicy) + "</p>" +
@@ -1055,6 +1070,14 @@
     t.open = true; var sm = t.querySelector("summary");
     t.scrollIntoView({ block: "start" }); if (sm) sm.focus({ preventScroll: true });
   });
+  // Show details / Hide details for folded sections, on every page and in the footer.
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("button.sec-fold") : null; if (!b) return;
+    var body = document.getElementById(b.getAttribute("data-body")); if (!body) return;
+    var open = body.hidden;
+    body.hidden = !open; b.setAttribute("aria-expanded", open ? "true" : "false");
+    b.querySelector(".fold-hint").textContent = open ? "Hide details" : "Show details";
+  });
   document.addEventListener("click", function (e) {
     var a = e.target.closest ? e.target.closest("a[data-back]") : null;
     if (a && navCount > 1) { e.preventDefault(); history.back(); }
@@ -1063,9 +1086,9 @@
   // How the Ballot Weighing Tool works, in three steps. Matches propositions.html; the tool itself is unchanged.
   function toolSteps() {
     var steps = [
-      ["sliders", "Set your priorities", "The tool starts with standard weights for seven evidence factors, such as net benefit, evidence strength and fiscal clarity. You can keep them or set how much each one matters to you."],
-      ["doc", "Review each proposition", "Read the plain-English facts, the ratings with their reasons, and the official sources, then answer how you would vote: Yes, Not sure or No."],
-      ["scale", "See how your priorities shape the result", "Your answer is shown exactly as you chose it. Beside it, the tool shows the evidence score under your weights, with a marker at the 3.0 midpoint, and links to the argument on the other side."]
+      ["doc", "Answer from one list", "All 14 propositions are listed with their question. Answer Yes, Not sure or No on each, or leave one blank."],
+      ["scale", "Open any proposition", "See what a YES or NO vote means, who could gain, who pays, how hard it is to change later, and what the measure is strong and weak on, with a score out of 5 and as a percentage."],
+      ["sliders", "Take it with you", "Your Yes and No answers carry over to a one-page cheat sheet with your local contests. Changing how much each evidence factor matters is optional."]
     ];
     return '<ol class="steps3" data-tool-steps="1">' + steps.map(function (s) {
       return "<li>" + icon(s[0], "big") + "<div><b>" + esc(s[1]) + ".</b> " + esc(s[2]) + "</div></li>";
@@ -1078,45 +1101,44 @@
     var nc = counties().length;
     app.innerHTML =
       '<a class="back" href="#/">Home</a>' +
-      '<article class="detail" data-about="1"><p class="eyebrow">Beta release</p><h1>About this guide</h1>' +
-      '<p class="lede">Scope, coverage and limitations of this beta.</p>' +
-      '<ul class="about-glance" data-about-glance="1">' +
-        '<li><b>Covers</b><span>' + n.state + " statewide propositions, statewide and Bay Area district contests, and local measures and contests in the " + nc + " Bay Area counties.</span></li>" +
-        "<li><b>Checked by software</b><span>Data consistency, sources, links and the scoring arithmetic, on every release.</span></li>" +
-        "<li><b>Official review</b><span>" + (n.verified ? num(n.verified) + " records officially reviewed." : "Not officially reviewed or verified yet.") + "</span></li>" +
-        "<li><b>Candidate scores</b><span>None assigned. Candidate research is pending.</span></li></ul>" +
-      '<div class="note warn"><b>Beta release. Coverage and evidence are still being verified.</b>' +
-        "<p>This independent guide helps voters explore California ballot measures and candidates, review supporting evidence, and weigh issues according to their own priorities. Its summaries, evidence, ratings and local ballot listings have not yet been officially reviewed or verified. Local coverage may be incomplete, and district-specific contests may not apply to every voter.</p>" +
-        "<p>Please confirm your ballot and important details with your county elections office’s official voter information.</p></div>" +
+      // One consolidated statement of status, scope, sources and development (Oct 29, 2026). It replaces the beta banner
+      // and the "Local coverage is incomplete" warning that used to appear across the guide.
+      '<article class="detail" data-about="1"><h1>About this guide</h1>' +
+      '<div class="about-core" data-about-core="1">' +
+        "<p>The California Bay Area Ballot Guide is an independent, unofficial civic information resource designed to help voters explore California’s statewide propositions through source-linked information, supporting evidence, and user-controlled preferences.</p>" +
+        '<h2>Coverage</h2><p>This guide focuses on California’s ' + n.state + " statewide propositions. It also lists the Bay Area local measures and candidate contests collected so far, which is not a complete list. Local measures and contests vary by county, city and district. For a complete and personalized ballot, consult your county elections office.</p>" +
+        '<h2>Sources and methodology</h2><p>Information is linked to official government materials and other identified sources. Evidence ratings are the project’s own analytical assessments, based on its published methodology, and are not official government ratings or independent validations. Linking to an official source does not make this guide’s summaries or ratings official. ' + (n.verified ? num(n.verified) + " records have been officially reviewed." : "No record or rating has been reviewed by an outside organization.") + "</p>" +
+        '<h2>Development status</h2><p>This is an evolving educational project. Content, coverage, and functionality may be updated as additional information becomes available.</p>' +
+      "</div>" +
       sec("Disclaimer and who made this", '<div data-disclaimer="1">' +
         "<p>This is an independent civic technology project, built by Supriya Rajeev for educational and informational purposes. It gathers public election information in one place so voters can find it more easily.</p>" +
         "<p>It is not an official election resource. It is not affiliated with, endorsed by or sponsored by the California Secretary of State, any county elections office, or any candidate, campaign, party or committee, and it does not endorse any candidate or position.</p>" +
         "<p>The information is provided as is, without warranty of any kind. It may contain errors or be out of date. Do not rely on it as your only source, and always confirm with your county elections office and the official voter guide.</p>" +
         "<p>Candidate photos come from Wikimedia Commons, where each is tagged as public domain or under a Creative Commons license. Some public-domain tags rest on Wikimedia Commons’ reading of California public records law, which is not a court ruling on each photo. Every photo is credited on its contest and candidate pages with a link to its source and license. Photos are shown only to help voters recognize candidates and do not imply endorsement by the candidate or the photographer. A grey placeholder means no reusable photo was found. Candidates or rights holders who want a photo corrected or removed can ask the guide’s developer to correct or remove it. Requests will be reviewed, and photos removed where appropriate.</p></div>", true) +
-      sec("What this guide does", "<p>It lists statewide propositions, Bay Area local measures and candidate contests for the " + esc(DB.election.name) + ", explains each in plain English with its official sources, and shows what has not been collected yet. It never tells you how to vote, and it never scores, ranks or recommends candidates.</p>", true) +
-      sec("What it covers", "<p>All of California for the " + n.state + " statewide propositions and the statewide contests, such as Governor. Congressional, State Senate and State Assembly contests only for the districts that include Bay Area counties. Local measures and contests only for the " + nc + " Bay Area counties" + (R.municipalityCount ? " and their " + num(R.municipalityCount) + " cities and towns" : "") + ", plus a few districts that cross into neighboring counties. Other counties show statewide items only.</p>" + coveredSummary(), true) +
+      sec("What this guide does", "<p>It lists statewide propositions, Bay Area local measures and candidate contests for the " + esc(DB.election.name) + ", explains each in plain English with its official sources, and shows what has not been collected yet. It never tells you how to vote, and it never scores, ranks or recommends candidates.</p>") +
+      sec("What it covers", "<p>All of California for the " + n.state + " statewide propositions and the statewide contests, such as Governor. Congressional, State Senate and State Assembly contests only for the districts that include Bay Area counties. Local measures and contests only for the " + nc + " Bay Area counties" + (R.municipalityCount ? " and their " + num(R.municipalityCount) + " cities and towns" : "") + ", plus a few districts that cross into neighboring counties. Other counties show statewide items only.</p>" + coveredSummary()) +
       sec("How information is checked", "<p>Four different things happen. Only an official review confirms a fact, and none has happened yet.</p><ul class=\"srclist\">" +
         "<li><b>Software tests.</b> Automated checks test that the site works and that the data is consistent. For example, every published ballot question must match its quoted official source, links must use https (two county links that offer only http are labeled), and counts must add up. They cannot tell whether a source was read correctly.</li>" +
         "<li><b>Automated and AI-assisted reading.</b> Most facts were collected by automated research and an AI assistant reading official documents. Scanned forms were read by OCR. Where that matters most, the item says so next to the facts.</li>" +
         "<li><b>Official review.</b> " + (n.verified ? num(n.verified) + " records have been officially reviewed against the official source." : "No record has yet been officially reviewed against the official source.") + " That is why items carry a review status on their own pages, and why nothing is marked Verified.</li>" +
-        "<li><b>Completeness.</b> No county’s local list has been reconciled against every city and district, so local coverage is incomplete.</li></ul>", true) +
+        "<li><b>Completeness.</b> No county’s local list has been reconciled against every city and district, so local coverage is incomplete.</li></ul>") +
       sec("Districts and eligibility", "<p>District lines for schools, special districts, supervisors, Congress and the Legislature are not mapped to addresses here. Those contests are marked “may apply.” Choosing a county or city in this guide does not confirm which districts you live in or what is on your ballot.</p>") +
       sec("How the Ballot Weighing Tool works", toolSteps() +
-        "<p>The ratings are structured judgments made for this tool with AI research assistance, using one published rubric for every proposition. They are not official ratings. On October 24, 2026 the owner approved resolving four ratings that had been flagged because their written reasons might not match the rubric. After reading the legal text and the LAO analysis, Proposition 44’s accountability went from 5 to 4, because audits are allowed but not required. The evidence strength of Propositions 37 and 38 and Proposition 37’s accountability stayed at 3, with clearer reasons. The ratings have not been officially reviewed or verified.</p>" +
+        "<p>The ratings are structured judgments made for this tool with AI research assistance, using one published rubric for every proposition. They are not official ratings. On October 24, 2026 the owner approved resolving four ratings that had been flagged because their written reasons might not match the rubric. After reading the legal text and the LAO analysis, Proposition 44’s accountability went from 5 to 4, because audits are allowed but not required. The evidence strength of Propositions 37 and 38 and Proposition 37’s accountability stayed at 3, with clearer reasons. On October 29, 2026 the framework moved from seven rated factors to five. Net benefit is no longer rated, and each proposition instead describes who could gain and who pays. Accountability and Outcome clarity became one factor, the average of the two. No other rating changed. The ratings are this project’s own and are not reviewed by any outside organization.</p>" +
         "<p>The tool shows each factor's share of your weighting as a percentage, and each proposition's weighted evidence rating as a percentage of the top rating, with the points each factor adds. These are a clearer view of the same weighted average; no score or lean changed.</p>" +
         "<p>Your preference and the evidence rating are separate. Your answer says how you would vote, Yes, Not sure or No; the rating says how well the measure is built on the factors you weigh. The tool shows how the two line up and never decides for you.</p>" +
         '<p><a href="propositions.html">Open the Ballot Weighing Tool</a></p>') +
-      sec("Evidence ratings and your preferences", "<p><b>Evidence ratings</b> are this guide’s structured judgments of how well a proposition is built, on seven factors from 1 (weak) to 5 (strong), each with a written reason and sources. They are the same for every visitor.</p>" +
+      sec("Evidence ratings and your preferences", "<p><b>Evidence ratings</b> are this guide’s structured judgments of how well a proposition is built, on five factors from 1 (weak) to 5 (strong), each with a written reason and sources. They are the same for every visitor.</p>" +
         "<p><b>Your weights</b> say how much each factor matters to you. The weighted rating is the weighted average of the ratings under your weights, shown out of 5 and as a percentage of the top rating.</p>" +
         "<p><b>Your answer</b> is how you would vote on a measure: Yes, Not sure or No. It is kept separate from the evidence rating. A score is never a chance of passing, a share of voters, a guarantee of benefit or a recommendation.</p>") +
       sec("What “Insufficient evidence” means", "<p>A factor shows Insufficient evidence when no documented, sourced rating exists for it. It is left out of the calculation; it is never counted as 0, 1 or 5, and it is not a judgment against the measure or candidate. If no weighted factor is rated, no score is shown.</p>") +
       sec("Candidate evaluation", "<p><b>Research pending.</b> Candidate-specific evidence profiles are not complete and have not been officially reviewed, so no candidate has a score or rating in this release, and contest pages show a status notice instead.</p>" +
-        "<p>A future evaluation would apply the same seven factors and one rubric to every candidate in a contest. Each rating would name its source (official records, published proposals, attributable statements or reliable independent reporting), its date and its reason, and would keep a candidate’s own claims apart from independently established facts. Missing information would show as Insufficient evidence, never as a low score, and no overall score would be shown until every factor is documented and officially reviewed.</p>" +
+        "<p>A future evaluation would apply the same five factors and one rubric to every candidate in a contest. Each rating would name its source (official records, published proposals, attributable statements or reliable independent reporting), its date and its reason, and would keep a candidate’s own claims apart from independently established facts. Missing information would show as Insufficient evidence, never as a low score, and no overall score would be shown until every factor is documented and officially reviewed.</p>" +
         "<p>Candidates always appear in the official ballot order. This guide never ranks candidates, predicts results or recommends a vote.</p>") +
       sec("How sources are chosen", "<p>Official sources come first: the Secretary of State, the Legislative Analyst’s Office, county elections offices and official measure documents. News reports are used only where official sources are silent, and are labeled as reported. Each item lists its sources and the date it was last checked.</p>") +
       sec("What the labels mean", '<ul class="srclist">' +
         "<li><b>Incomplete (required info or evidence is missing).</b> Something a voter needs, such as the ballot question or the official text, has not been collected. The item lists what is missing.</li>" +
-        "<li><b>Needs review.</b> The facts have sources, but they have not yet been officially reviewed. During the beta every item is at this stage or Incomplete, so lists leave this label out. Each item’s own page shows it, with what still needs checking.</li>" +
+        "<li><b>Needs review.</b> The facts have sources, but they have not yet been officially reviewed. For now every item is at this stage or Incomplete, so lists leave this label out. Each item’s own page shows it, with what still needs checking.</li>" +
         "<li><b>May apply.</b> The contest or measure covers only part of your county or city. Check your sample ballot.</li>" +
         "<li><b>Verified.</b> The item has been officially reviewed against the official source. No item has this label yet.</li></ul>") +
       sec("Confirm your ballot", "<p>Your county elections office has your official sample ballot. <a href=\"#/find\">Find My Ballot</a> links to your county’s lookup.</p><ul class=\"srclist\">" +
@@ -1322,7 +1344,7 @@
           return "<li><b>" + esc(c.name) + "</b><span class=\"small\">" + [c.electionsUrl ? ext(c.electionsUrl, "Elections office") : "", c.lookupUrl ? ext(c.lookupUrl, esc(capFirst(c.lookupLabel || "voter lookup"))) : ""].filter(Boolean).join(" · ") + "</span></li>";
         }).join("") +
         '</ul><p class="small">Elsewhere in California, see the ' + ext("https://www.sos.ca.gov/elections/voting-resources/county-elections-offices", "list of county elections offices") + ".</p></section>" +
-      '<div class="cta"><a class="btn primary" href="#/find">' + icon("pin") + "Find My Ballot</a><a class=\"btn secondary\" href=\"propositions.html\">" + icon("scale") + "Ballot Weighing Tool</a></div>";
+      '<div class="cta two"><a class="btn primary" href="#/find">' + icon("pin") + "Find My Ballot</a><a class=\"btn secondary\" href=\"propositions.html\">" + icon("scale") + "Ballot Weighing Tool</a></div>";
   }
 
   function viewNotFound(msg) {
@@ -1388,6 +1410,13 @@
   }
 
   countVisit();
+  // A link to the page already showing does not change the address, so the browser fires no hashchange. Show the top of
+  // the page instead (for example "About, methodology and full disclaimer" in the footer while on About).
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="#/"]') : null;
+    if (!a || a.getAttribute("href") !== location.hash || e.defaultPrevented) return;
+    e.preventDefault(); window.scrollTo(0, 0); focusTop();
+  });
   loadData().then(function () { window.addEventListener("hashchange", route); route(); })
     .catch(function (err) {
       app.innerHTML = '<h1>Something went wrong loading the guide</h1><p>' + esc(err && err.message || "Unknown error") + '. Please refresh the page. The <a href="propositions.html">statewide proposition tool</a> still works on its own, and the official ' + ext("https://voterguide.sos.ca.gov/", "California voter guide") + " has every statewide measure.</p>";

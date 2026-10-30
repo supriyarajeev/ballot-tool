@@ -1,5 +1,33 @@
 # Changelog
 
+## October 29, 2026, the whole site in one design
+
+- **Home page.** Key dates lead with "Election Day is Tuesday, November 3" and the dates still ahead. Dates that have passed fold under Earlier dates. The regional figures, coverage by county and the list of official voter tools fold behind Show details, with a one-line summary each. The hero keeps the headline, both buttons, the three checks and one line on local coverage. The tool steps describe the new tool. Phone height 9,403 px to 5,554 px.
+- **Home order and buttons.** The region at a glance comes before the key dates. Every key date is shown, with no folding. Dates that have passed are one short grey line, and dates still ahead keep their details. The Ballot Weighing Tool and Find My Ballot buttons are the same width.
+- **Wider details in the tool.** An opened card's "More facts, arguments, ratings and sources" and "How this score is calculated" span the full width of the card below the evidence check, so neither leaves an empty column beside it.
+- **No warning banners.** The beta banner is gone from every page, and the "Local coverage is incomplete" warning box is gone from the home page. About this guide now opens with one plain statement covering what the guide is, coverage, sources and methodology, and development status. Every limit is kept: local lists are not complete, ratings are the project's own and not reviewed by any outside organization, official links do not make the summaries official, and voters should confirm their ballot with their county. The home page has a small grey scope note with a link to About this guide, and the tool links to it from its header.
+- **Footer.** One card in the page style on every page. "How this guide works and your privacy" is four short points behind Show details. The credit is two sentences plus the county reminder, with links to official election information and About this guide. No "Beta" labels remain on the pages.
+- **Fixes.** On How to vote, Find My Ballot and Ballot Weighing Tool are the same size. A link to the page already open, such as "About, methodology and full disclaimer" in the footer while on About, now takes you to the top of that page instead of doing nothing.
+- **Every page.** The footer's "How this guide works" and privacy notes fold behind Show details, and the credit stays visible. Collapsible sections on every page use the tool's tinted bar. The About page opens with only the disclaimer expanded.
+
+## October 29, 2026, folded list and fewer repeats
+
+- **One row per proposition.** Step 2 starts as a list of 14 rows, each with the number, topic, name, the one-line question and the Yes, Not sure and No buttons. The name opens the full card in place and folds the one before. "Open all 14" shows everything. This replaces the row of jump buttons. On a phone the page is 13,348 px instead of 38,503 px, and Step 2 is 3,841 px instead of 28,874 px.
+- **Step 3 and the method notes fold too.** Step 3 keeps the answer counts and the cheat sheet button in view, and the 14-row list, the score switch and Clear my answers open from Show details. "See my ballot" opens the list. The method, sources and privacy notes open the same way.
+- **Show details is easy to spot.** Every fold uses a bordered "Show details" button on a tinted bar, and "More facts" on each card is a tinted bar too.
+- **Step 1 folds too.** Step 1 shows its one-paragraph summary, the weights status and a Details button. The five factors, weights, "How these ratings behave", How scoring works and Customize open from it. The Step 1 link at the top opens it.
+- **Said once.** The PDF tip, the calculation table legend, "not LAO or state ratings" and the skip hint moved out of the 14 cards to one place each. The score is stated once per card (46%, 2.3 of 5, Mixed) with one line on the midpoint. The header blurb and the "How it works" box are one paragraph. "Worth weighing" and "Expected outcome" are gone, because who could gain, who pays, what it does and the YES box already say it. "Who is affected" stays, because it has facts found nowhere else (for example, 13 million mail voters for Prop 39). The answer is shown by the selected button, not repeated in the evidence column.
+
+## October 29, 2026, five factors and three described angles
+
+- **Five rated factors instead of seven.** Evidence strength, Low risk of side effects (was Safety), Accountability and results (Accountability and Outcome clarity averaged), Implementation readiness (was Feasibility) and Cost clarity (was Fiscal clarity). Net benefit is no longer rated. No other rating changed. Standard weights 5, 4, 3, 3, 2. Standard scores now run from 2.3 to 3.9.
+- **Three described angles on every card,** not rated. Who could gain, who pays or gives something up, and how hard the measure is to change later, from each measure's legal text.
+- **More facts** adds other measures on this ballot (from the official analysis) and a link to the campaign money for and against each measure (Secretary of State).
+- **Percentages.** Each evidence score also shows as a percentage of the top rating (2.3 of 5 is 46%, the 3.0 midpoint is 60%), on the card, in Step 3 and on the cheat sheet.
+- **Strong on and weak on** come first in each card's evidence check, before the overall number. A short note in Step 1 explains why most measures land near the middle.
+- **Simpler pages.** How scoring works is folded. Step 3 shows answers only, with a switch for scores. The weights and limits text appears once, in the methods section. Ratings are described as this project's own and not reviewed by any outside organization.
+- **Tests.** Fixtures recaptured and checked by an independent calculation. See audit/2026-10-29/FRAMEWORK-V3-AUDIT.md.
+
 ## October 26, 2026, banner and wording
 
 - **One banner.** The Ballot Weighing Tool uses the same "Beta version" banner as the guide. Check dates moved to its Sources and methodology section.

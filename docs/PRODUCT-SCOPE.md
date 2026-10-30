@@ -7,7 +7,7 @@
 The guide is a free, static, nonpartisan website for the November 3, 2026 California General Election. It has two parts:
 
 - **The ballot guide** (`index.html`). Voters pick a county and city and see the statewide propositions, local measures and candidate contests that may be on their ballot. Each item shows its status, its sources and what has not been researched yet.
-- **The Ballot Weighing Tool** (`propositions.html`). This is the original standalone tool for the 14 statewide propositions. It uses the Standard Evaluation Framework, with fixed default weights: Net benefit 5, Evidence strength 5, Safety 4, Accountability 3, Feasibility 3, Fiscal clarity 2, Outcome clarity 2. Optional custom weights are available. Its behavior is unchanged and protected by `tests/scoring-regression.mjs`.
+- **The Ballot Weighing Tool** (`propositions.html`). This is the original standalone tool for the 14 statewide propositions. It uses the Standard Evaluation Framework, with fixed default weights since October 29, 2026: Evidence strength 5, Low risk of side effects 4, Accountability and results 3, Implementation readiness 3, Cost clarity 2. Each card also describes who could gain, who pays and how hard the measure is to change later. Optional custom weights are available. Its behavior is protected by `tests/scoring-regression.mjs`.
 
 ## Who it is for
 

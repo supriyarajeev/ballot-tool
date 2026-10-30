@@ -4,11 +4,13 @@
 // loader), never a re-implementation. Expected values are fixed numbers worked out by hand from the ratings and
 // weights below, and they match tests/fixtures/scoring-baseline.json, which was captured from the original tool.
 //
-// Hand calculations used below (Standard weights: nb 5, ev 5, lr 4, ac 3, if 3, fc 2, oc 2; total 24)
-//   Prop 1 ratings nb 3, ev 3, lr 3, ac 3, if 4, fc 4, oc 3 -> (15+15+12+9+12+8+6)/24 = 77/24 = 3.208 -> 3.2
-//   Prop 4 ratings nb 3, ev 3, lr 3, ac 2, if 4, fc 3, oc 2 -> (15+15+12+6+12+6+4)/24 = 70/24 = 2.917 -> 2.9
-//   Prop 4 under Research-focused weights (nb 5, ev 5, lr 3, ac 1, if 2, fc 1, oc 1; total 18)
-//          -> (15+15+9+2+8+3+2)/18 = 54/18 = 3.0
+// Hand calculations used below, five-factor framework of October 29, 2026
+// (Standard weights: ev 5, lr 4, ac 3, if 3, fc 2; total 17). ac is the average of the two earlier ratings in p.sub.
+//   Prop 1  ratings ev 3, lr 3, ac (3+3)/2 = 3, if 4, fc 4 -> (15+12+9+12+8)/17 = 56/17 = 3.294 -> 3.3
+//   Prop 40 ratings ev 2, lr 2, ac (3+3)/2 = 3, if 2, fc 3 -> (10+8+9+6+6)/17 = 39/17 = 2.294 -> 2.3
+//   Prop 5  ratings ev 2, lr 3, ac (2+4)/2 = 3, if 5, fc 3 -> (10+12+9+15+6)/17 = 52/17 = 3.059 -> 3.1
+//   Prop 5 under Evidence first weights (ev 5, lr 3, ac 1, if 2, fc 1; total 12)
+//          -> (10+9+3+10+3)/12 = 35/12 = 2.917 -> 2.9
 import fs from "node:fs";
 import vm from "node:vm";
 import path from "node:path";
@@ -54,16 +56,17 @@ ok(T.PROPS.length === 14, "14 propositions");
 
 // 1. Yes, Standard weights.
 let r = leanFor(T, 1, 1);
-ok(r.cls === "yes" && r.label === "Leans toward YES" && r.qu.avg === 3.2 && r.pref === "Yes", "Prop 1, Yes: 3.2 is at or above 3.0, Leans toward YES (" + r.qu.avg + ", " + r.cls + ")");
-ok(r.why === "You would vote yes, and on your priorities it rates Fair (3.2), at or above the 3.0 line.", "Prop 1, Yes: the reason names the score and the 3.0 line: " + r.why);
-r = leanFor(T, 4, 1);
-ok(r.cls === "close" && r.label === "Mixed / uncertain" && r.qu.avg === 2.9, "Prop 4, Yes: 2.9 is below 3.0, Mixed / uncertain, not a confident YES (" + r.qu.avg + ", " + r.cls + ")");
+ok(r.cls === "yes" && r.label === "Leans toward YES" && r.qu.avg === 3.3 && r.pref === "Yes", "Prop 1, Yes: 3.3 is at or above 3.0, Leans toward YES (" + r.qu.avg + ", " + r.cls + ")");
+ok(r.why === "You would vote yes, and on your priorities it rates Solid (3.3), at or above the 3.0 line.", "Prop 1, Yes: the reason names the score and the 3.0 line: " + r.why);
+r = leanFor(T, 40, 1);
+ok(r.cls === "close" && r.label === "Mixed / uncertain" && r.qu.avg === 2.3, "Prop 40, Yes: 2.3 is below 3.0, Mixed / uncertain, not a confident YES (" + r.qu.avg + ", " + r.cls + ")");
+ok(T.FACTORS.map((f) => f.k).join() === "ev,lr,ac,if,fc" && P(T, 5).s.ac === 3 && P(T, 2).s.ac === 2.5, "five factors; Accountability and results is the average of its two parts (Prop 5: 2 and 4 -> 3; Prop 2: 2 and 3 -> 2.5)");
 
 // 2. No, same inputs.
 r = leanFor(T, 1, -1);
-ok(r.cls === "no" && r.label === "Leans toward NO" && r.qu.avg === 3.2 && r.pref === "No", "Prop 1, No: Leans toward NO, evidence score unchanged at 3.2");
-r = leanFor(T, 4, -1);
-ok(r.cls === "no" && r.qu.avg === 2.9, "Prop 4, No: Leans toward NO, evidence score unchanged at 2.9");
+ok(r.cls === "no" && r.label === "Leans toward NO" && r.qu.avg === 3.3 && r.pref === "No", "Prop 1, No: Leans toward NO, evidence score unchanged at 3.3");
+r = leanFor(T, 40, -1);
+ok(r.cls === "no" && r.qu.avg === 2.3, "Prop 40, No: Leans toward NO, evidence score unchanged at 2.3");
 
 // 3. Not sure: its own result, counted neither way.
 r = leanFor(T, 1, 0);
@@ -76,13 +79,15 @@ ok(r.cls === "none" && r.label === "Not answered" && r.pref === "Not answered", 
 ok(leanFor(T, 1, null).cls !== leanFor(T, 1, -1).cls && leanFor(T, 1, null).cls !== leanFor(T, 1, 0).cls, "skipped differs from No and from Not sure");
 
 // 5. Changing weights changes the result.
+r = leanFor(T, 5, 1);
+ok(r.qu.avg === 3.1 && r.cls === "yes", "Prop 5, Yes, Standard weights: 3.1, Leans toward YES (" + r.qu.avg + ")");
 T.applyPreset("res");
-r = leanFor(T, 4, 1);
-ok(r.qu.avg === 3 && r.cls === "yes", "Prop 4, Yes, Research-focused weights: 3.0 reaches the line, Leans toward YES (" + r.qu.avg + ")");
-{ T.FACTORS.forEach((f) => { T.state.w[f.k] = 0; }); r = leanFor(T, 4, 1);
+r = leanFor(T, 5, 1);
+ok(r.qu.avg === 2.9 && r.cls === "close", "Prop 5, Yes, Evidence first weights: 2.9 falls below the line, Mixed (" + r.qu.avg + ")");
+{ T.FACTORS.forEach((f) => { T.state.w[f.k] = 0; }); r = leanFor(T, 5, 1);
   ok(r.qu.off === true && r.cls === "yes" && /answer only/.test(r.why), "all weights off: Yes follows the answer alone and says so"); }
 T.applyPreset("def");
-ok(leanFor(T, 4, 1).cls === "close", "back to Standard weights: Prop 4, Yes is Mixed again");
+ok(leanFor(T, 5, 1).cls === "yes" && leanFor(T, 40, 1).cls === "close", "back to Standard weights: Prop 5 Yes is YES again, Prop 40 Yes is Mixed");
 
 // 6. Changing the answer changes the result for that proposition only.
 T.PROPS.forEach((p) => { T.state.g[p.n] = null; });
@@ -110,14 +115,16 @@ ok(checked === 56 && wrong.length === 0, "all 14 propositions x 4 presets follow
 T.applyPreset("def");
 T.PROPS.forEach((p) => { T.state.g[p.n] = 1; });
 let t = tally(T);
-ok(t.yes === 8 && t.close === 6 && t.no === 0 && t.unsure === 0 && t.none === 0 && t.answered === 14, "all Yes, Standard weights: 8 Leans YES, 6 Mixed, 14 answered: " + JSON.stringify(t));
+// Standard averages: 3.3, 3.1, 3.9, 3.0, 3.1, 3.1, 3.1, 2.8, 2.3, 3.1, 2.7, 3.5, 2.6, 2.6 -> 9 at or above 3.0 (Props 1 to 5, 37, 38, 41, 43), 5 below.
+ok(t.yes === 9 && t.close === 5 && t.no === 0 && t.unsure === 0 && t.none === 0 && t.answered === 14, "all Yes, Standard weights: 9 Leans YES, 5 Mixed, 14 answered: " + JSON.stringify(t));
 T.PROPS.forEach((p) => { T.state.g[p.n] = null; });
-T.state.g[1] = 1; T.state.g[2] = -1; T.state.g[3] = 0; T.state.g[4] = 1;
+T.state.g[1] = 1; T.state.g[2] = -1; T.state.g[3] = 0; T.state.g[40] = 1;
 t = tally(T);
 ok(t.yes === 1 && t.close === 1 && t.no === 1 && t.unsure === 1 && t.none === 10 && t.answered === 4, "Yes, No, Not sure, Yes(weak) and 10 skipped: " + JSON.stringify(t));
 
 // 9. Saved answers: kept as saved, old strength levels converted, bad values ignored.
 let L = tool({ w: { nb: 5, ev: 5, lr: 4, ac: 3, if: 3, fc: 2, oc: 2 }, g: { 1: 1, 2: 0, 3: -1, 4: null } });
+ok(JSON.stringify(L.state.w) === JSON.stringify({ ev: 5, lr: 4, ac: 3, if: 3, fc: 2 }), "weights saved by the seven-factor version load into the five factors; the retired nb and oc are dropped");
 ok(L.state.g[1] === 1 && L.state.g[2] === 0 && L.state.g[3] === -1 && L.state.g[4] === null && L.state.g[5] === null, "saved Yes, Not sure, No and skipped load back unchanged");
 L = tool({ w: {}, g: { 1: 2, 2: -2 } });
 ok(L.state.g[1] === 1 && L.state.g[2] === -1, "old Strongly for loads as Yes, old Strongly against as No");

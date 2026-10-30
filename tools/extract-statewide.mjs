@@ -43,7 +43,7 @@ const items = ctx.PROPS.map((p) => {
     risks: [sentence(p.risk), "Trade-off. " + sentence(p.tw)].filter(Boolean).join(" "),
     affected: sentence(p.who),
     fiscal: sentence(p.money),
-    evidence: `Accountability. ${sentence(p.acct)} Ratings on seven evidence factors, with reasons and sources, are in the full proposition tool.`,
+    evidence: `Accountability. ${sentence(p.acct)} Ratings on five evidence factors, with reasons and sources, plus who could gain, who pays and how hard it is to change later, are in the full proposition tool.`,
     uncertain: sentence(p.unk),
     argFor: sentence(p.argFor),
     argAgainst: sentence(p.argAgainst),

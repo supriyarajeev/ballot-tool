@@ -1,4 +1,4 @@
-/* Shared percentage arithmetic for the seven-factor framework (Oct 24, 2026).
+/* Shared percentage arithmetic for the evidence framework (Oct 24, 2026; five factors since Oct 29, 2026).
    Used for display only: by the Ballot Weighing Tool (propositions.html) to explain its existing scores, and by the
    guide's candidate evaluation mode. It never decides a lean. The tool's own scoring functions (quality, lean) are
    unchanged and remain the source of every score and lean.
@@ -11,8 +11,8 @@
    and the contributions add up to the unrounded percentage. */
 (function (root) {
   "use strict";
-  var KEYS = ["nb", "ev", "lr", "ac", "if", "fc", "oc"];
-  var DEFAULT = { nb: 5, ev: 5, lr: 4, ac: 3, if: 3, fc: 2, oc: 2 };
+  var KEYS = ["ev", "lr", "ac", "if", "fc"];
+  var DEFAULT = { ev: 5, lr: 4, ac: 3, if: 3, fc: 2 };
   var STORE = "ballot-weighing-v2"; // the tool's saved state; read only here
 
   function validRating(r) { return typeof r === "number" && r >= 1 && r <= 5; }

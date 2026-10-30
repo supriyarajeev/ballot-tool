@@ -353,8 +353,8 @@ elections.forEach((e, i) => {
     }
   }
 });
-// Candidate evaluation rubric (data/candidate-rubric.json, Oct 24, 2026): seven factors per office, a catch-all last.
-const FACTOR_KEYS = ["nb", "ev", "lr", "ac", "if", "fc", "oc"];
+// Candidate evaluation rubric (data/candidate-rubric.json, Oct 24, 2026): five factors per office since Oct 29, 2026, a catch-all last.
+const FACTOR_KEYS = ["ev", "lr", "ac", "if", "fc"];
 const rubric = readOnce("data/candidate-rubric.json");
 const rubricBases = new Set(((rubric && rubric.bases) || []).map((b) => b.id));
 if (rubric) {

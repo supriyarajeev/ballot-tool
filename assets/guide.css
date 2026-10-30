@@ -485,3 +485,44 @@ details.sheet-sec[open] > summary::after { content: "\2212"; }
 .attrs { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--f-display); font-weight: 700; font-size: .95rem; }
 .attrs li { display: inline-flex; align-items: center; gap: 6px; }
 .attrs .ico { width: 18px; height: 18px; color: var(--accent); }
+
+/* Folded sections and Show details (Oct 29, 2026), the same pattern as the Ballot Weighing Tool */
+.sec-bar { display: grid; gap: 4px; border: 1.5px solid var(--accent); background: var(--accent-soft); border-radius: 12px; padding: 10px 14px; }
+.sec-bar .small { font-size: .86rem; color: var(--muted); }
+button.fold { all: unset; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; width: 100%; min-height: 44px; cursor: pointer; font-family: var(--f-display); font-weight: 700; font-size: 1rem; color: var(--ink); }
+button.fold:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.fold-hint { font-family: var(--f-display); font-size: .84rem; font-weight: 700; color: var(--accent); background: var(--sheet); border: 1.5px solid var(--accent); border-radius: 999px; padding: 5px 12px; white-space: nowrap; display: inline-flex; align-items: center; gap: 8px; }
+.fold-hint::after { content: ""; width: 7px; height: 7px; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-2px) rotate(45deg); transition: transform .15s ease; }
+button.fold:hover .fold-hint, button.fold[aria-expanded="true"] .fold-hint { background: var(--accent); color: var(--sheet); }
+button.fold[aria-expanded="true"] .fold-hint::after { transform: translateY(2px) rotate(-135deg); }
+@media (max-width: 520px) { button.fold { flex-direction: column; align-items: flex-start; gap: 6px; } }
+@media (prefers-reduced-motion: reduce) { .fold-hint::after { transition: none; } }
+.sec-body { display: grid; gap: 12px; min-width: 0; }
+.sec-body[hidden] { display: none; }
+.sec-body > * { min-width: 0; }
+footer.site .sec-bar { margin-bottom: 4px; }
+.eday { font-size: 1.05rem; }
+/* Collapsible sections inside pages use the same tinted bar as the tool's "More facts" */
+.sec > summary { background: var(--accent-soft); color: var(--accent); border-radius: 11px; }
+.sec[open] > summary { border-radius: 11px 11px 0 0; }
+
+/* Home (Oct 29, 2026): the two main buttons share one width; passed key dates are one short line each */
+.hero .cta { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; max-width: 400px; align-items: stretch; }
+.hero .cta .btn { width: 100%; min-height: 52px; white-space: nowrap; }
+.timeline li.past b { color: var(--muted); font-weight: 700; }
+.timeline li.past time { color: var(--muted); }
+@media (max-width: 639px) { .timeline li.past { padding-block: 6px; } .timeline li.past::before { top: 12px; } }
+.cta.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; max-width: 560px; }
+.cta.two .btn { width: 100%; white-space: nowrap; }
+@media (max-width: 600px) { .cta.two { grid-template-columns: minmax(0, 1fr); } }
+/* About this guide (Oct 29, 2026): one plain statement of status, coverage, sources and development */
+.about-core { display: grid; gap: 8px; }
+.about-core h2 { font-size: 1.02rem; margin-top: 8px; }
+.scope-note { max-width: 60ch; }
+/* Footer (Oct 29, 2026): one card in the page's style, with a short fold and a short credit */
+footer.site { border-top: 0; padding-top: 8px; gap: 12px; }
+footer.site .credit { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 16px 20px; margin-top: 0; color: var(--muted); }
+footer.site .credit p { max-width: 74ch; }
+footer.site .sec-bar { margin-bottom: 0; }
+.foot-list { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: .9rem; color: var(--ink); }
+.foot-list b { font-family: var(--f-display); }

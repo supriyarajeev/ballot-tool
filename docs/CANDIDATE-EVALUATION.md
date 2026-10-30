@@ -19,7 +19,7 @@
 
 `assets/guide.js` → `evalPublic(cands)` shows the full evaluation for a contest only when **both** of these hold:
 1. `release.public` is `true`.
-2. **Every** candidate in that contest has all seven factors rated (each with basis, note and https source) and `evaluation.reviewedBy` names the person who reviewed it.
+2. **Every** candidate in that contest has all five factors rated (each with basis, note and https source) and `evaluation.reviewedBy` names the person who reviewed it.
 
 Otherwise `evalPending()` renders the notice. The scoring code (`candidateEval`) is kept and tested behind this gate (`tests/browser/guide.test.cjs`, "gated" cases), so it can be turned on without new code.
 
@@ -34,7 +34,7 @@ Otherwise `evalPending()` renders the notice. The scoring code (`candidateEval`)
 
 ## Research process (for when the work is done)
 
-- Use the seven factors of the Ballot Weighing Tool: Net benefit, Evidence strength, Safety, Accountability, Feasibility, Fiscal clarity and Outcome clarity, with the office guidance in `candidate-rubric.json`.
+- Use the five factors of the Ballot Weighing Tool: Evidence strength, Low risk of side effects, Accountability and results, Implementation readiness and Cost clarity, with the office guidance in `candidate-rubric.json`.
 - Apply the same rubric to every candidate in a contest.
 - Keep a candidate's own claims apart from independently established facts. Each rating names its basis: official record, published proposal, attributable statement, or independent source.
 - For each rating, record the source URL, its publication date, the access date, a short excerpt or summary, and the factor it supports.

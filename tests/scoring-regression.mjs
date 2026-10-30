@@ -1,12 +1,13 @@
 // Regression test for the Ballot Weighing Tool's scoring.
 // Runs the ACTUAL scoring code copied out of propositions.html (not a re-implementation) and compares it with fixtures
-// captured from the original tool (git show 0ddb37d:propositions.html).
+// captured from the tool. Recaptured on Oct 29, 2026 for the five-factor framework; the seven-factor fixtures are kept
+// in audit/2026-10-29/.
 //
 // Part 1, tests/fixtures/scoring-baseline.json (unchanged values): every proposition x every preset, all-zero weights and
 //   each single-factor weighting x every preference value -> evidence average, lean class and label.
 // Part 2, tests/fixtures/scoring-extended.json (VAL-12):
 //   - the reason text shown under each lean (r.why, which carries the quality word), and the limited-information flag
-//     (limitedWeighted) for the same 1008 cases;
+//     (limitedWeighted) for the same cases (840 since Oct 29, 2026);
 //   - the limited-information flags p.u of every proposition;
 //   - qualityWord at every 0.05 step from 1 to 5;
 //   - the saved-weight and saved-answer clamp that runs on page load, for valid and invalid stored values;

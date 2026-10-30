@@ -1,0 +1,132 @@
+{
+ "1": {
+  "nb": 3,
+  "reason": "Up to 40,000 rentals and 40,000 buyers helped, against roughly $12.5 billion to $15 billion repaid over 25 years (this tool's arithmetic from LAO's yearly cost). Cost per home unknown.",
+  "sources": [
+   0
+  ],
+  "ac": 3,
+  "oc": 3
+ },
+ "2": {
+  "nb": 3,
+  "reason": "Smaller recession cuts traded against fewer rebates and less boom-year spending. Size unknown.",
+  "sources": [
+   0,
+   3
+  ],
+  "ac": 2,
+  "oc": 3
+ },
+ "3": {
+  "nb": 3,
+  "reason": "Keeps $5 billion to $15 billion a year, about 40% for schools and colleges, but no link to student results is established.",
+  "sources": [
+   0
+  ],
+  "ac": 4,
+  "oc": 3
+ },
+ "4": {
+  "nb": 3,
+  "reason": "Small state cost. Benefits depend on programs not yet created.",
+  "sources": [
+   0
+  ],
+  "ac": 2,
+  "oc": 2
+ },
+ "5": {
+  "nb": 3,
+  "reason": "Applies rarely. Trades plurality winners for less voter choice of successor.",
+  "sources": [
+   0
+  ],
+  "ac": 2,
+  "oc": 4
+ },
+ "37": {
+  "nb": 3,
+  "reason": "No direct taxpayer cost and assistance for some buyers. How many renters it would make able to buy is unknown.",
+  "sources": [
+   0,
+   3
+  ],
+  "ac": 3,
+  "oc": 3
+ },
+ "38": {
+  "nb": 2,
+  "reason": "About $10 billion to $12 billion repaid over about 20 years, before inflation (this tool's arithmetic from LAO's yearly cost), against patient benefits that are likely years away.",
+  "sources": [
+   0
+  ],
+  "ac": 4,
+  "oc": 3
+ },
+ "39": {
+  "nb": 2,
+  "reason": "LAO projects net costs. One national study cited in the sources found strict ID laws had no measurable effect on fraud or perceived fraud. That is one study, not a full review of the research. A possible gain in voter trust is unmeasured.",
+  "sources": [
+   0,
+   4
+  ],
+  "ac": 4,
+  "oc": 4
+ },
+ "40": {
+  "nb": 3,
+  "reason": "Tens of billions for health care per LAO, but Hoover projects a net loss, so the overall effect is uncertain.",
+  "sources": [
+   0,
+   4
+  ],
+  "ac": 3,
+  "oc": 3
+ },
+ "41": {
+  "nb": 3,
+  "reason": "Low-cost audits with unknown savings, plus a large but uncertain effect through its interaction with Prop 40.",
+  "sources": [
+   0
+  ],
+  "ac": 4,
+  "oc": 4
+ },
+ "42": {
+  "nb": 3,
+  "reason": "No current tax changes, so the near-term effect runs mainly through Prop 40.",
+  "sources": [
+   0
+  ],
+  "ac": 2,
+  "oc": 3
+ },
+ "43": {
+  "nb": 3,
+  "reason": "Taxpayers avoid some future taxes while some local services lose funding. Size unknown.",
+  "sources": [
+   0
+  ],
+  "ac": 2,
+  "oc": 4
+ },
+ "44": {
+  "nb": 2,
+  "reason": "More transparency, but no study of its effect on care was found, and LAO flags possible closures.",
+  "sources": [
+   0
+  ],
+  "ac": 4,
+  "oc": 4
+ },
+ "45": {
+  "nb": 3,
+  "reason": "Faster approvals at a public cost LAO puts in the high tens of millions a year. Housing gains and environmental trade-offs both unmeasured.",
+  "sources": [
+   0
+  ],
+  "ac": 3,
+  "oc": 4
+ }
+}

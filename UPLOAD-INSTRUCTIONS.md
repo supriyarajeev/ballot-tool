@@ -1,24 +1,26 @@
-# Upload instructions (October 26, 2026, Yes | Not sure | No)
+# Upload instructions (October 29, 2026, five factors)
 
 GitHub Pages settings, the domain and the public link (https://supriyarajeev.github.io/ballot-tool/) do not change.
 
 ## 1. Push with the terminal (recommended)
 
 ```
-cd ~/Desktop/ballot-tool        # your clone; if it is gone: git clone https://github.com/supriyarajeev/ballot-tool.git
+cd ~/Desktop/ballot-tool
 git pull
-unzip -o ~/Downloads/ballot-guide-banner-oct26.zip
+git status                      # should say "nothing to commit". If it lists files from the October 28 ZIP, run: git checkout .
+rm -rf audit/2026-10-28         # only if that folder is there from the October 28 ZIP
+unzip -o ~/Downloads/ballot-guide-five-factors-oct29.zip
 git add -A
-git status                      # expect about 17 changed or new files
-git commit -m "Same beta banner everywhere, no GitHub links, official review wording"
+git status                      # expect about 30 changed or new files
+git commit -m "Five evidence factors, who gains and who pays, change-later and campaign money on every card"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-banner-oct26.zip | tail -1` should show 232 files. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-five-factors-oct29.zip | tail -1` should show the file count given in the chat. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 
-Upload the changed files: `index.html`, `propositions.html`, `README.md`, `CHANGELOG.md`, `UPLOAD-INSTRUCTIONS.md`, the `assets` folder, and the `data`, `docs`, `tools` and `tests` folders. Then, from inside the repository's `audit` folder, upload `logs` and `2026-10-24`. Commit each with "Commit directly to the main branch".
+Upload the changed files: `index.html`, `propositions.html`, `README.md`, `CHANGELOG.md`, `UPLOAD-INSTRUCTIONS.md`, the `assets` folder, and the `data`, `docs`, `tools` and `tests` folders. Then, from inside the repository's `audit` folder, upload `2026-10-29`. Commit each with "Commit directly to the main branch".
 
 ## 3. Wait for the deploy
 
@@ -31,20 +33,19 @@ Cmd+Shift+R on a computer. On a phone, close the tab and open the link again.
 ## 5. Post-deployment checklist
 
 On a phone (about 390 px wide):
-- [ ] The header shows "California Bay Area Ballot Guide" on one line and a **Menu** button. Menu opens the five links; choosing one closes it.
-- [ ] The home title reads "California Bay Area" then "Ballot Guide". **Find My Ballot** shows without scrolling.
-- [ ] Open the Ballot Weighing Tool and scroll. The progress bar is one slim row with **See my ballot**. Tap step 2 at the top; its heading is not hidden under the bar.
-- [ ] Answer one question; a lean appears. Open "How this score is calculated"; the table fits or scrolls inside its box.
+- [ ] Open the Ballot Weighing Tool. Step 1 shows a short summary and a Details button. Tap Details. It lists five factors and a "How these ratings behave" box that says the 14 range from 2.3 to 3.9. "How scoring works" is folded.
+- [ ] Step 2 is a list of 14 rows, each with Yes, Not sure and No. Tap "One-time billionaire tax". Prop 40 opens with "Who could gain", "Who pays or gives something up" and "How hard to change later".
+- [ ] Answer Prop 40 Yes. The evidence check shows Strong on, Weak on, In the middle, then "46% 2.3 of 5 · Mixed".
+- [ ] Tap another name. It opens and Prop 40 folds.
+- [ ] Nothing scrolls sideways.
+
+- [ ] Home page. Key dates start with "Election Day is Tuesday, November 3". The region, coverage and official tools sections each show a Show details button.
 
 On a computer:
-- [ ] Open the Ballot Weighing Tool, Prop 1, More facts. Source [1] "LAO analysis" opens the official voter guide's analysis page, and "LAO PDF" beside it opens the LAO's PDF.
-- [ ] Find My Ballot, Alameda. Open Statewide propositions. A "Go to Ballot Weighing Tool — All 14 Propositions" button is above the list. Click Prop 1: the tool opens at Prop 1 with "Back to your ballot: Alameda County". Click it to return.
-- [ ] Open a local measure on the same page; it opens the guide's own measure page, not the tool.
-- [ ] The links show in the header with no Menu button.
-- [ ] Candidates, then Governor. Both photos show. Below them is "Candidate evaluation · Research pending" with no percentages or "Insufficient evidence" lists.
-- [ ] Prop 44 in the tool shows 52% with standard weights.
-- [ ] About opens with four summary boxes, including "Candidate scores. None assigned."
-- [ ] Find My Ballot, Contra Costa, Concord. Candidate elections include Concord contests, and "What has been checked" lists 61 seats not on the ballot.
+- [ ] Prop 44, More facts. "Campaign money" opens the Secretary of State page for Proposition 44. "Other measures on this ballot" is there.
+- [ ] Prop 2 ratings show "Accountability and results" with a half-filled dot and "Checks on the work 2, measurable results 3".
+- [ ] Step 3 shows answers only. Tick "Show evidence scores in this list" and the scores appear.
+- [ ] Hard refresh once (Cmd+Shift+R) so the browser loads the new weights file.
 - [ ] Every page ends with "Developed by Supriya Rajeev for educational purposes." and the Secretary of State link.
 
 ## 6. If something is wrong
