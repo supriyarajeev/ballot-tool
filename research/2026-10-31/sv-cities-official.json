@@ -1,0 +1,853 @@
+{
+  "group": "sv-cities-official",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+      "name": "Paul Donahue",
+      "campaignUrl": "https://www.electpauldonahue.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "name": "Robert Cox",
+      "campaignUrl": "https://robertcoxforcouncil.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "name": "James Kuszmaul",
+      "campaignUrl": "https://james4mv.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "name": "Samuel Ali",
+      "campaignUrl": "https://samformountainview.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "name": "IdaRose Sylvester",
+      "campaignUrl": "https://www.idarosesylvester.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "name": "Silja Paymer",
+      "campaignUrl": "https://siljapaymer.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "name": "Erik Poicon",
+      "campaignUrl": "https://www.erik4mv.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso",
+      "name": "Alex Amoroso",
+      "campaignUrl": "https://www.alex4council.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "name": "Anky van Deursen",
+      "campaignUrl": "https://ankyforlosaltos.org/",
+      "notes": "No official statement online (Los Altos removed statements after Aug 17 examination period). Quotes from campaign site priorities section."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng",
+      "name": "Lynette Lee Eng",
+      "campaignUrl": "https://votelynette.org/",
+      "notes": "No official statement online (Los Altos removed statements after Aug 17). Campaign site votelynette.org listed on city elections page. Housing quote contains a double space after \"I\" as rendered on page."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-altos-council-district-4.city-council-member-district-4.larry-lang",
+      "name": "Larry Lang",
+      "campaignUrl": "https://www.losaltoslarry.org/",
+      "notes": "Campaign site (Home, About) has biography only, no issue positions. Los Altos posted candidate statements only during Aug 8-17 examination period; no longer online."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+      "name": "Steve Raspe",
+      "campaignUrl": null,
+      "notes": "No official statement online (Los Gatos clerk does not post statements; ROV guide is address-lookup only). No campaign site found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "name": "Rob Stump",
+      "campaignUrl": "https://www.stump4lg.com/",
+      "notes": "Public-safety quote is inside a collapsed \"Assuring Police Resources\" section on the priorities page (in page text, hidden until expanded)."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "name": "Mary Badame",
+      "campaignUrl": "https://marybadame.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.jeff-suzuki",
+      "name": "Jeff Suzuki",
+      "campaignUrl": null,
+      "notes": "No official statement online. No campaign site found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "name": "Rob Moore",
+      "campaignUrl": "https://www.robforlosgatos.com/",
+      "notes": "Mountain View/Los Gatos/Los Altos clerks do not post 2026 candidate statements online; quotes from campaign website."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.heidi-owens",
+      "name": "Heidi Owens",
+      "campaignUrl": null,
+      "notes": "No official statement online. No campaign site found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+      "name": "Linda Sell",
+      "campaignUrl": "https://lindaforsunnyvale.com/",
+      "notes": "Official statement from City of Sunnyvale PDF (scanned form with line numbers in text layer)."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+      "name": "Murali Srinivasan",
+      "campaignUrl": "https://www.murali4sunnyvale.com/",
+      "notes": "Official statement from City of Sunnyvale PDF. Campaign site murali4sunnyvale.com has no issue positions."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "name": "Richard Mehlinger",
+      "campaignUrl": "https://www.richardforsunnyvale.com/",
+      "notes": "Official statement from City of Sunnyvale PDF (OCR text layer, includes form line numbers). Campaign Track Record quotes are inside collapsed accordion sections."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "housing",
+      "quote": "Teachers, nurses, first responders, young families, and seniors shouldn't be priced out of Los Altos.",
+      "sourceTitle": "Campaign website, Anky van Deursen for Los Altos City Council District 2",
+      "sourceUrl": "https://ankyforlosaltos.org/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "public-safety",
+      "quote": "Maintain safe, welcoming, and enjoyable neighborhoods where people of all ages can thrive",
+      "sourceTitle": "Campaign website, Anky van Deursen for Los Altos City Council District 2",
+      "sourceUrl": "https://ankyforlosaltos.org/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "streets-transit-clean",
+      "quote": "Improve pedestrian safety at high-risk intersections and along traffic corridors and parks",
+      "sourceTitle": "Campaign website, Anky van Deursen for Los Altos City Council District 2",
+      "sourceUrl": "https://ankyforlosaltos.org/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "accountability",
+      "quote": "Promote transparency, openness, collaboration, fiscal responsibility, and accountable decision-making",
+      "sourceTitle": "Campaign website, Anky van Deursen for Los Altos City Council District 2",
+      "sourceUrl": "https://ankyforlosaltos.org/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "cost-of-living-economy",
+      "quote": "Support vibrant local business centers and our local economy",
+      "sourceTitle": "Campaign website, Anky van Deursen for Los Altos City Council District 2",
+      "sourceUrl": "https://ankyforlosaltos.org/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "housing",
+      "quote": "I  support thoughtful growth that respects our community, provides adequate infrastructure, and preserves the character of our neighborhoods.",
+      "sourceTitle": "Campaign website, Lynette Lee Eng for Los Altos City Council",
+      "sourceUrl": "https://votelynette.org/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "accountability",
+      "quote": "Listen to residents, encourage meaningful public engagement, and ensure decisions are made openly, thoughtfully, and with respect for all voices.",
+      "sourceTitle": "Campaign website, Lynette Lee Eng, My Priorities",
+      "sourceUrl": "https://votelynette.org/about-me/why-i-am-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng",
+      "contest": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2",
+      "issue": "city-budget",
+      "quote": "Protect taxpayer dollars, public lands, and community assets through responsible budgeting, oversight, and stewardship.",
+      "sourceTitle": "Campaign website, Lynette Lee Eng, My Priorities",
+      "sourceUrl": "https://votelynette.org/about-me/why-i-am-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "Our housing plan calls for thousands of new homes, including homes that are affordable to teachers, retirees, and young families helping preserve the diversity that makes our community strong.",
+      "sourceTitle": "Campaign website, Paul Donahue for City Council",
+      "sourceUrl": "https://www.electpauldonahue.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "He will continue to work to revitalize our downtown, support small businesses, and keep Mountain View vibrant and thriving.",
+      "sourceTitle": "Campaign website, Paul Donahue for City Council",
+      "sourceUrl": "https://www.electpauldonahue.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Build a connected network of protected bike lanes linking neighborhoods, schools, parks, downtown, and transit.",
+      "sourceTitle": "Campaign website, James Kuszmaul, Priorities",
+      "sourceUrl": "https://james4mv.com/priorities/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "The single biggest thing the city can do for affordability is allow more homes.",
+      "sourceTitle": "Campaign website, James Kuszmaul, Priorities",
+      "sourceUrl": "https://james4mv.com/priorities/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "Improving housing affordability is particularly urgent given the large number of people currently being priced out of their homes and into RVs and other vehicles on our streets.",
+      "sourceTitle": "Campaign website, James Kuszmaul, Priorities",
+      "sourceUrl": "https://james4mv.com/priorities/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "public-safety",
+      "quote": "Our police should be able to focus on doing their job of keeping Mountain View residents safe, and should not worry that they will be placed in conflict with the people they are sworn to protect.",
+      "sourceTitle": "Campaign website, James Kuszmaul, Priorities",
+      "sourceUrl": "https://james4mv.com/priorities/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "I'll fight to build more housing that matches what people who work here actually make.",
+      "sourceTitle": "Campaign website, Sam Ali for Mountain View City Council, My Priorities",
+      "sourceUrl": "https://samformountainview.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "public-safety",
+      "quote": "I'll invest in both — real public safety, and the everyday details that make a block feel like home.",
+      "sourceTitle": "Campaign website, Sam Ali for Mountain View City Council, My Priorities",
+      "sourceUrl": "https://samformountainview.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "I'll fight for policies that keep local shops open and make room for new jobs without bulldozing the ones already here.",
+      "sourceTitle": "Campaign website, Sam Ali for Mountain View City Council, My Priorities",
+      "sourceUrl": "https://samformountainview.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "accountability",
+      "quote": "I want residents in the room while the plans are still being drawn — not invited to comment once it's too late to change anything.",
+      "sourceTitle": "Campaign website, Sam Ali for Mountain View City Council, My Priorities",
+      "sourceUrl": "https://samformountainview.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "I fought for safe parking programs, ensured we received County financial support, and I will advocate for the expansion of safe parking.",
+      "sourceTitle": "Campaign website, IdaRose Sylvester, Priorities",
+      "sourceUrl": "https://www.idarosesylvester.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "We need truly affordable housing, and I will work closely with partners to ensure we fund and build it.",
+      "sourceTitle": "Campaign website, IdaRose Sylvester, Priorities",
+      "sourceUrl": "https://www.idarosesylvester.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "I will champion unique measures to end the lost opportunities of vacant storefronts.",
+      "sourceTitle": "Campaign website, IdaRose Sylvester, Priorities",
+      "sourceUrl": "https://www.idarosesylvester.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "We know how to build safer streets, including safe routes to school; it is time to implement these programs.",
+      "sourceTitle": "Campaign website, IdaRose Sylvester, Priorities",
+      "sourceUrl": "https://www.idarosesylvester.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "accountability",
+      "quote": "I will make sure our community is heard first, not last, when we are gathering community input in any decision or policy creation.",
+      "sourceTitle": "Campaign website, IdaRose Sylvester, Priorities",
+      "sourceUrl": "https://www.idarosesylvester.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "We need to implement effective policies and projects that reduce injuries and deaths on city streets.",
+      "sourceTitle": "Campaign website, Silja Paymer for Mountain View City Council 2026, Platform",
+      "sourceUrl": "https://siljapaymer.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "All of our neighbors deserve a safe place to sleep.",
+      "sourceTitle": "Campaign website, Silja Paymer for Mountain View City Council 2026, Platform",
+      "sourceUrl": "https://siljapaymer.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "accountability",
+      "quote": "I am running to ensure our growth is community-centered, transparent, and—above all—safe for the families who call this place home.",
+      "sourceTitle": "Campaign website, Silja Paymer for Mountain View City Council 2026, Why Silja?",
+      "sourceUrl": "https://siljapaymer.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "For this reason, we must build more affordable housing to support Mountain View’s low-income households.",
+      "sourceTitle": "Campaign website, Robert Cox for Mountain View City Council, Priorities",
+      "sourceUrl": "https://robertcoxforcouncil.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "Our city needs to continue its dialogue with property owners and provide incentives that encourage them to rent out their vacant spaces.",
+      "sourceTitle": "Campaign website, Robert Cox for Mountain View City Council, Priorities",
+      "sourceUrl": "https://robertcoxforcouncil.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "I will defend and strengthen the Mobile Home Rent Stabilization Ordinance, ensure that the SB 79 local alternative plan exempts mobile home parks, and require that any infrastructure project that would displace inhabited RVs include a funded relocation assistance plan before it can move forward.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "Mountain View needs more housing, but it must serve the people who live and work here, not just those who can afford the most expensive units.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "public-safety",
+      "quote": "I will advocate for a fully funded, standing mental health co-responder program — not a pilot — that deploys trained civilian mental health workers alongside or instead of police for appropriate calls.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "I fully support Mountain View's Vision Zero commitment to eliminate traffic fatalities by 2030.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "city-budget",
+      "quote": "I will defend library funding in every budget negotiation and advocate for library programs to be formally recognized as part of Mountain View's public safety and community health ecosystem.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "accountability",
+      "quote": "I will push for annual public reporting — clear, plain-language, and translated — on how Measure G funds are spent: how many units created, at what income levels, serving which communities.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "While we cannot solve every affordability challenge on our own, we can make thoughtful decisions that help families, seniors, and workers continue to call Mountain View Home.",
+      "sourceTitle": "Campaign website, Erik Poicon, On The Issues",
+      "sourceUrl": "https://www.erik4mv.com/on-the-issues",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "Alex believes in creating affordable housing by working with local businesses and commercial developers —not relying solely on government-run projects.",
+      "sourceTitle": "Campaign website, Alex Amoroso for Mountain View City Council, Priorities for Mountain View",
+      "sourceUrl": "https://www.alex4council.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "By leveraging infrastructure funds, job training, and even exploring universal basic income (UBI) pilots, we can ensure economic mobility and opportunity for all.",
+      "sourceTitle": "Campaign website, Alex Amoroso for Mountain View City Council, Priorities for Mountain View",
+      "sourceUrl": "https://www.alex4council.com/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "housing",
+      "quote": "Deliver more affordable housing for working families, seniors, educators, first responders, and more",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "homelessness",
+      "quote": "End homelessness in Los Gatos through increased behavioral health care and individualized case management",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "Support and fund our police and fire departments to ensure community safety and rapid response times",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Continue to build safer, more walkable and bikeable streets for families, children, and older adults",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "Cut red tape that drives up costs for small business owners",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "city-budget",
+      "quote": "Strengthen the town's financial transparency and fiscal health without raising taxes",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "accountability",
+      "quote": "Continue to keep residents informed through my newsletter, coffees, social media, and events",
+      "sourceTitle": "Campaign website, Rob Moore for Los Gatos Town Council, Platform",
+      "sourceUrl": "https://www.robforlosgatos.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "housing",
+      "quote": "I will ensure that Los Gatos meets the next statutory deadline for State mandated housing.",
+      "sourceTitle": "Campaign website, Rob Stump for Los Gatos Town Council 2026, Priorities",
+      "sourceUrl": "https://www.stump4lg.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "city-budget",
+      "quote": "I will not support new taxes until internal operational efficiency and spending growth are under control, providing full financial transparency.",
+      "sourceTitle": "Campaign website, Rob Stump for Los Gatos Town Council 2026, Priorities",
+      "sourceUrl": "https://www.stump4lg.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "I will pursue a Highway 17 interchange project only after securing regional VTA/Caltrans confirmation that an investment from Los Gatos delivers a measurable reduction in beach traffic gridlock.",
+      "sourceTitle": "Campaign website, Rob Stump for Los Gatos Town Council 2026, Priorities",
+      "sourceUrl": "https://www.stump4lg.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "accountability",
+      "quote": "The difference is whether those promises come with measurable targets, enforceable dates, and clear accountability.",
+      "sourceTitle": "Campaign website, Rob Stump for Los Gatos Town Council 2026, Priorities",
+      "sourceUrl": "https://www.stump4lg.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "Fully fund the police department to maintain optimal staffing levels while eliminating the high cost of overtime.",
+      "sourceTitle": "Campaign website, Rob Stump for Los Gatos Town Council 2026, Priorities (Assuring Police Resources, expandable section)",
+      "sourceUrl": "https://www.stump4lg.com/priorities",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "Fund the police department to full strength and keep it there.",
+      "sourceTitle": "Campaign website, Mary Badame, Why I’m Running",
+      "sourceUrl": "https://marybadame.com/why-im-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Traffic - Utilize officers proactively and stationed at known choke points before backup forms, not after.",
+      "sourceTitle": "Campaign website, Mary Badame, Why I’m Running",
+      "sourceUrl": "https://marybadame.com/why-im-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "city-budget",
+      "quote": "Spending has outgrown revenue.",
+      "sourceTitle": "Campaign website, Mary Badame, Why I’m Running",
+      "sourceUrl": "https://marybadame.com/why-im-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "housing",
+      "quote": "Adopt objective standards to strengthen our limit to review, condition, and negotiate pending Builder’s Remedy projects.",
+      "sourceTitle": "Campaign website, Mary Badame, Why I’m Running",
+      "sourceUrl": "https://marybadame.com/why-im-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "Foster the economic vitality of businesses in Town - drawing residents and visitors to stay and play while feeling safe.",
+      "sourceTitle": "Campaign website, Mary Badame, Why I’m Running",
+      "sourceUrl": "https://marybadame.com/why-im-running/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1",
+      "issue": "public-safety",
+      "quote": "I will continue working for safe neighborhoods, reliable city services, and a healthier environment.",
+      "sourceTitle": "City of Sunnyvale, Candidate Statements of Qualifications, November 3, 2026 General Municipal Election (PDF)",
+      "sourceUrl": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6637/639217756441930000",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1",
+      "issue": "streets-transit-clean",
+      "quote": "As your Councilmember, I have listened and delivered results: supported public safety; improved neighborhood parking; championed safer walking and biking routes for students; proposed new community green spaces on underused land; and represented Sunnyvale at VTA to improve transit and reduce congestion.",
+      "sourceTitle": "City of Sunnyvale, Candidate Statements of Qualifications, November 3, 2026 General Municipal Election (PDF)",
+      "sourceUrl": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6637/639217756441930000",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3",
+      "issue": "accountability",
+      "quote": "I will continue promoting transparency, data-driven decision-making, responsible fiscal management, and greater resident engagement.",
+      "sourceTitle": "City of Sunnyvale, Candidate Statements of Qualifications, November 3, 2026 General Municipal Election (PDF)",
+      "sourceUrl": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6637/639217756441930000",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3",
+      "issue": "city-budget",
+      "quote": "My priorities have always been keeping our neighborhoods safe, managing taxpayer dollars responsibly, improving quality of life, and accountable government.",
+      "sourceTitle": "City of Sunnyvale, Candidate Statements of Qualifications, November 3, 2026 General Municipal Election (PDF)",
+      "sourceUrl": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6637/639217756441930000",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5",
+      "issue": "homelessness",
+      "quote": "Just this year, Council allocated over a million dollars per year to address homelessness, established a five-officer crime reduction task force, and funded my proposal to finally clear our years-long sidewalk maintenance backlog.",
+      "sourceTitle": "City of Sunnyvale, Candidate Statements of Qualifications, November 3, 2026 General Municipal Election (PDF)",
+      "sourceUrl": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6637/639217756441930000",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1",
+      "issue": "city-budget",
+      "quote": "Supported transparent, responsible budgeting that prioritizes community needs while protecting Sunnyvale’s long-term financial stability.",
+      "sourceTitle": "Campaign website, Linda Sell for Sunnyvale City Council District 1, About Me",
+      "sourceUrl": "https://lindaforsunnyvale.com/about-me/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1",
+      "issue": "accountability",
+      "quote": "Residents deserve clear reporting on how the $3.5 million is allocated, what services it delivers, and whether those investments achieve measurable results.",
+      "sourceTitle": "Campaign website, Linda Sell for Sunnyvale City Council District 1, About Me",
+      "sourceUrl": "https://lindaforsunnyvale.com/about-me/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5",
+      "issue": "housing",
+      "quote": "Richard ran for office on a pro-housing platform, because he understands that the housing crisis is driving the homelessness crisis, snarling our traffic, and worsening everyone’s quality of life in Silicon Valley.",
+      "sourceTitle": "Campaign website, Richard For Sunnyvale, Track Record (expandable sections)",
+      "sourceUrl": "https://www.richardforsunnyvale.com/track-record",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5",
+      "issue": "public-safety",
+      "quote": "This year, Council unanimously voted to create a five-member Community Crime Reduction Task Force within the Department of Public Safety, to act as a floating resource to address public safety concerns without drawing resources from patrol.",
+      "sourceTitle": "Campaign website, Richard For Sunnyvale, Track Record (expandable sections)",
+      "sourceUrl": "https://www.richardforsunnyvale.com/track-record",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5",
+      "issue": "streets-transit-clean",
+      "quote": "Richard has also spearheaded key transportation safety improvements since even before he was on Council, when he served as Chair of the Bicycle and Pedestrian Advisory Commission.",
+      "sourceTitle": "Campaign website, Richard For Sunnyvale, Track Record (expandable sections)",
+      "sourceUrl": "https://www.richardforsunnyvale.com/track-record",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5",
+      "issue": "accountability",
+      "quote": "This simpler, more streamlined process is easier for the public to understand and is accelerating delivery of key projects.",
+      "sourceTitle": "Campaign website, Richard For Sunnyvale, Track Record (expandable sections)",
+      "sourceUrl": "https://www.richardforsunnyvale.com/track-record",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "contest": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5",
+      "issue": "cost-of-living-economy",
+      "quote": "Richard is committed to creating new opportunities for retail and grocery stores as part of the General Plan Review slated to begin in summer of 2027.",
+      "sourceTitle": "Campaign website, Richard For Sunnyvale, Track Record (expandable sections)",
+      "sourceUrl": "https://www.richardforsunnyvale.com/track-record",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    }
+  ]
+}

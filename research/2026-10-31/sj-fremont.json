@@ -1,0 +1,553 @@
+{
+  "group": "sj-fremont",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+      "name": "Nora Campos",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site noracamposforsanjose.com; the site itself could not be loaded, so not confirmed. Campaign-website quotes are taken from Ballotpedia's reproduction of her campaign site (cited Apr 4, 2026). No Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "name": "Peter Ortiz",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site ortiz2026.com; not loaded, so not confirmed. Campaign-website quotes come from Ballotpedia's reproduction of his campaign site (cited Apr 4, 2026). No Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+      "name": "Van Le",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site vanlefordistrict7.com; fetch blocked, not confirmed. Campaign-website quotes come from Ballotpedia's reproduction (cited Apr 12, 2026). No Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan",
+      "name": "Bien Doan",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site biendoan.com (officeholder site sjdistrict7.org is separate); fetch blocked, not confirmed. Campaign-website quotes come from Ballotpedia's reproduction (cited Apr 4, 2026); that text describes D7 office initiatives. No Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+      "name": "Genny Altwer",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site gennyaltwer.com; not loaded, not confirmed. Completed 2026 Ballotpedia Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+      "name": "Gordon Chester",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site gordonford9.com; fetch blocked, not confirmed. Completed 2026 Ballotpedia Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+      "name": "Desrie Campbell",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site desriecampbell4fremont.com; not loaded, not confirmed. Completed 2026 Ballotpedia Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.keith-parker",
+      "name": "Keith Parker",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site parkerforfremont.com; not loaded, not confirmed. No 2026 Candidate Connection survey; quotes are from Ballotpedia's reproduction of his campaign site (cited Aug 21, 2026)."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+      "name": "Kathy Kimberlin",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists campaign site kathykimberlin.com; not loaded, not confirmed. Completed 2026 Ballotpedia Candidate Connection survey."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.vipin-sharma",
+      "name": "Vipin Sharma",
+      "campaignUrl": null,
+      "notes": "No sources found. No Ballotpedia page located; GoodParty.org profile has no candidate-written text; no campaign site found. Local News Matters coverage could not be read (robots-blocked)."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.aziz-akbari",
+      "name": "Aziz Akbari",
+      "campaignUrl": null,
+      "notes": "GoodParty.org lists azizakbari.com; not loaded, not confirmed. Only source found is his answers to the Asian Pacific American Democratic Caucus endorsement questionnaire (a partisan group's questionnaire; candidate's own words)."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.ying-min-li",
+      "name": "Ying Min Li",
+      "campaignUrl": null,
+      "notes": "No sources found. GoodParty.org profile unclaimed; no campaign site or Ballotpedia survey found."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.anurag-mishra",
+      "name": "Anurag Mishra",
+      "campaignUrl": null,
+      "notes": "No sources found. No campaign site, Ballotpedia survey, or readable news quote found."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.manisha-pathak",
+      "name": "Manisha Pathak",
+      "campaignUrl": null,
+      "notes": "No sources found. GoodParty.org profile unclaimed; no campaign site or Ballotpedia survey found."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "homelessness",
+      "quote": "Nora believes homelessness must be addressed with urgency, dignity, and accountability.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Nora_Campos",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "cost-of-living-economy",
+      "quote": "Nora Campos will fight to lower everyday costs by supporting affordable childcare, fair utility rates, and local job creation.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Nora_Campos",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "streets-transit-clean",
+      "quote": "She will also prioritize cleaner streets by addressing illegal dumping, blight, and neglected infrastructure.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Nora_Campos",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "accountability",
+      "quote": "She believes in accountability, measurable results, and putting neighborhood needs first.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Nora_Campos",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "homelessness",
+      "quote": "He knows that people experiencing homelessness need a hand up, not a handout.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Peter_Ortiz",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "public-safety",
+      "quote": "At the same time, Peter knows that safety isn’t just about policing; it’s about prevention.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Peter_Ortiz",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "city-budget",
+      "quote": "Peter is committed to ensuring that District 5 is no longer left behind in citywide investment priorities.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Peter_Ortiz",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "streets-transit-clean",
+      "quote": "Peter envisions a cleaner, more beautiful East San José, one that residents can be proud of.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Peter_Ortiz",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "accountability",
+      "quote": "Peter authored a policy to require unhoused service providers to report outcomes and metrics when receiving city funds.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Peter_Ortiz",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+      "issue": "cost-of-living-economy",
+      "quote": "My goal is to transform East San Jose into a place where families want to set down roots, small business owners choose to invest and residents have access to workforce development and economic opportunity.",
+      "sourceTitle": "San José Spotlight, Meet the candidates running for District 5",
+      "sourceUrl": "https://sanjosespotlight.com/meet-the-candidates-running-for-district-5-san-jose-city-council/",
+      "sourceDate": "2026-03-17",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "public-safety",
+      "quote": "By using Unmanned Aerial Vehicles (UAVs), or drones, we can observe and respond to illegal fireworks activity in real time.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Bien_Doan",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "housing",
+      "quote": "The District 7-led ordinance is taking strong action to tackle the growing issue of \"vanlording\" in our City.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Bien_Doan",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "streets-transit-clean",
+      "quote": "The citizens see the street is cleaner. It’s tangible. You can actually see it,",
+      "sourceTitle": "San José Spotlight, San Jose District 7 candidates square off at public forum",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-district-7-candidates-square-off-at-public-forum/",
+      "sourceDate": "2026-04-07",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "public-safety",
+      "quote": "Increase police patrols and strengthen neighborhood security to keep families and businesses safe.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 12, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Van_Le",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "streets-transit-clean",
+      "quote": "Reduce blight, improve street maintenance, and invest in parks and public spaces to enhance quality of life.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 12, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Van_Le",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "cost-of-living-economy",
+      "quote": "Expand access to programs that help families, seniors, and small businesses grow, thrive, and succeed.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 12, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Van_Le",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "homelessness",
+      "quote": "Temporary solutions are not a strategy. We need a path to permanent housing.",
+      "sourceTitle": "San José Spotlight, San Jose District 7 candidates square off at public forum",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-district-7-candidates-square-off-at-public-forum/",
+      "sourceDate": "2026-04-07",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+      "issue": "accountability",
+      "quote": "I bring experience, accountability and the commitment to make every dollar count for the community,",
+      "sourceTitle": "San José Spotlight, San Jose District 7 candidates square off at public forum",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-district-7-candidates-square-off-at-public-forum/",
+      "sourceDate": "2026-04-07",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "homelessness",
+      "quote": "We'll also help working families stay housed, and fight the root causes of homelessness.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Genny_Altwer",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "public-safety",
+      "quote": "I support hiring 100+ additional police officers and investing in programs that address the root causes of crime.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Genny_Altwer",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "housing",
+      "quote": "For far too long, City Hall insiders and special interests have stood in the way of making housing more affordable. I’ll stand up to them so we can build a more affordable San José.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Apr 4, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Genny_Altwer",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "city-budget",
+      "quote": "Before we start imposing any new taxes on residents, we need to prove that we can use the money we already have wisely,",
+      "sourceTitle": "San José Spotlight, San Jose candidates share plans at District 9 forum",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-candidates-share-plans-at-district-9-forum/",
+      "sourceDate": "2026-03-17",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "accountability",
+      "quote": "They deserve to have someone who is getting results and not utilizing excuses.",
+      "sourceTitle": "San José Spotlight, Political newcomer enters District 9 San Jose council race",
+      "sourceUrl": "https://sanjosespotlight.com/political-newcomer-enters-district-9-san-jose-council-race/",
+      "sourceDate": "2025-11-10",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "housing",
+      "quote": "San José’s biggest challenge is that regular people can’t find or keep a home here.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Gordon_Chester",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "city-budget",
+      "quote": "I want to focus on a tax base that helps working families.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Gordon_Chester",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "homelessness",
+      "quote": "With so few opportunities to move out of emergency housing and into permanent housing, their safety, their security is uncertain,",
+      "sourceTitle": "San José Spotlight, San Jose employee enters District 9 City Council race",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-employee-enters-district-9-city-council-race/",
+      "sourceDate": "2025-12-16",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "cost-of-living-economy",
+      "quote": "I think we could be a better partner for our small businesses. At the same time, that is being a better partner for all workers and families and retired people of all incomes.",
+      "sourceTitle": "San José Spotlight, San Jose employee enters District 9 City Council race",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-employee-enters-district-9-city-council-race/",
+      "sourceDate": "2025-12-16",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+      "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+      "issue": "public-safety",
+      "quote": "We need to make sure people feel safe in their neighborhoods,",
+      "sourceTitle": "San José Spotlight, San Jose candidates share plans at District 9 forum",
+      "sourceUrl": "https://sanjosespotlight.com/san-jose-candidates-share-plans-at-district-9-forum/",
+      "sourceDate": "2026-03-17",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "public-safety",
+      "quote": "Desrie remains committed to keeping Fremont one of the safest cities in the region.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Aug 13, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Desrie_Campbell",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "city-budget",
+      "quote": "Strong finances and sustainable economic growth by producing balanced budgets that focus on community priorities.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Desrie_Campbell",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "homelessness",
+      "quote": "I am also passionate about our unhoused neighbors. Securing housing and stability for many in our communities that do not have shelter.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Desrie_Campbell",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "streets-transit-clean",
+      "quote": "Transit and mobility for all modes of transportation for disadvantage communities, people with disabilities, students and safety for drivers.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Desrie_Campbell",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "accountability",
+      "quote": "During my time in public service, I have been committed to leading with integrity, transparency, and being accessible to hear from the community.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Desrie_Campbell",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.keith-parker",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "homelessness",
+      "quote": "Providing meaningful help to those in need, while meeting the individual with the right support",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Aug 21, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Keith_Parker_(California)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.keith-parker",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "public-safety",
+      "quote": "Ensuring the our Police Department is fully staffed and that every resident feels safe",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Aug 21, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Keith_Parker_(California)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.keith-parker",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+      "issue": "cost-of-living-economy",
+      "quote": "Fostering small business innovation and creating stable, high-wage jobs for every family in our district.",
+      "sourceTitle": "Campaign website text as quoted on Ballotpedia (cited Aug 21, 2026)",
+      "sourceUrl": "https://ballotpedia.org/Keith_Parker_(California)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3",
+      "issue": "homelessness",
+      "quote": "We must improve proactive measures to prevent people from becoming unhoused, increase shelter beds, transitional housing, and permanent housing.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Kathy_Kimberlin",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3",
+      "issue": "housing",
+      "quote": "Fremont has done very well partnering with nonprofit developers to build and open over 500 low, very low, and extremely low income units.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Kathy_Kimberlin",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3",
+      "issue": "accountability",
+      "quote": "In my service as your councilmember, I have improved accessibility, transparency and visibility between city government and the people we serve.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey, 2026",
+      "sourceUrl": "https://ballotpedia.org/Kathy_Kimberlin",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.aziz-akbari",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4",
+      "issue": "cost-of-living-economy",
+      "quote": "Finally, Fremont must remain a city where anyone can afford to not just survive, but thrive.",
+      "sourceTitle": "Asian Pacific American Democratic Caucus 2026 endorsement questionnaire, Akbari answers",
+      "sourceUrl": "https://apademcaucus.org/wp-content/uploads/2026/08/FremontCouncil4-Akbari.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.aziz-akbari",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4",
+      "issue": "housing",
+      "quote": "I also intend to invest in homes close to transit lines to increase accessibility.",
+      "sourceTitle": "Asian Pacific American Democratic Caucus 2026 endorsement questionnaire, Akbari answers",
+      "sourceUrl": "https://apademcaucus.org/wp-content/uploads/2026/08/FremontCouncil4-Akbari.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.aziz-akbari",
+      "contest": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4",
+      "issue": "accountability",
+      "quote": "First, City Hall must actually provide accessible services to its residents.",
+      "sourceTitle": "Asian Pacific American Democratic Caucus 2026 endorsement questionnaire, Akbari answers",
+      "sourceUrl": "https://apademcaucus.org/wp-content/uploads/2026/08/FremontCouncil4-Akbari.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    }
+  ]
+}

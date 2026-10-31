@@ -1,0 +1,457 @@
+{
+  "group": "sv-cities",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+      "name": "Paul Donahue",
+      "campaignUrl": null,
+      "notes": "Mountain View Voice profile lists campaign site electpauldonahue.com, but it could not be fetched to confirm, so campaignUrl left null."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "name": "Robert Cox",
+      "campaignUrl": "https://robertcoxforcouncil.pages.dev/",
+      "notes": "Site footer: 'Paid for by Robert Cox for Council 2026, FPPC ID #1489155'. MV Voice lists robertcoxforcouncil.com (not fetched)."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "name": "James Kuszmaul",
+      "campaignUrl": null,
+      "notes": "Mountain View Voice profile lists campaign site james4mv.com, but it could not be fetched to confirm, so campaignUrl left null."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "name": "Samuel Ali",
+      "campaignUrl": null,
+      "notes": "Mountain View Voice profile lists campaign site samformountainview.com, but it could not be fetched to confirm, so campaignUrl left null. Goes by Sam Ali."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "name": "IdaRose Sylvester",
+      "campaignUrl": null,
+      "notes": "Mountain View Voice profile lists campaign site idarosesylvester.com, but it could not be fetched to confirm, so campaignUrl left null."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "name": "Silja Paymer",
+      "campaignUrl": "https://siljapaymer.pages.dev/",
+      "notes": "Site carries 'Paid for by Silja Paymer for MV City Council, FPPC ID #1488605'. MV Voice lists siljapaymer.com (not fetched)."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "name": "Erik Poicon",
+      "campaignUrl": null,
+      "notes": "Mountain View Voice profile lists campaign site erik4mv.com, but it could not be fetched to confirm, so campaignUrl left null."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso",
+      "name": "Alex Amoroso",
+      "campaignUrl": null,
+      "notes": "Mountain View Voice profile lists campaign site alex4council.com, but it could not be fetched to confirm, so campaignUrl left null."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+      "name": "Anky van Deursen",
+      "campaignUrl": null,
+      "notes": "City of Los Altos elections page lists ankyforlosaltos.org, but it could not be fetched. No direct quotes found in Town Crier or Daily Post coverage."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng",
+      "name": "Lynette Lee Eng",
+      "campaignUrl": null,
+      "notes": "No campaign site found. Palo Alto Daily Post (2026-07-27) article has only short fragments, not usable."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-altos-council-district-4.city-council-member-district-4.larry-lang",
+      "name": "Larry Lang",
+      "campaignUrl": null,
+      "notes": "City of Los Altos elections page lists losaltoslarry.org, but it could not be fetched. Unopposed per roster (city page also listed Juno Szalay as a filer). No 2026 quotes found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+      "name": "Steve Raspe",
+      "campaignUrl": null,
+      "notes": "No campaign site found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "name": "Rob Stump",
+      "campaignUrl": null,
+      "notes": "Los Gatos Chamber (2022 page) listed stump4lg.com; not fetched/confirmed for 2026."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+      "name": "Mary Badame",
+      "campaignUrl": null,
+      "notes": "Los Gatos Chamber (2022 page) listed marybadame.com; not fetched/confirmed for 2026. Absent from Oct 2026 LWV forum."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.jeff-suzuki",
+      "name": "Jeff Suzuki",
+      "campaignUrl": null,
+      "notes": "No campaign site found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "name": "Rob Moore",
+      "campaignUrl": null,
+      "notes": "Los Gatos Chamber (2022 page) listed robforlosgatos.com; not fetched/confirmed for 2026."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.heidi-owens",
+      "name": "Heidi Owens",
+      "campaignUrl": null,
+      "notes": "No campaign site found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+      "name": "Linda Sell",
+      "campaignUrl": null,
+      "notes": "Incumbent, unopposed. No campaign site or 2026 statements found."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+      "name": "Murali Srinivasan",
+      "campaignUrl": "https://squid-indigo-zcad.squarespace.com",
+      "notes": "Site titled 'Re-Elect Murali Srinivasan', 'Paid for by Murali Srinivasan for Sunnyvale City Council 2026 FPPC# 1468980'. Site has no issue statements. Unopposed."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+      "name": "Richard Mehlinger",
+      "campaignUrl": null,
+      "notes": "Incumbent, unopposed. No campaign site found; Bay Area Reporter coverage has only campaign-process quotes."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "Insofar as the city can incentivize or control [to] try to get more of those affordable units, I think we need to do everything we can",
+      "sourceTitle": "Mountain View Voice, Paul Donahue: Expanding parks and revitalizing downtown",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/29/paul-donahue-expanding-parks-and-revitalizing-downtown/",
+      "sourceDate": "2026-09-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "I don't think that having people living on the streets in RVs is a permanent housing solution or a preferable one",
+      "sourceTitle": "Mountain View Voice, Robert Cox: 'Thoughtful growth' and neighborhood voices",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/28/robert-cox-thoughtful-growth-and-neighborhood-voices/",
+      "sourceDate": "2026-09-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "I support giving priority to the vision of those who live in our neighborhoods when planning our neighborhoods' future.",
+      "sourceTitle": "Campaign website, Robert Cox for Council",
+      "sourceUrl": "https://robertcoxforcouncil.pages.dev/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "Our city needs to continue efforts to make it easy for business owners to locate in those vacant spots.",
+      "sourceTitle": "Campaign website, Robert Cox for Council",
+      "sourceUrl": "https://robertcoxforcouncil.pages.dev/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "I generally want to say 'yes' to any new housing we can",
+      "sourceTitle": "Mountain View Voice, James Kuszmaul: More housing and safer streets",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/28/james-kuszmaul-more-housing-and-safer-streets/",
+      "sourceDate": "2026-09-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "More people will be paying fares, which can then fund more service",
+      "sourceTitle": "Mountain View Voice, James Kuszmaul: More housing and safer streets",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/28/james-kuszmaul-more-housing-and-safer-streets/",
+      "sourceDate": "2026-09-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "public-safety",
+      "quote": "I think that we need to be protecting our community here in Mountain View",
+      "sourceTitle": "Mountain View Voice, Sam Ali: Public safety and small businesses",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/28/sam-ali-mountain-view-city-council/",
+      "sourceDate": "2026-09-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "We're not trying to nickel and dime visitors who are coming here to Mountain View",
+      "sourceTitle": "Mountain View Voice, Sam Ali: Public safety and small businesses",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/28/sam-ali-mountain-view-city-council/",
+      "sourceDate": "2026-09-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "I worry that this issue can't be solved by any one city alone",
+      "sourceTitle": "Mountain View Voice, IdaRose Sylvester: Protecting residents and 'standing up' for community",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/29/idarose-sylvester-protecting-residents-and-standing-up-for-community/",
+      "sourceDate": "2026-09-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "Local control is not all lost.",
+      "sourceTitle": "Mountain View Voice, IdaRose Sylvester: Protecting residents and 'standing up' for community",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/29/idarose-sylvester-protecting-residents-and-standing-up-for-community/",
+      "sourceDate": "2026-09-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "public-safety",
+      "quote": "It matters a lot to me that we protect our entire community",
+      "sourceTitle": "Mountain View Voice, IdaRose Sylvester: Protecting residents and 'standing up' for community",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/29/idarose-sylvester-protecting-residents-and-standing-up-for-community/",
+      "sourceDate": "2026-09-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "city-budget",
+      "quote": "If the voters say they can't, they won't support it, that's something we have to listen to",
+      "sourceTitle": "Mountain View Voice, IdaRose Sylvester: Protecting residents and 'standing up' for community",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/29/idarose-sylvester-protecting-residents-and-standing-up-for-community/",
+      "sourceDate": "2026-09-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "accountability",
+      "quote": "People do not feel the city is listening to them before making major determinations",
+      "sourceTitle": "Mountain View Voice, IdaRose Sylvester: Protecting residents and 'standing up' for community",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/29/idarose-sylvester-protecting-residents-and-standing-up-for-community/",
+      "sourceDate": "2026-09-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "homelessness",
+      "quote": "All of our neighbors deserve a safe place to sleep.",
+      "sourceTitle": "Campaign website, Silja Paymer for Mountain View City Council 2026",
+      "sourceUrl": "https://siljapaymer.pages.dev/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "We are making big decisions about housing and progress, but we cannot lose our soul in the process.",
+      "sourceTitle": "Campaign website, Silja Paymer for Mountain View City Council 2026",
+      "sourceUrl": "https://siljapaymer.pages.dev/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Streets should be safe for all users, including those who cannot or choose not to drive.",
+      "sourceTitle": "Campaign website, Silja Paymer for Mountain View City Council 2026",
+      "sourceUrl": "https://siljapaymer.pages.dev/",
+      "sourceDate": "2026-10-31",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "city-budget",
+      "quote": "I could see a bond measure working if it was focused on what the community said it wanted",
+      "sourceTitle": "Mountain View Voice, Silja Paymer: Safe streets for kids and more green space",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/30/silja-paymer-safe-streets-for-kids-and-more-green-space/",
+      "sourceDate": "2026-09-30",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "My goal is more housing near transit, neighborhoods that work for people who live there",
+      "sourceTitle": "Mountain View Voice, Erik Poicon: Promoting affordability and inclusion",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/30/erik-poicon-promoting-affordability-and-inclusion/",
+      "sourceDate": "2026-09-30",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "public-safety",
+      "quote": "As much as we would want, we can't change federal immigration law, but we can make sure our residents feel safe",
+      "sourceTitle": "Mountain View Voice, Erik Poicon: Promoting affordability and inclusion",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/30/erik-poicon-promoting-affordability-and-inclusion/",
+      "sourceDate": "2026-09-30",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso",
+      "contest": "2026-11-03.ca-santa-clara-mountain-view.city-council-member",
+      "issue": "housing",
+      "quote": "If it's affordable housing here that doesn't affect parking, I have no issue with it",
+      "sourceTitle": "Mountain View Voice, Alex Amoroso: Public service and economic development",
+      "sourceUrl": "https://www.mv-voice.com/election/2026/09/30/alex-amoroso-public-service-and-economic-development/",
+      "sourceDate": "2026-09-30",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "housing",
+      "quote": "There will be change",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "the appropriate and proper use of Flock cameras is a benefit",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "city-budget",
+      "quote": "We've got to take a look at our budget in all aspects and figure out where we might need to do things differently",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "housing",
+      "quote": "we will never miss another State certification deadline again or a Housing Element (deadline).",
+      "sourceTitle": "Los Gatan, Council candidates speak their minds during online forum",
+      "sourceUrl": "https://losgatan.com/council-candidates-speak-their-minds-during-online-forum/",
+      "sourceDate": "2026-10-07",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "This is not a problem that we brought on ourselves, and yet we're being asked to spend significantly to do this.",
+      "sourceTitle": "Los Gatan, Council candidates speak their minds during online forum",
+      "sourceUrl": "https://losgatan.com/council-candidates-speak-their-minds-during-online-forum/",
+      "sourceDate": "2026-10-07",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.jeff-suzuki",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "housing",
+      "quote": "It is particularly important for new developments in our town to be evaluated by our local institutions",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.jeff-suzuki",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "I'm just not convinced by any statistical evidence that Flock actually makes our community safer",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "I have serious concerns about this technology.",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "I would also prioritize the Highway 17/Highway 9 congestion relief project",
+      "sourceTitle": "Los Gatan, Council candidates speak their minds during online forum",
+      "sourceUrl": "https://losgatan.com/council-candidates-speak-their-minds-during-online-forum/",
+      "sourceDate": "2026-10-07",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.heidi-owens",
+      "contest": "2026-11-03.ca-santa-clara-los-gatos.town-council-member",
+      "issue": "public-safety",
+      "quote": "I think the public's focus on Flock is a little bit myopic because we need broader protection from surveillance technology.",
+      "sourceTitle": "Los Gatan, Meet the 6 candidates competing for 3 Los Gatos Council seats",
+      "sourceUrl": "https://losgatan.com/meet-the-6-candidates-competing-for-3-los-gatos-council-seats/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    }
+  ]
+}

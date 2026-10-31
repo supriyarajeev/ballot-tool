@@ -188,13 +188,17 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     await go(p, "#/contests", "h1");
     ok(/Local contests are listed for all 9 Bay Area counties/.test(await main(p)), "the contests page says local contests are listed for all nine counties"); }
   // Candidate evaluation: research pending. No scores, rating tables, weight shares or "0 of 7" messages are public.
-  { await go(p, "#/contest/2026-11-03.ca.governor", "[data-candidate-eval]");
+  // Contests with a candidate comparison show it instead; the notice stays on every other contest (Oct 30, 2026).
+  const CMP = new Set(Object.keys((D.quotes || {}).contests || {}));
+  const uncovered = D.contests.find((c) => !CMP.has(c.id) && (c.candidates || []).length >= 2 && D.J.get(c.jurisdiction) && D.J.get(c.jurisdiction).type === "state-district");
+  { await go(p, "#/contest/" + uncovered.id, "[data-candidate-eval]");
     const t = await p.$eval("[data-candidate-eval]", (d) => d.textContent);
-    ok((await p.getAttribute("[data-candidate-eval]", "data-candidate-eval")) === "pending" && /Research pending/.test(t) && /No candidate has been given a score or rating in this release/.test(t) && /Missing information is not a low score/.test(t), "Governor shows the research-pending notice");
+    ok((await p.getAttribute("[data-candidate-eval]", "data-candidate-eval")) === "pending" && /Research pending/.test(t) && /No candidate has been given a score or rating in this release/.test(t) && /Missing information is not a low score/.test(t), "a contest without a comparison shows the research-pending notice");
     ok(!/Weighted rating|of 5 factors|Insufficient evidence|%/.test(t) && (await p.$$eval(".ce-pct, .ce-t, .ce-cand, [data-candidate-eval] input, [data-candidate-eval] table", (e) => e.length)) === 0, "the pending notice has no scores, percentages, tables or controls");
+    await go(p, "#/contest/2026-11-03.ca.governor", ".detail");
     const order = await p.$$eval("a.cand b", (bs) => bs.map((b) => b.textContent));
     ok(JSON.stringify(order) === JSON.stringify(D.contests.find((c) => c.id === "2026-11-03.ca.governor").candidates.map((id) => D.candidates.find((c) => c.id === id).name)), "candidates stay in the official order");
-    await go(p, "#/contest/" + D.contests.find((c) => c.listStatus === "confirmed" && (c.candidates || []).length > 2).id, "[data-candidate-eval]");
+    await go(p, "#/contest/" + D.contests.find((c) => !CMP.has(c.id) && c.listStatus === "confirmed" && (c.candidates || []).length > 2).id, "[data-candidate-eval]");
     ok(/Research pending/.test(await p.textContent("[data-candidate-eval]")), "local contests show the same pending notice");
     // The full mode still works behind the gate: release.public true plus reviewed ratings for every candidate (test data, not real ratings).
     const gov = D.contests.find((k) => k.id === "2026-11-03.ca.governor");
@@ -206,6 +210,8 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
         gov.candidates.forEach((id, i) => { const c = j.candidates.find((x) => x.id === id); c.evaluation = { reviewed: "2026-10-24", reviewedBy: reviewers[i], ratings: ratings(i ? [4, 3, 3, 3, 3] : [3, 3, 3, 4, 4]) }; if (!reviewers[i]) delete c.evaluation.reviewedBy; });
         await route.fulfill({ response: r, json: j }); });
       await q.route(/fonts\.g|gc\.zgo/, (r) => r.abort());
+      // The evaluation gate is tested on the Governor contest with the comparison file withheld.
+      await q.route(/candidate-quotes\.json/, (r) => r.fulfill({ status: 404, body: "" }));
       await q.goto(B + "#/contest/2026-11-03.ca.governor"); await q.waitForSelector("[data-candidate-eval]", { state: "attached", timeout: 10000 });
       const out = { mode: await q.getAttribute("[data-candidate-eval]", "data-candidate-eval"), sums: await q.$$eval(".ce-sum", (e) => e.map((x) => x.textContent)), pct: await q.$$eval(".ce-pct", (e) => e.map((x) => x.textContent)) };
       await ctx2.close(); return out; }
@@ -215,6 +221,54 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(partial.mode === "pending", "with release.public true, one unreviewed candidate keeps the contest pending");
     const on = await gated(true, ["Test Reviewer", "Test Reviewer"]);
     ok(on.mode === "1" && /Weighted rating: 66% \(3\.3\/5\)/.test(on.sums[0]) && JSON.stringify(on.pct) === JSON.stringify(["29.4%", "23.5%", "17.6%", "17.6%", "11.8%"]), "when enabled with reviewed ratings, the shared engine calculates with the standard weights: " + on.sums.join(" | ")); }
+  // ---------- Candidate comparisons (Oct 30, 2026) ----------
+  // Every covered contest: one row per issue in the data's order, one cell per candidate in ballot order, each cell either
+  // the exact recorded quote with an https source, its date and its match date, or the one fixed missing sentence.
+  if (D.quotes) {
+    const Q = D.quotes, NOQ = "No public statement found in our sources.";
+    const qOf = (pid, iss) => Q.quotes.find((q) => q.candidate === pid && q.issue === iss);
+    let cells = 0, quoted = 0, bad = [];
+    for (const cid of Object.keys(Q.contests)) {
+      const con = D.contests.find((c) => c.id === cid), iss = Q.issueSets[Q.contests[cid].issueSet];
+      await go(p, "#/contest/" + encodeURIComponent(cid), "[data-compare]");
+      const got = await p.$$eval(".ws-row", (rs) => rs.map((r) => ({ issue: r.getAttribute("data-issue"), label: r.querySelector(".fold-name").textContent, cells: [...r.querySelectorAll(".ws-cell")].map((c) => ({ id: c.getAttribute("data-cand"), q: (c.querySelector(".ws-q") || {}).textContent || null, none: (c.querySelector("[data-no-quote]") || {}).textContent || null, href: (c.querySelector(".ws-src a") || {}).href || null, chk: (c.querySelector("[data-check]") || {}).textContent || "" })) })));
+      if (JSON.stringify(got.map((r) => r.issue)) !== JSON.stringify(iss.map((i) => i.id)) || got.some((r, i) => r.label !== iss[i].label)) bad.push(cid + ": issue rows");
+      for (const r of got) {
+        if (JSON.stringify(r.cells.map((c) => c.id)) !== JSON.stringify(con.candidates)) bad.push(cid + " " + r.issue + ": ballot order");
+        for (const c of r.cells) { cells++; const want = qOf(c.id, r.issue);
+          if (want) { quoted++; if (c.q !== "“" + want.quote + "”" || c.href !== want.sourceUrl || !/^https:/.test(c.href) || !/^Quote matched its source on [A-Z][a-z]{2} \d{1,2}, \d{4}$/.test(c.chk)) bad.push(c.id + " " + r.issue + ": quote cell"); }
+          else if (c.none !== NOQ || c.q) bad.push(c.id + " " + r.issue + ": missing cell"); } }
+      if ((await p.$$eval("[data-candidate-eval], [data-status-note]", (e) => e.length)) !== 0) bad.push(cid + ": pending or status box still shown");
+    }
+    ok(bad.length === 0, `comparisons: ${Object.keys(Q.contests).length} contests, ${cells} cells, ${quoted} quotes match the data exactly, in ballot order` + (bad.length ? ": " + bad.slice(0, 8).join("; ") : ""));
+    ok(quoted === Q.quotes.length, "every quote in the data appears in its contest (" + quoted + " of " + Q.quotes.length + ")");
+    ok(!Q.quotes.some((q) => /verified|reviewed/i.test(q.check.method + " " + (q.check.note || ""))), "match records describe what was done, never 'verified' or 'reviewed'");
+    // Issue rows start folded; Open all issues opens every row and closes them again.
+    const cid = Object.keys(Q.contests)[0];
+    await go(p, "#/contest/" + encodeURIComponent(cid), "[data-compare]");
+    const hid = () => p.$$eval(".ws-row .sec-body", (b) => b.map((x) => x.hidden));
+    ok((await hid()).every(Boolean), "issue rows start folded");
+    await p.click("[data-ws-all]"); ok((await hid()).every((h) => !h) && (await p.textContent("[data-ws-all]")) === "Close all issues", "Open all issues opens every row");
+    await p.click("[data-ws-all]"); ok((await hid()).every(Boolean), "Close all issues folds them again");
+    await p.click("[data-about-method]"); await p.waitForSelector("[data-about]"); await p.waitForTimeout(150);
+    ok(await p.$eval("#compare-method", (d) => d.open) && (await p.textContent("[data-compare-method]")).includes(Q.method), "How quotes are chosen opens the method on About, with the exact methodology text");
+    // Profiles: the same issues and quotes, a link back to the comparison, and no empty research sections.
+    const con = D.contests.find((c) => c.id === cid), pid = con.candidates[0];
+    await go(p, "#/candidate/" + encodeURIComponent(pid), "[data-profile-quotes]");
+    const pi = await p.$$eval(".ws-pi", (r) => r.map((x) => ({ h: x.querySelector("h3").textContent, q: (x.querySelector(".ws-q") || {}).textContent || null })));
+    const iss = Q.issueSets[Q.contests[cid].issueSet];
+    ok(pi.length === iss.length && pi.every((r, i) => r.h === iss[i].label && (qOf(pid, iss[i].id) ? r.q === "“" + qOf(pid, iss[i].id).quote + "”" : r.q === null)), "profile shows the same issues and quotes as the comparison");
+    ok((await p.getAttribute("[data-compare-link]", "href")) === "#/contest/" + encodeURIComponent(cid), "profile links to Compare everyone in this race");
+    ok(!/Not yet collected for this candidate|Qualifications and experience|Documented public record/.test(await main(p)) && !(await p.$("[data-status-note]")), "profile of a compared candidate has no empty research sections or review box");
+    // Directory, home entry point and Find My Ballot rows.
+    await go(p, "#/contests", "[data-compare-dir]");
+    ok((await p.$$eval("[data-compare-row]", (e) => e.length)) === Object.keys(Q.contests).length && /^Comparisons cover \d+ of \d+ contests in this guide\./.test(await p.textContent("[data-compare-count]")), "directory lists every compared race and the count line");
+    ok((await H1(p)) === "Candidates and races" && (await p.textContent("#topnav a[href='#/contests']")).trim() === "Candidates and races", "the page and the menu say Candidates and races");
+    await go(p, "#/", "[data-home-compare]"); ok((await p.getAttribute("[data-home-compare] a.btn", "href")) === "#/contests", "home page has the Compare candidates entry point");
+    await go(p, "#/ballot/ca-sf", "h1"); await p.waitForTimeout(200);
+    ok(await p.$$eval('a.row[href="#/contest/2026-11-03.ca.governor"]', (r) => r.length > 0 && r.every((x) => /Compare what the candidates say/.test(x.textContent))), "ballot pages mark contests that have a comparison");
+    ok(!/\b(score|scored|rating|rated|rank|ranked|grade|best|winner)\b/i.test((await p.goto(B + "#/contest/" + encodeURIComponent(cid)), await p.waitForSelector("[data-compare]"), await p.textContent("[data-compare]")).replace(/No ratings or rankings\./, "")), "comparison text has no score, rank or winner wording");
+  }
   // Disclaimer: unofficial, educational, by the developer; on About and in the footer of every page.
   { await go(p, "#/about", "[data-about]");
     const t = await p.$eval("[data-disclaimer]", (d) => d.textContent);
@@ -513,7 +567,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(recs.length > 20 && recs.every((o) => (o.x.status === "incomplete") === /^Incomplete/.test(o.r.badge)), "Oakland: every Incomplete item, and only those, keeps its badge in the list (" + recs.length + " rows)");
     ok(rows.some((o) => /May apply/.test(o.text)), "Oakland: district items still say May apply"); }
   // The status stays on each record's own page.
-  await go(p, "#/contest/2026-11-03.ca.governor", ".detail");
+  await go(p, "#/contest/" + uncovered.id, ".detail");
   ok((await p.textContent(".meta .badge")).trim() === "Needs review" && await p.isVisible('[data-status-note="needs-review"]'), "a Needs review record shows its status and what still needs checking on its own page");
   // Item-level warnings where facts rest on OCR or an AI reading of a page image.
   for (const rec of D.measures.filter((x) => x.level !== "state").concat(D.contests).filter((x) => x.readingNote).slice(0, 40)) {
@@ -731,13 +785,13 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     await d.goto(B + "#/"); await d.waitForSelector("h1");
     ok(!(await d.isVisible(".menu-btn")) && await d.isVisible("#topnav a[href='#/browse']"), "desktop: links shown, no Menu button");
     await c4.close();
-    const sweep = ["#/", "#/find?county=ca-contra-costa", "#/ballot/ca-santa-clara/ca-santa-clara-san-jose", "#/contests", "#/contest/2026-11-03.ca.governor", "#/candidate/2026-11-03.ca-sf.public-defender.manohar-raju", "#/browse", "#/about", "#/sheet/ca-alameda/ca-alameda-fremont", "#/how-to-vote"];
+    const sweep = ["#/", "#/find?county=ca-contra-costa", "#/ballot/ca-santa-clara/ca-santa-clara-san-jose", "#/contests", "#/contest/2026-11-03.ca.governor", "#/candidate/2026-11-03.ca-sf.public-defender.manohar-raju", "#/browse", "#/about", "#/sheet/ca-alameda/ca-alameda-fremont", "#/how-to-vote", "#/contest/2026-11-03.ca.insurance-commissioner", "#/candidate/2026-11-03.ca.insurance-commissioner.jane-kim"];
     const over = [];
     for (const w of [320, 360, 375, 390, 414, 430, 768, 1024, 1280]) {
       const c5 = await b.newContext({ viewport: { width: w, height: 800 } }); const z = await c5.newPage(); await blockExternal(z, new Set());
-      for (const h of sweep) { await z.goto(B + h); await z.waitForSelector("h1"); const sw = await z.evaluate(() => document.documentElement.scrollWidth); if (sw > w) over.push(h + "@" + w + "=" + sw); }
+      for (const h of sweep) { await z.goto(B + h); await z.waitForSelector("h1"); if (await z.$("[data-ws-all]")) await z.click("[data-ws-all]"); const sw = await z.evaluate(() => document.documentElement.scrollWidth); if (sw > w) over.push(h + "@" + w + "=" + sw); }
       await c5.close(); }
-    ok(over.length === 0, "no horizontal overflow on 8 routes at 9 widths from 320 to 1280: " + over.join(", "));
+    ok(over.length === 0, "no horizontal overflow on 12 routes at 9 widths, comparison rows open from 320 to 1280: " + over.join(", "));
   }
 
   // ---------- Widths, themes, axe, overflow, console errors, rendered HTML ----------
@@ -745,7 +799,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   // browser serializes the DOM (open="", async="", crossorigin="") and the per-route document title length.
   const rcfg = readJSON(".htmlvalidate.json");
   const htmlv = new HtmlValidate({ ...rcfg, rules: { ...(rcfg.rules || {}), "attribute-boolean-style": "off", "attribute-empty-style": "off", "script-type": "off", "long-title": "off" } });
-  const pages = ["#/", "#/find?county=ca-alameda&city=ca-alameda-oakland", "#/ballot/ca-alameda/ca-alameda-oakland", "#/ballot/ca-sf", "#/ballot/ca-fresno", "#/item/" + encodeURIComponent((incomplete[0] || localItem).id), "#/contest/2026-11-03.ca.governor", "#/contests", "#/browse", "#/about", "#/statewide", "#/item/2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i", "#/sheet/ca-alameda/ca-alameda-fremont", "#/how-to-vote"];
+  const pages = ["#/", "#/find?county=ca-alameda&city=ca-alameda-oakland", "#/ballot/ca-alameda/ca-alameda-oakland", "#/ballot/ca-sf", "#/ballot/ca-fresno", "#/item/" + encodeURIComponent((incomplete[0] || localItem).id), "#/contest/2026-11-03.ca.governor", "#/contests", "#/browse", "#/about", "#/statewide", "#/item/2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i", "#/sheet/ca-alameda/ca-alameda-fremont", "#/how-to-vote", "#/contest/2026-11-03.ca.insurance-commissioner", "#/candidate/2026-11-03.ca.insurance-commissioner.jane-kim"];
   for (const w of [360, 768, 1280]) for (const scheme of ["light", "dark"]) {
     const c2 = await b.newContext({ viewport: { width: w, height: 850 }, colorScheme: scheme });
     const q = await c2.newPage(); const e2 = [], h2 = new Set();

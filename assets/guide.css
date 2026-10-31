@@ -526,3 +526,32 @@ footer.site .credit p { max-width: 74ch; }
 footer.site .sec-bar { margin-bottom: 0; }
 .foot-list { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; font-size: .9rem; color: var(--ink); }
 .foot-list b { font-family: var(--f-display); }
+
+/* Candidate comparisons (Oct 30, 2026). Every candidate cell has the same frame, whatever it holds. */
+.ws { display: grid; gap: 10px; }
+.ws-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.ws-head .btn { padding: 8px 14px; font-size: .9rem; }
+.ws-row { display: grid; }
+.ws-row .sec-body { padding: 12px 2px 4px; }
+.ws-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+@media (min-width: 640px) { .ws-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ws-cell { min-width: 0; display: grid; gap: 8px; align-content: start; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; }
+.ws-name { font-family: var(--f-display); font-weight: 800; }
+.ws-name a { color: var(--ink); text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.ws-q { margin: 0; padding-left: 12px; border-left: 3px solid var(--accent); overflow-wrap: anywhere; }
+.ws-src { font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+.ws-kind { font-weight: 700; color: var(--ink); }
+.ws-chk { white-space: nowrap; }
+.ws-none { color: var(--muted); font-style: italic; }
+.ws-p h2 { margin-bottom: 2px; }
+.ws-prof { display: grid; gap: 10px; }
+.ws-pi { display: grid; gap: 6px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; }
+.ws-pi h3 { font-size: .95rem; }
+.cd .rows { border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; background: var(--sheet); }
+.cd .row { grid-template-columns: minmax(0, 1fr) auto auto; }
+.cd .row:last-child { border-bottom: 0; }
+.cd-h { margin-top: 6px; font-size: .95rem; color: var(--muted); }
+.cd-all { margin-top: 4px; }
+.pill-cov { font-size: .74rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--inc-soft); color: var(--muted); white-space: nowrap; }
+.cd .go { font-family: var(--f-display); font-weight: 700; color: var(--accent); white-space: nowrap; }
+@media (max-width: 560px) { .cd .row { grid-template-columns: minmax(0, 1fr) auto; } .cd .pill-cov { grid-column: 1; justify-self: start; } .cd .go { grid-row: 1; grid-column: 2; } }

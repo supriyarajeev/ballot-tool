@@ -20,12 +20,13 @@ function loadData() {
   const measures = election.files.measures.flatMap((p) => readJSON(p).items);
   const contests = readJSON(election.files.contests).contests;
   const candidates = readJSON(election.files.candidates).candidates;
+  const quotes = election.files.quotes ? readJSON(election.files.quotes) : null;
   const countyOf = (j) => { const seen = new Set(); while (j && !seen.has(j.id)) { seen.add(j.id); if (j.type === "county") return j; if (["state", "region", "state-district"].includes(j.type)) return null; j = J.get(j.parent); } return null; };
   const inCounty = (jid, cid) => { const j = J.get(jid); if (!j || j.type === "state") return false; if (j.type === "region" || j.type === "state-district") return (j.counties || []).includes(cid); return (countyOf(j) || {}).id === cid || (j.counties || []).includes(cid); };
   const bayIds = region ? region.counties : [];
   const counties = jur.filter((j) => j.type === "county");
   const citiesOf = (cid) => jur.filter((j) => j.type === "city" && j.parent === cid);
-  return { election, jur, J, region, measures, contests, candidates, countyOf, inCounty, bayIds, counties, citiesOf };
+  return { election, jur, J, region, measures, contests, candidates, quotes, countyOf, inCounty, bayIds, counties, citiesOf };
 }
 
 // Routes every request that is not to the local server to an empty response, and records the host.

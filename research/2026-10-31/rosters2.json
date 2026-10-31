@@ -1,0 +1,764 @@
+{
+ "mayors": [
+  {
+   "contest": "2026-11-03.ca-alameda-hayward.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Hayward",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+     "name": "Mark Salinas",
+     "designation": "Mayor/College Instructor",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-hayward.mayor.tom-wong",
+     "name": "Tom Wong",
+     "designation": "Businessman",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-alameda.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Alameda",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-alameda.mayor.tracy-l-jensen",
+     "name": "Tracy Jensen",
+     "designation": "Councilmember/Nonprofit Director",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-alameda.mayor.malia-vella",
+     "name": "Malia Vella",
+     "designation": "Businesswoman/Educator",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-alameda.mayor.tony-daysog",
+     "name": "Tony Daysog",
+     "designation": "Councilmember/Urban Planner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "San Leandro",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+     "name": "Juan González III",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-san-leandro.mayor.james-maes",
+     "name": "James Maes",
+     "designation": null,
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-dublin.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Dublin",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+     "name": "Sherry Hu",
+     "designation": "Mayor/Entrepreneur/Engineer",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-dublin.mayor.michael-mccorriston",
+     "name": "Michael McCorriston",
+     "designation": "Councilmember",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+     "name": "Kiran Mohammad",
+     "designation": "Author",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-newark.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Newark",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-newark.mayor.michael-k-hannon",
+     "name": "Michael K. Hannon",
+     "designation": "Mayor",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Pleasanton",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+     "name": "Jack Balch",
+     "designation": "Mayor/CPA",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+     "name": "Julie Testa",
+     "designation": "Councilmember, City of Pleasanton",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Richmond",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+     "name": "Claudia Jiménez",
+     "designation": "Councilmember, City of Richmond",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+     "name": "Ahmad Anderson",
+     "designation": "Human Resources Director",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "San Ramon",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-contra-costa-san-ramon.mayor.emma-chigbu",
+     "name": "Emma Chigbu",
+     "designation": "Student",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-contra-costa-san-ramon.mayor.mark-h-armstrong",
+     "name": "Mark H. Armstrong",
+     "designation": "Mayor/Retired Colonel",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-contra-costa-san-ramon.mayor.paschalis-ntatsos",
+     "name": "Paschalis Ntatsos",
+     "designation": "Nonprofit Director/CEO",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-napa-st-helena.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "St. Helena",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-napa-st-helena.mayor.bonnie-schoch",
+     "name": "Bonnie Schoch",
+     "designation": "Accountant",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-napa-st-helena.mayor.patrick-kenealy",
+     "name": "Patrick Kenealy",
+     "designation": "Venture Capitalist",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-napa-yountville.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Yountville",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-napa-yountville.mayor.marjorie-mohler",
+     "name": "Marjorie Mohler",
+     "designation": "Mayor",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-napa-yountville.mayor.joe-tagliaboschi",
+     "name": "Joe Tagliaboschi",
+     "designation": "City Manager",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-san-mateo-belmont.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Belmont",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-san-mateo-belmont.mayor.julia-mates",
+     "name": "Julia Mates",
+     "designation": "Mayor of Belmont",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-san-mateo-san-bruno.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "San Bruno",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-san-mateo-san-bruno.mayor.rico-e-medina",
+     "name": "Rico E. Medina",
+     "designation": "Mayor, City of San Bruno",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Milpitas",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+     "name": "Hon Lien",
+     "designation": "Council Member, City of Milpitas",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-milpitas.mayor.carmen-montano",
+     "name": "Carmen Montano",
+     "designation": "Mayor/Educator",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-milpitas.mayor.voltaire-s-montemayor",
+     "name": "Voltaire S. Montemayor",
+     "designation": "Retired Geologist",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+     "name": "Santosh Sahoo",
+     "designation": "Tech Entrepreneur",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-morgan-hill.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Morgan Hill",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-morgan-hill.mayor.kristopher-l-clayton",
+     "name": "Kristopher L. Clayton",
+     "designation": "Carpenter",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-morgan-hill.mayor.mark-turner",
+     "name": "Mark Turner",
+     "designation": "Incumbent",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-morgan-hill.mayor.deborah-m-africa",
+     "name": "Deborah M. Africa",
+     "designation": "Retired RN/Mother",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-santa-clara.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Santa Clara",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.mike-wiltberger",
+     "name": "Mike Wiltberger",
+     "designation": "Research Scientist/Entrepreneur",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.armando-gary-ferraris",
+     "name": "Armando \"Gary\" Ferraris",
+     "designation": "Retired City Employee",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.karen-hardy",
+     "name": "Karen Hardy",
+     "designation": "City of Santa Clara Councilmember District 3",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.david-kertes",
+     "name": "David Kertes",
+     "designation": "Bussinessman/Father/Coach",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.kathy-watanabe",
+     "name": "Kathy Watanabe",
+     "designation": "School Board Trustee",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.kevin-park",
+     "name": "Kevin Park",
+     "designation": "City of Santa Clara Councilmember, District 4",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-solano-fairfield.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Fairfield",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+     "name": "Pam Bertani",
+     "designation": "Mother / Councilmember / Attorney",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-fairfield.mayor.scott-tonnesen",
+     "name": "Scott Tonnesen",
+     "designation": "Small Businessman / Councilmember",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-fairfield.mayor.nikila-walker-gibson",
+     "name": "Nikila Walker Gibson",
+     "designation": "Business Owner",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-fairfield.mayor.george-kennedy",
+     "name": "George Kennedy",
+     "designation": "Small Business Owner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-solano-suisun-city.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Suisun City",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-solano-suisun-city.mayor.alma-hernandez",
+     "name": "Alma Hernandez",
+     "designation": "Incumbent",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-suisun-city.mayor.chauncey-banks",
+     "name": "Chauncey Banks",
+     "designation": "Entrepreneur",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+     "name": "Michael Jefferson",
+     "designation": "Political Consultant",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-suisun-city.mayor.lilia-dardon",
+     "name": "Lilia Dardon",
+     "designation": "Retired Teacher",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-suisun-city.mayor.amit-pal",
+     "name": "Amit Pal",
+     "designation": "Councilmember / Business Owner",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-solano-vacaville.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Vacaville",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-solano-vacaville.mayor.sarah-chapman",
+     "name": "Sarah Chapman",
+     "designation": "Vacaville City Councilmember",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-solano-vacaville.mayor.roy-stockton",
+     "name": "Roy Stockton",
+     "designation": "Councilmember / Sheriff's Sergeant",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Petaluma",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+     "name": "John Hanania",
+     "designation": "Small Business Owner",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+     "name": "Kevin McDonnell",
+     "designation": "Petaluma City Mayor",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda",
+     "name": "Shelina Moreda",
+     "designation": "Businesswoman/Farmer/Athlete",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sonoma-windsor.mayor",
+   "office": "Mayor",
+   "district": null,
+   "jurisdiction": "Windsor",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+     "name": "Tanya Potter",
+     "designation": "Councilmember/Police Sergeant",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sonoma-windsor.mayor.rick-massell",
+     "name": "Rick Massell",
+     "designation": "Retired Educator",
+     "party": null
+    }
+   ]
+  }
+ ],
+ "house": [
+  {
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "office": "U.S. Representative",
+   "district": "District 1",
+   "jurisdiction": "Congressional District 1",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire",
+     "name": "Mike McGuire",
+     "designation": "California State Senator",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+     "name": "James Gallagher",
+     "designation": "United States Representative/Farmer",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "office": "U.S. Representative",
+   "district": "District 2",
+   "jurisdiction": "Congressional District 2",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+     "name": "Jared Huffman",
+     "designation": "U.S. Representative",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-2.u-s-representative-district-2.robin-littau",
+     "name": "Robin Littau",
+     "designation": "Enterprise Elementary School Board Member",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "office": "U.S. Representative",
+   "district": "District 4",
+   "jurisdiction": "Congressional District 4",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+     "name": "Eric Jones",
+     "designation": "Businessman/Nonprofit Executive",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+     "name": "Mike Thompson",
+     "designation": "Member of Congress",
+     "party": "Democratic"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-8.u-s-representative-district-8",
+   "office": "U.S. Representative",
+   "district": "District 8",
+   "jurisdiction": "Congressional District 8",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+     "name": "John Garamendi",
+     "designation": "Member of Congress",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-8.u-s-representative-district-8.rudy-recile",
+     "name": "Rudy Recile",
+     "designation": "Business Owner/Consultant",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "office": "U.S. Representative",
+   "district": "District 9",
+   "jurisdiction": "Congressional District 9",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+     "name": "Josh Harder",
+     "designation": "Father/Representative",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-9.u-s-representative-district-9.john-mcbride",
+     "name": "John McBride",
+     "designation": "Athletic Performance Coach",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "office": "U.S. Representative",
+   "district": "District 10",
+   "jurisdiction": "Congressional District 10",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+     "name": "Mark DeSaulnier",
+     "designation": "United States Congressman",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+     "name": "Jeff Frese",
+     "designation": "Small Business Owner",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "office": "U.S. Representative",
+   "district": "District 11",
+   "jurisdiction": "Congressional District 11",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+     "name": "Connie Chan",
+     "designation": "San Francisco Supervisor",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+     "name": "Scott Wiener",
+     "designation": "State Senator",
+     "party": "Democratic"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "office": "U.S. Representative",
+   "district": "District 12",
+   "jurisdiction": "Congressional District 12",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+     "name": "Jamie Joyce",
+     "designation": "Nonprofit Executive Director",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+     "name": "Lateefah Simon",
+     "designation": "U.S. Representative",
+     "party": "Democratic"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "office": "U.S. Representative",
+   "district": "District 14",
+   "jurisdiction": "Congressional District 14",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+     "name": "Melissa Hernandez",
+     "designation": "Healthcare Services Director",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+     "name": "Aisha Wahab",
+     "designation": "State Senator",
+     "party": "Democratic"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "office": "U.S. Representative",
+   "district": "District 15",
+   "jurisdiction": "Congressional District 15",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+     "name": "Kevin Mullin",
+     "designation": "U.S. Representative",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter",
+     "name": "Charles Hoelter",
+     "designation": "Retired Training Supervisor",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-16.u-s-representative-district-16",
+   "office": "U.S. Representative",
+   "district": "District 16",
+   "jurisdiction": "Congressional District 16",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-16.u-s-representative-district-16.sam-liccardo",
+     "name": "Sam Liccardo",
+     "designation": "United States Representative",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-16.u-s-representative-district-16.peter-sundin-soul",
+     "name": "Peter Sundin Soulé",
+     "designation": "Investor",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "office": "U.S. Representative",
+   "district": "District 17",
+   "jurisdiction": "Congressional District 17",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+     "name": "Ro Khanna",
+     "designation": "United States Congressmember",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+     "name": "Ritesh Tandon",
+     "designation": "CEO/Entrepreneur/Researcher",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "office": "U.S. Representative",
+   "district": "District 18",
+   "jurisdiction": "Congressional District 18",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+     "name": "Zoe Lofgren",
+     "designation": "Congresswoman",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+     "name": "Shane Lewis",
+     "designation": "Electrical Test Engineer",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "office": "U.S. Representative",
+   "district": "District 19",
+   "jurisdiction": "Congressional District 19",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+     "name": "Jimmy Panetta",
+     "designation": "United States Representative",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+     "name": "Peter Coe Verbica",
+     "designation": "Business Owner",
+     "party": "Republican"
+    }
+   ]
+  }
+ ]
+}

@@ -481,6 +481,43 @@ for (const e of elections) {
     checkSources(p.sources, w, p.status);
   });
   contests.forEach((c) => c.candidates.forEach((cid) => { if (!candIds.has(cid)) err(`${f.contests} ${c.id}: candidate "${cid}" does not exist`); }));
+
+  // ---------- candidate comparisons (VAL-20, Oct 30, 2026) ----------
+  // Direct quotes only. Each must name a real candidate in a listed contest, use an issue from that contest's list, have
+  // an https source, a past date and a record of the date it was matched against that source. One quote per
+  // candidate per issue. Check records describe what was done; they never claim a quote was verified or reviewed.
+  if (f.quotes) {
+    const Q = readOnce(f.quotes);
+    if (Q) {
+      scanUrls(Q, f.quotes);
+      const cById = new Map(contests.map((c) => [c.id, c])), pById = new Map(candidates.map((p) => [p.id, p]));
+      const KINDS = new Set(["official-statement", "campaign", "questionnaire", "news"]), seen = new Set();
+      if (typeof Q.method !== "string" || !/does not rate, rank or endorse candidates/.test(Q.method)) err(`${f.quotes}: method text is missing or changed`);
+      for (const [cid, cv] of Object.entries(Q.contests || {})) {
+        if (!cById.has(cid)) err(`${f.quotes}: contest "${cid}" does not exist`);
+        if (!Q.issueSets || !Array.isArray(Q.issueSets[cv.issueSet]) || !Q.issueSets[cv.issueSet].length) err(`${f.quotes} ${cid}: unknown issue set "${cv.issueSet}"`);
+        pastDate(cv.researched, `${f.quotes} ${cid}`, "researched");
+      }
+      for (const [pid, m] of Object.entries(Q.candidates || {})) {
+        if (!pById.has(pid) || !Q.contests[pById.get(pid).contest]) err(`${f.quotes}: candidate "${pid}" is not in a compared contest`);
+        if (m.campaignUrl != null && !isUrl(m.campaignUrl)) err(`${f.quotes} ${pid}: campaignUrl must be https`);
+      }
+      (Q.quotes || []).forEach((q, i) => {
+        const w = `${f.quotes} quote ${i} (${q.candidate} ${q.issue})`, p = pById.get(q.candidate), cv = Q.contests[q.contest];
+        if (!p || p.contest !== q.contest || !cv) { err(`${w}: candidate and contest do not match a compared contest`); return; }
+        if (!(Q.issueSets[cv.issueSet] || []).some((x) => x.id === q.issue)) err(`${w}: issue is not in this office's list`);
+        if (typeof q.quote !== "string" || q.quote.trim().length < 15 || q.quote !== q.quote.trim()) err(`${w}: quote is empty, too short or has surrounding spaces`);
+        if (!isUrl(q.sourceUrl)) err(`${w}: sourceUrl must be https`);
+        if (!q.sourceTitle) err(`${w}: sourceTitle is required`);
+        if (!KINDS.has(q.sourceType)) err(`${w}: sourceType "${q.sourceType}" is not allowed`);
+        if (!["published", "accessed"].includes(q.dateKind)) err(`${w}: dateKind must be published or accessed`);
+        pastDate(q.sourceDate, w, "sourceDate");
+        if (!q.check || !q.check.date || !q.check.method) err(`${w}: no record of matching the quote against its source`);
+        else { pastDate(q.check.date, w, "check.date"); if (/verif|review/i.test(q.check.method)) err(`${w}: check method must describe what was done, not claim verification or review`); }
+        const k = q.candidate + "|" + q.issue; if (seen.has(k)) err(`${w}: more than one quote for this candidate and issue`); seen.add(k);
+      });
+    }
+  }
 }
 
 // ---------- candidate order (VAL-07) ----------

@@ -118,6 +118,7 @@
     if (/statewide\.json$/.test(p)) return "statewide propositions";
     if (/contests\.json$/.test(p)) return "candidate contests";
     if (/candidates\.json$/.test(p)) return "candidate details";
+    if (/candidate-quotes\.json$/.test(p)) return "candidate comparisons";
     return "local measures";
   }
   // A file that may fail without taking the guide down. The failure is recorded and disclosed on every page.
@@ -136,11 +137,12 @@
       DB.election = DB.elections.filter(function (e) { return e.status === "current"; })[0] || DB.elections[0];
       if (!DB.election || !DB.election.files) throw new Error("data/elections.json has no current election");
       var f = DB.election.files;
-      return Promise.all([Promise.all((f.measures || []).map(soft)), soft(f.contests), soft(f.candidates)]);
+      return Promise.all([Promise.all((f.measures || []).map(soft)), soft(f.contests), soft(f.candidates), f.quotes ? soft(f.quotes) : null]);
     }).then(function (r) {
       r[0].forEach(function (d) { if (d && Array.isArray(d.items)) DB.measures = DB.measures.concat(d.items); });
       DB.contests = r[1] && Array.isArray(r[1].contests) ? r[1].contests : [];
       DB.candidates = r[2] && Array.isArray(r[2].candidates) ? r[2].candidates : [];
+      DB.quotes = r[3] && r[3].contests && Array.isArray(r[3].quotes) ? r[3] : null;
       DB.measures.concat(DB.contests, DB.candidates).forEach(function (x) { if (x && typeof x.id === "string") DB.byId[x.id] = x; });
       if (!DB.measures.length && !DB.contests.length) throw new Error("No ballot information could be loaded");
     });
@@ -584,7 +586,7 @@
         '<div class="cta"><a class="btn primary" href="propositions.html">' + icon("scale") + 'Ballot Weighing Tool</a><a class="btn secondary" href="#/find">' + icon("pin") + "Find My Ballot</a></div>" +
         '<ul class="attrs" data-attrs="1"><li>' + icon("check") + "Source-linked information</li><li>" + icon("check") + "User-controlled preferences</li><li>" + icon("check") + "Transparent methodology</li></ul>" +
         '<p class="small scope-note" data-scope-note="1">Focused on the 14 statewide propositions, with the Bay Area local measures and contests collected so far, not a complete official ballot. Confirm your ballot with your county elections office or the ' + ext("https://voterguide.sos.ca.gov/", "official voter guide") + '. <a href="#/about">About this guide</a></p>' +
-        '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and contests</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
+        '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and races</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
       "</section>" +
       mapFigure() +
       "</div>" +
@@ -592,6 +594,9 @@
       regionCard().split("<!--covered-->")[0] +
       keyDatesCard() +
       nextSteps() +
+      (DB.quotes ? '<section class="card" aria-labelledby="cc-h" data-home-compare="1"><h2 id="cc-h">' + icon("doc") + "Compare candidates</h2>" +
+        "<p>See what candidates for all eight statewide offices" + (Object.keys(DB.quotes.contests).length > 8 ? " and major Bay Area races" : "") + " have said on the same issues, side by side and in their own words. Every quote links to its source. Nothing is rated or ranked.</p>" +
+        '<p><a class="btn secondary" href="#/contests">Compare candidates</a></p></section>' : "") +
       '<section class="card" aria-labelledby="tool-h"><h2 id="tool-h">' + icon("scale") + 'How the Ballot Weighing Tool works</h2>' + toolSteps() +
         '<p><a class="btn secondary" href="propositions.html">Open the Ballot Weighing Tool</a></p></section>' +
       regionCard().split("<!--covered-->")[1];
@@ -701,7 +706,7 @@
     var title = isContest ? x.office + (x.district ? ", " + x.district : "") : x.shortTitle || x.officialTitle;
     var id = isContest ? "Office" : x.identifier;
     var sub = j.name + (ap && ap.fit === "maybe" ? (ap.split ? " · May apply, this county is split between districts. Check your sample ballot" : " · May apply, check your sample ballot") : "") +
-      (isContest && x.listStatus === "pending" ? " · Not yet on a final official list" : "") + (isContest && x.noQualifiedCandidates ? " · No qualified candidates listed" : "");
+      (isContest && covered(x.id) ? " · Compare what the candidates say" : "") + (isContest && x.listStatus === "pending" ? " · Not yet on a final official list" : "") + (isContest && x.noQualifiedCandidates ? " · No qualified candidates listed" : "");
     if (th) return '<a class="row to-tool" href="' + esc(href) + '" data-search="' + esc((id + " " + title + " " + j.name + " " + (x.officialTitle || "")).toLowerCase()) + '"><span class="rt"><span class="rid">' + esc(id) + '</span><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span>" + listBadge(x.status) + '<span class="go">Open in the Ballot Weighing Tool<span aria-hidden="true"> \u203A</span></span></a>';
     return '<a class="row" href="' + href + '" data-search="' + esc((id + " " + title + " " + j.name + " " + (x.officialTitle || "")).toLowerCase()) + '"><span class="rt"><span class="rid">' + esc(id) + '</span><span class="rti">' + esc(title) + '</span><span class="rsub">' + esc(sub) + "</span></span>" + listBadge(x.status) + "</a>";
   }
@@ -895,7 +900,7 @@
         '<p class="meta">' + badge(c.status) + "<span>Last checked " + esc(fmtDate(c.lastVerified)) + "</span></p>" +
         evidenceLine(c) +
         readingNote(c) +
-        statusNote(c) +
+        (covered(c.id) ? "" : statusNote(c)) +
         (c.listStatus === "pending" ? '<div class="note warn" data-list-status="pending"><b>Not yet confirmed on a final official list</b><p>This contest and its candidates come from a filing list or a secondary source. The final list or your sample ballot may differ.</p></div>' : "") +
         (c.listStatus === "confirmed" ? '<p class="small" data-list-status="confirmed">This contest appears on the county’s official list of contests on the ballot.</p>' : "") +
         (c.seats ? '<p class="note">Vote for up to ' + esc(c.seats) + ".</p>" : "") +
@@ -904,7 +909,7 @@
           return '<a class="cand" href="#/candidate/' + enc(p.id) + '">' + candPhoto(p, 48, true) + '<span class="cand-t"><b>' + esc(p.name) + "</b>" + listBadge(p.status) + '<span class="small">' + esc([p.party ? "Party preference " + p.party : null, p.designation ? "Ballot designation " + p.designation : null].filter(Boolean).join(" · ") || "Details not yet collected") + "</span></span></a>";
         }).join("") + "</div>" : c.noQualifiedCandidates ? '<p class="missing" data-no-candidates="1">The official list shows no qualified candidates for this contest. Write-in candidates may still qualify; check your sample ballot.</p>' : '<p class="missing">Candidate names have not been collected for this contest yet. This does not mean the contest has no candidates.</p>') +
         (cands.length ? (withPhoto.length ? photoCredits(withPhoto) : "") + '<p class="small">' + (withPhoto.length < cands.length ? PHOTO_NOTE + " " : "") + ext(OFFICIAL.statements[0], "Official candidate statements") + " may include photos the candidates submitted.</p>" : "") +
-        (cands.length ? candidateEval(c, cands) : "") +
+        (cands.length && covered(c.id) ? compareSection(c, cands) : cands.length ? candidateEval(c, cands) : "") +
         (c.notes ? sec("Research notes", field(c.notes)) : "") +
         sec("Official sources", sourceList(c.sources), true, "sources") +
       "</article>";
@@ -980,6 +985,88 @@
       "<h2 class=\"ce-h\">Candidates, in the official order</h2>" + cards + "</div></details>";
   }
 
+  /* ---------- Candidate comparisons (Oct 30, 2026) ----------
+     data/<election>/candidate-quotes.json, built by tools/build-quotes.mjs. Direct quotes only, each with its source,
+     its date and the date it was matched against that source. Every candidate in a covered contest gets the same issue
+     rows in the same order, in the official ballot order from contests.json. A missing quote shows one fixed sentence.
+     Nothing here rates, ranks or recommends a candidate. */
+  var NO_QUOTE = "No public statement found in our sources.";
+  var SRC_KIND = { "official-statement": "Official candidate statement", campaign: "Campaign website", questionnaire: "Questionnaire answer", news: "Quoted in a news report" };
+  function covered(cid) { var Q = DB.quotes; return Q ? own(Q.contests, cid) || null : null; }
+  function issuesOf(cid) { var cv = covered(cid); return cv ? own(DB.quotes.issueSets, cv.issueSet) || [] : []; }
+  function quoteOf(pid, issue) {
+    var qs = DB.quotes ? DB.quotes.quotes : [];
+    for (var i = 0; i < qs.length; i++) if (qs[i].candidate === pid && qs[i].issue === issue) return qs[i];
+    return null;
+  }
+  function candMeta(pid) { return DB.quotes ? own(DB.quotes.candidates, pid) || {} : {}; }
+  function shortDate(iso) { var d = new Date(iso + "T12:00:00"); return isNaN(d) ? iso : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); }
+  function quoteBlock(q) {
+    if (!q) return '<p class="ws-none" data-no-quote="1">' + NO_QUOTE + "</p>";
+    return '<blockquote class="ws-q">“' + esc(q.quote) + '”</blockquote>' +
+      '<p class="ws-src"><span class="ws-kind">' + esc(own(SRC_KIND, q.sourceType) || "Source") + "</span> · " + ext(q.sourceUrl, esc(String(q.sourceTitle).replace(/^Official candidate statement, /, ""))) + " · " +
+      (q.dateKind === "published" ? "Published " : "Read ") + esc(shortDate(q.sourceDate)) +
+      (q.check ? ' · <span class="ws-chk" data-check="1">Quote matched its source on ' + esc(shortDate(q.check.date)) + "</span>" : "") + "</p>";
+  }
+  // Counts for the directory and the contest page: issues with at least one quote, and candidate-issue cells filled.
+  function coverStats(c) {
+    var iss = issuesOf(c.id), cs = c.candidates || [], withAny = 0, cells = 0;
+    iss.forEach(function (it) { var n = cs.filter(function (pid) { return quoteOf(pid, it.id); }).length; if (n) withAny++; cells += n; });
+    return { issues: iss.length, withAny: withAny, cells: cells, total: iss.length * cs.length, everyone: cs.every(function (pid) { return iss.some(function (it) { return quoteOf(pid, it.id); }); }) };
+  }
+  function coverLabel(st) { return st.everyone && st.cells * 2 >= st.total ? "Information available" : "Partial information"; }
+  function compareSection(c, cands) {
+    var iss = issuesOf(c.id), cv = covered(c.id), st = coverStats(c);
+    var rows = iss.map(function (it, i) {
+      var n = cands.filter(function (p) { return quoteOf(p.id, it.id); }).length;
+      return '<div class="ws-row" data-issue="' + esc(it.id) + '">' + fold("ws-" + i, it.label, "Statements from " + n + " of " + cands.length + " candidates",
+        '<div class="ws-grid' + (cands.length === 2 ? " two" : "") + '">' + cands.map(function (p) {
+          return '<div class="ws-cell" data-cand="' + esc(p.id) + '"><p class="ws-name"><a href="#/candidate/' + enc(p.id) + '">' + esc(p.name) + "</a></p>" + quoteBlock(quoteOf(p.id, it.id)) + "</div>";
+        }).join("") + "</div>") + "</div>";
+    }).join("");
+    return '<section class="ws" data-compare="1" aria-labelledby="ws-h"><div class="ws-head"><h2 id="ws-h">Where they stand</h2>' +
+      '<button type="button" class="btn secondary ws-all" data-ws-all="1" aria-pressed="false">Open all issues</button></div>' +
+      '<p class="small">Direct quotes only, in each candidate’s own words, with the source and date under every quote. Candidates in ballot order. ' +
+      "No ratings or rankings. A missing quote means our sources had none on that issue, not that the candidate has no view. " +
+      "Researched " + esc(fmtDate(cv.researched)) + ". Statements on " + st.withAny + " of " + st.issues + " issues. " + '<a href="#/about" data-about-method="1">How quotes are chosen</a>.</p>' +
+      rows + "</section>";
+  }
+  var jumpTo = null;
+  document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest("a[data-about-method]")) jumpTo = "compare-method"; });
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("button[data-ws-all]") : null; if (!b) return;
+    var open = b.getAttribute("aria-pressed") !== "true";
+    Array.prototype.forEach.call(document.querySelectorAll(".ws-row button.sec-fold"), function (f) {
+      var body = document.getElementById(f.getAttribute("data-body")); if (!body) return;
+      body.hidden = !open; f.setAttribute("aria-expanded", open ? "true" : "false"); f.querySelector(".fold-hint").textContent = open ? "Hide details" : "Show details";
+    });
+    b.setAttribute("aria-pressed", open ? "true" : "false"); b.textContent = open ? "Close all issues" : "Open all issues";
+  });
+  function profileWords(p, c) {
+    var iss = issuesOf(c.id);
+    return '<div class="ws-prof" data-profile-quotes="1">' + iss.map(function (it) {
+      return '<div class="ws-pi"><h3>' + esc(it.label) + "</h3>" + quoteBlock(quoteOf(p.id, it.id)) + "</div>";
+    }).join("") + "</div>";
+  }
+  // Directory of compared races, grouped as the owner's prompt asks. Only covered contests are listed.
+  function compareDirectory() {
+    if (!DB.quotes) return "";
+    var groups = [["Statewide offices", function (j) { return j.type === "state"; }], ["Mayors, city councils and supervisors", function (j) { return isLocalJur(j); }], ["US House", function (j) { return j.type === "state-district"; }]];
+    var ids = Object.keys(DB.quotes.contests);
+    var html = groups.map(function (g) {
+      var cs = ids.map(rec).filter(function (c) { var j = c && J(c.jurisdiction); return j && g[1](j); });
+      if (!cs.length) return "";
+      return '<h3 class="cd-h">' + esc(g[0]) + '</h3><div class="rows">' + cs.map(function (c) {
+        var j = J(c.jurisdiction) || {}, st = coverStats(c), n = (c.candidates || []).length;
+        return '<a class="row" href="#/contest/' + enc(c.id) + '" data-compare-row="' + esc(c.id) + '"><span class="rt"><span class="rti">' + esc(c.office + (c.district ? ", " + c.district : "")) + '</span><span class="rsub">' +
+          esc(j.name + " · " + n + (n === 1 ? " candidate" : " candidates") + " · Statements on " + st.withAny + " of " + st.issues + " issues") + '</span></span><span class="pill-cov">' + esc(coverLabel(st)) + '</span><span class="go">Compare<span aria-hidden="true"> ›</span></span></a>';
+      }).join("") + "</div>";
+    }).join("");
+    return '<section class="card cd" data-compare-dir="1" aria-labelledby="cd-h"><h2 id="cd-h">' + icon("scale") + "Compare candidates</h2>" +
+      "<p class=\"small\">What candidates have said on the same issues, in their own words, with every quote linked to its source.</p>" + html +
+      '<p class="small muted" data-compare-count="1">Comparisons cover ' + ids.length + " of " + DB.contests.length + " contests in this guide. The others list candidates and official links only.</p></section>";
+  }
+
   function viewCandidate(id) {
     var p = rec(id); if (!p || !p.name || !p.contest) return viewNotFound("That candidate is not in this guide.");
     var c = rec(p.contest) || {};
@@ -995,13 +1082,16 @@
         '<p class="meta">' + badge(p.status) + "<span>Last checked " + esc(fmtDate(p.lastVerified)) + "</span></p>" +
         evidenceLine(p) +
         readingNote(c) +
-        statusNote(p) +
+        (covered(p.contest) ? "" : statusNote(p)) +
         sec("From the official candidate list", (p.incumbent ? "<p>Marked as the incumbent in the official source.</p>" : "") + "<p>" + esc([p.party ? "Party preference. " + p.party + "." : "Party preference not listed or not collected.", p.designation ? "Ballot designation. " + p.designation + "." : "Ballot designation not collected."].join(" ")) + '</p><p class="small">Facts as printed in the official source listed at the bottom of this page.</p>' + (p.notes ? '<p class="small">' + esc(p.notes) + "</p>" : ""), true) +
+        (covered(p.contest) ? '<section class="ws ws-p" aria-labelledby="ow-h"><h2 id="ow-h">In their own words</h2><p class="small">Direct quotes on the issues compared for this office, each with its source. ' +
+          '<a href="#/contest/' + enc(p.contest) + '" data-compare-link="1">Compare everyone in this race</a>.</p>' + profileWords(p, c) +
+          (candMeta(p.id).campaignUrl ? '<p class="small">Campaign website: ' + ext(candMeta(p.id).campaignUrl, esc(candMeta(p.id).campaignUrl.replace(/^https:\/\/(www\.)?/, "").replace(/\/$/, ""))) + ". Written by the campaign.</p>" : "") + "</section>" : "") +
         sec("In the candidate's own words", (p.statementNote && !p.statementUrl ? '<div class="claim"><p class="who">Candidate statement</p><p>' + esc(p.statementNote) + "</p></div>" : block("Read the official candidate statement", p.statementUrl, "Candidate statement, the candidate's own claims")) + '<p class="small">Statements are written by candidates and are not fact-checked by elections officials. Not every candidate submits one.</p>') +
-        sec("Qualifications and experience", field(p.qualifications)) +
-        sec("Stated policy positions", field(p.positions)) +
-        sec("Documented public record", field(p.publicRecord)) +
-        sec("Campaign finance", block("Search official campaign finance filings", p.financeUrl, "Official disclosure records") + '<p class="small">Totals change through Election Day. Check the filing dates on the official site.</p>') +
+        (covered(p.contest) && !p.qualifications ? "" : sec("Qualifications and experience", field(p.qualifications))) +
+        (covered(p.contest) && !p.positions ? "" : sec("Stated policy positions", field(p.positions))) +
+        (covered(p.contest) && !p.publicRecord ? "" : sec("Documented public record", field(p.publicRecord))) +
+        sec("Campaign money", (covered(p.contest) && covered(p.contest).financeUrl ? '<div class="claim" data-finance="1"><p class="who">Official disclosure records</p><p>' + ext(covered(p.contest).financeUrl, esc(covered(p.contest).financeLabel)) + "</p></div>" : block("Search official campaign finance filings", p.financeUrl, "Official disclosure records")) + '<p class="small">Totals change through Election Day. Check the filing dates on the official site.</p>') +
         sec("Sources", sourceList(p.sources), true, "sources") +
       "</article>";
   }
@@ -1031,10 +1121,12 @@
     }).join("");
     var places = localContestPlaces();
     app.innerHTML = backLink() +
-      '<section class="ov-head"><h1>Candidates and contests</h1><p class="muted">' + esc(DB.election.name) + ". Statewide, congressional and legislative contests come from the Secretary of State's certified list. " +
+      '<section class="ov-head"><h1>Candidates and races</h1><p class="muted">' + esc(DB.election.name) + ". Statewide, congressional and legislative contests come from the Secretary of State's certified list. " +
         (places.length >= counties().length ? "Local contests are listed for all " + counties().length + " Bay Area counties, from each county’s official candidate list. " : places.length ? "Local contests are collected so far only for these places: " + places.join("; ") + ". " : "No local contests have been collected yet. ") +
         "This is not a full list of every race on your ballot. Use Find My Ballot to see what may apply where you live.</p>" +
         '<p class="small">From the Secretary of State: ' + links(["statements", "certlist"]) + ".</p></section>" +
+      compareDirectory() +
+      (DB.quotes ? '<h2 class="cd-all">All contests in this guide</h2>' : "") +
       html +
       '<p class="small">Candidates are never scored, ranked or recommended here.</p>';
   }
@@ -1106,7 +1198,7 @@
       '<article class="detail" data-about="1"><h1>About this guide</h1>' +
       '<div class="about-core" data-about-core="1">' +
         "<p>The California Bay Area Ballot Guide is an independent, unofficial civic information resource designed to help voters explore California’s statewide propositions through source-linked information, supporting evidence, and user-controlled preferences.</p>" +
-        '<h2>Coverage</h2><p>This guide focuses on California’s ' + n.state + " statewide propositions. It also lists the Bay Area local measures and candidate contests collected so far, which is not a complete list. Local measures and contests vary by county, city and district. For a complete and personalized ballot, consult your county elections office.</p>" +
+        '<h2>Coverage</h2><p>This guide focuses on California’s ' + n.state + " statewide propositions. It also lists the Bay Area local measures and candidate contests collected so far, which is not a complete list. For the races listed under Compare candidates, it shows what candidates have said on the same issues, in their own words. Local measures and contests vary by county, city and district. For a complete and personalized ballot, consult your county elections office.</p>" +
         '<h2>Sources and methodology</h2><p>Information is linked to official government materials and other identified sources. Evidence ratings are the project’s own analytical assessments, based on its published methodology, and are not official government ratings or independent validations. Linking to an official source does not make this guide’s summaries or ratings official. ' + (n.verified ? num(n.verified) + " records have been officially reviewed." : "No record or rating has been reviewed by an outside organization.") + "</p>" +
         '<h2>Development status</h2><p>This is an evolving educational project. Content, coverage, and functionality may be updated as additional information becomes available.</p>' +
       "</div>" +
@@ -1132,7 +1224,11 @@
         "<p><b>Your weights</b> say how much each factor matters to you. The weighted rating is the weighted average of the ratings under your weights, shown out of 5 and as a percentage of the top rating.</p>" +
         "<p><b>Your answer</b> is how you would vote on a measure: Yes, Not sure or No. It is kept separate from the evidence rating. A score is never a chance of passing, a share of voters, a guarantee of benefit or a recommendation.</p>") +
       sec("What “Insufficient evidence” means", "<p>A factor shows Insufficient evidence when no documented, sourced rating exists for it. It is left out of the calculation; it is never counted as 0, 1 or 5, and it is not a judgment against the measure or candidate. If no weighted factor is rated, no score is shown.</p>") +
-      sec("Candidate evaluation", "<p><b>Research pending.</b> Candidate-specific evidence profiles are not complete and have not been officially reviewed, so no candidate has a score or rating in this release, and contest pages show a status notice instead.</p>" +
+      (DB.quotes ? sec("Candidate comparisons", '<div data-compare-method="1"><p>' + esc(DB.quotes.method) + "</p>" +
+        "<p>Each quote is the candidate’s own words, copied exactly, one to three sentences in a row. Sources, in order of preference: the official candidate statement in the state or county voter guide, the candidate’s campaign website, questionnaires the candidate answered, and direct quotes in news reports. Endorsements, opponents’ descriptions, polls and paraphrases are never used. Each quote is labeled with the kind of source it came from.</p>" +
+        "<p>Every candidate in a race is compared on the same issues in the same order, in ballot order. Issue lists differ by office. Some issues are outside what an office controls directly; a quote on them shows what the candidate said, not what the office can do.</p>" +
+        "<p>Quotes were collected with AI research assistance. Each published quote was then matched word for word against its source, and the date of that match is shown under it. Quotes that could not be matched were left out. This checking is this project’s own and not reviewed by any outside organization.</p></div>", false, "compare-method") : "") +
+      sec("Candidate evaluation", "<p><b>Research pending.</b> Candidate-specific evidence profiles are not complete and have not been officially reviewed, so no candidate has a score or rating in this release. Contests without a candidate comparison show a status notice instead.</p>" +
         "<p>A future evaluation would apply the same five factors and one rubric to every candidate in a contest. Each rating would name its source (official records, published proposals, attributable statements or reliable independent reporting), its date and its reason, and would keep a candidate’s own claims apart from independently established facts. Missing information would show as Insufficient evidence, never as a low score, and no overall score would be shown until every factor is documented and officially reviewed.</p>" +
         "<p>Candidates always appear in the official ballot order. This guide never ranks candidates, predicts results or recommends a vote.</p>") +
       sec("How sources are chosen", "<p>Official sources come first: the Secretary of State, the Legislative Analyst’s Office, county elections offices and official measure documents. News reports are used only where official sources are silent, and are labeled as reported. Each item lists its sources and the date it was last checked.</p>") +
@@ -1393,6 +1489,8 @@
     // Route changes are announced by moving focus to the new h1, not by a live region over the whole page.
     // On the first load focus stays at the top of the document, so the skip link, menu and beta notice come first (UX-03).
     if (navCount > 1) focusTop(); else window.scrollTo(0, 0);
+    // "How quotes are chosen" opens the method section on the About page.
+    if (jumpTo) { var jt = document.getElementById(jumpTo); jumpTo = null; if (jt) { jt.open = true; jt.scrollIntoView({ block: "start" }); var js = jt.querySelector("summary"); if (js) js.focus({ preventScroll: true }); } }
   }
 
   // Compact menu on phones (CSS shows the button below 640px). Without JavaScript the links stay visible.

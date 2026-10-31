@@ -1,0 +1,720 @@
+{
+  "group": "mayors-eastbay",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+      "name": "Mark Salinas",
+      "campaignUrl": null,
+      "notes": "City of Hayward lists campaign site voteforsalinas.com; it could not be loaded, so not confirmed. Quotes are from his candidate statement on the City of Hayward candidate page; several long sentences were read in overlapping segments because the fetch tool truncates long quotes."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-hayward.mayor.tom-wong",
+      "name": "Tom Wong",
+      "campaignUrl": null,
+      "notes": "City of Hayward lists campaign site Tomforhaywardmayor2026.com; could not be loaded, not confirmed. Statement has no content on homelessness, city budget, streets or transparency. Long sentences were read in overlapping segments."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-alameda.mayor.tracy-l-jensen",
+      "name": "Tracy Jensen",
+      "campaignUrl": null,
+      "notes": "No usable sources found. APA Democratic Caucus questionnaire (Aug 2026) lists tracyforalameda.com but its answers are on API community outreach, not the guide's issues, and could not be quoted verbatim. No 2026 Alameda Post or LWV write-up found; Local News Matters blocked."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-alameda.mayor.malia-vella",
+      "name": "Malia Vella",
+      "campaignUrl": null,
+      "notes": "No usable sources found. APA Democratic Caucus questionnaire (Aug 2026) lists maliavella.com; no qualifying on-issue sentences. Campaign site not reachable. Ballotpedia page covers only her 2021 Assembly race."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-alameda.mayor.tony-daysog",
+      "name": "Tony Daysog",
+      "campaignUrl": null,
+      "notes": "No sources found: no 2026 campaign site, questionnaire, or news Q&A located."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+      "name": "Juan González III",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed. Quotes from the City of San Leandro official candidate statements PDF dated Aug 7, 2026; long sentences were read in overlapping segments."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-san-leandro.mayor.james-maes",
+      "name": "James Maes",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed. Quotes from the City of San Leandro official candidate statements PDF dated Aug 7, 2026."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+      "name": "Sherry Hu",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed. Quotes from Patch candidate questionnaire (Oct 12, 2026)."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-dublin.mayor.michael-mccorriston",
+      "name": "Michael McCorriston",
+      "campaignUrl": null,
+      "notes": "Pleasanton Weekly and the APA Dem Caucus questionnaire list mike4dublin.com; not loaded, not confirmed. No Patch Q&A found for him. Quotes from news article."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "name": "Kiran Mohammad",
+      "campaignUrl": null,
+      "notes": "No campaign site found. Quotes from Patch candidate questionnaire (Oct 12, 2026)."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-newark.mayor.michael-k-hannon",
+      "name": "Michael K. Hannon",
+      "campaignUrl": null,
+      "notes": "Running unopposed. No 2026 candidate statement, campaign site, questionnaire or news Q&A found."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+      "name": "Jack Balch",
+      "campaignUrl": null,
+      "notes": "Statement and Pleasanton Weekly list www.JackForPleasanton.com; not loaded, not confirmed. Quotes from City of Pleasanton candidate statements PDF; long sentences read in overlapping segments."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+      "name": "Julie Testa",
+      "campaignUrl": null,
+      "notes": "Statement and Pleasanton Weekly list JulieTesta.com; not loaded, not confirmed. Public-safety quote is from a news article (ends in a comma before attribution on the page)."
+    },
+    {
+      "id": "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+      "name": "Claudia Jiménez",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists claudiaformayor.com; not loaded, not confirmed. Campaign-website quotes are Ballotpedia's reproduction (cited Apr 3, 2026). No short public-safety sentence found."
+    },
+    {
+      "id": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "name": "Ahmad Anderson",
+      "campaignUrl": null,
+      "notes": "Ballotpedia lists anderson4richmond.com; not loaded, not confirmed. Campaign-website quotes are Ballotpedia's reproduction (cited Apr 3, 2026)."
+    },
+    {
+      "id": "2026-11-03.ca-contra-costa-san-ramon.mayor.emma-chigbu",
+      "name": "Emma Chigbu",
+      "campaignUrl": null,
+      "notes": "Danville San Ramon lists www.chigbu4mayor.com; not loaded, not confirmed. City of San Ramon 'Candidate Documents' PDF could not be fetched (redirect host blocked)."
+    },
+    {
+      "id": "2026-11-03.ca-contra-costa-san-ramon.mayor.mark-h-armstrong",
+      "name": "Mark H. Armstrong",
+      "campaignUrl": null,
+      "notes": "Patch and Danville San Ramon list armstrong4sanramon.com; not loaded, not confirmed. City candidate documents PDF could not be fetched."
+    },
+    {
+      "id": "2026-11-03.ca-contra-costa-san-ramon.mayor.paschalis-ntatsos",
+      "name": "Paschalis Ntatsos",
+      "campaignUrl": null,
+      "notes": "Danville San Ramon lists paschalisforsanramon.com; not loaded, not confirmed. Economy quote ends with a comma before attribution on the page. City candidate documents PDF could not be fetched."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "public-safety",
+      "quote": "Today, crime is down and we are recruiting and retaining good police officers.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Mark Salinas)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "homelessness",
+      "quote": "Hayward continues to reduce homelessness by producing supportive housing and services.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Mark Salinas)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "housing",
+      "quote": "Housing is getting built for all income levels and new childcare providers, grocery stores, bakeries, and restaurants have expanded amenities in neighborhoods.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Mark Salinas)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "city-budget",
+      "quote": "Looking ahead, my priorities are to make the City’s financial position stronger, reduce crime more, open more businesses and create jobs, and invest in safer streets for pedestrians, bicyclists, and drivers.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Mark Salinas)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "accountability",
+      "quote": "I believe in setting and accomplishing clear priorities, working with neighborhoods, and delivering on promises with measurable results.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Mark Salinas)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.tom-wong",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "public-safety",
+      "quote": "Every family deserves to feel safe in their neighborhood, and I’ll ensure our police and fire departments have the resources to respond quickly and keep our streets secure.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Tom Wong)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.tom-wong",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "housing",
+      "quote": "Homeownership is a right, not a privilege — I’ll fight to create a direct pathway to homeownership for Hayward families, cutting through red tape and bureaucratic delays so more residents can finally own a piece of the city they call home.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Tom Wong)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-hayward.mayor.tom-wong",
+      "contest": "2026-11-03.ca-alameda-hayward.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "Hayward jobs should go to Hayward residents first, and I’ll push for hiring policies that prioritize our city’s workforce, so the opportunities we create stay right here and benefit the families who live here.",
+      "sourceTitle": "City of Hayward, Candidate Information, Mayor candidate statement (Tom Wong)",
+      "sourceUrl": "https://www.hayward-ca.gov/your-government/elections/candidate-information",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "public-safety",
+      "quote": "For example, we've reduced crime, increased traffic enforcement, improved emergency response times, and expanded innovative behavioral health services.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (Juan González III)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "housing",
+      "quote": "We’ve built more housing, strengthened renter protections, connected more unhoused residents with housing and support services, and made City Hall more responsive through improved communication and faster neighborhood problem-solving.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (Juan González III)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "streets-transit-clean",
+      "quote": "We’ve also secured significant state and federal funding to improve our streets, expand library services, and invest in critical infrastructure while attracting clean energy, advanced manufacturing, and emerging technology companies that are creating new jobs and growing our local economy.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (Juan González III)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "homelessness",
+      "quote": "I remain committed to repairing aging infrastructure, completing projects on time and on budget, strengthening public safety, addressing homelessness with compassion and accountability, expanding housing opportunities, revitalizing our business community, and ensuring every neighborhood benefits from our progress.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (Juan González III)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "accountability",
+      "quote": "As Mayor, I’ve led with integrity, listened to our community, and delivered timely results.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (Juan González III)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.james-maes",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "Everyday working families, seniors, and our own children cannot afford to live here.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (James Maes)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.james-maes",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "housing",
+      "quote": "My name is James Maes, and I am running for Mayor to tackle this affordability crisis by making it easier to finally provide the housing and revenue we desperately need.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (James Maes)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.james-maes",
+      "contest": "2026-11-03.ca-alameda-san-leandro.mayor",
+      "issue": "city-budget",
+      "quote": "Instead, I will use my real-world executive experience to unite our city council, resolve conflicts, and balance the budget without cutting the essential neighborhood services we need.",
+      "sourceTitle": "City of San Leandro, Candidate Statements, November 3, 2026 General Municipal Election (James Maes)",
+      "sourceUrl": "https://www.sanleandro.org/DocumentCenter/View/16401",
+      "sourceDate": "2026-08-07",
+      "dateKind": "published",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "public-safety",
+      "quote": "Keeping Dublin safe is my first responsibility as Mayor.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Sherry Hu (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-sherry-hu",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "housing",
+      "quote": "My priority is to manage that growth responsibly, protect neighborhood quality of life, and strengthen our employment base.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Sherry Hu (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-sherry-hu",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "Strong businesses and responsible finances sustain the services residents depend on.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Sherry Hu (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-sherry-hu",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "streets-transit-clean",
+      "quote": "Advance upgrades to Tassajara Road and Village Parkway, and improve cell coverage with new telecommunications towers.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Sherry Hu (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-sherry-hu",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "accountability",
+      "quote": "I will seek regular public progress reports so residents can follow the next steps.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Sherry Hu (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-sherry-hu",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "housing",
+      "quote": "We need more homes of every type, market-rate and affordable, near transit and jobs.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Kiran Mohammad (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-kiran-mohammad",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "Young families, teachers, seniors and the people who work here are being priced out.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Kiran Mohammad (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-kiran-mohammad",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "public-safety",
+      "quote": "Pair police with trained mental health professionals for behavioral health crises, working with county mobile crisis teams.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Kiran Mohammad (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-kiran-mohammad",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "city-budget",
+      "quote": "The city's own forecast warns spending could outpace revenue by fiscal year 2031-32 if current trends continue.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Kiran Mohammad (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-kiran-mohammad",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "streets-transit-clean",
+      "quote": "Potholes, streetlights and sidewalks come before big new projects, because trust is built on what people see every day.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Kiran Mohammad (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-kiran-mohammad",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.kiran-mohammad",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "accountability",
+      "quote": "I take no money from developers or political factions; my only compass is what is right for Dublin.",
+      "sourceTitle": "Patch, Meet Dublin Candidate: Kiran Mohammad (candidate questionnaire)",
+      "sourceUrl": "https://patch.com/california/dublin/meet-dublin-candidate-kiran-mohammad",
+      "sourceDate": "2026-10-12",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.michael-mccorriston",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "city-budget",
+      "quote": "I will also ensure that the city’s financial resources remain robust to preserve city services and will continue to support investment in our city’s infrastructure, including maintaining roadways and improving the efficiency of traffic flows.",
+      "sourceTitle": "Pleasanton Weekly, Dublin Councilmember McCorriston announces run for mayor this fall",
+      "sourceUrl": "https://www.pleasantonweekly.com/election/2026/01/06/dublin-councilmember-mccorriston-announces-run-for-mayor-this-fall/",
+      "sourceDate": "2026-01-06",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-dublin.mayor.michael-mccorriston",
+      "contest": "2026-11-03.ca-alameda-dublin.mayor",
+      "issue": "accountability",
+      "quote": "Every resident deserves to feel informed, heard and valued by their elected official",
+      "sourceTitle": "Pleasanton Weekly, Dublin Councilmember McCorriston announces run for mayor this fall",
+      "sourceUrl": "https://www.pleasantonweekly.com/election/2026/01/06/dublin-councilmember-mccorriston-announces-run-for-mayor-this-fall/",
+      "sourceDate": "2026-01-06",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "public-safety",
+      "quote": "As Mayor, I've honored my promises to strengthen public safety, advance long-term water reliability, cut bureaucracy, support vitality and local businesses, bring greater transparency of city actions, and strengthen Pleasanton’s financial foundation.",
+      "sourceTitle": "City of Pleasanton, Candidate Statements, November 3, 2026 election (Jack Balch, Mayor)",
+      "sourceUrl": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/candidate-statements-081226.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "city-budget",
+      "quote": "While challenges remain, my commitment is unchanged: transparent government, quality and affordable city services, and protecting your hard-earned taxpayer dollars as we address affordability challenges and constrained budgets.",
+      "sourceTitle": "City of Pleasanton, Candidate Statements, November 3, 2026 election (Jack Balch, Mayor)",
+      "sourceUrl": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/candidate-statements-081226.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "accountability",
+      "quote": "I'll continue working to bring people together around our shared values while delivering real results that protect and enhance our quality of life.",
+      "sourceTitle": "City of Pleasanton, Candidate Statements, November 3, 2026 election (Jack Balch, Mayor)",
+      "sourceUrl": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/candidate-statements-081226.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "housing",
+      "quote": "I have addressed complex challenges, from state housing mandates and regional pressures to local issues affecting our neighborhoods, businesses, and quality of life.",
+      "sourceTitle": "City of Pleasanton, Candidate Statements, November 3, 2026 election (Julie Testa, Mayor)",
+      "sourceUrl": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/candidate-statements-081226.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "city-budget",
+      "quote": "Protecting financial stability, balanced budgets, infrastructure, and clean, safe drinking water are essential priorities.",
+      "sourceTitle": "City of Pleasanton, Candidate Statements, November 3, 2026 election (Julie Testa, Mayor)",
+      "sourceUrl": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/candidate-statements-081226.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "accountability",
+      "quote": "Residents, not special interests, should remain at the center of local government.",
+      "sourceTitle": "City of Pleasanton, Candidate Statements, November 3, 2026 election (Julie Testa, Mayor)",
+      "sourceUrl": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/candidate-statements-081226.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+      "contest": "2026-11-03.ca-alameda-pleasanton.mayor",
+      "issue": "public-safety",
+      "quote": "The ARU provides our excellent police force with yet another tool to support vulnerable persons in crisis",
+      "sourceTitle": "Pleasanton Weekly, Outgoing City Councilmember Testa enters Pleasanton mayor race",
+      "sourceUrl": "https://www.pleasantonweekly.com/city-politics/2026/08/10/outgoing-city-councilmember-testa-enters-pleasanton-mayor-race",
+      "sourceDate": "2026-08-10",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "homelessness",
+      "quote": "I will also prioritize supporting unhoused residents through transitional housing and added shelter beds.",
+      "sourceTitle": "Ballotpedia, Claudia Jimenez, Candidate Connection survey",
+      "sourceUrl": "https://ballotpedia.org/Claudia_Jimenez_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "housing",
+      "quote": "I aim to create a plan for thousands of affordable housing units within a revitalized downtown corridor.",
+      "sourceTitle": "Ballotpedia, Claudia Jimenez, Candidate Connection survey",
+      "sourceUrl": "https://ballotpedia.org/Claudia_Jimenez_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "We need to diversify our tax base and create new jobs by bringing new and cleaner industries to our city.",
+      "sourceTitle": "Ballotpedia, Claudia Jimenez, campaign website text (as reproduced on Ballotpedia)",
+      "sourceUrl": "https://ballotpedia.org/Claudia_Jimenez_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.claudia-jim-nez",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "city-budget",
+      "quote": "Having more revenue for the city means more opportunities to uplift Richmond residents.",
+      "sourceTitle": "Ballotpedia, Claudia Jimenez, campaign website text (as reproduced on Ballotpedia)",
+      "sourceUrl": "https://ballotpedia.org/Claudia_Jimenez_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "public-safety",
+      "quote": "Every Richmond resident deserves to feel safe in their community.",
+      "sourceTitle": "Ballotpedia, Ahmad Anderson, campaign website text (as reproduced on Ballotpedia)",
+      "sourceUrl": "https://ballotpedia.org/Ahmad_Anderson_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "housing",
+      "quote": "We need more homes now that are affordable for people of all income levels.",
+      "sourceTitle": "Ballotpedia, Ahmad Anderson, campaign website text (as reproduced on Ballotpedia)",
+      "sourceUrl": "https://ballotpedia.org/Ahmad_Anderson_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "streets-transit-clean",
+      "quote": "As Mayor, I will get our city back to the basics: fix potholes, clean up graffiti, and crack down on illegal dumping.",
+      "sourceTitle": "Ballotpedia, Ahmad Anderson, campaign website text (as reproduced on Ballotpedia)",
+      "sourceUrl": "https://ballotpedia.org/Ahmad_Anderson_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "We must invest in economic opportunity.",
+      "sourceTitle": "Ballotpedia, Ahmad Anderson, Candidate Connection survey",
+      "sourceUrl": "https://ballotpedia.org/Ahmad_Anderson_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "accountability",
+      "quote": "Richmond deserves leadership focused on results.",
+      "sourceTitle": "Ballotpedia, Ahmad Anderson, Candidate Connection survey",
+      "sourceUrl": "https://ballotpedia.org/Ahmad_Anderson_(Mayor_of_Richmond,_California,_candidate_2026)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "homelessness",
+      "quote": "We need to not only count how many people are unhoused, but understand what kind of support each of them actually needs.",
+      "sourceTitle": "Grandview Independent, Candidate interview: Ahmad Anderson runs for mayor of Richmond",
+      "sourceUrl": "https://www.grandviewindependent.com/candidate-interview-ahmad-anderson-runs-for-mayor-of-richmond/",
+      "sourceDate": "2026-03-18",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+      "contest": "2026-11-03.ca-contra-costa-richmond.mayor",
+      "issue": "city-budget",
+      "quote": "Building responsible rainy-day reserves and paying down city debts has to be part of the strategy now.",
+      "sourceTitle": "Grandview Independent, Candidate interview: Ahmad Anderson runs for mayor of Richmond",
+      "sourceUrl": "https://www.grandviewindependent.com/candidate-interview-ahmad-anderson-runs-for-mayor-of-richmond/",
+      "sourceDate": "2026-03-18",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.mark-h-armstrong",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "public-safety",
+      "quote": "Residents deserve to feel safe in their neighborhoods, parks, and schools.",
+      "sourceTitle": "Patch, San Ramon Mayor announces re-election campaign",
+      "sourceUrl": "https://patch.com/california/sanramon/san-ramon-mayor-announces-re-election-campaign",
+      "sourceDate": "2026-03-24",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.mark-h-armstrong",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "housing",
+      "quote": "I will work to ensure that any state-required housing avoids or minimizes the impact on schools and neighborhoods.",
+      "sourceTitle": "Patch, San Ramon Mayor announces re-election campaign",
+      "sourceUrl": "https://patch.com/california/sanramon/san-ramon-mayor-announces-re-election-campaign",
+      "sourceDate": "2026-03-24",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.mark-h-armstrong",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "accountability",
+      "quote": "Engagement with our residents needs to start long before we have a city council meeting",
+      "sourceTitle": "Danville San Ramon, San Ramon mayoral candidates debate city's future",
+      "sourceUrl": "https://www.danvillesanramon.com/election/2026/10/13/san-ramon-mayoral-candidates-debate-citys-future/",
+      "sourceDate": "2026-10-13",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.emma-chigbu",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "housing",
+      "quote": "Young families and professionals should have the same opportunities to live here that my family was blessed to have.",
+      "sourceTitle": "Danville San Ramon, San Ramon teen Chigbu launches mayoral campaign",
+      "sourceUrl": "https://www.danvillesanramon.com/city-politics/2026/08/25/san-ramon-teen-chigbu-launches-mayoral-campaign/",
+      "sourceDate": "2026-08-25",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.emma-chigbu",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "accountability",
+      "quote": "The residents of San Ramon deserve to be consistently informed of any decisions that impact their community.",
+      "sourceTitle": "Danville San Ramon, San Ramon teen Chigbu launches mayoral campaign",
+      "sourceUrl": "https://www.danvillesanramon.com/city-politics/2026/08/25/san-ramon-teen-chigbu-launches-mayoral-campaign/",
+      "sourceDate": "2026-08-25",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.emma-chigbu",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "city-budget",
+      "quote": "We must intentionally include residents in conversations about projects, developments, and budgeting.",
+      "sourceTitle": "Danville San Ramon, San Ramon teen Chigbu launches mayoral campaign",
+      "sourceUrl": "https://www.danvillesanramon.com/city-politics/2026/08/25/san-ramon-teen-chigbu-launches-mayoral-campaign/",
+      "sourceDate": "2026-08-25",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.paschalis-ntatsos",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "We have important priorities ahead, from managing our city resources effectively to revitalizing our neighborhoods by supporting local shops and creating vibrant, accessible spaces where every generation of San Ramon families can connect",
+      "sourceTitle": "Danville San Ramon, San Ramon swim coach Ntatsos dives into city politics",
+      "sourceUrl": "https://www.danvillesanramon.com/city-politics/2026/08/27/san-ramon-swim-coach-ntatsos-dives-into-city-politics/",
+      "sourceDate": "2026-08-27",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.paschalis-ntatsos",
+      "contest": "2026-11-03.ca-contra-costa-san-ramon.mayor",
+      "issue": "accountability",
+      "quote": "Don’t hide elements that are not supposed to be there, and be transparent with your residents.",
+      "sourceTitle": "Danville San Ramon, San Ramon mayoral candidates debate city's future",
+      "sourceUrl": "https://www.danvillesanramon.com/election/2026/10/13/san-ramon-mayoral-candidates-debate-citys-future/",
+      "sourceDate": "2026-10-13",
+      "dateKind": "published",
+      "sourceType": "news"
+    }
+  ]
+}

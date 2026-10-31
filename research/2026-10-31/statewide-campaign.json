@@ -1,0 +1,785 @@
+{
+  "group": "statewide",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca.governor.xavier-becerra",
+      "name": "Xavier Becerra",
+      "campaignUrl": "https://www.xavierbecerra2026.com",
+      "notes": "Campaign priorities pages read; many long sentences could not be captured verbatim. No 2026 public-safety quote found that fit."
+    },
+    {
+      "id": "2026-11-03.ca.governor.steve-hilton",
+      "name": "Steve Hilton",
+      "campaignUrl": "https://stevehiltonforgovernor.com",
+      "notes": "Campaign site renders client-side; policy pages returned no readable body text, so all quotes are from 2026 news. No usable quotes found on public safety, climate/water/wildfire or health care."
+    },
+    {
+      "id": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+      "name": "Fiona Ma",
+      "campaignUrl": "https://fionama.com",
+      "notes": "Campaign URL inferred from a campaign press release hosted there (issued by Fiona Ma for Lieutenant Governor 2026); homepage itself could not be fetched. Quotes from GrowSF questionnaire. No coast/lands quote found."
+    },
+    {
+      "id": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+      "name": "Gloria Romero",
+      "campaignUrl": "https://gloriajromero.com",
+      "notes": "Campaign URL from Ballotpedia; site not fetched. Quotes from GV Wire Q&A transcript. No housing quote found."
+    },
+    {
+      "id": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+      "name": "Shirley N. Weber",
+      "campaignUrl": "https://drshirleyweber.com",
+      "notes": "Priorities page is written in third person. No quotes found on voter ID, campaign finance or accountability."
+    },
+    {
+      "id": "2026-11-03.ca.secretary-of-state.donald-p-don-wagner",
+      "name": "Donald P. (Don) Wagner",
+      "campaignUrl": "https://wagnerforcalifornia.com",
+      "notes": "Campaign site pages undated. No quotes found on voter access, campaign finance or accountability."
+    },
+    {
+      "id": "2026-11-03.ca.controller.malia-m-cohen",
+      "name": "Malia M. Cohen",
+      "campaignUrl": null,
+      "notes": "No campaign website confirmed. Quotes from GrowSF questionnaire."
+    },
+    {
+      "id": "2026-11-03.ca.controller.herb-w-morgan",
+      "name": "Herb W Morgan",
+      "campaignUrl": "https://www.herbmorgan.com",
+      "notes": "No pensions/debt quote found."
+    },
+    {
+      "id": "2026-11-03.ca.treasurer.eleni-kounalakis",
+      "name": "Eleni Kounalakis",
+      "campaignUrl": "https://eleniforca.com",
+      "notes": "Campaign site has no issues pages; quotes from GrowSF questionnaire."
+    },
+    {
+      "id": "2026-11-03.ca.treasurer.jennifer-hawks",
+      "name": "Jennifer Hawks",
+      "campaignUrl": "https://hawksforus.com",
+      "notes": "Campaign URL from BallotReady verified webpages; site could not be fetched directly. Both quotes come from BallotReady stances that cite hawksforus.com/about and were not verified on the campaign page itself."
+    },
+    {
+      "id": "2026-11-03.ca.attorney-general.rob-bonta",
+      "name": "Rob Bonta",
+      "campaignUrl": "https://robbonta.com",
+      "notes": "Issues page is third person. No consumer-protection sentence could be captured verbatim."
+    },
+    {
+      "id": "2026-11-03.ca.attorney-general.michael-e-gates",
+      "name": "Michael E. Gates",
+      "campaignUrl": "https://www.gates4ag.com",
+      "notes": "Campaign URL from LAist and Ballotpedia; site could not be fetched. No quotes found on consumer protection, immigration or civil rights."
+    },
+    {
+      "id": "2026-11-03.ca.insurance-commissioner.ben-allen",
+      "name": "Ben Allen",
+      "campaignUrl": "https://benallenca.com",
+      "notes": "Campaign URL as listed in OC Register questionnaire; site not fetched."
+    },
+    {
+      "id": "2026-11-03.ca.insurance-commissioner.jane-kim",
+      "name": "Jane Kim",
+      "campaignUrl": "https://www.janekim.org",
+      "notes": "Campaign URL as listed in OC Register questionnaire; site not fetched."
+    },
+    {
+      "id": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+      "name": "Richard Barrera",
+      "campaignUrl": "https://www.barreraforedu.com",
+      "notes": "No school-choice quote found."
+    },
+    {
+      "id": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+      "name": "Sonja Shaw",
+      "campaignUrl": "https://shawforca.com",
+      "notes": "Did not answer GrowSF questionnaire. No quotes found on school funding, school choice or accountability."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "cost-of-living",
+      "quote": "I've tackled affordability before to protect consumers, and will continue the fight as Governor of California.",
+      "sourceTitle": "Campaign website, Economy and Affordability",
+      "sourceUrl": "https://www.xavierbecerra2026.com/priorities/economy-and-affordability/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "budget-taxes",
+      "quote": "I know how to squeeze every possible cent out of those federal resources, because I ran that agency,",
+      "sourceTitle": "American Community Media, California Front-Runner Becerra Says State Won't 'Take a Knee' to Trump",
+      "sourceUrl": "https://americancommunitymedia.org/news-exchange/california-front-runner-becerra-says-state-wont-take-a-knee-to-trump/",
+      "sourceDate": "2026-06-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "housing-homelessness",
+      "quote": "Where zoning still locks out affordable housing from entire communities, we will open it up.",
+      "sourceTitle": "Campaign website, Housing",
+      "sourceUrl": "https://www.xavierbecerra2026.com/priorities/housing/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "accountability",
+      "quote": "Programs that fail will be defunded; programs that work will be scaled.",
+      "sourceTitle": "Campaign website, Homelessness",
+      "sourceUrl": "https://www.xavierbecerra2026.com/priorities/homelessness/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "climate-water-wildfire",
+      "quote": "As Governor, I'm going to support our firefighters with the resources they need and the workweek they deserve.",
+      "sourceTitle": "Campaign website, Protecting our Families & Communities from the Next Wildfire Disaster",
+      "sourceUrl": "https://www.xavierbecerra2026.com/priorities/protecting-our-families-communities-from-the-next-wildfire-disaster/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "immigration",
+      "quote": "ICE, while it's a federal agency, still must obey the Constitution.",
+      "sourceTitle": "American Community Media, California Front-Runner Becerra Says State Won't 'Take a Knee' to Trump",
+      "sourceUrl": "https://americancommunitymedia.org/news-exchange/california-front-runner-becerra-says-state-wont-take-a-knee-to-trump/",
+      "sourceDate": "2026-06-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.xavier-becerra",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "health-care",
+      "quote": "With the federal government absent from this fight, California must be the firewall.",
+      "sourceTitle": "Campaign website, Health Care",
+      "sourceUrl": "https://www.xavierbecerra2026.com/priorities/health-care/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.steve-hilton",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "cost-of-living",
+      "quote": "I'm arguing for a positive, practical change plan to make our state affordable.",
+      "sourceTitle": "Siliconeer, CA Gubernatorial Candidate Steve Hilton Pitches Practical Reset on Taxes, Energy and Immigration",
+      "sourceUrl": "https://siliconeer.com/current/?p=274278",
+      "sourceDate": "2026-05-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.steve-hilton",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "budget-taxes",
+      "quote": "The quickest, most direct way to get money in people's pockets is for the government to take less out in the first place.",
+      "sourceTitle": "ABC30, Steve Hilton pitches affordability agenda as he tries to close gap in CA governor's race",
+      "sourceUrl": "https://abc30.com/post/california-governors-race-gop-candidate-steve-hilton-pitches-affordability-agenda-he-tries-close-gap/19868537/",
+      "sourceDate": "2026-09-25",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.steve-hilton",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "housing-homelessness",
+      "quote": "By the end of 2027, every encampment will be cleared, and Californians will have their sidewalks and parks back.",
+      "sourceTitle": "10News San Diego, Gubernatorial candidate Steve Hilton unveils plan to end homelessness by end of 2027",
+      "sourceUrl": "https://www.10news.com/news/local-news/gubernatorial-candidate-steve-hilton-unveils-plan-to-end-homelessness-by-end-of-2027",
+      "sourceDate": "2026-10-17",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.steve-hilton",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "accountability",
+      "quote": "Our estimate of that is that over the last five years we've had $425 billion of waste, fraud, and abuse.",
+      "sourceTitle": "LAist, interview transcript with Steve Hilton",
+      "sourceUrl": "https://laist.com/news/politics/2026-election-california-primary-candidate-steve-hilton-governor-transcript",
+      "sourceDate": "2026-05-08",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.governor.steve-hilton",
+      "contest": "2026-11-03.ca.governor",
+      "issue": "immigration",
+      "quote": "The question for the governor is: are you going to obstruct federal law enforcement? My answer is no.",
+      "sourceTitle": "Times of San Diego, Republican Steve Hilton for California governor",
+      "sourceUrl": "https://timesofsandiego.com/politics/2026/05/29/republican-steve-hilton-california-governor/",
+      "sourceDate": "2026-05-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "cost-of-living-jobs",
+      "quote": "Economic fairness means working people must share in California’s prosperity.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/fiona-ma/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "higher-education",
+      "quote": "Access without completion is not equity, and I will fight to deliver both.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/fiona-ma/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "accountability",
+      "quote": "When I take action on a board or cast a vote, people should know in real time.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/fiona-ma/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "housing",
+      "quote": "Solving our housing crisis will require an all-of-the-above approach.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/fiona-ma/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "cost-of-living-jobs",
+      "quote": "We cannot tax ourselves into further debt.",
+      "sourceTitle": "GV Wire Q&A, What CA Lt. Gov. candidate Gloria Romero says about education, economy",
+      "sourceUrl": "https://gvwire.com/2026/07/16/what-ca-lt-gov-candidate-gloria-romero-says-about-education-economy/",
+      "sourceDate": "2026-07-16",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "higher-education",
+      "quote": "As lieutenant governor I would form a TK-through-16 education pipeline.",
+      "sourceTitle": "GV Wire Q&A, What CA Lt. Gov. candidate Gloria Romero says about education, economy",
+      "sourceUrl": "https://gvwire.com/2026/07/16/what-ca-lt-gov-candidate-gloria-romero-says-about-education-economy/",
+      "sourceDate": "2026-07-16",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "coast-lands-climate",
+      "quote": "Too many of these commissions and boards have gone far past what they have been empowered to do.",
+      "sourceTitle": "GV Wire Q&A, What CA Lt. Gov. candidate Gloria Romero says about education, economy",
+      "sourceUrl": "https://gvwire.com/2026/07/16/what-ca-lt-gov-candidate-gloria-romero-says-about-education-economy/",
+      "sourceDate": "2026-07-16",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+      "contest": "2026-11-03.ca.lieutenant-governor",
+      "issue": "accountability",
+      "quote": "But also a second extraordinary session where we focus on waste, fraud, and abuse.",
+      "sourceTitle": "GV Wire Q&A, What CA Lt. Gov. candidate Gloria Romero says about education, economy",
+      "sourceUrl": "https://gvwire.com/2026/07/16/what-ca-lt-gov-candidate-gloria-romero-says-about-education-economy/",
+      "sourceDate": "2026-07-16",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+      "contest": "2026-11-03.ca.secretary-of-state",
+      "issue": "voter-access",
+      "quote": "She's also worked with the Governor and state legislature to make California a permanent, universal vote-by-mail state.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://drshirleyweber.com/priorities/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+      "contest": "2026-11-03.ca.secretary-of-state",
+      "issue": "election-security",
+      "quote": "For me, accuracy is far more important.",
+      "sourceTitle": "CalMatters, California secretary of state race",
+      "sourceUrl": "https://calmatters.org/politics/2026/04/california-secretary-state-race/",
+      "sourceDate": "2026-04-29",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.secretary-of-state.donald-p-don-wagner",
+      "contest": "2026-11-03.ca.secretary-of-state",
+      "issue": "voter-id-rolls",
+      "quote": "It's time to embrace the idea that voters need to prove their eligibility before they cast their ballot.",
+      "sourceTitle": "Campaign website, 'One simple reform to the election system would guarantee election integrity'",
+      "sourceUrl": "https://wagnerforcalifornia.com/?p=463",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.secretary-of-state.donald-p-don-wagner",
+      "contest": "2026-11-03.ca.secretary-of-state",
+      "issue": "election-security",
+      "quote": "We have to protect the integrity of our elections.",
+      "sourceTitle": "Campaign website, Don Wagner On Petition Fraud",
+      "sourceUrl": "https://wagnerforcalifornia.com/?p=624",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.controller.malia-m-cohen",
+      "contest": "2026-11-03.ca.controller",
+      "issue": "audits-waste",
+      "quote": "Accountability works best when it is firm, fact-based, and solution-oriented.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/malia-cohen/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.controller.malia-m-cohen",
+      "contest": "2026-11-03.ca.controller",
+      "issue": "budget-oversight",
+      "quote": "Transparent and timely financial data helps policymakers make better decisions before challenges become crises.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/malia-cohen/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.controller.malia-m-cohen",
+      "contest": "2026-11-03.ca.controller",
+      "issue": "spending-transparency",
+      "quote": "I believe transparency only matters if information is both accurate and understandable.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/malia-cohen/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.controller.herb-w-morgan",
+      "contest": "2026-11-03.ca.controller",
+      "issue": "audits-waste",
+      "quote": "Ensuring consistent, independent audits and clear financial reporting is essential to maintaining public trust,",
+      "sourceTitle": "Campaign website, press release on audit capacity",
+      "sourceUrl": "https://www.herbmorgan.com/post/herb-morgan-resignation-call-undercover-video-audit-capacity",
+      "sourceDate": "2026-04-08",
+      "dateKind": "published",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.controller.herb-w-morgan",
+      "contest": "2026-11-03.ca.controller",
+      "issue": "spending-transparency",
+      "quote": "We will have that go into this open-source database, open for all the public to see, because they’re using public money.",
+      "sourceTitle": "San Francisco Examiner, GOP controller candidate Morgan emphasizes competence",
+      "sourceUrl": "https://www.sfexaminer.com/news/politics/gop-controller-candidate-morgan-emphasizes-competence/article_767130f0-6810-422e-b884-79539f2efe93.html",
+      "sourceDate": "2026-06-11",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.controller.herb-w-morgan",
+      "contest": "2026-11-03.ca.controller",
+      "issue": "budget-oversight",
+      "quote": "The state took custody of it and has treated too much of it as a standing loan to the General Fund.",
+      "sourceTitle": "GV Wire, CA controller candidate Herb Morgan wants to return $15 billion to residents",
+      "sourceUrl": "https://gvwire.com/2026/10/01/ca-controller-candidate-herb-morgan-wants-to-return-15-billion-to-residents/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+      "contest": "2026-11-03.ca.treasurer",
+      "issue": "debt-bonds",
+      "quote": "I will also strengthen coordination with local issuers and maintain conservative debt ratios to protect our credit profile.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/eleni-kounalakis/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+      "contest": "2026-11-03.ca.treasurer",
+      "issue": "housing-finance",
+      "quote": "By lowering financing costs and expanding access to capital, the Treasurer can directly accelerate production.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/eleni-kounalakis/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+      "contest": "2026-11-03.ca.treasurer",
+      "issue": "pensions-investments",
+      "quote": "Protecting and strengthening CalPERS and CalSTRS is critical to the retirement security of millions of public employees.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/eleni-kounalakis/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+      "contest": "2026-11-03.ca.treasurer",
+      "issue": "accountability",
+      "quote": "Improving understanding begins with transparency and accessibility.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/eleni-kounalakis/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.treasurer.jennifer-hawks",
+      "contest": "2026-11-03.ca.treasurer",
+      "issue": "debt-bonds",
+      "quote": "A disciplined debt strategy and strong credit ratings mean schools, cities, and water projects cost taxpayers less.",
+      "sourceTitle": "BallotReady profile, stance quoted from campaign website (hawksforus.com/about)",
+      "sourceUrl": "https://www.ballotready.org/people/jennifer-hawks",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.treasurer.jennifer-hawks",
+      "contest": "2026-11-03.ca.treasurer",
+      "issue": "accountability",
+      "quote": "Jennifer will score programs on outcomes, not press releases.",
+      "sourceTitle": "BallotReady profile, stance quoted from campaign website (hawksforus.com/about)",
+      "sourceUrl": "https://www.ballotready.org/people/jennifer-hawks",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "public-safety",
+      "quote": "Attorney General Bonta is taking on transnational criminal organizations that traffic in guns, drugs, and people.",
+      "sourceTitle": "Campaign website, Issues",
+      "sourceUrl": "https://robbonta.com/issues/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "immigration-law",
+      "quote": "He is taking on predators like notarios who prey on immigrant families.",
+      "sourceTitle": "Campaign website, Issues",
+      "sourceUrl": "https://robbonta.com/issues/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "environmental-enforcement",
+      "quote": "When corporate polluters break the law or Big Pharma fuels the opioid crisis, Rob has held them accountable.",
+      "sourceTitle": "Campaign website, Meet Rob",
+      "sourceUrl": "https://robbonta.com/about/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "civil-rights",
+      "quote": "By its size alone, California’s Department of Justice is the country’s largest civil rights practice.",
+      "sourceTitle": "Campaign website, Issues",
+      "sourceUrl": "https://robbonta.com/issues/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "accountability",
+      "quote": "My vision for the California Department of Justice is that we remain the nation’s largest and most powerful check on power.",
+      "sourceTitle": "Campaign press release, Attorney General Rob Bonta Reaffirms His Commitment to Defending California",
+      "sourceUrl": "https://robbonta.com/wp-content/uploads/2026/01/Release-Jan-11-2026-Re-elect-Rob-Bonta-for-Attorney-General.pdf",
+      "sourceDate": "2026-01-11",
+      "dateKind": "published",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.michael-e-gates",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "public-safety",
+      "quote": "Michael is passionate about restoring public safety and ensuring laws are enforced fairly and consistently across California.",
+      "sourceTitle": "Ballotpedia Candidate Connection survey (2026)",
+      "sourceUrl": "https://ballotpedia.org/Michael_Gates_(California)",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.michael-e-gates",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "environmental-enforcement",
+      "quote": "I will protect our environment from reckless Sacramento mandates and enforce our election laws to restore public confidence.",
+      "sourceTitle": "San Joaquin Valley Sun, Former Huntington Beach City Attorney Michael Gates launches AG campaign",
+      "sourceUrl": "https://sjvsun.com/news/politics/former-huntington-beach-city-attorney-michael-gates-launches-ag-campaign/",
+      "sourceDate": "2026-01-15",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.attorney-general.michael-e-gates",
+      "contest": "2026-11-03.ca.attorney-general",
+      "issue": "accountability",
+      "quote": "My loyalty will always be to California residents – not Sacramento special interests.",
+      "sourceTitle": "San Joaquin Valley Sun, Former Huntington Beach City Attorney Michael Gates launches AG campaign",
+      "sourceUrl": "https://sjvsun.com/news/politics/former-huntington-beach-city-attorney-michael-gates-launches-ag-campaign/",
+      "sourceDate": "2026-01-15",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "home-insurance-wildfire",
+      "quote": "We can’t ignore wildfire risk, and we also can’t leave homeowners to face it alone.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/ben-allen-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "insurance-rates",
+      "quote": "Consumers should not be asked to pay more without seeing improved access to coverage.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/ben-allen-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "consumer-protection",
+      "quote": "People shouldn’t have to hire an expert to understand their insurance.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/ben-allen-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "climate-risk",
+      "quote": "The reality is that wildfire risk is changing rapidly, and relying only on backward-looking data hasn’t kept up.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/ben-allen-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "accountability",
+      "quote": "It requires transparency, public oversight, and that rates be justified and fair.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/ben-allen-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "home-insurance-wildfire",
+      "quote": "Coverage would be automatic and universal, with everyone in the same risk pool and premiums based on property cost and risk.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/jane-kim-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "insurance-rates",
+      "quote": "If companies are asking for higher premiums, they should be able to justify them in a transparent, public process.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/jane-kim-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "consumer-protection",
+      "quote": "Insurers that systematically underpay or deny claims are breaking their promise to policyholders.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/jane-kim-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "climate-risk",
+      "quote": "We cannot and should not ignore forward-looking climate risk.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/jane-kim-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+      "contest": "2026-11-03.ca.insurance-commissioner",
+      "issue": "accountability",
+      "quote": "I’m running to make this office far more transparent and accessible, starting with clear, public data.",
+      "sourceTitle": "Orange County Register questionnaire (via InsuranceNewsNet)",
+      "sourceUrl": "https://insurancenewsnet.com/oarticle/jane-kim-california-insurance-commissioner-candidate-2026-primary-election-questionnaire",
+      "sourceDate": "2026-05-05",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "school-funding",
+      "quote": "California’s public schools shouldn’t have to scrape by on short-term fixes and one-time funding measures.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.barreraforedu.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "teacher-shortage",
+      "quote": "Right now, too many teachers are leaving the profession, and too few young people see teaching as a viable career.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.barreraforedu.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "school-safety",
+      "quote": "When students face bullying or discrimination, schools must step up—not look the other way.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.barreraforedu.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "reading-math",
+      "quote": "The lesson is that improvement came from a package of policies, sustained attention, and follow-through.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://www.growsf.org/voter-guide/questionnaires/june-2026/richard-barrera/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "accountability",
+      "quote": "The public should not need a flowchart to figure out which state entity is responsible for which part of the system.",
+      "sourceTitle": "GrowSF questionnaire, June 2026",
+      "sourceUrl": "https://www.growsf.org/voter-guide/questionnaires/june-2026/richard-barrera/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "reading-math",
+      "quote": "Schools must refocus on essentials: reading, writing, and math.",
+      "sourceTitle": "Campaign website, Issues",
+      "sourceUrl": "https://shawforca.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "teacher-shortage",
+      "quote": "Radical ideologies distract from learning, while teacher shortages strain classrooms.",
+      "sourceTitle": "Campaign website, Issues",
+      "sourceUrl": "https://shawforca.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+      "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+      "issue": "school-safety",
+      "quote": "They should feel secure in private spaces, not exposed by decisions made without parental consent.",
+      "sourceTitle": "Campaign website, Issues",
+      "sourceUrl": "https://shawforca.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    }
+  ]
+}

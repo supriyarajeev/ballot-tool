@@ -14,7 +14,8 @@
           "data/2026-11-03/local-measures.json"
         ],
         "contests": "data/2026-11-03/contests.json",
-        "candidates": "data/2026-11-03/candidates.json"
+        "candidates": "data/2026-11-03/candidates.json",
+        "quotes": "data/2026-11-03/candidate-quotes.json"
       },
       "sources": [
         {

@@ -335,6 +335,17 @@ E("incumbent field without evidence (VAL-05)", edit(EV, (d) => (d.evidence = d.e
 E("statewide item missing", edit(SW, (d) => d.items.pop()), /statewide\.json has 13 items but propositions\.html has 14/);
 E("statewide title differs from the tool", txt("propositions.html", (s) => s.replace(/(\{ n: "1", name: ")([^"]+)/, "$1PLANTED NAME")), /statewide\.json Prop 1 shortTitle ".*" differs from propositions\.html "PLANTED NAME"/);
 
+// ---------- VAL-20 candidate comparisons ----------
+const CQ = "data/2026-11-03/candidate-quotes.json";
+E("comparison quote with an http source (VAL-20)", edit(CQ, (d) => (d.quotes[0].sourceUrl = d.quotes[0].sourceUrl.replace("https:", "http:"))), /candidate-quotes\.json.*(sourceUrl must be https|http)/);
+E("comparison quote with an issue from another office (VAL-20)", edit(CQ, (d) => (d.quotes[0].issue = "teacher-shortage-planted")), /issue is not in this office's list/);
+E("comparison quote with no match record (VAL-20)", edit(CQ, (d) => delete d.quotes[0].check), /no record of matching the quote against its source/);
+E("comparison check that claims verification (VAL-20)", edit(CQ, (d) => (d.quotes[0].check.method = "Verified by reviewer")), /must describe what was done, not claim verification or review/);
+E("two quotes for one candidate and issue (VAL-20)", edit(CQ, (d) => d.quotes.push({ ...d.quotes[0] })), /more than one quote for this candidate and issue/);
+E("comparison quote for a candidate in another contest (VAL-20)", edit(CQ, (d) => (d.quotes[0].contest = GOV === d.quotes[0].contest ? "2026-11-03.ca.controller" : GOV)), /candidate and contest do not match a compared contest/);
+E("comparison method text changed (VAL-20)", edit(CQ, (d) => (d.method = "We rate candidates.")), /method text is missing or changed/);
+E("comparison source date in the future (VAL-20)", edit(CQ, (d) => (d.quotes[0].sourceDate = "2099-01-01")), /sourceDate 2099-01-01 is after today/);
+
 function rdBase(p) { return rd(base, p); }
 
 if (!process.argv.includes("--list")) {

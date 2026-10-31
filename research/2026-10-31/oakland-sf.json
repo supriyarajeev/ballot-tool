@@ -1,0 +1,978 @@
+{
+  "group": "oakland-sf",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-alameda-oakland.mayor.julius-robinson",
+      "name": "Julius Robinson",
+      "campaignUrl": null,
+      "notes": "No campaign site, candidate statement, questionnaire or direct news quote found. Official Alameda County candidate statements not located online."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "name": "Barbara Lee",
+      "campaignUrl": "https://barbaralee4oakland.com",
+      "notes": "Incumbent. Campaign priorities page does not state the year; it may date from the 2025 special election campaign. KQED quotes come from a computer-generated interview transcript."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-oakland.mayor.brenda-f-grisham",
+      "name": "Brenda F. Grisham",
+      "campaignUrl": "https://www.brendaforoakland.com/",
+      "notes": "Campaign URL linked by KTVU (2026-08-11) but the site could not be fetched. No usable issue quotes found."
+    },
+    {
+      "id": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+      "name": "Mindy Ruth Pechenuk",
+      "campaignUrl": "https://electmindy.com",
+      "notes": "Site titled 'Mindy Pechenuk for Oakland Mayor 2026'. Quotes from a Dec. 25, 2025 campaign press release. Issues page and Ballotpedia survey answers could not be read."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "name": "Nicholas Berg",
+      "campaignUrl": null,
+      "notes": "No statement in the voter pamphlet. Quotes from GrowSF Nov 2026 questionnaire."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+      "name": "Guy McCoy",
+      "campaignUrl": null,
+      "notes": "Quotes from the official voter pamphlet statement. No campaign site listed."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+      "name": "Monthanus Ratanapakdee",
+      "campaignUrl": null,
+      "notes": "Voter pamphlet statement is written in third person and mostly biographical. No GrowSF response."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+      "name": "Stephen Sherrill",
+      "campaignUrl": "https://www.VoteStephenSherrill.com",
+      "notes": "Incumbent. Website listed in his voter pamphlet statement; the site itself was not fetchable. Pamphlet items are bullet points without ending punctuation."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+      "name": "Albert Chow",
+      "campaignUrl": "https://www.albertchowsf.com",
+      "notes": "Website listed in his voter pamphlet statement (not fetched)."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+      "name": "Jeremy Julian Greco",
+      "campaignUrl": null,
+      "notes": "No website listed in voter pamphlet statement."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "name": "Alan Wong",
+      "campaignUrl": "https://www.alanwong.com",
+      "notes": "Incumbent. Website listed in voter pamphlet statement (not fetched). GrowSF quotes are from his June 2026 primary questionnaire."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+      "name": "Alex Behrend",
+      "campaignUrl": "https://alexforalld6.com/",
+      "notes": "Website listed by Mission Local and in his own questionnaire; the site itself was not fetchable. Pamphlet text for D6 could not be read (PDF text truncated)."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "name": "Matt Dorsey",
+      "campaignUrl": "https://www.mattdorsey.org/",
+      "notes": "Incumbent. Website listed by Mission Local; the site itself was not fetchable. Pamphlet text for D6 could not be read."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "name": "Gary McCoy",
+      "campaignUrl": "https://www.garymccoysf.com",
+      "notes": "Website listed in his own questionnaire and by GrowSF; the site itself was not fetchable."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "name": "Michael T. Nguyen",
+      "campaignUrl": "https://www.michaelnguyen4sf.com/",
+      "notes": "Website listed in his own questionnaire; the site itself was not fetched."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "name": "Darshini Patel",
+      "campaignUrl": "https://votedarshini.com",
+      "notes": "Website linked by GrowSF; the site itself was not fetchable. Declined GrowSF questionnaire."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "name": "Emanuel \"Manny\" Yekutiel",
+      "campaignUrl": null,
+      "notes": "Withdrew from the race Oct. 1, 2026, per SF Standard and GrowSF, but remains on the ballot. No campaign site confirmed."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "homelessness",
+      "quote": "Prevention is the priority.",
+      "sourceTitle": "KQED Forum, After a year as Oakland's mayor, Barbara Lee looks to finish the job (interview transcript)",
+      "sourceUrl": "https://www.kqed.org/forum/2010101913952/after-a-year-as-oaklands-mayor-barbara-lee-looks-to-finish-the-job",
+      "sourceDate": "2026-05-27",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "housing",
+      "quote": "We have to build more deeply affordable housing.",
+      "sourceTitle": "KQED Forum, After a year as Oakland's mayor, Barbara Lee looks to finish the job (interview transcript)",
+      "sourceUrl": "https://www.kqed.org/forum/2010101913952/after-a-year-as-oaklands-mayor-barbara-lee-looks-to-finish-the-job",
+      "sourceDate": "2026-05-27",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "public-safety",
+      "quote": "Oaklanders deserve to feel safe in their neighborhoods.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://barbaralee4oakland.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "city-budget",
+      "quote": "Let's get to work to stabilize our City's budget and work to deliver the services you rely on.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://barbaralee4oakland.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "The affordability crisis is real in Oakland.",
+      "sourceTitle": "KQED Forum, After a year as Oakland's mayor, Barbara Lee looks to finish the job (interview transcript)",
+      "sourceUrl": "https://www.kqed.org/forum/2010101913952/after-a-year-as-oaklands-mayor-barbara-lee-looks-to-finish-the-job",
+      "sourceDate": "2026-05-27",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "streets-transit-clean",
+      "quote": "We started neighborhood cleanups that are still ongoing, especially around schools and more severely impacted areas.",
+      "sourceTitle": "KQED Forum, After a year as Oakland's mayor, Barbara Lee looks to finish the job (interview transcript)",
+      "sourceUrl": "https://www.kqed.org/forum/2010101913952/after-a-year-as-oaklands-mayor-barbara-lee-looks-to-finish-the-job",
+      "sourceDate": "2026-05-27",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "accountability",
+      "quote": "As Mayor, I'll lead a government that serves the people, not special interests.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://barbaralee4oakland.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "public-safety",
+      "quote": "I will increase the number of police officers, and work closely with them on tools and projects they need.",
+      "sourceTitle": "Campaign website, press release: Time to bring down Oakland's energy costs",
+      "sourceUrl": "https://electmindy.com/news/time-to-bring-down-oaklands-energy-costs",
+      "sourceDate": "2025-12-25",
+      "dateKind": "published",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "city-budget",
+      "quote": "The people of Oakland come first, this means wiping out the debt burden on the backs of every person in Oakland.",
+      "sourceTitle": "Campaign website, press release: Time to bring down Oakland's energy costs",
+      "sourceUrl": "https://electmindy.com/news/time-to-bring-down-oaklands-energy-costs",
+      "sourceDate": "2025-12-25",
+      "dateKind": "published",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "cost-of-living-economy",
+      "quote": "Oakland could work with other cities to produce cheap quantities of natural gas and nuclear plants.",
+      "sourceTitle": "Campaign website, press release: Time to bring down Oakland's energy costs",
+      "sourceUrl": "https://electmindy.com/news/time-to-bring-down-oaklands-energy-costs",
+      "sourceDate": "2025-12-25",
+      "dateKind": "published",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+      "contest": "2026-11-03.ca-alameda-oakland.mayor",
+      "issue": "accountability",
+      "quote": "The oversight commissions have outlived their usefulness.",
+      "sourceTitle": "Campaign website, press release: Time to bring down Oakland's energy costs",
+      "sourceUrl": "https://electmindy.com/news/time-to-bring-down-oaklands-energy-costs",
+      "sourceDate": "2025-12-25",
+      "dateKind": "published",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "housing",
+      "quote": "Added 1,200+ homes including affordable housing for teachers and seniors",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Added police foot patrols to reduce crime",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "Stopped cuts to police, fire, street cleaning",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Lowered start-up costs for new shops on Fillmore, Union",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Championing Muni funding to keep San Francisco moving",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "Force Homeless agencies to be more effective RESOLVING Homelessness instead of lining pockets.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "housing",
+      "quote": "Focus new housing creation towards working San Franciscans at market rates and below INSTEAD of high-end housing.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Get repeat offenders and career criminals off the streets.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "We need to do away with EXCESSIVE regulations & costs that impede small businesses opening and large businesses staying.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Monthanus believes San Francisco can be safe, compassionate, economically strong, and accountable to the people again.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "End the street homelessness and addiction crisis.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "housing",
+      "quote": "The best way to stabilize the cost of housing is to allow more housing creation at every income level.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Protecting people from crime is the most fundamental role of government.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "Restore fiscal accountability.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Cut permit fees, waive first-year fees for new small businesses, and rewrite every application in plain language.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Asking taxpayers for more money before fixing the agency is backwards.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+      "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "I would run a Supervisor’s office like a well-managed small business.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Nicholas Berg",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "Those exiting homelessness may require more intensive supportive and wraparound services.",
+      "sourceTitle": "Mission Local, District 4 (Sunset) candidates Q&A",
+      "sourceUrl": "https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/",
+      "sourceDate": "2026-05-10",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "housing",
+      "quote": "Yes, we need to build more housing of all categories.",
+      "sourceTitle": "GrowSF June 2026 candidate questionnaire, Alan Wong",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/alan-wong",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Hiring more police officers, justice for crime victims, and giving police the tools and funding they need to prevent crime.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "I favor a middle-of-the-road, incremental, and pragmatic approach.",
+      "sourceTitle": "GrowSF June 2026 candidate questionnaire, Alan Wong",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/alan-wong",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Opening a business in San Francisco is a painful, grueling process that can shut doors before they have a chance to open.",
+      "sourceTitle": "GrowSF June 2026 candidate questionnaire, Alan Wong",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/alan-wong",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Reopening the Great Highway to vehicles on weekdays.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Cutting unnecessary bureaucracy and making government work for regular people.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "housing",
+      "quote": "That said, I do agree with the goal of getting more housing built and moving stalled projects forward.",
+      "sourceTitle": "Mission Local, District 4 (Sunset) candidates Q&A",
+      "sourceUrl": "https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/",
+      "sourceDate": "2026-05-10",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Together, we can build a safer, stronger Sunset.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "As a small business owner, I understand the challenges facing working families and local merchants.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Adding bike lanes should be on a case-by-case basis, and should depend only on improving safety.",
+      "sourceTitle": "Mission Local, District 4 (Sunset) candidates Q&A",
+      "sourceUrl": "https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/",
+      "sourceDate": "2026-05-10",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "I have always stood with Sunset residents and fought to ensure our voices are heard on the issues affecting daily lives.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I support affordable housing that keeps families, seniors, artists and workers in District 4.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Working families should not be repeatedly asked to pay more while services are threatened.",
+      "sourceTitle": "Mission Local, District 4 (Sunset) candidates Q&A",
+      "sourceUrl": "https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/",
+      "sourceDate": "2026-05-10",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+      "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "I support Slow Streets near schools, safer bike corridors, roundabouts, beat cops, and cleaner, reliable MUNI service.",
+      "sourceTitle": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement",
+      "sourceUrl": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "It’s time to deliver the drug-free options PSH residents have long been asking for.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Matt Dorsey",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/matt-dorsey",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "housing",
+      "quote": "The Family Zoning Plan struck a good balance, but there’s always more that can be done when it comes to housing.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Matt Dorsey",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/matt-dorsey",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Commit to a three-year plan to reach 100% full staffing, full stop.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Matt Dorsey",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/matt-dorsey",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "Our city’s persistent budget crisis is enforcing efficiencies upon us, and right-sizing support services is part of that.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 6 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "As supervisor, I drove the installation of traffic enforcement cameras in my district and across the city.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Matt Dorsey",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/matt-dorsey",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "I also think diffused accountability in city departments is a problem that needs addressing.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Matt Dorsey",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/matt-dorsey",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "Finally, accountability means MORE of what prevents homelessness – Eviction Defense funding.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 6 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "housing",
+      "quote": "As Supervisor, I’ll demand Board votes for additional fees on AI companies to prevent displacement.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 6 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "We need a Public Bank to ensure local businesses — vital for neighborhoods — are properly capitalized.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 6 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+      "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Accountability is also needed for Salvation Army’s $20 million in grants.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 6 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "housing",
+      "quote": "Rent control helps people stay in their homes, but it doesn’t make housing more affordable for new people moving here.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Arresting people may move the immediate problem, but it doesn’t reduce it long term.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "Our budget and policies should reflect our values and deliver real results.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "It should be harder to leave a storefront empty than to help it thrive.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "I’d make the Street Safety Act binding, so safety and related traffic abatement upgrades are included with repaving.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Transparency and accountability will be the hallmarks of my office.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "housing",
+      "quote": "We have to say yes to housing at every level, from permanent supportive housing to market rate.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Public drug use is a problem that can’t be addressed simply by arresting people.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "My priorities are protecting the workforce and safety-net services and making sure the money we do spend is accountable.",
+      "sourceTitle": "SF League of Pissed Off Voters 2026 questionnaire, Gary McCoy",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911367/D8_Supervisor_Gary_McCoy.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Small businesses are struggling to keep up and stay open.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "San Francisco needs both measures to pass to ensure our economy continues to recover and keep the city moving.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Budget decisions deserve information residents can actually act on, and their input as well.",
+      "sourceTitle": "SF League of Pissed Off Voters 2026 questionnaire, Gary McCoy",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911367/D8_Supervisor_Gary_McCoy.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "The city should engage encampments with sustained outreach and real choices.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I support social housing, permanently affordable and city-owned.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Arrests alone aren’t a sustainable answer to the open air drug crisis on our streets.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "We're balancing the budget on the backs of vulnerable communities, and I'm over it.",
+      "sourceTitle": "SF League of Pissed Off Voters 2026 questionnaire, Michael Nguyen",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911374/D8_Supervisor_Michael_Nguyen.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "I also support commercial rent control to keep small businesses alive.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Safe streets save lives, and D8 has lost too many neighbors to traffic violence.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "I'm an independent voice beholden to no special interests, and I'm not going to be a rubber stamp for this Mayor's agenda.",
+      "sourceTitle": "SF League of Pissed Off Voters 2026 questionnaire, Michael Nguyen",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911374/D8_Supervisor_Michael_Nguyen.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "Our goal will be to eliminate homelessness and drug use within the district.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Manny Yekutiel",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/manny-yekutiel/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I’ve committed to building 10,000 new homes in District 8 over eight years, and I intend to deliver on that commitment.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "The #1 public safety issue today is SFPD understaffing.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Manny Yekutiel",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/manny-yekutiel/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "We should be making targeted, data-driven decisions and focusing resources on the basics people count on every day.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Manny Yekutiel",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/manny-yekutiel/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "My number one priority is making San Francisco affordable enough for working people and families to stay and thrive.",
+      "sourceTitle": "Mission Local, Meet the candidates: San Francisco's District 8 supervisor race",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-8-supervisor-race/",
+      "sourceDate": "2026-10-08",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Muni has to use existing dollars well and be accountable for service, reliability, and the rider experience.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Manny Yekutiel",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/manny-yekutiel/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+      "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "If we focus on outcomes and accountability, the right size of government follows.",
+      "sourceTitle": "GrowSF November 2026 candidate questionnaire, Manny Yekutiel",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/manny-yekutiel/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    }
+  ]
+}

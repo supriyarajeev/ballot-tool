@@ -1,0 +1,558 @@
+{
+ "note": "Campaign websites opened in a browser on Oct 31, 2026; ok means the page loaded on the same site and its text names the candidate.",
+ "results": [
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "url": "https://www.mikethompsonforcongress.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.mikethompsonforcongress.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+   "url": "https://www.garamendi.org/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.garamendi.org/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "url": "https://desaulnierforcongress.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://desaulnierforcongress.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "url": "https://www.lateefahsimon.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.lateefahsimon.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "url": "https://www.aishawahab.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.aishawahab.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "url": "https://www.kevinmullinforcongress.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.kevinmullinforcongress.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-16.u-s-representative-district-16.sam-liccardo",
+   "url": "https://www.samliccardo.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.samliccardo.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+   "url": "https://www.rokhanna.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://rokhanna.com/en"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "url": "https://www.zoelofgren.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.zoelofgren.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "url": "https://www.jimmypanetta.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.jimmypanetta.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-san-bruno.mayor.rico-e-medina",
+   "url": "https://RicoMedina.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.ricomedina.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+   "url": "https://votemilpitas.pages.dev/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://votemilpitas.pages.dev/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.mark-turner",
+   "url": "http://markturnerformayor.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://markturnerformayor.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.mike-wiltberger",
+   "url": "https://mikeformayor26.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://mikeformayor26.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.armando-gary-ferraris",
+   "url": "http://garyferrarisformayor.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.garyferrarisformayor.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.karen-hardy",
+   "url": "http://karenhardy.net",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.karenhardy.net/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.david-kertes",
+   "url": "http://www.davidkertesformayor.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://davidkertesformayor.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.kathy-watanabe",
+   "url": "https://kathywatanabe.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://kathywatanabe.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.kevin-park",
+   "url": "http://www.kevinpark.net",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://kevinpark.net/"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "url": "https://pambertani.squarespace.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://pambertani.squarespace.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-vacaville.mayor.sarah-chapman",
+   "url": "https://sarahchapmanformayor.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://sarahchapmanformayor.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "url": "https://ray-iguana-7wba.squarespace.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://ray-iguana-7wba.squarespace.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+   "url": "https://barbaralee4oakland.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://barbaralee4oakland.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-oakland.mayor.brenda-f-grisham",
+   "url": "https://www.brendaforoakland.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.brendaforoakland.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+   "url": "https://electmindy.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://electmindy.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+   "url": "https://www.VoteStephenSherrill.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.votestephensherrill.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+   "url": "https://www.albertchowsf.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.albertchowsf.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+   "url": "https://www.alanwong.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://alanwong.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+   "url": "https://alexforalld6.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://alexforalld6.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+   "url": "https://www.mattdorsey.org/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.mattdorsey.org/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+   "url": "https://www.garymccoysf.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.garymccoysf.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+   "url": "https://www.michaelnguyen4sf.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.michaelnguyen4sf.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+   "url": "https://votedarshini.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://votedarshini.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+   "url": "https://henryetzkowitz4paloaltocitycouncil.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://henryetzkowitz4paloaltocitycouncil.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+   "url": "https://www.edlauing.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.edlauing.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+   "url": "https://www.changforcitycouncil.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.changforcitycouncil.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.vicki-veenker",
+   "url": "https://www.vickiforcouncil.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.vickiforcouncil.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+   "url": "https://www.yudy4paloalto.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.yudy4paloalto.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+   "url": "https://www.brianhamachek.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.brianhamachek.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+   "url": "https://bellehaven.online/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://bellehaven.online/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee",
+   "url": "https://wonmanlee.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://wonmanlee.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+   "url": "https://www.drewcombs.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.drewcombs.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+   "url": "https://www.votevamsi.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.votevamsi.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+   "url": "https://www.charlotteformenlopark.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.charlotteformenlopark.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn",
+   "url": "https://www.lauramelahn.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.lauramelahn.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.governor.xavier-becerra",
+   "url": "https://www.xavierbecerra2026.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.xavierbecerra2026.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.governor.steve-hilton",
+   "url": "https://stevehiltonforgovernor.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://stevehiltonforgovernor.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+   "url": "https://fionama.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://fionama.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+   "url": "https://drshirleyweber.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://drshirleyweber.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.secretary-of-state.donald-p-don-wagner",
+   "url": "https://wagnerforcalifornia.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://wagnerforcalifornia.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.controller.herb-w-morgan",
+   "url": "https://www.herbmorgan.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.herbmorgan.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+   "url": "https://eleniforca.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://eleniforca.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.treasurer.jennifer-hawks",
+   "url": "https://hawksforus.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://hawksforus.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+   "url": "https://robbonta.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://robbonta.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.attorney-general.michael-e-gates",
+   "url": "https://www.gates4ag.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.gates4ag.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+   "url": "https://benallenca.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.benallenca.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+   "url": "https://www.janekim.org",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.janekim.org/"
+  },
+  {
+   "candidate": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+   "url": "https://www.barreraforedu.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.barreraforedu.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+   "url": "https://shawforca.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://shawforca.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.paul-donahue",
+   "url": "https://www.electpauldonahue.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.electpauldonahue.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+   "url": "https://robertcoxforcouncil.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://robertcoxforcouncil.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.james-kuszmaul",
+   "url": "https://james4mv.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://james4mv.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+   "url": "https://samformountainview.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://samformountainview.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+   "url": "https://www.idarosesylvester.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.idarosesylvester.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+   "url": "https://siljapaymer.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://siljapaymer.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.erik-poicon",
+   "url": "https://www.erik4mv.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.erik4mv.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.alex-amoroso",
+   "url": "https://www.alex4council.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.alex4council.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+   "url": "https://ankyforlosaltos.org/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://ankyforlosaltos.org/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.lynette-lee-eng",
+   "url": "https://votelynette.org/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://votelynette.org/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-4.city-council-member-district-4.larry-lang",
+   "url": "https://www.losaltoslarry.org/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.losaltoslarry.org/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+   "url": "https://www.stump4lg.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.stump4lg.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.mary-badame",
+   "url": "https://marybadame.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://marybadame.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-moore",
+   "url": "https://www.robforlosgatos.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.robforlosgatos.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+   "url": "https://lindaforsunnyvale.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://lindaforsunnyvale.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+   "url": "https://www.murali4sunnyvale.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.murali4sunnyvale.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+   "url": "https://www.richardforsunnyvale.com/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://www.richardforsunnyvale.com/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+   "url": "https://robertcoxforcouncil.pages.dev/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://robertcoxforcouncil.pages.dev/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+   "url": "https://siljapaymer.pages.dev/",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://siljapaymer.pages.dev/"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+   "url": "https://squid-indigo-zcad.squarespace.com",
+   "result": "ok",
+   "date": "2026-10-31",
+   "finalUrl": "https://squid-indigo-zcad.squarespace.com/"
+  }
+ ]
+}

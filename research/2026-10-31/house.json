@@ -1,0 +1,1473 @@
+{
+ "group": "house",
+ "candidates": [
+  {
+   "id": "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire",
+   "name": "Mike McGuire",
+   "campaignUrl": null,
+   "notes": "No campaign website confirmed. Quotes from his Tehama County candidate statement for the Nov. 3 general election."
+  },
+  {
+   "id": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "name": "James Gallagher",
+   "campaignUrl": null,
+   "notes": "Incumbent (won special election to finish LaMalfa's term). No campaign website confirmed. Quotes from Tehama County candidate statement and a CN&R interview."
+  },
+  {
+   "id": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "name": "Jared Huffman",
+   "campaignUrl": null,
+   "notes": "Incumbent. No campaign website confirmed; quotes are first-person sentences on huffman.house.gov issue pages."
+  },
+  {
+   "id": "2026-11-03.ca-cd-2.u-s-representative-district-2.robin-littau",
+   "name": "Robin Littau",
+   "campaignUrl": null,
+   "notes": "Ballotpedia and iVoterGuide list littauforcongress.com, but the site could not be fetched to confirm. Quotes from her 2026 Ballotpedia Candidate Connection survey."
+  },
+  {
+   "id": "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+   "name": "Eric Jones",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists ericjones.us, but the site could not be fetched to confirm. Quotes from his Napa County candidate statement for the June 2 primary; no November statement found."
+  },
+  {
+   "id": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "name": "Mike Thompson",
+   "campaignUrl": "https://www.mikethompsonforcongress.com/",
+   "notes": "Incumbent. Campaign issues pages appear dated (e.g., health care text from the ACA era) but are live on his current site."
+  },
+  {
+   "id": "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+   "name": "John Garamendi",
+   "campaignUrl": "https://www.garamendi.org/",
+   "notes": "Incumbent. Campaign issues page is written in third person."
+  },
+  {
+   "id": "2026-11-03.ca-cd-8.u-s-representative-district-8.rudy-recile",
+   "name": "Rudy Recile",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists rudyforuscongress.com, but the site could not be fetched. He has not completed the 2026 Ballotpedia survey (2022/2024 surveys not used). Daily Republic (2026-07-17) quotes are general, with no issue positions. No usable quotes found."
+  },
+  {
+   "id": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "name": "Josh Harder",
+   "campaignUrl": null,
+   "notes": "Incumbent. No campaign website confirmed; quotes from first-person text on harder.house.gov issue pages, a House.gov press release, and Stocktonia."
+  },
+  {
+   "id": "2026-11-03.ca-cd-9.u-s-representative-district-9.john-mcbride",
+   "name": "John McBride",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists JohnMcBrideForCongress.com, but it could not be fetched. Quotes from his 2026 Ballotpedia survey."
+  },
+  {
+   "id": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "name": "Mark DeSaulnier",
+   "campaignUrl": "https://desaulnierforcongress.com/",
+   "notes": "Incumbent. Quotes are headline-style issue lines on the campaign home page."
+  },
+  {
+   "id": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "name": "Jeff Frese",
+   "campaignUrl": null,
+   "notes": "iVoterGuide lists freseforcongress.com, but it could not be fetched. Quotes from his written iVoterGuide questionnaire answers."
+  },
+  {
+   "id": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "name": "Connie Chan",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists conniechansf.com, but it could not be fetched. She did not answer the GrowSF questionnaire. Quotes from a Mission Local candidate Q&A (Oct. 8, 2026)."
+  },
+  {
+   "id": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "name": "Scott Wiener",
+   "campaignUrl": null,
+   "notes": "Ballotpedia News cites scottwiener.com, but the site was not fetched. Quotes from the GrowSF June questionnaire and Mission Local."
+  },
+  {
+   "id": "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+   "name": "Jamie Joyce",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists jamiejoyce.com, but it could not be fetched. iVoterGuide has no answers. One quote from her Ballotpedia survey, which mostly covers her MAD Act."
+  },
+  {
+   "id": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "name": "Lateefah Simon",
+   "campaignUrl": "https://www.lateefahsimon.com/",
+   "notes": "Incumbent. Campaign issue pages are written in third person."
+  },
+  {
+   "id": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "name": "Melissa Hernandez",
+   "campaignUrl": null,
+   "notes": "Ballotpedia and Patch list melissahernandez2026.com, but it could not be fetched. Quotes from a Patch candidate Q&A and Danville San Ramon."
+  },
+  {
+   "id": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "name": "Aisha Wahab",
+   "campaignUrl": "https://www.aishawahab.com/",
+   "notes": "Incumbent (won Aug. 18, 2026 special election)."
+  },
+  {
+   "id": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "name": "Kevin Mullin",
+   "campaignUrl": "https://www.kevinmullinforcongress.com/",
+   "notes": "Incumbent. Campaign site shows only priority headings with no text. He did not answer the GrowSF questionnaire. Quotes from the San Mateo Daily Journal (no date shown)."
+  },
+  {
+   "id": "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter",
+   "name": "Charles Hoelter",
+   "campaignUrl": null,
+   "notes": "Ballotpedia and iVoterGuide list hoelterforuscongress.com, but it could not be fetched. He did not answer iVoterGuide or GrowSF. The Ballotpedia survey has only short bullet points."
+  },
+  {
+   "id": "2026-11-03.ca-cd-16.u-s-representative-district-16.sam-liccardo",
+   "name": "Sam Liccardo",
+   "campaignUrl": "https://www.samliccardo.com/",
+   "notes": "Incumbent. The campaign home page lists only short issue headings, and House.gov issue pages are third person with no quotes. News quotes found were not position statements."
+  },
+  {
+   "id": "2026-11-03.ca-cd-16.u-s-representative-district-16.peter-sundin-soul",
+   "name": "Peter Sundin Soulé",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists him as Peter Soule and gives souleforcongress.com (not fetched). He did not answer iVoterGuide. Quotes from his 2026 Ballotpedia survey."
+  },
+  {
+   "id": "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+   "name": "Ro Khanna",
+   "campaignUrl": "https://www.rokhanna.com/",
+   "notes": "Incumbent. He has not completed the 2026 Ballotpedia survey. Platform subpages could not be reached; the home page is mostly headings."
+  },
+  {
+   "id": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "name": "Ritesh Tandon",
+   "campaignUrl": null,
+   "notes": "Ballotpedia lists tandonforcongress.com, but it could not be fetched. Quotes from his 2026 Ballotpedia survey (April and September submissions)."
+  },
+  {
+   "id": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "name": "Zoe Lofgren",
+   "campaignUrl": "https://www.zoelofgren.com/",
+   "notes": "Incumbent. The campaign issues page states no positions. Quotes from the BenitoLink 2026 primary Q&A."
+  },
+  {
+   "id": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+   "name": "Shane Lewis",
+   "campaignUrl": null,
+   "notes": "Ballotpedia and iVoterGuide list shanelewisforcongress.com, but it could not be fetched. Quotes from iVoterGuide, Ballotpedia, and BenitoLink questionnaires."
+  },
+  {
+   "id": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "name": "Jimmy Panetta",
+   "campaignUrl": "https://www.jimmypanetta.com/",
+   "notes": "Incumbent. Campaign issues page is written in third person."
+  },
+  {
+   "id": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "name": "Peter Coe Verbica",
+   "campaignUrl": null,
+   "notes": "Ballotpedia and iVoterGuide list peterverbica.com, but it was not fetched. Quotes from Ballotpedia and iVoterGuide questionnaires and KSBY."
+  }
+ ],
+ "quotes": [
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "health-care",
+   "quote": "When Trump stripped healthcare away from millions, I took decisive action to keep rural hospitals and all Planned Parenthood health centers open.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/McGuire-Tehama-SOQ-General-2026-Final.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "immigration",
+   "quote": "In Congress, I'll always defend California, protect voting rights, and hold ICE accountable.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/McGuire-Tehama-SOQ-General-2026-Final.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.mike-mcguire",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "federal-budget-taxes",
+   "quote": "I'll fight to pass healthcare for every American, make billionaires pay their fair share, and finally hold President Trump to account.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/McGuire-Tehama-SOQ-General-2026-Final.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "cost-of-living-economy",
+   "quote": "I fought to lower energy costs by authoring legislation to reduce utility rates by 30 percent and led the effort to suspend the gas tax.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/Gallagher-Statement-of-Qualifications-SOQ.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "health-care",
+   "quote": "I helped save rural hospitals by protecting access to emergency care for Northern California families.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/Gallagher-Statement-of-Qualifications-SOQ.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "accountability",
+   "quote": "I exposed billions in government waste, fraud, and abuse by demanding audits and reforms to protect taxpayer dollars.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/Gallagher-Statement-of-Qualifications-SOQ.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "climate-energy",
+   "quote": "I also protected our water supply and environment by securing funding to restore river corridors and preserve water rights.",
+   "sourceTitle": "Tehama County candidate statement, Nov. 3, 2026 general",
+   "sourceUrl": "https://www.tehama.gov/wp-content/uploads/2026/08/Gallagher-Statement-of-Qualifications-SOQ.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "contest": "2026-11-03.ca-cd-1.u-s-representative-district-1",
+   "issue": "housing",
+   "quote": "Chico, for example, is poised to build a lot of new housing if we remove the barriers.",
+   "sourceTitle": "Chico News & Review, interview with James Gallagher",
+   "sourceUrl": "https://chico.newsreview.com/2026/05/11/cnr-interview-with-assemblyman-james-gallagher/",
+   "sourceDate": "2026-05-11",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "issue": "health-care",
+   "quote": "I believe it is time for the United States to join other industrialized countries in establishing universal health care coverage.",
+   "sourceTitle": "House.gov, Huffman issue page: Health Care",
+   "sourceUrl": "https://huffman.house.gov/policy-issues/health-care",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "issue": "immigration",
+   "quote": "I support DREAMers.",
+   "sourceTitle": "House.gov, Huffman issue page: Immigration",
+   "sourceUrl": "https://huffman.house.gov/policy-issues/immigration",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "issue": "public-safety",
+   "quote": "I refuse to accept these atrocities as an unavoidable part of American life.",
+   "sourceTitle": "House.gov, Huffman issue page: Gun Violence",
+   "sourceUrl": "https://huffman.house.gov/policy-issues/gun-violence",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "issue": "cost-of-living-economy",
+   "quote": "I will continue working to support our small businesses in Congress.",
+   "sourceTitle": "House.gov, Huffman issue page: Economy and Jobs",
+   "sourceUrl": "https://huffman.house.gov/policy-issues/economy-and-jobs",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.robin-littau",
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "issue": "public-safety",
+   "quote": "I want to see public safety prioritized in every major City in America.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Robin Littau",
+   "sourceUrl": "https://ballotpedia.org/Robin_Littau",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.robin-littau",
+   "contest": "2026-11-03.ca-cd-2.u-s-representative-district-2",
+   "issue": "accountability",
+   "quote": "I will lead by example with integrity, transparency and trust.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Robin Littau",
+   "sourceUrl": "https://ballotpedia.org/Robin_Littau",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "accountability",
+   "quote": "I’ll reject the corrupt system, say no to money from corporate PACs and lobbyists, and never trade stocks in Congress.",
+   "sourceTitle": "Napa County candidate statement, June 2, 2026 primary",
+   "sourceUrl": "https://www.napacounty.gov/DocumentCenter/View/41243/June-2-2026---Congress-District-4---Candidate-Statement---Eric-JonesPDF",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "health-care",
+   "quote": "I’ll fight for working families, for affordable childcare, and for Medicare to cover vision, dental, hearing aids, and in-home nursing.",
+   "sourceTitle": "Napa County candidate statement, June 2, 2026 primary",
+   "sourceUrl": "https://www.napacounty.gov/DocumentCenter/View/41243/June-2-2026---Congress-District-4---Candidate-Statement---Eric-JonesPDF",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "federal-budget-taxes",
+   "quote": "I’ll defend veteran’s benefits at all costs, while closing corporate loopholes so that middle- and working-class families get a real tax refund.",
+   "sourceTitle": "Napa County candidate statement, June 2, 2026 primary",
+   "sourceUrl": "https://www.napacounty.gov/DocumentCenter/View/41243/June-2-2026---Congress-District-4---Candidate-Statement---Eric-JonesPDF",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.eric-jones",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "climate-energy",
+   "quote": "I’ll take on PG&E’s monopoly – holding them accountable for skyrocketing rates and for destroying our environment.",
+   "sourceTitle": "Napa County candidate statement, June 2, 2026 primary",
+   "sourceUrl": "https://www.napacounty.gov/DocumentCenter/View/41243/June-2-2026---Congress-District-4---Candidate-Statement---Eric-JonesPDF",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "federal-budget-taxes",
+   "quote": "More jobs equal more revenue and more investment back in our communities.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.mikethompsonforcongress.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "public-safety",
+   "quote": "We can do both by passing commonsense policies like comprehensive criminal background checks.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.mikethompsonforcongress.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "health-care",
+   "quote": "Health care reform is helping save money and lives.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.mikethompsonforcongress.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "immigration",
+   "quote": "However, our current immigration system is broken and in need of repair.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.mikethompsonforcongress.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "contest": "2026-11-03.ca-cd-4.u-s-representative-district-4",
+   "issue": "climate-energy",
+   "quote": "In the current Congress, I also authored the most sweeping climate policy ever to pass the House of Representatives.",
+   "sourceTitle": "Campaign website news release, filing for reelection",
+   "sourceUrl": "https://www.mikethompsonforcongress.com/news/rep-mike-thompson-files-reelection-represent-newly-drawn-fourth-congressional-district",
+   "sourceDate": "2022-02-18",
+   "dateKind": "published",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+   "contest": "2026-11-03.ca-cd-8.u-s-representative-district-8",
+   "issue": "cost-of-living-economy",
+   "quote": "Congressman John Garamendi is focused on growing the middle class.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.garamendi.org/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+   "contest": "2026-11-03.ca-cd-8.u-s-representative-district-8",
+   "issue": "health-care",
+   "quote": "Congressman Garamendi wants to make America’s health care delivery system as effective as it can be.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.garamendi.org/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-8.u-s-representative-district-8.john-garamendi",
+   "contest": "2026-11-03.ca-cd-8.u-s-representative-district-8",
+   "issue": "climate-energy",
+   "quote": "America must take the climate crisis seriously.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.garamendi.org/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "cost-of-living-economy",
+   "quote": "We have to make life in the Valley affordable again, and that starts with ending the chaos in Washington",
+   "sourceTitle": "Stocktonia, Central Valley congressional races",
+   "sourceUrl": "https://stocktonia.org/news/politics/2026/05/30/central-valley-congressional-races-test-incumbency-trump-ties-and-local-issues/",
+   "sourceDate": "2026-05-30",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "federal-budget-taxes",
+   "quote": "I've also called on Washington and Sacramento to suspend the gas tax.",
+   "sourceTitle": "House.gov, Harder issue page: Costs",
+   "sourceUrl": "https://harder.house.gov/issues/costs",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "climate-energy",
+   "quote": "I'm leading the fight to stop PG&E from constantly raising their rates.",
+   "sourceTitle": "House.gov, Harder issue page: Costs",
+   "sourceUrl": "https://harder.house.gov/issues/costs",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "health-care",
+   "quote": "I will always fight to protect that access and continue to expand health insurance coverage.",
+   "sourceTitle": "House.gov, Harder issue page: Health Care",
+   "sourceUrl": "https://harder.house.gov/issues/health-care",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "immigration",
+   "quote": "I support 21st century investments in border security.",
+   "sourceTitle": "House.gov, Harder issue page: Immigration",
+   "sourceUrl": "https://harder.house.gov/issues/immigration",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "housing",
+   "quote": "We have to do more to get folks off the streets and into safe housing.",
+   "sourceTitle": "House.gov, Harder issue page: Homelessness",
+   "sourceUrl": "https://harder.house.gov/issues/homelessness",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "public-safety",
+   "quote": "Local law enforcement put their lives on the line every single day, and we have a responsibility to have their backs.",
+   "sourceTitle": "House.gov press release, Police Week law enforcement hiring bill",
+   "sourceUrl": "https://harder.house.gov/media/press-releases/police-week-harder-announces-legislation-to-restore-full-funding-for-law-enforcement-hiring-program",
+   "sourceDate": "2026-05-12",
+   "dateKind": "published",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.john-mcbride",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "climate-energy",
+   "quote": "Energy independence must be restored.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, John McBride",
+   "sourceUrl": "https://ballotpedia.org/John_McBride_(California)",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.john-mcbride",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "accountability",
+   "quote": "We The People should receive full transparency from the government on how every dollar is spent.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, John McBride",
+   "sourceUrl": "https://ballotpedia.org/John_McBride_(California)",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.john-mcbride",
+   "contest": "2026-11-03.ca-cd-9.u-s-representative-district-9",
+   "issue": "cost-of-living-economy",
+   "quote": "Oppressive rules and regulations placed on American farmers jeopardizes, their livelihood and the quality of our food.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, John McBride",
+   "sourceUrl": "https://ballotpedia.org/John_McBride_(California)",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "housing",
+   "quote": "Lowering costs and expanding housing so working families can afford to stay.",
+   "sourceTitle": "Campaign website, home page issues",
+   "sourceUrl": "https://desaulnierforcongress.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "health-care",
+   "quote": "Protecting medical research funding and expanding access to quality care for every patient.",
+   "sourceTitle": "Campaign website, home page issues",
+   "sourceUrl": "https://desaulnierforcongress.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "immigration",
+   "quote": "Pushing for humane, functional reform and dignity for families already here.",
+   "sourceTitle": "Campaign website, home page issues",
+   "sourceUrl": "https://desaulnierforcongress.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "public-safety",
+   "quote": "Investing in evidence-based solutions that actually reduce gun violence.",
+   "sourceTitle": "Campaign website, home page issues",
+   "sourceUrl": "https://desaulnierforcongress.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "climate-energy",
+   "quote": "Protecting clean air standards and accelerating the transition to clean energy.",
+   "sourceTitle": "Campaign website, home page issues",
+   "sourceUrl": "https://desaulnierforcongress.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.mark-desaulnier",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "accountability",
+   "quote": "Holding Congress to a higher standard and restoring trust in government.",
+   "sourceTitle": "Campaign website, home page issues",
+   "sourceUrl": "https://desaulnierforcongress.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "cost-of-living-economy",
+   "quote": "Stop the deficit spending that drives up mortgage rates and prices.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "federal-budget-taxes",
+   "quote": "Before Washington asks anyone for more, it should stop losing what it already takes.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "health-care",
+   "quote": "The government has no business keeping a list of Americans by their medical conditions.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "immigration",
+   "quote": "Secure the border first, with modern technology and real enforcement.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "public-safety",
+   "quote": "Don't make it harder for law-abiding people to protect their families.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "climate-energy",
+   "quote": "Cheap, reliable power built here is how you lower bills and keep good jobs.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-10.u-s-representative-district-10.jeff-frese",
+   "contest": "2026-11-03.ca-cd-10.u-s-representative-district-10",
+   "issue": "accountability",
+   "quote": "Post every earmark request with a receipt: what was asked for, and whether the money ever showed up.",
+   "sourceTitle": "iVoterGuide questionnaire, Jeff Frese",
+   "sourceUrl": "https://ivoterguide.com/candidate/90305/race/30361/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "cost-of-living-economy",
+   "quote": "My measure of progress is whether working people's lives get better.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "federal-budget-taxes",
+   "quote": "Billionaires should not pay less in taxes than working families.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "health-care",
+   "quote": "I won't set Medicare for All aside — because healthcare is a right, not a privilege.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "immigration",
+   "quote": "Immigration policy should serve workers and families, not give corporations a captive workforce.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "climate-energy",
+   "quote": "Working families should not pay higher electricity bills to subsidize corporate profits.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "housing",
+   "quote": "No, I believe that if your demand is affordable housing, then your supply has to be affordable housing.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "accountability",
+   "quote": "Sunshine is one of Congress's strongest checks on executive power, and I will use it relentlessly.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "cost-of-living-economy",
+   "quote": "My top priority is lowering cost of living for San Franciscans:",
+   "sourceTitle": "Mission Local, SF congress candidates' top priority",
+   "sourceUrl": "https://missionlocal.org/2026/08/sf-congress-candidates-top-priority/",
+   "sourceDate": "2026-08-04",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "federal-budget-taxes",
+   "quote": "I oppose tariff wars that raise costs for manufacturers, retailers, and consumers.",
+   "sourceTitle": "GrowSF questionnaire, June 2026 primary",
+   "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/scott-wiener/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "health-care",
+   "quote": "Medicare for All is the ultimate goal in our work to lower costs and ensure universal access to healthcare.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "immigration",
+   "quote": "We should ban ICE raids at work sites, at schools, and at health care facilities.",
+   "sourceTitle": "GrowSF questionnaire, June 2026 primary",
+   "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/scott-wiener/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "public-safety",
+   "quote": "San Francisco's fentanyl crisis is a genuine public health emergency requiring action on multiple fronts simultaneously.",
+   "sourceTitle": "GrowSF questionnaire, June 2026 primary",
+   "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/scott-wiener/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "climate-energy",
+   "quote": "I will fight aggressively against any attempt to rescind the IRA's clean energy provisions.",
+   "sourceTitle": "GrowSF questionnaire, June 2026 primary",
+   "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/scott-wiener/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "housing",
+   "quote": "I'll vote for good housing policy whether it comes from a Democrat or a Republican.",
+   "sourceTitle": "GrowSF questionnaire, June 2026 primary",
+   "sourceUrl": "https://growsf.org/voter-guide/questionnaires/june-2026/scott-wiener/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "contest": "2026-11-03.ca-cd-11.u-s-representative-district-11",
+   "issue": "accountability",
+   "quote": "We should overturn Citizens United.",
+   "sourceTitle": "Mission Local, SF congressional candidates Q&A",
+   "sourceUrl": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "public-safety",
+   "quote": "Lateefah will advocate for investment in public safety measures in California's 12th district.",
+   "sourceTitle": "Campaign website, Public Safety",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/new-issue",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "housing",
+   "quote": "Housing is a fundamental right, and real solutions are needed to address the housing crisis in our district.",
+   "sourceTitle": "Campaign website, Affordable Housing",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/affordable-housing",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "cost-of-living-economy",
+   "quote": "Her unwavering commitment will continue in Congress, ensuring every American can access good-paying jobs.",
+   "sourceTitle": "Campaign website, Affordability and Job Creation",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/affordability-and-job-creation",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "health-care",
+   "quote": "Access to affordable, high-quality healthcare is a fundamental human right.",
+   "sourceTitle": "Campaign website, Healthcare for All",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/healthcare-for-all",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "immigration",
+   "quote": "Dreamers are Americans; their home is here.",
+   "sourceTitle": "Campaign website, Immigration",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/immigration",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "climate-energy",
+   "quote": "Critical to this work is the transition to net-zero emissions and our continued investment into clean energy alternatives.",
+   "sourceTitle": "Campaign website, Climate and Environmental Justice",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/climate-and-environmental-justice",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "accountability",
+   "quote": "Lateefah will support ranked-choice voting and ending partisan gerrymandering.",
+   "sourceTitle": "Campaign website, Voting Rights and Democracy Reform",
+   "sourceUrl": "https://www.lateefahsimon.com/issues/voting-rights-and-democracy-reform",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+   "contest": "2026-11-03.ca-cd-12.u-s-representative-district-12",
+   "issue": "accountability",
+   "quote": "It puts teeth on dark money disclosure, hard limits on surveillance, guardrails on AI, and real accountability for the Epstein network.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey (CA-12 primary page), Jamie Joyce",
+   "sourceUrl": "https://ballotpedia.org/California's_12th_Congressional_District_election,_2026_(June_2_top-two_primary)",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "cost-of-living-economy",
+   "quote": "Drive down costs on the basics: housing, healthcare, childcare, utilities, groceries, gas, and prescription drugs.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "federal-budget-taxes",
+   "quote": "Revitalize small businesses with targeted tax relief and incentives for local hiring and livable wages.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "health-care",
+   "quote": "Healthcare should be a right — not a bill that bankrupts a family.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "immigration",
+   "quote": "Create a secure, fair, and humane immigration system with due process and faster legal pathways.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "public-safety",
+   "quote": "Public safety means protecting people’s lives, rights, families, and freedoms.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "climate-energy",
+   "quote": "We can lower costs, create good-paying jobs, reduce pollution, and build safer communities at the same time.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "housing",
+   "quote": "Build more affordable housing, protect renters, and help working families become homeowners.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.aisha-wahab",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "accountability",
+   "quote": "Washington is too broken, too corrupt, and too captured by special interests.",
+   "sourceTitle": "Campaign website, It's Simple (priorities)",
+   "sourceUrl": "https://www.aishawahab.com/simple",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "cost-of-living-economy",
+   "quote": "I will work in Congress to lower costs and expand economic opportunity.",
+   "sourceTitle": "Patch, Meet Melissa Hernandez (candidate Q&A)",
+   "sourceUrl": "https://patch.com/california/dublin/meet-melissa-hernandez-candidate-californias-14th-congressional-district",
+   "sourceDate": "2026-05-04",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "federal-budget-taxes",
+   "quote": "I support expanding the Child Tax Credit, recruiting and training qualified childcare workers, and paying them more.",
+   "sourceTitle": "Patch, Meet Melissa Hernandez (candidate Q&A)",
+   "sourceUrl": "https://patch.com/california/dublin/meet-melissa-hernandez-candidate-californias-14th-congressional-district",
+   "sourceDate": "2026-05-04",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "health-care",
+   "quote": "We can do better to drive down costs and improve health outcomes.",
+   "sourceTitle": "Patch, Meet Melissa Hernandez (candidate Q&A)",
+   "sourceUrl": "https://patch.com/california/dublin/meet-melissa-hernandez-candidate-californias-14th-congressional-district",
+   "sourceDate": "2026-05-04",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "housing",
+   "quote": "To bring down the cost of housing, we need to build more houses at all levels of affordability.",
+   "sourceTitle": "Patch, Meet Melissa Hernandez (candidate Q&A)",
+   "sourceUrl": "https://patch.com/california/dublin/meet-melissa-hernandez-candidate-californias-14th-congressional-district",
+   "sourceDate": "2026-05-04",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "accountability",
+   "quote": "This community needs a leader who can rebuild trust.",
+   "sourceTitle": "Patch, Meet Melissa Hernandez (candidate Q&A)",
+   "sourceUrl": "https://patch.com/california/dublin/meet-melissa-hernandez-candidate-californias-14th-congressional-district",
+   "sourceDate": "2026-05-04",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "contest": "2026-11-03.ca-cd-14.u-s-representative-district-14",
+   "issue": "public-safety",
+   "quote": "I cut red tape for businesses and hired more police officers as Mayor, so you know where my record stands.",
+   "sourceTitle": "Danville San Ramon, Wahab and Hernandez special election",
+   "sourceUrl": "https://www.danvillesanramon.com/regional-politics/2026/08/04/democratic-showdown-wahab-hernandez-vie-for-congress-on-special-ballot-this-month/",
+   "sourceDate": "2026-08-04",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "contest": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "issue": "health-care",
+   "quote": "When we take the majority, we will work to reverse those Medicaid cuts and restore the Affordable Care Act tax credits,",
+   "sourceTitle": "San Mateo Daily Journal, Mullin faces four challengers",
+   "sourceUrl": "https://www.smdailyjournal.com/news/local/kevin-mullin-faces-four-challengers-for-district-15-us-house-of-representatives-seat/article_ed5e9f4e-3413-4317-b878-25f34039aad9.html",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "contest": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "issue": "accountability",
+   "quote": "This is about gaining a majority and being a check, bringing checks and balances back to Washington.",
+   "sourceTitle": "San Mateo Daily Journal, Mullin faces four challengers",
+   "sourceUrl": "https://www.smdailyjournal.com/news/local/kevin-mullin-faces-four-challengers-for-district-15-us-house-of-representatives-seat/article_ed5e9f4e-3413-4317-b878-25f34039aad9.html",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter",
+   "contest": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "issue": "immigration",
+   "quote": "We had the open borders, people were just pretty much walking in and allowing citizenship.",
+   "sourceTitle": "San Mateo Daily Journal, Mullin faces four challengers",
+   "sourceUrl": "https://www.smdailyjournal.com/news/local/kevin-mullin-faces-four-challengers-for-district-15-us-house-of-representatives-seat/article_ed5e9f4e-3413-4317-b878-25f34039aad9.html",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.charles-hoelter",
+   "contest": "2026-11-03.ca-cd-15.u-s-representative-district-15",
+   "issue": "accountability",
+   "quote": "Term limits on politicians",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Charles Hoelter",
+   "sourceUrl": "https://ballotpedia.org/Charles_Hoelter",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-16.u-s-representative-district-16.sam-liccardo",
+   "contest": "2026-11-03.ca-cd-16.u-s-representative-district-16",
+   "issue": "cost-of-living-economy",
+   "quote": "Reducing our cost of living.",
+   "sourceTitle": "Campaign website, home page",
+   "sourceUrl": "https://www.samliccardo.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-16.u-s-representative-district-16.sam-liccardo",
+   "contest": "2026-11-03.ca-cd-16.u-s-representative-district-16",
+   "issue": "housing",
+   "quote": "Making housing more affordable.",
+   "sourceTitle": "Campaign website, home page",
+   "sourceUrl": "https://www.samliccardo.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-16.u-s-representative-district-16.peter-sundin-soul",
+   "contest": "2026-11-03.ca-cd-16.u-s-representative-district-16",
+   "issue": "cost-of-living-economy",
+   "quote": "California's economy is being strangled by exessive regulations and wasteful spending",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Peter Soule",
+   "sourceUrl": "https://ballotpedia.org/Peter_Soule",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-16.u-s-representative-district-16.peter-sundin-soul",
+   "contest": "2026-11-03.ca-cd-16.u-s-representative-district-16",
+   "issue": "public-safety",
+   "quote": "Current laws need to be enforced.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Peter Soule",
+   "sourceUrl": "https://ballotpedia.org/Peter_Soule",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "cost-of-living-economy",
+   "quote": "Tackle income inequality and make our highest mission the success of every American family and every community.",
+   "sourceTitle": "Campaign website, home page",
+   "sourceUrl": "https://www.rokhanna.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ro-khanna",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "federal-budget-taxes",
+   "quote": "Tax the Billionaires.",
+   "sourceTitle": "Campaign website, home page",
+   "sourceUrl": "https://www.rokhanna.com/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "federal-budget-taxes",
+   "quote": "Simplify small-business taxes so Main Street can grow.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Ritesh Tandon",
+   "sourceUrl": "https://ballotpedia.org/Ritesh_Tandon",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "health-care",
+   "quote": "Lower healthcare and Rx costs through price transparency and preventive care.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Ritesh Tandon",
+   "sourceUrl": "https://ballotpedia.org/Ritesh_Tandon",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "immigration",
+   "quote": "Secure the border with modern technology, anti-cartel ops, and rapid processing.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Ritesh Tandon",
+   "sourceUrl": "https://ballotpedia.org/Ritesh_Tandon",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "public-safety",
+   "quote": "I will back our police and first responders with the resources they need, while insisting on accountability and fairness.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Ritesh Tandon",
+   "sourceUrl": "https://ballotpedia.org/Ritesh_Tandon",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "housing",
+   "quote": "I will fight to build more homes by cutting the red tape and delays that drive up construction costs.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Ritesh Tandon",
+   "sourceUrl": "https://ballotpedia.org/Ritesh_Tandon",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-17.u-s-representative-district-17.ritesh-tandon",
+   "contest": "2026-11-03.ca-cd-17.u-s-representative-district-17",
+   "issue": "accountability",
+   "quote": "Members of Congress should work for their constituents, not their stock portfolios.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Ritesh Tandon",
+   "sourceUrl": "https://ballotpedia.org/Ritesh_Tandon",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "health-care",
+   "quote": "I will continue supporting legislation to reverse their disastrous Medicaid cuts and revive the tax credits.",
+   "sourceTitle": "BenitoLink, 2026 primary Q&A, 18th Congressional District",
+   "sourceUrl": "https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/",
+   "sourceDate": "2026-04-02",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "cost-of-living-economy",
+   "quote": "Congress must do more to support agricultural economies, like investing in rural infrastructure.",
+   "sourceTitle": "BenitoLink, 2026 primary Q&A, 18th Congressional District",
+   "sourceUrl": "https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/",
+   "sourceDate": "2026-04-02",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "accountability",
+   "quote": "I've not been someone who goes to Washington to put on a show or make a name for myself.",
+   "sourceTitle": "BenitoLink, 2026 primary Q&A, 18th Congressional District",
+   "sourceUrl": "https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/",
+   "sourceDate": "2026-04-02",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "immigration",
+   "quote": "Any person properly vetted and willing to follow immigration law should have the opportunity to take part in our society.",
+   "sourceTitle": "iVoterGuide questionnaire, Shane Lewis",
+   "sourceUrl": "https://ivoterguide.com/candidate/90412/race/30369/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "federal-budget-taxes",
+   "quote": "Strive for 4% GDP growth year-over-year and reduce deficit spending by 1-2% per year.",
+   "sourceTitle": "iVoterGuide questionnaire, Shane Lewis",
+   "sourceUrl": "https://ivoterguide.com/candidate/90412/race/30369/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "climate-energy",
+   "quote": "Water is life and energy is the foundation of our economy.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Shane Lewis",
+   "sourceUrl": "https://ballotpedia.org/Shane_Lewis",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+   "contest": "2026-11-03.ca-cd-18.u-s-representative-district-18",
+   "issue": "accountability",
+   "quote": "We need to keep people out of government that have lofty goals at the expense of our local communities.",
+   "sourceTitle": "BenitoLink, 2026 primary Q&A, 18th Congressional District",
+   "sourceUrl": "https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/",
+   "sourceDate": "2026-04-02",
+   "dateKind": "published",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "cost-of-living-economy",
+   "quote": "He also is working to strengthen our local economy and support working families.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.jimmypanetta.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "health-care",
+   "quote": "Jimmy is fighting to make health care affordable and accessible for all.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.jimmypanetta.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "climate-energy",
+   "quote": "Jimmy always will fight to protect the unique and pristine environment of the 19th Congressional District.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.jimmypanetta.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.jimmy-panetta",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "housing",
+   "quote": "Jimmy continues to work hard for more affordable housing.",
+   "sourceTitle": "Campaign website, Issues",
+   "sourceUrl": "https://www.jimmypanetta.com/issues",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "housing",
+   "quote": "Over-regulation, ad hoc fees, and bureaucratic expansion have made housing unaffordable and squeezed small businesses.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Peter Verbica",
+   "sourceUrl": "https://ballotpedia.org/Peter_Verbica",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "cost-of-living-economy",
+   "quote": "The path forward is one of relentless pragmatism: real results that strengthen our economy and improve everyday life.",
+   "sourceTitle": "Ballotpedia Candidate Connection survey, Peter Verbica",
+   "sourceUrl": "https://ballotpedia.org/Peter_Verbica",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "health-care",
+   "quote": "I advocate that the US look at and consider adopting the best healthcare system in the world, namely Singapore's.",
+   "sourceTitle": "iVoterGuide questionnaire, Peter Coe Verbica",
+   "sourceUrl": "https://ivoterguide.com/candidate/90414/race/30370/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "public-safety",
+   "quote": "The 2A is the last defense against tyranny; the 2A is not merely about self-defense.",
+   "sourceTitle": "iVoterGuide questionnaire, Peter Coe Verbica",
+   "sourceUrl": "https://ivoterguide.com/candidate/90414/race/30370/election/1454",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "questionnaire"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "contest": "2026-11-03.ca-cd-19.u-s-representative-district-19",
+   "issue": "immigration",
+   "quote": "Immigration reform is long overdue and I think we need to be a lot more humane and civil and I think it could be done,",
+   "sourceTitle": "KSBY, 19th District candidates on housing, ICE and immigration",
+   "sourceUrl": "https://www.ksby.com/news/local-news/candidates-for-the-19th-congressional-seat-share-thoughts-on-housing-ice-and-immigration-ahead-of-election",
+   "sourceDate": "2026-10-08",
+   "dateKind": "published",
+   "sourceType": "news"
+  }
+ ]
+}

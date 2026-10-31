@@ -1,0 +1,696 @@
+{
+  "group": "pa-mp",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+      "name": "Henry Etzkowitz",
+      "campaignUrl": "https://henryetzkowitz4paloaltocitycouncil.com/",
+      "notes": "City clerk page lists www.henryetzkowitz.org; that URL could not be fetched. Quotes taken from henryetzkowitz4paloaltocitycouncil.com, which names him and Palo Alto City Council."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+      "name": "Ed Lauing",
+      "campaignUrl": "https://www.edlauing.com/",
+      "notes": "Incumbent. Site confirmed via city clerk page and site title."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "name": "Bryna Chang",
+      "campaignUrl": "https://www.changforcitycouncil.com/",
+      "notes": "Site confirmed via city clerk page and site title."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.vicki-veenker",
+      "name": "Vicki Veenker",
+      "campaignUrl": "https://www.vickiforcouncil.com/",
+      "notes": "Incumbent mayor. Site listed on city clerk page, but its content appears to date from the 2022 campaign (no 2026 date), so it was not used for quotes."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "name": "Yu \"Yudy\" Deng",
+      "campaignUrl": "https://www.yudy4paloalto.com/",
+      "notes": "Site confirmed via city clerk page and page title."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.gary-gechlik",
+      "name": "Gary Gechlik",
+      "campaignUrl": null,
+      "notes": "City clerk page lists no website. Sway links drgary.vote but it could not be fetched or confirmed. Quotes from news only."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.raymond-l-goins",
+      "name": "Raymond L. Goins",
+      "campaignUrl": null,
+      "notes": "No campaign website listed by city clerk or found. Quotes from news only."
+    },
+    {
+      "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+      "name": "Brian Hamachek",
+      "campaignUrl": "https://www.brianhamachek.com/",
+      "notes": "Site confirmed via city clerk page and site title."
+    },
+    {
+      "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+      "name": "James Rohr",
+      "campaignUrl": "https://bellehaven.online/",
+      "notes": "Website listed on Menlo Park city candidate page; not fetched. Official candidate statement used."
+    },
+    {
+      "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee",
+      "name": "Wonman Lee",
+      "campaignUrl": "https://wonmanlee.com/",
+      "notes": "Website listed on Menlo Park city candidate page; not fetched. Official candidate statement used."
+    },
+    {
+      "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+      "name": "Drew Combs",
+      "campaignUrl": "https://www.drewcombs.com",
+      "notes": "Incumbent. Website listed on Menlo Park city candidate page; not fetched."
+    },
+    {
+      "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+      "name": "Vamsi Velagapudi",
+      "campaignUrl": "https://www.votevamsi.com/",
+      "notes": "Website listed on Menlo Park city candidate page and in his statement; not fetched."
+    },
+    {
+      "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "name": "Charlotte Reed",
+      "campaignUrl": "https://www.charlotteformenlopark.com/",
+      "notes": "Website listed on Menlo Park city candidate page and in her statement; not fetched."
+    },
+    {
+      "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn",
+      "name": "Laura Melahn",
+      "campaignUrl": "https://www.lauramelahn.com",
+      "notes": "Website listed on Menlo Park city candidate page; not fetched."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "Explore thoughtful housing options so teachers, young professionals, families, and older residents can build a life in Palo Alto—while protecting the character of our neighborhoods.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://henryetzkowitz4paloaltocitycouncil.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "Help local entrepreneurs thrive and make the benefits of innovation more widely accessible.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://henryetzkowitz4paloaltocitycouncil.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Prioritize a greener city with safer walking and cycling, practical transportation choices, and climate-conscious planning that improves everyday life.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://henryetzkowitz4paloaltocitycouncil.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "accountability",
+      "quote": "Support clear communication, accessible public discussions, and evidence-informed policies with meaningful accountability.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://henryetzkowitz4paloaltocitycouncil.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "My priority remains housing that is truly affordable.",
+      "sourceTitle": "Campaign website, Priority Policies",
+      "sourceUrl": "https://www.edlauing.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "public-safety",
+      "quote": "I will continue working to ensure that our public safety departments have the people, training, accountability, and resources needed to serve every part of our community effectively.",
+      "sourceTitle": "Campaign website, Priority Policies",
+      "sourceUrl": "https://www.edlauing.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "city-budget",
+      "quote": "In a second term, I will continue working to expand affordable housing, strengthen public safety, protect our parks and neighborhoods, responsibly manage growth, and maintain the fiscal discipline needed to prioritize and sustain excellent city services.",
+      "sourceTitle": "Campaign website, Home",
+      "sourceUrl": "https://www.edlauing.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "homelessness",
+      "quote": "The legal risk is real, and I think we should step up and take a bit more legal risk than we have before,",
+      "sourceTitle": "Palo Alto Daily Post, Candidates suggest ideas on dealing with RV influx",
+      "sourceUrl": "https://padailypost.com/2026/10/02/candidates-suggest-ideas-on-dealing-with-rv-influx-such-as-tow-warning-signs-at-entrances-to-city/",
+      "sourceDate": "2026-10-02",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "accountability",
+      "quote": "I am running for a second term to build on my successful record and to help Palo Alto navigate the choices ahead with calm, sound judgment and a clear focus on what works best for our city.",
+      "sourceTitle": "Campaign website, Home",
+      "sourceUrl": "https://www.edlauing.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "Consistently pushed developers to include larger units at deeper affordability levels for working families — not just studios at 120% AMI.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.changforcitycouncil.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "city-budget",
+      "quote": "I believe in setting clear priorities, aligning budgets with community needs, and ensuring public projects and city initiatives actually deliver on their promises.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.changforcitycouncil.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "Expanded the definition of retail, streamlined permits, allowed bars and smaller restaurant chains, and enabled more flexible use of large retail spaces for neighborhood-serving offices.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.changforcitycouncil.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Planned for bike lanes on East Meadow and an improved JLS path; adopted the 2026 Bike and Pedestrian Safety Plan and Safe Streets for All Plan with prioritized projects and a toolkit of quick-build solutions.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.changforcitycouncil.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "accountability",
+      "quote": "I believe good governance starts with listening carefully, weighing tradeoffs honestly, and being transparent about decisions.",
+      "sourceTitle": "Campaign website, Priorities",
+      "sourceUrl": "https://www.changforcitycouncil.com/priorities",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "homelessness",
+      "quote": "We can take a little bit more legal risk as a city than we have.",
+      "sourceTitle": "Palo Alto Daily Post, Candidates suggest ideas on dealing with RV influx",
+      "sourceUrl": "https://padailypost.com/2026/10/02/candidates-suggest-ideas-on-dealing-with-rv-influx-such-as-tow-warning-signs-at-entrances-to-city/",
+      "sourceDate": "2026-10-02",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.vicki-veenker",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "homelessness",
+      "quote": "We're finally getting to the point where we're resolving it more fully,",
+      "sourceTitle": "Palo Alto Daily Post, Vicki Veenker cites progress in addressing RV influx",
+      "sourceUrl": "https://padailypost.com/2026/09/21/palo-alto-council-race-vicki-veenker-cites-progress-in-addressing-rv-influx/",
+      "sourceDate": "2026-09-21",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "Add family housing where it makes sense—near transit, shopping areas, major employers, community amenities, and existing multifamily neighborhoods.",
+      "sourceTitle": "Campaign website, Policies",
+      "sourceUrl": "https://www.yudy4paloalto.com/policies",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "city-budget",
+      "quote": "The city could use existing competitively bid public contracts and proven prefabricated designs to reduce costs, shorten timelines, and complete more neighborhood improvements with the same taxpayer dollars—without sacrificing safety or quality.",
+      "sourceTitle": "Campaign website, Policies",
+      "sourceUrl": "https://www.yudy4paloalto.com/policies",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "cost-of-living-economy",
+      "quote": "We can revitalize downtown by making it easier to open a local business and less expensive to complete straightforward community improvements.",
+      "sourceTitle": "Campaign website, Policies",
+      "sourceUrl": "https://www.yudy4paloalto.com/policies",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "Reduce event-related gridlock by negotiating new traffic-management agreements with Stanford and other major event organizers.",
+      "sourceTitle": "Campaign website, Policies",
+      "sourceUrl": "https://www.yudy4paloalto.com/policies",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "accountability",
+      "quote": "Government should solve problems, not create new ones.",
+      "sourceTitle": "Campaign website, About Yudy",
+      "sourceUrl": "https://www.yudy4paloalto.com/aboutyudy",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "homelessness",
+      "quote": "My principle is: We do not only get them off the street; we should keep them off the street.",
+      "sourceTitle": "Palo Alto Daily Post, Candidates suggest ideas on dealing with RV influx",
+      "sourceUrl": "https://padailypost.com/2026/10/02/candidates-suggest-ideas-on-dealing-with-rv-influx-such-as-tow-warning-signs-at-entrances-to-city/",
+      "sourceDate": "2026-10-02",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.gary-gechlik",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "Building very, very tall buildings will overconcentrate density in the end.",
+      "sourceTitle": "Verde Magazine, A busy ballot: Meet this year's city council candidates",
+      "sourceUrl": "https://verdemagazine.com/a-busy-ballot-meet-this-years-city-council-candidates",
+      "sourceDate": "2026-10-04",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.gary-gechlik",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "homelessness",
+      "quote": "Instead of having these RVs scattered around town, we could finally monitor them,",
+      "sourceTitle": "Palo Alto Daily Post, Candidates suggest ideas on dealing with RV influx",
+      "sourceUrl": "https://padailypost.com/2026/10/02/candidates-suggest-ideas-on-dealing-with-rv-influx-such-as-tow-warning-signs-at-entrances-to-city/",
+      "sourceDate": "2026-10-02",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.raymond-l-goins",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "We need to somehow figure out a way for the workers that work here and who want to live here to be able to live here.",
+      "sourceTitle": "Verde Magazine, A busy ballot: Meet this year's city council candidates",
+      "sourceUrl": "https://verdemagazine.com/a-busy-ballot-meet-this-years-city-council-candidates",
+      "sourceDate": "2026-10-04",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.raymond-l-goins",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "accountability",
+      "quote": "Our taxpayers should know what’s going on,",
+      "sourceTitle": "Verde Magazine, A busy ballot: Meet this year's city council candidates",
+      "sourceUrl": "https://verdemagazine.com/a-busy-ballot-meet-this-years-city-council-candidates",
+      "sourceDate": "2026-10-04",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "housing",
+      "quote": "Palo Alto needs more affordable and family-sized homes so the people who work here, raise children here, and contribute to our community have a chance to live here.",
+      "sourceTitle": "Campaign website, Home (priorities)",
+      "sourceUrl": "https://www.brianhamachek.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "public-safety",
+      "quote": "I support hiring more police officers so our department has the capacity to respond when residents need help, spend time in our neighborhoods, and follow through on investigations.",
+      "sourceTitle": "Campaign website, Home (priorities)",
+      "sourceUrl": "https://www.brianhamachek.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "city-budget",
+      "quote": "Accountability also means making budgets and decisions understandable.",
+      "sourceTitle": "Campaign website, Home (priorities)",
+      "sourceUrl": "https://www.brianhamachek.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "streets-transit-clean",
+      "quote": "I oppose grade separation projects and support keeping Palo Alto's existing rail crossings as they are.",
+      "sourceTitle": "Campaign website, Home (priorities)",
+      "sourceUrl": "https://www.brianhamachek.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+      "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+      "issue": "accountability",
+      "quote": "Residents should be able to see what was delivered and whether it was worth the expense.",
+      "sourceTitle": "Campaign website, Home (priorities)",
+      "sourceUrl": "https://www.brianhamachek.com/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "campaign"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1",
+      "issue": "accountability",
+      "quote": "I am running for the City Council to ensure every voice in District 1 is heard and that we achieve equitable representation in our city government.",
+      "sourceTitle": "Menlo Park official candidate statement, District 1",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/rohr-james/rohr-james-district-1-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1",
+      "issue": "housing",
+      "quote": "I want people to be able to enjoy their single-family homes that they've already purchased and lived in for generations,",
+      "sourceTitle": "The Almanac, Menlo Park City Council, District 1: James Rohr",
+      "sourceUrl": "https://www.almanacnews.com/election/2026/10/28/menlo-park-city-council-district-1-james-rohr/",
+      "sourceDate": "2026-10-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1",
+      "issue": "housing",
+      "quote": "I will fight for a walkable commercial core and thoughtful housing development, ensuring local tax revenue stays here to fund our parks, streets, and schools.",
+      "sourceTitle": "Menlo Park official candidate statement, District 1",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/lee-wonman/lee-wonman-district-1-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1",
+      "issue": "cost-of-living-economy",
+      "quote": "Despite hosting world-class employers and thousands of daily workers, Belle Haven still lacks a local grocery store, sit-down restaurants, and family gathering spaces.",
+      "sourceTitle": "Menlo Park official candidate statement, District 1",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/lee-wonman/lee-wonman-district-1-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1",
+      "issue": "accountability",
+      "quote": "My standard for every decision is simple: Does it directly improve life for the residents of District 1 today? I prioritize real outcomes over bureaucratic delay.",
+      "sourceTitle": "Menlo Park official candidate statement, District 1",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/lee-wonman/lee-wonman-district-1-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "homelessness",
+      "quote": "An empathetic resolution to RV encampments behind Lorelei Manor.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/3/city-managers-office/documents/city-clerk/2026-election/combs-drew/combs-drew-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "public-safety",
+      "quote": "I led in making public safety a city priority, and delivered balanced budgets.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/3/city-managers-office/documents/city-clerk/2026-election/combs-drew/combs-drew-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "city-budget",
+      "quote": "I led in making public safety a city priority, and delivered balanced budgets.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/3/city-managers-office/documents/city-clerk/2026-election/combs-drew/combs-drew-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "streets-transit-clean",
+      "quote": "Safer streets with new crosswalks, speed feedback signs, and protected left turns.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/3/city-managers-office/documents/city-clerk/2026-election/combs-drew/combs-drew-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "accountability",
+      "quote": "I promise transparency, and you'll know where I stand.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/3/city-managers-office/documents/city-clerk/2026-election/combs-drew/combs-drew-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "housing",
+      "quote": "Responsible growth that meets housing requirements and revitalizes downtown, while standing up to skyscrapers.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/velagapudi-vamsi/velagapudi-vamsi-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "streets-transit-clean",
+      "quote": "Real investment in our quality of life: safer streets, climate adaptation, programs for kids, responsive city services, all funded by our city’s mega tech companies paying their fair share.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/velagapudi-vamsi/velagapudi-vamsi-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "city-budget",
+      "quote": "City Council’s reactive missteps led to 80 Willow/Sunset skyscrapers, structural budget deficits and dwindling reserves, and residents feeling shut out of critical decisions.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/velagapudi-vamsi/velagapudi-vamsi-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "accountability",
+      "quote": "And a Council that is strategic, transparent and accountable, while securing real results from the county and state.",
+      "sourceTitle": "Menlo Park official candidate statement, District 2",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/velagapudi-vamsi/velagapudi-vamsi-district-2-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+      "issue": "cost-of-living-economy",
+      "quote": "I think there's a way we can actually now negotiate with Meta on the business license tax, among other things.",
+      "sourceTitle": "The Almanac, Candidates for Menlo Park council spar over city's future in election forum",
+      "sourceUrl": "https://www.almanacnews.com/menlo-park/2026/10/14/candidates-for-menlo-park-council-spar-over-citys-future-in-election-forum/",
+      "sourceDate": "2026-10-14",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "housing",
+      "quote": "I’ll build more homes so seniors shut out of housing waitlists don’t get displaced and your children can come home to Menlo Park.",
+      "sourceTitle": "Menlo Park official candidate statement, District 4",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/reed-charlotte/reed-charlotte-district-4-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "public-safety",
+      "quote": "I'll champion public safety and a vibrant downtown that supports our 200+ small businesses.",
+      "sourceTitle": "Menlo Park official candidate statement, District 4",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/reed-charlotte/reed-charlotte-district-4-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "accountability",
+      "quote": "I will ensure you have a voice at Menlo Park City Hall.",
+      "sourceTitle": "Menlo Park official candidate statement, District 4",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/reed-charlotte/reed-charlotte-district-4-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "cost-of-living-economy",
+      "quote": "We as a city need more institutional infrastructure support for our business community.",
+      "sourceTitle": "Palo Alto Daily Post, Menlo Park council District 4: Both candidates focused on improving downtown",
+      "sourceUrl": "https://padailypost.com/2026/09/21/menlo-park-council-district-4-both-candidates-focused-on-improving-downtown-only-one-supports-measure-p/",
+      "sourceDate": "2026-09-21",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "city-budget",
+      "quote": "We have seen, especially in the past several months, significant budget cuts to programming downtown,",
+      "sourceTitle": "Palo Alto Daily Post, Menlo Park council District 4: Both candidates focused on improving downtown",
+      "sourceUrl": "https://padailypost.com/2026/09/21/menlo-park-council-district-4-both-candidates-focused-on-improving-downtown-only-one-supports-measure-p/",
+      "sourceDate": "2026-09-21",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "housing",
+      "quote": "Let's stop fighting the same fights and start delivering homes that people who serve our community can afford, on time and on budget.",
+      "sourceTitle": "Menlo Park official candidate statement, District 4",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/melahn-laura/melahn-laura-district-4-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "city-budget",
+      "quote": "As your councilmember, I will listen to residents, strengthen our community, support local businesses, and spend tax dollars wisely.",
+      "sourceTitle": "Menlo Park official candidate statement, District 4",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/melahn-laura/melahn-laura-district-4-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "streets-transit-clean",
+      "quote": "My priorities: a cleaner, more vibrant downtown with fewer commercial vacancies; completing the Caltrain quiet zone; establishing a Section 115 pension trust; protecting heritage trees and parks; supporting our schools; safer neighborhood streets; and practical progress on housing.",
+      "sourceTitle": "Menlo Park official candidate statement, District 4",
+      "sourceUrl": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/melahn-laura/melahn-laura-district-4-candidate-statement.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "official-statement"
+    },
+    {
+      "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+      "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+      "issue": "streets-transit-clean",
+      "quote": "This is an important part of my platform when it comes to District 4: Identifying solutions to make sure that our kids are safe going to and from school, and our residents are safe commuting to and from work, is a priority for me,",
+      "sourceTitle": "The Almanac, Menlo Park City Council, District 4: Charlotte Reed",
+      "sourceUrl": "https://www.almanacnews.com/election/2026/10/28/menlo-park-city-council-district-4-charlotte-reed/",
+      "sourceDate": "2026-10-28",
+      "dateKind": "published",
+      "sourceType": "news"
+    }
+  ]
+}

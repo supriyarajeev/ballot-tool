@@ -1,0 +1,837 @@
+{
+ "note": "Quotes kept out of the guide even if they match their source, with the reason. Decided October 30, 2026.",
+ "exclusions": [
+  {
+   "url": "https://www.kqed.org/forum/2010101913952/after-a-year-as-oaklands-mayor-barbara-lee-looks-to-finish-the-job",
+   "reason": "Computer-generated interview transcript. Words may not be exactly what was said."
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+   "issue": "city-budget",
+   "reason": "Same sentence already used for public safety. One sentence is used for one issue only."
+  },
+  {
+   "url": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "reason": "Review copy of the statements posted before printing, with line numbers in the text. The printed version may differ."
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-dublin.mayor.sherry-hu",
+   "issue": "housing",
+   "quote": "My priority is to manage that growth responsibly, protect neighborhood quality of life, and strengthen our employment base.",
+   "reason": "Cannot be understood on its own. 'that growth' refers to something not in the quote.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+   "issue": "accountability",
+   "quote": "During my time in public service, I have been committed to leading with integrity, transparency, and being accessible to hear from the community.",
+   "reason": "No stance on the issue. Self-description of leadership values with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+   "issue": "accountability",
+   "quote": "In my service as your councilmember, I have improved accessibility, transparency and visibility between city government and the people we serve.",
+   "reason": "No stance on the issue. Generic claim of improved transparency with no specific stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-hayward.mayor.mark-salinas",
+   "issue": "accountability",
+   "quote": "I believe in setting and accomplishing clear priorities, working with neighborhoods, and delivering on promises with measurable results.",
+   "reason": "No stance on the issue. Generic leadership philosophy with no specific position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.jack-balch",
+   "issue": "accountability",
+   "quote": "I'll continue working to bring people together around our shared values while delivering real results that protect and enhance our quality of life.",
+   "reason": "No stance on the issue. Slogan about delivering results with no stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+   "issue": "housing",
+   "quote": "I have addressed complex challenges, from state housing mandates and regional pressures to local issues affecting our neighborhoods, businesses, and quality of life.",
+   "reason": "No stance on the issue. Biography of handling challenges; no housing position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-pleasanton.mayor.julie-testa",
+   "issue": "public-safety",
+   "quote": "The ARU provides our excellent police force with yet another tool to support vulnerable persons in crisis",
+   "reason": "Cannot be understood on its own. 'The ARU' is an unexplained reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+   "issue": "public-safety",
+   "quote": "For example, we've reduced crime, increased traffic enforcement, improved emergency response times, and expanded innovative behavioral health services.",
+   "reason": "Cannot be understood on its own. Opens with 'For example', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.juan-gonz-lez-iii",
+   "issue": "accountability",
+   "quote": "As Mayor, I’ve led with integrity, listened to our community, and delivered timely results.",
+   "reason": "No stance on the issue. Self-description of leadership with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-alameda-san-leandro.mayor.james-maes",
+   "issue": "city-budget",
+   "quote": "Instead, I will use my real-world executive experience to unite our city council, resolve conflicts, and balance the budget without cutting the essential neighborhood services we need.",
+   "reason": "Cannot be understood on its own. Opens with 'Instead', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-1.u-s-representative-district-1.james-gallagher",
+   "issue": "housing",
+   "quote": "Chico, for example, is poised to build a lot of new housing if we remove the barriers.",
+   "reason": "Cannot be understood on its own. 'the barriers' is unresolved and 'for example' depends on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "issue": "cost-of-living-economy",
+   "quote": "My measure of progress is whether working people's lives get better.",
+   "reason": "No stance on the issue. States a measure of progress, not a stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.connie-chan",
+   "issue": "housing",
+   "quote": "No, I believe that if your demand is affordable housing, then your supply has to be affordable housing.",
+   "reason": "Cannot be understood on its own. Opens with 'No,' answering an unseen question.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-11.u-s-representative-district-11.scott-wiener",
+   "issue": "cost-of-living-economy",
+   "quote": "My top priority is lowering cost of living for San Franciscans:",
+   "reason": "Cannot be understood on its own. Ends with a colon.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.jamie-joyce",
+   "issue": "accountability",
+   "quote": "It puts teeth on dark money disclosure, hard limits on surveillance, guardrails on AI, and real accountability for the Epstein network.",
+   "reason": "Cannot be understood on its own. 'It' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-12.u-s-representative-district-12.lateefah-simon",
+   "issue": "cost-of-living-economy",
+   "quote": "Her unwavering commitment will continue in Congress, ensuring every American can access good-paying jobs.",
+   "reason": "Cannot be understood on its own. 'Her unwavering commitment' refers to unseen prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-14.u-s-representative-district-14.melissa-hernandez",
+   "issue": "accountability",
+   "quote": "This community needs a leader who can rebuild trust.",
+   "reason": "No stance on the issue. Slogan about needing a trustworthy leader.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "issue": "health-care",
+   "quote": "When we take the majority, we will work to reverse those Medicaid cuts and restore the Affordable Care Act tax credits,",
+   "reason": "Cannot be understood on its own. 'those Medicaid cuts' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-15.u-s-representative-district-15.kevin-mullin",
+   "issue": "accountability",
+   "quote": "This is about gaining a majority and being a check, bringing checks and balances back to Washington.",
+   "reason": "Cannot be understood on its own. 'This' is an unresolved reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.zoe-lofgren",
+   "issue": "health-care",
+   "quote": "I will continue supporting legislation to reverse their disastrous Medicaid cuts and revive the tax credits.",
+   "reason": "Cannot be understood on its own. 'their' cuts and 'the tax credits' are unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-18.u-s-representative-district-18.shane-lewis",
+   "issue": "climate-energy",
+   "quote": "Water is life and energy is the foundation of our economy.",
+   "reason": "No stance on the issue. Slogan with no climate or energy stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "issue": "cost-of-living-economy",
+   "quote": "The path forward is one of relentless pragmatism: real results that strengthen our economy and improve everyday life.",
+   "reason": "No stance on the issue. Slogan about pragmatism with no economic stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-19.u-s-representative-district-19.peter-coe-verbica",
+   "issue": "immigration",
+   "quote": "Immigration reform is long overdue and I think we need to be a lot more humane and civil and I think it could be done,",
+   "reason": "Cannot be understood on its own. Ends with a comma mid-sentence.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.jared-huffman",
+   "issue": "public-safety",
+   "quote": "I refuse to accept these atrocities as an unavoidable part of American life.",
+   "reason": "Cannot be understood on its own. 'these atrocities' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-2.u-s-representative-district-2.robin-littau",
+   "issue": "accountability",
+   "quote": "I will lead by example with integrity, transparency and trust.",
+   "reason": "No stance on the issue. Virtue slogan with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "issue": "public-safety",
+   "quote": "We can do both by passing commonsense policies like comprehensive criminal background checks.",
+   "reason": "Cannot be understood on its own. 'We can do both' depends on unseen context.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-4.u-s-representative-district-4.mike-thompson",
+   "issue": "immigration",
+   "quote": "However, our current immigration system is broken and in need of repair.",
+   "reason": "Cannot be understood on its own. Opens with 'However', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-cd-9.u-s-representative-district-9.josh-harder",
+   "issue": "health-care",
+   "quote": "I will always fight to protect that access and continue to expand health insurance coverage.",
+   "reason": "Cannot be understood on its own. 'that access' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-contra-costa-richmond.mayor.ahmad-anderson",
+   "issue": "accountability",
+   "quote": "Richmond deserves leadership focused on results.",
+   "reason": "No stance on the issue. Slogan about results-focused leadership.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-contra-costa-san-ramon.mayor.paschalis-ntatsos",
+   "issue": "accountability",
+   "quote": "Don’t hide elements that are not supposed to be there, and be transparent with your residents.",
+   "reason": "Cannot be understood on its own. 'elements that are not supposed to be there' is unclear without context.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+   "issue": "housing",
+   "quote": "I want people to be able to enjoy their single-family homes that they've already purchased and lived in for generations,",
+   "reason": "Cannot be understood on its own. Ends with a comma mid-sentence.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+   "issue": "accountability",
+   "quote": "I promise transparency, and you'll know where I stand.",
+   "reason": "No stance on the issue. Pledge of transparency with no specific position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+   "issue": "accountability",
+   "quote": "And a Council that is strategic, transparent and accountable, while securing real results from the county and state.",
+   "reason": "Cannot be understood on its own. Sentence fragment beginning with 'And'.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+   "issue": "city-budget",
+   "quote": "We have seen, especially in the past several months, significant budget cuts to programming downtown,",
+   "reason": "Cannot be understood on its own. Ends with a comma mid-sentence.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+   "issue": "streets-transit-clean",
+   "quote": "This is an important part of my platform when it comes to District 4: Identifying solutions to make sure that our kids are safe going to and from school, and our residents are safe commuting to and from work, is a priority for me,",
+   "reason": "Cannot be understood on its own. 'This' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.kristopher-l-clayton",
+   "issue": "accountability",
+   "quote": "I’m stepping forward because I believe leadership should be accountable, transparent, and grounded in the lives of the people who actually live here.",
+   "reason": "No stance on the issue. Generic statement about leadership values.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.deborah-m-africa",
+   "issue": "accountability",
+   "quote": "My leadership is marked by strong professional/personal ethic of integrity & a proven background bringing diverse groups together in common cause.",
+   "reason": "No stance on the issue. Self-description of character and background.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+   "issue": "homelessness",
+   "quote": "The legal risk is real, and I think we should step up and take a bit more legal risk than we have before,",
+   "reason": "Cannot be understood on its own. 'The legal risk' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+   "issue": "accountability",
+   "quote": "I am running for a second term to build on my successful record and to help Palo Alto navigate the choices ahead with calm, sound judgment and a clear focus on what works best for our city.",
+   "reason": "No stance on the issue. Statement of running for reelection with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+   "issue": "accountability",
+   "quote": "I believe good governance starts with listening carefully, weighing tradeoffs honestly, and being transparent about decisions.",
+   "reason": "No stance on the issue. Generic governance philosophy with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+   "issue": "homelessness",
+   "quote": "We can take a little bit more legal risk as a city than we have.",
+   "reason": "Cannot be understood on its own. Legal risk for what is not stated.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.vicki-veenker",
+   "issue": "homelessness",
+   "quote": "We're finally getting to the point where we're resolving it more fully,",
+   "reason": "Cannot be understood on its own. 'it' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+   "issue": "homelessness",
+   "quote": "My principle is: We do not only get them off the street; we should keep them off the street.",
+   "reason": "Cannot be understood on its own. 'them' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.gary-gechlik",
+   "issue": "homelessness",
+   "quote": "Instead of having these RVs scattered around town, we could finally monitor them,",
+   "reason": "Cannot be understood on its own. 'these RVs' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.raymond-l-goins",
+   "issue": "accountability",
+   "quote": "Our taxpayers should know what’s going on,",
+   "reason": "Cannot be understood on its own. Ends with a comma mid-sentence.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+   "issue": "accountability",
+   "quote": "She believes in accountability, measurable results, and putting neighborhood needs first.",
+   "reason": "No stance on the issue. Belief in accountability with no specific position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+   "issue": "public-safety",
+   "quote": "At the same time, Peter knows that safety isn’t just about policing; it’s about prevention.",
+   "reason": "Cannot be understood on its own. Opens with 'At the same time', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan",
+   "issue": "streets-transit-clean",
+   "quote": "The citizens see the street is cleaner. It’s tangible. You can actually see it,",
+   "reason": "Cannot be understood on its own. 'the street' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+   "issue": "city-budget",
+   "quote": "Before we start imposing any new taxes on residents, we need to prove that we can use the money we already have wisely,",
+   "reason": "Cannot be understood on its own. Ends with a comma mid-sentence.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+   "issue": "accountability",
+   "quote": "They deserve to have someone who is getting results and not utilizing excuses.",
+   "reason": "Cannot be understood on its own. 'They' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+   "issue": "homelessness",
+   "quote": "With so few opportunities to move out of emergency housing and into permanent housing, their safety, their security is uncertain,",
+   "reason": "Cannot be understood on its own. 'their' is unresolved and the quote ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+   "issue": "public-safety",
+   "quote": "We need to make sure people feel safe in their neighborhoods,",
+   "reason": "Cannot be understood on its own. Ends with a comma mid-sentence.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+   "issue": "accountability",
+   "quote": "They hold me accountable by expecting me to show up, listen, and produce outcomes.",
+   "reason": "Cannot be understood on its own. 'They' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+   "issue": "housing",
+   "quote": "No. I would not support upzoning Third Street without a thorough community process.",
+   "reason": "Cannot be understood on its own. Opens with 'No.' answering an unseen question.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+   "issue": "homelessness",
+   "quote": "Reducing homelessness requires partnership, innovation, and consistent leadership.",
+   "reason": "No stance on the issue. Generic slogan with no homelessness position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+   "issue": "public-safety",
+   "quote": "As a survivor of gun violence, I understand the lasting impact crime has on victims, families, and entire communities.",
+   "reason": "No stance on the issue. Biography with no public safety position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+   "issue": "accountability",
+   "quote": "People can approach me, question me, disagree with me, and tell me when they believe I am wrong.",
+   "reason": "No stance on the issue. Self-description of accessibility.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+   "issue": "city-budget",
+   "quote": "This is about making government work better, not just smaller.",
+   "reason": "Cannot be understood on its own. 'This' is an unresolved reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+   "issue": "accountability",
+   "quote": "Good government is about policy as well as being present, responsive, and accountable every single day.",
+   "reason": "No stance on the issue. Generic statement about good government.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+   "issue": "public-safety",
+   "quote": "I disagree with his decision to keep using Flock license-plate cameras.",
+   "reason": "Cannot be understood on its own. 'his decision' refers to an unnamed person.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+   "issue": "city-budget",
+   "quote": "My approach would be to treat this as a structural problem, not a one-year patch.",
+   "reason": "Cannot be understood on its own. 'this' is an unresolved reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+   "issue": "accountability",
+   "quote": "Just as importantly, I will run the office with a focus on follow-through and results.",
+   "reason": "Cannot be understood on its own. Opens with 'Just as importantly', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+   "issue": "housing",
+   "quote": "No. I would not support blanket upzoning of the Third Street corridor.",
+   "reason": "Cannot be understood on its own. Opens with 'No.' answering an unseen question.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+   "issue": "public-safety",
+   "quote": "Public safety is not a partisan issue—it is a community issue—and lasting solutions require broad collaboration.",
+   "reason": "No stance on the issue. Slogan with no public safety position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+   "issue": "cost-of-living-economy",
+   "quote": "Small businesses are the backbone of our neighborhoods.",
+   "reason": "No stance on the issue. Slogan with no economic position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+   "issue": "streets-transit-clean",
+   "quote": "Asking taxpayers for more money before fixing the agency is backwards.",
+   "reason": "Cannot be understood on its own. 'the agency' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+   "issue": "accountability",
+   "quote": "Monthanus believes San Francisco can be safe, compassionate, economically strong, and accountable to the people again.",
+   "reason": "No stance on the issue. Aspirational slogan with no accountability position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+   "issue": "housing",
+   "quote": "That said, I do agree with the goal of getting more housing built and moving stalled projects forward.",
+   "reason": "Cannot be understood on its own. Opens with 'That said', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+   "issue": "public-safety",
+   "quote": "Together, we can build a safer, stronger Sunset.",
+   "reason": "No stance on the issue. Slogan with no public safety position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+   "issue": "cost-of-living-economy",
+   "quote": "As a small business owner, I understand the challenges facing working families and local merchants.",
+   "reason": "No stance on the issue. Biography with no economic position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+   "issue": "accountability",
+   "quote": "I have always stood with Sunset residents and fought to ensure our voices are heard on the issues affecting daily lives.",
+   "reason": "No stance on the issue. Self-description with no specific position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+   "issue": "housing",
+   "quote": "Yes, we need to build more housing of all categories.",
+   "reason": "Cannot be understood on its own. Opens with 'Yes,' answering an unseen question.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+   "issue": "homelessness",
+   "quote": "Finally, accountability means MORE of what prevents homelessness – Eviction Defense funding.",
+   "reason": "Cannot be understood on its own. Opens with 'Finally', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+   "issue": "homelessness",
+   "quote": "It’s time to deliver the drug-free options PSH residents have long been asking for.",
+   "reason": "Cannot be understood on its own. 'PSH' is an unexplained reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+   "issue": "streets-transit-clean",
+   "quote": "San Francisco needs both measures to pass to ensure our economy continues to recover and keep the city moving.",
+   "reason": "Cannot be understood on its own. 'both measures' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+   "issue": "city-budget",
+   "quote": "Our budget and policies should reflect our values and deliver real results.",
+   "reason": "No stance on the issue. Slogan with no budget position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+   "issue": "accountability",
+   "quote": "Transparency and accountability will be the hallmarks of my office.",
+   "reason": "No stance on the issue. Virtue slogan with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "issue": "streets-transit-clean",
+   "quote": "LLMDs are vital to the maintenance and beauty of our neighborhoods – in many parts of our City.",
+   "reason": "Cannot be understood on its own. 'LLMDs' is an unexplained reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "issue": "accountability",
+   "quote": "Our residents can and should hold the Mayor and City Council accountable for finding solutions to solve this problem.",
+   "reason": "Cannot be understood on its own. 'this problem' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+   "issue": "cost-of-living-economy",
+   "quote": "My platform gets the city out of the way, as we determine the permissions, the time and rules",
+   "reason": "Cannot be understood on its own. Trailing fragment that does not resolve into a clear statement.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+   "issue": "public-safety",
+   "quote": "This means more men and women in service, greater technology and stronger pay and benefits",
+   "reason": "Cannot be understood on its own. 'This' is an unresolved reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.lilia-dardon",
+   "issue": "accountability",
+   "quote": "I am running because I believe Suisun City deserves leadership that listens to the people, protects taxpayers, and puts residents first.",
+   "reason": "No stance on the issue. Running statement with generic leadership slogan.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.amit-pal",
+   "issue": "cost-of-living-economy",
+   "quote": "Otherwise, we get into a situation where a mayor is told by out-of-town interest [groups] that the only way to help our economy is to let billionaires come in and do whatever they want",
+   "reason": "Cannot be understood on its own. Opens with 'Otherwise', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "issue": "cost-of-living-economy",
+   "quote": "I will take that responsibility seriously and work to restore trust, strengthen our local economy, and protect the quality of life that makes Petaluma unique.",
+   "reason": "Cannot be understood on its own. 'that responsibility' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda",
+   "issue": "accountability",
+   "quote": "I believe in transparency and accountability, fiscal responsibility, and strong leadership.",
+   "reason": "No stance on the issue. List of virtues with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "issue": "city-budget",
+   "quote": "Regarding the Town’s finances, I have proven myself to be a fiscally disciplined leader.",
+   "reason": "No stance on the issue. Self-description as fiscally disciplined, no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "issue": "streets-transit-clean",
+   "quote": "Furthermore, I will continue to prioritize infrastructure investments to guarantee our roads, drinking water, and wastewater systems are topnotch.",
+   "reason": "Cannot be understood on its own. Opens with 'Furthermore', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "issue": "accountability",
+   "quote": "I am running to see these commitments through to completion, ensuring the promises made to you are promises kept.",
+   "reason": "Cannot be understood on its own. 'these commitments' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.attorney-general.rob-bonta",
+   "issue": "civil-rights",
+   "quote": "By its size alone, California’s Department of Justice is the country’s largest civil rights practice.",
+   "reason": "No stance on the issue. Fact about the department with no civil rights stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.attorney-general.michael-e-gates",
+   "issue": "accountability",
+   "quote": "Public safety is not a partisan issue, and I will never treat it like one.",
+   "reason": "Not about this issue. About public safety, not accountability.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.controller.malia-m-cohen",
+   "issue": "audits-waste",
+   "quote": "Accountability works best when it is firm, fact-based, and solution-oriented.",
+   "reason": "No stance on the issue. Generic statement about accountability with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.controller.herb-w-morgan",
+   "issue": "audits-waste",
+   "quote": "The Controller is tasked with ensuring efficiency in state government through pre-audits and approval of expenditures, followed by rigorous post-audits that verify performance and proper use of funds.",
+   "reason": "No stance on the issue. Describes the office's duties with no stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.controller.herb-w-morgan",
+   "issue": "budget-oversight",
+   "quote": "The state took custody of it and has treated too much of it as a standing loan to the General Fund.",
+   "reason": "Cannot be understood on its own. 'it' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.governor.xavier-becerra",
+   "issue": "budget-taxes",
+   "quote": "I know how to squeeze every possible cent out of those federal resources, because I ran that agency,",
+   "reason": "Cannot be understood on its own. 'those federal resources' and 'that agency' are unresolved; ends with a comma.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.governor.steve-hilton",
+   "issue": "accountability",
+   "quote": "Our estimate of that is that over the last five years we've had $425 billion of waste, fraud, and abuse.",
+   "reason": "Cannot be understood on its own. 'that' is an unresolved reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.insurance-commissioner.ben-allen",
+   "issue": "home-insurance-wildfire",
+   "quote": "That’s why I authored laws requiring insurers to increase upfront payments for claims, creating low-interest loans for home improvements that reduce fire risk, and helping homeowners keep their coverage when they fix hazards on their property.",
+   "reason": "Cannot be understood on its own. Opens with 'That's why', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.insurance-commissioner.jane-kim",
+   "issue": "consumer-protection",
+   "quote": "I’ll hold them accountable to make insurance more affordable and available and make sure our money works for us.",
+   "reason": "Cannot be understood on its own. 'them' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+   "issue": "accountability",
+   "quote": "Voters elected me to four public offices where I focus on accountability, transparency, fixing broken systems, cutting waste, and delivering results.",
+   "reason": "No stance on the issue. Biography and virtue list with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+   "issue": "coast-lands-climate",
+   "quote": "I will restore education standards, develop a bold economic plan that helps businesses thrive, rein in politicized commissions that have failed to protect our water, farmland, and way of life, defend Title IX for our daughters in sports, and fight antisemitism on our campuses.",
+   "reason": "Not about this issue. Mostly about education, Title IX and antisemitism, not coast or climate.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+   "issue": "election-security",
+   "quote": "Some of them have even threatened the lives of election officials when their preferred candidate loses. This behavior will not be tolerated in California.",
+   "reason": "Cannot be understood on its own. 'Some of them' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+   "issue": "accountability",
+   "quote": "And I've been a transparent leader because trust is everything.",
+   "reason": "Cannot be understood on its own. Opens with 'And', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+   "issue": "accountability",
+   "quote": "As State Superintendent, I will bring that same leadership statewide as an advocate for students and families, standing up to politicians and special interests to protect the office’s independence as voters intended.",
+   "reason": "Cannot be understood on its own. 'that same leadership' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+   "issue": "school-safety",
+   "quote": "They should feel secure in private spaces, not exposed by decisions made without parental consent.",
+   "reason": "Cannot be understood on its own. 'They' is an unresolved pronoun.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+   "issue": "pensions-investments",
+   "quote": "I’m running for state Treasurer to responsibly manage California’s finances, strengthen our economy, and make smart investments that create opportunity.",
+   "reason": "No stance on the issue. Running statement with generic goals, no pension stance.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca.treasurer.eleni-kounalakis",
+   "issue": "accountability",
+   "quote": "Improving understanding begins with transparency and accessibility.",
+   "reason": "No stance on the issue. Generic statement; 'improving understanding' of what is unclear.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-altos-council-district-2.city-council-member-district-2.anky-van-deursen",
+   "issue": "accountability",
+   "quote": "Promote transparency, openness, collaboration, fiscal responsibility, and accountable decision-making",
+   "reason": "No stance on the issue. List of virtues with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+   "issue": "housing",
+   "quote": "There will be change",
+   "reason": "Cannot be understood on its own. 'There will be change' does not say what change.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.steve-raspe",
+   "issue": "public-safety",
+   "quote": "the appropriate and proper use of Flock cameras is a benefit",
+   "reason": "Cannot be understood on its own. Begins in lowercase as a sentence fragment.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-los-gatos.town-council-member.rob-stump",
+   "issue": "accountability",
+   "quote": "The difference is whether those promises come with measurable targets, enforceable dates, and clear accountability.",
+   "reason": "Cannot be understood on its own. 'The difference' and 'those promises' refer to prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.robert-cox",
+   "issue": "housing",
+   "quote": "For this reason, we must build more affordable housing to support Mountain View’s low-income households.",
+   "reason": "Cannot be understood on its own. Opens with 'For this reason', depending on prior text.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.samuel-ali",
+   "issue": "public-safety",
+   "quote": "I'll invest in both — real public safety, and the everyday details that make a block feel like home.",
+   "reason": "Cannot be understood on its own. 'both' is an unresolved reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.idarose-sylvester",
+   "issue": "city-budget",
+   "quote": "If the voters say they can't, they won't support it, that's something we have to listen to",
+   "reason": "Cannot be understood on its own. 'they' and 'it' are unresolved references.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-mountain-view.city-council-member.silja-paymer",
+   "issue": "housing",
+   "quote": "We are making big decisions about housing and progress, but we cannot lose our soul in the process.",
+   "reason": "No stance on the issue. Slogan with no housing position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-1.city-council-member-district-1.linda-sell",
+   "issue": "accountability",
+   "quote": "Residents deserve clear reporting on how the $3.5 million is allocated, what services it delivers, and whether those investments achieve measurable results.",
+   "reason": "Cannot be understood on its own. 'the $3.5 million' is an unexplained reference.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+   "issue": "accountability",
+   "quote": "I will continue promoting transparency, data-driven decision-making, responsible fiscal management, and greater resident engagement.",
+   "reason": "No stance on the issue. List of virtues with no position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-3.city-council-member-district-3.murali-srinivasan",
+   "issue": "city-budget",
+   "quote": "My priorities have always been keeping our neighborhoods safe, managing taxpayer dollars responsibly, improving quality of life, and accountable government.",
+   "reason": "No stance on the issue. Generic list of priorities with no specific position.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-sunnyvale-council-district-5.city-council-member-district-5.richard-mehlinger",
+   "issue": "accountability",
+   "quote": "This simpler, more streamlined process is easier for the public to understand and is accelerating delivery of key projects.",
+   "reason": "Cannot be understood on its own. 'This simpler, more streamlined process' is unresolved.",
+   "decided": "2026-10-31, separate review pass for issue fit and readability"
+  }
+ ]
+}

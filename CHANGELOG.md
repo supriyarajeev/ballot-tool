@@ -1,5 +1,14 @@
 # Changelog
 
+## October 31, 2026, candidate comparisons
+
+- **Where they stand.** 54 contests now show a comparison table on the contest page. That is the 8 statewide offices, 14 US House districts and 32 city races (mayors, councils and supervisors, including Mountain View, Los Altos District 2, Los Gatos and Sunnyvale Districts 1 and 5). Each row is one issue and each cell is the candidate's own words, with the source, its date and the date the quote was matched to that source. A cell with no quote says "No public statement found in our sources."
+- **443 quotes for 125 of 150 candidates.** 104 from official candidate statements, 157 from campaign websites, 139 from published questionnaires and 43 from news reports. 609 of 1,052 cells are empty.
+- **How a quote gets in.** Every quote was opened again in a browser on its source page and found there, word for word, on October 30 or 31. 207 of 650 researched quotes are not shown. They did not match, came from pages that could not be read, contained an ellipsis, lost to an official statement on the same issue, or failed a separate pass for issue fit and readability (for example a sentence starting with "This" or ending mid-sentence). Each decision is recorded in research/2026-10-31.
+- **No scores.** The guide does not rate, rank or endorse candidates. Candidates appear in the certified ballot order. The method is on About this guide under Candidate comparisons.
+- **Candidates and races.** The nav item and directory page are renamed. The directory lists the compared contests first, with a count of how many contests have comparisons. Candidate pages show "In their own words", a link to compare everyone in the race, a checked campaign website link (79 sites opened and found to name the candidate) and a campaign money link for the contest (Cal-Access, FEC, San Francisco, Oakland, San Jose or the Secretary of State list of city filing sites).
+- **Tests.** Validator rule VAL-20 checks the quotes file. New browser tests cover the comparison table, ballot order, quote cells, missing cells and the directory. Full suite passed on October 31, 2026. See audit/2026-10-31/CANDIDATE-COMPARISONS.md.
+
 ## October 29, 2026, the whole site in one design
 
 - **Home page.** Key dates lead with "Election Day is Tuesday, November 3" and the dates still ahead. Dates that have passed fold under Earlier dates. The regional figures, coverage by county and the list of official voter tools fold behind Show details, with a one-line summary each. The hero keeps the headline, both buttons, the three checks and one line on local coverage. The tool steps describe the new tool. Phone height 9,403 px to 5,554 px.

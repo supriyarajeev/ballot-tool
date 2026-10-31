@@ -1,0 +1,602 @@
+{
+ "statewide": [
+  {
+   "contest": "2026-11-03.ca.governor",
+   "office": "Governor",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.governor.xavier-becerra",
+     "name": "Xavier Becerra",
+     "designation": "Voting Rights Attorney",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.governor.steve-hilton",
+     "name": "Steve Hilton",
+     "designation": "Small Business Owner",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.lieutenant-governor",
+   "office": "Lieutenant Governor",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.lieutenant-governor.fiona-ma",
+     "name": "Fiona Ma",
+     "designation": "State Treasurer/CPA",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.lieutenant-governor.gloria-romero",
+     "name": "Gloria Romero",
+     "designation": "Educator/Businesswoman",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.secretary-of-state",
+   "office": "Secretary of State",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.secretary-of-state.shirley-n-weber",
+     "name": "Shirley N. Weber",
+     "designation": "California Secretary of State",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.secretary-of-state.donald-p-don-wagner",
+     "name": "Donald P. (Don) Wagner",
+     "designation": "Orange County Supervisor",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.controller",
+   "office": "Controller",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.controller.malia-m-cohen",
+     "name": "Malia M. Cohen",
+     "designation": "State Controller/Mother",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.controller.herb-w-morgan",
+     "name": "Herb W Morgan",
+     "designation": "Chief Investment Officer",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.treasurer",
+   "office": "Treasurer",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.treasurer.eleni-kounalakis",
+     "name": "Eleni Kounalakis",
+     "designation": "Lieutenant Governor of California",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.treasurer.jennifer-hawks",
+     "name": "Jennifer Hawks",
+     "designation": "Retired Business Executive",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.attorney-general",
+   "office": "Attorney General",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.attorney-general.rob-bonta",
+     "name": "Rob Bonta",
+     "designation": "California Attorney General",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.attorney-general.michael-e-gates",
+     "name": "Michael E. Gates",
+     "designation": "Deputy United States Attorney",
+     "party": "Republican"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.insurance-commissioner",
+   "office": "Insurance Commissioner",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.insurance-commissioner.ben-allen",
+     "name": "Ben Allen",
+     "designation": "California State Senator",
+     "party": "Democratic"
+    },
+    {
+     "id": "2026-11-03.ca.insurance-commissioner.jane-kim",
+     "name": "Jane Kim",
+     "designation": "Attorney/Consumer Advocate",
+     "party": "Democratic"
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca.superintendent-of-public-instruction",
+   "office": "Superintendent of Public Instruction",
+   "jurisdiction": "ca",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca.superintendent-of-public-instruction.richard-barrera",
+     "name": "Richard Barrera",
+     "designation": "State Superintendent Advisor",
+     "party": "Non-Partisan"
+    },
+    {
+     "id": "2026-11-03.ca.superintendent-of-public-instruction.sonja-shaw",
+     "name": "Sonja Shaw",
+     "designation": "School District President",
+     "party": "Non-Partisan"
+    }
+   ]
+  }
+ ],
+ "oakland_sf": [
+  {
+   "contest": "2026-11-03.ca-alameda-oakland.mayor",
+   "office": "Mayor",
+   "jurisdiction": "ca-alameda-oakland",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.julius-robinson",
+     "name": "Julius Robinson",
+     "designation": "Community Investment Executive",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.barbara-lee",
+     "name": "Barbara Lee",
+     "designation": "Mayor, City of Oakland",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.brenda-f-grisham",
+     "name": "Brenda F. Grisham",
+     "designation": "Business Owner",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-oakland.mayor.mindy-ruth-pechenuk",
+     "name": "Mindy Ruth Pechenuk",
+     "designation": "Educator/Researcher",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "jurisdiction": "ca-sf-supervisor-district-2",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.nicholas-berg",
+     "name": "Nicholas Berg",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.guy-mccoy",
+     "name": "Guy McCoy",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.monthanus-ratanapakdee",
+     "name": "Monthanus Ratanapakdee",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-2.board-of-supervisors.stephen-sherrill",
+     "name": "Stephen Sherrill",
+     "designation": null,
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "jurisdiction": "ca-sf-supervisor-district-4",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.albert-chow",
+     "name": "Albert Chow",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.jeremy-julian-greco",
+     "name": "Jeremy Julian Greco",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-4.board-of-supervisors.alan-wong",
+     "name": "Alan Wong",
+     "designation": null,
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "jurisdiction": "ca-sf-supervisor-district-6",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.alex-behrend",
+     "name": "Alex Behrend",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-6.board-of-supervisors.matt-dorsey",
+     "name": "Matt Dorsey",
+     "designation": null,
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "jurisdiction": "ca-sf-supervisor-district-8",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.gary-mccoy",
+     "name": "Gary McCoy",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.michael-t-nguyen",
+     "name": "Michael T. Nguyen",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.darshini-patel",
+     "name": "Darshini Patel",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-8.board-of-supervisors.emanuel-manny-yekutiel",
+     "name": "Emanuel \"Manny\" Yekutiel",
+     "designation": null,
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+   "office": "Board of Supervisors",
+   "jurisdiction": "ca-sf-supervisor-district-10",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+     "name": "Pearci \"PJ\" Bastiany III",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+     "name": "Dionjay (DJ) Brookter",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+     "name": "Deandra Bryant",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+     "name": "Theo Ellington",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+     "name": "J.R. Eppler",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.ellsworth-ell-m-jennison-jr",
+     "name": "Ellsworth \"Ell\" M. Jennison, Jr.",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+     "name": "Mike Trouble Lin",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jamo-muhammad",
+     "name": "Jamo Muhammad",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jessica-pessecow",
+     "name": "Jessica Pessecow",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+     "name": "Shawn M. Richard",
+     "designation": null,
+     "party": null
+    }
+   ]
+  }
+ ],
+ "south_bay": [
+  {
+   "contest": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2",
+   "office": "City Council Member",
+   "jurisdiction": "ca-alameda-fremont-council-district-2",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.desrie-campbell",
+     "name": "Desrie Campbell",
+     "designation": "Councilmember/Healthcare Director",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-2.city-council-member-district-2.keith-parker",
+     "name": "Keith Parker",
+     "designation": "Marketing Director",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3",
+   "office": "City Council Member",
+   "jurisdiction": "ca-alameda-fremont-council-district-3",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.kathy-kimberlin",
+     "name": "Kathy Kimberlin",
+     "designation": "County Field Director",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-3.city-council-member-district-3.vipin-sharma",
+     "name": "Vipin Sharma",
+     "designation": "Senior Engineering Manager",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4",
+   "office": "City Council Member",
+   "jurisdiction": "ca-alameda-fremont-council-district-4",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.aziz-akbari",
+     "name": "Aziz Akbari",
+     "designation": "Director, Alameda County Water District",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.ying-min-li",
+     "name": "Ying Min Li",
+     "designation": "Small Business Owner",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.anurag-mishra",
+     "name": "Anurag Mishra",
+     "designation": "Technical Leader",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-alameda-fremont-council-district-4.city-council-member-district-4.manisha-pathak",
+     "name": "Manisha Pathak",
+     "designation": "Educator/Nonprofit Executive",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1",
+   "office": "City Council Member",
+   "jurisdiction": "ca-san-mateo-menlo-park-council-district-1",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.james-rohr",
+     "name": "James Rohr",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-1.city-council-member-district-1.wonman-lee",
+     "name": "Wonman Lee",
+     "designation": "Software Engineer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2",
+   "office": "City Council Member",
+   "jurisdiction": "ca-san-mateo-menlo-park-council-district-2",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.drew-combs",
+     "name": "Drew Combs",
+     "designation": "Menlo Park City Councilmember",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-2.city-council-member-district-2.vamsi-velagapudi",
+     "name": "Vamsi Velagapudi",
+     "designation": "Community Volunteer",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4",
+   "office": "City Council Member",
+   "jurisdiction": "ca-san-mateo-menlo-park-council-district-4",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.charlotte-reed",
+     "name": "Charlotte Reed",
+     "designation": "Communications Professional / Singer",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-san-mateo-menlo-park-council-district-4.city-council-member-district-4.laura-melahn",
+     "name": "Laura Melahn",
+     "designation": "Entrepreneur / Nonprofit Director",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-palo-alto.city-council-member",
+   "office": "City Council Member",
+   "jurisdiction": "ca-santa-clara-palo-alto",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.henry-etzkowitz",
+     "name": "Henry Etzkowitz",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.ed-lauing",
+     "name": "Ed Lauing",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.bryna-chang",
+     "name": "Bryna Chang",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.vicki-veenker",
+     "name": "Vicki Veenker",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.yu-yudy-deng",
+     "name": "Yu \"Yudy\" Deng",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.gary-gechlik",
+     "name": "Gary Gechlik",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.raymond-l-goins",
+     "name": "Raymond L. Goins",
+     "designation": null,
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-palo-alto.city-council-member.brian-hamachek",
+     "name": "Brian Hamachek",
+     "designation": null,
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5",
+   "office": "City Council Member",
+   "jurisdiction": "ca-santa-clara-san-jose-council-district-5",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.nora-campos",
+     "name": "Nora Campos",
+     "designation": "Businesswoman/Policy Analyst",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-san-jose-council-district-5.city-council-member-district-5.peter-ortiz",
+     "name": "Peter Ortiz",
+     "designation": "Councilmember, City of San Jose District 5",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7",
+   "office": "City Council Member",
+   "jurisdiction": "ca-santa-clara-san-jose-council-district-7",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.van-le",
+     "name": "Van Le",
+     "designation": "Trustee East Side Union High School District",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-san-jose-council-district-7.city-council-member-district-7.bien-doan",
+     "name": "Bien Doan",
+     "designation": "Council Member, City of San Jose District 7",
+     "party": null
+    }
+   ]
+  },
+  {
+   "contest": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9",
+   "office": "City Council Member",
+   "jurisdiction": "ca-santa-clara-san-jose-council-district-9",
+   "candidates": [
+    {
+     "id": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.genny-altwer",
+     "name": "Genny Altwer",
+     "designation": "Business Owner/Mother",
+     "party": null
+    },
+    {
+     "id": "2026-11-03.ca-santa-clara-san-jose-council-district-9.city-council-member-district-9.gordon-chester",
+     "name": "Gordon Chester",
+     "designation": "City of San Jose Infrastructure Engineer",
+     "party": null
+    }
+   ]
+  }
+ ]
+}

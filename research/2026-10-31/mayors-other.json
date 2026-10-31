@@ -1,0 +1,800 @@
+{
+ "group": "mayors-other",
+ "candidates": [
+  {
+   "id": "2026-11-03.ca-napa-st-helena.mayor.bonnie-schoch",
+   "name": "Bonnie Schoch",
+   "campaignUrl": null,
+   "notes": "No sources found. Napa County lists a candidate statement as filed, but no online copy of the statement could be located; St. Helena Star coverage (Aug 19, 2026) only paraphrases her. Website listed by county as 'Not Authorized to Release'."
+  },
+  {
+   "id": "2026-11-03.ca-napa-st-helena.mayor.patrick-kenealy",
+   "name": "Patrick Kenealy",
+   "campaignUrl": null,
+   "notes": "No sources found. Napa County lists a candidate statement as filed, but no online copy could be located; St. Helena Star coverage only paraphrases him."
+  },
+  {
+   "id": "2026-11-03.ca-napa-yountville.mayor.marjorie-mohler",
+   "name": "Marjorie Mohler",
+   "campaignUrl": null,
+   "notes": "Incumbent. No sources found. Napa County lists a statement as filed, but no online copy located; Local News Matters Yountville article could not be read (robots-blocked)."
+  },
+  {
+   "id": "2026-11-03.ca-napa-yountville.mayor.joe-tagliaboschi",
+   "name": "Joe Tagliaboschi",
+   "campaignUrl": null,
+   "notes": "No sources found. Napa County lists a statement as filed, but no online copy located; Local News Matters Yountville article could not be read (robots-blocked)."
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-belmont.mayor.julia-mates",
+   "name": "Julia Mates",
+   "campaignUrl": null,
+   "notes": "Incumbent, unopposed on roster. No campaign website listed. Quotes from KQED Voter Guide, which reproduces excerpts of the statement she filed with election officials; the official San Mateo County statement itself was not located online."
+  },
+  {
+   "id": "2026-11-03.ca-san-mateo-san-bruno.mayor.rico-e-medina",
+   "name": "Rico E. Medina",
+   "campaignUrl": "https://RicoMedina.com",
+   "notes": "No sources found. San Bruno city election page lists RicoMedina.com but no 2026 candidate statement; the site could not be fetched. A 2024 statement exists but was not used because it is for a prior election."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "name": "Hon Lien",
+   "campaignUrl": "https://honformayor.com",
+   "notes": "Website listed on City of Milpitas candidate contact list; not fetched. Quotes from the city's posted 2026 candidate statement document."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-milpitas.mayor.carmen-montano",
+   "name": "Carmen Montano",
+   "campaignUrl": null,
+   "notes": "Incumbent. No website listed on city contact list. Quotes from the city's posted 2026 candidate statement document (statement labeled with her occupation 'Mayor of Milpitas, Educator'; not labeled by name)."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-milpitas.mayor.voltaire-s-montemayor",
+   "name": "Voltaire S. Montemayor",
+   "campaignUrl": null,
+   "notes": "No candidate statement filed per city document; no website listed. Quotes from Milpitas Beat news article."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+   "name": "Santosh Sahoo",
+   "campaignUrl": "https://votemilpitas.pages.dev/",
+   "notes": "City contact list gives votemilpitas.com; the fetched site votemilpitas.pages.dev names him and Milpitas mayor 2026. No candidate statement filed per city document."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-morgan-hill.mayor.kristopher-l-clayton",
+   "name": "Kristopher L. Clayton",
+   "campaignUrl": null,
+   "notes": "No website listed on Morgan Hill qualified candidates page. Quotes from city-posted candidate statement."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-morgan-hill.mayor.mark-turner",
+   "name": "Mark Turner",
+   "campaignUrl": "http://markturnerformayor.com",
+   "notes": "Incumbent. Website listed on Morgan Hill qualified candidates page and in his statement; not fetched. Quotes from city-posted candidate statement."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-morgan-hill.mayor.deborah-m-africa",
+   "name": "Deborah M. Africa",
+   "campaignUrl": null,
+   "notes": "No website listed. Quote from city-posted candidate statement; the statement's cost-of-living sentence was too long to verify in full and was not used."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.mike-wiltberger",
+   "name": "Mike Wiltberger",
+   "campaignUrl": "https://mikeformayor26.com",
+   "notes": "No sources found. Site listed in Silicon Valley Voice (Aug 27, 2026) but could not be fetched. San Jose Spotlight says he did not respond to requests for comment. No Santa Clara city ballot statements found online."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.armando-gary-ferraris",
+   "name": "Armando \"Gary\" Ferraris",
+   "campaignUrl": "http://garyferrarisformayor.com",
+   "notes": "No usable sources. Site listed in Silicon Valley Voice; could not be fetched. San Jose Spotlight quotes him only on negotiation skills, not an issue. An SF Examiner page about him is a paid independent-expenditure ad (not his words) and was not used."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.karen-hardy",
+   "name": "Karen Hardy",
+   "campaignUrl": "http://karenhardy.net",
+   "notes": "No usable sources. Site listed in Silicon Valley Voice; could not be fetched. San Jose Spotlight quotes are about her willingness to serve, not issues. GoodParty profile is unfilled."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.david-kertes",
+   "name": "David Kertes",
+   "campaignUrl": "http://www.davidkertesformayor.com",
+   "notes": "Site listed in Silicon Valley Voice; could not be fetched. Quotes from Silicon Valley Voice news article; the article's own ellipses are inside the quotes."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.kathy-watanabe",
+   "name": "Kathy Watanabe",
+   "campaignUrl": "https://kathywatanabe.com/",
+   "notes": "Site listed in Silicon Valley Voice; could not be fetched. Quote from NBC Bay Area news."
+  },
+  {
+   "id": "2026-11-03.ca-santa-clara-santa-clara.mayor.kevin-park",
+   "name": "Kevin Park",
+   "campaignUrl": "http://www.kevinpark.net",
+   "notes": "Site listed in Silicon Valley Voice; could not be fetched. Quote from San Jose Spotlight news."
+  },
+  {
+   "id": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "name": "Pam Bertani",
+   "campaignUrl": "https://pambertani.squarespace.com/",
+   "notes": "Site footer reads 'Paid for by Pam Bertani for Mayor of Fairfield Campaign'. Quotes from its 'Let's Talk Solutions' page."
+  },
+  {
+   "id": "2026-11-03.ca-solano-fairfield.mayor.scott-tonnesen",
+   "name": "Scott Tonnesen",
+   "campaignUrl": null,
+   "notes": "No sources found. No campaign site, county statement, or 2026 news quote located; GoodParty profile only."
+  },
+  {
+   "id": "2026-11-03.ca-solano-fairfield.mayor.nikila-walker-gibson",
+   "name": "Nikila Walker Gibson",
+   "campaignUrl": null,
+   "notes": "No sources found. No campaign site, statement, or news quote located."
+  },
+  {
+   "id": "2026-11-03.ca-solano-fairfield.mayor.george-kennedy",
+   "name": "George Kennedy",
+   "campaignUrl": null,
+   "notes": "No sources found. Only a 2022 council-race press release found; not used."
+  },
+  {
+   "id": "2026-11-03.ca-solano-suisun-city.mayor.alma-hernandez",
+   "name": "Alma Hernandez",
+   "campaignUrl": null,
+   "notes": "Incumbent. No usable sources. KQED quotes her on California Forever annexation due diligence only, which does not fit an issue in the list."
+  },
+  {
+   "id": "2026-11-03.ca-solano-suisun-city.mayor.chauncey-banks",
+   "name": "Chauncey Banks",
+   "campaignUrl": null,
+   "notes": "No sources found. KQED says he did not respond to interview requests."
+  },
+  {
+   "id": "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+   "name": "Michael Jefferson",
+   "campaignUrl": null,
+   "notes": "No campaign website found. Quotes from KQED Voter Guide write-up."
+  },
+  {
+   "id": "2026-11-03.ca-solano-suisun-city.mayor.lilia-dardon",
+   "name": "Lilia Dardon",
+   "campaignUrl": null,
+   "notes": "No campaign website found. Quotes from KQED Voter Guide and Daily Republic."
+  },
+  {
+   "id": "2026-11-03.ca-solano-suisun-city.mayor.amit-pal",
+   "name": "Amit Pal",
+   "campaignUrl": null,
+   "notes": "No campaign website found (GoodParty profile unfilled). Quote from KQED Voter Guide write-up."
+  },
+  {
+   "id": "2026-11-03.ca-solano-vacaville.mayor.sarah-chapman",
+   "name": "Sarah Chapman",
+   "campaignUrl": "https://sarahchapmanformayor.com",
+   "notes": "No usable sources. Daily Republic (Jun 4, 2026) names sarahchapmanformayor.com; it could not be fetched. Article quotes are not issue statements."
+  },
+  {
+   "id": "2026-11-03.ca-solano-vacaville.mayor.roy-stockton",
+   "name": "Roy Stockton",
+   "campaignUrl": null,
+   "notes": "No sources found. No campaign site, statement, or 2026 news quote located."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "name": "John Hanania",
+   "campaignUrl": null,
+   "notes": "No website listed in county statement. Quotes from Sonoma County official candidate statement."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "name": "Kevin McDonnell",
+   "campaignUrl": null,
+   "notes": "Incumbent. No website listed in county statement. Quotes from Sonoma County official candidate statement."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda",
+   "name": "Shelina Moreda",
+   "campaignUrl": "https://www.MoredaforMayor.com",
+   "notes": "Website listed in her Sonoma County candidate statement; not fetched."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "name": "Tanya Potter",
+   "campaignUrl": "https://ray-iguana-7wba.squarespace.com",
+   "notes": "Campaign site (Squarespace address) names her as candidate for Mayor of Windsor 2026. Quotes from Sonoma County official statement and campaign site."
+  },
+  {
+   "id": "2026-11-03.ca-sonoma-windsor.mayor.rick-massell",
+   "name": "Rick Massell",
+   "campaignUrl": null,
+   "notes": "No sources found. Sonoma County lists no candidate statement; no website or news coverage found."
+  }
+ ],
+ "quotes": [
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "housing",
+   "quote": "I support housing and economic development that serve our community while respecting our historic downtown and neighborhoods—not projects that put special interests ahead of Petalumans.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "city-budget",
+   "quote": "The City Council's responsibility is to provide oversight of city leadership and ensure public funds are spent wisely.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "accountability",
+   "quote": "As Mayor, I will ensure residents' voices are heard and work with the City Council to make responsible, common-sense decisions.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "Petaluma deserves safe neighborhoods, well-maintained streets and infrastructure, transparent and accountable government, and thoughtful planning that preserves the character of the city we love.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.john-hanania",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "I will take that responsibility seriously and work to restore trust, strengthen our local economy, and protect the quality of life that makes Petaluma unique.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "housing",
+   "quote": "I've supported affordable housing.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "homelessness",
+   "quote": "Serving on the County Homelessness and Mental Health boards, I brought funding for Petaluma's SAFE Team and other programs that serve the unhoused.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "I envision a Petaluma that leads on street repairs, climate, affordable housing and investments across town.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "I'm dedicated to the safety of All residents and am working with business owners to boost economic development in our historic downtown – efforts that include the Trestle.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.kevin-mcdonnell",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "accountability",
+   "quote": "As our only citywide representative, I promise to pay attention to the needs of all residents.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "As a small business owner myself, support for small, local, family owned businesses is top of mind.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "accountability",
+   "quote": "I believe in transparency and accountability, fiscal responsibility, and strong leadership.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-petaluma.mayor.shelina-moreda",
+   "contest": "2026-11-03.ca-sonoma-petaluma.mayor",
+   "issue": "housing",
+   "quote": "I will protect the things the voters voted for - roads, Urban Growth Boundary, responsible growth, and keeping things like Measure J away.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statements, Petaluma Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5300_CandStmts_PetalumaMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "contest": "2026-11-03.ca-sonoma-windsor.mayor",
+   "issue": "public-safety",
+   "quote": "As your Mayor, my highest priority will be ensuring Windsor remains the safest community in Sonoma County.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statement, Windsor Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5500_CandStmts_WindsorMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "contest": "2026-11-03.ca-sonoma-windsor.mayor",
+   "issue": "city-budget",
+   "quote": "Regarding the Town’s finances, I have proven myself to be a fiscally disciplined leader.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statement, Windsor Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5500_CandStmts_WindsorMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "contest": "2026-11-03.ca-sonoma-windsor.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "Furthermore, I will continue to prioritize infrastructure investments to guarantee our roads, drinking water, and wastewater systems are topnotch.",
+   "sourceTitle": "Sonoma County Registrar of Voters, Candidate Statement, Windsor Mayor",
+   "sourceUrl": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_5500_CandStmts_WindsorMayor.pdf",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-sonoma-windsor.mayor.tanya-potter",
+   "contest": "2026-11-03.ca-sonoma-windsor.mayor",
+   "issue": "accountability",
+   "quote": "I am running to see these commitments through to completion, ensuring the promises made to you are promises kept.",
+   "sourceTitle": "Campaign website, Tanya Potter for Windsor Mayor",
+   "sourceUrl": "https://ray-iguana-7wba.squarespace.com",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-belmont.mayor.julia-mates",
+   "contest": "2026-11-03.ca-san-mateo-belmont.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "Strengthened support for Belmont's small businesses and deepened partnerships with Chamber San Mateo County.",
+   "sourceTitle": "KQED Voter Guide, Belmont races (excerpt of candidate statement)",
+   "sourceUrl": "https://kqed.org/voterguide/sanmateo/belmont",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-san-mateo-belmont.mayor.julia-mates",
+   "contest": "2026-11-03.ca-san-mateo-belmont.mayor",
+   "issue": "accountability",
+   "quote": "I'll continue to engage you, the community I serve, in an accountable, transparent and dynamic manner as we shape, adapt, and envision Belmont's future for decades to come.",
+   "sourceTitle": "KQED Voter Guide, Belmont races (excerpt of candidate statement)",
+   "sourceUrl": "https://kqed.org/voterguide/sanmateo/belmont",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "public-safety",
+   "quote": "We must strengthen our public safety units, our economic development, and our infrastructure.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "We need to strengthen our traffic enforcement and create a parking enforcement division.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "housing",
+   "quote": "As we meet these requirements, our priority must be protecting the character of our neighborhoods.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "city-budget",
+   "quote": "Milpitas has lost 10 Senior Executives in the past 5 years, resulting in significant costs.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "Inflation is a concern for our residents, and one way to address it is by accelerating existing development projects, which can help reduce the tax burden on our residents.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.hon-lien",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "accountability",
+   "quote": "The city has violated numerous Municipal codes, and this must stop.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.carmen-montano",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "city-budget",
+   "quote": "I have led efforts to reduce our structural deficit by 45% without cutting jobs and services.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.carmen-montano",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "accountability",
+   "quote": "Milpitas families deserve a Mayor who listens, delivers results, and puts residents first.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.carmen-montano",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "We deserve safe neighborhoods, dependable city services, well-maintained roads and parks, responsible growth, and a government that uses your taxpayer dollars wisely.",
+   "sourceTitle": "City of Milpitas, Ballot Designation and Candidate Statement 2026",
+   "sourceUrl": "https://www.milpitas.gov/DocumentCenter/View/10562/Ballot-Designation-and-Candidate-Statement-Review-2026-PDF",
+   "sourceDate": "2026-08-07",
+   "dateKind": "published",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "public-safety",
+   "quote": "Support fully-funded police and emergency services, effective public safety partnerships, and emergency preparedness.",
+   "sourceTitle": "Campaign website, Santosh Sahoo for Milpitas Mayor",
+   "sourceUrl": "https://votemilpitas.pages.dev/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "city-budget",
+   "quote": "Public dollars should be connected to clear priorities, measurable outcomes, and long-term financial stability.",
+   "sourceTitle": "Campaign website, Santosh Sahoo for Milpitas Mayor",
+   "sourceUrl": "https://votemilpitas.pages.dev/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "Prioritize responsive city services, well-maintained parks and roads, clean neighborhoods, and affordability.",
+   "sourceTitle": "Campaign website, Santosh Sahoo for Milpitas Mayor",
+   "sourceUrl": "https://votemilpitas.pages.dev/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.santosh-sahoo",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "accountability",
+   "quote": "Make budgets, project timelines, permits, and city decisions easier for residents to understand and track.",
+   "sourceTitle": "Campaign website, Santosh Sahoo for Milpitas Mayor",
+   "sourceUrl": "https://votemilpitas.pages.dev/",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.voltaire-s-montemayor",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "public-safety",
+   "quote": "I want the people to prepare for calamities like earthquakes",
+   "sourceTitle": "Milpitas Beat, Voltaire Montemayor launches sixth campaign for Milpitas mayor",
+   "sourceUrl": "https://milpitasbeat.com/voltaire-montemayor-launches-sixth-campaign-for-milpitas-mayor/",
+   "sourceDate": "2026-08-27",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-milpitas.mayor.voltaire-s-montemayor",
+   "contest": "2026-11-03.ca-santa-clara-milpitas.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "Take care of the small businesses, help them as much as possible, they will improve also; they will progress",
+   "sourceTitle": "Milpitas Beat, Voltaire Montemayor launches sixth campaign for Milpitas mayor",
+   "sourceUrl": "https://milpitasbeat.com/voltaire-montemayor-launches-sixth-campaign-for-milpitas-mayor/",
+   "sourceDate": "2026-08-27",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.mark-turner",
+   "contest": "2026-11-03.ca-santa-clara-morgan-hill.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "I will: 1) Continue working to foster an environment that provides opportunities for businesses to create new jobs and opens the door for companies to expand or relocate here; 2) Continue supporting our youth sports programs and expand recreational tourism; 3) Ensure public safety gets the resources needed to keep us safe.",
+   "sourceTitle": "City of Morgan Hill, Mark Turner Candidate Statement 2026",
+   "sourceUrl": "https://morganhill.ca.gov/DocumentCenter/View/57936/Mark-Turner-Candidate-Statement-2026",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.mark-turner",
+   "contest": "2026-11-03.ca-santa-clara-morgan-hill.mayor",
+   "issue": "accountability",
+   "quote": "Every week I meet with residents, business leaders, nonprofit organizations, community leaders, and our faith community to learn their ideas and concerns, then I act on them.",
+   "sourceTitle": "City of Morgan Hill, Mark Turner Candidate Statement 2026",
+   "sourceUrl": "https://morganhill.ca.gov/DocumentCenter/View/57936/Mark-Turner-Candidate-Statement-2026",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.kristopher-l-clayton",
+   "contest": "2026-11-03.ca-santa-clara-morgan-hill.mayor",
+   "issue": "housing",
+   "quote": "My priorities are straightforward: protect our town from reckless development, support local workers and small businesses, invest in infrastructure that serves residents, and make sure every decision puts people first.",
+   "sourceTitle": "City of Morgan Hill, Kristopher Clayton Candidate Statement",
+   "sourceUrl": "https://morganhill.ca.gov/DocumentCenter/View/57939/Kristopher-Clayton-Candidate-Statement",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.kristopher-l-clayton",
+   "contest": "2026-11-03.ca-santa-clara-morgan-hill.mayor",
+   "issue": "accountability",
+   "quote": "I’m stepping forward because I believe leadership should be accountable, transparent, and grounded in the lives of the people who actually live here.",
+   "sourceTitle": "City of Morgan Hill, Kristopher Clayton Candidate Statement",
+   "sourceUrl": "https://morganhill.ca.gov/DocumentCenter/View/57939/Kristopher-Clayton-Candidate-Statement",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-morgan-hill.mayor.deborah-m-africa",
+   "contest": "2026-11-03.ca-santa-clara-morgan-hill.mayor",
+   "issue": "accountability",
+   "quote": "My leadership is marked by strong professional/personal ethic of integrity & a proven background bringing diverse groups together in common cause.",
+   "sourceTitle": "City of Morgan Hill, Deborah M. Africa Candidate Statement",
+   "sourceUrl": "https://morganhill.ca.gov/DocumentCenter/View/57937/Deborah-M-Africa---Candidate-Statement",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "official-statement"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.kevin-park",
+   "contest": "2026-11-03.ca-santa-clara-santa-clara.mayor",
+   "issue": "accountability",
+   "quote": "Any meeting where we’re worried about people asking questions is not a meeting",
+   "sourceTitle": "San José Spotlight, Six candidates vie for Santa Clara mayoral seat",
+   "sourceUrl": "https://sanjosespotlight.com/six-candidates-vie-for-santa-clara-mayoral-seat",
+   "sourceDate": "2026-08-18",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.kathy-watanabe",
+   "contest": "2026-11-03.ca-santa-clara-santa-clara.mayor",
+   "issue": "accountability",
+   "quote": "When a public asset generates private revenue and profits, the public deserves transparency",
+   "sourceTitle": "NBC Bay Area, 49ers and the Santa Clara mayoral race",
+   "sourceUrl": "https://www.nbcbayarea.com/news/local/49ers-santa-clara-mayoral-race/4148233/",
+   "sourceDate": "2026-09-24",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.david-kertes",
+   "contest": "2026-11-03.ca-santa-clara-santa-clara.mayor",
+   "issue": "housing",
+   "quote": "We have people in the city that are struggling … because they cannot afford $2 million, $3 million homes",
+   "sourceTitle": "Silicon Valley Voice, Former council candidate Kertes stops recall, announces vie for mayor",
+   "sourceUrl": "https://www.svvoice.com/former-council-candidate-kertes-stops-recall-announces-vie-for-mayor/amp/",
+   "sourceDate": "2026-02-24",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-santa-clara-santa-clara.mayor.david-kertes",
+   "contest": "2026-11-03.ca-santa-clara-santa-clara.mayor",
+   "issue": "city-budget",
+   "quote": "We have some heavy payments … We have to start reeling that in.",
+   "sourceTitle": "Silicon Valley Voice, Former council candidate Kertes stops recall, announces vie for mayor",
+   "sourceUrl": "https://www.svvoice.com/former-council-candidate-kertes-stops-recall-announces-vie-for-mayor/amp/",
+   "sourceDate": "2026-02-24",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "contest": "2026-11-03.ca-solano-fairfield.mayor",
+   "issue": "homelessness",
+   "quote": "Let’s move our homeless residents off of the streets – toward living in housing with dignity and respect.",
+   "sourceTitle": "Campaign website, Let's Talk Solutions",
+   "sourceUrl": "https://pambertani.squarespace.com/lets-talk-solutions",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "contest": "2026-11-03.ca-solano-fairfield.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "Solano Town Center is currently generating $350K in quarterly revenue – that’s not good enough.",
+   "sourceTitle": "Campaign website, Let's Talk Solutions",
+   "sourceUrl": "https://pambertani.squarespace.com/lets-talk-solutions",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "contest": "2026-11-03.ca-solano-fairfield.mayor",
+   "issue": "streets-transit-clean",
+   "quote": "LLMDs are vital to the maintenance and beauty of our neighborhoods – in many parts of our City.",
+   "sourceTitle": "Campaign website, Let's Talk Solutions",
+   "sourceUrl": "https://pambertani.squarespace.com/lets-talk-solutions",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "contest": "2026-11-03.ca-solano-fairfield.mayor",
+   "issue": "accountability",
+   "quote": "Our residents can and should hold the Mayor and City Council accountable for finding solutions to solve this problem.",
+   "sourceTitle": "Campaign website, Let's Talk Solutions",
+   "sourceUrl": "https://pambertani.squarespace.com/lets-talk-solutions",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-fairfield.mayor.pam-bertani",
+   "contest": "2026-11-03.ca-solano-fairfield.mayor",
+   "issue": "city-budget",
+   "quote": "The City of Fairfield is facing a $12M structural deficit.",
+   "sourceTitle": "Campaign website, Let's Talk Solutions",
+   "sourceUrl": "https://pambertani.squarespace.com/lets-talk-solutions",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "campaign"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+   "contest": "2026-11-03.ca-solano-suisun-city.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "My platform gets the city out of the way, as we determine the permissions, the time and rules",
+   "sourceTitle": "KQED Voter Guide, Suisun City Mayor",
+   "sourceUrl": "https://www.kqed.org/voterguide/solano/suisun-city-mayor",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.michael-jefferson",
+   "contest": "2026-11-03.ca-solano-suisun-city.mayor",
+   "issue": "public-safety",
+   "quote": "This means more men and women in service, greater technology and stronger pay and benefits",
+   "sourceTitle": "KQED Voter Guide, Suisun City Mayor",
+   "sourceUrl": "https://www.kqed.org/voterguide/solano/suisun-city-mayor",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.lilia-dardon",
+   "contest": "2026-11-03.ca-solano-suisun-city.mayor",
+   "issue": "public-safety",
+   "quote": "My belief is that the mayor should be at every major crime [scene] that happens in this community.",
+   "sourceTitle": "KQED Voter Guide, Suisun City Mayor",
+   "sourceUrl": "https://www.kqed.org/voterguide/solano/suisun-city-mayor",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.lilia-dardon",
+   "contest": "2026-11-03.ca-solano-suisun-city.mayor",
+   "issue": "accountability",
+   "quote": "I am running because I believe Suisun City deserves leadership that listens to the people, protects taxpayers, and puts residents first.",
+   "sourceTitle": "Daily Republic, Dardon announces she will seek mayoral post in Suisun City",
+   "sourceUrl": "https://www.dailyrepublic.com/news/dardon-announces-she-will-seek-mayoral-post-in-suisun-city/article_99dfe05d-bd1e-41b6-8edb-c2250fcaee7b.html",
+   "sourceDate": "2026-06-16",
+   "dateKind": "published",
+   "sourceType": "news"
+  },
+  {
+   "candidate": "2026-11-03.ca-solano-suisun-city.mayor.amit-pal",
+   "contest": "2026-11-03.ca-solano-suisun-city.mayor",
+   "issue": "cost-of-living-economy",
+   "quote": "Otherwise, we get into a situation where a mayor is told by out-of-town interest [groups] that the only way to help our economy is to let billionaires come in and do whatever they want",
+   "sourceTitle": "KQED Voter Guide, Suisun City Mayor",
+   "sourceUrl": "https://www.kqed.org/voterguide/solano/suisun-city-mayor",
+   "sourceDate": "2026-10-30",
+   "dateKind": "accessed",
+   "sourceType": "news"
+  }
+ ]
+}

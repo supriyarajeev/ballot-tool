@@ -1,0 +1,617 @@
+{
+  "group": "sf-d10",
+  "candidates": [
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "name": "Pearci \"PJ\" Bastiany III",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed; candidate sites could not be fetched in this session. GrowSF and SF League of Pissed Off Voters questionnaires used."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "name": "Dionjay (DJ) Brookter",
+      "campaignUrl": null,
+      "notes": "His League questionnaire lists https://www.dj4d10.com/ but the site could not be fetched to confirm, so left null. Mission Local, GrowSF and League questionnaires used."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "name": "Deandra Bryant",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed; candidate sites could not be fetched in this session. GrowSF and SF League of Pissed Off Voters questionnaires used."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "name": "Theo Ellington",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed; candidate sites could not be fetched in this session. GrowSF and Mission Local Q&As used."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "name": "J.R. Eppler",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed; candidate sites could not be fetched in this session. GrowSF and Mission Local Q&As used."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.ellsworth-ell-m-jennison-jr",
+      "name": "Ellsworth \"Ell\" M. Jennison, Jr.",
+      "campaignUrl": null,
+      "notes": "No questionnaire, campaign site or direct quote found. Not in GrowSF, League or Mission Local series. Official voter pamphlet D10 statements not found online."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "name": "Mike Trouble Lin",
+      "campaignUrl": null,
+      "notes": "No campaign site confirmed; candidate sites could not be fetched in this session. GrowSF questionnaire used."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jamo-muhammad",
+      "name": "Jamo Muhammad",
+      "campaignUrl": null,
+      "notes": "No questionnaire, campaign site or direct quote found. Not in GrowSF, League or Mission Local series. Official voter pamphlet D10 statements not found online."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jessica-pessecow",
+      "name": "Jessica Pessecow",
+      "campaignUrl": null,
+      "notes": "No questionnaire or campaign site found. One direct quote from Potrero View news coverage."
+    },
+    {
+      "id": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "name": "Shawn M. Richard",
+      "campaignUrl": null,
+      "notes": "His League questionnaire shows shawnmrichard4d10.com unlabeled; could not fetch to confirm, so left null. GrowSF, League and Mission Local used."
+    }
+  ],
+  "quotes": [
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "I do not like how we treat unhoused people in this city.",
+      "sourceTitle": "GrowSF questionnaire, Pearci Bastiany, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I will sponsor a Moratorium on Luxury and Market Rate housing developments.",
+      "sourceTitle": "GrowSF questionnaire, Pearci Bastiany, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "I believe the issue is a public perception of fear around crime.",
+      "sourceTitle": "GrowSF questionnaire, Pearci Bastiany, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "San Francisco's deficit is fundamentally about an underused downtown and a tax base that no longer matches our costs.",
+      "sourceTitle": "GrowSF questionnaire, Pearci Bastiany, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "I support enforcing a rent cap at $3,000.",
+      "sourceTitle": "GrowSF questionnaire, Pearci Bastiany, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Yes to more bus lanes, no to more ticketing.",
+      "sourceTitle": "GrowSF questionnaire, Pearci Bastiany, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.pearci-pj-bastiany-iii",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "They hold me accountable by expecting me to show up, listen, and produce outcomes.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Pearci PJ Bastiany, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911375/D10_Supervisor_Pearci_PJ_Bastiany.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "I strongly opposed the administration’s two-hour RV-parking restriction as implemented.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: Mayor Lurie",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-mayor-lurie/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "No. I would not support upzoning Third Street without a thorough community process.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: upzoning Third Street",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-upzoning-third-street/",
+      "sourceDate": "2026-10-09",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "The number one public safety issue in District 10 is gun violence.",
+      "sourceTitle": "GrowSF questionnaire, Dion-Jay (DJ) Brookter, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/dion-jay-dj-brookter/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "When resources are limited, we should first protect the people and communities who depend most on public services.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Dion-Jay DJ Brookter, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911369/D10_Supervisor_Dion-Jay_DJ_Brookter.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "My top priority is addressing San Francisco’s affordability crisis.",
+      "sourceTitle": "Mission Local, District 10 meet the candidates: top priority",
+      "sourceUrl": "https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/",
+      "sourceDate": "2026-08-06",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "San Francisco should prioritize buses by expanding bus-only lanes and ensuring they are respected.",
+      "sourceTitle": "GrowSF questionnaire, Dion-Jay (DJ) Brookter, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/dion-jay-dj-brookter/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.dionjay-dj-brookter",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Ultimately, I am accountable to the people of District 10—not wealthy special interests.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Dion-Jay DJ Brookter, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911369/D10_Supervisor_Dion-Jay_DJ_Brookter.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "Reducing homelessness requires partnership, innovation, and consistent leadership.",
+      "sourceTitle": "GrowSF questionnaire, Deandra Bryant, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/deandra-bryant/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I plan to vote YES on the Affordable Housing Guarantee Act.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Deandra Bryant, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911370/D10_Supervisor_Deandra_Bryant.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "As a survivor of gun violence, I understand the lasting impact crime has on victims, families, and entire communities.",
+      "sourceTitle": "GrowSF questionnaire, Deandra Bryant, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/deandra-bryant/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "I am especially concerned when budget balancing disproportionately affects programs serving low-income communities.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Deandra Bryant, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911370/D10_Supervisor_Deandra_Bryant.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "I would support community-based ownership models that can acquire properties and preserve long-term affordability.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Deandra Bryant, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911370/D10_Supervisor_Deandra_Bryant.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Accountability is important, and city departments should be held responsible for meeting service standards.",
+      "sourceTitle": "GrowSF questionnaire, Deandra Bryant, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/deandra-bryant/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.deandra-bryant",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "People can approach me, question me, disagree with me, and tell me when they believe I am wrong.",
+      "sourceTitle": "SF League of Pissed Off Voters questionnaire, Deandra Bryant, D10 Supervisor",
+      "sourceUrl": "https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911370/D10_Supervisor_Deandra_Bryant.pdf",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "On homelessness, when a person is ready to change their life, we should have services readily available.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: RV ban",
+      "sourceUrl": "https://missionlocal.org/2026/08/meet-the-district-10-candidates-rv-ban/",
+      "sourceDate": "2026-08-20",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I support neighborhood-scale infill development on Third Street where appropriate.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: upzoning Third Street",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-upzoning-third-street/",
+      "sourceDate": "2026-10-09",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Gun violence in Bayview–Hunters Point remains one of the most urgent challenges we face.",
+      "sourceTitle": "GrowSF questionnaire, Theo Ellington, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/theo-ellington/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "This is about making government work better, not just smaller.",
+      "sourceTitle": "GrowSF questionnaire, Theo Ellington, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/theo-ellington/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Opening a business should not feel harder than running one.",
+      "sourceTitle": "GrowSF questionnaire, Theo Ellington, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/theo-ellington/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "We need to focus on reliability, access, and equity.",
+      "sourceTitle": "GrowSF questionnaire, Theo Ellington, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/theo-ellington/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.theo-ellington",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Good government is about policy as well as being present, responsive, and accountable every single day.",
+      "sourceTitle": "GrowSF questionnaire, Theo Ellington, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/theo-ellington/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "I want clean streets and safe neighborhoods, but enforcement without alternatives isn’t a solution.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: RV ban",
+      "sourceUrl": "https://missionlocal.org/2026/08/meet-the-district-10-candidates-rv-ban/",
+      "sourceDate": "2026-08-20",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "I support upzoning portions of Third Street for mixed-use, higher-density housing.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: upzoning Third Street",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-upzoning-third-street/",
+      "sourceDate": "2026-10-09",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "I disagree with his decision to keep using Flock license-plate cameras.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: Mayor Lurie",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-mayor-lurie/",
+      "sourceDate": "2026-10-01",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "My approach would be to treat this as a structural problem, not a one-year patch.",
+      "sourceTitle": "GrowSF questionnaire, J.R. Eppler, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/jr-eppler/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Building more housing is the number one way to reduce the cost of living, but it is only one part of the equation.",
+      "sourceTitle": "GrowSF questionnaire, J.R. Eppler, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/jr-eppler/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "The data is clear: bus-only lanes work when they're enforced.",
+      "sourceTitle": "GrowSF questionnaire, J.R. Eppler, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/jr-eppler/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.j-r-eppler",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Just as importantly, I will run the office with a focus on follow-through and results.",
+      "sourceTitle": "GrowSF questionnaire, J.R. Eppler, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/jr-eppler/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "I would welcome RVs being towed from streets & laws enforced around 2 hour parking.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "Modular homes could be placed on church properties.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "I would be a vocal supporter of fully funding SFPD including foot patrol units, more flock cameras and drones.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "San Francisco has to close a budget deficit. Let’s use AI for efficiencies and reduce headcount.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Remove all zoning restrictions for new small businesses for four years.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "We can not tax our way out of MUNI’s funding crisis. Let’s force MUNI to act like a lean start-up.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.mike-trouble-lin",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Set up a dashboard of development projects, list blockers and have monthly updates.",
+      "sourceTitle": "GrowSF questionnaire, Mike Trouble Lin, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.jessica-pessecow",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Public service should be about accountability, independence, and advocating for the community.",
+      "sourceTitle": "Potrero View, Crowded Starting Line in Race for District 10 Supervisor",
+      "sourceUrl": "https://www.potreroview.net/?p=9871",
+      "sourceDate": "2026-02-17",
+      "dateKind": "published",
+      "sourceType": "news"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "homelessness",
+      "quote": "First priority is getting people into care, not just moving them around.",
+      "sourceTitle": "GrowSF questionnaire, Shawn Richard, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "housing",
+      "quote": "No. I would not support blanket upzoning of the Third Street corridor.",
+      "sourceTitle": "Mission Local, Meet the District 10 candidates: upzoning Third Street",
+      "sourceUrl": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-upzoning-third-street/",
+      "sourceDate": "2026-10-09",
+      "dateKind": "published",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "public-safety",
+      "quote": "Public safety is not a partisan issue—it is a community issue—and lasting solutions require broad collaboration.",
+      "sourceTitle": "GrowSF questionnaire, Shawn Richard, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "city-budget",
+      "quote": "Empty buildings are a tax problem sitting in plain sight.",
+      "sourceTitle": "GrowSF questionnaire, Shawn Richard, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "cost-of-living-economy",
+      "quote": "Small businesses are the backbone of our neighborhoods.",
+      "sourceTitle": "GrowSF questionnaire, Shawn Richard, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "streets-transit-clean",
+      "quote": "Bus-only lanes are one of the most effective tools we have.",
+      "sourceTitle": "GrowSF questionnaire, Shawn Richard, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    },
+    {
+      "candidate": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors.shawn-m-richard",
+      "contest": "2026-11-03.ca-sf-supervisor-district-10.board-of-supervisors",
+      "issue": "accountability",
+      "quote": "Every call, email, and meeting request should be logged, categorized, and tracked to resolution.",
+      "sourceTitle": "GrowSF questionnaire, Shawn Richard, Supervisor District 10",
+      "sourceUrl": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/",
+      "sourceDate": "2026-10-30",
+      "dateKind": "accessed",
+      "sourceType": "questionnaire"
+    }
+  ]
+}

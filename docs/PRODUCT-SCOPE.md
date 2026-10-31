@@ -19,6 +19,7 @@ Bay Area voters who want plain-English facts and official sources, and any Calif
 - Statewide propositions, statewide contests and Board of Equalization districts.
 - Bay Area local measures from each county's official list.
 - Congressional, legislative and local candidate contests where an official roster has been read.
+- Candidate comparisons for 54 contests (October 31, 2026). Each cell is a candidate's own words, matched to its linked source in a browser, or a plain statement that none was found. See `docs/CANDIDATE-EVALUATION.md`.
 - An evidence ledger, a source register and status labels on every item.
 
 ## Out of scope
