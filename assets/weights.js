@@ -3,7 +3,7 @@
    guide's candidate evaluation mode. It never decides a lean. The tool's own scoring functions (quality, lean) are
    unchanged and remain the source of every score and lean.
 
-   The tool's existing evidence score is a weighted average of 1-to-5 ratings:
+   The tool's existing overall score is a weighted average of 1-to-5 ratings:
      average = sum(weight x rating) / sum(weight), over factors with weight above 0 AND a valid rating,
      then rounded to one decimal and kept between 1 and 5.
    As a percentage of the top rating (5), that is average / 5 x 100. Each factor contributes

@@ -1185,7 +1185,7 @@
     return '<ol class="steps3" data-tool-steps="1">' + steps.map(function (s) {
       return "<li>" + icon(s[0], "big") + "<div><b>" + esc(s[1]) + ".</b> " + esc(s[2]) + "</div></li>";
     }).join("") + "</ol>" +
-      '<p class="small">The evidence score is the result of this tool’s ratings and the weights you chose. It is not an official recommendation, a prediction, or an instruction on how to vote.</p>';
+      '<p class="small">The overall score is the result of this tool’s ratings and the weights you chose. It is not an official recommendation, a prediction, or an instruction on how to vote.</p>';
   }
 
   function viewAbout() {

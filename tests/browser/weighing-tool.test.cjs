@@ -3,6 +3,11 @@
 // With a path, the file is opened directly (file://). Without one, BASE (set by tests/browser/run.mjs) is used.
 // LINKS_OUT=<file> writes the list of source links seen at 1280px (nothing is written by default).
 const { chromium } = require("playwright");
+// Factor controls show only after Customize is picked, or when the weights match no preset (Oct 31, 2026).
+async function openCustom(p) {
+  if (!(await p.evaluate(() => document.getElementById("customize").open))) await p.evaluate(() => { document.getElementById("customize").open = true; });
+  if (await p.isHidden("#factors")) await p.click("#pr-custom");
+}
 const fs = require("fs");
 const path = require("path");
 const { AXE, ALLOWED_HOSTS, blockExternal, watchErrors, counter } = require("./lib.cjs");
@@ -91,7 +96,11 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
     ok((await T("#tally")).includes("Not answered 14"), "all unanswered " + tag);
     for (const n of NS) ok((await T("#v-" + n)) === "Not answered", "unanswered label " + n + " " + tag);
     // presets
-    for (const id of ["res", "cost", "eq", "def"]) { await p.click(`.preset[data-id="${id}"]`); ok((await p.getAttribute(`.preset[data-id="${id}"]`, "aria-pressed")) === "true", "preset " + id + " " + tag); }
+    for (const id of ["cost", "eq", "def"]) { await p.click(`.preset[data-id="${id}"]`); ok((await p.getAttribute(`.preset[data-id="${id}"]`, "aria-pressed")) === "true", "preset " + id + " " + tag); }
+    ok(await p.isHidden("#factors"), "factor controls hidden under a preset " + tag);
+    await openCustom(p); ok((await p.getAttribute("#pr-custom", "aria-pressed")) === "true" && await p.isVisible("#factors") && (await p.getAttribute('.preset[data-id="def"]', "aria-pressed")) === "false", "Customize shows the factor controls " + tag);
+    ok((await p.$$eval(".preset", (b) => b.map((x) => x.textContent).join(","))) === "Standard,Cost watcher,Equal,Customize", "presets are Standard, Cost watcher, Equal and Customize " + tag);
+    await p.click('.preset[data-id="def"]'); ok(await p.isHidden("#factors") && (await p.getAttribute('.preset[data-id="def"]', "aria-pressed")) === "true", "picking Standard closes Customize " + tag);
     // all Not sure
     for (const n of NS) await p.click(`label[for="g-${n}-2"]`);
     ok((await T("#tally")).includes("Not sure 14"), "all not sure " + tag); ok((await T("#ans-n")) === "14", "answered 14 " + tag);
@@ -104,19 +113,19 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
     const agree = async () => { for (const n of NS) { const v = await T("#v-" + n); const chip = await p.textContent(`#ballot a[data-n="${n}"] .chip`); if (v !== chip.trim()) return n; } return true; };
     ok((await agree()) === true, "card/summary agree 1 " + tag);
     // weights change after answering
-    await p.click('label[for="g-38-3"]'); const before = await T("#q-38"); await p.fill("#w-ev", "0"); const after = await T("#q-38"); ok(before !== after, "weight change updates " + tag);
+    await p.click('label[for="g-38-3"]'); const before = await T("#q-38"); await openCustom(p); await p.fill("#w-ev", "0"); const after = await T("#q-38"); ok(before !== after, "weight change updates " + tag);
     ok((await agree()) === true, "card/summary agree 2 " + tag);
     // all zero
-    for (const k of ["ev", "lr", "ac", "if", "fc"]) await p.fill("#w-" + k, "0");
+    for (const k of ["ev", "lr", "ac", "if", "fc"]) { await openCustom(p); await p.fill("#w-" + k, "0"); }
     ok(await p.isVisible("#zero"), "zero note " + tag);
-    ok((await T("#q-38")) === "Evidence not weighted" && (await p.textContent('#ballot a[data-n="38"] .bsub')).includes("Evidence not weighted"), "zero not weighted " + tag);
-    ok((await T("#v-38")) === "Yes" && /no evidence score/.test(await T("#y-38")), "all weights off: the answer is shown and the evidence says there is no score " + tag);
+    ok((await T("#q-38")) === "Not weighted" && (await p.textContent('#ballot a[data-n="38"] .bsub')).includes("Not weighted"), "zero not weighted " + tag);
+    ok((await T("#v-38")) === "Yes" && /no overall score/.test(await T("#y-38")), "all weights off: the answer is shown and the evidence says there is no score " + tag);
     ok(!/NaN|Infinity/.test(await p.evaluate(() => document.body.innerText)), "no NaN " + tag);
     ok((await agree()) === true, "card/summary agree zero " + tag);
     await p.click("#zero-reset"); ok((await p.inputValue("#w-ev")) === "5" && !(await p.isVisible("#zero")), "reset defaults " + tag);
     // slider handler: the value set on a slider is what is saved and restored (VAL-12)
     for (const v of ["0", "2", "5"]) {
-      await p.fill("#w-ev", v);
+      await openCustom(p); await p.fill("#w-ev", v);
       const saved = await p.evaluate(() => { try { return JSON.parse(localStorage.getItem("ballot-weighing-v2")).w.ev; } catch (e) { return "unreadable"; } });
       ok(saved === +v, `slider sets weight ev=${v} (saved ${saved}) ${tag}`);
     }
@@ -137,7 +146,7 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
     ok((await T("#v-40")) === "Yes" && (await T("#v-5")) === "Not sure" && (await T("#v-1")) === "Not answered", "persist answers " + tag);
     ok((await p.getAttribute('.preset[data-id="eq"]', "aria-pressed")) === "true", "persist weights " + tag);
     // limited caution: Prop 4 with only fc weighted
-    for (const k of ["ev", "lr", "ac", "if"]) await p.fill("#w-" + k, "0"); await p.fill("#w-fc", "3"); await p.click('label[for="g-4-3"]');
+    for (const k of ["ev", "lr", "ac", "if"]) { await openCustom(p); await p.fill("#w-" + k, "0"); } await openCustom(p); await p.fill("#w-fc", "3"); await p.click('label[for="g-4-3"]');
     ok(await p.isVisible("#c-4"), "caution shown " + tag); ok(!(await p.isVisible("#c-1")), "caution hidden when not limited " + tag);
     // keyboard: tab to a pill and select with space
     await p.focus("#g-2-3"); await p.keyboard.press("Space"); ok((await T("#v-2")) === "Yes", "keyboard select " + tag);
@@ -226,7 +235,7 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
       ok(/the 14 range from 2\.3 to 3\.9\./.test(await T("#bh-range")), "How these ratings behave states the real range under standard weights " + tag);
       ok((await T("#q-40")) === "46% 2.3 of 5 · Mixed" && (await T("#y-40")) === "Below the 3.0 midpoint (60%), on the factors you weigh.", "Prop 40 shows 46% beside 2.3 of 5, hand check 2.3 x 20 = 46 " + tag);
       ok(await p.isHidden('#ballot .b-row[data-n="1"] .bsub') && !(await p.isChecked("#show-ev")), "Step 3 shows answers only until the voter asks for scores " + tag);
-      await p.check("#show-ev"); ok(await p.isVisible('#ballot .b-row[data-n="1"] .bsub'), "the switch shows the evidence scores in Step 3 " + tag);
+      await p.check("#show-ev"); ok(await p.isVisible('#ballot .b-row[data-n="1"] .bsub'), "the switch shows the overall scores in Step 3 " + tag);
       await p.reload(); await prep(p); ok(await p.isChecked("#show-ev") && await p.isVisible('#ballot .b-row[data-n="1"] .bsub'), "the switch is remembered on this device " + tag);
       await p.uncheck("#show-ev"); await prep(p);
       // Striped (limited-information) ratings have a key and a visible "limited" tag (Oct 26, 2026).
@@ -255,11 +264,11 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
       const fw = await p.$$eval(".fw-p", (e) => e.map((x) => x.textContent));
       ok(JSON.stringify(fw) === JSON.stringify(["29.41% of the total", "23.53% of the total", "17.65% of the total", "17.65% of the total", "11.76% of the total"]), "framework list shows default shares " + tag + ": " + fw.join(", "));
       ok((await T("#pct-ev")) === "29.4% of your weighting", "slider share " + tag);
-      await p.fill("#w-ev", "0"); ok((await T("#pct-lr")) === "33.3% of your weighting" && /Not counted/.test(await T("#pct-ev")), "shares update immediately when a weight changes " + tag);
-      for (const k of ["ev", "lr", "ac", "fc"]) await p.fill("#w-" + k, "0");
+      await openCustom(p); await p.fill("#w-ev", "0"); ok((await T("#pct-lr")) === "33.3% of your weighting" && /Not counted/.test(await T("#pct-ev")), "shares update immediately when a weight changes " + tag);
+      for (const k of ["ev", "lr", "ac", "fc"]) { await openCustom(p); await p.fill("#w-" + k, "0"); }
       ok((await T("#pct-if")) === "100.0% of your weighting", "single factor gets 100% " + tag);
-      await p.fill("#w-if", "0");
-      ok(/every factor is set to Ignore/.test(await T("#pct-ev")) && (await T("#pf-1")) === "" && /Evidence not weighted/.test(await T("#calc-1")), "all zero shows no shares, no profile and no score " + tag);
+      await openCustom(p); await p.fill("#w-if", "0");
+      ok(/every factor is set to Ignore/.test(await T("#pct-ev")) && (await T("#pf-1")) === "" && /Not weighted/.test(await T("#calc-1")), "all zero shows no shares, no profile and no score " + tag);
       await p.click('.preset[data-id="def"]');
       // Hand check, Standard weights. Prop 1: if 4 and fc 4 are strong, nothing is 2 or lower. Prop 40: ev, lr and if are 2.
       const pf = async (n) => p.$$eval("#pf-" + n + " .pf", (d) => d.map((x) => x.querySelector("b").textContent + ": " + x.querySelector("span").textContent));
@@ -272,7 +281,7 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
       ok(pts.length === 5 && Math.abs(pts.reduce((a, b) => a + b, 0) - 65.88) < 0.02 && (await T("#calc-1 tfoot td:last-child")) === "65.88", "contributions add up to the exact percentage (56/17/5 = 65.88%) " + tag);
       ok(/Your answer\. (Not answered yet|.*never changes it)/.test(await T("#calc-1")), "answer kept separate in the calculation " + tag);
       ok(/Importance 29\.41% × rating 3\/5 = 17\.65 points/.test(await T("#hs-ex")), "worked example " + tag);
-      await p.fill("#w-fc", "5"); await p.reload(); await prep(p);
+      await openCustom(p); await p.fill("#w-fc", "5"); await p.reload(); await prep(p);
       ok((await T("#pct-fc")) === BWfmt(500 / 20) + "% of your weighting", "saved weights restore with their shares " + tag);
       await p.click('.preset[data-id="def"]'); }
     { const t = (await p.textContent("[data-credit]")).replace(/\s+/g, " ");

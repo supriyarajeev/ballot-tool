@@ -191,7 +191,7 @@ Candidates are never scored, ranked or recommended. Candidate statements are lab
 
 ## The evaluation framework
 
-The 14 statewide propositions keep their full evidence ratings and weighing tool in `propositions.html`. `tools/extract-statewide.mjs` copies their facts into `data/2026-11-03/statewide.json` so the guide and the tool never drift apart. Local measures do not get evidence scores until they have been rated with the same rubric.
+The 14 statewide propositions keep their full evidence ratings and weighing tool in `propositions.html`. `tools/extract-statewide.mjs` copies their facts into `data/2026-11-03/statewide.json` so the guide and the tool never drift apart. Local measures do not get overall scores until they have been rated with the same rubric.
 
 
 ## Candidate evaluation (data/candidate-rubric.json and candidates.json `evaluation`)

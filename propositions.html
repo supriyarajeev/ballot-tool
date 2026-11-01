@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* One working column. A sticky progress bar, three numbered steps, and a closing explainer. Each proposition card pairs facts (left) with the voter's answer and the evidence check (right). */
+/* One working column. A sticky progress bar, three numbered steps, and a closing explainer. Each proposition card pairs facts (left) with the voter's answer and the score breakdown (right). */
 :root {
   --paper: #f6f8fa;
   --sheet: #ffffff;
@@ -257,6 +257,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
 .customize summary { cursor: pointer; padding: 10px 14px; font-family: var(--f-display); font-weight: 700; font-size: .9rem; color: var(--ballot); }
 .customize[open] summary { border-bottom: 1px solid var(--rule); }
 .customize-body { padding: 14px; display: grid; gap: 12px; }
+.factors[hidden] { display: none; }
 .fw-status { font-size: .86rem; }
 .fw-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px 16px; }
 .fw-list li { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--rule); }
@@ -355,7 +356,7 @@ details.why-r ul { margin: 6px 0 0; padding-left: 1.1em; display: grid; gap: 4px
   .bar i { transition: width .25s ease; }
 }
 
-/* Your answer and the evidence check (Oct 26, 2026). The answer is shown as chosen; the evidence is the same for every answer. */
+/* Your answer and the score breakdown (Oct 26, 2026). The answer is shown as chosen; the evidence is the same for every answer. */
 .result .verdict { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.25rem; padding: 12px; border: 2px solid transparent; }
 .verdict.v-yes { border-color: var(--yes); } .verdict.v-no { border-color: var(--no); }
 .verdict.v-yes::before, .verdict.v-no::before, .verdict.v-unsure::before { content: ""; width: 14px; height: 8px; border: solid currentColor; border-width: 0 0 3px 3px; transform: translateY(-3px) rotate(-45deg); }
@@ -563,7 +564,7 @@ article.prop.folded .skip { min-height: 0; }
         <p>Weight share of a factor = its weight ÷ the total of all five weights × 100.</p>
         <p>Points from a factor = its weight ÷ the total weight of the factors that are weighted and rated × its rating ÷ 5 × 100.</p>
         <p>Weighted evidence rating = the sum of those points. The tool rounds the average rating to one decimal (for example 3.19 becomes 3.2) and uses that rounded value for the score, the quality word and your lean, so the percentage is shown from it (3.2 of 5 = 64%). Displayed numbers may not add up exactly because of rounding.</p>
-        <p>A factor set to Ignore (weight 0) is left out. A factor that is Not rated is left out too, and the other weights are scaled up to fill its place. Missing evidence is never counted as 0 or as 5. If every weight is 0, no evidence score is calculated.</p>
+        <p>A factor set to Ignore (weight 0) is left out. A factor that is Not rated is left out too, and the other weights are scaled up to fill its place. Missing evidence is never counted as 0 or as 5. If every weight is 0, no overall score is calculated.</p>
         <div class="tablewrap"><table class="rules all-pct"><caption>All 14 propositions under your current weights</caption><thead><tr><th scope="col">Proposition</th><th scope="col">Weighted evidence rating</th><th scope="col">Average of 5</th></tr></thead><tbody id="all-pct"></tbody></table></div>
       </div></details>
     </details>
@@ -578,7 +579,7 @@ article.prop.folded .skip { min-height: 0; }
       </div>
     </details>
     </div>
-    <div class="warn" id="zero" hidden><span>You've turned off all evidence factors. No evidence score is shown, and your answers are still recorded as you chose them.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
+    <div class="warn" id="zero" hidden><span>You've turned off all factors. No overall score is shown, and your answers are still recorded as you chose them.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
   </section>
 
   <div class="done" id="done" role="status" aria-live="polite" hidden></div>
@@ -586,7 +587,7 @@ article.prop.folded .skip { min-height: 0; }
     <div class="sec-head">
       <div class="kicker">Step 2</div>
       <h2 id="s2-h">How would you vote on each proposition?</h2>
-      <p class="small">Each row is one proposition. Answer Yes, Not sure or No right on the row. Not sure records that you are undecided, and a blank row is skipped. Tap a name to open what the measure does, what a YES or NO vote means, who could gain and who pays, the arguments, the sources and the evidence check. The 1 to 5 ratings are this tool's own, rated with the <a href="#s1">framework in Step 1</a>, not LAO or state ratings.</p>
+      <p class="small">Each row is one proposition. Answer Yes, Not sure or No right on the row. Not sure records that you are undecided, and a blank row is skipped. Tap a name to open what the measure does, what a YES or NO vote means, who could gain and who pays, the arguments, the sources and the score breakdown. The 1 to 5 ratings are this tool's own, rated with the <a href="#s1">framework in Step 1</a>, not LAO or state ratings.</p>
     </div>
     <div class="fold-all"><button type="button" id="fold-all" aria-pressed="false">Open all 14</button></div>
     <div class="props" id="props"></div>
@@ -605,10 +606,10 @@ article.prop.folded .skip { min-height: 0; }
     </div>
     <div class="sec-bar">
       <button type="button" class="fold sec-fold" id="s3-fold" data-body="s3-body" aria-expanded="false" aria-controls="s3-body"><span class="fold-name">All 14 answers in one list</span><span class="fold-hint" aria-hidden="true">Show details</span></button>
-      <p class="small">Check every answer at once, see the evidence scores if you want them, or clear your answers.</p>
+      <p class="small">Check every answer at once, see the overall scores if you want them, or clear your answers.</p>
     </div>
     <div class="sec-body" id="s3-body" hidden>
-      <label class="switch"><input type="checkbox" id="show-ev"> <span>Show evidence scores in this list</span></label>
+      <label class="switch"><input type="checkbox" id="show-ev"> <span>Show overall scores in this list</span></label>
       <div class="ballot hide-ev" id="ballot"></div>
       <div class="row"><p class="small">Tap any row to open that proposition.</p><button type="button" id="reset">Clear my answers</button></div>
     </div>
@@ -626,7 +627,7 @@ article.prop.folded .skip { min-height: 0; }
     <h3>How your answer and the evidence are shown</h3>
     <ol>
       <li><b>Your answer is your result.</b> Each card and the list in Step 3 show Yes, No or Not sure exactly as you chose it. The tool never changes or overrides it. A card you leave blank shows Not answered, which is different from Not sure.</li>
-      <li><b>The evidence check</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. It is shown the same way whatever you answer. If every factor is set to Ignore, or none of your weighted factors is rated, no score is shown.</li>
+      <li><b>The overall score</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. It is shown the same way whatever you answer. If every factor is set to Ignore, or none of your weighted factors is rated, no score is shown.</li>
       <li><b>Strong on and weak on</b> list the factors you weigh that rate 4 or higher, and 2 or lower. Everything between is in the middle. This is shown before the overall number, because one average can hide a measure that is very strong on one thing and weak on another.</li>
       <li><b>Who could gain, who pays and how hard it is to change later</b> are described, not rated. They come from the official analysis, the fiscal estimates and each measure's legal text. Whether a gain is worth its cost is your call.</li>
       <li><b>The 3.0 midpoint</b> is the middle of the 1 to 5 scale, marked on each bar. It is a reference point, not a pass mark. It is not a probability that a measure will work, and it has not been statistically validated.</li>
@@ -669,7 +670,7 @@ article.prop.folded .skip { min-height: 0; }
   </footer>
 </main>
 
-<script src="assets/weights.js?v=2026-10-31a"></script>
+<script src="assets/weights.js?v=2026-10-31b"></script>
 <script>
 /*
   Ballot Weighing Tool, scoring overview (facts last checked October 15 and 16, 2026)
@@ -730,7 +731,6 @@ article.prop.folded .skip { min-height: 0; }
 
   var PRESETS = [
     { id: "def", name: "Standard", d: "The Standard Evaluation Framework weights. Proof counts most, then the risk of side effects, then accountability and readiness. Cost clarity counts least. A consistent starting point, not the right answer.", w: { ev: 5, lr: 4, ac: 3, if: 3, fc: 2 } },
-    { id: "res", name: "Evidence first", d: "Most of the weight on whether the approach is proven, then on side effects.", w: { ev: 5, lr: 3, ac: 1, if: 2, fc: 1 } },
     { id: "cost", name: "Cost watcher", d: "Puts the most weight on knowing what a measure costs, with proof and side effects close behind.", w: { ev: 4, lr: 4, ac: 3, if: 3, fc: 5 } },
     { id: "eq", name: "Equal", d: "Every factor counts the same.", w: { ev: 3, lr: 3, ac: 3, if: 3, fc: 3 } }
   ];
@@ -1161,8 +1161,8 @@ article.prop.folded .skip { min-height: 0; }
     if (avg < 4) return "Solid";
     return "Strong";
   }
-  // Wording when no evidence score is computed. All weights 0 means not weighted; otherwise the weighted factors have no valid rating.
-  function offText() { return totalWeight() === 0 ? "Evidence not weighted" : "No evidence score available"; }
+  // Wording when no overall score is computed. All weights 0 means not weighted; otherwise the weighted factors have no valid rating.
+  function offText() { return totalWeight() === 0 ? "Not weighted" : "No overall score available"; }
   function limitedWeighted(p) { return FACTORS.some(function (f) { return state.w[f.k] > 0 && (p.u[f.k] || !rated(p, f.k)); }); }
 
   function lean(p) {
@@ -1199,13 +1199,21 @@ article.prop.folded .skip { min-height: 0; }
 
   // Presets
   var prEl = $("presets");
-  function setPreset(id) { applyPreset(id); FACTORS.forEach(function (f) { $("w-" + f.k).value = state.w[f.k]; }); save(); renderAll(); }
+  function setPreset(id) { customOpen = false; applyPreset(id); FACTORS.forEach(function (f) { $("w-" + f.k).value = state.w[f.k]; }); save(); renderAll(); }
   PRESETS.forEach(function (p) {
     var b = document.createElement("button");
     b.type = "button"; b.className = "preset"; b.textContent = p.name; b.dataset.id = p.id;
     b.addEventListener("click", function () { setPreset(p.id); });
     prEl.appendChild(b);
   });
+  // Customize (Oct 31, 2026): opens the five factor controls. It replaces the Evidence first preset.
+  var customOpen = false;
+  (function () {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "preset"; b.id = "pr-custom"; b.textContent = "Customize"; b.setAttribute("aria-controls", "factors");
+    b.addEventListener("click", function () { customOpen = true; renderAll(); var f = document.querySelector("#factors input"); if (f) f.focus(); });
+    prEl.appendChild(b);
+  })();
   $("zero-reset").addEventListener("click", function () { setPreset("def"); });
   function activePreset() {
     for (var i = 0; i < PRESETS.length; i++) {
@@ -1298,9 +1306,9 @@ article.prop.folded .skip { min-height: 0; }
       '<div class="result" id="rs-' + p.n + '" role="group" aria-label="Your answer and the evidence for Prop ' + p.n + '">' +
         '<div class="result-h">Your answer <span class="rp">· Prop ' + p.n + '</span></div>' +
         '<div class="verdict v-none" id="v-' + p.n + '" aria-live="polite"></div>' +
-        '<div class="result-h ev-h">Evidence check <span class="rp">· Prop ' + p.n + '</span></div>' +
+        '<div class="result-h ev-h">Score breakdown <span class="rp">· Prop ' + p.n + '</span></div>' +
         '<div class="profile" id="pf-' + p.n + '"></div>' +
-        '<div class="meter"><div class="meter-label"><span class="ev-lab">Evidence score</span><span id="q-' + p.n + '"></span></div>' +
+        '<div class="meter"><div class="meter-label"><span class="ev-lab">Overall score</span><span id="q-' + p.n + '"></span></div>' +
           '<div class="bar" aria-hidden="true"><i id="b-' + p.n + '"></i><span class="mid"></span></div>' +
           '<div class="scale" aria-hidden="true"><span class="s1">1</span><span class="m">3.0 midpoint, 60%</span><span class="s5">5</span></div></div>' +
         '<p class="ev-sent" id="y-' + p.n + '"></p>' +
@@ -1352,7 +1360,7 @@ article.prop.folded .skip { min-height: 0; }
     save(); renderAll();
   });
 
-  // Step 3 list: answers only by default, evidence scores on request (Oct 29, 2026). The choice is remembered on this device.
+  // Step 3 list: answers only by default, overall scores on request (Oct 29, 2026). The choice is remembered on this device.
   var DISP = "ballot-display-v1";
   try { $("show-ev").checked = !!(JSON.parse(localStorage.getItem(DISP) || "{}") || {}).ev; } catch (e) {}
   function applyShowEv() { $("ballot").classList.toggle("hide-ev", !$("show-ev").checked); }
@@ -1381,7 +1389,7 @@ article.prop.folded .skip { min-height: 0; }
   // The score as a percentage of the top rating, from the same rounded average (2.3 of 5 = 46%). Display only.
   function pct(avg) { return Math.round(avg * 20); }
   function evidenceSentence(qu) {
-    if (qu.off) return totalWeight() === 0 ? "Every evidence factor is set to Ignore, so there is no evidence score. Your answer is recorded as you chose it." : "None of the factors you weigh has a rating for this measure, so there is no evidence score. Your answer is recorded as you chose it.";
+    if (qu.off) return totalWeight() === 0 ? "Every factor is set to Ignore, so there is no overall score. Your answer is recorded as you chose it." : "None of the factors you weigh has a rating for this measure, so there is no overall score. Your answer is recorded as you chose it.";
     return (qu.avg >= 3 ? "At or above" : "Below") + " the 3.0 midpoint (60%), on the factors you weigh.";
   }
   // The next-step link opens More facts and brings the argument into view.
@@ -1421,9 +1429,9 @@ article.prop.folded .skip { min-height: 0; }
     }).join("");
     return '<div class="calc-scroll" tabindex="0" role="region" aria-label="Calculation table for Prop ' + p.n + '"><table><caption class="vh">How Prop ' + p.n + "'s score is calculated</caption><thead><tr><th scope=\"col\">Factor</th><th scope=\"col\">Importance</th><th scope=\"col\">Rating</th><th scope=\"col\">Points</th></tr></thead><tbody>" + rows + "</tbody>" +
       "<tfoot><tr><td>Total</td><td>100%</td><td></td><td>" + BW.fmt(wr.exactPercent, 2) + "</td></tr></tfoot></table></div>" +
-      '<p class="note-s">Exact average ' + BW.fmt(wr.exactAverage, 2) + " of 5 (" + BW.fmt(wr.exactPercent, 2) + "%). The tool rounds it to " + wr.average.toFixed(1) + " of 5, shown as " + wr.percent + "%, and uses that rounded value for the evidence score." +
+      '<p class="note-s">Exact average ' + BW.fmt(wr.exactAverage, 2) + " of 5 (" + BW.fmt(wr.exactPercent, 2) + "%). The tool rounds it to " + wr.average.toFixed(1) + " of 5, shown as " + wr.percent + "%, and uses that rounded value for the overall score." +
       (rescaled ? " Some weighted factors are not rated, so the others were scaled up to fill their share." : "") + "</p>" +
-      '<p class="note-s">Your answer. ' + (l.g === null ? "Not answered yet." : esc(l.pref) + ". The evidence score is shown beside your answer and never changes it.") + "</p>";
+      '<p class="note-s">Your answer. ' + (l.g === null ? "Not answered yet." : esc(l.pref) + ". The overall score is shown beside your answer and never changes it.") + "</p>";
   }
   function renderExample(sh) {
     var el = $("hs-ex"), p = PROPS[0], wr = BW.weighted(p.s, state.w);
@@ -1453,13 +1461,15 @@ article.prop.folded .skip { min-height: 0; }
     });
     renderExample(sh);
     var ap = activePreset();
-    Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (b) { b.setAttribute("aria-pressed", ap && ap.id === b.dataset.id ? "true" : "false"); });
-    $("preset-desc").textContent = ap ? ap.d : "Custom mix. Pick Standard above to return to the framework weights.";
+    var custom = customOpen || !ap;
+    Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (b) { b.setAttribute("aria-pressed", b.id === "pr-custom" ? (custom ? "true" : "false") : (!custom && ap && ap.id === b.dataset.id ? "true" : "false")); });
+    $("factors").hidden = !custom;
+    $("preset-desc").textContent = custom ? "Set how much each factor matters to you. Pick Standard to return to the framework weights." : ap.d;
     var isStd = ap && ap.id === "def";
     $("fw-status").innerHTML = isStd ? "Using the <b>standard weights</b>." : "Using <b>your custom weights</b>, not the standard ones. Open Customize and pick Standard to switch back.";
-    Array.prototype.forEach.call(document.querySelectorAll(".ev-lab"), function (e) { e.textContent = isStd ? "Evidence score" : "Evidence score, custom weights"; });
+    Array.prototype.forEach.call(document.querySelectorAll(".ev-lab"), function (e) { e.textContent = isStd ? "Overall score" : "Overall score, custom weights"; });
 
-    // Since October 26, 2026 the result is the voter's own answer, shown exactly as chosen. The evidence score is shown
+    // Since October 26, 2026 the result is the voter's own answer, shown exactly as chosen. The overall score is shown
     // beside it the same way for every answer. lean() still runs (its score and the calculation details are used), but
     // its YES / NO / Mixed labels are no longer shown, so the tool never restates or overrides the voter's answer.
     var counts = { yes: 0, no: 0, unsure: 0, none: 0 }, res = {}, answered = 0;
@@ -1479,7 +1489,7 @@ article.prop.folded .skip { min-height: 0; }
       $("c-" + p.n).hidden = l.qu.off || !limitedWeighted(p);
       $("y-" + p.n).textContent = evidenceSentence(l.qu);
     });
-    // A copy of each answer and evidence score for the guide's printable cheat sheet. Read only by the cheat sheet, on this device.
+    // A copy of each answer and overall score for the guide's printable cheat sheet. Read only by the cheat sheet, on this device.
     try { var snap = {}; PROPS.forEach(function (p) { var q = res[p.n].qu; snap[p.n] = { a: answerClass(res[p.n].g), label: res[p.n].pref, ev: q.off ? offText() : qualityWord(q.avg) + ", " + q.avg.toFixed(1) + " of 5 (" + pct(q.avg) + "%)" }; }); localStorage.setItem("ballot-answers-v1", JSON.stringify(snap)); } catch (e) {}
 
     $("all-pct").innerHTML = PROPS.map(function (p) {

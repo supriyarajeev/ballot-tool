@@ -34,7 +34,7 @@ Every published quote carries its check date and method in the data. Matching wa
 
 ## Tests
 
-`npm test` on October 31, 2026, exit 0. Validator self-test 215 passed. Guide browser 657 passed. Weighing tool browser 688 passed. Goatcounter stand-in 124 passed. Three-choice 27. Weights 25. Data validation 0 errors. Static HTML validation passed. Log in npm-test.log.
+`npm test` on October 31, 2026 (rerun after the Overall score rename and the Customize button), exit 0. Validator self-test 215 passed. Guide browser 657 passed. Weighing tool browser 700 passed. Goatcounter stand-in 124 passed. Three-choice 27. Weights 25. Data validation 0 errors. Static HTML validation passed. Log in npm-test.log.
 
 ## Known limits
 

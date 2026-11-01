@@ -9,7 +9,7 @@
 //   Prop 1  ratings ev 3, lr 3, ac (3+3)/2 = 3, if 4, fc 4 -> (15+12+9+12+8)/17 = 56/17 = 3.294 -> 3.3
 //   Prop 40 ratings ev 2, lr 2, ac (3+3)/2 = 3, if 2, fc 3 -> (10+8+9+6+6)/17 = 39/17 = 2.294 -> 2.3
 //   Prop 5  ratings ev 2, lr 3, ac (2+4)/2 = 3, if 5, fc 3 -> (10+12+9+15+6)/17 = 52/17 = 3.059 -> 3.1
-//   Prop 5 under Evidence first weights (ev 5, lr 3, ac 1, if 2, fc 1; total 12)
+//   Prop 5 under custom weights (ev 5, lr 3, ac 1, if 2, fc 1; total 12)
 //          -> (10+9+3+10+3)/12 = 35/12 = 2.917 -> 2.9
 import fs from "node:fs";
 import vm from "node:vm";
@@ -64,9 +64,9 @@ ok(T.FACTORS.map((f) => f.k).join() === "ev,lr,ac,if,fc" && P(T, 5).s.ac === 3 &
 
 // 2. No, same inputs.
 r = leanFor(T, 1, -1);
-ok(r.cls === "no" && r.label === "Leans toward NO" && r.qu.avg === 3.3 && r.pref === "No", "Prop 1, No: Leans toward NO, evidence score unchanged at 3.3");
+ok(r.cls === "no" && r.label === "Leans toward NO" && r.qu.avg === 3.3 && r.pref === "No", "Prop 1, No: Leans toward NO, overall score unchanged at 3.3");
 r = leanFor(T, 40, -1);
-ok(r.cls === "no" && r.qu.avg === 2.3, "Prop 40, No: Leans toward NO, evidence score unchanged at 2.3");
+ok(r.cls === "no" && r.qu.avg === 2.3, "Prop 40, No: Leans toward NO, overall score unchanged at 2.3");
 
 // 3. Not sure: its own result, counted neither way.
 r = leanFor(T, 1, 0);
@@ -81,9 +81,9 @@ ok(leanFor(T, 1, null).cls !== leanFor(T, 1, -1).cls && leanFor(T, 1, null).cls 
 // 5. Changing weights changes the result.
 r = leanFor(T, 5, 1);
 ok(r.qu.avg === 3.1 && r.cls === "yes", "Prop 5, Yes, Standard weights: 3.1, Leans toward YES (" + r.qu.avg + ")");
-T.applyPreset("res");
+T.state.w.ev = 5; T.state.w.lr = 3; T.state.w.ac = 1; T.state.w.if = 2; T.state.w.fc = 1;
 r = leanFor(T, 5, 1);
-ok(r.qu.avg === 2.9 && r.cls === "close", "Prop 5, Yes, Evidence first weights: 2.9 falls below the line, Mixed (" + r.qu.avg + ")");
+ok(r.qu.avg === 2.9 && r.cls === "close", "Prop 5, Yes, custom weights 5, 3, 1, 2, 1: 2.9 falls below the line, Mixed (" + r.qu.avg + ")");
 { T.FACTORS.forEach((f) => { T.state.w[f.k] = 0; }); r = leanFor(T, 5, 1);
   ok(r.qu.off === true && r.cls === "yes" && /answer only/.test(r.why), "all weights off: Yes follows the answer alone and says so"); }
 T.applyPreset("def");
@@ -109,7 +109,7 @@ for (const id of sets) {
     checked++;
   }
 }
-ok(checked === 56 && wrong.length === 0, "all 14 propositions x 4 presets follow the same rule: " + (wrong.join(", ") || "56 of 56"));
+ok(checked === 42 && wrong.length === 0, "all 14 propositions x 3 presets follow the same rule: " + (wrong.join(", ") || "42 of 42"));
 
 // 8. Totals and the answered count (the same counting as the page's progress bar and Step 3 tally).
 T.applyPreset("def");

@@ -13,20 +13,20 @@ INFO  7 http URLs kept as documented exceptions: ca-alpine electionsUrl, ca-cala
 
 === validator self-test: node tests/validator.test.mjs
 validator tests: running 214 plants, 2 at a time
-  25/214 plants done (5.6 s)
-  50/214 plants done (11.1 s)
-  75/214 plants done (16.6 s)
-  100/214 plants done (22.2 s)
-  125/214 plants done (27.8 s)
-  150/214 plants done (33.3 s)
-  175/214 plants done (39.1 s)
-  200/214 plants done (46.2 s)
-  214/214 plants done (49.4 s)
+  25/214 plants done (4.1 s)
+  50/214 plants done (8.6 s)
+  75/214 plants done (13.2 s)
+  100/214 plants done (17.7 s)
+  125/214 plants done (22.5 s)
+  150/214 plants done (27.2 s)
+  175/214 plants done (31.9 s)
+  200/214 plants done (37.5 s)
+  214/214 plants done (40.1 s)
 validator tests: 215 passed, 0 failed
 
 === scoring regression: node tests/scoring-regression.mjs
-840 scoring results compared, 0 differences.
-840 reason and limited-flag lines, 81 quality words, 14 limited-flag sets, 8 saved-state cases, 30 slider cases compared, 0 differences.
+756 scoring results compared, 0 differences.
+756 reason and limited-flag lines, 81 quality words, 14 limited-flag sets, 8 saved-state cases, 30 slider cases compared, 0 differences.
 
 === three-choice answers: node tests/three-choice.test.mjs
 three-choice tests: 27 passed, 0 failed
@@ -43,15 +43,15 @@ guide browser tests: 657 passed, 0 failed
 @768 dark external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
 @360 light external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
 @360 dark external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
-weighing tool browser tests: 688 passed, 0 failed
+weighing tool browser tests: 700 passed, 0 failed
 goatcounter stand-in tests: 124 passed, 0 failed
 
 === Summary
-pass             generated files match their generators (0.5 s)
+pass             generated files match their generators (0.4 s)
 pass             data validation (0.3 s)
-pass             validator self-test (50.2 s)
-pass             scoring regression (0.1 s)
+pass             validator self-test (40.8 s)
+pass             scoring regression (0.0 s)
 pass             three-choice answers (0.0 s)
 pass             percentage arithmetic (0.0 s)
-pass             static HTML validation (0.5 s)
-pass             browser tests (415.4 s)
+pass             static HTML validation (0.4 s)
+pass             browser tests (412.9 s)
