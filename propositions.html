@@ -1564,9 +1564,10 @@ article.prop.folded .skip { min-height: 0; }
   if (ret) {
     var ra = $("ballot-return-a");
     ra.href = "index.html" + ret.f;
-    ra.textContent = ret.p ? "Back to your ballot: " + ret.p : "Back to your ballot";
+    var toSheet = /^#\/sheet\//.test(ret.f);
+    ra.textContent = toSheet ? "Back to my cheat sheet" + (ret.p ? ": " + ret.p : "") : ret.p ? "Back to your ballot: " + ret.p : "Back to your ballot";
     $("ballot-return").hidden = false;
-    var rm = $("ret-mini"); rm.setAttribute("href", "index.html" + ret.f); rm.hidden = false; rm.setAttribute("aria-label", ra.textContent);
+    var rm = $("ret-mini"); rm.setAttribute("href", "index.html" + ret.f); if (toSheet) rm.textContent = "Cheat sheet"; rm.hidden = false; rm.setAttribute("aria-label", ra.textContent);
     document.querySelector(".sticky").classList.add("has-ret");
   }
   /* Next step: the ballot cheat sheet (Oct 26, 2026). If the voter came from a ballot or cheat sheet page, the link goes

@@ -9,7 +9,7 @@
     #/item/<id>              one ballot measure
     #/contest/<id>           one candidate contest
     #/candidate/<id>         one candidate profile
-  Nothing typed or chosen here is stored or sent anywhere. County and city live only in the page address after "#".
+  Nothing typed or chosen here is sent anywhere. County and city live in the page address after "#". The last cheat sheet opened is remembered in this browser only (Nov 1, 2026).
   The visitor counter is sent a fixed page path and title only (see countVisit), never the route or the page title.
 */
 (function () {
@@ -582,7 +582,7 @@
   function links(keys) { return keys.map(function (k) { return ext(OFFICIAL[k][0], OFFICIAL[k][1]); }).join(" · "); }
   function nextSteps() {
     return '<section class="card" aria-labelledby="next-h" data-next-steps="1"><h2 id="next-h">' + icon("ballot") + 'Before you vote</h2>' +
-      "<p>Check your official sample ballot. <a href=\"#/find\">Find My Ballot</a> links to your county’s own lookup, or use the Secretary of State’s list of " + ext(OFFICIAL.offices[0], OFFICIAL.offices[1].toLowerCase()) + ".</p>" +
+      "<p>Check your official sample ballot. <a href=\"#/find\">Pick your county</a> to get its own lookup, or use the Secretary of State’s list of " + ext(OFFICIAL.offices[0], OFFICIAL.offices[1].toLowerCase()) + ".</p>" +
       "<p>Choosing a county or city here does not confirm your districts or what is on your ballot. School, special and supervisor districts often cross city lines.</p>" +
       "<p>Missed the registration deadline? Through Election Day you can still register and vote at your county elections office, a vote center or a polling place. Your ballot is counted once the county completes its checks. " + ext(OFFICIAL.sameday[0], "How same-day registration works") + ".</p>" +
       fold("tools-body", "Official voter tools", "Registration status, early voting, ballot tracking, other formats and languages, and accessibility.",
@@ -598,7 +598,10 @@
         '<h1 class="hero-title"><span>California Bay Area</span> <span>Ballot Guide</span></h1>' +
         // Public positioning (Oct 26, 2026): statewide propositions first, the beta status in the banner above, and a plain disclaimer.
         '<p class="tagline">An independent, nonpartisan resource to explore California’s statewide propositions, review supporting information, and see how your own priorities influence your results.</p>' +
-        '<div class="cta"><a class="btn primary" href="propositions.html">' + icon("scale") + 'Ballot Weighing Tool</a><a class="btn secondary" href="#/find">' + icon("pin") + "Find My Ballot</a></div>" +
+        '<div class="cta"><a class="btn primary" href="propositions.html">' + icon("scale") + 'Ballot Weighing Tool</a>' +
+          // Nov 1, 2026: My ballot replaces Find My Ballot and My cheat sheet. It reopens the last cheat sheet opened on
+          // this device, or opens the place picker, which goes straight to the cheat sheet.
+          '<a class="btn secondary" data-home-sheet href="' + esc(myBallotHref()) + '">' + icon("doc") + "My ballot cheat sheet</a></div>" +
         '<ul class="attrs" data-attrs="1"><li>' + icon("check") + "Source-linked information</li><li>" + icon("check") + "User-controlled preferences</li><li>" + icon("check") + "Transparent methodology</li></ul>" +
         '<p class="small scope-note" data-scope-note="1">Focused on the 14 statewide propositions, with the Bay Area local measures and contests collected so far, not a complete official ballot. Confirm your ballot with your county elections office or the ' + ext("https://voterguide.sos.ca.gov/", "official voter guide") + '. <a href="#/about">About this guide</a></p>' +
         '<p class="quick"><a class="textlink" href="#/browse">Ballot measures by county</a><a class="textlink" href="#/contests">Candidates and races</a><a class="textlink" href="#/statewide">Outside the Bay Area</a></p>' +
@@ -634,7 +637,7 @@
     } else if (!pc && pcity) notice = "This page address names a city or town but no county, so it was not used. Choose your county first.";
     app.innerHTML =
       '<a class="back" href="#/">Home</a>' +
-      '<section class="ov-head"><h1>Find your ballot</h1><p class="muted">' + (toSheet ? "Choose where you vote, and your cheat sheet opens with your Weighing Tool answers ticked. " : "Three quick choices. ") + "Nothing you pick is stored or sent anywhere.</p></section>" +
+      '<section class="ov-head"><h1>Find your ballot</h1><p class="muted">' + (toSheet ? "Choose where you vote, and your cheat sheet opens with your Weighing Tool answers ticked. " : "Three quick choices. ") + "Nothing you pick is sent anywhere. This device remembers the last cheat sheet you opened, so My ballot can reopen it.</p></section>" +
       (notice ? '<div class="note warn" data-find-notice="1"><b>Please choose again.</b><p>' + notice + "</p></div>" : "") +
       '<form class="card steps-form" id="findform" novalidate>' +
         // Only the current election is loaded, so it is shown as a fixed label, not a selector.
@@ -855,7 +858,7 @@
         (state.length ? toolAllButton(state.length) : "") +
         (state.length ? '<div class="rows">' + state.map(function (m) { return itemRow(m, { fit: "yes" }, false); }).join("") + "</div>" : '<div class="empty">The statewide list could not be loaded right now. ' + ext("https://voterguide.sos.ca.gov/", "Official California voter guide") + ".</div>") +
       "</details>" +
-      '<div class="note"><b>Live in a Bay Area county?</b><p>' + esc(andList(counties().map(shortName))) + ' have local items too. <a href="#/find">Find My Ballot</a>.</p></div>' +
+      '<div class="note"><b>Live in a Bay Area county?</b><p>' + esc(andList(counties().map(shortName))) + ' have local items too. <a href="#/find?next=sheet" data-my-ballot>My ballot cheat sheet</a>.</p></div>' +
       '<details class="sec"><summary>Statewide items and the elections office for your county</summary><div class="body"><ul class="srclist">' +
         others.map(function (c) { return '<li><a href="#/ballot/' + enc(c.id) + '">' + esc(c.name) + "</a></li>"; }).join("") +
       "</ul></div></details>" +
@@ -1048,6 +1051,7 @@
   }
   var jumpTo = null;
   document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest("a[data-about-method]")) jumpTo = "compare-method"; });
+  document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest("a[data-ws-jump]")) jumpTo = "ws-h"; });
   document.addEventListener("click", function (e) {
     var b = e.target.closest ? e.target.closest("button[data-ws-all]") : null; if (!b) return;
     var open = b.getAttribute("aria-pressed") !== "true";
@@ -1089,7 +1093,7 @@
       return '<div class="claim"><p class="who">' + esc(kind) + "</p>" + (val ? (/^https?:/.test(val) ? "<p>" + ext(val, esc(label)) + "</p>" : "<p>" + esc(val) + "</p>") : '<p class="missing">Not yet collected for this candidate.</p>') + "</div>";
     }
     app.innerHTML =
-      '<a class="back" href="#/contest/' + enc(p.contest) + '">' + esc(c.office || "Contest") + "</a>" +
+      (fromSheet() ? sheetBackLink() : '<a class="back" href="#/contest/' + enc(p.contest) + '">' + esc(c.office || "Contest") + "</a>") +
       '<article class="detail"><p class="eyebrow">Candidate for ' + esc(c.office || "") + (c.district ? ", " + esc(c.district) : "") + "</p>" +
         '<div class="cand-head">' + candPhoto(p, 96, true) + "<h1>" + esc(p.name) + "</h1></div>" +
         (hasPhoto(p) ? '<p class="small">Photo: ' + esc(p.photo.credit) + " " + ext(p.photo.sourcePage, "Source") + (p.photo.licenseUrl ? " · " + ext(p.photo.licenseUrl, "License") : "") + ". " + esc(p.photo.modified || "") + "</p>" :
@@ -1138,7 +1142,7 @@
     app.innerHTML = backLink() +
       '<section class="ov-head"><h1>Candidates and races</h1><p class="muted">' + esc(DB.election.name) + ". Statewide, congressional and legislative contests come from the Secretary of State's certified list. " +
         (places.length >= counties().length ? "Local contests are listed for all " + counties().length + " Bay Area counties, from each county’s official candidate list. " : places.length ? "Local contests are collected so far only for these places: " + places.join("; ") + ". " : "No local contests have been collected yet. ") +
-        "This is not a full list of every race on your ballot. Use Find My Ballot to see what may apply where you live.</p>" +
+        "This is not a full list of every race on your ballot. Use My ballot cheat sheet to see what may apply where you live.</p>" +
         '<p class="small">From the Secretary of State: ' + links(["statements", "certlist"]) + ".</p></section>" +
       compareDirectory() +
       (DB.quotes ? '<h2 class="cd-all">All contests in this guide</h2>' : "") +
@@ -1159,9 +1163,27 @@
       "</ul></div></details>";
   }
 
-  // Back goes to the previous page in this guide when there is one, otherwise to Find My Ballot.
+  // Back goes to the previous page in this guide when there is one, otherwise to the place picker (My ballot).
   var navCount = 0;
-  function backLink() { return '<a class="back" href="#/find" data-back="1">Back</a>'; }
+  function backLink() { return fromSheet() ? sheetBackLink() : '<a class="back" href="#/find" data-back="1">Back</a>'; }
+  // Return to the cheat sheet (Nov 1, 2026). A page opened from the cheat sheet (View profile, Compare candidates,
+  // Details and sources) says "Back to my cheat sheet" and returns to the same place on the sheet.
+  var curHash = "", cameFrom = "";
+  function fromSheet() { return /^#\/sheet\//.test(cameFrom); }
+  function sheetBackLink() { return '<a class="back" href="' + esc(cameFrom) + '" data-back="1">Back to my cheat sheet</a>'; }
+  var SHEET_POS = "ballot-sheet-pos-v1";
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a.sheet-link, a.src-link") : null;
+    if (!a || !/^#\/sheet\//.test(location.hash)) return;
+    try { sessionStorage.setItem(SHEET_POS, JSON.stringify({ h: location.hash, y: Math.round(window.scrollY) })); } catch (x) {}
+  });
+  function restoreSheetPos() {
+    try {
+      var v = JSON.parse(sessionStorage.getItem(SHEET_POS) || "null"); sessionStorage.removeItem(SHEET_POS);
+      if (v && v.h === location.hash && typeof v.y === "number") { window.scrollTo(0, v.y); return true; }
+    } catch (x) {}
+    return false;
+  }
   // The skip link moves focus to the page heading. It never changes the address, which the router owns (UX-01).
   document.addEventListener("click", function (e) {
     var a = e.target.closest ? e.target.closest("a.skip") : null;
@@ -1252,7 +1274,7 @@
         "<li><b>Needs review.</b> The facts have sources, but they have not yet been officially reviewed. For now every item is at this stage or Incomplete, so lists leave this label out. Each item’s own page shows it, with what still needs checking.</li>" +
         "<li><b>May apply.</b> The contest or measure covers only part of your county or city. Check your sample ballot.</li>" +
         "<li><b>Verified.</b> The item has been officially reviewed against the official source. No item has this label yet.</li></ul>") +
-      sec("Confirm your ballot", "<p>Your county elections office has your official sample ballot. <a href=\"#/find\">Find My Ballot</a> links to your county’s lookup.</p><ul class=\"srclist\">" +
+      sec("Confirm your ballot", "<p>Your county elections office has your official sample ballot. <a href=\"#/find\">Pick your county</a> to get its lookup.</p><ul class=\"srclist\">" +
         ["offices", "sameday", "status", "early", "polling", "track", "guide", "props", "statements", "certlist", "formats", "hotlines", "access"].map(function (k) { return "<li>" + ext(OFFICIAL[k][0], OFFICIAL[k][1]) + "</li>"; }).join("") + "</ul>", true) +
       '<p class="small">Coverage and checking are ongoing. Figures on this page are counted from the guide’s data each time it loads.</p>' +
       "</article>";
@@ -1270,6 +1292,13 @@
     return mode === "city" ? (cc && city.id === cc.id ? city.name : city.name + ", " + county.name) : mode === "unincorporated" ? "unincorporated " + county.name : county.name;
   }
   function ballotPath(countyId, cityId) { return enc(countyId) + (cityId ? "/" + enc(cityId) : ""); }
+  // The last cheat sheet opened, kept only in this browser so the home page can reopen it (Nov 1, 2026). Only the
+  // county and city ids are kept, and only ids that are in this guide are used.
+  var LAST_SHEET = "ballot-last-sheet-v1";
+  function myBallotHref() { var l = lastSheet(); return l ? "#/sheet/" + l : "#/find?next=sheet"; }
+  function lastSheet() {
+    try { var v = localStorage.getItem(LAST_SHEET) || "", m = /^([a-z0-9-]+)(?:\/([a-z0-9-]+))?$/.exec(v); if (!m) return ""; var c = J(m[1]); return c && c.type === "county" && (!m[2] || J(m[2]) || m[2] === "unincorporated") ? v : ""; } catch (e) { return ""; }
+  }
   function shareBox(url, text) {
     return '<div class="share no-print" data-share="1" data-url="' + esc(url) + '" data-text="' + esc(text) + '">' +
       '<button type="button" class="btn secondary" data-act="share">' + icon("share") + "Share</button>" +
@@ -1302,6 +1331,7 @@
     var county = J(countyId);
     if (!county || county.type !== "county") return viewNotFound("That county is not in this guide.");
     if (extra) return viewPlaceNotFound(county, extra);
+    try { localStorage.setItem(LAST_SHEET, county.id + (cityId ? "/" + cityId : "")); } catch (e) {}
     var place = resolvePlace(county, cityId);
     if (!place) return viewPlaceNotFound(county, cityId);
     var applyCity = place.city ? place.city.id : null, name = placeLabel(county, place);
@@ -1330,7 +1360,7 @@
         if (mine && marks[id] !== t.tick) ln = '<p class="lean small own">Changed on this sheet. Your Weighing Tool answer is <b>' + esc(t.a === "none" ? "Not answered" : t.label) + '</b>. <button type="button" class="use-tool no-print" data-id="' + esc(id) + '">Use it</button></p>';
         else if (t.tick) ln = '<p class="lean small from"><span class="ok" aria-hidden="true"></span>From your Weighing Tool answer, <b>' + esc(t.label) + "</b>" + ev + open + "</p>";
         else ln = '<p class="lean small blank">' + (t.a === "unsure" ? "Not sure in the Weighing Tool, so left blank" : "Not answered in the Weighing Tool, so left blank") + ev + open + "</p>";
-      }
+      } else ln = '<p class="small no-print"><a class="sheet-link" href="#/item/' + enc(id) + '">Details and sources</a></p>';
       return '<li class="srow' + (t && !mine && t.tick ? " from-tool" : "") + '" data-id="' + esc(id) + '"' + (t ? ' data-tool="' + t.tick + '"' : "") + '><div class="stx"><span class="rid">' + esc(m.identifier) + "</span> " + esc(m.shortTitle || m.officialTitle) +
         (it.a.fit === "maybe" ? " " + tag : "") + ln + "</div>" +
         '<div class="yn" role="group" aria-label="' + esc(m.identifier + " " + (m.shortTitle || "")) + '">' +
@@ -1342,10 +1372,13 @@
       var cands = (c.candidates || []).map(rec).filter(Boolean);
       return '<li class="srow contest" data-id="' + esc(c.id) + '"><div class="stx"><b>' + esc(c.office) + (c.district ? ", " + esc(c.district) : "") + "</b>" +
         '<span class="small muted"> · ' + esc((J(c.jurisdiction) || {}).name || "") + (c.seats ? " · Vote for up to " + esc(c.seats) : "") + "</span>" +
-        (c.listStatus === "pending" ? ' <span class="dep">Not yet on a final list</span>' : "") + "</div>" +
+        (c.listStatus === "pending" ? ' <span class="dep">Not yet on a final list</span>' : "") +
+        // Nov 1, 2026: one tap from the sheet to the comparison (or the contest page) and to each profile. The name
+        // stays the checkbox label, so tapping it still ticks the box.
+        ' <span class="no-print">· ' + (covered(c.id) ? '<a class="sheet-link" data-ws-jump href="#/contest/' + enc(c.id) + '">Compare candidates</a>' : '<a class="sheet-link" href="#/contest/' + enc(c.id) + '">See candidates</a>') + "</span>" + "</div>" +
         '<ul class="cands" data-seats="' + esc(c.seats || "") + '">' + cands.map(function (k) {
           return '<li><label class="box"><input type="checkbox" value="' + esc(k.id) + '"' + (v.indexOf(k.id) >= 0 ? " checked" : "") + "><span>" + esc(k.name) + "</span></label>" +
-            (k.designation || k.party ? '<span class="small muted">' + esc([k.party, k.designation].filter(Boolean).join(" · ")) + "</span>" : "") + "</li>";
+            '<span class="small muted">' + esc([k.party, k.designation].filter(Boolean).join(" · ")) + "</span>" + '<a class="sheet-link no-print" href="#/candidate/' + enc(k.id) + '">View profile</a>' + "</li>";
         }).join("") + '</ul><p class="small seat-msg" role="status" aria-live="polite"></p></li>';
     }
     var sections = GROUPS.filter(function (g) { return g.key !== "candidates" && buckets[g.key].length; }).map(function (g) {
@@ -1456,7 +1489,7 @@
           return "<li><b>" + esc(c.name) + "</b><span class=\"small\">" + [c.electionsUrl ? ext(c.electionsUrl, "Elections office") : "", c.lookupUrl ? ext(c.lookupUrl, esc(capFirst(c.lookupLabel || "voter lookup"))) : ""].filter(Boolean).join(" · ") + "</span></li>";
         }).join("") +
         '</ul><p class="small">Elsewhere in California, see the ' + ext("https://www.sos.ca.gov/elections/voting-resources/county-elections-offices", "list of county elections offices") + ".</p></section>" +
-      '<div class="cta two"><a class="btn primary" href="#/find">' + icon("pin") + "Find My Ballot</a><a class=\"btn secondary\" href=\"propositions.html\">" + icon("scale") + "Ballot Weighing Tool</a></div>";
+      '<div class="cta two"><a class="btn primary" data-my-ballot href="' + esc(myBallotHref()) + '">' + icon("pin") + "My ballot cheat sheet</a><a class=\"btn secondary\" href=\"propositions.html\">" + icon("scale") + "Ballot Weighing Tool</a></div>";
   }
 
   function viewNotFound(msg) {
@@ -1467,6 +1500,7 @@
   function dec(s) { try { return decodeURIComponent(s); } catch (e) { return null; } }
   function route() {
     navCount++;
+    cameFrom = curHash; curHash = location.hash;
     var h = location.hash.replace(/^#\/?/, "");
     var qs = Object.create(null), qi = h.indexOf("?"), bad = false;
     if (qi >= 0) {
@@ -1505,7 +1539,9 @@
     // Route changes are announced by moving focus to the new h1, not by a live region over the whole page.
     // On the first load focus stays at the top of the document, so the skip link, menu and beta notice come first (UX-03).
     if (navCount > 1) focusTop(); else window.scrollTo(0, 0);
+    if (v === "sheet") restoreSheetPos();
     // "How quotes are chosen" opens the method section on the About page.
+    document.querySelectorAll("a[data-my-ballot]").forEach(function (x) { x.setAttribute("href", myBallotHref()); });
     if (jumpTo) { var jt = document.getElementById(jumpTo); jumpTo = null; if (jt) { jt.open = true; jt.scrollIntoView({ block: "start" }); var js = jt.querySelector("summary"); if (js) js.focus({ preventScroll: true }); } }
   }
 
@@ -1520,7 +1556,10 @@
   function setNav(v) {
     setMenu(false);
     var map = { find: "#/find", ballot: "#/find", sheet: "#/find", "how-to-vote": "#/how-to-vote", contests: "#/contests", contest: "#/contests", candidate: "#/contests", browse: "#/browse", item: "#/browse", statewide: "#/browse", about: "#/about" };
-    document.querySelectorAll(".topnav a").forEach(function (a) { if (map[v] && a.getAttribute("href") === map[v]) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+    // My ballot (Nov 1, 2026): every link marked data-my-ballot reopens the last cheat sheet, or opens the picker.
+    var mb = myBallotHref();
+    document.querySelectorAll("a[data-my-ballot]").forEach(function (a) { a.setAttribute("href", mb); });
+    document.querySelectorAll(".topnav a").forEach(function (a) { var cur = a.hasAttribute("data-my-ballot") ? (v === "find" || v === "ballot" || v === "sheet") : map[v] && a.getAttribute("href") === map[v]; if (cur) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
   }
 
   countVisit();

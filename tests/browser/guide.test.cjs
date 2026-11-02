@@ -92,7 +92,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   await p.evaluate(() => document.querySelectorAll("button.sec-fold").forEach((b) => { if (b.getAttribute("aria-expanded") !== "true") b.click(); }));
   ok((await H1(p)) === "California Bay Area Ballot Guide", "home h1");
   ok((await p.title()).startsWith("California Bay Area Ballot Guide"), "document title");
-  ok(await p.isVisible('a:has-text("Find My Ballot")'), "Find My Ballot entry point");
+  ok(await p.isVisible('.hero a:has-text("My ballot")'), "My ballot entry point");
   ok(await p.isVisible('main a[href="propositions.html"]'), "Ballot Weighing Tool entry point");
   ok((await main(p)).includes("November 3, 2026"), "election date on home");
   // Regional facts block: 9 counties and 101 cities and towns, read from region.json, with a source link.
@@ -282,7 +282,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(await p.evaluate(() => window.scrollY < 50 && document.activeElement && document.activeElement.tagName === "H1"), "About, methodology and full disclaimer works while already on About (back to the top)");
     await go(p, "#/how-to-vote", "[data-voter-tools]");
     const bw = await p.$$eval(".cta.two .btn", (bs) => bs.map((b) => [Math.round(b.getBoundingClientRect().width), Math.round(b.getBoundingClientRect().height)]));
-    ok(bw.length === 2 && bw[0][0] === bw[1][0] && bw[0][1] === bw[1][1], "How to vote: Find My Ballot and Ballot Weighing Tool are the same size " + JSON.stringify(bw)); }
+    ok(bw.length === 2 && bw[0][0] === bw[1][0] && bw[0][1] === bw[1][1], "How to vote: My ballot and Ballot Weighing Tool are the same size " + JSON.stringify(bw)); }
   { const all = D.candidates.filter((c) => c.photo); const fs = require("fs"), path = require("path");
     ok(all.length >= 1 && all.every((c) => fs.existsSync(path.join(__dirname, "..", "..", c.photo.src))), "every photo record points to a file in the site"); }
   await go(p, "#/contests");
@@ -341,7 +341,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(det.every(([c, hasP]) => (c === "past") === !hasP), "dates that have passed are one short line; dates ahead keep their details");
     ok(await p.evaluate(() => { const r = document.querySelector("[data-region-card]"), k = document.querySelector("[data-key-dates]"); return !!(r.compareDocumentPosition(k) & Node.DOCUMENT_POSITION_FOLLOWING); }), "the region at a glance comes before the key dates");
     const cta = await p.$$eval(".hero .cta .btn", (bs) => bs.map((b) => Math.round(b.getBoundingClientRect().width)));
-    ok(cta.length === 2 && cta[0] === cta[1], "the two main buttons are the same width " + JSON.stringify(cta)); }
+    ok(cta.length === 2 && cta[0] === cta[1], "the two main buttons (Weighing Tool, My ballot) are the same width " + JSON.stringify(cta)); }
   ok((await p.$$eval("[data-key-dates] a", (as) => as.map((a) => a.href))).every((u) => /^https:\/\/www\.sos\.ca\.gov\//.test(u)), "key dates link only to the Secretary of State");
   { const today = new Date().toISOString().slice(0, 10), past = await p.$$eval("[data-key-dates] li.past time", (ts) => ts.map((t) => t.getAttribute("datetime")));
     ok(past.every((d) => d <= today), "only past dates are marked Passed"); }
@@ -706,7 +706,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     ok(await q.isHidden("#done") && (await q.textContent("#next-top")).trim() === "See my ballot", "clearing an answer hides the completion message again");
     await q.click('label[for="g-45-1"]');
     await q.click("#done a.btn-go"); await q.waitForSelector("#findform");
-    ok(/next=sheet/.test(q.url()) && (await q.textContent("#go")).trim() === "Open my cheat sheet", "Find My Ballot opens ready to go on to the cheat sheet");
+    ok(/next=sheet/.test(q.url()) && (await q.textContent("#go")).trim() === "Open my cheat sheet", "the place picker opens ready to go on to the cheat sheet");
     await chooseCounty(q, "ca-alameda"); await citySelect(q).selectOption("ca-alameda-fremont");
     ok(/next=sheet/.test(q.url()), "choosing a place keeps the next step in the address");
     await q.click("#go"); await q.waitForSelector(".srow");
@@ -773,7 +773,7 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
     const lines = await m.$$eval("h1.hero-title span", (sp) => sp.map((x) => x.getClientRects().length));
     ok(lines.every((n) => n === 1), "phone: 'California Bay Area' and 'Ballot Guide' each stay on one line");
     const ctaTop = await m.$eval(".cta .btn.primary", (e) => e.getBoundingClientRect().top);
-    ok((await m.getAttribute(".hero .cta .btn.primary", "href")) === "propositions.html" && (await m.getAttribute(".hero .cta .btn.secondary", "href")) === "#/find", "home: the Ballot Weighing Tool leads, Find My Ballot second");
+    ok((await m.getAttribute(".hero .cta .btn.primary", "href")) === "propositions.html" && /^#\/(find\?next=sheet|sheet\/)/.test(await m.getAttribute(".hero .cta .btn.secondary", "href")), "home: the Ballot Weighing Tool leads, My ballot second");
     ok((await m.$$eval("[data-attrs] li", (l) => l.map((x) => x.textContent.trim()).join("|"))) === "Source-linked information|User-controlled preferences|Transparent methodology", "home: the three key attributes");
     ok(/not an official government website/.test(await m.textContent("footer.site [data-credit]")) && /not a complete official ballot/.test(await m.textContent("[data-scope-note]")) && (await m.$$eval("[data-scope-note] a", (a) => a.map((x) => x.getAttribute("href")))).includes("https://voterguide.sos.ca.gov/"), "home: the footer says it is unofficial, and a small scope note links to the official voter guide");
     for (const h of ["#/", "#/about", "#/find", "#/how-to-vote"]) { await m.goto(B + h); await m.waitForSelector("h1"); ok((await m.$$eval('a[href*="github.com"]', (a) => a.length)) === 0, "no GitHub link on " + h); }
