@@ -626,7 +626,7 @@
     if (pc) {
       var pj = J(pc);
       if (pj && pj.type === "county" && isBay(pj)) county = pj;
-      else if (pj && pj.type === "county") notice = esc(pj.name) + " is not one of the nine Bay Area counties. " + esc(STATEWIDE_MSG) + ' <a href="#/ballot/' + enc(pj.id) + '">See statewide items for ' + esc(pj.name) + "</a>.";
+      else if (pj && pj.type === "county") notice = esc(pj.name) + " is not one of the nine Bay Area counties. " + esc(STATEWIDE_MSG) + ' <a href="#/ballot/' + enc(pj.id) + '">See statewide items for ' + esc(pj.name) + "</a>, or choose a Bay Area county below.";
       else notice = "The county in this page address is not one of the nine Bay Area counties in this guide. Choose a county below.";
     }
     var startCity = "";
@@ -821,8 +821,8 @@
     }).join("");
     // Only the consolidated City and County of San Francisco drops the county name; "Napa" alone would hide which county is meant (R3-03).
     var placeName = mode === "city" ? (cc && city.id === cc.id ? city.name : city.name + ", " + county.name) : mode === "unincorporated" ? "unincorporated " + county.name : county.name;
-    // "Change place" keeps the city or town (FE-11). Counties outside the Bay Area go back to the statewide page.
-    var back = bay ? '<a class="back" href="' + findHref + (cityId && !(cc && cityId === cc.id) ? "&city=" + enc(cityId) : "") + '">Change place</a>' : '<a class="back" href="#/statewide">Change place</a>';
+    // "Change place" keeps the city or town (FE-11). Counties outside the Bay Area open the picker (Nov 1, 2026), which links to the statewide page for other counties.
+    var back = bay ? '<a class="back" href="' + findHref + (cityId && !(cc && cityId === cc.id) ? "&city=" + enc(cityId) : "") + '">Change place</a>' : '<a class="back" href="#/find">Change place</a>';
     app.innerHTML =
       back +
       '<section class="ov-head"><p class="eyebrow">' + esc(DB.election.name) + "</p><h1>Ballot choices for " + esc(placeName) + "</h1>" +

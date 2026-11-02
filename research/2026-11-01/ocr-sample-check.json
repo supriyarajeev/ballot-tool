@@ -1,0 +1,212 @@
+[
+ {
+  "i": 0,
+  "id": "2026-11-03.ca-alameda-albany.measure-s",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 1,
+  "id": "2026-11-03.ca-san-mateo-belmont.measure-y",
+  "field": "opponents",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 2,
+  "id": "2026-11-03.ca-san-mateo.measure-j",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 3,
+  "id": "2026-11-03.ca-alameda-oakland.measure-ff",
+  "field": "fiscal",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 4,
+  "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-cc",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 5,
+  "id": "2026-11-03.ca-alameda-albany.measure-p",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 6,
+  "id": "2026-11-03.ca-san-mateo-sd-burlingame-school-district.measure-r",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 7,
+  "id": "2026-11-03.ca-san-mateo-burlingame.measure-d",
+  "field": "opponents",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 8,
+  "id": "2026-11-03.ca-san-mateo-portola-valley.measure-n",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 9,
+  "id": "2026-11-03.ca-san-mateo-sd-burlingame-school-district.measure-r",
+  "field": "fiscal",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 10,
+  "id": "2026-11-03.ca-san-mateo-sd-burlingame-school-district.measure-r",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 11,
+  "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-o",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 12,
+  "id": "2026-11-03.ca-san-mateo-menlo-park.measure-p",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 13,
+  "id": "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.measure-k",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 14,
+  "id": "2026-11-03.ca-san-mateo.measure-j",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 15,
+  "id": "2026-11-03.ca-san-mateo-burlingame.measure-d",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 16,
+  "id": "2026-11-03.ca-alameda-oakland.measure-ee",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 17,
+  "id": "2026-11-03.ca-san-mateo-sd-pacifica-school-district.measure-t",
+  "field": "fiscal",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 18,
+  "id": "2026-11-03.ca-san-mateo-sd-san-mateo-foster-city-school-district.measure-w",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 19,
+  "id": "2026-11-03.ca-san-mateo-sd-jefferson-union-high-school-district.measure-m",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 20,
+  "id": "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.measure-k",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 21,
+  "id": "2026-11-03.ca-san-mateo-ccd-san-mateo-county-community-college-district.measure-v",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 22,
+  "id": "2026-11-03.ca-san-mateo-san-carlos.measure-g",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 23,
+  "id": "2026-11-03.ca-alameda-albany.measure-r",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 24,
+  "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-q",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 25,
+  "id": "2026-11-03.ca-san-mateo-portola-valley.measure-n",
+  "field": "fiscal",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 26,
+  "id": "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.measure-k",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 27,
+  "id": "2026-11-03.ca-san-mateo-sd-pacifica-school-district.measure-t",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 28,
+  "id": "2026-11-03.ca-san-mateo-burlingame.measure-d",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 29,
+  "id": "2026-11-03.ca-san-mateo-sd-san-mateo-foster-city-school-district.measure-w",
+  "field": "fiscal",
+  "result": "exact",
+  "difference": ""
+ }
+]

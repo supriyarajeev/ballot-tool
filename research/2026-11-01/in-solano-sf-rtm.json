@@ -1,0 +1,696 @@
+[
+ {
+  "id": "2026-11-03.ca-sf-city.a",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition A",
+  "shortTitle": null,
+  "officialTitle": "Charter Changes Affecting Various City Departments and Commissions",
+  "measureType": "Charter amendment",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Ballot Simplification Committee digest",
+    "url": "https://media.api.sf.gov/documents/Approved_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commi_OFegEjl.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Ballot Simplification Committee final digest",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Charter_Changes_Affecting_Various_City_Departments_and_Commissions.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Charter amendment that would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies.",
+  "yes": "If you vote \"yes,\" you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+  "no": "If you vote \"no,\" you do not want to make these changes.",
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.b",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition B",
+  "shortTitle": null,
+  "officialTitle": "Establishing a Municipal Finance Corporation and a Public Bank",
+  "measureType": "Charter amendment",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Legislative Digest, Charter Amendment - Municipal Finance Corporation and Public Bank, File No. 260535",
+    "url": "https://media.api.sf.gov/documents/Legislative_Digest.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.c",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition C",
+  "shortTitle": null,
+  "officialTitle": "Contributions to the Housing Trust Fund",
+  "measureType": "Charter amendment",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Ballot Simplification Committee digest",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Contributions_to_the_Housing_Fund.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Approved Digest (BSC), July 27, 2026",
+    "url": "https://media.api.sf.gov/documents/Approved_Digest_-_Contributions_to_the_Housing_Fund.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Charter amendment that would change how the City's annual contributions to the Housing Trust Fund are set, increase funding, expand affordable housing programs, and extend the Fund to 2058.",
+  "yes": "If you vote \"yes,\" you want to amend the Charter to change how the City's annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058.",
+  "no": "If you vote \"no,\" you do not want to make these changes.",
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.d",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition D",
+  "shortTitle": null,
+  "officialTitle": "Changes to Ballot Measure Process",
+  "measureType": "Charter amendment (initiative)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Ballot Simplification Committee digest",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Ballot_Measure_Process.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Charter amendment that would increase the requirements to put measures on the ballot. The Board of Supervisors could still place measures on the ballot by majority vote.",
+  "yes": "If you vote \"yes,\" you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+  "no": "If you vote \"no,\" you do not want to make these changes.",
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.e",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition E",
+  "shortTitle": null,
+  "officialTitle": "City Administrator's Authority and Changes to City Contracting",
+  "measureType": "Charter amendment (initiative)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.f",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition F",
+  "shortTitle": null,
+  "officialTitle": "Changes to Executive Branch Management",
+  "measureType": "Charter amendment (initiative)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Ballot Simplification Committee digest",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-Changes_to_Executive_Branch_Management_sroyBze.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Charter amendment that would expand the Mayor's authority to transfer responsibilities, hire deputy mayors, and hire some and fire most department heads. It would also allow City officials to remove members of boards or commissions without cause.",
+  "yes": "If you vote \"yes,\" you want to expand the Mayor's authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+  "no": "If you vote \"no,\" you do not want to make these changes.",
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.g",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition G",
+  "shortTitle": null,
+  "officialTitle": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park",
+  "measureType": "Ordinance (initiative)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.h",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition H",
+  "shortTitle": null,
+  "officialTitle": "Parcel Tax to Fund Muni Operations",
+  "measureType": "Tax (parcel tax ordinance, initiative)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Ballot Simplification Committee digest",
+    "url": "https://media.api.sf.gov/documents/Final_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Approved Digest (BSC), July 23, 2026",
+    "url": "https://media.api.sf.gov/documents/Approved_Digest_-_Parcel_Tax_to_Fund_Muni_Operations.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "From July 1, 2027 through June 30, 2042, would fund Muni service through a new annual parcel tax on real estate in San Francisco.",
+  "yes": "If you vote \"yes,\" you want the City to fund Muni service through a new annual parcel tax on real estate.",
+  "no": "If you vote \"no,\" you do not want to make these changes.",
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.i",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition I",
+  "shortTitle": null,
+  "officialTitle": "Changes to Real Property Transfer Tax",
+  "measureType": "Tax ordinance (initiative)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.j",
+  "jurisdiction": "ca-sf-city",
+  "identifier": "Proposition J",
+  "shortTitle": null,
+  "officialTitle": "Removal of Foreclosure Exemption for Real Property Transfer Tax",
+  "measureType": "Tax ordinance (initiative ordinance placed by Board motion)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Francisco qualified ballot measures",
+    "url": "https://www.sf.gov/qualified-ballot-measures",
+    "type": "Official"
+   },
+   {
+    "label": "Legislative Digest, File No. 260692",
+    "url": "https://media.api.sf.gov/documents/Nov2026_LD_RealPropertyTransferTaxForeclosureExemption.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "City and County of San Francisco"
+ },
+ {
+  "id": "2026-11-03.ca-bayarea-rtm.measure-rtm",
+  "jurisdiction": "ca-bayarea-rtm",
+  "identifier": "Measure RTM",
+  "shortTitle": "Regional transit sales tax (Public Transit Revenue Measure)",
+  "officialTitle": null,
+  "measureType": "Initiative; district transactions and use (sales) tax",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/public_transit_revenue_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official ROV memo to Board of Supervisors, Oct 6, 2026 agenda (consolidation, $980M estimate)",
+    "url": "https://www.alamedacountyca.gov/board/bos_calendar/documents/DocsAgendaReg_10_06_26/GENERAL%20ADMINISTRATION/Regular%20Calendar/ROV_411736.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "INDEPENDENT: KQED voter guide, Regional Measure RTM (supporters/opponents)",
+    "url": "https://www.kqed.org/voterguide/california/regional-measure-rtm",
+    "type": "Independent"
+   },
+   {
+    "label": "INDEPENDENT: KQED, judge rules ballot question not biased",
+    "url": "https://www.kqed.org/news/12097276/bay-area-transit-funding-ballot-question-isnt-biased-judge-rules",
+    "type": "Independent"
+   },
+   {
+    "label": "INDEPENDENT: League of Women Voters pros and cons",
+    "url": "https://my.lwv.org/sites/default/files/2026_nov_bay_transit_measure_pros_cons.pdf",
+    "type": "Independent"
+   },
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/public-transit-revenue-measure-district_ia_final-v1_redacted.pdf?VersionId=TbIVC.CrPBgVjFsTCN79UCBLbXA81Cuy",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Adds a 0.5% sales tax in Alameda, Contra Costa, San Mateo and Santa Clara counties and a 1% sales tax in San Francisco for 14 years. The ballot question says the money would preserve BART, Caltrain, VTA, SamTrans, AC Transit, Muni and other transit, support transit safety, cleanliness, affordability and reliability, and repair targeted roads and potholes.",
+  "yes": "A YES vote approves the regional sales tax for 14 years, at 0.5% in Alameda, Contra Costa, San Mateo and Santa Clara counties and 1% in San Francisco.",
+  "no": "A NO vote rejects the tax.",
+  "fiscal": "About $980,000,000 per year across the five-county district for 14 years (official ballot question; Alameda County ROV memo to Board of Supervisors, Sept 15, 2026). Alameda County's own share is not stated in the official documents reviewed.",
+  "jurisdictionName": "Public Transit Revenue Measure District"
+ },
+ {
+  "id": "2026-11-03.ca-solano-sd-winters-joint-unified-school-district.measure-b",
+  "jurisdiction": "ca-solano-sd-winters-joint-unified-school-district",
+  "identifier": "Measure B",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Bond (school district general obligation bond)",
+  "threshold": "55% of votes",
+  "ballotQuestion": "To improve the quality of education; repair or replace leaky roofs; modernize/renovate outdated classrooms, restrooms and school facilities; and replace deteriorating plumbing and sewer systems; shall Winters Joint Unified School District’s measure authorizing $29,900,000 in bonds, at legal interest rates, and levying approximately $49 per $100,000 of assessed valuation (raising $1,600,000 annually) while bonds are outstanding, be adopted, with a Board-appointed citizens’ oversight committee and annual independent audits to assure proper expenditure of funds?",
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://ace.yolocounty.gov/415/Measure-B---Winters-Joint-Unified-School",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://ace.yolocounty.gov/DocumentCenter/View/1017/",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Lets Winters Joint Unified School District issue $29,900,000 in bonds to repair or replace leaky roofs, modernize classrooms, restrooms and school facilities, and replace plumbing and sewer systems. The ballot question estimates a levy of about $49 per $100,000 of assessed value, raising $1,600,000 a year while bonds are outstanding.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Winters Joint Unified School District"
+ },
+ {
+  "id": "2026-11-03.ca-solano.measure-e",
+  "jurisdiction": "ca-solano",
+  "identifier": "Measure E",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Solano legistar resolution (search hit)",
+    "url": "https://solano.legistar.com/View.ashx?GUID=8BF9F892-C6B8-4F57-B41B-8A683E6B1FDF&ID=15132183&M=F",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Solano County"
+ },
+ {
+  "id": "2026-11-03.ca-solano.measure-h",
+  "jurisdiction": "ca-solano",
+  "identifier": "Measure H",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Solano County Tax Collector, Transient Occupancy Tax",
+    "url": "https://www.solanocounty.gov/government/treasurer-tax-collector-county-clerk/tax-collector/transient-occupancy-tax",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Solano County"
+ },
+ {
+  "id": "2026-11-03.ca-solano-rio-vista.measure-o",
+  "jurisdiction": "ca-solano-rio-vista",
+  "identifier": "Measure O",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Tax (extension of existing 3/4 cent sales tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.riovistacity.com/media/9861",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Rio_Vista_City_Attorney_Impartial_Analysis_Measure_O_Redacted.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Rio Vista Clerk, Measure O",
+    "url": "https://www.riovistacity.com/clerk/page/measure-o",
+    "type": "Official"
+   },
+   {
+    "label": "City of Rio Vista, Measure K page",
+    "url": "https://www.riovistacity.com/clerk/page/measure-k-also-known-sales-tax-measure",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Rio Vista"
+ },
+ {
+  "id": "2026-11-03.ca-solano-fairfield.measure-p",
+  "jurisdiction": "ca-solano-fairfield",
+  "identifier": "Measure P",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Fairfield, Measure P - Keeping it Local",
+    "url": "https://www.fairfield.ca.gov/government/city-departments/city-manager-s-office/measure-p",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Fairfield"
+ },
+ {
+  "id": "2026-11-03.ca-solano-fairfield.measure-q",
+  "jurisdiction": "ca-solano-fairfield",
+  "identifier": "Measure Q",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_Q_.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Fairfield, Measure Q Information",
+    "url": "https://www.fairfield.ca.gov/government/city-departments/city-manager-s-office/measure-q",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Fairfield"
+ },
+ {
+  "id": "2026-11-03.ca-solano-sd-dixon-unified-school-district.measure-u",
+  "jurisdiction": "ca-solano-sd-dixon-unified-school-district",
+  "identifier": "Measure U",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_U.Impartial_Analysis.Dixon_School_Bond.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Dixon Unified School District"
+ },
+ {
+  "id": "2026-11-03.ca-solano-vacaville.measure-v",
+  "jurisdiction": "ca-solano-vacaville",
+  "identifier": "Measure V",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Tax (one-cent general sales tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.cityofvacaville.gov/home/showpublisheddocument/26886/639179191184100000",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Impartial_Analysis.FINAL_Measure_V.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Vacaville, Measure V: 2026 Local Sales Tax Measure",
+    "url": "https://www.cityofvacaville.gov/residents/choosing-a-path/city-budget-financial-outlook/possible-2026-local-sales-tax-measure",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Vacaville"
+ },
+ {
+  "id": "2026-11-03.ca-solano-benicia.measure-x",
+  "jurisdiction": "ca-solano-benicia",
+  "identifier": "Measure X",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_X_City_Attorney_Impartial_Analysis_of_Business_License_Tax_Measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Benicia Election Information",
+    "url": "https://www.ci.benicia.ca.us/elections",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Benicia"
+ },
+ {
+  "id": "2026-11-03.ca-solano-benicia.measure-y",
+  "jurisdiction": "ca-solano-benicia",
+  "identifier": "Measure Y",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/City_Attorney_s_Impartial_Analysis_-_Measure_Y__Limited_Charter_.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Benicia Election Information",
+    "url": "https://www.ci.benicia.ca.us/elections",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Benicia"
+ },
+ {
+  "id": "2026-11-03.ca-solano-benicia.measure-z",
+  "jurisdiction": "ca-solano-benicia",
+  "identifier": "Measure Z",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Solano County official current election page, local measures",
+    "url": "https://www.solanocounty.gov/government/registrar-voters/current-election-information",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/City_Attorney_s_Impartial_Analysis_-_Measure_Z__RPTT_.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Benicia Election Information",
+    "url": "https://www.ci.benicia.ca.us/elections",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Benicia"
+ }
+]

@@ -1,0 +1,1436 @@
+[
+ {
+  "id": "2026-11-03.ca-contra-costa-clayton.measure-m",
+  "officialPages": [
+   {
+    "title": "Measure M (City of Clayton)",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Authorizes a 1% transactions and use (sales) tax in Clayton, estimated to provide about $1,000,000 a year for the general fund, starting April 1, 2027 and lasting until repealed by voters.",
+    "excerpt": "If approved by a majority of Clayton voters, this Measure would authorize a one percent (1%) retail transactions and use (sales) tax within the City of Clayton.",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the 1% transactions and use (sales) tax.",
+    "excerpt": "A “yes” vote on Measure M will authorize the 1% transactions and use (sales) tax.",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "City Attorney's impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote does not authorize the 1% transactions and use (sales) tax.",
+    "excerpt": "A “no” vote on Measure M will not authorize the 1% transactions and use (sales) tax.",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "City Attorney's impartial analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "1% sales tax (an extra $1 per $100 purchased), estimated at $1,000,000 a year, operative April 1, 2027 until repealed by voters.",
+    "excerpt": "A one percent (1%) rate equates to an extra $1 per $100 purchased. It is estimated that Measure M will provide an additional $1,000,000 in annual local funding",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "City Attorney's impartial analysis"
+   },
+   "argFor": {
+    "text": "The argument in favor says Clayton faces a $1.18 million long-term structural deficit and the 1% sales tax would sustain police, streets, parks and other services.",
+    "excerpt": "Clayton will soon be facing a long-term structural deficit of $1.18 million due to rising costs of delivering essential services.",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "Argument in favor of Measure M, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says Clayton voters rejected the Measure B sales tax in June 2026 and Measure M is a larger, permanent tax increase that would raise the local rate to 9.75%.",
+    "excerpt": "Clayton’s overall sales tax rate is an already high 8.75%; Measure M would spike that rate to 9.75%, punishing working families and fixed-income seniors.",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "Argument against Measure M"
+   },
+   "supporters": {
+    "text": "Kim Trupiano, Councilmember; Holly Tillman, Councilmember; Jeff Wan, Mayor; Richard G. Enea, Vice-Mayor; Jim Diaz, Councilmember",
+    "excerpt": "Kim Trupiano, Councilmember Holly Tillman, Councilmember Jeff Wan, Mayor Richard G. Enea, Vice-Mayor Jim Diaz, Councilmember",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Association, Marc D. Joffe, President; James Killoran, Credit Union Supervisory Committee Chair, Clayton; Allison Snow, Retired Healthcare Executive, Clayton; Nancy Topp, CPA/CFO, Clayton; Bill Calkins, Clayton Resident",
+    "excerpt": "Contra Costa Taxpayers Association, Marc D. Joffe, President James Killoran, Credit Union Supervisory Committee Chair, Clayton Allison Snow, Retired Healthcare Executive, Clayton Nancy Topp, CPA/CFO, Clayton Bill Calkins, Clayton Resident",
+    "url": "https://www.contracostavote.gov/m9005-en/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "County page shows the impartial analysis, argument for, rebuttal, argument against and rebuttal. Signer names and titles are on separate lines on the page; the excerpt shows them with line breaks collapsed. The rebuttal to the argument in favor was signed by a different set (includes Roy Ashworth instead of Nancy Topp and Bill Calkins).",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-clayton.measure-n",
+  "officialPages": [
+   {
+    "title": "Measure N (City of Clayton)",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Extends the Clayton Community Facilities District 2007-1 landscape parcel tax for ten years, to June 30, 2037, and raises the rate to $354.45 per residential parcel and $354.45 per non-residential acre starting July 1, 2027, with possible yearly inflation increases capped at 3%.",
+    "excerpt": "It proposes to extend the CFD parcel tax for ten (10) years, with a new expiration date of June 30, 2037. It also proposes to increase the annual parcel tax rate, starting July 1, 2027, to $354.45 per residential parcel and $354.45 per acre, or fraction thereof, for non-residential parcels.",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 2"
+   },
+   "yes": {
+    "text": "A yes vote approves the CFD parcel tax.",
+    "excerpt": "A “yes” vote on Measure N will approve this CFD parcel tax.",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "City Attorney's impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote does not approve the CFD parcel tax.",
+    "excerpt": "A “no” vote on Measure N will not approve this CFD parcel tax.",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "City Attorney's impartial analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "Current rate $312.84 per residential parcel and per non-residential acre, expiring June 30, 2027. Measure N sets $354.45 per residential parcel and per acre starting July 1, 2027, with Consumer Price Index increases capped at 3% a year from July 1, 2028, through June 30, 2037.",
+    "excerpt": "The Measure allows the City Council to increase the tax rate, starting July 1, 2028 and in each fiscal year thereafter by the applicable Consumer Price Index, with a 3% annual cap, after making such a determination at a regular public meeting and after receiving a prior recommendation from the City’s Citizens’ Trails and Landscaping Committee.",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "City Attorney's impartial analysis, paragraphs 1 to 2"
+   },
+   "argFor": {
+    "text": "The argument in favor says the dedicated tax is needed to maintain Clayton's trails, open space, landscaping and fire mitigation because the General Fund cannot adequately fund them.",
+    "excerpt": "Clayton’s modest General Fund cannot adequately fund public landscaping and trails. Without this dedicated funding, maintenance would rapidly decline, forever changing Clayton’s beauty and character.",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "Argument in favor of Measure N, final paragraphs"
+   },
+   "argAgainst": {
+    "text": "The argument against says the tax would rise with inflation during uncertain times, that landscaping could be funded through sponsorships, volunteer workdays or fundraisers, and that the ballot question is not neutral.",
+    "excerpt": "Perhaps the landscaping budget could be funded by sponsorships, voluntary neighborhood workdays, fundraisers.",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "Argument against Measure N"
+   },
+   "supporters": {
+    "text": "Holly Tillman, Councilmember; Kim Trupiano, Councilmember; Richard G. Enea, Vice-Mayor; Jeff Wan, Mayor; Jim Diaz, Councilmember",
+    "excerpt": "Holly Tillman, Councilmember Kim Trupiano, Councilmember Richard G. Enea, Vice-Mayor Jeff Wan, Mayor Jim Diaz, Councilmember",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Libertarian Party of Contra Costa County, Sandra Kallander, Chair",
+    "excerpt": "Save that for the argument. Libertarian Party of Contra Costa County, Sandra Kallander, Chair",
+    "url": "https://www.contracostavote.gov/m9006-en-2/",
+    "location": "Argument against, signature"
+   }
+  },
+  "notes": "Measure needs two-thirds approval per the analysis. The rebuttal to the argument in favor is signed identically.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-concord.measure-o",
+  "officialPages": [
+   {
+    "title": "Measure O (City of Concord)",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Replaces Concord's tiered gross receipts business license tax rates, which range from 0.1% down to 0.03%, with a single 0.1% rate, and expands the small business exemption to any business making less than $5,000. It is a general tax that lasts until repealed by voters.",
+    "excerpt": "Measure O would replace those tiered rates with a single uniform rate of one tenth of one percent (0.1%) of gross receipts for gross receipts-based businesses. Measure O would expand the small business exemption for students and seniors making less than $3,600 to any business making less than $5,000.",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote approves Measure O, replacing the tiered business license tax rates with a single 0.1% rate on gross receipts.",
+    "excerpt": "A “Yes” vote is a vote in favor of Measure O.",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "City Attorney's impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote keeps the existing tiered gross receipts business license tax rates and the current $3,600 student/senior exemption in place.",
+    "excerpt": "If Measure O is not approved, the existing tiered gross receipts business license tax rates and exemption for only student/senior businesses making under $3,600 (rather than any business making $5,000 or less) in annual gross receipts would remain in place;",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "fiscal": {
+    "text": "Business license tax of 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 a year.",
+    "excerpt": "by updating Concord’s 37-year-old business license rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 annually, requiring independent citizen oversight?",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "Ballot question"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure O updates a nearly 40-year-old business license structure so large businesses pay their fair share and smaller businesses do not carry the cost of city services.",
+    "excerpt": "Yes on O simplifies and updates Concord’s nearly 40-year-old business license structure to ensure that large businesses are paying their fair share, and smaller businesses are not unfairly shouldering the cost of keeping Concord a safe, well-maintained community.",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "Argument in favor of Measure O, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says businesses will pass the tax on to customers, making it in effect a tax on everyone who spends money in Concord, and that the revenue goes to the General Fund without a spending lock or sunset.",
+    "excerpt": "A tax on business is, in actual effect, a tax on everyone who spends money in Concord.",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "Argument against Measure O"
+   },
+   "supporters": {
+    "text": "Zulay Loftin, Owner, Loftin Dental; Mary Totah, Owner, Parma Deli; Antonio Barragan, Store Manager, Las Montanas Supermarket; Wes Andreen, Owner, Just Trains; Mohamed Habib Jacifi, Owner, Luna Restaurant",
+    "excerpt": "Zulay Loftin, Owner, Loftin Dental Mary Totah, Owner, Parma Deli Antonio Barragan, Store Manager, Las Montanas Supermarket Wes Andreen, Owner, Just Trains Mohamed Habib Jacifi, Owner, Luna Restaurant",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Assn, Cynthia Johnson, Co-Treasurer; Jennifer Wang-Filomeo, Concord Resident; Eric Rotsten, Real Estate Broker",
+    "excerpt": "No on O! Contra Costa Taxpayers Assn, Cynthia Johnson, Co-Treasurer Jennifer Wang-Filomeo, Concord Resident Eric Rotsten, Real Estate Broker",
+    "url": "https://www.contracostavote.gov/m9007-en/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "The analysis's own yes sentence only says a Yes vote is a vote in favor; the yes text adds the change described in the analysis's first paragraph (cited in plainEnglish). The rebuttal to the argument in favor adds a fourth signer, Tom McDougall, School Board Member; Retired Businessman.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-hercules.measure-p",
+  "officialPages": [
+   {
+    "title": "Measure P (City of Hercules)",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Adds a 1% transactions and use (sales) tax in Hercules, estimated to generate $4,000,000 a year for general city purposes, collected from April 1, 2027 until repealed.",
+    "excerpt": "This measure (the “Hercules Public Safety/ Financial Stability Measure”) would add Chapter 11 to Title 8 to the Hercules Municipal Code and would impose a transactions and use tax, commonly known as a sales tax, of up to 1% in the City of Hercules.",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote approves a 1% sales tax in Hercules, collected from April 1, 2027 until repealed.",
+    "excerpt": "If approved, the tax would begin to be collected on April 1, 2027 and would continue to be collected until repealed.",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "City Attorney's impartial analysis"
+   },
+   "no": {
+    "text": "If you vote no, this change would not be made.",
+    "excerpt": "This measure (the “Hercules Public Safety/ Financial Stability Measure”) would add Chapter 11 to Title 8 to the Hercules Municipal Code and would impose a transactions and use tax, commonly known as a sales tax, of up to 1% in the City of Hercules.",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "fiscal": {
+    "text": "1% sales tax estimated to generate $4,000,000 a year, until repealed. Groceries and prescription medicines are exempt. Current combined rate in Hercules is 9.25%.",
+    "excerpt": "The proposed tax is estimated to generate $4,000,000 per year, and the California Constitution prohibits the State from taking this revenue from the City.",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "City Attorney's impartial analysis"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure P maintains the essential city services, including 911 response and police patrols, that make Hercules safe and well maintained during a time of economic and national uncertainty.",
+    "excerpt": "Voting Yes on P maintains our community momentum and the essential City services that make Hercules a safe, well-maintained place to live during a time of economic and national uncertainty.",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "Argument in favor of Measure P, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says Measure P would raise Hercules' sales tax from 9.25% to 10.25% and that the real problem is city spending, not revenue.",
+    "excerpt": "Measure P raises Hercules’ sales tax from 9.25% to 10.25%.",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "Argument against Measure P"
+   },
+   "supporters": {
+    "text": "Hercules Police Officer’s Association, Chris Costa, President; Darrel “Jay” Tucker, President, Hercules Historical Society, Former Hercules Mayor and Council Member; Richard Mitchell, Former Hercules Planning Commissioner; Jo Ellen Marcotte, Member, Hercules Library Foundation",
+    "excerpt": "Hercules Police Officer’s Association, Chris Costa, President Darrel “Jay” Tucker, President, Hercules Historical Society, Former Hercules Mayor and Council Member Richard Mitchell, Former Hercules Planning Commissioner Jo Ellen Marcotte, Member, Hercules Library Foundation",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Association, Marc D. Joffe, President; Michael Hernandez, Hercules Resident; Michael Letcher, Hercules Resident",
+    "excerpt": "Contra Costa Taxpayers Association, Marc D. Joffe, President Michael Hernandez, Hercules Resident Michael Letcher, Hercules Resident",
+    "url": "https://www.contracostavote.gov/m9008-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "County page has impartial analysis, argument for, rebuttal, argument against, rebuttal and full text. The analysis has no explicit 'yes vote means' sentence; yes cites the analysis's collection sentence and no uses the allowed fallback citing the change. Signer names are on separate lines on the page; line breaks collapsed in excerpts. Rebuttal to argument in favor adds Kent Rummelhart, Hercules Resident; rebuttal to argument against omits Darrel Tucker.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-richmond.measure-q",
+  "officialPages": [
+   {
+    "title": "Measure Q (City of Richmond)",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Authorizes Richmond to issue up to $120,000,000 in general obligation bonds, repaid by a property tax, to repair, rebuild and upgrade fire stations, firefighter living quarters and related Fire Department facilities.",
+    "excerpt": "If approved, this measure would authorize the City of Richmond to issue general obligation bonds in a principal amount not to exceed $120,000,000, to be repaid through an ad valorem property tax levied on all taxable property within the City.",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 2"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the City to issue the bonds.",
+    "excerpt": "A “YES” vote authorizes the City to issue the bonds as summarized above.",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "no": {
+    "text": "A no vote does not authorize the City to issue the bonds.",
+    "excerpt": "A “NO” vote does not authorize the City to issue the bonds.",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "fiscal": {
+    "text": "$120,000,000 in bonds; estimated average tax rate $22.15 per $100,000 of assessed valuation (about $7,568,158 a year); highest rate $24.06 per $100,000 starting fiscal year 2028; total debt service estimated at $249,749,206; tax anticipated through fiscal year 2060.",
+    "excerpt": "The average tax rate to repay the bonds is projected to be $22.15 per $100,000 of assessed valuation, averaging approximately $7,568,158 annually while the bonds remain outstanding. The highest tax rate is projected to be $24.06 per $100,000 of assessed valuation, first applying in fiscal year 2028. The total debt service, including principal and interest, if all bonds are issued and sold, is estimated to be $249,749,206, with the final fiscal year in which the tax is anticipated to be collected being 2060.",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "City Attorney's impartial analysis; Tax Rate Statement"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure Q is an accountable plan to fix Richmond's aging, unsafe fire facilities, which will help improve emergency response times and protect firefighter health and safety.",
+    "excerpt": "It authorizes $120 million in bonds to modernize and rehabilitate unsafe, deteriorating firefighter facilities, which will help improve emergency response times and protect the health and safety of our firefighters.",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "Argument in favor of Measure Q, paragraph 4"
+   },
+   "argAgainst": {
+    "text": "The argument against says Richmond property owners are already heavily taxed and the city can fix the stations with Chevron settlement money instead of borrowing.",
+    "excerpt": "Fix the stations with the money already in hand. Do not pile another quarter-billion-dollar tax on property owners who already pay enough.",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "Argument against Measure Q, final paragraphs"
+   },
+   "supporters": {
+    "text": "United Business Organization, Juan Muñoz, President; St. Cornelius Catholic Church, Rev. Sergio Mora, Pastor; Myrtle L. Braxton, Senior Citizen; Karla M. Palma Melgar, Registered Nurse; Fernando Ramirez, Richmond Firefighter",
+    "excerpt": "United Business Organization, Juan Muñoz, President St. Cornelius Catholic Church, Rev. Sergio Mora, Pastor Myrtle L. Braxton, Senior Citizen Karla M. Palma Melgar, Registered Nurse Fernando Ramirez, Richmond Firefighter",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Association, Marc D. Joffe, President; Denise Gianni, Richmond Resident",
+    "excerpt": "Contra Costa Taxpayers Association, Marc D. Joffe, President Denise Gianni, Richmond Resident",
+    "url": "https://www.contracostavote.gov/m9009-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "County page has impartial analysis, tax rate statement, financial analysis, argument for, rebuttal, argument against, rebuttal. Requires two-thirds vote per the analysis. Signer lines collapsed in excerpts. Rebuttal to the argument against was signed by a different set: Sergio Rios, Zachary Jenssen, Edgar O. Hall, Barbara Whittom, Andrew Wilke. Fiscal excerpt is from the impartial analysis (the same figures appear in the tax rate statement).",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-san-pablo.measure-r",
+  "officialPages": [
+   {
+    "title": "Measure R (City of San Pablo)",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Temporarily raises San Pablo's local sales tax by 0.50% for five years, then by 0.25% for the next five years, after which it expires; the money goes to the general fund.",
+    "excerpt": "Measure R would temporarily increase the local sales tax by 0.50% for five years, lower this increase by 0.25% for the next five years, and then expire after that ten-year period.",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote permits San Pablo to increase its local sales tax for ten years.",
+    "excerpt": "A “yes” vote is to permit the City of San Pablo to increase its local sales tax for ten years.",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "no": {
+    "text": "A no vote prohibits San Pablo from increasing its local sales tax.",
+    "excerpt": "A “no” vote is to prohibit the City of San Pablo from increasing its local sales tax.",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "fiscal": {
+    "text": "Half-cent sales tax for 5 years (about $2,000,000 a year), then quarter-cent for 5 years (about $1,000,000 a year), then ends.",
+    "excerpt": "The City estimates the measure would bring in an additional $2,000,000 annually for the first five years, dropping to approximately $1,000,000 annually for the five years after that.",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "City Attorney's impartial analysis"
+   },
+   "argFor": {
+    "text": "The argument in favor says declining casino revenue has created real financial challenges and a temporary tax will help keep San Pablo's essential services in place.",
+    "excerpt": "San Pablo is a great place to live. But the City faces real financial challenges. A Yes vote will help keep important services in place, including:",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "Argument in favor of Measure R, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says the ballot question lists services chosen to win votes even though the tax goes to the general fund and does not guarantee what will be funded.",
+    "excerpt": "Measure R does not guarantee what will be funded, as the question-wording implies.",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "Argument against Measure R"
+   },
+   "supporters": {
+    "text": "Genoveva Calloway, Registered Voter, Local Community Member; Dr. Raynato Castro, DDS., Registered Voter, Local Community Member/Medical Professional; Dorothy Gantt, Registered Voter, Local Community Member; Martin Gonzalez, Registered Voter, Local Community Member/Business Owner; Dr. William Van Dyke, DDS., Registered Voter, Local Community Member/Medical Professional",
+    "excerpt": "Genoveva Calloway, Registered Voter, Local Community Member Dr. Raynato Castro, DDS., Registered Voter, Local Community Member/Medical Professional Dorothy Gantt, Registered Voter, Local Community Member Martin Gonzalez, Registered Voter, Local Community Member/Business Owner Dr. William Van Dyke, DDS., Registered Voter, Local Community Member/Medical Professional",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Libertarian Party of Contra Costa County, Sandra Kallander, Chair",
+    "excerpt": "Libertarian Party of Contra Costa County, Sandra Kallander, Chair",
+    "url": "https://www.contracostavote.gov/m9010-en-2/",
+    "location": "Argument against, signature"
+   }
+  },
+  "notes": "County page has impartial analysis, argument for, rebuttal to argument for, argument against. The page states: No Rebuttal to the Argument Against was filed. Signer lines collapsed in excerpts. Analysis gives rate path: 10.00% on approval, 9.75% Oct 2027, 9.25% Oct 2032, 9.00% in 2037.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-san-pablo.measure-s",
+  "officialPages": [
+   {
+    "title": "Measure S (City of San Pablo)",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "A citizen initiative that would roll back rents on existing tenancies to July 1, 2025 levels, limit yearly rent increases to 60 percent of the regional Consumer Price Index increase with a 3 percent maximum, require a legally recognized reason to end a tenancy, and expand relocation payments.",
+    "excerpt": "If approved, Measure S would roll back rents to the amount charged as of July 1, 2025, for existing tenancies, and then limit how much a landlord may raise rent each year – generally to 60 percent of the increase in the regional Consumer Price Index, with a maximum of 3 percent.",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 4"
+   },
+   "yes": {
+    "text": "A yes vote approves the new San Pablo Rent Stabilization and Tenant Protections Ordinance, replacing the city's current tenant relocation assistance ordinance and effectively replacing related ordinances.",
+    "excerpt": "A “yes” vote approves the revisions to the City of San Pablo’s tenant relocation assistance ordinance, and effectively replaces other related ordinances, as summarized above.",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "no": {
+    "text": "A no vote leaves San Pablo's current tenant relocation assistance ordinance and related ordinances in place.",
+    "excerpt": "A “no” vote leaves the City of San Pablo’s current tenant relocation assistance ordinance, and other related ordinances, in place.",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "City Attorney's impartial analysis, near end"
+   },
+   "fiscal": {
+    "text": "City report estimates administration would need about 3.2 to 7.9 full-time-equivalent employees and $1.08 million to $2.36 million a year, funded by annual rental property owner fees.",
+    "excerpt": "That report estimates the administrative resources required to implement the new ordinance are expected to range from approximately 3.2 to 7.9 full-time-equivalent employees and $1.08 million to $2.36 million annually, funded by annual rental property owner fees.",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "City Attorney's impartial analysis"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure S will reduce homelessness and displacement in San Pablo by limiting rent increases and preventing evictions without a reason.",
+    "excerpt": "Measure S will reduce homelessness and displacement of families in San Pablo by limiting rent increases to an amount that is fair to both tenants and landlords and by preventing evictions without a reason.",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "Argument in favor of Measure S, paragraph 3"
+   },
+   "argAgainst": {
+    "text": "The argument against says Measure S creates a costly new regulatory program, builds no new housing and burdens small housing providers, and that San Pablo needs locally developed solutions.",
+    "excerpt": "Measure S creates a new, costly regulatory program.",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "Argument against Measure S, paragraph 3"
+   },
+   "supporters": {
+    "text": "Schylon Stewart, San Pablo Resident; Ashley Quezada, San Pablo Resident; Mashel Lindstrom, San Pablo Resident; Rising Juntos, Rhea Elina Laughlin, Executive Director; Alliance of Californians for Community Empowerment Action, David Sharples, Director",
+    "excerpt": "Schylon Stewart, San Pablo Resident Ashley Quezada, San Pablo Resident Mashel Lindstrom, San Pablo Resident Rising Juntos, Rhea Elina Laughlin, Executive Director Alliance of Californians for Community Empowerment Action, David Sharples, Director",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Elizabeth Pabon-Alvarado, Mayor, City of San Pablo; Rita Xavier, Vice-Mayor, City of San Pablo; Dorothy Gantt, Registered Voter and San Pablo Renter; David Alvarado, Elected Official and San Pablo Homeowner",
+    "excerpt": "Elizabeth Pabon-Alvarado, Mayor, City of San Pablo Rita Xavier, Vice-Mayor, City of San Pablo Dorothy Gantt, Registered Voter and San Pablo Renter David Alvarado, Elected Official and San Pablo Homeowner",
+    "url": "https://www.contracostavote.gov/m9011-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "Citizen initiative. County page has analysis, argument for, rebuttal, argument against, rebuttal. Signer lines collapsed in excerpts. Rebuttal to the argument against signed only by David Sharples (ACCE Action) and Mashel Lindstrom.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-walnut-creek.measure-t",
+  "officialPages": [
+   {
+    "title": "Measure T (City of Walnut Creek)",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks whether Walnut Creek's City Treasurer, now an elected office, should become an appointed position, with the City Manager making the appointment.",
+    "excerpt": "Measure T presents to the voters of Walnut Creek the question of whether the office of City Treasurer should be made an appointed position, with the City Manager having the authority to appoint the City Treasurer.",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "If a majority votes yes, the City Treasurer becomes appointive and is no longer elected by voters.",
+    "excerpt": "If a simple majority of voters vote “YES” on this measure, the office of City Treasurer in the City of Walnut Creek will become appointive and will no longer be elected by voters.",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 4"
+   },
+   "no": {
+    "text": "If a majority votes no, the City Treasurer continues to be elected by voters.",
+    "excerpt": "If a simple majority of voters vote “NO” on this measure, the office of City Treasurer in the City of Walnut Creek will continue to be elected by voters.",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "City Attorney's impartial analysis, paragraph 5"
+   },
+   "argFor": {
+    "text": "The argument in favor says making the Treasurer appointed improves accountability by ensuring future treasurers are qualified finance professionals, in line with over 90% of California cities.",
+    "excerpt": "Measure T improves accountability and protects the City’s future by changing this position from an elected to an appointed position, ensuring that future city treasurers are qualified to serve, subject to proper criteria, screening and background checks.",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "Argument in favor of Measure T, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says Measure T takes away voters' right to elect the Treasurer and hands the choice to the officials the Treasurer is meant to oversee.",
+    "excerpt": "Measure T asks Walnut Creek voters to give up their right to elect the City Treasurer and hand that choice to the City Council. Vote no.",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "Argument against Measure T, paragraph 1"
+   },
+   "supporters": {
+    "text": "Kevin Wilk, Mayor; Matt Francois, Mayor Pro Tem; Ron Cassano, City Treasurer; Susan Hildreth, Rossmoor Resident and Member, Measure O Citizens’ Oversight Committee; Audrey Gee, Board Chair, Chamber of Commerce (2023-2024), Attorney, and Walnut Creek Resident",
+    "excerpt": "Kevin Wilk, Mayor Matt Francois, Mayor Pro Tem Ron Cassano, City Treasurer Susan Hildreth, Rossmoor Resident and Member, Measure O Citizens’ Oversight Committee Audrey Gee, Board Chair, Chamber of Commerce (2023-2024), Attorney, and Walnut Creek Resident",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Assn, Denise P Kalm, Vice President; Robert Marshall, Retired Businessman; German Eduardo Messidoro, Retired Court Interpreter, USDOJ",
+    "excerpt": "Contra Costa Taxpayers Assn, Denise P Kalm, Vice President Robert Marshall, Retired Businessman German Eduardo Messidoro, Retired Court Interpreter, USDOJ",
+    "url": "https://www.contracostavote.gov/m9012-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "County page has analysis, argument for, rebuttal, argument against, rebuttal. Not a tax: the analysis only says the measure would save future candidate election costs, with no dollar figure, so fiscal is left out. Rebuttal to argument against signed by Kevin Wilk, Matt Francois, Cindy Darling, Craig DeVinney, Cindy Silva. Signer lines collapsed in excerpts.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-walnut-creek.measure-u",
+  "officialPages": [
+   {
+    "title": "Measure U (City of Walnut Creek)",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "A voter-petition measure that amends Walnut Creek's General Plan, North Downtown Specific Plan and zoning to create a Mixed Use – Residential Senior & Commercial district and rezone a 2.4-acre parcel across from the Walnut Creek BART station from office to mixed use, primarily senior housing with compatible retail.",
+    "excerpt": "The MU-RSC district would change the site’s current use from office to mixed-use residential, consisting primarily of senior housing serving primarily persons 55 years or older, residential care and congregate living facilities, supportive and accessory housing required by state law, and compatible commercial retail uses.",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "location": "City Attorney's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote approves Measure U and its proposed amendments.",
+    "excerpt": "A “Yes” vote is a vote to approve Measure U and its proposed amendments.",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "location": "City Attorney's impartial analysis, paragraph 4"
+   },
+   "no": {
+    "text": "A no vote is a vote against Measure U and the proposed amendments.",
+    "excerpt": "A “No” vote is a vote against Measure U and the proposed amendments.",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "location": "City Attorney's impartial analysis, paragraph 4"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure U updates North Downtown zoning to permit over 200 units of senior housing and community-serving retail near BART, without raising taxes, for a city where seniors are being pushed out.",
+    "excerpt": "Passage of Measure U will be a crucial step forward by updating zoning in North Downtown Walnut Creek to permit over 200 units of high-quality senior housing and community-serving retail near BART – without raising taxes.",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "location": "Argument in favor of Measure U, paragraph 4"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Against was filed.",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "location": "Argument against Measure U"
+   },
+   "supporters": {
+    "text": "Marlene R. Farrell, Friends of Walnut Creek Senior Housing; Stephen L. Kostka, Advocate for Senior Housing; Hailey Murphy, Walnut Creek Resident",
+    "excerpt": "Marlene R. Farrell, Friends of Walnut Creek Senior Housing Stephen L. Kostka, Advocate for Senior Housing Hailey Murphy, Walnut Creek Resident",
+    "url": "https://www.contracostavote.gov/m9013-en/",
+    "location": "Argument in favor, signatures"
+   }
+  },
+  "notes": "Note the county URL for this one is m9013-en (no -2 suffix). No argument against and no rebuttals were filed (page states each). Not a tax measure and the analysis states no cost, so fiscal is left out. Opponents left out because no argument against was filed. Signer lines collapsed in excerpt.",
+  "notFound": [
+   "fiscal",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-sd-west-contra-costa-unified-school-district.measure-v",
+  "officialPages": [
+   {
+    "title": "Measure V (West Contra Costa Unified School District)",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Continues the West Contra Costa Unified School District parcel tax of 7.2 cents per square foot of building area for nine years, from July 1, 2027 to June 30, 2036, with exemptions for eligible seniors and people with disabilities.",
+    "excerpt": "This ballot measure asks voters to decide whether an existing parcel tax should continue to be imposed on parcels of taxable real property within the District for nine years, beginning July 1, 2027 and expiring on June 30, 2036.",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "County Counsel's impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote is in favor of authorizing the parcel tax for nine years.",
+    "excerpt": "A “yes” vote is in favor of authorizing the parcel tax for a nine-year period.",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "County Counsel's impartial analysis, final paragraphs"
+   },
+   "no": {
+    "text": "A no vote is against authorizing the parcel tax for nine years.",
+    "excerpt": "A “no” vote is against authorizing the parcel tax for a nine-year period.",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "County Counsel's impartial analysis, final paragraphs"
+   },
+   "fiscal": {
+    "text": "7.2 cents per square foot of building area on each improved parcel (for example, $144 a year for a 2,000 square-foot building), raising about $10,238,737 a year for nine years.",
+    "excerpt": "An improved parcel, property with a building on it, would be taxed at a rate of 7.2 cents per square foot of total building area on the parcel. For example, the annual tax on a parcel with a 2,000 square-foot building would be $144.",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "County Counsel's impartial analysis, paragraph 2 (annual amount from the ballot question on the same page)"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure V is not a new tax but renews local school funding at the same rate, preserving programs that would otherwise face cuts.",
+    "excerpt": "A Yes vote on Measure V will preserve vital funds for local schools. It is not a new tax; it will renew local education funding and continue our investment in West Contra Costa students.",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "Argument in favor of Measure V, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says the district does not have a revenue problem, citing a projected operating surplus and declining enrollment, and that residents already pay high school-bond and sales taxes.",
+    "excerpt": "The West Contra Costa Unified School District (WCCUSD) does not have a revenue problem.",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "Argument against Measure V, paragraph 2"
+   },
+   "supporters": {
+    "text": "Francisco Ortiz, Ed.D., President, United Teachers of Richmond; Jen Komaromi, Small Business Owner; Bisa French, Executive Director; Jeffrey Wright, Realtor; Judy Sanders, Retired WCCUSD Educator",
+    "excerpt": "Francisco Ortiz, Ed.D., President, United Teachers of Richmond Jen Komaromi, Small Business Owner Bisa French, Executive Director Jeffrey Wright, Realtor Judy Sanders, Retired WCCUSD Educator",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Tax Payers Association, Denise Gianni, Member of Executive Committee; Lyle Miller, Retired Business Owner, San Pablo; Robin MacDonald, Business Owner, Pinole; Marilynne Mellander, Coordinator Save El Sobrante",
+    "excerpt": "Contra Costa Tax Payers Association, Denise Gianni, Member of Executive Committee Lyle Miller, Retired Business Owner, San Pablo Robin MacDonald, Business Owner, Pinole Marilynne Mellander, Coordinator Save El Sobrante",
+    "url": "https://www.contracostavote.gov/m9004-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "County page has ballot question, County Counsel analysis, argument for, rebuttal, argument against, rebuttal. Two-thirds vote required. The $10,238,737 annual figure is in the ballot question (raising approximately $10,238,737 annually for nine years), not in the fiscal excerpt. Rebuttal to argument against signed by Lucas Menanix, Michael Peritz, Maureen Toms, Bisa French, Jeffrey Wright. Signer lines collapsed in excerpts.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-sd-acalanes-union-high-school-district.measure-w",
+  "officialPages": [
+   {
+    "title": "Measure W (Acalanes Union High School District)",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Adds a $168-a-year parcel tax in the Acalanes Union High School District for eight years, from July 1, 2027 to June 30, 2035, on top of two existing parcel taxes totaling $301, with exemptions for eligible seniors and people with disabilities.",
+    "excerpt": "If this measure passes, beginning on July 1, 2027, the current parcel tax would be increased by $168 annually on parcels of taxable real property within the District for eight years, expiring on June 30, 2035.",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "County Counsel's impartial analysis, paragraph 2"
+   },
+   "yes": {
+    "text": "A yes vote is in favor of authorizing the parcel tax for eight years.",
+    "excerpt": "A ”yes” vote is in favor of authorizing the parcel tax for an eight-year period.",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "County Counsel's impartial analysis, final paragraphs"
+   },
+   "no": {
+    "text": "A no vote is against authorizing the parcel tax for eight years.",
+    "excerpt": "A “no” vote is against authorizing the parcel tax for an eight-year period.",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "County Counsel's impartial analysis, final paragraphs"
+   },
+   "fiscal": {
+    "text": "$168 per parcel a year for eight years, bringing total annual district parcel taxes to $469 per parcel; the ballot question says it provides $6,000,000 a year.",
+    "excerpt": "Based on information from the County Auditor-Controller’s Office, there are two existing parcel taxes totaling $301 per parcel annually. If this measure passes, the total amount of annual parcel taxes would be $469 per parcel.",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "County Counsel's impartial analysis, paragraph 2 ($6,000,000 figure from the ballot question on the same page)"
+   },
+   "argFor": {
+    "text": "The argument in favor says years of inadequate state funding have forced $4.2 million in cuts and Measure W is needed to protect academic programs, teachers and class sizes.",
+    "excerpt": "Vote Yes on Measure W to protect the outstanding quality of education local high school students receive from Acalanes Union High School District schools.",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "Argument in favor of Measure W, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says voters rejected a smaller parcel tax last year and the district has a spending problem, not a revenue problem.",
+    "excerpt": "But AUHSD doesn’t have a revenue problem; AUHSD has a spending problem.",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "Argument against Measure W, paragraph 4"
+   },
+   "supporters": {
+    "text": "Matt Francois, Parent of Las Lomas Grads, Attorney, Walnut Creek City Councilmember & Former Mayor; Connie Collier, Local Business Owner, Diablo Foods, 58-yr. Lafayette Resident, Past PTA Pres.; Fred Weil, Taxation/Corp. Attorney, School Trustee (’79-2000), Co-Founder, Moraga Ed Found., 54-yr. Homeowner; Amy Worth, Former Orinda Mayor, 24-yr City Councilmember, 44-yr. Orinda Homeowner, Parent of Miramonte Grads; Dennis Fay, Rossmoor Resident, Former Orinda Mayor/Civic Leader, Retired Transportation Executive",
+    "excerpt": "Matt Francois, Parent of Las Lomas Grads, Attorney, Walnut Creek City Councilmember & Former Mayor Connie Collier, Local Business Owner, Diablo Foods, 58-yr. Lafayette Resident, Past PTA Pres. Fred Weil, Taxation/Corp. Attorney, School Trustee (’79-2000), Co-Founder, Moraga Ed Found., 54-yr. Homeowner Amy Worth, Former Orinda Mayor, 24-yr City Councilmember, 44-yr. Orinda Homeowner, Parent of Miramonte Grads Dennis Fay, Rossmoor Resident, Former Orinda Mayor/Civic Leader, Retired Transportation Executive",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Association, Marc D. Joffe, President; Sarah Lind, Activist Mom and Small Business Owner, Lafayette; Jeff Frese, Father and Candidate for U.S. Congress, Moraga; Frank Darling, Father and Grandfather, Orinda; Kathleen Young, Mother and Grandmother, Walnut Creek",
+    "excerpt": "Contra Costa Taxpayers Association, Marc D. Joffe, President Sarah Lind, Activist Mom and Small Business Owner, Lafayette Jeff Frese, Father and Candidate for U.S. Congress, Moraga Frank Darling, Father and Grandfather, Orinda Kathleen Young, Mother and Grandmother, Walnut Creek",
+    "url": "https://www.contracostavote.gov/m9002-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "County page has ballot question, County Counsel analysis, argument for, rebuttal, argument against, rebuttal. Two-thirds vote required. The yes excerpt keeps the page's mismatched opening quote mark (”yes”). Rebuttals signed by different sets than the main arguments. Signer lines collapsed in excerpts.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-sd-liberty-union-high-school-district.measure-x",
+  "officialPages": [
+   {
+    "title": "Measure X (Liberty Union High School District)",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "publisher": "Contra Costa County Elections Division"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Authorizes Liberty Union High School District to issue up to $165,000,000 in bonds to repair and improve classrooms, roofs, plumbing, heating, ventilation and electrical systems, remove asbestos and lead pipes, and upgrade labs, libraries and technology, with a citizens' oversight committee and annual audits.",
+    "excerpt": "By resolution, the Liberty Union High School District has proposed that bonds of the District be issued in an amount up to $165,000,000.",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "County Counsel's impartial analysis, paragraph 2"
+   },
+   "yes": {
+    "text": "A yes vote is in favor of authorizing the bonds.",
+    "excerpt": "A ”yes” vote is in favor of authorizing the bonded indebtedness.",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "County Counsel's impartial analysis, final paragraphs"
+   },
+   "no": {
+    "text": "A no vote is against authorizing the bonds.",
+    "excerpt": "A “no” vote is against authorizing the bonded indebtedness.",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "County Counsel's impartial analysis, final paragraphs"
+   },
+   "fiscal": {
+    "text": "$165,000,000 in bonds; estimated average and highest tax rate $20 per $100,000 of assessed value; total debt service about $350 million; tax anticipated through fiscal year 2057-58.",
+    "excerpt": "The best estimate of the total debt service, including the principal and interest, that would be required to be repaid if all the bonds are issued and sold is approximately $350 million.",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "Tax Rate Statement, item 3 (the $20 per $100,000 rate and 2057-58 final year appear in items 1 and 2)"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure X will fund critical repairs and upgrades to facilities more than 60 years old and bring up to $35 million in state matching funds.",
+    "excerpt": "To maintain that standard, Measure X will fund critical repairs and upgrades needed for student success. Many facilities are more than 60 years old.",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "Argument in favor of Measure X, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says Measure X adds $350 million in debt service while residents are still paying off earlier district bonds, and its project list is not specific enough.",
+    "excerpt": "Measure X increases costs for residents by $350 million of total debt service through 2058.",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "Argument against Measure X, paragraph 2"
+   },
+   "supporters": {
+    "text": "Seana Fippin, Founder and CEO of Red Box Business Solutions; Roy Ghiggeri, Former Liberty Union High School District Board Member; Partner/Owner of G&S Farms; Brian Swisher, Former Mayor, City of Brentwood; Controller, Wayne E. Swisher Cement; James Hamilton, Vice President, Board of Directors, Delta Community Services; Eric L. Volta, Former Superintendent, Liberty Union High School District",
+    "excerpt": "Seana Fippin, Founder and CEO of Red Box Business Solutions Roy Ghiggeri, Former Liberty Union High School District Board Member; Partner/Owner of G&S Farms Brian Swisher, Former Mayor, City of Brentwood; Controller, Wayne E. Swisher Cement James Hamilton, Vice President, Board of Directors, Delta Community Services Eric L. Volta, Former Superintendent, Liberty Union High School District",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "Argument in favor, signatures"
+   },
+   "opponents": {
+    "text": "Contra Costa Taxpayers Association, Marc D. Joffe, President; Bryan Scott, CBOC(2) Member, Brentwood Resident; Kathleen E. Griffin, 29-year Brentwood Resident; Tracy M Kasamoto, Retired, Courtroom Deputy Clerk; Taiwo Abugan, CPA, member CBOC, BUSD",
+    "excerpt": "Contra Costa Taxpayers Association, Marc D. Joffe, President Bryan Scott, CBOC(2) Member, Brentwood Resident Kathleen E. Griffin, 29-year Brentwood Resident Tracy M Kasamoto, Retired, Courtroom Deputy Clerk Taiwo Abugan, CPA, member CBOC, BUSD",
+    "url": "https://www.contracostavote.gov/m9003-en-2/",
+    "location": "Argument against, signatures"
+   }
+  },
+  "notes": "The county page now returns full text (34,000 characters): ballot question, County Counsel analysis, tax rate statement, arguments, rebuttals, full text. 55% vote required. Supporter names in semicolon list: Roy Ghiggeri's and Brian Swisher's titles themselves contain semicolons as printed; five signers. In the argument in favor Roy Ghiggeri's title wraps across a line break ('Board' / 'Member'), collapsed to a space. The yes excerpt keeps the page's mismatched opening quote (”yes”). Opponent titles differ slightly in the rebuttal to the argument in favor (e.g. 'CBOC Member', 'Courtroom Deputy', 'Taiwo Abugan, MBA, CPA, ...'); opponents text uses the argument against.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.measure-ab",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: AB (Sonoma County Junior College District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks whether the Sonoma County Junior College District should issue $830,000,000 in bonds to upgrade classrooms, labs, training facilities and technology, repair roofs and meet building codes, repaid by property taxes.",
+    "excerpt": "The Sonoma County Junior College District (“District”) Board of Trustees (“Board”) has placed on the ballot in Sonoma, Marin, and Mendocino Counties the question of whether to issue bonds in the amount of $830,000,000 for such purposes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "County Counsels' impartial analysis, paragraph 1 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the District to issue the bonds and levy taxes to repay them.",
+    "excerpt": "A “yes” vote on Measure AB will authorize the District to issue the bonds and levy taxes to pay for the indebtedness.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "County Counsels' impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote does not authorize the bonds or the tax to repay them.",
+    "excerpt": "A “no” vote on Measure AB will not authorize either the issuance of bonds or the associated levy of taxes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "County Counsels' impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "$830,000,000 in bonds; estimated highest tax rate $25 per $100,000 of assessed value (average $22.00), collected through fiscal year 2058-59; total debt service estimated at $1,760,000,000.",
+    "excerpt": "If all bonds are sold, the total debt services, including principal and interest, is estimated at $1,760,000,000.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "County Counsels' impartial analysis (page 2); rates in the Tax Rate Statement items 1 and 2"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure AB will train local nurses, firefighters, first responders and skilled workers by modernizing SRJC facilities, without increasing tax rates because it replaces expiring bonds.",
+    "excerpt": "Vote Yes on Measure AB to train the next generation of Sonoma County nurses, firefighters, EMTs, first responders, and skilled workers, without increasing tax rates.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "Argument in favor of Measure AB, paragraph 1 (page 3)"
+   },
+   "argAgainst": {
+    "text": "The argument against says the $830 million bond lacks transparency on how the amount was set and on underwriting and interest costs.",
+    "excerpt": "The SRJC Bond Measure lacks transparency on how they came up with the $830 million bond twice as large as the prior bond measure of $410 million.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "Argument against Measure AB, paragraph 1 (page 4)"
+   },
+   "supporters": {
+    "text": "Gaye LeBaron, SRJC Grad, Historian, Lecturer; Judy Coffey, Registered Nurse; David Peña, Alumni/Firefighter; Cheryl E. La Franchi, Rancher; Herman G. Hernandez, Trustee, SoCo Board Education",
+    "excerpt": "/s/ Gaye LeBaron SRJC Grad, Historian, Lecturer /s/ Judy Coffey Registered Nurse /s/ David Peña Alumni/Firefighter /s/ Cheryl E. La Franchi Rancher /s/ Herman G. Hernandez Trustee, SoCo Board Education",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   },
+   "opponents": {
+    "text": "Andrew J. Smith, Sonoma County Resident",
+    "excerpt": "/s/ Andrew J. Smith Sonoma County Resident",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "location": "Argument against, signature (page 4)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, read with pdf.js), 6 pages: ballot question and What Your Vote Means (p1), County Counsels' analysis and tax rate statement (p2), argument for and rebuttal (p3), argument against and rebuttal (p4), full text (p5-6). PDF text has hard line breaks; excerpts join wrapped lines with a single space. 55% needed to pass. Measure is also on the Marin and Mendocino ballots. Rebuttal to argument against signed by Chris Rogers, Assemblymember; Diego Roman Hernandez; Linda Collister; Jacquelynne Ocaña; Michael P. Coutré.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-spd-coast-life-support-district.measure-d",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: D (Coast Life Support District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Raises the Coast Life Support District's existing special parcel tax to $101 per unit of benefit for emergency medical services, ambulance, life support and transport, with yearly inflation increases, and raises the District's spending limit to allow use of the money.",
+    "excerpt": "If approved, the measure would authorize the District to increase its existing parcel tax to one hundred and one dollars ($101) per unit of benefit.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "County Counsels' impartial analysis, paragraph 2 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote is a vote in favor of authorizing the special tax.",
+    "excerpt": "A “YES” vote is a vote in favor of authorization of the special tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "County Counsels' impartial analysis, near end (page 2)"
+   },
+   "no": {
+    "text": "A no vote is a vote against authorizing the special tax.",
+    "excerpt": "A “NO” vote is a vote against authorization of the special tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "County Counsels' impartial analysis, near end (page 2)"
+   },
+   "fiscal": {
+    "text": "$101 per unit of benefit (a single family dwelling is 3 units), adjusted each July 1 for inflation, providing an estimated $1,972,934 a year until amended or repealed.",
+    "excerpt": "Allows Coast Life Support District to increase the current special parcel tax rate on real property to $ 101 per unit of benefit, for emergency medical services, including ambulance, life support and medical transport purposes and other necessary operating expenses, providing an estimated $1,972,934 annually, until the tax is amended or repealed;",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "Measure question (page 1)"
+   },
+   "argFor": {
+    "text": "The argument in favor says the District faces a doubling of emergency calls and higher costs per call with no increase in parcel tax funding, so the income does not meet the expenses.",
+    "excerpt": "CLSD has experienced a doubling of emergency calls, and an over 25 percent increase in costs per call without any increase in the parcel tax funding. It’s simple, the income doesn’t meet the expenses.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "Argument in favor of Measure D, paragraph 2 (page 2)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure D",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "Page 2, argument against position"
+   },
+   "supporters": {
+    "text": "Andrea Lunsford; Bronwyn Golly, EMS Chief, CLSD; Barbara Burkey, Community Member; Janis Dolphin, Community Member; Naomi Schwartz, Member of CLSD BOD",
+    "excerpt": "/s/ Andrea Lunsford /s/ Bronwyn Golly EMS Chief, CLSD /s/ Barbara Burkey Community Member /s/ Janis Dolphin Community Member /s/ Naomi Schwartz Member of CLSD BOD",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 2)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js). Two-thirds needed. Bi-county district (Sonoma and Mendocino). Andrea Lunsford signed with no title. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces; the fiscal excerpt keeps the PDF's '$ 101' spacing.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-waugh-school-district.measure-e",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: E (Waugh School District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks whether the Waugh School District should issue $16,000,000 in bonds to repair, modernize and expand classrooms, restrooms and playgrounds, replace roofs, plumbing and heating and ventilation systems, and improve disability access, repaid by property taxes.",
+    "excerpt": "The Waugh School District (“District”) Board of Trustees (“Board”) has placed on the ballot the question whether to issue $16,000,000 in bonds for such purposes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 1 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the District to issue up to $16,000,000 in bonds and levy taxes to repay them.",
+    "excerpt": "A “yes” vote on Measure E will authorize the District to issue up to $16,000,000 in bonds and levy taxes to pay for such bonded indebtedness.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote disapproves the bonds and the tax to repay them.",
+    "excerpt": "A “no” vote on Measure E will disapprove the issuance of bonds and the associated levy of the taxes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "$16,000,000 in bonds; estimated highest tax rate $30 per $100,000 of assessed value (average $28.65), through fiscal year 2060-61; total debt service estimated at $32,000,000.",
+    "excerpt": "If all bonds are sold, the total debt services, including principal and interest, is estimated at $32,000,000.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis (page 2); rates in the Tax Rate Statement"
+   },
+   "argFor": {
+    "text": "The argument in favor says many classrooms and facilities at Meadow and Corona Creek schools are outdated and Measure E would fund health, safety, modernization and accessibility improvements.",
+    "excerpt": "Measure E would allow the District to improve our local schools and the quality of education provided to local students.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "Argument in favor of Measure E, paragraph 2 (page 3)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure E",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "Page 3, argument against position"
+   },
+   "supporters": {
+    "text": "John Shribbs, Petaluma City Councilmember; Vanessa Chung, Waugh District Parent; Dr. Sabina Gupta Sud, DMD, MS, Pediatric Dentist; Kristine Weeks, Waugh School Board; Jarrett Baglietto, Waugh School Board",
+    "excerpt": "/s/ John Shribbs Petaluma City Councilmember /s/ Vanessa Chung Waugh District Parent /s/ Dr. Sabina Gupta Sud, DMD, MS Pediatric Dentist /s/ Kristine Weeks Waugh School Board /s/ Jarrett Baglietto Waugh School Board",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js). 55% needed. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-west-sonoma-county-union-high-school-district.measure-g",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: G (West Sonoma County Union High School District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Continues the West Sonoma County Union High School District's $79-per-parcel education tax for eight years starting July 1, 2028, with exemptions for owners 65 or older and owners receiving disability SSI who live on the parcel.",
+    "excerpt": "Measure G proposes to continue a special tax of $79 annually per parcel for each parcel of land within the District’s boundaries. The tax would begin on July 1, 2028, and would remain in effect for eight (8) years.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 2 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the District to continue the education parcel tax.",
+    "excerpt": "A “yes” vote on Measure G will authorize the District to continue the education parcel tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote does not authorize the District to continue the tax.",
+    "excerpt": "A “no” vote on Measure G will not authorize the District to continue the tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "$79 per parcel a year for eight years, raising about $1,950,000 a year.",
+    "excerpt": "If approved, Measure G would raise approximately $1,950,000 annually.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis (page 2); rate in paragraph 2"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure G continues a stable local funding source, without increasing the current rate, to protect programs as state funding is uncertain.",
+    "excerpt": "If successful, Measure G will continue to provide a stable source of local funds to offset the uncertainty of state funding.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "Argument in favor of Measure G, paragraph 2 (page 2)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure G",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "Page 2, argument against position"
+   },
+   "supporters": {
+    "text": "Sean McDonagh, Chief of Police, Sebastopol Police Dept.; Dorothy Rodella, VP & Branch Manager Exchange Bank; Loretta Castleberry, President of Analy Alumni Assn.; Herman G. Hernandez, Trustee Area 5, Sonoma County Office of Education; Diane Hughes, Business Manager, West County Transportation",
+    "excerpt": "/s/ Sean McDonagh Chief of Police, Sebastopol Police Dept. /s/ Dorothy Rodella VP & Branch Manager Exchange Bank /s/ Loretta Castleberry President of Analy Alumni Assn. /s/ Herman G. Hernandez Trustee Area 5, Sonoma County Office of Education /s/ Diane Hughes Business Manager, West County Transportation",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 2)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 3 pages. Two-thirds needed. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma.measure-h",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: H (County of Sonoma)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Extends Sonoma County's one-eighth cent parks sales tax countywide, from April 1, 2029 until repealed by voters, to fund regional, neighborhood and city parks, including water quality, fire safety and access projects.",
+    "excerpt": "Measure H asks voters whether the County should extend a one-eighth cent special sales tax countywide, until repealed by the voters, to fund improvements and maintenance for Sonoma County Regional and Neighborhood Parks and local city parks.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 1 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the County to extend the one-eighth cent sales tax countywide.",
+    "excerpt": "A “yes” vote on Measure H will authorize the County to extend the sales tax rate of one-eighth cent on each dollar countywide.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "County Counsel's impartial analysis (page 2)"
+   },
+   "no": {
+    "text": "A no vote prohibits the County from extending the sales tax.",
+    "excerpt": "A “no” vote on Measure H will prohibit the County from extending the proposed sales tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "County Counsel's impartial analysis (page 2)"
+   },
+   "fiscal": {
+    "text": "One-eighth cent (0.125%) sales tax, providing about $15,500,000 a year per the analysis; the County Auditor estimates about $17.1 million in the first full fiscal year (2029-30). Operative April 1, 2029 until ended by voters.",
+    "excerpt": "If approved, Measure H would extend a special tax that will provide approximately $15,500,000 annually.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 1 (page 2); $17.1 million from the County Auditor's Fiscal Impact Statement"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure H renews existing parks funding without raising the tax rate, to protect parks, reduce wildfire risk and safeguard clean water.",
+    "excerpt": "Vote Yes on Measure H to protect and enhance Sonoma County’s regional parks and city parks, reduce wildfire risk, and safeguard clean water, without raising taxes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "Argument in favor of Measure H, paragraph 1 (page 3)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure H",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "Page 3, argument against position"
+   },
+   "supporters": {
+    "text": "FIRE SAFE SONOMA, Ben Nicholls, Executive Director; Mike McGuire, State Senator; SONOMA COUNTY FARM TRAILS, Carmen Snyder, Executive Director; Lisa G. Carreño, Non-Profit Leader; SONOMA COUNTY REGIONAL PARKS FOUNDATION, Melissa Kelley, Executive Director",
+    "excerpt": "FIRE SAFE SONOMA /s/ Ben Nicholls, Executive Director /s/ Mike McGuire State Senator SONOMA COUNTY FARM TRAILS /s/ Carmen Snyder, Executive Director /s/ Lisa G. Carreño Non-Profit Leader SONOMA COUNTY REGIONAL PARKS FOUNDATION /s/ Melissa Kelley, Executive Director",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 8 pages. Two-thirds needed. Extends the Measure M (2018) parks tax that expires March 31, 2029. The analysis and ballot question say about $15.5 million a year; the Auditor's fiscal impact statement estimates $17.1 million in FY 2029-30. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-windsor.measure-i",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: I (Town of Windsor)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Adds a 1% general sales tax in Windsor, raising the total rate from 9.25% to 10.25%, for the Town's general fund until ended by voters, with a Citizens' Oversight Commission and annual audit reports.",
+    "excerpt": "Measure I would authorize a 1% transactions and use tax, which would increase the total sales tax rate in Windsor to 10.25% (subject to the adoption of other countywide taxes).",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Town Attorney's impartial analysis, paragraph 3 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote approves a 1% sales tax in Windsor.",
+    "excerpt": "A “Yes” vote is a vote to approve a one percent (1%) sales tax in Windsor.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Town Attorney's impartial analysis, near end (page 2)"
+   },
+   "no": {
+    "text": "A no vote is a vote against the tax.",
+    "excerpt": "A “No” vote is a vote against the tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Town Attorney's impartial analysis, near end (page 2)"
+   },
+   "fiscal": {
+    "text": "1% sales tax ($1 on a $100 item), about $5.7 million a year for the general fund, until ended by voters.",
+    "excerpt": "According to the Council Resolution placing Measure I on the ballot and the report prepared by Town staff, the tax would provide approximately $5.7 million annually for the Town’s general fund,",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Town Attorney's impartial analysis, paragraph 4 (page 2)"
+   },
+   "argFor": {
+    "text": "The argument in favor says costs have risen while local funding has not, Windsor is the only Sonoma County city without its own sales tax, and without Measure I deeper cuts to police, emergency response and streets will come.",
+    "excerpt": "Measure I is needed to protect these essential local services by providing stable, locally-controlled funding to keep our town strong.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Argument in favor of Measure I, paragraph 2 (page 3)"
+   },
+   "argAgainst": {
+    "text": "The argument against says Windsor has a spending problem, not a revenue problem, citing staff growth and management positions, and that sales taxes hit working families and low-income seniors hardest.",
+    "excerpt": "The Town of Windsor has a spending problem, not a revenue problem.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Argument against Measure I, paragraph 1 (page 4)"
+   },
+   "supporters": {
+    "text": "WINDSOR TOWN COUNCIL, Rosa Reynoza, Mayor; WINDSOR TOWN COUNCIL, Sam Salmon, Town Councilmember; Michael Raasch, Retired Windsor Police Chief; Guadalupe Navarro, Latina Community Leader; Jim Curry, Windsor Chamber Past Chair",
+    "excerpt": "WINDSOR TOWN COUNCIL /s/ Rosa Reynoza, Mayor WINDSOR TOWN COUNCIL /s/ Sam Salmon, Town Councilmember /s/ Michael Raasch Retired Windsor Police Chief /s/ Guadalupe Navarro Latina Community Leader /s/ Jim Curry Windsor Chamber Past Chair",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   },
+   "opponents": {
+    "text": "CONCERNED WINDSOR CITIZENS, John Leyba, Chairperson; CONCERNED WINDSOR CITIZENS, John Broughton, Treasurer; Mary Ann Bainbridge-Krause, Commissioner Senior Citizens Advisory; Betsy Mallace, Windsor Resident / Advocate; Bob Kruse, Vietnam Veteran/Windsor Resident",
+    "excerpt": "CONCERNED WINDSOR CITIZENS /s/ John Leyba, Chairperson CONCERNED WINDSOR CITIZENS /s/ John Broughton, Treasurer /s/ Mary Ann Bainbridge-Krause Commissioner Senior Citizens Advisory /s/ Betsy Mallace Windsor Resident / Advocate /s/ Bob Kruse Vietnam Veteran/Windsor Resident",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "location": "Argument against, signatures (page 4)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 8 pages. Simple majority. General tax. Rebuttal to argument against signed by Tanya Potter, Windsor Vice Mayor; JB Leep; Michael LeComte; Donna Legge; Deborah Doyle. Excerpts join the PDF's wrapped lines with single spaces; fiscal excerpt ends mid-sentence at a comma.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.measure-j",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: J (Windsor Unified School District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks whether Windsor Unified School District should issue $96,000,000 in bonds to replace leaky roofs, make health, safety and security improvements, modernize classrooms, restrooms and facilities, and improve technology and energy efficiency, repaid by property taxes.",
+    "excerpt": "The Windsor Unified School District (“District”) Board of Trustees (“Board”) has placed on the ballot the question of whether to issue $96,000,000 in bonds for such purposes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 1 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the District to issue the bonds and levy taxes to repay them.",
+    "excerpt": "A “yes” vote on Measure J will authorize the District to issue the bonds and levy taxes to pay for the indebtedness.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote does not authorize the bonds or the tax to repay them.",
+    "excerpt": "A “no” vote on Measure J will not authorize either the issuance of bonds or the associated levy of taxes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "$96,000,000 in bonds; estimated average tax rate $46 per $100,000 of assessed value, highest $60 per $100,000 (fiscal years 2042-43 through 2058-59), collected through fiscal year 2060-61; total debt service about $216,342,122.",
+    "excerpt": "If all bonds are sold, the total debt services, including principal and interest, is estimated at $216,342,122.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis (page 2); rates in the Tax Rate Statement items 1 and 2"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure J repairs aging Windsor schools, with leaking roofs, failing pipes and deteriorating portables, by extending existing bond tax rates without an increase.",
+    "excerpt": "Voting Yes on J repairs and upgrades our schools by simply extending existing bond tax rates without an increase.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "Argument in favor of Measure J (page 3)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure J",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "Page 3, argument against position"
+   },
+   "supporters": {
+    "text": "Michael LeCompt, Owner, Oak Tree Winery; ROTARY CLUB OF WINDSOR, Pamela Moulton, Past President; Warin Parker, former Mayor Town of Windsor; David Hamelburg, Business Owner, Thurston Printing",
+    "excerpt": "/s/ Michael LeCompt Owner, Oak Tree Winery ROTARY CLUB OF WINDSOR /s/ Pamela Moulton, Past President /s/ Warin Parker former Mayor Town of Windsor /s/ David Hamelburg Business Owner, Thurston Printing",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 6 pages; the PDF's internal code is 9359 though the file name says 9321. 55% needed. Ballot question cites $46 per $100,000 and $6,000,000 annually. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-rohnert-park.measure-k",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: K (City of Rohnert Park)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Enacts a 0.5% (half-cent) general sales tax in Rohnert Park, with revenue going to the city's general fund for any municipal purpose, until ended by voters.",
+    "excerpt": "The City Council of the City of Rohnert Park placed Measure K on the November 3, 2026, ballot which if approved by a majority of the City's voters would enact Ordinance No. 998 authorizing a 0.5% (1/2¢) transactions and use tax in the City of Rohnert Park.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, paragraph 1 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote is a vote to approve the tax.",
+    "excerpt": "A “YES” vote is a vote to approve the tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, final paragraph (page 2)"
+   },
+   "no": {
+    "text": "A no vote is a vote against the tax.",
+    "excerpt": "A “NO” vote is a vote against the tax.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, final paragraph (page 2)"
+   },
+   "fiscal": {
+    "text": "Half-cent (0.5%) sales tax, estimated at about $5,500,000 a year, until ended by voters.",
+    "excerpt": "The City estimates that Measure K, if approved, would generate approximately $5,500,000 in annual tax revenue, but the actual tax revenue will vary based on the level of purchases occurring in Rohnert Park.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, paragraph 3 (page 2)"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure K protects the services the community depends on, including on-time fire and 911 response, patrols, parks and streets, and will help prevent cuts to public safety.",
+    "excerpt": "Measure K protects the services our community depends on.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "Argument in favor of Measure K, paragraph 2 (page 3)"
+   },
+   "argAgainst": {
+    "text": "The argument against says the city balanced its budget for 16 years and should explore alternatives before permanently raising the sales tax from 9.75% to 10.25%.",
+    "excerpt": "Measure K would permanently increase the local sales tax from 9.75% to 10.25%.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "Argument against Measure K, paragraph 4 (page 4)"
+   },
+   "supporters": {
+    "text": "Gregory Nordin, Former Mayor, Rohnert Park; Pat Miller, Rohnert Park Realtor; Frankie Lemus, Rohnert Park Restaurant Owner; Andre Bailey, Trustee, SRJC; Jerrod Marshall, Public Safety Officers Association",
+    "excerpt": "/s/ Gregory Nordin Former Mayor, Rohnert Park /s/ Pat Miller Rohnert Park Realtor /s/ Frankie Lemus Rohnert Park Restaurant Owner /s/ Andre Bailey Trustee, SRJC /s/ Jerrod Marshall Public Safety Officers Association",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   },
+   "opponents": {
+    "text": "Gina Belforte, Former Mayor Rohnert Park; Joseph T. Callinan, Former Mayor Rohnert Park; Amy O. Ahanotu, Former Mayor Rohnert Park; Pam Stafford, Former Mayor Rohnert Park",
+    "excerpt": "/s/ Gina Belforte Former Mayor Rohnert Park /s/ Joseph T. Callinan Former Mayor Rohnert Park /s/ Amy O. Ahanotu Former Mayor Rohnert Park /s/ Pam Stafford Former Mayor Rohnert Park",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "location": "Argument against, signatures (page 4)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 8 pages. Simple majority. General tax. Rebuttal to argument against signed by Miriam Pengel, Andrew Smith, Lori Tapian Street, Martín Avila, Aaron Johnson. Excerpts join the PDF's wrapped lines with single spaces; plainEnglish excerpt keeps the PDF's straight apostrophe in City's.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-santa-rosa.measure-l",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: L (City of Santa Rosa)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Replaces Santa Rosa's 0.50% Measure Q sales tax, which expires March 31, 2031, with a 1.00% general sales tax that continues until ended by voters, raising the total rate from 10.00% to 10.50%.",
+    "excerpt": "Measure L would increase the total sales tax rate in Santa Rosa by 0.50%, to 10.50%.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, paragraph 3 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote is a vote in favor of the measure.",
+    "excerpt": "A “Yes” vote is a vote in favor of the Measure.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote is a vote against the measure.",
+    "excerpt": "A “No” vote is a vote against the Measure.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "City Attorney's impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "1¢ sales tax (an increase of 0.50% over the current city tax), providing about $46,000,000 a year, including about $23 million more than the existing half-cent tax, until ended by voters.",
+    "excerpt": "at an updated 1¢ rate, providing approximately $46,000,000 annually until ended by voters;",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "Measure question (page 1); the $23 million comparison is in the City Attorney's analysis"
+   },
+   "argFor": {
+    "text": "The argument in favor says the city has already cut public safety and services and Measure L would prevent further cuts and keep all Santa Rosa fire stations open.",
+    "excerpt": "Prevent devastating cuts to fire, police, 911 emergency services and the essential City services Santa Rosa residents rely on – Vote Yes on L.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "Argument in favor of Measure L, paragraph 1 (page 2)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure L",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "Page 2, argument against position"
+   },
+   "supporters": {
+    "text": "Mark Stapp, Santa Rosa Mayor; Sal Rosano, Santa Rosa Police Chief Retired; Anthony G. Gossner, Retired Santa Rosa Fire Chief; Hector Velazquez, Local business owner; Thea Hensel, Santa Rosa Homeowner and Taxpayer",
+    "excerpt": "/s/ Mark Stapp Santa Rosa Mayor /s/ Sal Rosano Santa Rosa Police Chief Retired /s/ Anthony G. Gossner Retired Santa Rosa Fire Chief /s/ Hector Velazquez Local business owner /s/ Thea Hensel Santa Rosa Homeowner and Taxpayer",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 2)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 3 pages. Simple majority, general tax. The analysis notes the full 0.50% increase depends on SB 762 (state cap); if vetoed, the full increase may not take effect. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces (chosen to avoid hyphenated line breaks).",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-harmony-union-school-district.measure-m",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: M (Harmony Union School District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Adds a $75-a-year parcel tax in the Harmony Union School District for four years starting in fiscal year 2027-28 to fund the Garden Enrichment Program, student mental health services and reading and math intervention, with exemptions for eligible seniors and people with disabilities.",
+    "excerpt": "Measure M would impose a special tax of $75 per year per parcel, raising approximately $177,600 annually to fund educational programs. This special tax would commence in fiscal year 2027-28 for a period of 4 years.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 2 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote approves a $75-per-parcel education tax at a fixed rate for four years, starting in fiscal year 2027-28.",
+    "excerpt": "A “yes” vote on Measure M is a vote to approve an educational parcel tax of $75 per year per parcel at a fixed rate for four years, commencing in fiscal year 2027-28.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote is a vote against the $75-per-parcel education tax.",
+    "excerpt": "A “no” vote on Measure M is a vote against the educational parcel tax of $75 per year per parcel at a fixed rate for four years.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "$75 per parcel a year for four years, raising about $177,600 a year.",
+    "excerpt": "Measure M would impose a special tax of $75 per year per parcel, raising approximately $177,600 annually to fund educational programs.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 2 (page 2)"
+   },
+   "argFor": {
+    "text": "The argument in favor says state funding alone is not enough and Measure M would provide reliable local support for the garden program, mental health services and reading and math intervention.",
+    "excerpt": "State funding alone is not enough to protect the quality of education in the Harmony Union School District.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "Argument in favor of Measure M, paragraph 2 (page 2)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure M",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "Page 2, argument against position"
+   },
+   "supporters": {
+    "text": "Susan F. Kirk, School Neighbor; Yuri Koslen, Board Chair/President Harmony USD; Susan McGovern, Retired HUSD teacher of 30 years; Colleen Lunardi, Former Employee & Local Historian; Jacqueline Gleason, Harmony Ark Education Foundation",
+    "excerpt": "/s/ Susan F. Kirk School Neighbor /s/ Yuri Koslen Board Chair/President Harmony USD /s/ Susan McGovern Retired HUSD teacher of 30 years /s/ Colleen Lunardi Former Employee & Local Historian /s/ Jacqueline Gleason Harmony Ark Education Foundation",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "location": "Argument in favor, signatures (page 2)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 3 pages. Two-thirds needed. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-spd-schell-vista-fire-protection-district.measure-n",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: N (Schell-Vista Fire Protection District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Continues the Schell-Vista Fire Protection District's increased spending (appropriations) limit for four more years, through fiscal year 2029-30, so it can keep spending its voter-approved 2018 special tax; it does not create a new tax or raise the tax rate.",
+    "excerpt": "If approved, this measure will continue the District’s authority to spend the Special Tax through fiscal year 2029-30 and will allow the District to continue meeting its current operating costs, which are more than the limits otherwise allowed under the constitutional limit.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 4 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote continues the previously approved increase in the District's spending limit for four more years.",
+    "excerpt": "A “yes” vote on Measure N is a vote to continue the previously approved increase in the District’s appropriations (spending) limit for an additional four years.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote is against continuing the increased spending limit; the analysis says the District's spending limit would then be reduced, reducing funds for current service levels.",
+    "excerpt": "A “no” vote on Measure N is a vote against continuing the previously approved increase in the District’s appropriations (spending) limit.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure N is not a new tax and simply lets the fire department keep using voter-approved funding for fire and emergency services.",
+    "excerpt": "Measure N is not a new tax. It simply allows your fire department to continue to use voter-approved funding for our community’s fire and emergency services.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "Argument in favor of Measure N (page 2)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure N",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "Page 2, argument against position"
+   },
+   "supporters": {
+    "text": "Kenneth C. Finn, Jr, Board Member - SVFPD; Juan Velasquez, Engineer at SVFPD; SVFPD, Ray Mulas, Chief of Department; Jack Todeschini, Capt SVFPD; Hal Stober, Board Member - SVFPD",
+    "excerpt": "Kenneth C. Finn, Jr Board Member - SVFPD Juan Velasquez Engineer at SVFPD SVFPD Ray Mulas, Chief of Department Jack Todeschini Capt SVFPD Hal Stober Board Member - SVFPD",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "location": "Argument in favor, signatures (page 2)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 3 pages. Simple majority. Spending-limit measure only; the materials give no dollar amount, so fiscal is left out. The analysis refers once to 'Measure A' in paragraph 3, apparently a typo for Measure N. The no text adds the analysis's statement of what happens if the measure fails ('If this measure fails, the District’s current spending limits will be reduced, which will reduce the funds available to continue the District’s current levels of service.'). No argument against, so opponents is left out. Signers printed without /s/ marks.",
+  "notFound": [
+   "fiscal",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-old-adobe-union-school-district.measure-o",
+  "officialPages": [
+   {
+    "title": "Local Ballot Measure: O (Old Adobe Union School District)",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "publisher": "Sonoma County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks whether the Old Adobe Union School District should issue $48,000,000 in bonds to modernize, renovate, expand, construct or replace school facilities, repaid by property taxes, with audits and a citizens' oversight committee.",
+    "excerpt": "The Old Adobe Union School District Board of Education has placed on the ballot the question of whether to issue $48,000,000 in bonds for such purposes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, paragraph 1 (page 2)"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the District to issue the bonds and levy taxes to repay them.",
+    "excerpt": "A “yes” vote on Measure O will authorize the District to issue the bonds and levy taxes to pay for the indebtedness.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "no": {
+    "text": "A no vote does not authorize the bonds or the tax to repay them.",
+    "excerpt": "A “no” vote on Measure O will not authorize either the issuance of bonds or the associated levy of taxes.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis, final paragraphs (page 2)"
+   },
+   "fiscal": {
+    "text": "$48,000,000 in bonds; estimated highest tax rate $25 per $100,000 of assessed value (average $24.15), collected until fiscal year 2059-60; total debt service $97,000,000; about $2,800,000 a year.",
+    "excerpt": "If all bonds are sold, the total debt service (including principal and interest) will be $97,000,000. The tax will raise approximately $2,800,000 annually.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "County Counsel's impartial analysis (page 2); rates in the Tax Rate Statement"
+   },
+   "argFor": {
+    "text": "The argument in favor says many Old Adobe classrooms and buildings no longer meet modern educational and technology standards and Measure O would fund roof, safety, accessibility, HVAC and classroom upgrades.",
+    "excerpt": "Measure O would let the District upgrade local schools and strengthen the education students receive.",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "Argument in favor of Measure O, paragraph 2 (page 3)"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "No Argument Was Submitted Against Measure O",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "Page 3, argument against position"
+   },
+   "supporters": {
+    "text": "Kimberly Strickland, Attorney, PEF Board Member; Anna Dietrich, Parent, OAUSD Trustee; Renee McKenna, Parent, Petaluma Valley Rotary; Peter J. Walsh, Parent, OAUSD Trustee",
+    "excerpt": "/s/ Kimberly Strickland Attorney, PEF Board Member /s/ Anna Dietrich Parent, OAUSD Trustee /s/ Renee McKenna Parent, Petaluma Valley Rotary /s/ Peter J. Walsh Parent, OAUSD Trustee",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "location": "Argument in favor, signatures (page 3)"
+   }
+  },
+  "notes": "Sonoma County measure PDF (text layer, pdf.js), 5 pages. 55% needed. No argument against was submitted, so opponents is left out. Excerpts join the PDF's wrapped lines with single spaces.",
+  "notFound": [
+   "opponents"
+  ]
+ }
+]

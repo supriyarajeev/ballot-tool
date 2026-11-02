@@ -1,0 +1,745 @@
+[
+ {
+  "id": "2026-11-03.ca-contra-costa-clayton.measure-m",
+  "jurisdiction": "ca-contra-costa-clayton",
+  "identifier": "Measure M",
+  "shortTitle": "City of Clayton Transaction and Use Tax",
+  "officialTitle": null,
+  "measureType": "Tax (general sales tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "CITY OF CLAYTON SALES TAX MEASURE. To provide local funding to maintain City of Clayton programs, services, and facilities, including: police services, traffic enforcement and road safety, road and sidewalk improvements, enhance library and recreation opportunities, park maintenance, recruitment and retention of city employees and other city services, shall the City of Clayton levy a 1% sales tax until ended by voters generating approximately $1,000,000 annually, subject to public review, the annual audit and all funds benefitting Clayton?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Clayton Resolution No. 21-2026 (adopted June 16, 2026) with ordinance Exhibit A",
+    "url": "https://www.claytonca.gov/DocumentCenter/View/836",
+    "type": "Official"
+   },
+   {
+    "label": "Clayton Elections Information",
+    "url": "https://www.claytonca.gov/169/Elections-Information",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Levies a 1% sales tax in Clayton until ended by voters, generating about $1,000,000 a year.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Clayton"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-clayton.measure-n",
+  "jurisdiction": "ca-contra-costa-clayton",
+  "identifier": "Measure N",
+  "shortTitle": "City of Clayton Special Tax",
+  "officialTitle": null,
+  "measureType": "Tax (special tax, Community Facilities District)",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "CITYWIDE LANDSCAPE MAINTENANCE EXTENSION AND ALTERATION OF RATE OF EXISTING SPECIAL TAX Shall the measure to fund on-going trail system operations and maintenance, roadway landscaping, open space weed abatement, and related services of the Clayton Community Facility District No. 2007-1 (Citywide Landscape Maintenance) by extending the special tax for ten years and amending its rate and methodology to $354.45/year per residential parcel and $354.45/year per non-residential acre, including annual inflationary adjustments, subject to citizen's committee oversight, be approved?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Extends the Clayton citywide landscape maintenance special tax for ten years at $354.45 a year per residential parcel and $354.45 a year per non-residential acre, with annual inflation adjustments.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Clayton"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-concord.measure-o",
+  "jurisdiction": "ca-contra-costa-concord",
+  "identifier": "Measure O",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Tax (business license tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "To protect City of Concord services/ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: repair potholes on neighborhood and major streets; maintain 9-1-1 emergency response; keep parks/playgrounds safe/clean; relieve traffic congestion along major corridors; maintain senior/youth programs; for general government use; by updating Concord’s 37-year-old business license rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 annually, requiring independent citizen oversight?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Concord Ballot Question and Election Information",
+    "url": "https://www.cityofconcord.org/1396/Ballot-Question-and-Election-Information",
+    "type": "Official"
+   },
+   {
+    "label": "Concord Measure O page",
+    "url": "https://www.cityofconcord.org/1404/Measure-O",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Updates Concord business license tax rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 a year.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Concord"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-hercules.measure-p",
+  "jurisdiction": "ca-contra-costa-hercules",
+  "identifier": "Measure P",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Tax (sales tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure providing Hercules with locally controlled funding to maintain financial stability/general city services, such as fast 911 response; neighborhood police patrols; water quality standards; keeping public areas/parks safe/ clean; repairing deteriorating streets/potholes; and retaining/attracting local businesses, by establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters; requiring audits, public disclosure, and funds only for Hercules, be adopted?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Hercules Municipal Elections",
+    "url": "https://www.herculesca.gov/government/city-clerk/elections",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Establishes a 1% sales tax in Hercules until ended by voters, generating about $4,000,000 a year.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Hercules"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-richmond.measure-q",
+  "jurisdiction": "ca-contra-costa-richmond",
+  "identifier": "Measure Q",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Bond (general obligation bond)",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "To support rapid, 911 emergency medical response, modernize and rehabilitate unsafe/deteriorating firefighter housing and facilities, including mold/asbestos abatement/removal, replace electrical systems, leaky pipes/roofs, and improve structure resiliency during disasters, shall the City of Richmond’s measure authorizing $120,000,000 in bonds at legal rates, levying an estimated average tax rate of $22.15/$100,000 of assessed valuation, averaging $7,568,158 annually while bonds are outstanding, requiring citizen oversight, audits, and spending only on approved projects, be adopted?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://www.ci.richmond.ca.us/DocumentCenter/View/80652",
+    "type": "Official"
+   },
+   {
+    "label": "Richmond 2026 General Election Information",
+    "url": "https://www.ci.richmond.ca.us/4988/2026-GENERAL-ELECTION-INFORMATION",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Authorizes the City of Richmond to issue up to $120,000,000 in general obligation bonds for firefighter housing and facilities. The average tax rate is projected at $22.15 per $100,000 of assessed valuation.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Richmond"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-san-pablo.measure-r",
+  "jurisdiction": "ca-contra-costa-san-pablo",
+  "identifier": "Measure R",
+  "shortTitle": "City of San Pablo Transactions and Use Tax",
+  "officialTitle": null,
+  "measureType": "Tax (transactions and use tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "To provide funding to maintain City services, including crime prevention, police protection, reducing illegal dumping, the City's daily senior meal program, youth scholarship programs, assisting the homeless, street maintenance, and other general services, shall San Pablo enact a temporary ½-cent sales tax for 5 years, generating approximately $2,000,000 annually, then reduced to ¼-cent for 5 years, generating approximately $1,000,000 annually, then terminate; with all funds staying in San Pablo, citizen oversight, and mandated annual audits?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://www.sanpabloca.gov/DocumentCenter/View/19118/MEASURE-R---City-Attorney-Impartial-Analysis---08192026",
+    "type": "Official"
+   },
+   {
+    "label": "San Pablo November 3rd, 2026 Ballot Measures",
+    "url": "https://www.sanpabloca.gov/2952/November-3rd-2026-Ballot-Measures",
+    "type": "Official"
+   },
+   {
+    "label": "Measure R San Pablo City Services Measure",
+    "url": "https://www.sanpabloca.gov/servicemeasure",
+    "type": "Official"
+   },
+   {
+    "label": "City Attorney's Impartial Analysis (Measure R)",
+    "url": "https://www.sanpabloca.gov/DocumentCenter/View/19129/MEASURE-R---City-Attorney-Impartial-Analysis-08192026",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Raises the San Pablo sales tax by 0.50% for five years, then by 0.25% for five more years, then ends. The revenue goes to the general fund.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Pablo"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-san-pablo.measure-s",
+  "jurisdiction": "ca-contra-costa-san-pablo",
+  "identifier": "Measure S",
+  "shortTitle": "City of San Pablo Rent Control",
+  "officialTitle": null,
+  "measureType": "Initiative ordinance",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the proposed ordinance, prohibiting residential real property rental rate increases for some rental units that exceed sixty percent of the Consumer Price Index increase or three percent, whichever is lower, establishing a process for consideration of additional rent increases, requiring City administration estimated to cost approximately $1,080,000 to $2,360,000 annually, funded by annual rental property owner fees, limiting the grounds for evicting tenants of some rental units, and enacting additional housing regulations, be adopted?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://www.sanpabloca.gov/DocumentCenter/View/19120/MEASURE-S---City-Attorney-Impartial-Analysis---08192026",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Adopts an ordinance limiting rent increases on some San Pablo rental units to sixty percent of the Consumer Price Index increase or three percent, whichever is lower. It also limits the grounds for evicting tenants of some units and funds City administration with annual rental property owner fees.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Pablo"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-walnut-creek.measure-t",
+  "jurisdiction": "ca-contra-costa-walnut-creek",
+  "identifier": "Measure T",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Other (question on making an elective office appointive)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the office of the City Treasurer be appointive?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Walnut Creek November 3, 2026 Election",
+    "url": "https://www.walnutcreekca.gov/government/departments/city-clerk/elections-voter-registration/november-3-2026-election-4243",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Asks whether the office of Walnut Creek City Treasurer should be appointive.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Walnut Creek"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-walnut-creek.measure-u",
+  "jurisdiction": "ca-contra-costa-walnut-creek",
+  "identifier": "Measure U",
+  "shortTitle": "City of Walnut Creek Senior Housing",
+  "officialTitle": null,
+  "measureType": "Ordinance (General Plan, Specific Plan and Municipal Code amendment)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure amending the City of Walnut Creek General Plan, the North Downtown Specific Plan, and the Municipal Code to redesignate a 2.4 acre site at the northeast corner of North California Boulevard and Ygnacio Valley Road from office uses to mixed use residential uses, and to create a new Mixed Use Residential Senior & Commercial zoning district to limit allowable uses on the site to multifamily senior housing (primarily 55 years of age or older) and commercial uses compatible with senior housing, be adopted?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Amends the Walnut Creek General Plan, North Downtown Specific Plan and Municipal Code to redesignate a 2.4 acre site at North California Boulevard and Ygnacio Valley Road from office uses to mixed use residential uses. Allowed uses on the site would be limited to multifamily senior housing and commercial uses compatible with senior housing.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Walnut Creek"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-sd-west-contra-costa-unified-school-district.measure-v",
+  "jurisdiction": "ca-contra-costa-sd-west-contra-costa-unified-school-district",
+  "identifier": "Measure V",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Tax (parcel tax renewal)",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "Shall the measure supporting local quality education in West Contra Costa Unified School District, protecting core academics, science, music, arts, and career technical programs that prepare students for the changing economy; attracting and retaining qualified teachers; and maintaining mental health services and counselors to support student success; by renewing the parcel tax at the existing rate of 7.2¢/building square foot, raising approximately $10,238,737 annually for nine years, with senior exemptions, independent citizen oversight, audits, and local control, be adopted?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "WCCUSD Parcel Tax page",
+    "url": "https://www.wccusd.net/departments-and-areas/parcel-tax",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Renews the West Contra Costa Unified parcel tax at the existing rate of 7.2 cents per building square foot for nine years, raising about $10,238,737 a year, with senior exemptions.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "West Contra Costa Unified School District"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-sd-acalanes-union-high-school-district.measure-w",
+  "jurisdiction": "ca-contra-costa-sd-acalanes-union-high-school-district",
+  "identifier": "Measure W",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Tax (parcel tax)",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "Shall the measure supporting high-quality education in local high schools by: • Attracting/retaining highly qualified teachers • continuing advanced academic programs in science, technology, engineering, math, and arts that prepare students for success in college and careers • maintaining manageable class sizes with Acalanes Union High School District levying a $168 parcel tax for eight years, with senior exemptions, citizens’ oversight and independent audits, providing $6,000,000 annually in local school funding that cannot be taken by the State, be adopted?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure W Resolution (Resolution 26-27-01)",
+    "url": "https://www.acalanes.k12.ca.us/about-auhsd/measure-w/measure-w-resolution",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Levies a $168 parcel tax in the Acalanes Union High School District for eight years beginning in fiscal year 2027-28, with senior exemptions, providing $6,000,000 a year.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Acalanes Union High School District"
+ },
+ {
+  "id": "2026-11-03.ca-contra-costa-sd-liberty-union-high-school-district.measure-x",
+  "jurisdiction": "ca-contra-costa-sd-liberty-union-high-school-district",
+  "identifier": "Measure X",
+  "shortTitle": "Title not recorded yet",
+  "officialTitle": null,
+  "measureType": "Bond",
+  "threshold": "55% of votes",
+  "ballotQuestion": "In order to repair and improve aging classrooms, fix deteriorating roofs, plumbing, heating, ventilation and electrical systems, remove asbestos/ lead pipes, upgrade science labs, libraries, technology and other facilities to support college/ career readiness in math, science, health, engineering, arts and skilled trades; shall Liberty Union High School District’s measure be adopted authorizing $165,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value (raising $11,300,000 annually) while bonds are outstanding and all funds benefiting local schools?",
+  "sources": [
+   {
+    "label": "Contra Costa County official list of local ballot measures (updated Aug 10, 2026)",
+    "url": "https://www.contracostavote.gov/wp-content/uploads/26Nov03_Measure-Wording-List-1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "LUHSD Measure X page",
+    "url": "https://www.luhsd.net/measure-x",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Authorizes $165,000,000 in Liberty Union High School District bonds, levying $20 per $100,000 of assessed value while the bonds are outstanding.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Liberty Union High School District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-ccd-sonoma-county-junior-college-district.measure-ab",
+  "jurisdiction": "ca-sonoma-ccd-sonoma-county-junior-college-district",
+  "identifier": "Measure AB",
+  "shortTitle": "Sonoma County Junior College District Bond",
+  "officialTitle": null,
+  "measureType": "Bond",
+  "threshold": "55% of votes",
+  "ballotQuestion": "Without increasing tax rates, to improve facilities to train students for careers in nursing/firefighting/first responders, building trades, agriculture, auto mechanics; attract/retain high quality faculty, prepare students for universities; repair leaky roofs; repair, construct, and acquire classrooms/sites/facilities/equipment, shall the Sonoma County Junior College District measure be adopted authorizing $830,000,000 in bonds at legal rates, levying $25 per $100,000 of assessed valuation ($55,300,000 annually), while bonds are outstanding, and with oversight/audits/local control?",
+  "sources": [
+   {
+    "label": "Marin County official list of local measures",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.marincounty.gov/departments/elections/november-3-2026-general-election/information-about-measures-110326/list-measures-110326/measure-sonoma-county-junior-college-district-110326",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9311_MeasAB_SoCoJrCollDist_Bond_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Authorizes the Sonoma County Junior College District to issue $830,000,000 in bonds for facilities, levying $25 per $100,000 of assessed valuation while bonds are outstanding. The question says this is without increasing tax rates.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Sonoma County Junior College District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-spd-coast-life-support-district.measure-d",
+  "jurisdiction": "ca-sonoma-spd-coast-life-support-district",
+  "identifier": "Measure D",
+  "shortTitle": "Coast Life Support District Parcel Tax",
+  "officialTitle": null,
+  "measureType": "Special parcel tax (also raises appropriations limit)",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "Shall Measure D (the Coast Life Support District Emergency Medical Services Tax) be adopted? Allows Coast Life Support District to increase the current special parcel tax rate on real property to $ 101 per unit of benefit, for emergency medical services, including ambulance, life support and medical transport purposes and other necessary operating expenses, providing an estimated $1,972,934 annually, until the tax is amended or repealed; authorizes annual increases for inflation; and raises the District’s appropriations limit to permit spending of the tax revenue.",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9761_MeasD_CoastLifeSuppDist_ParcelTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Raises the Coast Life Support District special parcel tax to $101 per unit of benefit for emergency medical services, providing an estimated $1,972,934 a year until amended or repealed. It also allows annual inflation increases and raises the district appropriations limit.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Coast Life Support District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-waugh-school-district.measure-e",
+  "jurisdiction": "ca-sonoma-sd-waugh-school-district",
+  "identifier": "Measure E",
+  "shortTitle": "Waugh School District Bond",
+  "officialTitle": null,
+  "measureType": "Bond",
+  "threshold": "55% of votes",
+  "ballotQuestion": "To improve the quality of education; replace heating, ventilation and air-conditioning systems; modernize outdated classrooms, restrooms and school facilities; and make health, safety and security improvements, shall Waugh School District’s measure authorizing $16,000,000 in bonds, at legal interest rates, and levying approximately $30 per $100,000 of assessed valuation (raising $917,000 annually) while bonds are outstanding, be adopted, with a board appointed citizens’ oversight committee and annual independent audits to assure proper expenditure of funds?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9445_MeasE_WaughSchlDist_Bond_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Authorizes Waugh School District to issue $16,000,000 in bonds for school facilities, levying about $30 per $100,000 of assessed valuation while bonds are outstanding. It includes a citizens oversight committee and annual audits.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Waugh School District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-west-sonoma-county-union-high-school-district.measure-g",
+  "jurisdiction": "ca-sonoma-sd-west-sonoma-county-union-high-school-district",
+  "identifier": "Measure G",
+  "shortTitle": "West Sonoma County Union High School District Parcel Tax",
+  "officialTitle": null,
+  "measureType": "Parcel tax (renewal)",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "To continue supporting academic excellence for West Sonoma County Union students without increasing current tax rates; protect music, art, dance, shop, culinary and other career technical programs; retain teachers and staff; and keep class sizes low, shall West Sonoma County Union High School District’s measure be adopted, renewing its existing parcel tax for eight years at the same rate of $79 per parcel, raising approximately $1,950,000 annually with exemptions including seniors and all funds staying local?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9379_MeasG_WestSoCoUnionHghSchlDist_ParcelTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Renews the West Sonoma County Union High School District parcel tax at $79 per parcel for eight years, raising about $1,950,000 a year, with exemptions including seniors.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "West Sonoma County Union High School District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma.measure-h",
+  "jurisdiction": "ca-sonoma",
+  "identifier": "Measure H",
+  "shortTitle": "Sonoma County Parks Sales Tax",
+  "officialTitle": null,
+  "measureType": "Special sales tax (transaction and use tax) continuation",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "Without raising taxes, to improve and protect Sonoma County’s regional and neighborhood parks; safeguard water supplies, streams, rivers; reduce future wildfire risk; preserve fish and wildlife habitat; conserve natural areas for future generations; expand walking, hiking, and biking trails; shall Sonoma County continue a one-eighth-cent special transaction and use tax (sales tax) countywide until ended by voters, providing approximately $15.5 million annually, with community oversight, public disclosure, and annual audits?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9451_MeasH_SoCoRegParks_SalesTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County Regional Parks news release",
+    "url": "https://parks.sonomacounty.ca.gov/board-of-supervisors-places-parks-sales-tax-renewal-measure-on-november-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Continues a one-eighth-cent countywide special sales tax for parks, water, wildfire risk reduction, habitat and trails until ended by voters, providing about $15.5 million a year.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Sonoma County"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-windsor.measure-i",
+  "jurisdiction": "ca-sonoma-windsor",
+  "identifier": "Measure I",
+  "shortTitle": "Town of Windsor Sales Tax",
+  "officialTitle": null,
+  "measureType": "General sales tax (transactions and use tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "To provide funding for the Town of Windsor to maintain essential local services, such as repairing potholes and maintaining streets; neighborhood police patrols / emergency response / traffic enforcement; preserving parks / community events; disaster preparedness and fire prevention — removing brush / flammable fuels, and for general government use; shall the measure establishing a 1% sales tax, providing approximately $5,700,000 annually until ended by voters, requiring independent audits, citizen oversight, and all funds remaining in Windsor under local control, be adopted?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9641_MeasI_TownOfWindsor_SalesTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Establishes a 1% general sales tax in the Town of Windsor, providing about $5,700,000 a year until ended by voters, with audits and citizen oversight.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Windsor"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-windsor-unified-school-district.measure-j",
+  "jurisdiction": "ca-sonoma-sd-windsor-unified-school-district",
+  "identifier": "Measure J",
+  "shortTitle": "Windsor Unified School District Bond",
+  "officialTitle": null,
+  "measureType": "Bond",
+  "threshold": "55% of votes",
+  "ballotQuestion": "Windsor Unified School District Classroom Repair/No Tax Increase Measure. To upgrade aging classrooms, labs, career training and school facilities for college/career readiness in math, science, technology, engineering, skilled trades; and fix deteriorating roofs, plumbing, HVAC, electrical, and safety systems, shall Windsor Unified School District’s measure be adopted authorizing $96,000,000 in bonds at legal rates, without increasing projected tax rates, levying approximately $46 per $100,000 while bonds are outstanding ($6,000,000 annually), requiring independent oversight/audits and local control?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9321_MeasJ_WindsorUnifSchlDist_Bond_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Authorizes Windsor Unified School District to issue $96,000,000 in bonds for school facilities, levying about $46 per $100,000 while bonds are outstanding. The question says this is without increasing projected tax rates.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Windsor Unified School District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-rohnert-park.measure-k",
+  "jurisdiction": "ca-sonoma-rohnert-park",
+  "identifier": "Measure K",
+  "shortTitle": "City of Rohnert Park Sales Tax",
+  "officialTitle": null,
+  "measureType": "General sales tax (transactions and use tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Rohnert Park Financial Viability, Community Health/Safety Measure. To maintain 911 response/fire protection/wildfire preparedness; protect local drinking water; keep parks clean/safe; prevent property crime/burglary/public safety officer reductions; repair streets/potholes; and other general city services; shall the measure, establishing a half-cent local sales tax, providing approximately $5,500,000 annually for locally controlled funding that cannot be taken by the state, until ended by voters, requiring audits/public spending disclosure, be adopted?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9611_MeasK_CityOfRohnertPark_SalesTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Establishes a half-cent general sales tax in Rohnert Park, providing about $5,500,000 a year until ended by voters, with audits and public spending disclosure.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Rohnert Park"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-santa-rosa.measure-l",
+  "jurisdiction": "ca-sonoma-santa-rosa",
+  "identifier": "Measure L",
+  "shortTitle": "City of Santa Rosa Sales Tax",
+  "officialTitle": null,
+  "measureType": "General sales tax (reauthorization at new rate)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "City of Santa Rosa Community Safety/Financial Stability Measure. Shall the measure maintaining Santa Rosa’s quality of life, 911 emergency medical, police response to violent crimes; keeping all city fire stations open and public places safe/clean; fixing streets/repairing potholes; addressing homeless encampments; maintaining police, fire protection, other services, by reauthorizing the existing, voter approved sales tax at an updated 1¢ rate, providing approximately $46,000,000 annually until ended by voters; requiring audits, public disclosure, local control, be adopted?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9561_MeasL_CityOfSantaRosa_SalesTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Replaces Santa Rosa's existing Measure Q sales tax with a 1% general sales tax, providing about $46,000,000 a year until ended by voters.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Santa Rosa"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-harmony-union-school-district.measure-m",
+  "jurisdiction": "ca-sonoma-sd-harmony-union-school-district",
+  "identifier": "Measure M",
+  "shortTitle": "Harmony Union School District Parcel Tax",
+  "officialTitle": null,
+  "measureType": "Parcel tax",
+  "threshold": "two-thirds of votes",
+  "ballotQuestion": "To maintain and enhance quality education programs by funding Harmony Union School District’s Garden Enrichment Program at Harmony and Salmon Creek School, a comprehensive farm-to-table interactive education program, as well as student mental health and academic intervention services, shall Harmony Union School District’s education parcel tax measure be adopted, at the rate of $75 per year (raising approximately $177,600 annually), for four years, with an exemption for those 65 years and older and all funds spent on local students?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9401_MeasM_HarmonyUnionSchlDist_ParcelTax_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Approves a $75 per year education parcel tax in Harmony Union School District for four years, raising about $177,600 a year, with an exemption for those 65 and older.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Harmony Union School District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-spd-schell-vista-fire-protection-district.measure-n",
+  "jurisdiction": "ca-sonoma-spd-schell-vista-fire-protection-district",
+  "identifier": "Measure N",
+  "shortTitle": "Schell-Vista Fire Protection District Appropriations Limit",
+  "officialTitle": null,
+  "measureType": "Appropriations limit (Gann limit) ordinance",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the Schell Vista Fire Protection District adopt Ordinance No. 2026-01 retaining the District’s increased limits on appropriations to assure continued fire, rescue and emergency medical services?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9723_MeasN_Schell-VistaFireProtDist_AppropLimit_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Asks whether the Schell-Vista Fire Protection District should adopt Ordinance No. 2026-01, keeping its increased appropriations limit for four years. The analysis says it does not impose a new assessment or raise the property tax rate.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Schell-Vista Fire Protection District"
+ },
+ {
+  "id": "2026-11-03.ca-sonoma-sd-old-adobe-union-school-district.measure-o",
+  "jurisdiction": "ca-sonoma-sd-old-adobe-union-school-district",
+  "identifier": "Measure O",
+  "shortTitle": "Old Adobe Union School District Bond",
+  "officialTitle": null,
+  "measureType": "Bond",
+  "threshold": "55% of votes",
+  "ballotQuestion": "To improve the quality of education; repair/replace leaky roofs; make health, safety and security improvements; replace outdated HVAC systems; make accessibility (ADA) improvements, modernize classrooms, restrooms and school facilities, including multi-purpose rooms; shall Old Adobe Union School District’s measure be adopted authorizing $48,000,000 of bonds at legal rates, generating on average $2,800,000 annually while bonds are outstanding at approximate rates of $25 per $100,000 assessed value, with annual audits, oversight, no money for salaries, all money staying local?",
+  "sources": [
+   {
+    "label": "Sonoma County official list of local measures that have been filed (last updated Aug 7, 2026)",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-local-measures-that-have-been-filed",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://sonomacounty.gov/Main%20County%20Site/Administrative%20Support%20%26%20Fiscal%20Services/Registrar%20of%20Voters/Documents/Elections/2026/11-03-2026/SoCo_Nov2026GenElec_9419_MeasO_OldAdobeUnionSchlDist_Bond_EN.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Sonoma County ROV, November 3, 2026 General Election Props and Measures on the Ballot",
+    "url": "https://sonomacounty.gov/administrative-support-and-fiscal-services/registrar-of-voters/elections/november-3-2026-general-election-props-and-measures-on-the-ballot",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Authorizes Old Adobe Union School District to issue $48,000,000 in bonds for school facilities, at approximate rates of $25 per $100,000 of assessed value while bonds are outstanding.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Old Adobe Union School District"
+ }
+]

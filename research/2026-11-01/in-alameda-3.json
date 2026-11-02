@@ -1,0 +1,1393 @@
+[
+ {
+  "id": "2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i",
+  "jurisdiction": "ca-alameda-sd-dublin-unified-school-district",
+  "identifier": "Measure I",
+  "title": null,
+  "ballotQuestion": "Shall the measure to support quality education, provide local funding that cannot be taken by the State, maintain small class sizes, attract/retain quality teachers, and provide enhanced science, technology, engineering, visual and performing arts, reading, writing, and math programs, by renewing the expiring $96 school parcel tax, adding $48 per parcel, providing approximately $2,900,000 annually for nine years, with senior exemptions, annual inflation adjustments, independent oversight, and all funds locally controlled, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/dublin_usd_parcel_tax_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Authorizes Dublin Unified School District to levy a nine-year special parcel tax beginning July 1, 2027, at an initial rate of $144 per parcel per year, adjusted each year for inflation.",
+   "yes": "A yes vote authorizes the District to levy a nine-year parcel tax of $144 per parcel per year, adjusted each year for inflation, beginning July 1, 2027.",
+   "no": "If two-thirds of voters do not approve, the measure fails and the District will not be authorized to levy the tax. The existing Measure E parcel tax would continue until June 30, 2028.",
+   "fiscal": "The District estimates the parcel tax will provide approximately $2,900,000 a year.",
+   "argFor": "The argument in favor says that without this locally controlled funding, classrooms will face larger class sizes, reduced academic programs, and greater difficulty recruiting and retaining teachers."
+  },
+  "missing": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (20 pages) is a scan with no text layer except the argument submission form on page 17 (shows an Argument in Favor submitted by Megan Rouse, Individual Voter; this is a cover form, not the printed signature block, so not used). No text version located before the browser connection to the user's computer dropped. OCR not attempted. Resume run: OCR of the county PDF with each excerpt compared to an enlarged render of the page image. Impartial analysis is on pages 15 and 16; argument in favor submission forms on pages 17 to 19 and the argument text on page 20 (the submitted copy shows the measure letter as a blank). Signer names and titles on pages 18 and 19 are handwritten, OCR could not read them, so supporters is left out. The packet contains no argument against and no rebuttals, but no statement that none was filed. The no field's second sentence comes from paragraph 3: 'If the measure fails, Measure E would continue until June 30, 2028, when it will cease to be in effect.' (also image-checked). Excerpts with apostrophes were avoided because curly vs straight quotes cannot be confirmed from OCR.",
+  "previousNotFound": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Dublin Unified School District parcel tax measure (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/dublin_usd_parcel_tax_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-sd-san-lorenzo-unified-school-district.measure-j",
+  "jurisdiction": "ca-alameda-sd-san-lorenzo-unified-school-district",
+  "identifier": "Measure J",
+  "title": null,
+  "ballotQuestion": "To renew expiring local school funding without increasing current tax rates; support academic excellence and programs in reading, writing, math, arts, science and technology; attract and retain highly qualified teachers and staff; and continue stable, local funding the State cannot take away; shall San Lorenzo Unified School District's measure be adopted, renewing its expiring $99 parcel tax for 12 years, providing approximately $1.8 million annually, with senior exemptions, citizen oversight, and no funds for district administrators?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/san_lorenzo_usd_parcel_tax_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure J renews the San Lorenzo Unified School District's expiring special parcel tax at $99 per parcel for twelve years, beginning July 1, 2027.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "$99 per parcel for twelve years beginning July 1, 2027; the District estimates approximately $1,800,000 a year."
+  },
+  "missing": [
+   "yes",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Only the resolution (page 2) and impartial analysis (page 13) have a text layer; argument pages are scanned and were not read. The fiscal text combines paragraph 1 ($99, twelve years, July 1, 2027) with the paragraph 2 excerpt. The analysis does not state what a yes vote does; it says if two-thirds do not approve, the District will not be authorized to levy the tax. Excerpts join PDF line breaks with single spaces.",
+  "previousNotFound": [
+   "yes",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "San Lorenzo Unified School District parcel tax measure (resolution, impartial analysis, arguments)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/san_lorenzo_usd_parcel_tax_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.measure-k",
+  "jurisdiction": "ca-alameda-sd-sunol-glen-unified-school-district",
+  "identifier": "Measure K",
+  "title": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/sunol_glen_usd_bond_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Authorizes Sunol Glen Unified School District to issue and sell up to $6,100,000 in bonds at interest rates within legal limits.",
+   "yes": "If 55% of voters vote yes, the District will be authorized to issue the bonds.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "The District estimates the tax would generate on average approximately $431,700 a year while bonds are outstanding.",
+   "argFor": "The argument in favor says that without this investment, aging facilities will continue to deteriorate, resulting in costly emergency repairs in the future."
+  },
+  "missing": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (21 pages) is a scan with almost no text layer. No text version located before the browser connection dropped. Ballot question also still missing. Resume run: OCR of the county PDF with each excerpt compared to an enlarged render of the page image. Ballot question (abbreviated form, Appendix B, PDF page 14, OCR not image-checked): 'To improve the quality of local education; complete the Main Building retrofit and renovation; replace deteriorating plumbing, electrical, sewer, heating and ventilation systems; and modernize and upgrade old classrooms, and restrooms; shall Sunol Glen Unified School District's measure be adopted authorizing $6,100,000 of bonds at legal rates, generating on average $431,700 annually while bonds are outstanding at approximate rates of $35 per $100,000 assessed value, with audits, citizens' oversight, no money for salaries and funds staying local?' Analysis paragraph 3 (image-checked) also gives an average rate of $33.54 per $100,000 of assessed valuation with the final year at that rate 2058-59, a highest rate of $35.00 per $100,000 through 2056-57, and total debt service of approximately $13,815,000; the sentences carry curly apostrophes so were not used as excerpts. The analysis has no explicit no-vote sentence, so no uses the brief's fallback. Argument in favor signer names on page 20 are handwritten and could not be OCR'd, so supporters is left out. No argument against or rebuttals are in the packet, and no statement that none was filed.",
+  "previousNotFound": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Sunol Glen Unified School District bond measure (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/sunol_glen_usd_bond_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-l",
+  "jurisdiction": "ca-alameda-alameda",
+  "identifier": "Measure L",
+  "title": null,
+  "ballotQuestion": "SAFER Alameda Act — Preparing Alameda for Sea-Level Rise, Accidents, Flooding, Earthquakes, Resilience. To prepare for emergencies, earthquakes and sea-level rise; prevent flooded Tubes; repair potholes; keep streets safe and accessible; maintain response to fires, accidents, and medical emergencies; prevent Bay pollution; and protect shorelines; shall the City of Alameda measure issuing $300,000,000 in bonds, levying $49/$100,000 of assessed value, generating approximately $19,000,000 annually while bonds are outstanding, requiring oversight, public disclosures, and local control, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_alameda_go_bond_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Alameda, The SAFER Alameda Act, Measure L on November 2026 Ballot",
+    "url": "https://www.alamedaca.gov/CITYWIDE-PROJECTS/The-SAFER-Alameda-Act-Measure-L-on-November-2026-Ballot",
+    "type": "Official"
+   },
+   {
+    "label": "Measure L FAQ",
+    "url": "https://www.alamedaca.gov/CITYWIDE-PROJECTS/The-SAFER-Alameda-Act-Measure-L-on-November-2026-Ballot/Frequently-Asked-Questions-About-the-Infrastructure-Bond",
+    "type": "Official"
+   },
+   {
+    "label": "City of Alameda Stronger Together page",
+    "url": "https://alamedaca.gov/StrongerTogether",
+    "type": "Official"
+   },
+   {
+    "label": "INDEPENDENT: Govly summary of Alameda City Council meeting July 21/22 2026 (independent aggregator)",
+    "url": "https://app.govly.com/public/meetings/60967",
+    "type": "Independent"
+   },
+   {
+    "label": "Elections (November 3, 2026 Election, Ballot Measures)",
+    "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Authorizes the City of Alameda to issue $300,000,000 in bonds to prepare for emergencies, earthquakes and sea-level rise, prevent flooding of the Tubes, repair potholes, prevent Bay pollution and protect shorelines, with oversight and public disclosures.",
+   "fiscal": "$300,000,000 in bonds, levying $49 per $100,000 of assessed value and generating approximately $19,000,000 a year while the bonds are outstanding."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (14 pages) is a scan with no text layer. City of Alameda pages listed in the input were not reached before the browser connection dropped. Resume run: City Clerk Elections page lists the ballot question and links the ordinance and resolutions (docs.alamedaca.gov WebLink) but posts no impartial analysis or arguments; it says to contact the City Clerk for arguments. The SAFER Alameda Act project page and FAQ are city informational material, not used for fields. OCR page scan of the county PDF (14 pages) shows only the ballot measure submittal form, Resolution No. 16441, Uncodified Ordinance No. 3408 and its project list; it contains no impartial analysis and no arguments, so yes, no, argFor, argAgainst, supporters and opponents have no official source found.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Alameda GO bond measure (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_alameda_go_bond_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "Elections (November 3, 2026 Election, Ballot Measures)",
+    "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
+    "publisher": "City of Alameda, City Clerk"
+   },
+   {
+    "title": "Ordinance, full text of Measure L",
+    "url": "https://docs.alamedaca.gov/WebLink/DocView.aspx?id=753224&dbid=0&repo=CityofAlameda",
+    "publisher": "City of Alameda"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-m",
+  "jurisdiction": "ca-alameda-alameda",
+  "identifier": "Measure M",
+  "title": null,
+  "ballotQuestion": "Shall the measure amending City Charter Sections 2-1.1, 2-3, 2-10, 3-7(G), 3-14, 7-2(J), 8-2, 8-5, 10-3, 10-6, 10-7, 10-12, 12-4(A) and (B), 14-1, 17-10, 28-2, 28-3 and 28-4, and repealing Sections 12-3(D) and 23-3 to conform to existing practices and amend and repeal outdated provisions be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_alameda_charter_amendment_update_provisions_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Govly meeting summary (independent)",
+    "url": "https://app.govly.com/public/meetings/60967",
+    "type": "Official"
+   },
+   {
+    "label": "Elections (November 3, 2026 Election, Ballot Measures)",
+    "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Amends a list of City Charter sections and repeals Sections 12-3(D) and 23-3 to conform the Charter to existing practices and amend and repeal outdated provisions."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (8 pages) is a scan with no text layer. Input lists a Govly page as type Official; it is an independent aggregator and was not used. Resume run: City Clerk page posts the measure description and the resolution only; no impartial analysis or arguments. OCR page scan of the county PDF (8 pages) shows only the submittal form and Resolution No. 16424 with the full charter text; no impartial analysis or arguments, so fiscal, yes, no and argument fields have no source found.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Alameda charter amendment, update provisions (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_alameda_charter_amendment_update_provisions_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "Elections (November 3, 2026 Election, Ballot Measures)",
+    "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
+    "publisher": "City of Alameda, City Clerk"
+   },
+   {
+    "title": "Resolution placing Measure M on the ballot (full text)",
+    "url": "https://docs.alamedaca.gov/WebLink/DocView.aspx?id=753235&dbid=0&repo=CityofAlameda",
+    "publisher": "City of Alameda"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-n",
+  "jurisdiction": "ca-alameda-alameda",
+  "identifier": "Measure N",
+  "title": null,
+  "ballotQuestion": "Shall the measure amending Section 3-10 of the City Charter to change sales or leases of City real property exceeding one year to be approved by resolution rather than by ordinance and to reduce the City Council approval threshold from supermajority (four affirmative votes) to simple majority (three affirmative votes) for leases of City real property not exceeding ten years be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_alameda_real_property_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Elections (November 3, 2026 Election, Ballot Measures)",
+    "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Amends City Charter Section 3-10 so sales or leases of City real property longer than one year are approved by resolution rather than by ordinance, and lowers the Council vote needed for leases of up to ten years from four votes to three."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (5 pages) is a scan with no text layer. Not researched further before the browser connection dropped. Resume run: City Clerk page posts the measure description and the resolution only; no impartial analysis or arguments. OCR page scan of the county PDF (5 pages) shows only the submittal form and the resolution calling the election; no impartial analysis or arguments, so fiscal, yes, no and argument fields have no source found.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Alameda real property measure (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_alameda_real_property_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "Elections (November 3, 2026 Election, Ballot Measures)",
+    "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
+    "publisher": "City of Alameda, City Clerk"
+   },
+   {
+    "title": "Resolution placing Measure N on the ballot (full text)",
+    "url": "https://docs.alamedaca.gov/WebLink/DocView.aspx?id=753236&dbid=0&repo=CityofAlameda",
+    "publisher": "City of Alameda"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-o",
+  "jurisdiction": "ca-alameda-albany",
+  "identifier": "Measure O",
+  "title": null,
+  "ballotQuestion": "Shall the measure authorizing the Albany City Council to amend the residential voter requirements for zoning changes to the R-1 zoned areas of the City established by Measure D (enacted by the Albany voters in 1978), without majority neighborhood voter approval, after following noticed public hearing and zoning ordinance amendment procedures prescribed by State Law and the Albany Municipal Code, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_albany_zoning_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.albanyca.gov/files/assets/city/v/3/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/1-measure-d-amendment-removing-neighborhood-voter-approval-for-sfr-zoning-amendments-c1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure O Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-o-requirement-for-zoning-changes-in-favor.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure O would amend the Albany Municipal Code so the City can make zoning changes in single family residential (R-1) zoned areas without majority neighborhood voter approval, after following the noticed public hearing and zoning ordinance amendment procedures in State law and the Albany Municipal Code.",
+   "yes": "A yes vote authorizes the City Council to make zoning changes within the R-1 zoned areas without majority neighborhood voter approval.",
+   "no": "A no vote does not authorize the City Council to make zoning changes within the R-1 zoned areas without majority neighborhood voter approval.",
+   "argFor": "The argument in favor says Measure O would create a fair, modern, and accountable zoning process that helps Albany plan responsibly for housing."
+  },
+  "missing": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Not a tax; no fiscal statement in the analysis. Current Measure D rule (1978) requires a petition signed by at least 50% of resident voters within 300 feet. Only an Argument in Favor is posted on the city page (scanned PDF, not read); no Argument Against link is posted, but no official statement that none was filed was seen. Yes excerpt ends with a comma in the source. Resume run: Argument in Favor (scanned) read by OCR and image-checked. Argument in favor signers as read from the page image (in printed order): /s/Peggy McQuaid, Mayor; /s/Jennifer Hansen-Romero, Vice Mayor; /s/Preston Jordan, Councilmember; /s/Robin López, Councilmember; /s/John Miki, Councilmember. Supporters left out under the OCR rule: tesseract read the accented name as 'Lopez' or 'Lépez' while the image clearly shows 'López', so the OCR text does not match the image word for word; a checker can confirm from the scan and fill it.",
+  "previousNotFound": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures for General Municipal Election 2026",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure O",
+    "url": "https://www.albanyca.gov/files/assets/city/v/3/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/1-measure-d-amendment-removing-neighborhood-voter-approval-for-sfr-zoning-amendments-c1.pdf",
+    "publisher": "City of Albany, City Attorney"
+   },
+   {
+    "title": "Measure O Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-o-requirement-for-zoning-changes-in-favor.pdf",
+    "publisher": "City of Albany, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-p",
+  "jurisdiction": "ca-alameda-albany",
+  "identifier": "Measure P",
+  "title": null,
+  "ballotQuestion": "Shall the measure updating the Street Paving and Storm Drain Special Tax, by adding very low-income rebates and low-income tax exemptions and rebates; applying the tax to possessory interests; and if a parcel over 500,000 square feet becomes exempt from this tax, adjusting the rate from $167.65 per equivalent residential unit to $0.0638 per lot square foot as provided in the measure, providing an estimated $1,400,000 annually until ended by voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_albany_street_paving_and_storm_drain_parcel_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/2-street-paving-storm-drain-facility-improvement-parcel-tax-measure-c1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure P Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-p-street-paving-storm-drain-parcel-tax-in-favor.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure P amends Albany's existing special parcel tax for street paving and storm drainage. The rate stays at $167.65 per equivalent residential unit, adjusted by CPI, unless a parcel of 500,000 square feet or larger becomes tax exempt, in which case the Council may levy up to $0.0638 per lot square foot.",
+   "yes": "A yes vote approves this amendment to the street paving and storm drainage parcel tax.",
+   "no": "A no vote does not approve this amendment to the street paving and storm drainage parcel tax.",
+   "fiscal": "Estimated to generate $1,400,000 a year until repealed by voters at a later election.",
+   "argFor": "The argument in favor says Measure P protects funding for streets and storm drains if Golden Gate Fields becomes a park, while also making immediate improvements."
+  },
+  "missing": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Analysis also lists added 50% low-income owner exemption, renter rebates, CPI cap lowered from 5% to 3%, and application to possessory interests. Only an Argument in Favor is posted (scanned, not read). The no sentence spans the page break in the PDF. Resume run: Argument in Favor (scanned) read by OCR and image-checked. Argument in favor signers as read from the page image (in printed order): /s/Peggy McQuaid, Mayor; /s/Jennifer Hansen-Romero, Vice Mayor; /s/Robin López, Councilmember; /s/John Miki, Councilmember; /s/Preston Jordan, Councilmember. Supporters left out under the OCR rule: tesseract read the accented name as 'Lopez' or 'Lépez' while the image clearly shows 'López', so the OCR text does not match the image word for word; a checker can confirm from the scan and fill it.",
+  "previousNotFound": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures for General Municipal Election 2026",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure P",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/2-street-paving-storm-drain-facility-improvement-parcel-tax-measure-c1.pdf",
+    "publisher": "City of Albany, City Attorney"
+   },
+   {
+    "title": "Measure P Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-p-street-paving-storm-drain-parcel-tax-in-favor.pdf",
+    "publisher": "City of Albany, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-q",
+  "jurisdiction": "ca-alameda-albany",
+  "identifier": "Measure Q",
+  "title": null,
+  "ballotQuestion": "Shall the measure updating the Emergency Medical Services, Advanced Life Support, and Fire Protection Special Tax on residential and commercial property, by adding low-income tax exemptions and rebates, and adjusting the rate from $0.0807 per square foot to the new rates as provided in the measure if a parcel over 500,000 square feet in size becomes exempt from this tax, providing an estimated $2,500,000 annually until ended by voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_albany_services_parcel_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/3-ems-als-fire-protection-parcel-tax-measure-november-3-2026-election-c1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure Q Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-q-ems-als-fire-protection-parcel-tax-in-favor.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure Q amends Albany's existing special parcel tax for emergency medical, advanced life support and fire protection services. The rate stays at $0.0807 per lot square foot, adjusted by CPI, unless a parcel of 500,000 square feet or larger becomes tax exempt, in which case the maximum rates set in the measure apply.",
+   "yes": "A yes vote approves this amendment to the EMS/ALS/Fire parcel tax.",
+   "no": "A no vote does not approve this amendment to the EMS/ALS/Fire parcel tax.",
+   "fiscal": "Estimated to generate $2,500,000 a year until repealed by voters at a later election.",
+   "argFor": "The argument in favor says that if Golden Gate Fields becomes publicly owned, Measure Q would restructure the tax to maintain funding for emergency medical services and fire protection."
+  },
+  "missing": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "The trigger rates per the analysis are $0.254 per building square foot for developed properties and $0.110 per lot square foot for undeveloped parcels, both CPI adjusted; CPI cap goes from 5% to 3%. Only an Argument in Favor is posted (scanned, not read). Resume run: Argument in Favor (scanned) read by OCR and image-checked. The opening sentence was not used because OCR inserted a comma after 'Measure Q' that the image does not show. Argument in favor signers as read from the page image (in printed order): /s/Peggy McQuaid, Mayor; /s/Jennifer Hansen-Romero, Vice Mayor; /s/John Miki, Councilmember; /s/Preston Jordan, Councilmember; /s/Robin López, Councilmember. Supporters left out under the OCR rule: tesseract read the accented name as 'Lopez' or 'Lépez' while the image clearly shows 'López', so the OCR text does not match the image word for word; a checker can confirm from the scan and fill it.",
+  "previousNotFound": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures for General Municipal Election 2026",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure Q",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/3-ems-als-fire-protection-parcel-tax-measure-november-3-2026-election-c1.pdf",
+    "publisher": "City of Albany, City Attorney"
+   },
+   {
+    "title": "Measure Q Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-q-ems-als-fire-protection-parcel-tax-in-favor.pdf",
+    "publisher": "City of Albany, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-r",
+  "jurisdiction": "ca-alameda-albany",
+  "identifier": "Measure R",
+  "title": null,
+  "ballotQuestion": "Shall the measure supporting City of Albany general services, such as fire protection, public safety, environmental and community service programs, by increasing the City’s business license tax to those rates specified in the measure, levying the tax upon business gross receipts instead of number of employees, and updating local tax collection procedures, providing an estimated additional $600,000 annually, until ended by voters, with all funds remaining local which cannot be taken by Sacramento be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_albany_general_services_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/4-general-business-license-tax-measure-november-3-2026-election-c1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure R Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-r-business-license-tax-in-favor.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure R Argument Against (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-r-business-license-tax-against.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure R would base Albany's annual business license tax on either flat rates or gross receipts, instead of number of employees, with maximum rates set for each business classification.",
+   "yes": "A yes vote approves this amendment to the City's business license tax code.",
+   "no": "A no vote does not approve this amendment to the City's business license tax code.",
+   "fiscal": "Estimated to generate an additional $600,000 a year. New rates take effect January 1, 2027 and stay in effect until repealed by voters.",
+   "argFor": "The argument in favor says Measure R lowers the tax for more than seven out of ten retail and service businesses.",
+   "argAgainst": "The argument against says a gross receipts tax is an income tax of the worst kind.",
+   "opponents": "Francesco Papalia, Former Member of the City of Albany Financial Advisory Committee."
+  },
+  "missing": [
+   "supporters"
+  ],
+  "previousNotes": "Maximum rates per analysis: residential rental $120 per unit; retail $50 / $200 / $1 per $1,000 above $200,000; other classes $50 / $200 / $5 per $1,000 above $200,000. Argument in favor, argument against and both rebuttals are posted but are scanned PDFs, not read. Resume run: Argument in Favor and Argument Against (scanned) read by OCR and image-checked. Rebuttals were not needed for any field. Argument in favor signers as read from the page image (in printed order): /s/Peggy McQuaid, Mayor; /s/Jennifer Hansen-Romero, Vice Mayor; /s/Preston Jordan, Councilmember; /s/Robin López, Councilmember; /s/John Miki, Councilmember. Supporters left out under the OCR rule: tesseract read the accented name as 'Lopez' or 'Lépez' while the image clearly shows 'López', so the OCR text does not match the image word for word; a checker can confirm from the scan and fill it.",
+  "previousNotFound": [
+   "supporters"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures for General Municipal Election 2026",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure R",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/4-general-business-license-tax-measure-november-3-2026-election-c1.pdf",
+    "publisher": "City of Albany, City Attorney"
+   },
+   {
+    "title": "Measure R Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-r-business-license-tax-in-favor.pdf",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "Measure R Argument Against (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-r-business-license-tax-against.pdf",
+    "publisher": "City of Albany, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-s",
+  "jurisdiction": "ca-alameda-albany",
+  "identifier": "Measure S",
+  "title": null,
+  "ballotQuestion": "To support City of Albany general services, with funding that cannot be taken by Sacramento, including: street and park maintenance, recreation, public safety, and environmental programs, shall a measure adjusting the City’s real property transfer tax rate from $15.00 to between $10.00 and $30.00 per $1,000 purchased, depending upon the property's purchase price, providing an additional $1,000,000 annually, until ended by voters, with all funds remaining local be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_albany_real_property_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/5-general-real-property-transfer-tax-measure-november-3-2026-election-c1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure S Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-s-real-property-transfer-tax-in-favor.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure S Argument Against (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-s-real-property-transfer-tax-against.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Changes Albany's real property transfer tax from $15.00 per $1,000 of purchase price to between $10.00 and $30.00 per $1,000, depending on the purchase price. The city estimates an additional $1,000,000 a year for general services, until ended by voters.",
+   "yes": "A yes vote approves the real property transfer tax rate adjustment.",
+   "no": "A no vote does not approve the real property transfer tax rate adjustment.",
+   "fiscal": "Estimated to generate an additional $1,000,000 a year. New rates take effect January 1, 2027 and stay in effect until repealed by voters.",
+   "argFor": "The argument in favor says Measure S ensures the City continues funding its services by adjusting the transfer tax when properties sell.",
+   "argAgainst": "The argument against says Albany has a housing affordability problem and Measure S makes it worse.",
+   "opponents": "Francesco Papalia, Former Member, City of Albany Financial Advisory Committee"
+  },
+  "missing": [
+   "supporters"
+  ],
+  "previousNotes": "plainEnglish already filled in input, left unchanged. The analysis describes the change as from an across-the-board 1.5% rate to five tiers of 1.0%, 1.5%, 2.0%, 2.5% and 3.0% set by percentile of the prior 12 months' transactions, consistent with the ballot question's $10.00 to $30.00 per $1,000. Argument in favor, argument against and both rebuttals are posted but are scanned PDFs, not read. Resume run: Argument in Favor and Argument Against (scanned) read by OCR and image-checked. Argument in favor signers as read from the page image (in printed order): /s/Peggy McQuaid, Mayor; /s/Jennifer Hansen-Romero, Vice Mayor; /s/Robin López, Councilmember; /s/John Miki, Councilmember; /s/Preston Jordan, Councilmember. Supporters left out under the OCR rule: tesseract read the accented name as 'Lopez' or 'Lépez' while the image clearly shows 'López', so the OCR text does not match the image word for word; a checker can confirm from the scan and fill it.",
+  "previousNotFound": [
+   "supporters"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures for General Municipal Election 2026",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure S",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/5-general-real-property-transfer-tax-measure-november-3-2026-election-c1.pdf",
+    "publisher": "City of Albany, City Attorney"
+   },
+   {
+    "title": "Measure S Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-s-real-property-transfer-tax-in-favor.pdf",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "Measure S Argument Against (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-s-real-property-transfer-tax-against.pdf",
+    "publisher": "City of Albany, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-t",
+  "jurisdiction": "ca-alameda-albany",
+  "identifier": "Measure T",
+  "title": null,
+  "ballotQuestion": "Shall the measure to enact a special parcel tax on non-exempt property in the City at $0.0354 per lot square foot to maintain and improve public street trees and streetlighting to enhance local safety and sustainability, subject to an annual consumer price index adjustment up to 3%, exempting qualifying low-income residents, providing an estimated $775,000 annually until ended by voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_albany_nonexempt_property_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/6-street-trees-streetlighting-parcel-tax-measure-c1.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure T Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-t-street-trees-streetlighting-parcel-tax-in-favor.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Creates a special parcel tax of $0.0354 per lot square foot on non-exempt property to maintain and improve public street trees and streetlighting. It adjusts yearly by the consumer price index up to 3%, exempts qualifying low-income residents, and is estimated to raise $775,000 a year until ended by voters.",
+   "yes": "A yes vote approves this street trees and streetlighting improvement and maintenance parcel tax.",
+   "no": "A no vote does not approve this street trees and streetlighting improvement and maintenance parcel tax.",
+   "fiscal": "$0.0354 per taxable lot square foot starting July 1, 2027, adjusted each year by CPI with a 3% annual cap.",
+   "argFor": "The argument in favor says Measure T would keep Albany safe, green, welcoming, and well cared for."
+  },
+  "missing": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "plainEnglish already filled in input, left unchanged. Analysis also states the tax is estimated to generate $775,000 annually until repealed by voters, and only the first 500,000 lot square feet of a parcel is taxed. Only an Argument in Favor is posted (scanned, not read). Resume run: Argument in Favor (scanned) read by OCR and image-checked. Argument in favor signers as read from the page image (in printed order): /s/Peggy McQuaid, Mayor; /s/Jennifer Hansen-Romero, Vice Mayor; /s/John Miki, Councilmember; /s/Preston Jordan, Councilmember; /s/Robin López, Councilmember. Supporters left out under the OCR rule: tesseract read the accented name as 'Lopez' or 'Lépez' while the image clearly shows 'López', so the OCR text does not match the image word for word; a checker can confirm from the scan and fill it.",
+  "previousNotFound": [
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures for General Municipal Election 2026",
+    "url": "https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026",
+    "publisher": "City of Albany, City Clerk"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure T",
+    "url": "https://www.albanyca.gov/files/assets/city/v/2/city-clerk/documents/elections/2026-election/ballot-measures/city-attorney-impartial-analysis/6-street-trees-streetlighting-parcel-tax-measure-c1.pdf",
+    "publisher": "City of Albany, City Attorney"
+   },
+   {
+    "title": "Measure T Argument in Favor (scanned)",
+    "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-t-street-trees-streetlighting-parcel-tax-in-favor.pdf",
+    "publisher": "City of Albany, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-u",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure U",
+  "title": null,
+  "ballotQuestion": "Shall the measure authorizing issuance of $300,000,000 in general obligation bonds to fund acquisition and improvement of fire stations, emergency response facilities, parks and recreation facilities, and other public infrastructure and facilities, and increase climate resiliency, subject to independent oversight and audits, be adopted? Financial Implications: Average annual taxpayer costs over projected 40 years bonds are outstanding are approximately $22.14 per $100,000 assessed property value; generating approximately $15,200,000/year.",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_bond_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-06/2026-06-16%20Item%2038%20Placing%20a%20General%20Obligation%20Bond%20Measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Authorizes the City of Berkeley to issue $300,000,000 in general obligation bonds for fire stations, emergency response facilities, parks and recreation facilities, other public infrastructure and facilities, and climate resiliency, with independent oversight and audits.",
+   "yes": "A yes vote authorizes the City of Berkeley to issue $300 million of general obligation bonds to finance the acquisition and improvement of real property for public infrastructure and facilities.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "$300 million in general obligation bonds repaid from property taxes. The City estimates average annual taxpayer costs over the projected 40 years the bonds are outstanding of approximately $22.14 per $100,000 of assessed value, generating approximately $15,200,000 per year, with a highest estimated rate of approximately $35 per $100,000 of assessed value beginning in 2040-41."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (15 pages) is a scan with no text layer. The browser connection to the user's computer dropped while reading the Berkeley Nov 2026 Impartial Analyses PDF (berkeleyca.gov), so it was not read. Resume run: Berkeley impartial analyses PDF has a text layer and was read. The analysis has no explicit yes/no sentence; yes paraphrases the approval sentence and no uses the brief's fallback. The city ballot measures page posts full text and impartial analyses only, no arguments. Excerpts join PDF line breaks with single spaces. OCR page scan of the county PDF (15 pages) shows the submittal form, Resolution No. 72,338-N.S., the full text (Exhibit A) and the tax rate statement (Exhibit B); no arguments are included.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Berkeley bond measure (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_bond_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analyses, November 2026",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-v",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure V",
+  "title": null,
+  "ballotQuestion": "Shall the measure levying a 0.5% sales tax in Berkeley, increasing the total sales tax rate in the City to 10.75%, estimated to generate $9,000,000 to $10,000,000 annually, with proceeds placed into the General Fund for general City uses, including but not limited to sustaining fire, police and 911 dispatch services, youth and senior services, and community programs, until ended by the voters, with independent audits, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley%20sales%20tax%20measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-06/2026-06-16%20Item%2039%20Placing%20a%20Transactions%20and%20Use.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Adds a 0.5% sales tax in Berkeley, bringing the total rate to 10.75%. The city estimates $9 to $10 million a year for the General Fund, until ended by voters.",
+   "yes": "A yes vote is a vote in favor of the tax.",
+   "no": "A no vote is a vote against the tax.",
+   "fiscal": "The tax would begin April 1, 2027 and last until ended by the voters. The City estimates it will generate $9 to $10 million a year."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "County PDF (13 pages) is a scan with no text layer. Berkeley impartial analyses PDF not read because the browser connection dropped. Resume run: Berkeley impartial analyses PDF read (text layer). 0.5% and 10.75% appear in paragraph 2 of the analysis: 'increasing the sales tax rate in Berkeley by one-half of one percent (0.5%)' and 'The measure would bring the aggregate sales tax rate in Berkeley to 10.75%'. City page posts no arguments. OCR page scan of the county PDF (13 pages) shows the submittal form, Resolution No. 72,339-N.S. and the ordinance (Exhibit A); no arguments are included.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Berkeley sales tax measure (scanned)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley%20sales%20tax%20measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analyses, November 2026",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-w",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure W",
+  "title": null,
+  "ballotQuestion": "Shall the measure amending the City Charter to reduce candidate filing fees; eliminate signatures in lieu of filing fee process; eliminate certain personal information from candidate statements; clarify and revise initiative, referendum and recall processes; amend election timelines for filling Mayor and Councilmember vacancies; increase the maximum amount from the public campaign financing fund for administration and enforcement from $250,000 to $400,000 per four-year election cycle; and make other changes be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_charter_amendment.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-06/2026-06-16%20Item%2037%20Placing%20a%20Charter%20Amendment.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure W would amend the Berkeley City Charter's rules on election administration and on candidates, initiatives, referenda and recalls. Among other changes, it would replace the $150 candidate filing fee with the amount set in the California Elections Code (currently $25).",
+   "yes": "If you vote yes, the Charter amendments described in the City Attorney's analysis would be adopted.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "Raises the maximum public campaign financing funds usable for Fair Campaign Practices Commission and City staff administration and enforcement costs from $250,000 to $400,000, subject to cost of living adjustments."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Impartial analysis is a text PDF on berkeleyca.gov. The county measure PDF (acvote) is a scan with no text layer; the City of Berkeley page posts no text version of the arguments. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure W)",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures (City of Berkeley elections page)",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley City Clerk"
+   },
+   {
+    "title": "Measure W full text",
+    "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Charter%20Amendment%20-Full%20Text.pdf",
+    "publisher": "City of Berkeley City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure X",
+  "title": null,
+  "ballotQuestion": "Shall the measure to amend the Rent Stabilization and Eviction for Just Cause Ordinance by making most rent control and registration exemptions inapplicable to units that were not exempt when the current tenancy began; allowing modification or waiver of fees for subsidized units owned or leased by nonprofits; changing the annual registration deadline; limiting annual rent increases to ten percent; and allowing tenant associations in smaller properties, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_rent_ordinance.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-07/2026-07-07%20Item%20A%20Placing%20an%20Initiative%20Ordinance.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure X would amend Berkeley's Rent Stabilization and Eviction for Just Cause Ordinance. Changes include applying certain exemptions only if the unit was exempt when the current tenancy began, and prohibiting owners from raising rent by more than 10% in a one-year period.",
+   "yes": "If you vote yes, the amendments to the Rent Stabilization and Eviction for Just Cause Ordinance described in the City Attorney's analysis would be adopted.",
+   "no": "If you vote no, this change would not be made."
+  },
+  "missing": [
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Not a tax measure; the impartial analysis states no fiscal amount, so fiscal is omitted. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found on the City of Berkeley page. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+  "previousNotFound": [
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure X)",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures (City of Berkeley elections page)",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley City Clerk"
+   },
+   {
+    "title": "Measure X full text",
+    "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Rent%20Ordinance%20-%20Full%20Text.pdf",
+    "publisher": "City of Berkeley City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure Y",
+  "title": null,
+  "ballotQuestion": "Shall the measure creating a special parcel tax to fund grants for performing arts organizations, art projects, art organization operational and programmatic expenses and capital projects, community festivals, and administrative costs, with oversight by the City’s Civic Arts Commission, at a rate of $0.07 per square foot of improvements, estimated to generate approximately $6,300,000 annually and $84,800,000 over its twelve-year duration, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_arts_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-07/2026-07-14%20Item%2002%20Initiative%20Petition%20-%20Arts%20Institutions.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure Y, a citizen initiative, would impose a special parcel tax to fund grants to arts institutions and programs, with the Civic Arts Commission reviewing and approving grant applications subject to City Council review.",
+   "yes": "If you vote yes, the special parcel tax to fund arts grants would be imposed starting January 1, 2027.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "$0.07 per square foot of improvements, starting January 1, 2027, with exemptions for certain low-income, nonprofit, affordable and transitional housing properties. The City estimates about $6,300,000 in the first year and $84,800,000 over the 12-year duration."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Impartial analysis states the measure requires a majority vote. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found on the City of Berkeley page. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure Y)",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures (City of Berkeley elections page)",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley City Clerk"
+   },
+   {
+    "title": "Measure Y full text",
+    "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Arts%20Tax%20-%20Full%20Text.pdf",
+    "publisher": "City of Berkeley City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-z",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure Z",
+  "title": null,
+  "ballotQuestion": "Shall the measure creating a special parcel tax to capitalize and support a public bank to fund investments in affordable housing, green energy/infrastructure and small businesses, at rates of $0.06/square foot of residential improvements and $0.09/square foot of non-residential improvements, estimated to generate approximately $9,200,000 the first year and $58,300,000 over its six-year duration, with funds subject to review, allocation and approval by the City Council and regular audits, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_public_bank_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-07/2026-07-14%20Item%2003%20Initiative%20Petition%20%E2%80%93%20Public%20Bank.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure Z, a citizen initiative, would levy a special parcel tax to capitalize and support a public bank that would fund long-term investments in affordable housing, green energy/infrastructure and small businesses, with all funds subject to City Council review, allocation and approval.",
+   "yes": "If you vote yes, the special parcel tax to fund a public bank would be imposed starting January 1, 2027.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "$0.06 per square foot of residential improvements and $0.09 per square foot of non-residential improvements, starting January 1, 2027, adjusted annually for inflation. The City estimates about $9,200,000 in the first year and $58,300,000 over the six-year duration."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Impartial analysis notes state law requires a feasibility study and state approval before a public bank can operate; if no authorization by June 30, 2033, the fund could be used for loans. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure Z)",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures (City of Berkeley elections page)",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley City Clerk"
+   },
+   {
+    "title": "Measure Z text",
+    "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Public%20Bank%20-%20Text.pdf",
+    "publisher": "City of Berkeley City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure AA",
+  "title": null,
+  "ballotQuestion": "Shall the measure replacing the City’s $0.01 per fluid ounce general tax on the distribution of sugar-sweetened beverages with a $0.02 per fluid ounce special tax to fund public health, nutrition, and drinking water accessibility programs by nonprofits, the City, or Berkeley Unified School District, retaining current exemptions for small retailers, milk products, baby formula, alcoholic beverages, and medical and weight-loss products, estimated to generate approximately $2,200,000 annually, until repealed by the voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_soda_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure AA, a citizen initiative, would replace Berkeley's existing $0.01 per fluid ounce general tax on distributing sugar-sweetened beverages with a $0.02 per fluid ounce special tax dedicated to public health, nutrition and drinking water projects and programming.",
+   "yes": "If you vote yes, the $0.02 per fluid ounce special tax would replace the current tax, with collection beginning April 1, 2027.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "$0.02 per fluid ounce, estimated to raise about $2,200,000 annually, about $1,000,000 more than the current tax; adjusted annually for inflation beginning in 2028, capped at 5% a year."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Current SSB tax would be suspended while the new special tax is in effect. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure AA)",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "publisher": "City of Berkeley, City Attorney"
+   },
+   {
+    "title": "Ballot Measures (City of Berkeley elections page)",
+    "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Berkeley City Clerk"
+   },
+   {
+    "title": "Measure AA full text",
+    "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Soda%20Tax%20-%20Full%20Text.pdf",
+    "publisher": "City of Berkeley City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-emeryville.measure-bb",
+  "jurisdiction": "ca-alameda-emeryville",
+  "identifier": "Measure BB",
+  "title": null,
+  "ballotQuestion": "City Services/ Business License Reform Measure. To protect City of Emeryville services/ ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: keep parks/ playgrounds safe; repair potholes/ maintain streets; maintain 9-1-1 response; improve crime prevention; maintain senior/ youth services; general government use; by updating/ simplifying Emeryville’s 42 year old business license rates up to 0.4% of gross receipts (described in the ordinance) until ended by voters, providing $12,400,000 annually, requiring independent oversight?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_emeryville_ordinance_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure BB - Business License Tax Reform",
+    "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure BB would revise Emeryville's business license tax categories and change most of the tax to a percentage of gross receipts.",
+   "yes": "A yes vote would revise the business license tax categories and change the measure of most business license taxes to gross receipts.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "Business license rates up to 0.4% of gross receipts, until ended by voters, providing $12,400,000 annually.",
+   "argFor": "The argument in favor says Measure BB creates a simpler, fairer business license tax structure in which larger, more profitable businesses pay their fair share while small businesses are not unfairly burdened.",
+   "supporters": "SUKHDEEP KAUR, Mayor; MATTHEW SOLOMON, Vice Mayor; DAVID MOURRA, Emeryville Council Member; KALIMAH PRIFORCE, Emeryville Council Member; COURTNEY WELCH, Emeryville Council Member"
+  },
+  "missing": [
+   "argAgainst",
+   "opponents"
+  ],
+  "previousNotes": "Impartial analysis and argument in favor are on the City of Emeryville Measure BB page inside collapsed accordion sections (expand them to see the text). The impartial analysis has no 'a yes vote means' sentence, so yes/no are built from the sentence describing the change. Discrepancy: the ballot question says $12,400,000 annually, while the argument in favor says 'approximately $6 million annually'; fiscal uses the ballot question. The city page posts only an argument in favor; it does not say whether an argument against was filed, so argAgainst/opponents are left out. County measure PDF is a scan. A page-by-page OCR scan of the county PDF (24 pages) found only the clerk certificate, Resolution 26-65 and the ordinance, with no arguments.",
+  "previousNotFound": [
+   "argAgainst",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Measure BB - Business License Tax Reform",
+    "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+    "publisher": "City of Emeryville"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-hayward.measure-cc",
+  "jurisdiction": "ca-alameda-hayward",
+  "identifier": "Measure CC",
+  "title": null,
+  "ballotQuestion": "HAYWARD BUSINESS LICENSE TAX MODERNIZATION: Shall the measure updating the Hayward Business License Tax for the first time since 1978, to support general city services, including neighborhood police protection, firefighting, 911 response, libraries, and pothole repair, generating an additional $12 million annually until repealed, with a minimum tax of $60 and rates from $.30 to $3.75 per $1,000 of gross receipts, with higher rates for higher-grossing businesses, as stated in the ordinance, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_hayward_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure CC would update Hayward's business license tax, which has not been updated since 1978. It would move from flat fees and employee counts to tiered rates on gross receipts, with higher rates for higher-grossing businesses.",
+   "yes": "A yes vote would update and amend the City's business license tax fee schedule.",
+   "no": "A no vote means the 1978 fee schedule would remain in place.",
+   "fiscal": "General tax estimated to generate an additional $12 million for City services.",
+   "argFor": "The argument in favor says Measure CC modernizes a business license tax unchanged since 1978 and generates an additional $12 million annually for city services.",
+   "argAgainst": "No argument against was filed.",
+   "supporters": "Ray Bonilla, Jr., Hayward City Councilmember; Pearl Adre, Hayward resident and owner/operator of Pearl’s Café; Toney Chaplin, Hayward resident and former Hayward Police Chief; Andrew Ghali, President, Hayward Firefighters Local 1909; Jose Carlos Montesinos, Hayward resident"
+  },
+  "missing": [
+   "opponents"
+  ],
+  "previousNotes": "All fields from the City of Hayward ballot measures web page (text, not a scan). The city page states no argument against was received, so opponents is empty. The ballot question on that page contains non-breaking spaces, so the fiscal excerpt comes from the impartial analysis instead. The county measure PDF is a scan and was not needed.",
+  "previousNotFound": [
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Ballot Measures (Notice of ballot measure, impartial analysis, arguments)",
+    "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+    "publisher": "City of Hayward, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-oakland.measure-ff",
+  "jurisdiction": "ca-alameda-oakland",
+  "identifier": "Measure FF",
+  "title": null,
+  "ballotQuestion": "Shall the measure amending Oakland’s Real Property Transfer Tax Ordinance to eliminate the foreclosure exception for all property transfers except transfers converting commercial property to certain housing or healthcare uses, transfers to community banking organizations, and certain transfers of residential properties of four units or less, and allowing the City Council to establish, amend, or remove foreclosure-related exceptions, raising approximately $4-$13 million annually pursuant to tax rates in Oakland Municipal Code section 4.20.020, beginning January 1, 2027 until repealed, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_oakland_real_property_tax.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Oakland Rules and Legislation Committee item 26-0691, June 18, 2026",
+    "url": "https://oakland.granicusideas.com/meetings/9058-star-rules-and-legislation-committee-on-2026-06-18-10-30-am/agenda_items/6a2c486bf395e7928a0056a6-s6-26-0691-subject-resolution-submitting-to-v",
+    "type": "Official"
+   },
+   {
+    "label": "INDEPENDENT: KQED voter guide, Measure FF",
+    "url": "https://www.kqed.org/voterguide/alameda/measure-ff",
+    "type": "Independent"
+   },
+   {
+    "label": "INDEPENDENT: Citeline, The Oakland November 2026 Ballot, Explained",
+    "url": "https://citeline.substack.com/p/the-oakland-november-2026-ballot",
+    "type": "Independent"
+   },
+   {
+    "label": "Real Estate Transfer Tax Foreclosure Amendment Measure (resolution, ordinance, impartial analyses, argument)",
+    "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure FF would amend Oakland's Real Property Transfer Tax to end the general exemption for foreclosure-related transfers, keeping exceptions only for transfers converting commercial property to certain housing or healthcare uses, transfers to community banking organizations, and transfers of properties of four residential units or less to a natural person or family trust.",
+   "yes": "A yes vote would eliminate the general foreclosure exception to the Real Property Transfer Tax, except for the listed transfers.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "The City Auditor estimates between $10.4 and $13.8 million of revenue in the first year.",
+   "argFor": "The argument in favor says the measure closes a loophole so foreclosure transfers are taxed fairly, while exempting homeowners in foreclosure and regular homebuyers.",
+   "supporters": "Charlene Wang, District 2 Councilmember, Public Safety Chair; Barbara Lee, Mayor; Mike Petohouff, Budget Advisory Commission Chair, Real Estate Professional; Robert Apodaca, Co-Founder of Two Hundred for Homeownership and Casita Coalition, Housing Finance Expert; Raymond Lankford, Pastor, CEO, Oakland Private Industry Council"
+  },
+  "missing": [
+   "argAgainst",
+   "opponents"
+  ],
+  "previousNotes": "Source is the City of Oakland City Clerk PDF linked from the Elections page (9 scanned pages, no text layer): pages 1-4 resolution, 5-6 ordinance, 7 City Attorney impartial legal analysis, 8 City Auditor impartial financial analysis, 9 argument in favor. All excerpts were read by OCR (tesseract.js) and compared with zoomed images of the rendered page. The signature excerpt was OCR'd from a crop with the clerk's filed stamp masked; the words match the image. Revenue discrepancy: the ballot question (input) says approximately $4-$13 million annually; the City Auditor estimates $10.4-$13.8 million in the first year (and implementation costs of $592,900 to $651,100 in the first year). The impartial analysis has no explicit 'a yes vote means' sentence, so yes/no are built from the sentence describing the change. This city PDF contains only the argument in favor; whether an argument against was filed could not be determined (county PDF is a scan and was not OCR'd), so argAgainst/opponents are left out.",
+  "previousNotFound": [
+   "argAgainst",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "Elections (November 2026 Election documents)",
+    "url": "https://www.oaklandca.gov/Government/Elections",
+    "publisher": "City of Oakland, City Clerk"
+   },
+   {
+    "title": "Real Estate Transfer Tax Foreclosure Amendment Measure (resolution, ordinance, impartial analyses, argument)",
+    "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+    "publisher": "City of Oakland, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-piedmont.measure-gg",
+  "jurisdiction": "ca-alameda-piedmont",
+  "identifier": "Measure GG",
+  "title": null,
+  "ballotQuestion": "Shall the measure, providing funding for City of Piedmont’s essential city services, such as police, fire, and emergency medical response; and maintenance of aging City buildings, parks, stormwater drains, roads and sidewalks, by increasing the real estate transfer tax from 1.3% to 1.75% to be more in line with neighboring cities and to generate approximately $1,500,000 annually in general tax revenue until ended by voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Piedmont news, Ballot measure arguments due August 3, 2026",
+    "url": "https://www.piedmont.ca.gov/news/ballot_measure_arguments_due_august_3_2026",
+    "type": "Official"
+   },
+   {
+    "label": "Argument in Favor of Measure GG",
+    "url": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/To%20Post%20-%20Argument%20in%20Favor.pdf?v=4RGbmtVR4",
+    "type": "Official"
+   },
+   {
+    "label": "November 3, 2026 General Municipal Election (Measure GG section)",
+    "url": "https://piedmont.ca.gov/services___departments/city_clerk/elections/november_3__2026_general_municipal_election",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure GG would increase Piedmont's real property conveyance tax, charged when property is sold or transferred, from $13.00 to $17.50 per $1,000 of transfer price (1.3% to 1.75%), with the revenue available for any City general revenue purpose.",
+   "yes": "If you vote yes, the real property conveyance tax would increase from 1.3% to 1.75% of the transfer price.",
+   "no": "If you vote no, this change would not be made.",
+   "fiscal": "Rate rises from $13.00 to $17.50 per $1,000 of transfer price; estimated to generate approximately $1,521,000 of additional revenue annually, unrestricted general revenue.",
+   "argFor": "The argument in favor says the measure will generate approximately $1,500,000 a year that stays in Piedmont to support essential city services.",
+   "argAgainst": "No argument against was filed.",
+   "supporters": "Betsy Smegal Andersen, Mayor, City of Piedmont; Conna McCarthy, Vice Mayor, City of Piedmont; Ruchi Medhekar, President, Piedmont Board of Education; Robert S. McBain, Chair, Budget Advisory and Financial Planning Committee; Kim M. Hunter, Retired Alameda County Senior Deputy District Attorney"
+  },
+  "missing": [
+   "opponents"
+  ],
+  "previousNotes": "Only PDF page 15 (impartial analysis) has a text layer; pages 1-14 are scans. The impartial analysis estimates $1,521,000 annually while the ballot question says approximately $1,500,000. Measure letter is blank in the analysis text. Browser connection to the user's device was lost before the arguments could be OCR'd or the Piedmont city page checked. Resume (Nov 1): the City of Piedmont November 3, 2026 election page states no argument opposing Measure GG was filed. The argument in favor is posted by the city as a separate scanned PDF; argFor and supporters were read by OCR and checked against a zoomed image of the page. The posted copy shows printed names under blank signature lines and a City Clerk received stamp dated Aug 03 2026. The city's analysis PDF ('To Post - Analysis.pdf') and FAQ were not re-read since plainEnglish/yes/no/fiscal already existed.",
+  "previousNotFound": [
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Piedmont Real Property Tax Measure (county measure PDF)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "November 3, 2026 General Municipal Election (Measure GG section)",
+    "url": "https://piedmont.ca.gov/services___departments/city_clerk/elections/november_3__2026_general_municipal_election",
+    "publisher": "City of Piedmont, City Clerk"
+   },
+   {
+    "title": "Argument in Favor of Measure GG",
+    "url": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/To%20Post%20-%20Argument%20in%20Favor.pdf?v=4RGbmtVR4",
+    "publisher": "City of Piedmont, City Clerk"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-union-city.measure-ii",
+  "jurisdiction": "ca-alameda-union-city",
+  "identifier": "Measure II",
+  "title": null,
+  "ballotQuestion": "Union City Essential Services Extension Measure. To maintain critical city services, including 9-1-1 emergency response/paramedics/fire protection; street/pothole repair; neighborhood police patrols; crime/gun violence prevention programs; youth/senior programs; and other city services, shall the measure extending the City of Union City’s existing voter-approved utility users tax for 9 years at the current 5% rate (no increase), providing $7,000,000 annually, with senior/ low-income exemptions, annual audits, and all funds locally controlled, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "List of Ballot Measure(s) (Measure II)",
+    "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Measure II would extend Union City's existing 5% utility users tax on telecommunications, video, electricity and gas services for nine more years, until December 31, 2037, without a rate increase, keeping exemptions for seniors 70 and older and low-income persons.",
+   "yes": "A yes vote approves extending the voter-approved utility users tax for nine years at the current rate.",
+   "no": "A no vote does not extend the utility users tax, and it would no longer be levied after December 31, 2028.",
+   "fiscal": "Continues the 5% utility users tax for nine years until December 31, 2037, with no rate increase; generates approximately $7 million annually as a general tax.",
+   "argFor": "The argument in favor says the utility users tax is set to expire and, if it does, Union City would lose approximately $7,000,000 a year, forcing deep cuts to essential services; Measure II renews it at the current rate without increasing taxes.",
+   "argAgainst": "No argument against was filed."
+  },
+  "missing": [
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "Only PDF page 11 (impartial analysis) has a text layer, and it appears to be an embedded OCR layer from the scan (artifacts such as 'Measure_' and 'DATED. 7/27 120»'). Excerpts were chosen from clean sentences but were NOT compared against the page image because the browser connection was lost; a checker should verify them against the image. Pages 1-10 are scans; arguments not read. Resume (Nov 1): the City of Union City 'List of Ballot Measure(s)' page has the impartial analysis, argument for, and a rebuttal as HTML text (inside expandable sections). It states 'None received.' for the argument against. A rebuttal to the argument in favor is posted, signed by Marcus Crawley, President, Alameda County Taxpayers' Association; it is a rebuttal, not an argument against, so opponents is left empty. The existing yes/no excerpts use straight quotes (\"Yes\"/\"No\"); the city page uses curly quotes (“Yes”/“No”); the wording otherwise matches the city page text, which a checker can use instead of the scan.",
+  "previousNotFound": [
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "City of Union City UUT Measure (county measure PDF)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   },
+   {
+    "title": "List of Ballot Measure(s) (Measure II)",
+    "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
+    "publisher": "City of Union City"
+   }
+  ]
+ }
+]

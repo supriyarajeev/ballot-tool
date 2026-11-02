@@ -1,0 +1,400 @@
+[
+ {
+  "id": "2026-11-03.ca-san-mateo.measure-l",
+  "jurisdiction": "ca-san-mateo",
+  "identifier": "Measure L",
+  "shortTitle": "San Mateo County Charter Amendment Measure – Extreme Weather Events",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the San Mateo County Charter be amended to add a provision to the Charter Preamble designating long-term resilience to extreme weather events as a County priority?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ML-ImpartialAnalysis-SMC-Charter-Extreme-Weather.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Adds a provision to the County Charter Preamble designating long-term resilience to extreme weather events as a County priority.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo County"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo.measure-aa",
+  "jurisdiction": "ca-san-mateo",
+  "identifier": "Measure AA",
+  "shortTitle": "San Mateo County Charter Amendment Measure – Affirmation of Rights",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the San Mateo County Charter be amended to add a provision to the Charter Preamble affirming the County’s commitment to the dignity, civil rights, and equal protection of all County residents?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MAA-ImpartialAnalysis-SMC-Charter-Affirmation-of-Rights.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Adds a provision to the County Charter Preamble affirming the County’s commitment to the dignity, civil rights, and equal protection of all County residents.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo County"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo.measure-j",
+  "jurisdiction": "ca-san-mateo",
+  "identifier": "Measure J",
+  "shortTitle": "San Mateo County Charter Amendment Measure – Extension to Call a Special Election or Appoint",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the San Mateo County Charter be amended to extend the period in which the County Board of Supervisors is required to either call a special election or make an appointment in the event of a vacancy in an elected office other than the Board of Supervisors from 30 days to 60 days, and to require the Board to conduct at least one public meeting to receive public comment prior to any appointment?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MJ-ImpartialAnalysis-SMC-Charter-Extension-to-Call%20Special%20Election.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Gives the Board of Supervisors 60 days instead of 30 to call a special election or make an appointment when an elected office other than the Board becomes vacant. The Board would have to hold at least one public meeting for public comment before any appointment.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo County"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo.measure-u",
+  "jurisdiction": "ca-san-mateo",
+  "identifier": "Measure U",
+  "shortTitle": "San Mateo County Charter Amendment Measure – Reapportionment of Supervisorial Districts",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the San Mateo County Charter be amended to require that supervisorial districts be reapportioned following each federal decennial census by an independent redistricting commission pursuant to applicable provisions of the California Elections Code?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://smcacre.gov/system/files/2026-07/San%20Mateo%20County%20Amendments.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MU-ImpartialAnalysis-SMC-Charter-Reapportionment.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Requires an independent redistricting commission to redraw supervisorial districts after each federal census, under the California Elections Code.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo County"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-sd-burlingame-school-district.measure-r",
+  "jurisdiction": "ca-san-mateo-sd-burlingame-school-district",
+  "identifier": "Measure R",
+  "shortTitle": "Bond Measure",
+  "officialTitle": null,
+  "measureType": "Bond Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MR-ImpartialAnalysis-Burlingame-ESD-Bond.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Burlingame School District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-sd-cabrillo-unified-school-district.measure-z",
+  "jurisdiction": "ca-san-mateo-sd-cabrillo-unified-school-district",
+  "identifier": "Measure Z",
+  "shortTitle": "Parcel Tax Measure",
+  "officialTitle": null,
+  "measureType": "Parcel Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MZ-ImpartialAnalysis-Cabrillo-USD-Parcel-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Cabrillo Unified School District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-sd-jefferson-union-high-school-district.measure-m",
+  "jurisdiction": "ca-san-mateo-sd-jefferson-union-high-school-district",
+  "identifier": "Measure M",
+  "shortTitle": "Parcel Tax Measure",
+  "officialTitle": null,
+  "measureType": "Parcel Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MM-ImpartialAnalysis-JUHSD-Parcel-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Jefferson Union High School District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-sd-pacifica-school-district.measure-t",
+  "jurisdiction": "ca-san-mateo-sd-pacifica-school-district",
+  "identifier": "Measure T",
+  "shortTitle": "Parcel Tax Measure",
+  "officialTitle": null,
+  "measureType": "Parcel Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MT-ImpartialAnalysis-Pacifica-SD-Parcel-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Pacifica School District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-sd-san-carlos-school-district.measure-k",
+  "jurisdiction": "ca-san-mateo-sd-san-carlos-school-district",
+  "identifier": "Measure K",
+  "shortTitle": "Parcel Tax Measure",
+  "officialTitle": null,
+  "measureType": "Parcel Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MK-ImpartialAnalysis-San-Carlos-SD-Parcel-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Carlos School District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-ccd-san-mateo-county-community-college-district.measure-v",
+  "jurisdiction": "ca-san-mateo-ccd-san-mateo-county-community-college-district",
+  "identifier": "Measure V",
+  "shortTitle": "Bond Measure",
+  "officialTitle": null,
+  "measureType": "Bond Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-ImpartialAnalysis-SMCCD-Bond.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo County Community College District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-sd-san-mateo-foster-city-school-district.measure-w",
+  "jurisdiction": "ca-san-mateo-sd-san-mateo-foster-city-school-district",
+  "identifier": "Measure W",
+  "shortTitle": "Bond Measure",
+  "officialTitle": null,
+  "measureType": "Bond Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MW-ImpartialAnalysis-SMFCSD-Bond.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo-Foster City School District"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-belmont.measure-y",
+  "jurisdiction": "ca-san-mateo-belmont",
+  "identifier": "Measure Y",
+  "shortTitle": "Special Tax Measure",
+  "officialTitle": null,
+  "measureType": "Special Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MY-ImpartialAnalysis-Belmont-Special-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Belmont"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-brisbane.measure-x",
+  "jurisdiction": "ca-san-mateo-brisbane",
+  "identifier": "Measure X",
+  "shortTitle": "Business License Tax Measure",
+  "officialTitle": null,
+  "measureType": "Business License Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MX-ImpartialAnalysis-City-of-Brisbane-Business-License-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Brisbane"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-burlingame.measure-d",
+  "jurisdiction": "ca-san-mateo-burlingame",
+  "identifier": "Measure D",
+  "shortTitle": "Transient Occupancy Tax Measure",
+  "officialTitle": null,
+  "measureType": "Transient Occupancy Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MD-ImpartialAnalysis-Burlingame-Occupancy-Tax_Redacted.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Burlingame"
+ }
+]

@@ -525,6 +525,14 @@ const isErrorPage = async (p) => { const h = await H1(p); return /^Not found$|So
   ok((await main(p)).includes(OUTSIDE_BAY_MSG), "outside-Bay message exact on #/ballot/ca-fresno");
   ok((await p.$$eval('.group[data-group="state"] .row', (r) => r.length)) === statewide.length, `outside-Bay ballot keeps the ${statewide.length} statewide items`);
   ok(await p.locator('main a[href^="propositions.html"]').count(), "outside-Bay page links to the statewide propositions");
+  // Change place from a county outside the Bay Area opens the place picker (Nov 1, 2026), not the statewide page.
+  await go(p, "#/ballot/ca-amador", ".group");
+  await p.click('main a.back:has-text("Change place")'); await p.waitForSelector("#findform");
+  await chooseCounty(p, "ca-santa-clara"); await citySelect(p).selectOption("ca-santa-clara-sunnyvale"); await p.click("#go"); await p.waitForTimeout(300);
+  ok((await p.evaluate(() => location.hash)) === "#/ballot/ca-santa-clara/ca-santa-clara-sunnyvale", "Change place from Amador opens the picker, and a Bay Area city can be chosen again");
+  await go(p, "#/ballot/ca-amador", ".group"); await p.click('main a.back:has-text("Change place")'); await p.waitForSelector("#findform");
+  await p.click('main a:has-text("See statewide California propositions")'); await p.waitForTimeout(300);
+  ok((await p.evaluate(() => location.hash)) === "#/statewide", "the picker still leads to other California counties through the statewide page");
   await go(p, "#/");
   const stLinks = await p.$$eval('main a[href^="#/"]', (as) => as.filter((a) => /statewide/i.test(a.textContent)).map((a) => a.getAttribute("href")));
   let found = false;

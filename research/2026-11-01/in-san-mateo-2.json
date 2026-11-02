@@ -1,0 +1,445 @@
+[
+ {
+  "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-o",
+  "jurisdiction": "ca-san-mateo-east-palo-alto",
+  "identifier": "Measure O",
+  "shortTitle": "Bond Measure",
+  "officialTitle": null,
+  "measureType": "Bond Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "East Palo Alto"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-cc",
+  "jurisdiction": "ca-san-mateo-east-palo-alto",
+  "identifier": "Measure CC",
+  "shortTitle": "Term Limits Measure",
+  "officialTitle": null,
+  "measureType": "Term Limits Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "East Palo Alto"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-i",
+  "jurisdiction": "ca-san-mateo-half-moon-bay",
+  "identifier": "Measure I",
+  "shortTitle": "Coastal Land Use Measure",
+  "officialTitle": null,
+  "measureType": "Coastal Land Use Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Half Moon Bay"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-q",
+  "jurisdiction": "ca-san-mateo-half-moon-bay",
+  "identifier": "Measure Q",
+  "shortTitle": "Housing Initiative Measure",
+  "officialTitle": null,
+  "measureType": "Housing Initiative Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Half Moon Bay"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-menlo-park.measure-p",
+  "jurisdiction": "ca-san-mateo-menlo-park",
+  "identifier": "Measure P",
+  "shortTitle": "Citizen Initiative to Amend Municipal Code",
+  "officialTitle": null,
+  "measureType": "Initiative (citizen-sponsored ordinance)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Should the measure, which prohibits the City of Menlo Park from making changes to City-owned downtown parking lot properties, including selling, leasing, or conveying any of the properties, authorizing a new use such as housing development on any of the properties, or modifying, altering, or constructing improvements on any of the properties, if such change would diminish parking availability, access or convenience, unless the voters pass another ballot measure to approve the change, be adopted?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/7008-calling-parking-lot-initiative-general-election-nov-3-2026.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://www.menlopark.gov/files/sharedassets/public/v/1/city-managers-office/documents/city-clerk/2026-election/measure/impartial-analysis-downtown-parking-ordinance.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Menlo Park, Measure P page",
+    "url": "https://www.menlopark.gov/Government/Departments/City-Managers-Office/City-Clerk/Elections/Nov.-3-2026-General-Election/Measure-P",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Menlo Park"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-pacifica.measure-bb",
+  "jurisdiction": "ca-san-mateo-pacifica",
+  "identifier": "Measure BB",
+  "shortTitle": "Transactions and Use Tax Measure",
+  "officialTitle": null,
+  "measureType": "Transactions and Use Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Pacifica"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-portola-valley.measure-n",
+  "jurisdiction": "ca-san-mateo-portola-valley",
+  "identifier": "Measure N",
+  "shortTitle": "Town Charter and Property Transfer Tax Measure",
+  "officialTitle": null,
+  "measureType": "Town Charter and Property Transfer Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Portola Valley"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-redwood-city.measure-e",
+  "jurisdiction": "ca-san-mateo-redwood-city",
+  "identifier": "Measure E",
+  "shortTitle": "Rent Control and Eviction Limits Initiative",
+  "officialTitle": null,
+  "measureType": "Rent Control and Eviction Limits Initiative",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Redwood City 2026 Municipal Election Information",
+    "url": "https://www.redwoodcity.org/departments/city-clerk/voter-and-election-information/2026-municipal-election-information",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Redwood City"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-bruno.measure-s",
+  "jurisdiction": "ca-san-mateo-san-bruno",
+  "identifier": "Measure S",
+  "shortTitle": "Housing Permits and Developments Measure",
+  "officialTitle": null,
+  "measureType": "Ordinance (repeal of initiative ordinance)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall City of San Bruno Ordinance No. 1284, the 1977 zoning initiative that requires voter approval before the City Council can approve buildings exceeding specified height limits, residential density increases beyond 1974 zoning, multi-story parking structures, and certain roadway changes, be repealed given that State housing laws supersede local height limits and the ordinance interacts with current City economic development goals?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9338",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Bruno"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-bruno.measure-dd",
+  "jurisdiction": "ca-san-mateo-san-bruno",
+  "identifier": "Measure DD",
+  "shortTitle": "Fireworks Ban Measure",
+  "officialTitle": null,
+  "measureType": "Ordinance",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the City of San Bruno Safe and Sane Fireworks Ordinance be repealed to prohibit the sale, use, and discharge of safe and sane fireworks in the City of San Bruno?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9336",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": "Repeals the City of San Bruno Safe and Sane Fireworks Ordinance to prohibit the sale, use, and discharge of safe and sane fireworks in the City of San Bruno.",
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Bruno"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-bruno.measure-ee",
+  "jurisdiction": "ca-san-mateo-san-bruno",
+  "identifier": "Measure EE",
+  "shortTitle": "Business License Tax Measure",
+  "officialTitle": null,
+  "measureType": "Tax (general tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "San Bruno Essential Services Protection Measure. To protect essential services such as: fixing potholes/city streets; providing rapid response to 9-1-1 emergency calls; maintaining library programs for children, teens, adults/seniors; maintaining parks/open space; and general city services, shall the measure be adopted simplifying/modernizing San Bruno’s business license ordinance, making rates more equitable/equal, updating the tax rate schedule as described in the ordinance, until ended by voters, raising $4,000,000 annually, with annual independent audits?",
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://www.sanbruno.ca.gov/DocumentCenter/View/9352",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Bruno"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-carlos.measure-g",
+  "jurisdiction": "ca-san-mateo-san-carlos",
+  "identifier": "Measure G",
+  "shortTitle": "Transactions and Use Tax Measure",
+  "officialTitle": null,
+  "measureType": "Transactions and Use Tax Measure",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ImpartialAnalysis-City-of-San-Carlos-Use-Tax.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Carlos"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-mateo.measure-h",
+  "jurisdiction": "ca-san-mateo-san-mateo",
+  "identifier": "Measure H",
+  "shortTitle": "Transactions and Use Tax Measure",
+  "officialTitle": null,
+  "measureType": "Tax (transactions and use tax)",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of San Mateo Citywide Ballot Measures",
+    "url": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures",
+    "type": "Official"
+   },
+   {
+    "label": "City of San Mateo Ballot Measure Arguments",
+    "url": "https://www.cityofsanmateo.org/4822/Ballot-Measure-Arguments",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo"
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-mateo.measure-f",
+  "jurisdiction": "ca-san-mateo-san-mateo",
+  "identifier": "Measure F",
+  "shortTitle": "Charter Amendment Measure",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "San Mateo County official election page, local measures",
+    "url": "https://smcacre.gov/elections/november-3-2026-statewide-general-election",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of San Mateo Citywide Ballot Measures",
+    "url": "https://www.cityofsanmateo.org/4804/Citywide-Ballot-Measures",
+    "type": "Official"
+   },
+   {
+    "label": "City of San Mateo Ballot Measure Arguments",
+    "url": "https://www.cityofsanmateo.org/4822/Ballot-Measure-Arguments",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "San Mateo"
+ }
+]

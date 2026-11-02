@@ -1,0 +1,784 @@
+[
+  {
+    "id": "2026-11-03.ca-alameda-berkeley.measure-w",
+    "officialPages": [
+      {
+        "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure W)",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "publisher": "City of Berkeley, City Attorney"
+      },
+      {
+        "title": "Ballot Measures (City of Berkeley elections page)",
+        "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+        "publisher": "City of Berkeley City Clerk"
+      },
+      {
+        "title": "Measure W full text",
+        "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Charter%20Amendment%20-Full%20Text.pdf",
+        "publisher": "City of Berkeley City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure W would amend the Berkeley City Charter's rules on election administration and on candidates, initiatives, referenda and recalls. Among other changes, it would replace the $150 candidate filing fee with the amount set in the California Elections Code (currently $25).",
+        "excerpt": "If approved, the measure would amend provisions of the Berkeley City Charter pertaining to election administration and procedures and requirements affecting candidates, initiatives, referenda, and recalls, and other changes.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure W, paragraph 2 and item 1 (page 4)"
+      },
+      "yes": {
+        "text": "If you vote yes, the Charter amendments described in the City Attorney's analysis would be adopted.",
+        "excerpt": "The Charter amendment will be adopted if the measure is approved by a simple majority of voters.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure W, final paragraph (page 5)"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "If approved, the measure would amend provisions of the Berkeley City Charter pertaining to election administration and procedures and requirements affecting candidates, initiatives, referenda, and recalls, and other changes.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure W, paragraph 2 (page 4)"
+      },
+      "fiscal": {
+        "text": "Raises the maximum public campaign financing funds usable for Fair Campaign Practices Commission and City staff administration and enforcement costs from $250,000 to $400,000, subject to cost of living adjustments.",
+        "excerpt": "Increase the maximum amount of public campaign financing funds which may be used for Berkeley Fair Campaign Practices Commission (“FCPC”) and City staff administrative and enforcement costs related to the public campaign financing program from $250,000 to $400,000, which is subject to cost of living adjustments.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure W, item 3 (page 4)"
+      }
+    },
+    "notes": "Impartial analysis is a text PDF on berkeleyca.gov. The county measure PDF (acvote) is a scan with no text layer; the City of Berkeley page posts no text version of the arguments. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+    "notFound": [
+      "argFor",
+      "argAgainst",
+      "supporters",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+    "officialPages": [
+      {
+        "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure X)",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "publisher": "City of Berkeley, City Attorney"
+      },
+      {
+        "title": "Ballot Measures (City of Berkeley elections page)",
+        "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+        "publisher": "City of Berkeley City Clerk"
+      },
+      {
+        "title": "Measure X full text",
+        "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Rent%20Ordinance%20-%20Full%20Text.pdf",
+        "publisher": "City of Berkeley City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure X would amend Berkeley's Rent Stabilization and Eviction for Just Cause Ordinance. Changes include applying certain exemptions only if the unit was exempt when the current tenancy began, and prohibiting owners from raising rent by more than 10% in a one-year period.",
+        "excerpt": "If approved, the measure would amend the Rent Stabilization and Eviction for Just Cause Ordinance (the “Ordinance”) by:",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure X, paragraph 2 and items 1 and 2 (page 6)"
+      },
+      "yes": {
+        "text": "If you vote yes, the amendments to the Rent Stabilization and Eviction for Just Cause Ordinance described in the City Attorney's analysis would be adopted.",
+        "excerpt": "The measure will be adopted if approved by a simple majority of voters.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure X, final paragraph (page 7)"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "If approved, the measure would amend the Rent Stabilization and Eviction for Just Cause Ordinance (the “Ordinance”) by:",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure X, paragraph 2 (page 6)"
+      }
+    },
+    "notes": "Not a tax measure; the impartial analysis states no fiscal amount, so fiscal is omitted. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found on the City of Berkeley page. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+    "notFound": [
+      "fiscal",
+      "argFor",
+      "argAgainst",
+      "supporters",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+    "officialPages": [
+      {
+        "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure Y)",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "publisher": "City of Berkeley, City Attorney"
+      },
+      {
+        "title": "Ballot Measures (City of Berkeley elections page)",
+        "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+        "publisher": "City of Berkeley City Clerk"
+      },
+      {
+        "title": "Measure Y full text",
+        "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Arts%20Tax%20-%20Full%20Text.pdf",
+        "publisher": "City of Berkeley City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure Y, a citizen initiative, would impose a special parcel tax to fund grants to arts institutions and programs, with the Civic Arts Commission reviewing and approving grant applications subject to City Council review.",
+        "excerpt": "This measure would impose a special parcel tax to fund arts institutions and programs through grants.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Y, paragraph 2 (page 8)"
+      },
+      "yes": {
+        "text": "If you vote yes, the special parcel tax to fund arts grants would be imposed starting January 1, 2027.",
+        "excerpt": "If adopted, the tax would be imposed starting January 1, 2027, at a rate of $0.07 per square foot of improvements on all properties,",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Y, paragraph 2 (page 8)"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "This measure would impose a special parcel tax to fund arts institutions and programs through grants.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Y, paragraph 2 (page 8)"
+      },
+      "fiscal": {
+        "text": "$0.07 per square foot of improvements, starting January 1, 2027, with exemptions for certain low-income, nonprofit, affordable and transitional housing properties. The City estimates about $6,300,000 in the first year and $84,800,000 over the 12-year duration.",
+        "excerpt": "The City estimates the tax would raise approximately $6,300,000 in the first year, and $84,800,000 over its 12-year duration.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Y, paragraph 2 (page 8)"
+      }
+    },
+    "notes": "Impartial analysis states the measure requires a majority vote. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found on the City of Berkeley page. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+    "notFound": [
+      "argFor",
+      "argAgainst",
+      "supporters",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-berkeley.measure-z",
+    "officialPages": [
+      {
+        "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure Z)",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "publisher": "City of Berkeley, City Attorney"
+      },
+      {
+        "title": "Ballot Measures (City of Berkeley elections page)",
+        "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+        "publisher": "City of Berkeley City Clerk"
+      },
+      {
+        "title": "Measure Z text",
+        "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Public%20Bank%20-%20Text.pdf",
+        "publisher": "City of Berkeley City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure Z, a citizen initiative, would levy a special parcel tax to capitalize and support a public bank that would fund long-term investments in affordable housing, green energy/infrastructure and small businesses, with all funds subject to City Council review, allocation and approval.",
+        "excerpt": "Proceeds from the tax would be placed into a special fund to capitalize and support a public bank to fund long-term investments in affordable housing, green energy/infrastructure and small businesses.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Z, paragraph 4 (page 10)"
+      },
+      "yes": {
+        "text": "If you vote yes, the special parcel tax to fund a public bank would be imposed starting January 1, 2027.",
+        "excerpt": "If adopted, the tax would be imposed starting January 1, 2027, at a rate of $0.06 per square foot of improvements for all residential property and $0.09 per square foot of improvements for all non-residential property.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Z, paragraph 3 (page 10)"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "This measure would levy a special parcel tax to fund a public bank,",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Z, paragraph 2 (page 10)"
+      },
+      "fiscal": {
+        "text": "$0.06 per square foot of residential improvements and $0.09 per square foot of non-residential improvements, starting January 1, 2027, adjusted annually for inflation. The City estimates about $9,200,000 in the first year and $58,300,000 over the six-year duration.",
+        "excerpt": "The City estimates the tax would raise approximately $9,200,000 in the first year, and $58,300,000 over its six-year duration.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure Z, paragraph 3 (page 10); inflation adjustment on page 11"
+      }
+    },
+    "notes": "Impartial analysis notes state law requires a feasibility study and state approval before a public bank can operate; if no authorization by June 30, 2033, the fund could be used for loans. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+    "notFound": [
+      "argFor",
+      "argAgainst",
+      "supporters",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+    "officialPages": [
+      {
+        "title": "Nov 2026 Impartial Analyses (City Attorney's Impartial Analysis of Measure AA)",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "publisher": "City of Berkeley, City Attorney"
+      },
+      {
+        "title": "Ballot Measures (City of Berkeley elections page)",
+        "url": "https://berkeleyca.gov/your-government/elections/ballot-measures",
+        "publisher": "City of Berkeley City Clerk"
+      },
+      {
+        "title": "Measure AA full text",
+        "url": "https://berkeleyca.gov/sites/default/files/Berkeley_Soda%20Tax%20-%20Full%20Text.pdf",
+        "publisher": "City of Berkeley City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure AA, a citizen initiative, would replace Berkeley's existing $0.01 per fluid ounce general tax on distributing sugar-sweetened beverages with a $0.02 per fluid ounce special tax dedicated to public health, nutrition and drinking water projects and programming.",
+        "excerpt": "This measure would replace Berkeley’s existing $0.01 per fluid ounce general tax on the distribution of sugar-sweetened beverages (SSB) with a $0.02 per fluid ounce special tax.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure AA, paragraph 2 (page 12)"
+      },
+      "yes": {
+        "text": "If you vote yes, the $0.02 per fluid ounce special tax would replace the current tax, with collection beginning April 1, 2027.",
+        "excerpt": "If the measure passes, tax collection would begin April 1, 2027.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure AA, final paragraph (page 13)"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "This measure would replace Berkeley’s existing $0.01 per fluid ounce general tax on the distribution of sugar-sweetened beverages (SSB) with a $0.02 per fluid ounce special tax.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure AA, paragraph 2 (page 12)"
+      },
+      "fiscal": {
+        "text": "$0.02 per fluid ounce, estimated to raise about $2,200,000 annually, about $1,000,000 more than the current tax; adjusted annually for inflation beginning in 2028, capped at 5% a year.",
+        "excerpt": "The tax is estimated to raise approximately $2,200,000 annually, an increase of approximately $1,000,000 over revenue from the City’s current SSB tax.",
+        "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+        "location": "City Attorney's Impartial Analysis of Measure AA, paragraph 2 (page 12); inflation adjustment paragraph 5"
+      }
+    },
+    "notes": "Current SSB tax would be suspended while the new special tax is in effect. County measure PDF (acvote) is a scan with no text layer; no text version of the arguments found. Resume (Nov 1): a page-by-page OCR scan of the county measure PDF found only the submittal form, the council resolution and the measure text, with no arguments or rebuttals. The berkeleyca.gov Ballot Measures page links only the full texts and the impartial analyses, so arguments and signers remain unsupported.",
+    "notFound": [
+      "argFor",
+      "argAgainst",
+      "supporters",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-emeryville.measure-bb",
+    "officialPages": [
+      {
+        "title": "Measure BB - Business License Tax Reform",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "publisher": "City of Emeryville"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure BB would revise Emeryville's business license tax categories and change most of the tax to a percentage of gross receipts.",
+        "excerpt": "This measure would amend Chapter 1 of Title 3 to revise the business categories and to change the measure of most taxes to gross receipts.",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "location": "City Attorney's impartial analysis, paragraph 3"
+      },
+      "yes": {
+        "text": "A yes vote would revise the business license tax categories and change the measure of most business license taxes to gross receipts.",
+        "excerpt": "This measure would amend Chapter 1 of Title 3 to revise the business categories and to change the measure of most taxes to gross receipts.",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "location": "City Attorney's impartial analysis, paragraph 3"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "This measure would amend Chapter 1 of Title 3 to revise the business categories and to change the measure of most taxes to gross receipts.",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "location": "City Attorney's impartial analysis, paragraph 3"
+      },
+      "fiscal": {
+        "text": "Business license rates up to 0.4% of gross receipts, until ended by voters, providing $12,400,000 annually.",
+        "excerpt": "by updating/simplifying Emeryville’s 42 year old business license rates up to 0.4% of gross receipts (described in the ordinance) until ended by voters, providing $12,400,000 annually, requiring independent oversight?",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "location": "Ballot question as shown on the city page"
+      },
+      "argFor": {
+        "text": "The argument in favor says Measure BB creates a simpler, fairer business license tax structure in which larger, more profitable businesses pay their fair share while small businesses are not unfairly burdened.",
+        "excerpt": "Measure BB creates a simpler, fairer business license tax structure that better reflects Emeryville’s economy today. It streamlines business classifications and helps ensure that larger, more profitable businesses pay their fair share while small businesses are not unfairly burdened.",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "location": "Argument in Favor of Measure BB, paragraph 2"
+      },
+      "supporters": {
+        "text": "SUKHDEEP KAUR, Mayor; MATTHEW SOLOMON, Vice Mayor; DAVID MOURRA, Emeryville Council Member; KALIMAH PRIFORCE, Emeryville Council Member; COURTNEY WELCH, Emeryville Council Member",
+        "excerpt": "/s/ SUKHDEEP KAUR, Mayor\n/s/ MATTHEW SOLOMON, Vice Mayor\n/s/ DAVID MOURRA, Emeryville Council Member\n/s/ KALIMAH PRIFORCE, Emeryville Council Member\n/s/ COURTNEY WELCH, Emeryville Council Member",
+        "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
+        "location": "Argument in favor, signatures"
+      }
+    },
+    "notes": "Impartial analysis and argument in favor are on the City of Emeryville Measure BB page inside collapsed accordion sections (expand them to see the text). The impartial analysis has no 'a yes vote means' sentence, so yes/no are built from the sentence describing the change. Discrepancy: the ballot question says $12,400,000 annually, while the argument in favor says 'approximately $6 million annually'; fiscal uses the ballot question. The city page posts only an argument in favor; it does not say whether an argument against was filed, so argAgainst/opponents are left out. County measure PDF is a scan. A page-by-page OCR scan of the county PDF (24 pages) found only the clerk certificate, Resolution 26-65 and the ordinance, with no arguments.",
+    "notFound": [
+      "argAgainst",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-hayward.measure-cc",
+    "officialPages": [
+      {
+        "title": "Ballot Measures (Notice of ballot measure, impartial analysis, arguments)",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "publisher": "City of Hayward, City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure CC would update Hayward's business license tax, which has not been updated since 1978. It would move from flat fees and employee counts to tiered rates on gross receipts, with higher rates for higher-grossing businesses.",
+        "excerpt": "The City has not updated its BLT since 1978; consequently, the Hayward City Council has placed a Measure on the November 3, 2026 ballot asking voters to update relevant provisions of the Hayward Municipal Code.",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Impartial analysis by the City Attorney, paragraph 1"
+      },
+      "yes": {
+        "text": "A yes vote would update and amend the City's business license tax fee schedule.",
+        "excerpt": "A YES vote would update and amend the City's BLT fee schedule.",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Impartial analysis by the City Attorney, paragraph 3"
+      },
+      "no": {
+        "text": "A no vote means the 1978 fee schedule would remain in place.",
+        "excerpt": "A NO vote means the 1978 fee schedule would remain in place.",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Impartial analysis by the City Attorney, paragraph 4"
+      },
+      "fiscal": {
+        "text": "General tax estimated to generate an additional $12 million for City services.",
+        "excerpt": "This is a general tax which means the City may use the revenues for any governmental purpose. If adopted by voters, an estimated additional $12 million will be generated to support City services, including neighborhood police protection, firefighting, 911 response, libraries, and street improvements.",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Impartial analysis by the City Attorney, paragraph 2"
+      },
+      "argFor": {
+        "text": "The argument in favor says Measure CC modernizes a business license tax unchanged since 1978 and generates an additional $12 million annually for city services.",
+        "excerpt": "Measure CC fixes this by modernizing the BLT to fairly capture today’s business sectors, generating an additional $12 million annually dedicated to city services.",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Argument in favor of Ballot Measure CC, paragraph 3"
+      },
+      "argAgainst": {
+        "text": "No argument against was filed.",
+        "excerpt": "Disclaimer: no argument was received against Ballot Measure CC.",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Argument against Ballot Measure CC"
+      },
+      "supporters": {
+        "text": "Ray Bonilla, Jr., Hayward City Councilmember; Pearl Adre, Hayward resident and owner/operator of Pearl’s Café; Toney Chaplin, Hayward resident and former Hayward Police Chief; Andrew Ghali, President, Hayward Firefighters Local 1909; Jose Carlos Montesinos, Hayward resident",
+        "excerpt": "/s/ Ray Bonilla, Jr., Hayward City Councilmember  \n/s/ Pearl Adre, Hayward resident and owner/operator of Pearl’s Café  \n/s/ Toney Chaplin, Hayward resident and former Hayward Police Chief \n/s/ Andrew Ghali, President, Hayward Firefighters Local 1909 \n/s/ Jose Carlos Montesinos, Hayward resident",
+        "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+        "location": "Argument in favor, signatures"
+      }
+    },
+    "notes": "All fields from the City of Hayward ballot measures web page (text, not a scan). The city page states no argument against was received, so opponents is empty. The ballot question on that page contains non-breaking spaces, so the fiscal excerpt comes from the impartial analysis instead. The county measure PDF is a scan and was not needed.",
+    "notFound": [
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-newark.measure-dd",
+    "officialPages": [
+      {
+        "title": "Local Measure DD - Newark Essential Services Protection Measure",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "publisher": "City of Newark"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure DD would repeal and replace Newark's business license tax, consolidating the existing categories into seven, with all business types paying a tax based on a percentage of gross receipts.",
+        "excerpt": "If approved, Measure DD would amend the business license tax to consolidate the existing categories into seven categories, with all business types paying a tax based on a percentage of gross receipts, with the rate depending on the category.",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "City Attorney's impartial analysis of Measure DD, paragraph 3"
+      },
+      "yes": {
+        "text": "A yes vote approves an ordinance that would repeal and replace the existing business license tax.",
+        "excerpt": "A “Yes” vote is a vote to approve adopting an ordinance that would repeal and replace the existing business license tax.",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "City Attorney's impartial analysis of Measure DD, final paragraph"
+      },
+      "no": {
+        "text": "A no vote is a vote against adopting the ordinance.",
+        "excerpt": "A “No” vote is a vote against adopting the ordinance.",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "City Attorney's impartial analysis of Measure DD, final paragraph"
+      },
+      "fiscal": {
+        "text": "Approximately $6.6 million annually, a general tax.",
+        "excerpt": "Measure DD would generate approximately $6.6 million in funds annually that are legally required to be used in Newark to support city services.",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "City Attorney's impartial analysis of Measure DD, paragraph 6"
+      },
+      "argFor": {
+        "text": "The argument in favor says Measure DD updates and simplifies Newark's business license tax so large businesses pay their fair share, while reducing taxes for small businesses and not increasing taxes on residents.",
+        "excerpt": "Voting Yes on Measure DD updates and simplifies Newark’s business license tax to ensure large businesses pay their fair share for roads, infrastructure, and public safety services.",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "Argument in favor of Measure DD, paragraph 4"
+      },
+      "argAgainst": {
+        "text": "The argument against says the tax increase would harm Newark's business community, slow job growth, raise prices, and make it harder to keep and attract businesses.",
+        "excerpt": "This tax increase would harm our business community, slow job growth, raise prices, and make it more difficult to retain existing businesses and attract new ones to Newark.",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "Argument against Measure DD, paragraph 3"
+      },
+      "supporters": {
+        "text": "Maria “Sucy” Collazo, Mexico Tortilla Factory, Owner; Ernie Morua, Retired Newark Firefighter; Rahul Sharma, Business Owner; Steven Losier, Newark Police Officers Association, President; Lily Mei, Newark Chamber of Commerce, President & CEO",
+        "excerpt": "Maria “Sucy” Collazo \nMexico Tortilla Factory, Owner \n\nErnie Morua  \nRetired Newark Firefighter \n\nRahul Sharma \nBusiness Owner \n\nSteven Losier \nNewark Police Officers Association, President \n\nLily Mei\nNewark Chamber of Commerce, President & CEO",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "Argument in favor, signatures"
+      },
+      "opponents": {
+        "text": "Terrence Grindall, City Council Member",
+        "excerpt": "Terrence Grindall \nCity Council Member",
+        "url": "https://www.newarkca.gov/businesses/2026-business-license-tax",
+        "location": "Argument against, signature"
+      }
+    },
+    "notes": "All text from the City of Newark Measure DD web page (HTML). Rebuttals are also posted there (rebuttal to argument against signed by Michael K. Hannon, Mayor; Alan L. Nagy; Maria Sucy Collazo; Luis L. Freitas; Lily Mei). Revenue figures differ across official text: ballot question and impartial analysis say $6.6 million annually; the opponent says a $5 million (and in rebuttal $5.5 million) increase; the city info section says approximately $5.2 million in additional annual funding. The argFor excerpt contains a non-breaking space (U+00A0) after 'Measure DD' as on the page.",
+    "notFound": []
+  },
+  {
+    "id": "2026-11-03.ca-alameda-oakland.measure-ee",
+    "officialPages": [
+      {
+        "title": "Elections (November 2026 Election documents)",
+        "url": "https://www.oaklandca.gov/Government/Elections",
+        "publisher": "City of Oakland, City Clerk"
+      },
+      {
+        "title": "Mayor Council Charter Amendments Measure (resolution, charter text, impartial analyses, arguments and rebuttals)",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "publisher": "City of Oakland, City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure EE would amend the Oakland City Charter to, among other things, make the Mayor the City's chief executive, managing most departments and appointing most department heads, with the City Administrator keeping authority over Human Resources and Finance.",
+        "excerpt": "Make the Mayor the City’s chief executive. The Mayor, rather than the City Administrator,\nwould manage most departments and appoint most department heads, except that the City\nAdministrator would maintain authority over the departments of Human Resources and\nFinance.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "City Attorney's impartial legal analysis (PDF page 26), first bullet",
+        "method": "ocr-checked-against-image"
+      },
+      "yes": {
+        "text": "A yes vote would amend the City Charter to make the Mayor the City's chief executive, among the other changes described in the impartial analysis.",
+        "excerpt": "Make the Mayor the City’s chief executive. The Mayor, rather than the City Administrator,\nwould manage most departments and appoint most department heads, except that the City\nAdministrator would maintain authority over the departments of Human Resources and\nFinance.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "City Attorney's impartial legal analysis (PDF page 26), first bullet",
+        "method": "ocr-checked-against-image"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "Make the Mayor the City’s chief executive. The Mayor, rather than the City Administrator,\nwould manage most departments and appoint most department heads, except that the City\nAdministrator would maintain authority over the departments of Human Resources and\nFinance.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "City Attorney's impartial legal analysis (PDF page 26), first bullet",
+        "method": "ocr-checked-against-image"
+      },
+      "fiscal": {
+        "text": "The City Auditor estimates an overall cost to the City of $2.0 million to $2.6 million for the first year, with ongoing costs subject to inflation.",
+        "excerpt": "We estimate that if this ballot measure passes, the overall cost to the City ranges from $2.0 million to $2.6\nmillion for the first year, with ongoing costs subject to inflation.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "City Auditor's impartial financial analysis (PDF page 28), final paragraph",
+        "method": "ocr-checked-against-image"
+      },
+      "argFor": {
+        "text": "The argument in favor says the measure implements a Strong Mayor form of government so department heads answer to one executive leader, increasing accountability and service delivery.",
+        "excerpt": "Yes on _ implements a Strong Mayor form of government that many cities like Oakland have.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "Argument in favor (PDF page 29), paragraph 5",
+        "method": "ocr-checked-against-image"
+      },
+      "argAgainst": {
+        "text": "The argument against says the measure makes Oakland's government less transparent, increases the risks of corruption, and drives political gridlock.",
+        "excerpt": "It makes our government less\ntransparent, increases the risks of corruption, and drives political gridlock.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "Argument against (PDF page 31), paragraph 1",
+        "method": "ocr-checked-against-image"
+      },
+      "supporters": {
+        "text": "Barbara Lee, Mayor of Oakland; Fred Blackwell, Former Oakland City Administrator; Isaac Abid, Board Chair, Revitalize East Bay; Richard Fuentes, Labor Leader/Small Business Owner; Sheryl Walton, Co-Chair, Block by Block Organizing Network",
+        "excerpt": "s/ Barbara Lee, Mayor of Oakland\n\ns/ Fred Blackwell, Former Oakland City Administrator\n\ns/ Isaac Abid, Board Chair, Revitalize East Bay\n\ns/ Richard Fuentes, Labor Leader/Small Business Owner\n\ns/ Sheryl Walton, Co-Chair, Block by Block Organizing Network",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "Argument in favor (PDF page 29), signatures",
+        "method": "ocr-checked-against-image"
+      },
+      "opponents": {
+        "text": "Ben Gould, Budget Advisory Commission Member and Organizer, Oakland Residents for Good Government; Pamela A. Drake, Community Advocate; Loren Tayor, Former Councilmember; Naomi Beryl Schiff, Community Advocate",
+        "excerpt": "s/ Ben Gould\nBudget Advisory Commission Member and Organizer, Oakland Residents for Good Government\ns/ Pamela A. Drake\nCommunity Advocate\ns/ Loren Tayor\nFormer Councilmember\ns/ Naomi Beryl Schiff\nCommunity Advocate",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/3/city-clerk/documents/elections/revised-mayor-council-charter-amendments-measure-w.-arguments.pdf",
+        "location": "Argument against (PDF page 31), signatures",
+        "method": "ocr-checked-against-image"
+      }
+    },
+    "notes": "Source is the City of Oakland City Clerk PDF linked from the Elections page as 'Mayor Council Charter Amendments Measure' (32 scanned pages, no text layer). Pages 23-32 were OCR'd: 26-27 City Attorney impartial legal analysis, 28 City Auditor impartial financial analysis, 29 argument in favor, 30 rebuttal to argument in favor, 31 argument against, 32 rebuttal to argument against. Every excerpt was compared with a zoomed image of the rendered page. The opponent name 'Loren Tayor' is spelled that way in the printed argument (the image shows 'Tayor'); kept exactly as printed. The measure letter is blank in the analyses and arguments. The impartial analysis has no explicit 'a yes vote means' sentence, so yes/no are built from its first described change. The City Auditor also estimates an increase of $288,000 to $867,000 for the entire City Council in the first year and about $1.7 to $1.8 million for the Independent Budget and Legislative Analyst Office.",
+    "notFound": []
+  },
+  {
+    "id": "2026-11-03.ca-alameda-oakland.measure-ff",
+    "officialPages": [
+      {
+        "title": "Elections (November 2026 Election documents)",
+        "url": "https://www.oaklandca.gov/Government/Elections",
+        "publisher": "City of Oakland, City Clerk"
+      },
+      {
+        "title": "Real Estate Transfer Tax Foreclosure Amendment Measure (resolution, ordinance, impartial analyses, argument)",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "publisher": "City of Oakland, City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure FF would amend Oakland's Real Property Transfer Tax to end the general exemption for foreclosure-related transfers, keeping exceptions only for transfers converting commercial property to certain housing or healthcare uses, transfers to community banking organizations, and transfers of properties of four residential units or less to a natural person or family trust.",
+        "excerpt": "This Measure would amend the City’s Real Property Transfer Tax to eliminate\nthe general exception for foreclosure-related transfers, and would only allow foreclosure-related\nexceptions for transfers converting commercial property to certain housing or healthcare uses,\ntransfers to community banking organizations, and transfers of properties that consist of four\nresidential units or less to a natural person or family trust.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "location": "City Attorney's impartial legal analysis (PDF page 7), paragraph 1",
+        "method": "ocr-checked-against-image"
+      },
+      "yes": {
+        "text": "A yes vote would eliminate the general foreclosure exception to the Real Property Transfer Tax, except for the listed transfers.",
+        "excerpt": "This Measure would amend the City’s Real Property Transfer Tax to eliminate\nthe general exception for foreclosure-related transfers, and would only allow foreclosure-related\nexceptions for transfers converting commercial property to certain housing or healthcare uses,\ntransfers to community banking organizations, and transfers of properties that consist of four\nresidential units or less to a natural person or family trust.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "location": "City Attorney's impartial legal analysis (PDF page 7), paragraph 1",
+        "method": "ocr-checked-against-image"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "This Measure would amend the City’s Real Property Transfer Tax to eliminate\nthe general exception for foreclosure-related transfers, and would only allow foreclosure-related\nexceptions for transfers converting commercial property to certain housing or healthcare uses,\ntransfers to community banking organizations, and transfers of properties that consist of four\nresidential units or less to a natural person or family trust.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "location": "City Attorney's impartial legal analysis (PDF page 7), paragraph 1",
+        "method": "ocr-checked-against-image"
+      },
+      "fiscal": {
+        "text": "The City Auditor estimates between $10.4 and $13.8 million of revenue in the first year.",
+        "excerpt": "If passed, the Office of the City Auditor estimates this ballot measure would generate between $10.4 and\n$13.8 million of revenue in the first year.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "location": "City Auditor's impartial financial analysis (PDF page 8), Financial Analysis paragraph 1",
+        "method": "ocr-checked-against-image"
+      },
+      "argFor": {
+        "text": "The argument in favor says the measure closes a loophole so foreclosure transfers are taxed fairly, while exempting homeowners in foreclosure and regular homebuyers.",
+        "excerpt": "Measure _ closes this loophole so foreclosure transfers are taxed fairly. It exempts homeowners\nin foreclosure.",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "location": "Argument in favor (PDF page 9), paragraph 3",
+        "method": "ocr-checked-against-image"
+      },
+      "supporters": {
+        "text": "Charlene Wang, District 2 Councilmember, Public Safety Chair; Barbara Lee, Mayor; Mike Petohouff, Budget Advisory Commission Chair, Real Estate Professional; Robert Apodaca, Co-Founder of Two Hundred for Homeownership and Casita Coalition, Housing Finance Expert; Raymond Lankford, Pastor, CEO, Oakland Private Industry Council",
+        "excerpt": "s/ Charlene Wang\n\nDistrict 2 Councilmember, Public Safety Chair\n\ns/ Barbara Lee\n\nMayor\n\ns/ Mike Petohouff\n\nBudget Advisory Commission Chair, Real Estate Professional\n\ns/ Robert Apodaca\n\nCo-Founder of Two Hundred for Homeownership and Casita Coalition, Housing Finance Expert\ns/ Raymond Lankford\n\nPastor, CEO, Oakland Private Industry Council",
+        "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
+        "location": "Argument in favor (PDF page 9), signatures",
+        "method": "ocr-checked-against-image"
+      }
+    },
+    "notes": "Source is the City of Oakland City Clerk PDF linked from the Elections page (9 scanned pages, no text layer): pages 1-4 resolution, 5-6 ordinance, 7 City Attorney impartial legal analysis, 8 City Auditor impartial financial analysis, 9 argument in favor. All excerpts were read by OCR (tesseract.js) and compared with zoomed images of the rendered page. The signature excerpt was OCR'd from a crop with the clerk's filed stamp masked; the words match the image. Revenue discrepancy: the ballot question (input) says approximately $4-$13 million annually; the City Auditor estimates $10.4-$13.8 million in the first year (and implementation costs of $592,900 to $651,100 in the first year). The impartial analysis has no explicit 'a yes vote means' sentence, so yes/no are built from the sentence describing the change. This city PDF contains only the argument in favor; whether an argument against was filed could not be determined (county PDF is a scan and was not OCR'd), so argAgainst/opponents are left out.",
+    "notFound": [
+      "argAgainst",
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-piedmont.measure-gg",
+    "officialPages": [
+      {
+        "title": "City of Piedmont Real Property Tax Measure (county measure PDF)",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+        "publisher": "Alameda County Registrar of Voters"
+      },
+      {
+        "title": "November 3, 2026 General Municipal Election (Measure GG section)",
+        "url": "https://piedmont.ca.gov/services___departments/city_clerk/elections/november_3__2026_general_municipal_election",
+        "publisher": "City of Piedmont, City Clerk"
+      },
+      {
+        "title": "Argument in Favor of Measure GG",
+        "url": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/To%20Post%20-%20Argument%20in%20Favor.pdf?v=4RGbmtVR4",
+        "publisher": "City of Piedmont, City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure GG would increase Piedmont's real property conveyance tax, charged when property is sold or transferred, from $13.00 to $17.50 per $1,000 of transfer price (1.3% to 1.75%), with the revenue available for any City general revenue purpose.",
+        "excerpt": "If passed by the voters, Measure ____ would increase the existing real property conveyance tax from the existing rate of $13.00 per $1,000 (1.3%) of transfer price, to $17.50 per $1,000 (1.75%) of transfer price.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+        "location": "City Attorney Impartial Analysis, paragraph 2 (PDF page 15)"
+      },
+      "yes": {
+        "text": "If you vote yes, the real property conveyance tax would increase from 1.3% to 1.75% of the transfer price.",
+        "excerpt": "If passed by the voters, Measure ____ would increase the existing real property conveyance tax from the existing rate of $13.00 per $1,000 (1.3%) of transfer price, to $17.50 per $1,000 (1.75%) of transfer price.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+        "location": "City Attorney Impartial Analysis, paragraph 2 (PDF page 15)"
+      },
+      "no": {
+        "text": "If you vote no, this change would not be made.",
+        "excerpt": "If passed by the voters, Measure ____ would increase the existing real property conveyance tax from the existing rate of $13.00 per $1,000 (1.3%) of transfer price, to $17.50 per $1,000 (1.75%) of transfer price.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+        "location": "City Attorney Impartial Analysis, paragraph 2 (PDF page 15)"
+      },
+      "fiscal": {
+        "text": "Rate rises from $13.00 to $17.50 per $1,000 of transfer price; estimated to generate approximately $1,521,000 of additional revenue annually, unrestricted general revenue.",
+        "excerpt": "It is estimated that this tax will generate approximately $1,521,000 of additional revenue annually.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+        "location": "City Attorney Impartial Analysis, paragraph 5 (PDF page 15)"
+      },
+      "argFor": {
+        "text": "The argument in favor says the measure will generate approximately $1,500,000 a year that stays in Piedmont to support essential city services.",
+        "excerpt": "Measure __ will generate approximately $1,500,000 a year. Unlike state or county\nrevenue measures, all money raised by Measure __ stays in Piedmont to support\nessential city services.",
+        "url": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/To%20Post%20-%20Argument%20in%20Favor.pdf?v=4RGbmtVR4",
+        "location": "Argument in favor, paragraph 4",
+        "method": "ocr-checked-against-image"
+      },
+      "argAgainst": {
+        "text": "No argument against was filed.",
+        "excerpt": "No argument opposing Measure GG was filed.",
+        "url": "https://piedmont.ca.gov/services___departments/city_clerk/elections/november_3__2026_general_municipal_election",
+        "location": "Ballot Question, Arguments & City Attorney's Impartial Analysis section"
+      },
+      "supporters": {
+        "text": "Betsy Smegal Andersen, Mayor, City of Piedmont; Conna McCarthy, Vice Mayor, City of Piedmont; Ruchi Medhekar, President, Piedmont Board of Education; Robert S. McBain, Chair, Budget Advisory and Financial Planning Committee; Kim M. Hunter, Retired Alameda County Senior Deputy District Attorney",
+        "excerpt": "Betsy Smegal Andersen, Mayor, City of Piedmont\n\nConna McCarthy, Vice Mayor, City of Piedmont\n\nRuchi Medhekar, President, Piedmont Board of Education\n\nRobert S. McBain, Chair, Budget Advisory and Financial Planning Committee\n\nKim M. Hunter, Retired Alameda County Senior Deputy District Attorney",
+        "url": "https://piedmont.ca.gov/UserFiles/Servers/Server_13659739/File/Government/Departments/City%20Clerk/Elections/To%20Post%20-%20Argument%20in%20Favor.pdf?v=4RGbmtVR4",
+        "location": "Argument in favor, signer names under signature lines",
+        "method": "ocr-checked-against-image"
+      }
+    },
+    "notes": "Only PDF page 15 (impartial analysis) has a text layer; pages 1-14 are scans. The impartial analysis estimates $1,521,000 annually while the ballot question says approximately $1,500,000. Measure letter is blank in the analysis text. Browser connection to the user's device was lost before the arguments could be OCR'd or the Piedmont city page checked. Resume (Nov 1): the City of Piedmont November 3, 2026 election page states no argument opposing Measure GG was filed. The argument in favor is posted by the city as a separate scanned PDF; argFor and supporters were read by OCR and checked against a zoomed image of the page. The posted copy shows printed names under blank signature lines and a City Clerk received stamp dated Aug 03 2026. The city's analysis PDF ('To Post - Analysis.pdf') and FAQ were not re-read since plainEnglish/yes/no/fiscal already existed.",
+    "notFound": [
+      "opponents"
+    ]
+  },
+  {
+    "id": "2026-11-03.ca-alameda-pleasanton.measure-hh",
+    "officialPages": [
+      {
+        "title": "Measures (November 3, 2026 General Municipal Election)",
+        "url": "https://www.cityofpleasantonca.gov/our-government/elections-measures/measures/",
+        "publisher": "City of Pleasanton, City Clerk"
+      },
+      {
+        "title": "City Attorney's Impartial Analysis of Measure (Transient Occupancy Tax)",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Transient-Occupancy-Tax-Impartial-Analysis.pdf",
+        "publisher": "City of Pleasanton, City Attorney"
+      },
+      {
+        "title": "Argument in Favor of the Measure",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Argument-in-favor.pdf",
+        "publisher": "City of Pleasanton, City Clerk"
+      },
+      {
+        "title": "Argument Against the Measure",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Argument-against.pdf",
+        "publisher": "City of Pleasanton, City Clerk"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure HH would raise Pleasanton's hotel tax (Transient Occupancy Tax), paid by hotel and short-term lodging guests, from 8% to 10% on July 1, 2027, and to 12% on July 1, 2028, until ended or changed by voters.",
+        "excerpt": "If approved, Measure __ would adopt an ordinance\nto increase the rate of the City’s TOT from 8% to 10% on July 1, 2027, and to 12% on July 1,\n2028, until ended or changed by voters.",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Transient-Occupancy-Tax-Impartial-Analysis.pdf",
+        "location": "Impartial analysis, paragraph 1"
+      },
+      "yes": {
+        "text": "A yes vote favors enacting the ordinance that would increase the TOT rate to 10% on July 1, 2027, and to 12% on July 1, 2028.",
+        "excerpt": "A “yes” vote on Measure __ favors enacting the\nproposed ordinance that would increase the City’s TOT rate to 10% on July 1, 2027, and to 12%\non July 1, 2028.",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Transient-Occupancy-Tax-Impartial-Analysis.pdf",
+        "location": "Impartial analysis, paragraph 3"
+      },
+      "no": {
+        "text": "A no vote opposes the ordinance and would keep the TOT rate at the existing 8%.",
+        "excerpt": "A “no” vote on Measure __ opposes the proposed ordinance and would\nmaintain the City’s TOT rate at the existing 8%.",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Transient-Occupancy-Tax-Impartial-Analysis.pdf",
+        "location": "Impartial analysis, paragraph 3"
+      },
+      "fiscal": {
+        "text": "General tax. The City estimates approximately $1.4 (as printed) in the first year and approximately $2.8 million per year thereafter in new local revenue.",
+        "excerpt": "The City estimates that this Measure\nwill generate approximately $1.4 in the first year, and approximately $2.8 million per year\nthereafter in new local revenue.",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Transient-Occupancy-Tax-Impartial-Analysis.pdf",
+        "location": "Impartial analysis, paragraph 2"
+      },
+      "argFor": {
+        "text": "The argument in favor says the hotel tax is paid primarily by visitors staying in hotels and short-term lodging rather than by Pleasanton residents or property owners, and would help the City's long-term finances.",
+        "excerpt": "Unlike a sales tax or parcel tax, the Transient Occupancy Tax (TOT) is paid primarily by visitors\nstaying in hotels and short-term lodging, rather than by Pleasanton residents or property owners.",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Argument-in-favor.pdf",
+        "location": "Argument in favor, paragraph 3"
+      },
+      "argAgainst": {
+        "text": "The argument against says a steep new tax on visitors threatens Pleasanton's lower-hotel-tax advantage and harms local hospitality businesses.",
+        "excerpt": "Imposing a steep new tax on\nvisitors threatens that economic advantage and harms local hospitality businesses.",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Argument-against.pdf",
+        "location": "Argument against, paragraph 2"
+      },
+      "supporters": {
+        "text": "Jack Balch, Mayor, City of Pleasanton; Matt Gaidos, Vice Mayor, City of Pleasanton; Julie Testa, Council Member, City of Pleasanton; Jeff Nibert, Council Member, City of Pleasanton; Craig Eicher, Council Member, City of Pleasanton",
+        "excerpt": "s/Jack Balch, Mayor, City of Pleasanton\ns/Matt Gaidos, Vice Mayor, City of Pleasanton\ns/Julie Testa, Council Member, City of Pleasanton\ns/Jeff Nibert, Council Member, City of Pleasanton\ns/Craig Eicher, Council Member, City of Pleasanton",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Argument-in-favor.pdf",
+        "location": "Argument in favor, signatures"
+      },
+      "opponents": {
+        "text": "Kelly M. Ceglio",
+        "excerpt": "s/Kelly M. Ceglio",
+        "url": "https://www.cityofpleasantonca.gov/assets/our-government/city-clerk/Argument-against.pdf",
+        "location": "Argument against, signature (no title printed)"
+      }
+    },
+    "notes": "All from text PDFs linked on the City of Pleasanton Measures page (Nov 3, 2026 section). The impartial analysis leaves the measure letter blank ('Measure __') and says 'approximately $1.4 in the first year' (the word 'million' is missing in the source; the argument in favor says '$1.4 million'). Excerpts keep the PDF line breaks as \\n. Caution: the city reuses the file names Argument-in-favor.pdf and Argument-against.pdf for its November 2024 measure links on the same page; the content read on Nov 1, 2026 is the TOT measure. Rebuttal PDFs (Rebuttal_to_argument_in_favor.pdf, Rebuttal_to_argument_against.pdf) exist but were not needed.",
+    "notFound": []
+  },
+  {
+    "id": "2026-11-03.ca-alameda-union-city.measure-ii",
+    "officialPages": [
+      {
+        "title": "City of Union City UUT Measure (county measure PDF)",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+        "publisher": "Alameda County Registrar of Voters"
+      },
+      {
+        "title": "List of Ballot Measure(s) (Measure II)",
+        "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
+        "publisher": "City of Union City"
+      }
+    ],
+    "fields": {
+      "plainEnglish": {
+        "text": "Measure II would extend Union City's existing 5% utility users tax on telecommunications, video, electricity and gas services for nine more years, until December 31, 2037, without a rate increase, keeping exemptions for seniors 70 and older and low-income persons.",
+        "excerpt": "for an additional nine (9) years until December 31, 2037, without a tax rate increase.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+        "location": "City Attorney's Impartial Analysis, paragraph 2 (PDF page 11)"
+      },
+      "yes": {
+        "text": "A yes vote approves extending the voter-approved utility users tax for nine years at the current rate.",
+        "excerpt": "A \"Yes\" vote is a vote to approve the extension of the voter-approved UUT for nine years at the current rate.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+        "location": "City Attorney's Impartial Analysis, next-to-last paragraph (PDF page 11)"
+      },
+      "no": {
+        "text": "A no vote does not extend the utility users tax, and it would no longer be levied after December 31, 2028.",
+        "excerpt": "A \"No\" vote is a vote to not extend the UUT and the UUT would no longer be levied after December 31, 2028.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+        "location": "City Attorney's Impartial Analysis, next-to-last paragraph (PDF page 11)"
+      },
+      "fiscal": {
+        "text": "Continues the 5% utility users tax for nine years until December 31, 2037, with no rate increase; generates approximately $7 million annually as a general tax.",
+        "excerpt": "would generate approximately $7 million in funds annually that are legally required to be used in Union City for local city services that cannot be taken by the State of California or Alameda County.",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+        "location": "City Attorney's Impartial Analysis, paragraph 4 (PDF page 11)"
+      },
+      "argFor": {
+        "text": "The argument in favor says the utility users tax is set to expire and, if it does, Union City would lose approximately $7,000,000 a year, forcing deep cuts to essential services; Measure II renews it at the current rate without increasing taxes.",
+        "excerpt": "Amidst these funding challenges, an important source of local funding is set to expire, Union City’s utility users tax. If it expires, Union City would lose approximately $7,000,000 in annual funding, forcing deep cuts to essential services that keep us safe and protect our quality of life.",
+        "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
+        "location": "Argument For the Measure, paragraph 5 (expand 'Read the Argument For the Measure')"
+      },
+      "argAgainst": {
+        "text": "No argument against was filed.",
+        "excerpt": "Argument Against the Measure\n\nNone received.",
+        "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
+        "location": "Argument Against the Measure section"
+      },
+      "supporters": {
+        "text": "Gary Singh, Mayor, City of Union City; Ian Hobson, President, Union City Police Officers Association; Jasbir Kaur, Member of Sales and Utility Users Tax Oversight Committee; Jim Navarro, President, Chamber of Commerce; Rosalinda Canlas, NHUSD Retired School Board Trustee",
+        "excerpt": "/s/Gary Singh, Mayor, City of Union City\n/s/Ian Hobson, President, Union City Police Officers Association\n/s/Jasbir Kaur, Member of Sales and Utility Users Tax Oversight Committee\n/s/Jim Navarro, President, Chamber of Commerce\n/s/Rosalinda Canlas, NHUSD Retired School Board Trustee",
+        "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
+        "location": "Argument in favor, signatures"
+      }
+    },
+    "notes": "Only PDF page 11 (impartial analysis) has a text layer, and it appears to be an embedded OCR layer from the scan (artifacts such as 'Measure_' and 'DATED. 7/27 120»'). Excerpts were chosen from clean sentences but were NOT compared against the page image because the browser connection was lost; a checker should verify them against the image. Pages 1-10 are scans; arguments not read. Resume (Nov 1): the City of Union City 'List of Ballot Measure(s)' page has the impartial analysis, argument for, and a rebuttal as HTML text (inside expandable sections). It states 'None received.' for the argument against. A rebuttal to the argument in favor is posted, signed by Marcus Crawley, President, Alameda County Taxpayers' Association; it is a rebuttal, not an argument against, so opponents is left empty. The existing yes/no excerpts use straight quotes (\"Yes\"/\"No\"); the city page uses curly quotes (“Yes”/“No”); the wording otherwise matches the city page text, which a checker can use instead of the scan.",
+    "notFound": [
+      "opponents"
+    ]
+  }
+]

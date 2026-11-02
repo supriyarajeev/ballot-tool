@@ -1,0 +1,1145 @@
+[
+ {
+  "id": "2026-11-03.ca-santa-clara-morgan-hill.measure-a",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure A Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-a-city-of-morgan-hill-appointing-city-treasurer-in-favor_08112026_redacted.pdf?VersionId=TDqxTMEGrMiI.yyiP0rQvBaHERf..PPr",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure A Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-a-city-of-morgan-hill-city-treasurer-ia_08-18-2026_redacted.pdf?VersionId=mTJIuz4UVVSs4UnPLrbcfAeLpwQOq_FK",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure A",
+    "url": "https://morganhill.ca.gov/DocumentCenter/View/58021/Measure-A---City-Treasurer-Impartial-Analysis",
+    "publisher": "City of Morgan Hill"
+   },
+   {
+    "title": "Argument in Favor of Measure A",
+    "url": "https://morganhill.ca.gov/DocumentCenter/View/58022/Argument-in-Favor-of-Measure-A",
+    "publisher": "City of Morgan Hill"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Makes the office of Morgan Hill City Treasurer appointive.",
+    "excerpt": "Shall the office of the City Treasurer be appointive?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure A entry, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote makes the City Treasurer position appointive.",
+    "excerpt": "A \"yes\" vote on Measure A will make the City Treasurer position appointive.",
+    "url": "https://morganhill.ca.gov/DocumentCenter/View/58021/Measure-A---City-Treasurer-Impartial-Analysis",
+    "location": "City Attorney's Impartial Analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote means the City Treasurer will continue to be elected by the voters.",
+    "excerpt": "A \"no\" vote on Measure A means the City Treasurer will continue to be elected by the voters.",
+    "url": "https://morganhill.ca.gov/DocumentCenter/View/58021/Measure-A---City-Treasurer-Impartial-Analysis",
+    "location": "City Attorney's Impartial Analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "The city estimates savings of about $40,000 a year in personnel costs and about $15,000 in election costs every four years.",
+    "excerpt": "If the measure is approved, the city estimates savings of approximately $40,000 annually in personnel costs and approximately $15,000 in election costs every four years.",
+    "url": "https://morganhill.ca.gov/DocumentCenter/View/58021/Measure-A---City-Treasurer-Impartial-Analysis",
+    "location": "City Attorney's Impartial Analysis, paragraph 5"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure A would ensure the City Treasurer position is filled based on professional qualifications, experience and expertise.",
+    "excerpt": "A YES vote on Measure A will modernize the process by which Morgan Hill selects its City Treasurer by ensuring the position is filled based on professional qualifications, experience, and expertise.",
+    "url": "https://morganhill.ca.gov/DocumentCenter/View/58022/Argument-in-Favor-of-Measure-A",
+    "location": "Argument in Favor of Measure A, paragraph 1"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. City copies of the impartial analysis and argument in favor (text PDFs) were read on 2026-11-01 resume. The city copy of the argument in favor has no signature block, so supporters are not filled.",
+  "notFound": [
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-gilroy.measure-b",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure B Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy_primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=fKmrUi4QmLWMKIy3u2QPjWk0yCILXAyF",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure B Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy-transient-occupancy-tax-argument_against-08-11-2026_redacted.pdf?VersionId=MpsyyyTbgjNbKJne0ckSUj4EJux9g5D7",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure B Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy-tot-rebuttal-against-08-17-2026_redacted.pdf?VersionId=wGUTQ0tzxKYXdkb6x8psC20syq3fRc5r",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure B Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy_ia_8.7.26_redacted.pdf?VersionId=7XiKfX17ZSRj5ai0wLH64KNsqzxW_Zvm",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure B",
+    "url": "https://www.cityofgilroy.org/DocumentCenter/View/20701/City-Attorney-Impartial-Analysis-v2",
+    "publisher": "City of Gilroy"
+   },
+   {
+    "title": "Argument Against Measure B",
+    "url": "https://www.cityofgilroy.org/DocumentCenter/View/20703/Argument-Against-Measure-B",
+    "publisher": "City of Gilroy"
+   }
+  ],
+  "fields": {
+   "fiscal": {
+    "text": "Raises the hotel tax rate from 9% to a maximum of 13%, set by Council resolution, providing $700,000 annually, until ended by voters.",
+    "excerpt": "raising the Transient Occupancy Tax (hotel tax) rate from 9% to a maximum of 13%, set by Council resolution, providing $700,000 annually paid only by hotel/lodging guests, with annual independent audits, that cannot be taken by Sacramento, until ended by voters, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote raises the Gilroy hotel tax from 9% to 11% at first, and lets the City Council adjust the rate by resolution up to 13%.",
+    "excerpt": "If approved by voters, Measure B amends the Hotel Tax Ordinance set forth in Chapter 25A.2 of the Gilroy City Code to initially increase the Hotel Tax rate by 2% from the current rate of 9% to 11%. In addition, Measure B amends the Hotel Tax Ordinance to provide that the City Council may by resolution adjust the rate of the Hotel Tax upwards or downwards without a vote of the people provided that the rate does not exceed 13%.",
+    "url": "https://www.cityofgilroy.org/DocumentCenter/View/20701/City-Attorney-Impartial-Analysis-v2",
+    "location": "City Attorney's Impartial Analysis, paragraph 2"
+   },
+   "no": {
+    "text": "If you vote no, this change would not be made.",
+    "excerpt": "If approved by voters, Measure B amends the Hotel Tax Ordinance set forth in Chapter 25A.2 of the Gilroy City Code to initially increase the Hotel Tax rate by 2% from the current rate of 9% to 11%.",
+    "url": "https://www.cityofgilroy.org/DocumentCenter/View/20701/City-Attorney-Impartial-Analysis-v2",
+    "location": "City Attorney's Impartial Analysis, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says the tax increase would not be needed if the City Council funded streets, police and fire services in the regular annual budget.",
+    "excerpt": "Measure B’s tax increase wouldn’t be needed, if only councilmembers would safeguard our streets, police, and fire services in the regular, annual budget.",
+    "url": "https://www.cityofgilroy.org/DocumentCenter/View/20703/Argument-Against-Measure-B",
+    "location": "Argument against Measure B, middle of argument"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page marks Measure B's rebuttal to the argument in favor as none filed; an argument in favor and an argument against were both filed. plainEnglish was already filled in the input and was not rewritten. Resume 2026-11-01: city copies read. City copy of the argument against is text but has no signature block (opponents not filled). City copy of the argument in favor (DocumentCenter/View/20704) is also a scan with no text layer.",
+  "notFound": [
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-santa-clara.measure-c",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure C Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-c-city-of-santa-clara-public-works-charter-amendment-in-favor_07282026_redacted.pdf?VersionId=r6gh1TJ7KNKWG0OFdJR7QDFaL3IyoNWj",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure C Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/meaure-c-city-of-santa-clara-public-works-impartial-analysis_08072026_redacted.pdf?VersionId=_vbcPTy9CR3BaxGxQYH9QtqijQ_sF3bL",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends the Santa Clara City Charter's public works contracting rules, setting the threshold for Council approval and formal bidding at $250,000, keeping awards of standard contracts to the lowest responsive and responsible bidder, and also allowing competitive \"best value\" contracting.",
+    "excerpt": "Shall the measure proposing to amend the City Charter to update rules for public works contracting, setting the threshold for Council approval and formal bidding at $250,000, retaining provisions for awards of standard contracts to the lowest responsive and responsible bidder, and also allowing for competitive \"best value\" contracting to improve project quality, expedite project completion, and minimize risks, all as set forth in a City ordinance approved at a public meeting, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure C entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: City of Santa Clara posts the Measure C impartial analysis (showdocument?id=90505) and primary argument in favor (showdocument?id=90445) on its 2026 General Municipal Election page, but both are scans with no text layer.",
+  "notFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-los-altos.measure-d",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure D Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-citizen-sponsored-intiiative_argument-in-favor_08102026_redacted.pdf?VersionId=FEcrxiTC7tVhlab9X0L6UHfh48TbIf_Y",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure D Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-rebuttal-to-argument-in-favor-08-18-2026_redacted-v2.pdf?VersionId=rAEx8hBCX.ZdtHsDeDjFIdzDVH01rwlv",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure D Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-citizen-sponsored-intiiative_argument-against_08102026_redacted.pdf?VersionId=3MxH9W7uHxOyo7kmFAAzfc1O62YxFnoD",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure D Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-rebuttal-to-argument-against-08-18-2026_redacted.pdf?VersionId=i1M4S6TreVIiiM0UmGiGUUsNaSQEZDRE",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure D Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-d-city-of-los-altos-ia-08-18-2026_redacted.pdf?VersionId=XrX.nePE_qdiz_JRkVxctYHfM_7pelnZ",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure D",
+    "url": "https://www.losaltosca.gov/DocumentCenter/View/3028/Impartial-Analysis-PDF",
+    "publisher": "City of Los Altos"
+   },
+   {
+    "title": "Citizen Initiative on Downtown Parking Plaza Ordinance - Measure D",
+    "url": "https://www.losaltosca.gov/781/Citizen-Initiative-on-Downtown-Parking-P",
+    "publisher": "City of Los Altos"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Adopts an ordinance that bars Los Altos from selling, leasing, conveying, or declaring as surplus land its ten City-owned Downtown Parking Plazas, or authorizing new uses or changes that would diminish protected trees or parking, unless separately approved by a majority of voters. Two Parking Plazas may be developed for affordable housing without a vote.",
+    "excerpt": "Shall the Ordinance, which prohibits the City of Los Altos from selling, leasing, conveying, or declaring as surplus land the ten City-owned Downtown Parking Plazas for any reason, or from authorizing new uses or physical alterations that would diminish protected trees or parking availability, access, or convenience, unless separately approved by a majority of voters, except that two Parking Plazas may be developed for affordable housing without a vote, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote prohibits the City from selling, leasing, conveying, declaring surplus, or permanently repurposing the Downtown Parking Plazas for any use other than surface parking without a majority vote of the City’s voters.",
+    "excerpt": "A “Yes” vote will prohibit the City from selling, leasing, conveying, declaring surplus, or permanently repurposing the Parking Plazas for any use other than surface parking without a majority vote of the City’s voters.",
+    "url": "https://www.losaltosca.gov/DocumentCenter/View/3028/Impartial-Analysis-PDF",
+    "location": "City Attorney's Impartial Analysis, second-to-last paragraph"
+   },
+   "no": {
+    "text": "A no vote preserves the City’s discretion to use the Parking Plazas for any use permitted by local, state or federal law.",
+    "excerpt": "A “No” vote will preserve the City’s discretion to use the Parking Plazas for any use permitted by local, state, and/or federal law.",
+    "url": "https://www.losaltosca.gov/DocumentCenter/View/3028/Impartial-Analysis-PDF",
+    "location": "City Attorney's Impartial Analysis, last paragraph"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. Resume 2026-11-01: city impartial analysis is text. City copies of the primary arguments for and against and the rebuttals (DocumentCenter/View/3016, 3017, 3024, 3025) are scans with no text layer.",
+  "notFound": [
+   "fiscal",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-mountain-view.measure-e",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure E Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-e-city-of-mountain-view-charter-amendment-in-favor_08112026_redacted.pdf?VersionId=673LWFWdbCirTw.va07ovrQbiHjsBCsS",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure E Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-e-city-of-mountain-view-ia_charter_07-16-2026_redacted.pdf?VersionId=AX25FETrYQ.b_GefKxGABRqSerE74cOd",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends the Mountain View City Charter to use gender-neutral language, extend the time to act on filling a council vacancy from 30 to 60 days, end the requirement to read ordinances and resolutions in full, let the Council set qualifications for boards, commissions, and committees it creates, and make other clarifying updates.",
+    "excerpt": "Shall the measure amending the City Charter to modernize provisions by replacing gender-specific terms with gender-neutral language; extending the time to take action to fill a council vacancy from 30 to 60 days; eliminating the requirement to read ordinances and resolutions in full; authorizing Council to establish qualifications for legislatively created boards, commissions, and committees; updating outdated terminology; improving internal consistency, and making clarifying edits to align with State law and current practices, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure E entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: no Mountain View city page with text copies of the impartial analysis or arguments was found (city clerk election URLs tried returned Page Not Found).",
+  "notFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-mountain-view.measure-f",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure F Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-f-transient-occupy-tax-primary-arguemnt-in-favor_redacted.pdf?VersionId=IyOx3CK9E.wK8OfEiC0QfQCcisZh4qHx",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure F Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-f-city-of-mountain-view-tot-ia07-16-2026_redacted.pdf?VersionId=_fU6E.scTxBoTQBBx_XXrlxN0X0ISHaj",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Authorizes the Mountain View City Council to raise the existing Transient Occupancy Tax paid by hotel and short-term rental guests from 10% up to 15%, until ended by voters.",
+    "excerpt": "rental guests from 10% up to 15%, generating up to $5,200,000 annually until ended by voters, with independent audits, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "fiscal": {
+    "text": "Raises the tax from 10% up to 15%, generating up to $5,200,000 annually until ended by voters.",
+    "excerpt": "rental guests from 10% up to 15%, generating up to $5,200,000 annually until ended by voters, with independent audits, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure F entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. Ballot question text on the county page contains an invisible character inside 'short-term', so excerpts start after that word. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: no Mountain View city page with text copies of the impartial analysis or arguments was found (city clerk election URLs tried returned Page Not Found).",
+  "notFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sunnyvale.measure-g",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure G Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-primary-arguemnt-in-favor_redacted.pdf?VersionId=KV4agcxsN4.yMpIY7Db2XOef2kwosl_g",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure G Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-rebuttal-to-primary-argument-in-favor_redacted.pdf?VersionId=pqz0M7KFXVsc_UCf_8vykMh5YJaA.cBP",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure G Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-primary-arguemnt-against_redacted.pdf?VersionId=nnyacvTwkcq9LkYgiZ...YKPKcbNPPHP",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure G Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-rebuttal-to-primary-argument-against_redacted.pdf?VersionId=u2mBGahV2DCuUeyiR8FGjPOkZetodC1R",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure G Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-of-sunnyvale_charter-amendment-ia_08-18-2026_redacted.pdf?VersionId=2FIpf3MHgfhEG7rneDG2smFwbjLrc5SX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Impartial Analysis of Measure G",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6653/639227252045800000",
+    "publisher": "City of Sunnyvale"
+   },
+   {
+    "title": "Argument in Support of Measure G",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6641/639222366798630000",
+    "publisher": "City of Sunnyvale"
+   },
+   {
+    "title": "Elections (City Clerk)",
+    "url": "https://www.sunnyvale.ca.gov/your-government/city-clerk/elections",
+    "publisher": "City of Sunnyvale"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends Section 1309 of the Sunnyvale City Charter so the City Council can adopt an ordinance allowing any purchasing or contracting method allowed by California law to select contractors for public works construction projects, and makes clarifying wording changes.",
+    "excerpt": "Shall Section 1309 of the City Charter be amended to allow the City Council to adopt an ordinance giving the City more options for delivery of public works construction projects by authorizing use of any purchasing or contracting method allowed by California law to select contractors for such projects, and to make clarifying changes to the wording of Section 1309 that do not alter the meaning of the section?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote amends the Charter so the Council can authorize alternative project delivery methods for public works contracts and makes clarifying wording changes to Charter Section 1309.",
+    "excerpt": "A \"YES\" vote amends the Charter so that the Council can authorize the use of alternative project delivery methods for public works contracts and make clarifying changes to the wording of Charter Section 1309.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6653/639227252045800000",
+    "location": "City Attorney's Impartial Analysis of Measure G, page 1, last paragraph"
+   },
+   "no": {
+    "text": "A no vote adds no options to use alternative project delivery methods for public works contracts and does not change the wording of Charter Section 1309.",
+    "excerpt": "A \"NO\" vote would not add any options to use alternative project delivery methods for public works contracts and would not change the wording of Charter Section 1309.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6653/639227252045800000",
+    "location": "City Attorney's Impartial Analysis of Measure G, page 2"
+   },
+   "argFor": {
+    "text": "The argument in favor says the measure would let the City use modern delivery models such as design-build, combining design and construction into a single contract.",
+    "excerpt": "By allowing modern delivery models like \"Design-Build,\" the City can combine design and construction into a single, unified contract.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6641/639222366798630000",
+    "location": "Argument in Favor of Measure G, page 1, first bullet"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. Resume 2026-11-01: Sunnyvale city copies (linked from the City Clerk Elections page) are scans that carry an embedded OCR text layer. Excerpts were taken only from spans of that text layer with no visible OCR errors; they were not compared against the page image because the browser pane could not render the scans. A checker should confirm against the image. Signer blocks in these copies are handwritten forms, so supporters/opponents are not filled. The city copy of the argument against Measure G has no usable text layer.",
+  "notFound": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sunnyvale.measure-h",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure H Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-h-city-charter-amenedment-city-manager-settlement-authority-argument-in-favor_08112026_redacted-v2.pdf?VersionId=ag4SPlW2c4p4QFfzTuFRVjFSN1uX.BEX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure H Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-h-city-of-sunnyvale_charter-amendment_city-manager-settlement-ia_08-18-2026_redacted.pdf?VersionId=u0NQH_OffrKMK0muimLYT_.EANViwaMs",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Impartial Analysis of Measure H",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6655/639227252049500000",
+    "publisher": "City of Sunnyvale"
+   },
+   {
+    "title": "Argument in Support of Measure H",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6643/639222346988800000",
+    "publisher": "City of Sunnyvale"
+   },
+   {
+    "title": "Elections (City Clerk)",
+    "url": "https://www.sunnyvale.ca.gov/your-government/city-clerk/elections",
+    "publisher": "City of Sunnyvale"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends Section 1314 of the Sunnyvale City Charter so the City Council can set by ordinance the maximum amount the City Manager may approve to settle legal claims against the City, instead of the current $50,000 limit. Settlements above that amount still need City Council approval.",
+    "excerpt": "Shall Section 1314 of the City Charter be amended to authorize the City Council to adopt an ordinance establishing the maximum amount the City Manager may approve to settle legal claims against the City, instead of the current $50,000 limit established by state law and unchanged since 1989, while retaining City Council approval authority for settlements exceeding the amount set by the ordinance?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure H entry, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote amends the Charter so the Council can adopt an ordinance setting the City Manager's settlement authority at a limit different from Government Code Section 935.4.",
+    "excerpt": "A \"YES\" vote amends the Charter so that the Council can adopt an ordinance setting the amount of the City Manager's settlement authority at a different limit than Government Code Section",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6655/639227252049500000",
+    "location": "City Attorney's Impartial Analysis of Measure H, page 1, second-to-last paragraph"
+   },
+   "no": {
+    "text": "If you vote no, this change would not be made.",
+    "excerpt": "This measure would authorize the City Council to set the City Manager's maximum settlement authority by ordinance.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6655/639227252049500000",
+    "location": "City Attorney's Impartial Analysis of Measure H, page 1, paragraph 5"
+   },
+   "argFor": {
+    "text": "The argument in favor says the current $50,000 limit makes the City Council repeatedly stop its work to review and vote on minor, routine legal settlements.",
+    "excerpt": "This creates a bureaucratic bottleneck. Your elected City Council is required to repeatedly stop their work to agendize, review, and vote on minor, routine legal settlements.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6643/639222346988800000",
+    "location": "Argument in Favor of Measure H, page 1, paragraph 2"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: Sunnyvale city copies (linked from the City Clerk Elections page) are scans that carry an embedded OCR text layer. Excerpts were taken only from spans of that text layer with no visible OCR errors; they were not compared against the page image because the browser pane could not render the scans. A checker should confirm against the image. Signer blocks in these copies are handwritten forms, so supporters/opponents are not filled. The impartial analysis sentence on a No vote contains OCR errors in the text layer, so the no field uses the sentence that describes the change.",
+  "notFound": [
+   "fiscal",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sunnyvale.measure-i",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure I Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-appointed-incumbent-to-serve-until-sucessor-is-elected-primary-arguemnt-in-favor_redacted-v2.pdf?VersionId=3.MYtyA3I7uBQtnUxJFeUjx.Li3au6mt",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure I Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-city-charter-amendment-appointed-incumbent-to-serve-until-successor-is-elected-rebuttal-to-primary-argument-in-favor_redacted.pdf?VersionId=up1VsX4SHiK24xt6k.NOn_ec2jGo03Hp",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure I Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-appointed-incumbent-to-serve-until-sucessor-is-elected-primary-arguemnt-against_redacted.pdf?VersionId=EvC4AVSBsSDH070dSBnOLrdjCrF7mwrs",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure I Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-city-charter-amendment-appointed-incumbent-to-serve-until-successor-is-elected-rebuttal-to-primary-argument-against_redacted_0.pdf?VersionId=4Q52bzbAOM3KbsWqUF4HQ0wVrtsaNj7K",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure I Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-city-of-sunnyvale_charter-amendment-appointed-incumbent-to-serve-ia_08-18-2026_redacted.pdf?VersionId=imvy7ZqTTofyfOsTOOMxSr3kVQoj46UK",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Impartial Analysis of Measure I",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6657/639227252053900000",
+    "publisher": "City of Sunnyvale"
+   },
+   {
+    "title": "Argument in Support of Measure I",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6645/639222346763430000",
+    "publisher": "City of Sunnyvale"
+   },
+   {
+    "title": "Elections (City Clerk)",
+    "url": "https://www.sunnyvale.ca.gov/your-government/city-clerk/elections",
+    "publisher": "City of Sunnyvale"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends Section 606 of the Sunnyvale City Charter so a person appointed to fill a City Council vacancy serves until a successor is elected at the next General Municipal Election (November of even-numbered years), rather than until an earlier election date.",
+    "excerpt": "Shall Section 606 of the City Charter be amended to require that a person appointed to fill a vacancy on the City Council serve until a successor is elected at the next General Municipal Election (November of even-numbered years), rather than until an earlier election date that could be consolidated with a statewide election?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote amends the Charter so that a council vacancy filled by appointment goes to voters at the next November election in an even-numbered year.",
+    "excerpt": "A \"YES\" vote amends the Charter so that a council vacancy filled by appointment goes to voters at the next November election in an even-numbered year,",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6657/639227252053900000",
+    "location": "City Attorney's Impartial Analysis of Measure I, page 1, second-to-last paragraph"
+   },
+   "no": {
+    "text": "A no vote keeps the existing rule that a council vacancy filled by appointment goes to voters at the next Special Municipal Election consolidated with a statewide election or the next General Municipal Election, whichever is sooner.",
+    "excerpt": "A \"NO\" vote keeps the existing Charter requirement that a council vacancy filled by appointment go to the voters at the next Special Municipal Election consolidated with the next statewide election or the next General Municipal Election, whichever is sooner, and makes no changes to the wording.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6657/639227252053900000",
+    "location": "City Attorney's Impartial Analysis of Measure I, page 1, last paragraph"
+   },
+   "argFor": {
+    "text": "The argument in favor says the current Charter can require Sunnyvale to hold two elections for the same seat in the same year when a vacancy is filled by appointment.",
+    "excerpt": "Right now, when the City Council fills a vacancy by appointment, the Charter can require Sunnyvale to hold two elections for the same seat in the same year.",
+    "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6645/639222346763430000",
+    "location": "Argument in Favor of Measure I, page 1, paragraph 1"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. Resume 2026-11-01: Sunnyvale city copies (linked from the City Clerk Elections page) are scans that carry an embedded OCR text layer. Excerpts were taken only from spans of that text layer with no visible OCR errors; they were not compared against the page image because the browser pane could not render the scans. A checker should confirm against the image. Signer blocks in these copies are handwritten forms, so supporters/opponents are not filled. The city copy of the argument against Measure I has no usable text layer.",
+  "notFound": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-palo-alto.measure-j",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure J Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j-transportation-use-tax-primary-argument-in-favor_redacted-v2.pdf?VersionId=pjS1UK3Dd5URQ0FEfon6S.wurJ7a7.MU",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure J Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_rebuttal-to-in-favor_redacted.pdf?VersionId=c0AjwidDq6Y1MjfFiE6r.Xq9K48h_35O",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure J Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_transportation-use-tax_primary-argument-against_redacted.pdf?VersionId=Orv.tUAWIGyw1P_Ug1KW9ouzZkaOAZ91",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure J Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_rebuttal-to-against_redacted.pdf?VersionId=1KqVX2uEudN_V5bgnUptZwAbpDjAKWT4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure J Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_ia_redacted.pdf?VersionId=p7XgaCyq8nw9nJKnRGkOCZx7QMfAXfBX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure J",
+    "url": "https://www.paloalto.gov/files/assets/public/v/1/city-clerk/election-info/2026/measure-j-impartial-analysis.pdf",
+    "publisher": "City of Palo Alto"
+   },
+   {
+    "title": "November 3, 2026 Ballot Measure J",
+    "url": "https://www.paloalto.gov/Departments/City-Clerk/Municipal-Elections/November-3-2026-Ballot-Measure-J",
+    "publisher": "City of Palo Alto Office of the City Clerk"
+   }
+  ],
+  "fields": {
+   "fiscal": {
+    "text": "A 0.5% sales tax providing approximately $15,600,000 annually until ended by voters.",
+    "excerpt": "shall City of Palo Alto’s measure enacting a 0.5% (1/2¢) sales tax, providing approximately $15,600,000 annually until ended by voters, with published financial audits, all funds used locally, be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote approves a 0.5% increase to the transactions and use tax (sales tax) within Palo Alto.",
+    "excerpt": "A “yes” vote is a vote to approve a 0.5% increase to the transacƟons and use tax (commonly known as a sales tax) within the City.",
+    "url": "https://www.paloalto.gov/files/assets/public/v/1/city-clerk/election-info/2026/measure-j-impartial-analysis.pdf",
+    "location": "City Attorney's Impartial Analysis, second-to-last paragraph"
+   },
+   "no": {
+    "text": "A no vote does not approve the sales tax increase; the local sales tax would not rise by 0.5% and the City would not receive an estimated $15.6 million a year from it.",
+    "excerpt": "If this measure does not pass, the local sales tax will not increase by the 0.5% proposed in this measure, and the City of Palo Alto will not receive an esƟmated $15.6 million in revenue per year from the tax.",
+    "url": "https://www.paloalto.gov/files/assets/public/v/1/city-clerk/election-info/2026/measure-j-impartial-analysis.pdf",
+    "location": "City Attorney's Impartial Analysis, paragraph 5"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. plainEnglish was already filled in the input and was not rewritten. Resume 2026-11-01: the city impartial analysis PDF text layer uses ligature glyphs (Ɵ for \"ti\", Ʃ for \"tt\"); excerpts copy them exactly as pdf.js returned them. City copies of the primary arguments and rebuttals are scans with no text layer.",
+  "notFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-milpitas.measure-k",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure K Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-business-tax-modernization-primary-argument-in-favor_redacted-v2.pdf?VersionId=ihwB8UiUkEN6oQjtsUqKSrfSzujBAeh2",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure K Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-business-tax-rebuttal-to-the-argument-in-favor-20260818_redacted.pdf?VersionId=LX3Bmed2TeCLV7sjNgzam0NJ3ZdrkQRE",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure K Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-against_v2_redacted_0.pdf?VersionId=itnuJx4YnAVoubSQTxMaY5pGIvp9Z.VM",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure K Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-business-tax-rebuttal-to-the-argument-against-20260825_redactedv2.pdf?VersionId=maSkioxaQ2Q8ZcJvSpzjPzIFtPJ_Vbmg",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure K Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-ia-20260818_redacted.pdf?VersionId=kA9GJeyV15SUui1pbwtsvqP05mEhCD0K",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "City Attorney's Impartial Analysis of Measure K",
+    "url": "https://www.milpitas.gov/DocumentCenter/View/10603/Milpitas-2026-Business-Tax-Impartial-Analysis-PDF",
+    "publisher": "City of Milpitas"
+   },
+   {
+    "title": "2026 Election",
+    "url": "https://www.milpitas.gov/1441/2026-Election",
+    "publisher": "City of Milpitas City Clerk"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Updates Milpitas's business tax so all businesses pay an annual flat rate, plus 0.025% to 0.035% of gross receipts for larger businesses, with no tax increase to residents, until ended by voters.",
+    "excerpt": "Shall an ordinance to update City of Milpitas's 50-year-old business tax be adopted, with no tax increase to residents, so small businesses pay less than larger businesses, with all paying an annual flat rate, plus 0.025% to 0.035% of gross receipts for larger businesses, providing approximately $3,000,000 annually for general city services such as maintaining fiscal stability, neighborhood safety /cleanliness; requiring public disclosure, all funds invested locally, until ended by voters?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "fiscal": {
+    "text": "An annual flat rate for all businesses plus 0.025% to 0.035% of gross receipts for larger businesses, providing approximately $3,000,000 annually, until ended by voters.",
+    "excerpt": "with all paying an annual flat rate, plus 0.025% to 0.035% of gross receipts for larger businesses, providing approximately $3,000,000 annually for general city services",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote adopts the new gross receipts business tax to replace the existing tax.",
+    "excerpt": "A “yes” vote adopts the new gross receipts business tax to replace the existing tax.",
+    "url": "https://www.milpitas.gov/DocumentCenter/View/10603/Milpitas-2026-Business-Tax-Impartial-Analysis-PDF",
+    "location": "City Attorney's Impartial Analysis of Measure K, second-to-last paragraph"
+   },
+   "no": {
+    "text": "A no vote rejects the new gross receipts business tax and keeps the existing tax.",
+    "excerpt": "A “no” vote rejects the new gross receipts business tax and keeps the existing tax.",
+    "url": "https://www.milpitas.gov/DocumentCenter/View/10603/Milpitas-2026-Business-Tax-Impartial-Analysis-PDF",
+    "location": "City Attorney's Impartial Analysis of Measure K, last paragraph"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. Resume 2026-11-01: city impartial analysis is text. City copies of the primary arguments for and against (DocumentCenter/View/10571, 10570) are scans with no text layer.",
+  "notFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-cupertino.measure-l",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure L Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-l-cupertino-initiative-ordinance-amendment-argument-in-favor_redacted-v2.pdf?VersionId=8HXPKA4VQlnpF1GtLfwp5YOPF0pEQOUL",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure L Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-l-cupertino-initiative-ordinance-amendment-impartial-analysis_redacted.pdf?VersionId=KRVrrYaLOec9VgWpYSX.nmjosKv9r0dI",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends the Cupertino General Plan to require that any attempt to rezone parks, parklands or open space to residential, commercial or industrial uses, or any proposal for such development in them, be placed before Cupertino voters and secure two-thirds support at the City's next general election.",
+    "excerpt": "Shall an ordinance amending the City of Cupertino General Plan be adopted to mandate that any attempt to rezone parks, parklands or open space to residential, commercial or industrial uses, or any proposal for residential, commercial or industrial development in parks, parkland or open space, must be placed before Cupertino voters and secure two-thirds support in the City's next general election?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure L entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: the Cupertino Measure L city page (now titled Parks and Open Space Protection Measure) and the Cupertino Elections Info page post only the staff report, resolution and notices, not the impartial analysis or arguments.",
+  "notFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.measure-m",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-favor_redacted-v2_0.pdf?VersionId=wjlgx7BcZyubyHE7MPjnmiMHO64l6Rhr",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-rebuttal-to-in-favor-position_redacted.pdf?VersionId=TX3tnueiM8u2yN2MEK4_Hq6xX4.jPxm.",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-opposition_redacted-v2.pdf?VersionId=Szyew.DzaMIW0Ts1u1QeBP89lgCR46lL",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-rebuttal-to-opposition_redacted.pdf?VersionId=S5ah2tR5KMCTxkuJNQJbY376N9AnfcUu",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-impartial-analysis-gilroy-unified_redacted.pdf?VersionId=scFxKaSFWmw__kvplf8DbZI0FCWlXCZh",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Authorizes Gilroy Unified School District to issue $295,000,000 in bonds to construct, upgrade, and modernize classrooms, restrooms, and school facilities, make safety and security improvements, renovate or construct career technical education classrooms, and replace leaky roofs.",
+    "excerpt": "To improve the quality of education; construct, upgrade, and modernize classrooms, restrooms, and school facilities; make safety and security improvements; renovate or construct career technical education classrooms; and replace leaky roofs; shall Gilroy Unified School District's measure authorizing $295,000,000 in bonds",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "fiscal": {
+    "text": "$295,000,000 in bonds, levying approximately $59 per $100,000 of assessed value (raising $18,300,000 annually) while bonds are outstanding.",
+    "excerpt": "authorizing $295,000,000 in bonds, at legal rates, and levying approximately $59 per $100,000 of assessed value (raising $18,300,000 annually) while bonds are outstanding",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text.",
+  "notFound": [
+   "yes",
+   "no",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.measure-n",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=TWZkgE1ARTCuSEJr0mbOOM1zoObkGpBb",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-n-rebuttal-to-argument-in-favor-los-gatos-saratoga-uhsd_redacted.pdf?VersionId=nAnWKAU4N_WhzuvjqVavTnS1VkznVXFJ",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_against_8.11.26_redacted.pdf?VersionId=OOGgjL74el2O1q.DUkdF2_N_7C_4ZJun",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-n_rebuttal-to-argument-against_los-gatos-saratoga-uhsd_redacted-v2.pdf?VersionId=Udn6vuoKLaMr5vnDBNLyw91Lm9hv832t",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-n-lg-saratoga-union-hsd-bonds-stamped_redacted.pdf?VersionId=sGpQcuU_H2eGu3tXHIzgxBwlNbeQR1sm",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Impartial Analysis of Measure N",
+    "url": "https://votescount.santacruzcountyca.gov/Portals/16/nov26/Measure%20N%20Impartial.pdf",
+    "publisher": "County of Santa Cruz Elections Department"
+   },
+   {
+    "title": "Measure N",
+    "url": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/LocalMeasures/MeasureN.aspx",
+    "publisher": "County of Santa Cruz Elections Department"
+   }
+  ],
+  "fields": {
+   "fiscal": {
+    "text": "$321,000,000 in bonds, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding.",
+    "excerpt": "authorizing $321,000,000 in bonds at legal rates, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "yes": {
+    "text": "A yes vote allows the District to issue and sell up to $321,000,000 in general obligation bonds, financed by an annual property tax.",
+    "excerpt": "A “yes” vote on Measure N is a vote to allow the District to issue and sell up to $321,000,000 in general obligation bonds and financed by an annual property tax.",
+    "url": "https://votescount.santacruzcountyca.gov/Portals/16/nov26/Measure%20N%20Impartial.pdf",
+    "location": "Impartial Analysis of Measure N (Santa Cruz County Counsel), page 2"
+   },
+   "no": {
+    "text": "A no vote is a vote against issuing the proposed bonds.",
+    "excerpt": "A “no” vote on Measure N is a vote against the issuance of the proposed bonds.",
+    "url": "https://votescount.santacruzcountyca.gov/Portals/16/nov26/Measure%20N%20Impartial.pdf",
+    "location": "Impartial Analysis of Measure N (Santa Cruz County Counsel), page 2"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. plainEnglish was already filled in the input and was not rewritten. Resume 2026-11-01: the district extends into Santa Cruz County; the Santa Cruz County Elections Measure N page posts a text impartial analysis by Santa Cruz County Counsel (used for yes/no). Its argument for/against and rebuttal PDFs are scans with no text layer. The Santa Clara County impartial analysis may be worded differently.",
+  "notFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-o",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure O Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-o_alum-rock-union-parcel-tax_primary-argument-in-favor_redacted-v2.pdf?VersionId=9m4sTqWxdYduiXYQPaX0BOLDHPIvQjyc",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure O Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-o-alum-rock-union-esd-parcel-tax-stamped_redacted.pdf?VersionId=PmLkocwbXMETRl7Qw2_7KeYkws3_yp2Q",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Replaces Alum Rock Union Elementary School District's current parcel tax with a tax of $310 per parcel for seven years, with senior exemptions, to fund services for students with disabilities, reading, writing, math and science programs, teacher recruitment and retention, and support for students experiencing housing instability.",
+    "excerpt": "shall Alum Rock Union Elementary School District's measure to protect services for students with disabilities; improve reading, writing, math and science programs; attract and retain highly qualified teachers; and support students experiencing housing instability be adopted, by replacing the current tax at $310 per parcel for seven years",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "fiscal": {
+    "text": "$310 per parcel for seven years, replacing the current tax, raising $6.5 million annually, with senior exemptions.",
+    "excerpt": "by replacing the current tax at $310 per parcel for seven years, while raising $6.5 million annually with senior exemptions, and public disclosure of all spending?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure O entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure.",
+  "notFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-p",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure P Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-p_alum-rock-union-general-obligation-bond-primary-argument-in-favor_redacted_final.pdf?VersionId=QbWWz2plqZ1L.wCd0aeLDUsfGmQXJnVX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure P Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted.pdf?VersionId=wHC3Gme81VWm0wm_ZojVC4k1MGKwVRah",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Authorizes Alum Rock Union Elementary School District to issue $100 million in bonds to repair leaky roofs and plumbing, replace heating, ventilation, and air conditioning, and upgrade emergency communication and security systems.",
+    "excerpt": "shall Alum Rock Union Elementary School District's measure to repair leaky roofs and plumbing; replace heating, ventilation, and air conditioning; and upgrade emergency communication and security systems be adopted, authorizing $100 million of bonds",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "fiscal": {
+    "text": "$100 million of bonds, without increasing current tax rates, with average levies below $26 per $100,000 of assessed valuation (raising $6.3 million annually while outstanding).",
+    "excerpt": "authorizing $100 million of bonds with legal rates, without increasing current tax rates, average levies below $26 per $100,000 of assessed valuation (raising $6.3 million annually while outstanding)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure P entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure.",
+  "notFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-cambrian-school-district.measure-q",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure Q Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-q_cambrian-school-district-parcel-tax_primary-argument-in-favor_redacted_final.pdf?VersionId=9c2QO2Ij25_Kv2uvoDRPmN.R31yvMeL0",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure Q Impartial Analysis (as linked by county)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted_0.pdf?VersionId=ZsZUMDSKQkFXnw4fPoV.JdbIOS2SSaVb",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "fiscal": {
+    "text": "$148 per parcel for 8 years, with senior exemptions and annual inflation adjustments, providing $1,000,000 annually.",
+    "excerpt": "levying $148/parcel for 8 years, its continuance subject to voter approval, with senior exemptions, annual inflation adjustments, providing $1,000,000 annually",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure Q entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. The county page links Measure Q's Impartial Analysis to a file named alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted_0.pdf, which may be the Alum Rock Measure P analysis rather than Cambrian's; a checker should confirm. plainEnglish was already filled in the input and was not rewritten. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: the Cambrian School District Measure Q page has district FAQ text and the ballot question but no impartial analysis or arguments; its own yes/no wording is district informational text, not an impartial analysis, so it was not used.",
+  "notFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-orchard-school-district.measure-r",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure R Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_r_orchard-school-district-parcel-tax-primary-argument-in-favor_8.11.26_redacted.pdf?VersionId=KJFpM.O2H8XyU2WpuN8dF7X2zJmG1lPX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure R Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-r-orchard-school-district-parcel-tax-ia-redacted-20260818.pdf?VersionId=OxQ5w3LdKR5wiJMFVOX5sGPFd78K1LMo",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Levies an Orchard School District parcel tax of 4 cents per building square foot, not to exceed $89 per residential parcel and $7,500 per non-residential parcel, for eight years beginning July 1, 2027, with senior exemptions.",
+    "excerpt": "shall the Orchard School District measure levying a parcel tax at the rate of 4 cents per building square foot (not-to-exceed $7,500 non-residential and $89 residential per parcel), raising $1.4 million annually for eight years beginning July 1, 2027, with senior exemptions and all expenditures audited be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "fiscal": {
+    "text": "4 cents per building square foot (not to exceed $7,500 non-residential and $89 residential per parcel), raising $1.4 million annually for eight years beginning July 1, 2027.",
+    "excerpt": "levying a parcel tax at the rate of 4 cents per building square foot (not-to-exceed $7,500 non-residential and $89 residential per parcel), raising $1.4 million annually for eight years beginning July 1, 2027",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure R entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: the Orchard School District article is a district news item with no impartial analysis or arguments.",
+  "notFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-spd-el-camino-healthcare-district.measure-s",
+  "officialPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure S Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-echd-primary-argument-in-favor_redacted.pdf?VersionId=WMZ_ALjnrC.OXzcX4sTcqpOqQyuWXdhR",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure S Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-term-limit-ia-redacted-20260818.pdf?VersionId=xmPSrlttoIZIT1LZ.IX2_wKliVkdpmT3",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Amends the El Camino Healthcare District Bylaws to limit District Directors to four four-year terms.",
+    "excerpt": "Shall the measure amending the Bylaws of the El Camino Healthcare District to limit District Directors to four four-year terms be adopted?",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Ballot question, county List of Local Measures page"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "Primary Argument Against (none filed)",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "location": "Measure S entry, county List of Local Measures page"
+   }
+  },
+  "notes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure.",
+  "notFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "supporters",
+   "opponents"
+  ]
+ }
+]

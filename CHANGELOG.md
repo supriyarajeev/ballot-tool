@@ -1,5 +1,14 @@
 # Changelog
 
+## November 2, 2026, local measures filled in
+
+- **Local measure facts.** All 143 Bay Area local and special measures were researched again from official documents only (county election offices, city clerks, district pages and voter pamphlets). Each measure has eight fields: summary, what a Yes vote does, what a No vote does, fiscal effect, the arguments in favor and against, and the signers of each. Filled fields went from 64 of 1,144 to 850 of 1,144.
+- **By county, fields filled.** San Mateo 159 of 224, Alameda 133 of 216, Marin 133 of 152, Santa Clara 64 of 152, Contra Costa 93 of 96, Sonoma 86 of 96, Solano 83 of 88, San Francisco 76 of 80, Napa 15 of 32, the Bay Area transit measure 8 of 8.
+- **How a field gets in.** Each field carries the official sentence it rests on. Text excerpts were opened again in a browser on their source and found there word for word (701 checked, 698 matched; the 3 that did not are left out). Excerpts from scanned pages were read with text recognition and compared word for word with the page image; a sample of 30 was read again separately and all 30 matched. Each field has a claim record in data/evidence-claims.json, marked as awaiting review.
+- **What stays blank.** A field is left empty when the official documents do not say it. For example, no argument against was filed for many Marin, Sonoma and Solano measures (the guide shows the county's statement that none was filed), some analyses state no dollar figure, and some cities post no arguments at all.
+- **Research notes** on each measure page now say which fields were added on Nov 2 and how they were checked. Sentences saying the arguments had not been researched were removed where they are now filled.
+- **Change place outside the Bay Area.** On a county outside the nine Bay Area counties, Change place now opens the county and city picker instead of doing nothing.
+
 ## November 1, 2026, clearer defaults and dated sources
 
 - **Guide default weights.** The starting weights (5, 4, 3, 3, 2) are now called "Guide default". The page says: "The default weights are selected for this guide to provide a consistent starting point. They are not universal priorities or an objectively correct ranking. You can change them to reflect what matters most to you." A short "Why these starting weights?" fold explains each one. Values and scoring are unchanged.

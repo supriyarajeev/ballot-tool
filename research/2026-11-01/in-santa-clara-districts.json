@@ -1,0 +1,480 @@
+[
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.measure-n",
+  "jurisdiction": "ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district",
+  "identifier": "Measure N",
+  "title": null,
+  "ballotQuestion": "To maintain quality academic facilities at Los Gatos High School and Saratoga High School by replacing leaky roofs and failing restrooms, plumbing, electrical, heating/ cooling systems; improving school safety; updating, repairing and equipping schools including science, technology, engineering, arts, math, robotics, and career/ college readiness classrooms/ labs; shall Los Gatos-Saratoga Union High School District's measure be adopted, authorizing $321,000,000 in bonds at legal rates, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding, with oversight, annual audits, and local control?",
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://votescount.santacruzcountyca.gov/Portals/16/nov26/Santa%20Cruz%20NOE_Supplemental_November%203%202026.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://votescount.santacruzcountyca.gov/Portals/16/nov26/Measure%20N%20Impartial.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-n-lg-saratoga-union-hsd-bonds-stamped_redacted.pdf?VersionId=sGpQcuU_H2eGu3tXHIzgxBwlNbeQR1sm",
+    "type": "Official"
+   },
+   {
+    "label": "LGSUHSD Local Funding page",
+    "url": "https://www.lgsuhsd.org/about-us/local-funding",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Lets the Los Gatos-Saratoga Union High School District sell up to $321 million in bonds for school facility repairs and upgrades. The estimated tax is $30 per $100,000 of assessed value per year, expected through fiscal year 2056-57.",
+   "yes": "A yes vote allows the District to issue and sell up to $321,000,000 in general obligation bonds, financed by an annual property tax.",
+   "no": "A no vote is a vote against issuing the proposed bonds.",
+   "fiscal": "$321,000,000 in bonds, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding."
+  },
+  "missing": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. plainEnglish was already filled in the input and was not rewritten. Resume 2026-11-01: the district extends into Santa Cruz County; the Santa Cruz County Elections Measure N page posts a text impartial analysis by Santa Cruz County Counsel (used for yes/no). Its argument for/against and rebuttal PDFs are scans with no text layer. The Santa Clara County impartial analysis may be worded differently.",
+  "previousNotFound": [
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=TWZkgE1ARTCuSEJr0mbOOM1zoObkGpBb",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-n-rebuttal-to-argument-in-favor-los-gatos-saratoga-uhsd_redacted.pdf?VersionId=nAnWKAU4N_WhzuvjqVavTnS1VkznVXFJ",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_against_8.11.26_redacted.pdf?VersionId=OOGgjL74el2O1q.DUkdF2_N_7C_4ZJun",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-n_rebuttal-to-argument-against_los-gatos-saratoga-uhsd_redacted-v2.pdf?VersionId=Udn6vuoKLaMr5vnDBNLyw91Lm9hv832t",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure N Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-n-lg-saratoga-union-hsd-bonds-stamped_redacted.pdf?VersionId=sGpQcuU_H2eGu3tXHIzgxBwlNbeQR1sm",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Impartial Analysis of Measure N",
+    "url": "https://votescount.santacruzcountyca.gov/Portals/16/nov26/Measure%20N%20Impartial.pdf",
+    "publisher": "County of Santa Cruz Elections Department"
+   },
+   {
+    "title": "Measure N",
+    "url": "https://votescount.santacruzcountyca.gov/Home/Elections/November3,2026CaliforniaGeneralElection/LocalMeasures/MeasureN.aspx",
+    "publisher": "County of Santa Cruz Elections Department"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-gilroy-unified-school-district.measure-m",
+  "jurisdiction": "ca-santa-clara-sd-gilroy-unified-school-district",
+  "identifier": "Measure M",
+  "title": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-impartial-analysis-gilroy-unified_redacted.pdf?VersionId=scFxKaSFWmw__kvplf8DbZI0FCWlXCZh",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Authorizes Gilroy Unified School District to issue $295,000,000 in bonds to construct, upgrade, and modernize classrooms, restrooms, and school facilities, make safety and security improvements, renovate or construct career technical education classrooms, and replace leaky roofs.",
+   "fiscal": "$295,000,000 in bonds, levying approximately $59 per $100,000 of assessed value (raising $18,300,000 annually) while bonds are outstanding."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "argFor",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-favor_redacted-v2_0.pdf?VersionId=wjlgx7BcZyubyHE7MPjnmiMHO64l6Rhr",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Rebuttal Argument to Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-rebuttal-to-in-favor-position_redacted.pdf?VersionId=TX3tnueiM8u2yN2MEK4_Hq6xX4.jPxm.",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-opposition_redacted-v2.pdf?VersionId=Szyew.DzaMIW0Ts1u1QeBP89lgCR46lL",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Rebuttal Argument to Primary Argument Against",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-rebuttal-to-opposition_redacted.pdf?VersionId=S5ah2tR5KMCTxkuJNQJbY376N9AnfcUu",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure M Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-impartial-analysis-gilroy-unified_redacted.pdf?VersionId=scFxKaSFWmw__kvplf8DbZI0FCWlXCZh",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-o",
+  "jurisdiction": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+  "identifier": "Measure O",
+  "title": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-o-alum-rock-union-esd-parcel-tax-stamped_redacted.pdf?VersionId=PmLkocwbXMETRl7Qw2_7KeYkws3_yp2Q",
+    "type": "Official"
+   },
+   {
+    "label": "CivicIQ summary (independent)",
+    "url": "https://civiciq.com/public-project/alum-rock-union-elementary-sd-board-approved-a-november-3-0a01756d-5973-42ea-b16b-5b240a45dade",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Replaces Alum Rock Union Elementary School District's current parcel tax with a tax of $310 per parcel for seven years, with senior exemptions, to fund services for students with disabilities, reading, writing, math and science programs, teacher recruitment and retention, and support for students experiencing housing instability.",
+   "fiscal": "$310 per parcel for seven years, replacing the current tax, raising $6.5 million annually, with senior exemptions.",
+   "argAgainst": "No argument against was filed."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure O Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-o_alum-rock-union-parcel-tax_primary-argument-in-favor_redacted-v2.pdf?VersionId=9m4sTqWxdYduiXYQPaX0BOLDHPIvQjyc",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure O Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-o-alum-rock-union-esd-parcel-tax-stamped_redacted.pdf?VersionId=PmLkocwbXMETRl7Qw2_7KeYkws3_yp2Q",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-p",
+  "jurisdiction": "ca-santa-clara-sd-alum-rock-union-elementary-school-district",
+  "identifier": "Measure P",
+  "title": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted.pdf?VersionId=wHC3Gme81VWm0wm_ZojVC4k1MGKwVRah",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Authorizes Alum Rock Union Elementary School District to issue $100 million in bonds to repair leaky roofs and plumbing, replace heating, ventilation, and air conditioning, and upgrade emergency communication and security systems.",
+   "fiscal": "$100 million of bonds, without increasing current tax rates, with average levies below $26 per $100,000 of assessed valuation (raising $6.3 million annually while outstanding).",
+   "argAgainst": "No argument against was filed."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure P Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-p_alum-rock-union-general-obligation-bond-primary-argument-in-favor_redacted_final.pdf?VersionId=QbWWz2plqZ1L.wCd0aeLDUsfGmQXJnVX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure P Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted.pdf?VersionId=wHC3Gme81VWm0wm_ZojVC4k1MGKwVRah",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-cambrian-school-district.measure-q",
+  "jurisdiction": "ca-santa-clara-sd-cambrian-school-district",
+  "identifier": "Measure Q",
+  "title": null,
+  "ballotQuestion": "To protect the quality of education in our local elementary and middle schools, provide funding for core academic programs in math, science, engineering, technology, reading, writing and arts, attract/retain highly qualified teachers, and maintain manageable class sizes, shall Cambrian School District’s measure be adopted, levying $148/parcel for 8 years, its continuance subject to voter approval, with senior exemptions, annual inflation adjustments, providing $1,000,000 annually in locally controlled funding that can’t be taken by the State?",
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.cambriansd.org/fs/pages/3082",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted_0.pdf?VersionId=ZsZUMDSKQkFXnw4fPoV.JdbIOS2SSaVb",
+    "type": "Official"
+   },
+   {
+    "label": "2024 Parcel Tax Measure Package Preview",
+    "url": "https://cambrian.ic-board.com/Attachments/6dc3c26b-ca3d-4d56-a369-b76366b627cd.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Resolution No. 24-25-06",
+    "url": "https://cambrian.ic-board.com/Attachments/c2426e19-8559-4d66-b612-28314dc2eead.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Measure H Continuation Survey",
+    "url": "https://cambrian.ic-board.com/Attachments/b93f1fa0-9530-4e16-9e8c-49f6aa383c07.pdf",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Levies a $148 per parcel tax for 8 years for Cambrian School District, with senior exemptions and annual inflation adjustments. It would provide about $1,000,000 a year.",
+   "fiscal": "$148 per parcel for 8 years, with senior exemptions and annual inflation adjustments, providing $1,000,000 annually.",
+   "argAgainst": "No argument against was filed."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. The county page links Measure Q's Impartial Analysis to a file named alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted_0.pdf, which may be the Alum Rock Measure P analysis rather than Cambrian's; a checker should confirm. plainEnglish was already filled in the input and was not rewritten. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: the Cambrian School District Measure Q page has district FAQ text and the ballot question but no impartial analysis or arguments; its own yes/no wording is district informational text, not an impartial analysis, so it was not used.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure Q Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-q_cambrian-school-district-parcel-tax_primary-argument-in-favor_redacted_final.pdf?VersionId=9c2QO2Ij25_Kv2uvoDRPmN.R31yvMeL0",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure Q Impartial Analysis (as linked by county)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted_0.pdf?VersionId=ZsZUMDSKQkFXnw4fPoV.JdbIOS2SSaVb",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-orchard-school-district.measure-r",
+  "jurisdiction": "ca-santa-clara-sd-orchard-school-district",
+  "identifier": "Measure R",
+  "title": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-r-orchard-school-district-parcel-tax-ia-redacted-20260818.pdf?VersionId=OxQ5w3LdKR5wiJMFVOX5sGPFd78K1LMo",
+    "type": "Official"
+   },
+   {
+    "label": "Orchard SD article",
+    "url": "https://www.orchardsd.org/article/3055305",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Levies an Orchard School District parcel tax of 4 cents per building square foot, not to exceed $89 per residential parcel and $7,500 per non-residential parcel, for eight years beginning July 1, 2027, with senior exemptions.",
+   "fiscal": "4 cents per building square foot (not to exceed $7,500 non-residential and $89 residential per parcel), raising $1.4 million annually for eight years beginning July 1, 2027.",
+   "argAgainst": "No argument against was filed."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure. Resume 2026-11-01: the Orchard School District article is a district news item with no impartial analysis or arguments.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure R Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_r_orchard-school-district-parcel-tax-primary-argument-in-favor_8.11.26_redacted.pdf?VersionId=KJFpM.O2H8XyU2WpuN8dF7X2zJmG1lPX",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure R Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-r-orchard-school-district-parcel-tax-ia-redacted-20260818.pdf?VersionId=OxQ5w3LdKR5wiJMFVOX5sGPFd78K1LMo",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-spd-el-camino-healthcare-district.measure-s",
+  "jurisdiction": "ca-santa-clara-spd-el-camino-healthcare-district",
+  "identifier": "Measure S",
+  "title": null,
+  "ballotQuestion": null,
+  "sources": [
+   {
+    "label": "Santa Clara County official list of local measures",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "type": "Official"
+   },
+   {
+    "label": "Impartial analysis (official)",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-term-limit-ia-redacted-20260818.pdf?VersionId=xmPSrlttoIZIT1LZ.IX2_wKliVkdpmT3",
+    "type": "Official"
+   }
+  ],
+  "alreadyFilled": {
+   "plainEnglish": "Amends the El Camino Healthcare District Bylaws to limit District Directors to four four-year terms.",
+   "argAgainst": "No argument against was filed."
+  },
+  "missing": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousNotes": "All county argument and impartial analysis PDFs for this measure are scanned images with no text layer (checked with pdf.js on 2026-11-01). The browser bridge disconnected before city or district text versions could be read or OCR could be checked, so yes/no, arguments and signers are not filled. Fields filled come only from the county List of Local Measures page text. County page lists 'Primary Argument Against (none filed)' for this measure.",
+  "previousNotFound": [
+   "yes",
+   "no",
+   "fiscal",
+   "argFor",
+   "supporters",
+   "opponents"
+  ],
+  "previousPages": [
+   {
+    "title": "List of Local Measures, November 3, 2026 General Election",
+    "url": "https://vote.santaclaracounty.gov/list-local-measures-4",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure S Primary Argument In-Favor",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-echd-primary-argument-in-favor_redacted.pdf?VersionId=WMZ_ALjnrC.OXzcX4sTcqpOqQyuWXdhR",
+    "publisher": "Santa Clara County Registrar of Voters"
+   },
+   {
+    "title": "Measure S Impartial Analysis",
+    "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-term-limit-ia-redacted-20260818.pdf?VersionId=xmPSrlttoIZIT1LZ.IX2_wKliVkdpmT3",
+    "publisher": "Santa Clara County Registrar of Voters"
+   }
+  ]
+ }
+]

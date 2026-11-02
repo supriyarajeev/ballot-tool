@@ -1,0 +1,373 @@
+[
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-w",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure W",
+  "shortTitle": "Charter Amendment Measure",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure amending the City Charter to reduce candidate filing fees; eliminate signatures in lieu of filing fee process; eliminate certain personal information from candidate statements; clarify and revise initiative, referendum and recall processes; amend election timelines for filling Mayor and Councilmember vacancies; increase the maximum amount from the public campaign financing fund for administration and enforcement from $250,000 to $400,000 per four-year election cycle; and make other changes be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_charter_amendment.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-06/2026-06-16%20Item%2037%20Placing%20a%20Charter%20Amendment.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Berkeley"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure X",
+  "shortTitle": "Rent Ordinance Amendment Measure",
+  "officialTitle": null,
+  "measureType": "Ordinance (council-placed amendment to the Rent Stabilization Ordinance)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure to amend the Rent Stabilization and Eviction for Just Cause Ordinance by making most rent control and registration exemptions inapplicable to units that were not exempt when the current tenancy began; allowing modification or waiver of fees for subsidized units owned or leased by nonprofits; changing the annual registration deadline; limiting annual rent increases to ten percent; and allowing tenant associations in smaller properties, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_rent_ordinance.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-07/2026-07-07%20Item%20A%20Placing%20an%20Initiative%20Ordinance.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Berkeley"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure Y",
+  "shortTitle": "Initiative - Arts Tax Measure",
+  "officialTitle": null,
+  "measureType": "Special parcel tax (citizen initiative)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure creating a special parcel tax to fund grants for performing arts organizations, art projects, art organization operational and programmatic expenses and capital projects, community festivals, and administrative costs, with oversight by the City’s Civic Arts Commission, at a rate of $0.07 per square foot of improvements, estimated to generate approximately $6,300,000 annually and $84,800,000 over its twelve-year duration, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_arts_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-07/2026-07-14%20Item%2002%20Initiative%20Petition%20-%20Arts%20Institutions.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Berkeley"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-z",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure Z",
+  "shortTitle": "Initiative - Public Bank Measure",
+  "officialTitle": null,
+  "measureType": "Special parcel tax (citizen initiative)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure creating a special parcel tax to capitalize and support a public bank to fund investments in affordable housing, green energy/infrastructure and small businesses, at rates of $0.06/square foot of residential improvements and $0.09/square foot of non-residential improvements, estimated to generate approximately $9,200,000 the first year and $58,300,000 over its six-year duration, with funds subject to review, allocation and approval by the City Council and regular audits, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_public_bank_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://berkeleyca.gov/sites/default/files/2026-07/2026-07-14%20Item%2003%20Initiative%20Petition%20%E2%80%93%20Public%20Bank.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Berkeley"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "jurisdiction": "ca-alameda-berkeley",
+  "identifier": "Measure AA",
+  "shortTitle": "Initiative - Soda Tax Measure",
+  "officialTitle": null,
+  "measureType": "Special tax (citizen initiative; replaces existing general tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure replacing the City’s $0.01 per fluid ounce general tax on the distribution of sugar-sweetened beverages with a $0.02 per fluid ounce special tax to fund public health, nutrition, and drinking water accessibility programs by nonprofits, the City, or Berkeley Unified School District, retaining current exemptions for small retailers, milk products, baby formula, alcoholic beverages, and medical and weight-loss products, estimated to generate approximately $2,200,000 annually, until repealed by the voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_berkeley_soda_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document stating the vote requirement",
+    "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Berkeley"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-emeryville.measure-bb",
+  "jurisdiction": "ca-alameda-emeryville",
+  "identifier": "Measure BB",
+  "shortTitle": "Business Tax Measure",
+  "officialTitle": null,
+  "measureType": null,
+  "threshold": null,
+  "ballotQuestion": "City Services/ Business License Reform Measure. To protect City of Emeryville services/ ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: keep parks/ playgrounds safe; repair potholes/ maintain streets; maintain 9-1-1 response; improve crime prevention; maintain senior/ youth services; general government use; by updating/ simplifying Emeryville’s 42 year old business license rates up to 0.4% of gross receipts (described in the ordinance) until ended by voters, providing $12,400,000 annually, requiring independent oversight?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_emeryville_ordinance_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Emeryville"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-hayward.measure-cc",
+  "jurisdiction": "ca-alameda-hayward",
+  "identifier": "Measure CC",
+  "shortTitle": "Business Tax Ordinance Measure",
+  "officialTitle": null,
+  "measureType": "General tax (business license tax)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "HAYWARD BUSINESS LICENSE TAX MODERNIZATION: Shall the measure updating the Hayward Business License Tax for the first time since 1978, to support general city services, including neighborhood police protection, firefighting, 911 response, libraries, and pothole repair, generating an additional $12 million annually until repealed, with a minimum tax of $60 and rates from $.30 to $3.75 per $1,000 of gross receipts, with higher rates for higher-grossing businesses, as stated in the ordinance, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_hayward_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Official document with the ballot question",
+    "url": "https://www.hayward-ca.gov/your-government/elections/ballot-measures",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Hayward"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-newark.measure-dd",
+  "jurisdiction": "ca-alameda-newark",
+  "identifier": "Measure DD",
+  "shortTitle": "Newark Essential Services Protection Measure",
+  "officialTitle": null,
+  "measureType": "Regular measure (per the county submittal form)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Newark Essential Services Protection Measure. To protect city services such as repairing potholes/streets; keeping neighborhoods safe/clean, and maintaining 9-1-1 emergency response/fire protection/neighborhood police patrols/parks/recreation programs, shall the measure be adopted updating Newark’s 56-year-old business license ordinance, lowering many small businesses’ taxes, with rates up to 0.3% of gross receipts (as described in the ordinance), raising $6,600,000 annually until ended by voters, with spending disclosure/ independent audits?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_newark_business_ordinance_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Newark"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-oakland.measure-ee",
+  "jurisdiction": "ca-alameda-oakland",
+  "identifier": "Measure EE",
+  "shortTitle": "Charter Amendment Measure (mayoral powers, council oversight, elected officials' salaries)",
+  "officialTitle": null,
+  "measureType": "Charter amendment",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure to amend Oakland's City Charter to, among other things, (1) make the Mayor the City's chief executive with a legislative veto, (2) empower the Council to override vetoes, confirm appointments of certain directors, and appoint an Independent Budget and Legislative Analyst, (3) affirm Councilmembers’ right to acquire information from other City officials, (4) require Councilmembers to work full-time, and (5) empower the Public Ethics Commission to set salaries for all City elected officials using similar formulas, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_oakland_charter_amendment_provisions_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "INDEPENDENT: KQED voter guide, Measure EE",
+    "url": "https://www.kqed.org/voterguide/alameda/measure-ee",
+    "type": "Independent"
+   },
+   {
+    "label": "INDEPENDENT: Ballotpedia News, strong-mayor charter amendment",
+    "url": "https://news.ballotpedia.org/2026/07/13/what-is-a-strong-mayor-government-oakland-voters-will-decide-charter-amendment-to-change-citys-form-of-government/",
+    "type": "Independent"
+   },
+   {
+    "label": "INDEPENDENT: Citeline, The Oakland November 2026 Ballot, Explained",
+    "url": "https://citeline.substack.com/p/the-oakland-november-2026-ballot",
+    "type": "Independent"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Oakland"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-oakland.measure-ff",
+  "jurisdiction": "ca-alameda-oakland",
+  "identifier": "Measure FF",
+  "shortTitle": "Real Property Tax Measure (Real Property Transfer Tax foreclosure exception)",
+  "officialTitle": null,
+  "measureType": "Regular measure (per the county submittal form)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure amending Oakland’s Real Property Transfer Tax Ordinance to eliminate the foreclosure exception for all property transfers except transfers converting commercial property to certain housing or healthcare uses, transfers to community banking organizations, and certain transfers of residential properties of four units or less, and allowing the City Council to establish, amend, or remove foreclosure-related exceptions, raising approximately $4-$13 million annually pursuant to tax rates in Oakland Municipal Code section 4.20.020, beginning January 1, 2027 until repealed, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_oakland_real_property_tax.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "Oakland Rules and Legislation Committee item 26-0691, June 18, 2026",
+    "url": "https://oakland.granicusideas.com/meetings/9058-star-rules-and-legislation-committee-on-2026-06-18-10-30-am/agenda_items/6a2c486bf395e7928a0056a6-s6-26-0691-subject-resolution-submitting-to-v",
+    "type": "Official"
+   },
+   {
+    "label": "INDEPENDENT: KQED voter guide, Measure FF",
+    "url": "https://www.kqed.org/voterguide/alameda/measure-ff",
+    "type": "Independent"
+   },
+   {
+    "label": "INDEPENDENT: Citeline, The Oakland November 2026 Ballot, Explained",
+    "url": "https://citeline.substack.com/p/the-oakland-november-2026-ballot",
+    "type": "Independent"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Oakland"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-piedmont.measure-gg",
+  "jurisdiction": "ca-alameda-piedmont",
+  "identifier": "Measure GG",
+  "shortTitle": "Real Property Conveyance Tax Measure",
+  "officialTitle": null,
+  "measureType": "Regular measure (per the county submittal form)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall the measure, providing funding for City of Piedmont’s essential city services, such as police, fire, and emergency medical response; and maintenance of aging City buildings, parks, stormwater drains, roads and sidewalks, by increasing the real estate transfer tax from 1.3% to 1.75% to be more in line with neighboring cities and to generate approximately $1,500,000 annually in general tax revenue until ended by voters, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_piedmont_real_tax_measure.pdf",
+    "type": "Official"
+   },
+   {
+    "label": "City of Piedmont news, Ballot measure arguments due August 3, 2026",
+    "url": "https://www.piedmont.ca.gov/news/ballot_measure_arguments_due_august_3_2026",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Piedmont"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-pleasanton.measure-hh",
+  "jurisdiction": "ca-alameda-pleasanton",
+  "identifier": "Measure HH",
+  "shortTitle": "Uniform Transient Occupancy Tax Measure",
+  "officialTitle": null,
+  "measureType": "Regular measure (per the county submittal form)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Shall a measure be adopted to increase the City's Uniform Transient Occupancy Tax paid by hotel guests from 8% to 10% on July 1, 2027, and to 12% on July 1, 2028, generating an estimated $1.4 to $2.8 million per year in additional revenue, that can be used to maintain city services, such as: police and fire protection; park and street maintenance; recreation programs; and other general government uses, until ended by voters?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_pleasanton_tax_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Pleasanton"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-union-city.measure-ii",
+  "jurisdiction": "ca-alameda-union-city",
+  "identifier": "Measure II",
+  "shortTitle": "Union City Essential Services Extension Measure",
+  "officialTitle": null,
+  "measureType": "Regular measure (per the county submittal form)",
+  "threshold": "a simple majority (more than 50%) of votes",
+  "ballotQuestion": "Union City Essential Services Extension Measure. To maintain critical city services, including 9-1-1 emergency response/paramedics/fire protection; street/pothole repair; neighborhood police patrols; crime/gun violence prevention programs; youth/senior programs; and other city services, shall the measure extending the City of Union City’s existing voter-approved utility users tax for 9 years at the current 5% rate (no increase), providing $7,000,000 annually, with senior/ low-income exemptions, annual audits, and all funds locally controlled, be adopted?",
+  "sources": [
+   {
+    "label": "Official measure document",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_union_city_uut_measure.pdf",
+    "type": "Official"
+   }
+  ],
+  "plainEnglish": null,
+  "yes": null,
+  "no": null,
+  "fiscal": null,
+  "jurisdictionName": "Union City"
+ }
+]

@@ -1,0 +1,1094 @@
+[
+ {
+  "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-o",
+  "officialPages": [
+   {
+    "title": "Resolution, Full Text and Tax Rate Statement",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20Code-Reso-City%20of%20East%20Palo%20Alto%20Bond_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure O - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument In Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgInFavor-City-of-East-Palo-Alto-Bond_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgAgainst-City-of-East-Palo-Alto-Bond_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-RebutArgAgainst-City-of-East-Palo-Alto-Bond_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would authorize the City of East Palo Alto to issue up to $125,000,000 in general obligation bonds, repaid from property taxes, to buy land for a civic center and for recreational facilities and to improve the water and stormwater systems.",
+    "excerpt": "Measure O would authorize the City to issue up to $125,000,000 in general obligation bonds to finance the acquisition, construction, and improvement of the following:",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the City to issue up to $125,000,000 in general obligation bonds for the public improvements stated in the measure.",
+    "excerpt": "Voting “Yes” would mean authorizing the City to issue up to $125,000,000 in general obligation bonds for use on the public improvements stated in the measure and briefly summarized above.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+    "location": "Impartial analysis, page 2"
+   },
+   "no": {
+    "text": "A no vote means the City would not be authorized to issue the bonds.",
+    "excerpt": "Voting “No” would mean the City would not be authorized to issue the bonds.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+    "location": "Impartial analysis, page 2"
+   },
+   "fiscal": {
+    "text": "Estimated average annual tax rate of $105.26 per $100,000 of assessed value (highest about $114.41 per $100,000, projected from fiscal year 2028-2029), collected through fiscal year 2057-2058; estimated total debt service $268,205,658 if all bonds are issued.",
+    "excerpt": "The City estimates that the highest tax rate that would be required to be levied is approximately $114.41 per $100,000 of assessed value, which the City projects would begin to apply in fiscal year 2028-2029. The City also estimates that the average annual tax rate that would be required to be levied is $105.26 per $100,000 of assessed value, with the final fiscal year in which the tax would be collected being 2057-2058. The City also estimates that the total debt service, including the principal and interest, that would be required to be repaid if all the bonds are issued and sold is $268,205,658.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ImpartialAnalysis-City-of-East-Palo-Alto-Bond.pdf",
+    "location": "Impartial analysis, paragraph 3"
+   },
+   "argAgainst": {
+    "text": "The argument against says that asking voters to go into bond debt shows that everything in the current budget is being treated as more important than the projects listed in the measure.",
+    "excerpt": "They are admitting that everything in the current budget is more important than the projects listed in this ballot measure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgAgainst-City-of-East-Palo-Alto-Bond_Redacted.pdf",
+    "location": "Primary argument against, page 4 (text layer of scanned PDF)"
+   },
+   "opponents": {
+    "text": "Mark W.A. Hinkle, Silicon Valley Taxpayers Association",
+    "excerpt": "Name of Association: Silicon Valley Taxpayers Association Contact Person‘s Printed Name: Mark W.A. Hinkle",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgAgainst-City-of-East-Palo-Alto-Bond_Redacted.pdf",
+    "location": "Primary argument against, submission form page 1 (only signer listed on the signers form)"
+   },
+   "argFor": {
+    "text": "The argument in favor says the bond would maintain safe, clean drinking water, help the city’s children, and keep the community safe.",
+    "excerpt": "To maintain East Palo Alto’s safe, clean drinking water, help our kids, and keep our community safe,",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MO-ArgInFavor-City-of-East-Palo-Alto-Bond_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, opening line",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Argument against (Silicon Valley Taxpayers Association) is a scan with an embedded text layer; the excerpt and the association/contact name were also checked against the page image. The title line on the signers form is illegible, so opponents gives the name and association from the submission form. Supporters omitted: the in-favor signers form is partly handwritten and OCR could not read every name and title reliably.",
+  "notFound": [
+   "supporters"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-east-palo-alto.measure-cc",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20-Code-Reso-EPA%20Term%20Limits_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure CC - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-5ArgInFavor-EPA%20Term%20Limits_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-RebutArgInFavor-EPA-Term-Limits_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-7ArgAgainst-EPA%20Term%20Limits_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would provide that no person may serve more than three consecutive full terms on the East Palo Alto City Council, with a partial term of more than two years counting as a full term.",
+    "excerpt": "to serve for more than three ( 3) consecutive full terms on the City Council be adopted, with service of partial terms exceeding two years qualifying as a full term?",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M207-Contest%20-Code-Reso-EPA%20Term%20Limits_Redacted.pdf",
+    "location": "Resolution No. 30-2026, Section 2 (ballot question)"
+   },
+   "yes": {
+    "text": "A yes vote adopts these term limits for City Councilmembers.",
+    "excerpt": "Voting “Yes” means adopting these term limits for City Councilmembers.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf",
+    "location": "Impartial analysis, final paragraphs",
+    "method": "ocr-checked-against-image"
+   },
+   "no": {
+    "text": "A no vote means City Councilmembers would not be subject to term limits.",
+    "excerpt": "Voting “No” means City Councilmembers would not be subject to term limits.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MCC-ImpartialAnalysis-EPA-Term-Limits_Redacted.pdf",
+    "location": "Impartial analysis, final paragraphs",
+    "method": "ocr-checked-against-image"
+   },
+   "argFor": {
+    "text": "The argument in favor says term limits bring new voices, new ideas, and new energy into City Hall.",
+    "excerpt": "Term limits bring new voices, new ideas, and new energy into City Hall.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-5ArgInFavor-EPA%20Term%20Limits_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, paragraph 4",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says East Palo Alto already has term limits because voters can vote out representatives who are not meeting the community’s needs.",
+    "excerpt": "East Palo Alto already has term limits.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-7ArgAgainst-EPA%20Term%20Limits_Redacted.pdf",
+    "location": "Primary argument against, page 3, opening sentence",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "Javanni Brown; Ravneel Chaudhary; Luis Rosas",
+    "excerpt": "Javanni Brown; Ravneel Chaudhary; Luis Rosas",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M207-Contest%20-Code-7ArgAgainst-EPA%20Term%20Limits_Redacted.pdf",
+    "location": "Primary argument against, page 3, signature line (no titles printed)",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Impartial analysis is a scan (OCR, image-checked). Argument against prints signers as \"/s/ Javanni Brown; Ravneel Chaudhary; Luis Rosas\" with no titles. In-favor signers form (contact Webster Lincoln for the City of East Palo Alto) is handwritten and could not be read reliably.",
+  "notFound": [
+   "fiscal",
+   "supporters"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-i",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-Reso-Half%20Moon%20Bay%20Coastal%20Land_Redacted_0.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure I - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Coastal%20Land_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would change Measure D, Half Moon Bay’s voter-approved residential growth limit, so that its “Downtown Area” is defined as the area on the Town Center Map in the City’s Local Coastal Land Use Plan.",
+    "excerpt": "If approved by the voters, Measure I would refine Measure D’s current “Downtown Area” so that it is now defined as the area that is encompassed in the “Town Center Map” shown on Figure 2-2 of the City’s Local Coastal Land Use Plan.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
+    "location": "Impartial analysis, paragraph 3"
+   },
+   "yes": {
+    "text": "A yes vote is a vote in favor of Measure I, redefining Measure D’s “Downtown Area” as the Town Center Map area.",
+    "excerpt": "A “YES” vote is a vote in favor of Measure I.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
+    "location": "Impartial analysis, closing paragraph"
+   },
+   "no": {
+    "text": "If you vote no, this change would not be made.",
+    "excerpt": "If approved by the voters, Measure I would refine Measure D’s current “Downtown Area” so that it is now defined as the area that is encompassed in the “Town Center Map” shown on Figure 2-2 of the City’s Local Coastal Land Use Plan.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MI-ImpartialAnalysis-Half-Moon-Bay-Coastal-Land_Redacted.pdf",
+    "location": "Impartial analysis, paragraph 3"
+   },
+   "argFor": {
+    "text": "The argument in favor says the current Measure D downtown map, created decades ago, is outdated because it includes undeveloped farmland, and the measure updates it.",
+    "excerpt": "created decades ago, is outdated: it includes undeveloped farmland to the east and north",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M309-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Coastal%20Land_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, paragraph 1",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. County page lists only a primary argument in favor; no argument against is posted, but no official statement that none was filed was found, so argAgainst is left out. In-favor signers form handwritten except one name (Timothy Pond), title illegible.",
+  "notFound": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-half-moon-bay.measure-q",
+  "officialPages": [
+   {
+    "title": "Resolution",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-Reso-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure Q - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "A referendum on Ordinance No. 2026-01, which approves agreements with Mercy Housing for the use of City-owned property at 535 and 555 Kelly Avenue for affordable housing for senior agricultural workers and community serving space.",
+    "excerpt": "On May 5, 2026, the Half Moon Bay City Council adopted Ordinance No. 2026-01, approving four agreements between the City of Half Moon Bay (“City”) and Mercy Housing California 110, L.P. (“Mercy”), an affiliate of Mercy Housing California, for the use of City-owned property located at 535 and 555 Kelly Avenue (APNS: 056-150-220 (Partial) and 056-150-200) (“Property”) for an affordable housing development for senior agricultural workers and 2,653 square feet of community serving space (“Project”).",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote is a vote in favor of Measure Q and of adopting Ordinance 2026-01.",
+    "excerpt": "A “YES” vote is a vote in favor of Measure Q and in favor of adopting Ordinance 2026-01.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+    "location": "Impartial analysis, closing paragraphs"
+   },
+   "no": {
+    "text": "A no vote is a vote against Measure Q and against adopting Ordinance 2026-01.",
+    "excerpt": "A “NO” vote is a vote against Measure Q and against adopting Ordinance 2026-01.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+    "location": "Impartial analysis, closing paragraphs"
+   },
+   "fiscal": {
+    "text": "The ground lease of the City-owned property would run 99 years at $1 per year.",
+    "excerpt": "This agreement establishes the contractual obligations for leasing the Property and would be for a period of 99 years at a rate of $1 per year.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MQ-ImpartialAnalysis-Half-Moon-Bay-Housing_Redacted.pdf",
+    "location": "Impartial analysis, item 2 (Ground Lease)"
+   },
+   "argFor": {
+    "text": "The argument in favor says Half Moon Bay taxpayers will pay nothing to construct, maintain, or manage the 555 Kelly affordable housing project.",
+    "excerpt": "Half Moon Bay taxpayers will pay nothing to construct, maintain, or manage 555 Kelly.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, “The bottom line”",
+    "method": "ocr-checked-against-image"
+   },
+   "supporters": {
+    "text": "Harvey Rarback, Executive Officer Yes on 555 Kelly; Ernest Jan Null., Certified Consulting Meteorologist; Eric DeBode, Executive Director Abundant Grace Coasts; Ronald Kies, Geologist; Robert Brownstone, City Councilman-acting as private citizen",
+    "excerpt": "Harvey Rarback Executive Officer Yes on 555 Kelly",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M401-Contest%20Code-4ArgInFavor-Half%20Moon%20Bay%20Housing%20Initiative_Redacted.pdf",
+    "location": "Primary argument signers form, page 2 (all five rows read and checked against the image; excerpt is row 1)",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Measure Q is a referendum on Ordinance No. 2026-01 (555 Kelly Avenue). County page lists only an argument in favor; no statement that no argument against was filed was found. Supporters read from the typed signers form; Eric DeBode's title appears cut off at the box edge on the form (\"Abundant Grace Coasts\") and may be printed in full in the pamphlet.",
+  "notFound": [
+   "argAgainst",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-menlo-park.measure-p",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-05/52-ENG-M102-Contest%20Code-Reso-Menlo%20Park%20Muni%20Amendment_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure P - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M102-ContestCode-7ArgInFavor-Menlo%20Park%20Muni%20Amendment_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-RebutArgInFavor-Menlo-Park-Muni-Amendment-Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M102-Contest%20Code-6ArgAgainst-Menlo%20Park%20Muni%20Amendment_Redacted_0.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-RebutAgainst-Menlo-Park-Muni-Amendment_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure P",
+    "url": "https://www.menlopark.gov/Government/Departments/City-Managers-Office/City-Clerk/Elections/Nov.-3-2026-General-Election/Measure-P",
+    "publisher": "City of Menlo Park"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would bar the City of Menlo Park from taking certain actions on its eight downtown parking plazas that would diminish the availability of, access to, or convenience of parking, without voter approval.",
+    "excerpt": "The Measure identifies eight City-owned parking plazas in downtown Menlo Park (“Parking Plazas”). The Measure provides that the City may not take certain actions that would diminish the availability of, access to, or convenience of parking on the Parking Plazas, without voter approval.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf",
+    "location": "Impartial analysis, paragraphs 2-3"
+   },
+   "yes": {
+    "text": "A yes vote approves the measure.",
+    "excerpt": "A “yes” vote approves the Measure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote rejects the measure.",
+    "excerpt": "A “no” vote rejects it.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MP-ImpartialAnalysis-MenloPark-Muni-Amendment.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "argFor": {
+    "text": "The argument in favor says the measure gives voters a say before the City Council can permanently convert downtown parking plazas into high-rise developments.",
+    "excerpt": "to give voters a say before the City Council can permanently convert downtown parking plazas into high-rise developments.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M102-ContestCode-7ArgInFavor-Menlo%20Park%20Muni%20Amendment_Redacted.pdf",
+    "location": "Primary argument in favor, page 2, opening sentence",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure would block Menlo Park from replacing aging surface parking lots with modern garages and adding affordable homes above them.",
+    "excerpt": "If approved, Measure X would block Menlo Park's ability to replace aging surface parking lots with modern garages and add affordable homes above.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M102-Contest%20Code-6ArgAgainst-Menlo%20Park%20Muni%20Amendment_Redacted_0.pdf",
+    "location": "Primary argument against, page 7, paragraph 3",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. All argument PDFs (county and menlopark.gov copies) are scans; signers forms are handwritten and were not usable. Arguments refer to the measure as \"Measure X\" (pre-letter draft). No fiscal amount applies (non-tax initiative).",
+  "notFound": [
+   "fiscal",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-pacifica.measure-bb",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-Reso-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure BB - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ArgInFavor-Pacifica-Transactions-and-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-RebutArgInFavor-Pacifica-Transactions-and-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-7ArgAgainst-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-RebutArgAgainst-Pacifica-Transactions-and-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would enact an ordinance authorizing a 1% (1¢) transactions and use (sales) tax in the City of Pacifica.",
+    "excerpt": "The City Council of the City of Pacifica placed Measure BB on the November 3, 2026, ballot which if approved by a majority of the City's voters would enact an ordinance authorizing a 1% (1¢) transactions and use tax in the City of Pacifica.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote is a vote to approve the tax.",
+    "excerpt": "A “YES” vote is a vote to approve the tax.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote is a vote against the tax.",
+    "excerpt": "A “NO” vote is a vote against the tax.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "The City estimates about $5,000,000 in annual tax revenue, until ended by voters.",
+    "excerpt": "The City estimates that Measure BB, if approved, would generate approximately $5,000,000 in annual tax revenue until ended by voters.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ImpartialAnalysis-Pacifica-Transactions-and-Use-Tax.pdf",
+    "location": "Impartial analysis, paragraph 3"
+   },
+   "argFor": {
+    "text": "The argument in favor says the City has already cut costs for years and further cuts would jeopardize security, safety and quality of life and push the city closer to bankruptcy.",
+    "excerpt": "City staff worked diligently for years to cut costs but there is a limit, and we have reached it. Further cuts would seriously jeopardize our security, safety, and overall quality of life, and push our city closer to bankruptcy.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MBB-ArgInFavor-Pacifica-Transactions-and-Use-Tax_Redacted.pdf",
+    "location": "Primary argument in favor, page 4, “Pacifica’s Future”",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure raises Pacifica’s sales tax to 10.875%.",
+    "excerpt": "RAISES PACIFICA’S SALES TAX TO 10.875%.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M402-Contest%20Code-7ArgAgainst-Pacifica%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+    "location": "Primary argument against, page 3, line 3",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Argument in favor and against are scans; signers forms are handwritten and were not usable. Arguments refer to \"Measure X\" / blank letter.",
+  "notFound": [
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-portola-valley.measure-n",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M205-Contest%20Code-Reso-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure N - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-5ArgInFavor-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-RebutArgInFavor-Portola%20Valley-Transfer-Tax_Redacted_.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-6ArgAgainst-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-RebutArgAgainst-PortolaValley-Transfer-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks Portola Valley voters to approve both a Town Charter, making Portola Valley a charter town, and a tax on the sale of real property (RPTT).",
+    "excerpt": "approve both a Town Charter and a tax on the sale of real property (“RPTT”).",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+    "location": "Impartial analysis, paragraph 1 (second line of the opening sentence)",
+    "method": "ocr-checked-against-image"
+   },
+   "fiscal": {
+    "text": "Estimated to generate approximately $2 million of additional revenue annually.",
+    "excerpt": "would generate approximately $2 million of additional revenue annually.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+    "location": "Impartial analysis, paragraph 8",
+    "method": "ocr-checked-against-image"
+   },
+   "yes": {
+    "text": "A yes vote adopts the Charter and authorizes the real property transfer tax.",
+    "excerpt": "A “Yes” vote is a vote to adopt the Charter and authorize the RPTT.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+    "location": "Impartial analysis, final paragraph",
+    "method": "ocr-checked-against-image"
+   },
+   "no": {
+    "text": "A no vote is a vote against the Charter and the real property transfer tax.",
+    "excerpt": "A “No” vote is a vote against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MN-ImpartialAnalysis-PortolaValley-Transfer-Tax.pdf",
+    "location": "Impartial analysis, final paragraph (sentence continues on the next line: \"the Charter and RPTT.\"; a handwritten margin word count sits between the two lines in the scan)",
+    "method": "ocr-checked-against-image"
+   },
+   "argFor": {
+    "text": "The argument in favor says Portola Valley needs the resources to be self-reliant in uncertain times.",
+    "excerpt": "It's more important than ever that Portola Valley has the resources to be self-reliant in these uncertain times.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-5ArgInFavor-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, opening paragraph",
+    "method": "ocr-checked-against-image"
+   },
+   "supporters": {
+    "text": "Brenda Lane Munks; Nancy Lund; Former Mayor Gary Nielsen; Town Trails and Paths Committee Member Fred Leach; Rita Comes Whitney",
+    "excerpt": "Town Trails and Paths Committee Member Fred Leach",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-5ArgInFavor-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, “Signers” list at end of argument (all five names checked against the image)",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says the 1% real property transfer tax is unfair and inequitable across taxpayers.",
+    "excerpt": "This 1% real property transfer tax is unfair and inequitable across taxpayers.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-6ArgAgainst-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "location": "Primary argument against, page 3, opening",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "William Urban, Member, Portola Valley Finance Committee",
+    "excerpt": "William Urban Member, Portola Valley Finance Committee",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M205-Contest%20Code-6ArgAgainst-Portola%20Valley%20Transfer%20Tax_Redacted.pdf",
+    "location": "Primary argument signers form, page 2 (only signer)",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Impartial analysis is a scan with handwritten margin word counts; excerpts were trimmed to single OCR lines. The analysis also states the RPTT rate is $10 per $1,000 of consideration paid (seen in the image, not usable as a contiguous OCR excerpt). Supporters taken from the \"Signers\" list printed at the end of the argument in favor (names and titles in that order); the signers form itself is handwritten.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-redwood-city.measure-e",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure E - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-5ArgInFavor-RWC%20Housing_Redacted_0.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-RebutArgInFavor-RWC-Housing_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-RebutArgAgainst-RWC-Housing_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measures (2026 Municipal Election)",
+    "url": "https://www.redwoodcity.org/departments/city-clerk/voter-and-election-information/2026-municipal-election-information/measures",
+    "publisher": "City of Redwood City"
+   },
+   {
+    "title": "Measure E Frequently Asked Questions",
+    "url": "https://www.redwoodcity.org/home/showpublisheddocument/31623/639228403646270000",
+    "publisher": "City of Redwood City"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would replace Redwood City Municipal Code Chapter 42 with a new chapter that limits rent increases on multifamily housing built before February 1, 1995, expands just-cause eviction protections to most rental housing, and increases relocation assistance for no-fault evictions.",
+    "excerpt": "Shall the measure repealing Redwood City Municipal Code Chapter 42 and replacing it with a new Chapter 42 that (1) limits rent increases on multifamily housing built before February 1, 1995; (2) expands just-cause eviction protections to most rental housing, including single-family homes, ADUs, and affordable housing; (3) requires new City administration estimated to cost $5 million to $11 million annually, funded by annual rental property owner fees; and (4) increases relocation assistance for no-fault evictions, be adopted?",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf",
+    "location": "Resolution No. 16425, Section 4 (ballot question)"
+   },
+   "fiscal": {
+    "text": "Requires new City administration estimated to cost $5 million to $11 million annually, funded by annual rental property owner fees.",
+    "excerpt": "Shall the measure repealing Redwood City Municipal Code Chapter 42 and replacing it with a new Chapter 42 that (1) limits rent increases on multifamily housing built before February 1, 1995; (2) expands just-cause eviction protections to most rental housing, including single-family homes, ADUs, and affordable housing; (3) requires new City administration estimated to cost $5 million to $11 million annually, funded by annual rental property owner fees; and (4) increases relocation assistance for no-fault evictions, be adopted?",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf",
+    "location": "Resolution No. 16425, Section 4 (ballot question)"
+   },
+   "argFor": {
+    "text": "The argument in favor says rent control will keep Redwood City affordable and create stability for the community.",
+    "excerpt": "control will keep Redwood City affordable and create stability for our community.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-5ArgInFavor-RWC%20Housing_Redacted_0.pdf",
+    "location": "Primary argument in favor, page 4, opening sentence",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure will mean less affordable housing, higher prices for renters, and new costs to the City.",
+    "excerpt": "mean less affordable housing, higher prices for renters, and new costs to the City likely",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf",
+    "location": "Primary argument against, page 3, paragraph 4",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Impartial analysis (scan, OCR) does not include a \"yes vote means / no vote means\" statement, so yes/no are left out. Signers forms are handwritten. City page (redwoodcity.org Measures page) hosts the same scanned documents.",
+  "notFound": [
+   "yes",
+   "no",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-bruno.measure-s",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M303-Contest%20Code-Reso-San%20Bruno%20Hosuing%20Permit%20and%20Development_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure S - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ArgInFavor-San-Bruno-Housing-Permit-and-Development_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "2026 Citywide Ballot Measures",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "publisher": "City of San Bruno"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Asks San Bruno voters whether to repeal Ordinance No. 1284, a 1977 zoning ordinance that requires voter approval for certain development projects in the city.",
+    "excerpt": "Measure S asks the voters of the City of San Bruno whether they want to repeal Ordinance No. 1284, a zoning ordinance that requires voter approval for certain development projects in the City of San Bruno.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote removes the voter approval requirements in Chapter 12.26 of the San Bruno Municipal Code.",
+    "excerpt": "A “yes” vote on Measure S is a vote to remove the voter approval requirements in Chapter 12.26 of the San Bruno Municipal Code.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote keeps the voter approval requirements in the current Chapter 12.26 of the San Bruno Municipal Code.",
+    "excerpt": "A “no” vote on Measure S is a vote to continue the voter approval requirements, as provided by the current Chapter 12.26 of the San Bruno Municipal Code.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ImpartialAnalysis-San-Bruno-Hosuing-Permit-and-Development.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "argFor": {
+    "text": "The argument in favor says repealing Ordinance 1284 restores local control, supports responsible development, and ensures the City can fund the services the community depends on.",
+    "excerpt": "Repealing it restores local control, supports responsible development, and ensures we can fund the services our community depends on.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MS-ArgInFavor-San-Bruno-Housing-Permit-and-Development_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, final paragraph",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Only a primary argument in favor is listed on the county and city (sanbruno.ca.gov) pages; no official statement that none was filed against was found. In-favor signers form is mostly handwritten.",
+  "notFound": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-bruno.measure-dd",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M304-Contest%20Code-Reso-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure DD - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ArgInFavor-San-Bruno-Fireworks-Ban_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-RebutArgInFavor-San-Bruno-Fireworks-Ban-Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M304-Contest%20Code-6ArgAgainst-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-RebutArgAgainst-San-Bruno-Fireworks-Ban_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "2026 Citywide Ballot Measures",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "publisher": "City of San Bruno"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would amend Chapter 6.50 of the San Bruno Municipal Code to prohibit the sale, use, and discharge of safe and sane fireworks in San Bruno.",
+    "excerpt": "This measure, if approved by the voters, adopts an ordinance to amend Chapter 6.50 of the San Bruno Municipal Code to prohibit the sale, use, and discharge of safe and sane fireworks in the City of San Bruno.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
+    "location": "Impartial analysis, paragraph 2"
+   },
+   "yes": {
+    "text": "A yes vote prohibits the sale, use and discharge of safe and sane fireworks in San Bruno.",
+    "excerpt": "A “yes” vote on Measure DD is a vote to prohibit the sale, use and discharge of safe and sane fireworks in the City of San Bruno.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote continues the limited sale, use and discharge of safe and sane fireworks allowed under the current Chapter 6.50.",
+    "excerpt": "A “no” vote on Measure DD is a vote to continue the limited sale, use and discharge of safe and sane fireworks in the City of San Bruno, as provided by the current Chapter 6.50 of the San Bruno Municipal Code.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ImpartialAnalysis-San-Bruno-Fireworks-Ban.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "argFor": {
+    "text": "The argument in favor says much of San Bruno is in high fire hazard severity zones, and even state-approved fireworks present fire risks that cannot be completely eliminated.",
+    "excerpt": "In this environment, even state-approved fireworks present fire risks that cannot be completely eliminated.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MDD-ArgInFavor-San-Bruno-Fireworks-Ban_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, paragraph 1",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure does not stop illegal fireworks and eliminates funding for local nonprofits and public safety efforts.",
+    "excerpt": "It eliminates funding for local nonprofits and public safety efforts that will still be needed to protect San Bruno neighborhoods.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M304-Contest%20Code-6ArgAgainst-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+    "location": "Primary argument against, page 3, final paragraph",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "Daimhin Kirwan, Commander, San Bruno Police Association; Robert Luttrell, Vice President, Parent Boosters of 72; Jennifer Berliner, Fundraising Director, San Bruno Youth Baseball; Mike Yip, Fundraising Coordinator/Board Member, SanBruno Soccer; Stephan Marshall, San Bruno Resident",
+    "excerpt": "Jennifer Berliner, Fundraising Director San Bruno Youth Baseball Mike Yip, Fundraising Coordinator/Board Member SanBruno Soccer Stephan Marshall, San Bruno Resident",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M304-Contest%20Code-6ArgAgainst-San%20Bruno%20Fireworks%20Ban_Redacted.pdf",
+    "location": "Primary argument against, page 4, signature block printed with the argument (all five checked against the image)",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Opponents are the signature block printed at the end of the argument against (checked against the image; \"SanBruno Soccer\" is printed without a space). In-favor signers form is a poor scan and was not readable.",
+  "notFound": [
+   "fiscal",
+   "supporters"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-bruno.measure-ee",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-Reso-San%20Bruno%20Business%20License%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure EE - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ArgInFavor-Argument-San-Bruno-Business-License-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-RebutArgInFavor-San-Bruno-Business-License-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-7ArgAgainst-San%20Bruno%20Business%20License%20Tax_Redacted%20%281%29.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-RebutArgAgainst-San-Bruno-Business-License-Tax-Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "2026 Citywide Ballot Measures",
+    "url": "https://www.sanbruno.ca.gov/2355/2026-Citywide-Ballot-Measures",
+    "publisher": "City of San Bruno"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would replace San Bruno’s business license tax structure with a tax of $75 for gross receipts of $75,000 or less, plus a rate per $1,000 of gross receipts above $75,000 that depends on the business classification.",
+    "excerpt": "Measure EE, if approved by the voters, simplifies the current business license tax structure by establishing a tax of $75 for gross receipts of $75,000 or less for all businesses, and by establishing tax rates per $1,000 of gross receipts in excess of $75,000 depending on the business classification, as follows:",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+    "location": "Impartial analysis, paragraph 3"
+   },
+   "yes": {
+    "text": "A yes vote amends the City’s business license tax ordinance to revise the tax rates and structure.",
+    "excerpt": "A “yes” vote on Measure EE is a vote to amend the City’s business license tax ordinance to revise the business license tax rates and structure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "no": {
+    "text": "A no vote keeps the current business license tax rates and structure.",
+    "excerpt": "A “no” vote on Measure EE is a vote to not amend the City’s business license ordinance and maintain the current business license tax rates and structure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "Estimated to raise about $4,000,000 per year, in effect until ended by the voters.",
+    "excerpt": "The City estimated that Measure EE would raise approximately $4,000,000 per year for use in the City. Measure EE provides that the tax will be in effect until ended by the voters.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ImpartialAnalysis-San-Bruno-Business-License-Tax.pdf",
+    "location": "Impartial analysis, paragraph 5"
+   },
+   "argFor": {
+    "text": "The argument in favor says updating the outdated business license tax would raise about $4 million a year for services such as 911 emergency response, street repair and library programs.",
+    "excerpt": "By updating the tax schedule, San Bruno will generate approximately $4 million annually— critical funding to maintain rapid 911 emergency response, fix potholes and city streets, keep library programs strong,",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ArgInFavor-Argument-San-Bruno-Business-License-Tax_Redacted.pdf",
+    "location": "Primary argument in favor, page 3, paragraph 4",
+    "method": "ocr-checked-against-image"
+   },
+   "supporters": {
+    "text": "Rico E. Medina, Mayor; Sandy Alvarez, Vice Mayor; Tom Hamilton, Councilmember; Marty Medina, Councilmember; Michael Salazar, Councilmember",
+    "excerpt": "Sandy Alvarez Vice Mayor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MEE-ArgInFavor-Argument-San-Bruno-Business-License-Tax_Redacted.pdf",
+    "location": "Primary argument signers form, page 2 (all five rows checked against the image; excerpt is row 2)",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says taxes on businesses are passed along to customers, employees and shareholders.",
+    "excerpt": "Taxes are just another cost of doing business, which owners must pass along, to stay in business.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M305-Contest%20Code-7ArgAgainst-San%20Bruno%20Business%20License%20Tax_Redacted%20%281%29.pdf",
+    "location": "Primary argument against, page 3",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Supporters read from the typed in-favor signers form (Mayor and Councilmembers). Opponent signer form shows Elizabeth C. Brierly with a title cut off (\"Director, Silicon Valley Taxpayers Associ...\"), so opponents left out.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-carlos.measure-g",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M104-Contest%20Code-Reso-City%20of%20San%20Carlos%20Use%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure G - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ImpartialAnalysis-City-of-San-Carlos-Use-Tax.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ArgInFavor-City-of-San-Carlos-Use-Tax-Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-RebutArgInFavor-City-of-San-Carlos-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M104-Contest%20Code-7ArgAgainst-City%20of%20San%20Carlos%20Use%20Tax_Redacted%20%281%29.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-RebutArgAgainst-City-of-San-Carlos-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would establish a one-half cent sales tax in San Carlos for general government use for 14 years, with independent audits.",
+    "excerpt": "shall City of San Carlos’ ordinance establishing a one-half cent sales tax be adopted, providing $6,000,000 annually for general government use for 14 years, with independent audits and all funds locally-controlled?",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M104-Contest%20Code-Reso-City%20of%20San%20Carlos%20Use%20Tax_Redacted.pdf",
+    "location": "Council resolution, section 4 (ballot question)"
+   },
+   "fiscal": {
+    "text": "One-half cent sales tax providing $6,000,000 annually for general government use for 14 years.",
+    "excerpt": "shall City of San Carlos’ ordinance establishing a one-half cent sales tax be adopted, providing $6,000,000 annually for general government use for 14 years, with independent audits and all funds locally-controlled?",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M104-Contest%20Code-Reso-City%20of%20San%20Carlos%20Use%20Tax_Redacted.pdf",
+    "location": "Council resolution, section 4 (ballot question)"
+   },
+   "yes": {
+    "text": "A yes vote is a vote in favor of the one-half cent sales tax.",
+    "excerpt": "A “yes” vote on Measure G is a vote in favor of the Proposed Tax.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ImpartialAnalysis-City-of-San-Carlos-Use-Tax.pdf",
+    "location": "Impartial analysis, page 2 (retyped copy), final paragraph",
+    "method": "ocr-checked-against-image"
+   },
+   "argFor": {
+    "text": "The argument in favor says the half cent sales tax provides locally controlled funding for potholes, streets and sidewalks, storm drains, parks and community facilities, and emergency response.",
+    "excerpt": "This half cent sales tax provides locally controlled funding to fix potholes, repair aging streets and sidewalks, improve storm drains, maintain parks and community facilities, support emergency response,",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MG-ArgInFavor-City-of-San-Carlos-Use-Tax-Redacted.pdf",
+    "location": "Primary argument in favor, page 3, paragraph 2",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says sales tax hikes disproportionately hurt families with fewer resources.",
+    "excerpt": "Sales tax hikes disproportionately hurt families with fewer resources.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M104-Contest%20Code-7ArgAgainst-City%20of%20San%20Carlos%20Use%20Tax_Redacted%20%281%29.pdf",
+    "location": "Primary argument against, page 4 (typed copy), opening",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Impartial analysis \"no\" sentence was not used because the OCR text did not match the image word for word. Signers forms are handwritten.",
+  "notFound": [
+   "no",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-mateo.measure-h",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M301-Contest%20Code-Reso-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure H - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M301-Contest%20Code-5ArgInFavor-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-RebutArgInFavor-San-Mateo-Transactions-and-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M301-Contest%20Code-7ArgAgainst-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted%20%282%29%20%281%29_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Rebuttal to Argument Against",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-RebutArgAgainst-San-Mateo-Transactions-and-Use-Tax_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure H Frequently Asked Questions",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106904",
+    "publisher": "City of San Mateo"
+   },
+   {
+    "title": "Measure H Supporting Argument",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106886",
+    "publisher": "City of San Mateo"
+   },
+   {
+    "title": "Measure H Opposing Argument",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106885",
+    "publisher": "City of San Mateo"
+   },
+   {
+    "title": "Measure H Impartial Analysis (city copy)",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106931",
+    "publisher": "City of San Mateo"
+   },
+   {
+    "title": "Ballot Measure Arguments page",
+    "url": "https://www.cityofsanmateo.org/4822/Ballot-Measure-Arguments",
+    "publisher": "City of San Mateo"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would add a ¼ cent sales tax in the City of San Mateo, raising the city’s sales tax rate from 9.625% to 9.875%.",
+    "excerpt": "San Mateo’s sales tax rate is currently 9.625%. If the ¼ cent sales tax increase is approved by voters in November, the updated rate would be 9.875%.",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106904",
+    "location": "City of San Mateo Measure H Frequently Asked Questions, page 2"
+   },
+   "fiscal": {
+    "text": "A ¼ cent sales tax estimated to raise approximately $7 million a year.",
+    "excerpt": "A quarter-cent sales tax increase would result in approximately $7 million in estimated revenue annually.",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106904",
+    "location": "City of San Mateo Measure H Frequently Asked Questions, page 1"
+   },
+   "argFor": {
+    "text": "The argument in favor says voting yes is the best way to maintain and improve essential city services such as emergency response, street repair, parks and libraries.",
+    "excerpt": "Voting yes on Measure? is the best way to maintain and improve these essential city services and more.",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106886",
+    "location": "Supporting argument (City of San Mateo Ballot Measure Arguments page)"
+   },
+   "argAgainst": {
+    "text": "The argument against says another sales tax is not the solution, because residents already pay high taxes and the cost of living is too high.",
+    "excerpt": "Those services matter. But another sales tax is NOT the solution.",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106885",
+    "location": "Opposing argument (City of San Mateo Ballot Measure Arguments page)"
+   },
+   "yes": {
+    "text": "A yes vote approves the measure.",
+    "excerpt": "A YES vote approves the measure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf",
+    "location": "Impartial analysis, final paragraph",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. Arguments for and against have text layers on the City of San Mateo Ballot Measure Arguments page; the impartial analysis is a scan whose \"A NO vote rejects the measure.\" line is partly covered by a redaction bar and was not captured by OCR, so no is left out. Ballot question/resolution is on a Laserfiche portal that could not be fetched; plainEnglish and fiscal come from the City's official Measure H FAQ. Signer forms are handwritten.",
+  "notFound": [
+   "no",
+   "supporters",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-san-mateo-san-mateo.measure-f",
+  "officialPages": [
+   {
+    "title": "Resolution and Full Text",
+    "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M209-Contest%20Code-Reso-San%20Mateo%20Charter%20Amendment_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure F - Impartial Analysis",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Primary Argument in Favor",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M209-Contest%20Code-5ArgInFavor-San%20Mateo%20Charter%20Amendment_Redacted.pdf",
+    "publisher": "San Mateo County Assessor-County Clerk-Recorder & Elections"
+   },
+   {
+    "title": "Measure F Frequently Asked Questions",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106905",
+    "publisher": "City of San Mateo"
+   },
+   {
+    "title": "Measure F Supporting Argument",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106878",
+    "publisher": "City of San Mateo"
+   },
+   {
+    "title": "Measure F Impartial Analysis (city copy)",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106932",
+    "publisher": "City of San Mateo"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Would amend the San Mateo City Charter to update or remove outdated language, including reflecting the 2021 change to district elections and extending the time to fill City Council vacancies from 30 to 60 days.",
+    "excerpt": "The ballot measure would revise the City Charter by enacting amendments that update or remove outdated language. These amendments include the following administrative changes: • Update language to reflect the 2021 transition to district elections, and remove reference to an at-large election process • Extend the time to fill Council vacancies from 30 days to 60 days",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106905",
+    "location": "City of San Mateo Measure F Frequently Asked Questions, page 1"
+   },
+   "argFor": {
+    "text": "The argument in favor says the measure makes practical updates so the Charter reflects district-based elections and requires district boundaries to be reviewed after each federal census.",
+    "excerpt": "Voting YES will formally update the Charter to reflect San Mateo’s district-based elections and require district boundaries to be reviewed after each federal census.",
+    "url": "https://www.cityofsanmateo.org/DocumentCenter/View/106878",
+    "location": "Supporting argument (City of San Mateo Ballot Measure Arguments page)"
+   },
+   "yes": {
+    "text": "A yes vote approves the Charter amendments.",
+    "excerpt": "A YES vote approves the measure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf",
+    "location": "Impartial analysis, page 2",
+    "method": "ocr-checked-against-image"
+   },
+   "no": {
+    "text": "A no vote rejects the Charter amendments.",
+    "excerpt": "A NO vote rejects the measure.",
+    "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf",
+    "location": "Impartial analysis, page 2",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Resumed run (Nov 1, 23:00). Excerpts are whitespace-normalized (line breaks collapsed to single spaces). Fields with \"method\": \"ocr-checked-against-image\" come from tesseract.js OCR of scanned PDFs, each excerpt compared word for word with a rendered image of that part of the page. County page lists only an argument in favor. plainEnglish from the City's official Measure F FAQ. Signer forms are handwritten.",
+  "notFound": [
+   "fiscal",
+   "argAgainst",
+   "supporters",
+   "opponents"
+  ]
+ }
+]

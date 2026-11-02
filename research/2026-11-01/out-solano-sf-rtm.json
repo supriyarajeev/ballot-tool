@@ -1,0 +1,1455 @@
+[
+ {
+  "id": "2026-11-03.ca-sf-city.a",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   },
+   {
+    "title": "Controller’s Statement, Proposition A",
+    "url": "https://api.sf.gov/documents/61762/Proposition_A__Charter_Changes_Affecting_Various_City_Departments_and_Commissi_R9PDkP0.pdf",
+    "publisher": "Office of the Controller, City and County of San Francisco"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition A would align the City Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies, and would require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+    "excerpt": "The Proposal: Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 64, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 64, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 64, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "The City Controller says the Charter amendment would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+    "excerpt": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 64, Controller’s Statement on A"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition A cleans up the outdated city charter with 110 small fixes that will help city government serve residents better.",
+    "excerpt": "The mayor and a supermajority of the Board of Supervisors agreed on 110 small fixes that will help city government serve you better.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 66, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Board of Supervisors President Rafael Mandelman; Supervisor Alan Wong; Supervisor Bilal Mahmood; Supervisor Chyanne Chen; Supervisor Danny Sauter; Supervisor Matt Dorsey; Supervisor Myrna Melgar; Supervisor Steven Sherrill; State Senator Scott Wiener; Assemblywoman Catherine Stefani; Assemblyman Matt Haney",
+    "excerpt": "Mayor Daniel Lurie Board of Supervisors President Rafael Mandelman Supervisor Alan Wong Supervisor Bilal Mahmood Supervisor Chyanne Chen Supervisor Danny Sauter Supervisor Matt Dorsey Supervisor Myrna Melgar Supervisor Steven Sherrill State Senator Scott Wiener Assemblywoman Catherine Stefani Assemblyman Matt Haney",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 66, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Proposition A threatens participatory democracy by removing commissions put in place by voters.",
+    "excerpt": "There are grievous mistakes in Prop A that threaten participatory democracy by removing commissions put in place by voters.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 67, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "Coalition on Homelessness",
+    "excerpt": "No on A. Coalition on Homelessness",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 67, Opponent’s Argument, signature"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.b",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition B would amend the City Charter to authorize the City to establish a municipal finance corporation if the City has sufficient funding and resources; after three years of operation, the municipal finance corporation may become a public bank.",
+    "excerpt": "The Proposal: Proposition B would amend the City Charter to authorize the City to establish a municipal finance corporation if the City has sufficient funding and resources. After three years of operation, the municipal finance corporation may become a public bank.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 70, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want to authorize the City to establish a municipal finance corporation and a public bank.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to authorize the City to establish a municipal finance corporation and a public bank.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 70-71, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to authorize the City to establish a municipal finance corporation and a public bank.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to authorize the City to establish a municipal finance corporation and a public bank.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 70-71, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "The City Controller says the amendment would not directly impact the cost of government, but if the City establishes a municipal finance corporation and then a public bank, the costs would be significant, approximately $310 million to $460 million over an eight-year period according to 2023 Reinvestment Working Group estimates.",
+    "excerpt": "However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 70-71, Controller’s Statement on B"
+   },
+   "argFor": {
+    "text": "The argument in favor says a public bank would put the people of San Francisco over private profits to finance affordable housing, homeownership, small business development and environmental goals, and that Proposition B is not a tax.",
+    "excerpt": "A Public Bank puts the people of San Francisco over private profits to finance the things we need.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 72, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "The San Francisco Foundation; San Francisco Public Bank Coalition; District 11 Supervisor Chyanne Chen; District 5 Supervisor Bilal Mahmood; District 7 Supervisor Myrna Melgar; District 8 Supervisor Rafael Mandelman; District 9 Supervisor Jackie Fielder; District 10 Supervisor Shamann Walton; San Francisco Labor Council; San Francisco Climate Emergency Coalition; Affordable Housing Alliance; San Francisco Tenants Union",
+    "excerpt": "The San Francisco Foundation San Francisco Public Bank Coalition District 11 Supervisor Chyanne Chen District 5 Supervisor Bilal Mahmood District 7 Supervisor Myrna Melgar District 8 Supervisor Rafael Mandelman District 9 Supervisor Jackie Fielder District 10 Supervisor Shamann Walton San Francisco Labor Council San Francisco Climate Emergency Coalition Affordable Housing Alliance San Francisco Tenants Union",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 72, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Proposition B would create a City Hall-controlled public bank and municipal finance corporation without dedicated funding or proven demand while the City faces budget shortfalls.",
+    "excerpt": "Proposition B asks San Francisco voters to create a City Hall-controlled public bank and municipal finance corporation — without any dedicated funding, without proven demand, and at a time when the City already faces massive budget shortfalls.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 73, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "No on Prop B – San Franciscans for Fiscal Responsibility; Leslie Huang; Dorothy Joan Leone; Stephanie Jeong; Kathleen Louise Trewin",
+    "excerpt": "— No on Prop B – San Franciscans for Fiscal Responsibility — Leslie Huang, Dorothy Joan Leone, Stephanie Jeong, and Kathleen Louise Trewin",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 73, Opponent’s Argument, signatures"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.c",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition C would change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund’s expiration date.",
+    "excerpt": "The Proposal: Proposition C would change how the City’s annual contributions to the Housing Trust Fund (HTF) are set, increase funding and expand programs for affordable housing, and extend the Fund’s expiration date.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 78, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want to amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 78-79, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 78-79, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "The City Controller says the amendment would cost approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing to approximately $60 million annually by Fiscal Year 2034-35.",
+    "excerpt": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 78-79, Controller’s Statement on C"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition C renews the Housing Trust Fund through 2058 and increases its annual funding to $125 million.",
+    "excerpt": "Prop C renews the Housing Trust Fund through 2058 and increases its annual funding to $125 million.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 80, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Supervisor Myrna Melgar; Assemblymember Catherine Stefani; Rebecca Foster, CEO Housing Accelerator Fund*; Malcolm Yeung, CEO Chinatown Community Development Center*",
+    "excerpt": "Mayor Daniel Lurie Supervisor Myrna Melgar Assemblymember Catherine Stefani Rebecca Foster, CEO Housing Accelerator Fund* Malcolm Yeung, CEO Chinatown Community Development Center*",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 80, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure doubles the Housing Trust Fund’s size, locks it in for 30 more years and stretches it thinner without fixing it.",
+    "excerpt": "Instead of a fix, this measure doubles the fund’s size, locks it in for 30 more years, and stretches it thinner:",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 81, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "The San Francisco Republican Party",
+    "excerpt": "Vote No on C. The San Francisco Republican Party",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 81, Opponent’s Argument, signature"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.d",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition D would amend the Charter to raise the signatures needed for initiatives from 2% to 8% of registered voters, raise the requirements for calling special elections, allow initiatives to be withdrawn, and remove the ability of a minority of Supervisors or the Mayor to place measures on the ballot.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 84-85, Digest by the Ballot Simplification Council, A YES Vote Means"
+   },
+   "yes": {
+    "text": "A yes vote means you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 84-85, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 84-85, Digest, A NO Vote Means"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition D requires a public vote of a majority of supervisors or signatures from 8% of voters to place measures on the ballot, and removes the mayor’s sole authority to do so.",
+    "excerpt": "Proposition D requires a public vote of the majority of supervisors or signatures from 8% of voters. It removes the mayor’s sole authority to place measures on the ballot to ensure a fair balance of power.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 86, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Board of Supervisors President Rafael Mandelman; Speaker Emerita Nancy Pelosi; Nancy Tung, San Francisco Democratic Party; Former SF Ethics Chair Ben Hur; Former Deputy City Attorney Jim Lazarus; SFSU Associate Professor of Political Science Jason McDaniel; Former City Controller Ben Rosenfield; Former Fire Chief Joanne Hayes-White; Dan Calamuci, Carpenters Local 22*; Anthony Travis Jr., Laborers Local 261*; Charles Lavery, Operating Engineers Local 3*; Teamsters Local 665; Council of District Merchant Associations; Chinatown History and Culture Association",
+    "excerpt": "Mayor Daniel Lurie Board of Supervisors President Rafael Mandelman Speaker Emerita Nancy Pelosi Nancy Tung, San Francisco Democratic Party Former SF Ethics Chair Ben Hur Former Deputy City Attorney Jim Lazarus SFSU Associate Professor of Political Science Jason McDaniel Former City Controller Ben Rosenfield Former Fire Chief Joanne Hayes-White Dan Calamuci, Carpenters Local 22* Anthony Travis Jr., Laborers Local 261* Charles Lavery, Operating Engineers Local 3* Teamsters Local 665 Council of District Merchant Associations Chinatown History and Culture Association",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 86, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Proposition D takes away San Franciscans’ 125-year-old right to put citizen initiatives on the ballot.",
+    "excerpt": "Prop D takes away rights San Franciscans have held for 125 years: to put citizen initiatives on the ballot.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 87, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "San Francisco Labor Council; San Francisco Senior & Disability Action; United Educators of San Francisco; San Francisco Women’s Political Committee; San Francisco Tenants Union; Indivisible SF; Community Tenants Association; Coleman Advocates for Children & Youth; San Francisco Rising Action Fund",
+    "excerpt": "San Francisco Labor Council San Francisco Senior & Disability Action United Educators of San Francisco San Francisco Women’s Political Committee San Francisco Tenants Union Indivisible SF Community Tenants Association Coleman Advocates for Children & Youth San Francisco Rising Action Fund",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 87, Opponent’s Argument, signatures"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages. plainEnglish follows the digest’s YES-vote sentence because the digest’s Proposal section is a bulleted list. Fiscal left out: the Controller says the measure would have a minimal impact on the cost of government with savings that cannot be determined, giving no measure cost figure.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.e",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition E would amend the Charter to give the City Administrator more authority by centralizing the City’s purchasing rules and processes, change how the City approves purchasing rules, change when contracts and leases require Board of Supervisors approval, and extend the City Administrator’s term.",
+    "excerpt": "Shall the City amend the Charter to give the City Administrator more authority by centralizing the City’s purchasing rules and processes, changing how the City approves purchasing rules, changing when contracts and leases require Board of Supervisors approval, and extending the City Administrator’s term?",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 94, ballot question"
+   },
+   "yes": {
+    "text": "A yes vote means you want to give the City Administrator more authority by centralizing the City’s Purchasing rules and processes, changing how the City approves Purchasing rules, changing when contracts and leases require Board approval, and extending the City Administrator’s term.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to give the City Administrator more authority by centralizing the City’s Purchasing rules and processes, changing how the City approves Purchasing rules, changing when contracts and leases require Board approval, and extending the City Administrator’s term.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 94-95, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 94-95, Digest, A NO Vote Means"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition E empowers a professional City Administrator to set transparent contracting standards so contracts go to whoever is best for the job, not best connected.",
+    "excerpt": "E empowers a professional City Administrator to set transparent standards so contracts are awarded based on who is best for the job, not who is best connected.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 96, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Board of Supervisors President Rafael Mandelman; Speaker Emerita Nancy Pelosi; Nancy Tung, San Francisco Democratic Party; Former SF Ethics Chair Ben Hur; Former Deputy City Attorney Jim Lazarus; SFSU Associate Professor of Political Science Jason McDaniel; Former City Controller Ben Rosenfield; Former Fire Chief Joanne Hayes-White; Firefighters Local 798; SF Building Trades; Dan Calamuci, Carpenters Local 22*; Anthony Travis Jr., Laborers Local 261*; Charles Lavery, Operating Engineers Local 3*; Teamsters Local 665; Council of District Merchant Associations; Chinatown History and Culture Association",
+    "excerpt": "Mayor Daniel Lurie Board of Supervisors President Rafael Mandelman Speaker Emerita Nancy Pelosi Nancy Tung, San Francisco Democratic Party Former SF Ethics Chair Ben Hur Former Deputy City Attorney Jim Lazarus SFSU Associate Professor of Political Science Jason McDaniel Former City Controller Ben Rosenfield Former Fire Chief Joanne Hayes-White Firefighters Local 798 SF Building Trades Dan Calamuci, Carpenters Local 22* Anthony Travis Jr., Laborers Local 261* Charles Lavery, Operating Engineers Local 3* Teamsters Local 665 Council of District Merchant Associations Chinatown History and Culture Association",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 96, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says the Mayor raised millions for paid signature gatherers to rewrite the City Charter and concentrate power in his hands.",
+    "excerpt": "He raised millions for paid signature gatherers to rewrite the City Charter and concentrate power in his hands.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 97, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "Larry S. Marso, Esq.",
+    "excerpt": "Vote No on D, E, and F. Larry S. Marso, Esq.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 97, Opponent’s Argument, signature"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages. The printed opponent’s argument addresses Propositions D, E and F together. Fiscal left out: the Controller says the measure would have a minimal impact on the cost of government at a level that cannot be determined.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.f",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition F would amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads, and allow City officials to remove members of boards and commissions without cause.",
+    "excerpt": "Shall the City amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads; and to allow City officials to remove members of boards and commissions without cause?",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 100, ballot question"
+   },
+   "yes": {
+    "text": "A yes vote means you want to expand the Mayor’s authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to expand the Mayor’s authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 100-101, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 100-101, Digest, A NO Vote Means"
+   },
+   "argFor": {
+    "text": "The argument in favor says allowing the mayor to hire and remove most department heads will make city officials accountable to the public.",
+    "excerpt": "Allowing the mayor to hire and remove most of their department heads will ensure city officials are accountable to the public.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 102, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Board of Supervisors President Rafael Mandelman; Speaker Emerita Nancy Pelosi; Nancy Tung, San Francisco Democratic Party; Former Deputy City Attorney Jim Lazarus; SFSU Associate Professor of Political Science Jason McDaniel; Former City Controller Ben Rosenfield; Former Fire Chief Joanne Hayes-White; Firefighters Local 798; SF Building Trades; Dan Calamuci, Carpenters Local 22*; Anthony Travis Jr., Laborers Local 261*; Charles Lavery, Operating Engineers Local 3*; Teamsters Local 665; Council of District Merchant Associations; Chinatown History and Culture Association",
+    "excerpt": "Mayor Daniel Lurie Board of Supervisors President Rafael Mandelman Speaker Emerita Nancy Pelosi Nancy Tung, San Francisco Democratic Party Former Deputy City Attorney Jim Lazarus SFSU Associate Professor of Political Science Jason McDaniel Former City Controller Ben Rosenfield Former Fire Chief Joanne Hayes-White Firefighters Local 798 SF Building Trades Dan Calamuci, Carpenters Local 22* Anthony Travis Jr., Laborers Local 261* Charles Lavery, Operating Engineers Local 3* Teamsters Local 665 Council of District Merchant Associations Chinatown History and Culture Association",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 102, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Proposition F removes essential checks and balances provided by the Board of Supervisors and oversight commissions.",
+    "excerpt": "Prop F removes essential checks & balances.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 103, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "Small Business Forward",
+    "excerpt": "Vote No on F to keep essential checks and balances the Board of Supervisors and Oversight Commissions provide. Small Business Forward",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 103, Opponent’s Argument, signature"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages. Fiscal left out: the Controller says the measure would have a minimal impact on the cost of government at a level that cannot be determined.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.g",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the Upper Great Highway roadway to private vehicles during that time.",
+    "excerpt": "The Proposal: Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 108-109, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want to close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the Upper Great Highway to private vehicles during that time.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 108-109, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want the City to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want the City to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 108-109, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "The Controller’s statement says that if the roadway is opened to private vehicles, the cost of government would increase by approximately $9.8 million in one-time capital costs and approximately $500,000 to $1.9 million annually.",
+    "excerpt": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 108-109, Controller’s Statement on G (issued by Deputy City Controller ChiaYu Ma)"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition G restores the 2021 to 2024 compromise, keeping the Great Highway closed to cars on weekends as a park and opening it to vehicles Monday through Friday.",
+    "excerpt": "Yes on G restores the compromise in place from 2021 to 2024: it keeps the Great Highway closed on weekends, allowing access to it as a park, but opens it to vehicle travel Monday through Friday.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 110, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Richard Corriea, SFPD Commander Ret.",
+    "excerpt": "Vote Yes on Prop G. Richard Corriea, SFPD Commander Ret.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 110, Proponent’s Argument, signature"
+   },
+   "argAgainst": {
+    "text": "The argument against says Proposition G would spend nearly $10 million to demolish a coastal park, remove its amenities, and end the weekday visits that make up nearly 60% of park visits.",
+    "excerpt": "Proposition G asks you to spend nearly $10 million to demolish a coastal park (plus up to $1.9 million every year for added roadway maintenance), to remove all amenities, and to end the nearly 60% of visits that are on weekdays.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 111, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "Senator Scott Wiener; Supervisor Matt Dorsey; Supervisor Bilal Mahmood; Supervisor Rafael Mandelman; Supervisor Myrna Melgar; Supervisor Danny Sauter; Sierra Club",
+    "excerpt": "Senator Scott Wiener Supervisor Matt Dorsey Supervisor Bilal Mahmood Supervisor Rafael Mandelman Supervisor Myrna Melgar Supervisor Danny Sauter Sierra Club",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 111, Opponent’s Argument, signatures"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.h",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Starting July 1, 2027, and continuing until June 30, 2042, Proposition H would fund Muni service through a new annual parcel tax on real estate in San Francisco, adjusted annually for inflation.",
+    "excerpt": "The Proposal: Starting July 1, 2027, and continuing until June 30, 2042, Proposition H would fund Muni service through a new annual parcel tax on real estate in San Francisco. The tax would be adjusted annually for inflation.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 124, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want the City to fund Muni service through a new annual parcel tax on real estate.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want the City to fund Muni service through a new annual parcel tax on real estate.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 124-125, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 124-125, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "Annual parcel tax at rates from $129 per parcel up to a maximum of $400,000 per parcel, depending on property type and size and adjusted annually for inflation, for estimated revenue of $177 million a year for 15 years.",
+    "excerpt": "Shall the City fund Muni service through a new annual parcel tax on real estate at rates ranging from $129 per parcel up to a maximum of $400,000 per parcel, depending on the type of property and its size and adjusted annually for inflation, for estimated revenue of $177 million a year for 15 years?",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 124-125, ballot question"
+   },
+   "argFor": {
+    "text": "The argument in favor says that without Proposition H, Muni service could be cut by 30% and at least 20 bus routes eliminated, despite actions that save $137 million annually.",
+    "excerpt": "Despite strong actions to save $137 million dollars annually, without Prop H, service could be cut by 30%, at least 20 bus routes eliminated, and far worse traffic in our neighborhoods.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 126, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Speaker Emerita Nancy Pelosi; San Francisco Democratic Party; Senator Scott Wiener; Assemblymember Catherine Stefani; Assemblymember Matt Haney; Supervisors: Rafael Mandelman, Connie Chan, Steven Sherrill, Danny Sauter, Alan Wong, Bilal Mahmood, Matt Dorsey, Myrna Melgar, Jackie Fielder, Shamann Walton, Chyanne Chen; Former Controller Ben Rosenfield; SF Tenants Union; SF Labor Council; SF Chamber of Commerce; SF Council of District Merchants; Firefighters Local 798; Transit Workers Union 250A; Teamsters Local 665; Chinatown Transportation Research and Improvement Project",
+    "excerpt": "Mayor Daniel Lurie Speaker Emerita Nancy Pelosi San Francisco Democratic Party Senator Scott Wiener Assemblymember Catherine Stefani Assemblymember Matt Haney Supervisors: Rafael Mandelman Connie Chan Steven Sherrill Danny Sauter Alan Wong Bilal Mahmood Matt Dorsey Myrna Melgar Jackie Fielder Shamann Walton Chyanne Chen Former Controller Ben Rosenfield SF Tenants Union SF Labor Council SF Chamber of Commerce SF Council of District Merchants Firefighters Local 798 Transit Workers Union 250A Teamsters Local 665 Chinatown Transportation Research and Improvement Project",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 126, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Proposition H asks San Franciscans to fund Muni’s $300 million deficit for 15 years with no strings attached.",
+    "excerpt": "San Franciscans are being asked to fund Muni’s $300 million deficit for 15 years with no strings attached.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 127, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "The San Francisco Republican Party",
+    "excerpt": "Vote No on H. The San Francisco Republican Party",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 127, Opponent’s Argument, signature"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages. Proponent signers for H are printed in narrow multi-line columns; names were joined across line breaks (e.g. 'Speaker Emerita / Nancy Pelosi') and the list printed under 'Supervisors:' was kept together as one entry.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.i",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition I would dedicate half of the transfer tax revenues collected when certain real estate worth more than $10,000,000 changes hands to affordable housing only, including social housing developments and housing assistance.",
+    "excerpt": "The Proposal: Proposition I would dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 132, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want to dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 132-133, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 132-133, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "The City Controller says the ordinance would decrease the City’s overall revenues by approximately $1 million a year starting in FY 2027-28 and would shift $120 million per year of existing revenue from the General Fund to a special revenue fund for affordable housing.",
+    "excerpt": "Should the proposed ordinance be approved by the voters, in my opinion, it would represent a moderate annual decrease of approximately $1 million to the City’s overall revenues starting in Fiscal Year (FY) 2027-28. However, the ordinance would also shift $120 million per year of existing revenue from the more flexible General Fund to a special revenue fund dedicated to affordable housing programming and support.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 132-133, Controller’s Statement on I"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition I will keep the promise of the 2020 voter-approved transfer tax by guaranteeing that revenue goes to affordable housing, without raising taxes.",
+    "excerpt": "Prop I will finally keep the promise and implement the measure voters approved.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 134, Proponent’s Argument"
+   },
+   "supporters": {
+    "text": "Affordable Housing Alliance; San Francisco Tenants Union; Small Business Forward; United Educators of San Francisco; Service Employees International Union SEIU 1021; Council of Community Housing Coalitions; Faith in Action Bay Area; Senior and Disability Action; Anti Displacement Coalition; Community Tenants Association; Housing Rights Committee; Tenants Together; Democratic Socialist of America - San Francisco; San Franciscans for Social Housing",
+    "excerpt": "Affordable Housing Alliance San Francisco Tenants Union Small Business Forward United Educators of San Francisco Service Employees International Union SEIU 1021 Council of Community Housing Coalitions Faith in Action Bay Area Senior and Disability Action Anti Displacement Coalition Community Tenants Association Housing Rights Committee Tenants Together Democratic Socialist of America - San Francisco San Franciscans for Social Housing",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 134, Proponent’s Argument, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says locking transfer tax revenues into rigid set-asides is fiscal mismanagement that threatens San Francisco’s financial stability.",
+    "excerpt": "While affordable housing is an important priority, locking transfer tax revenues into rigid set-asides is fiscal mismanagement that threatens San Francisco’s financial stability.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 135, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "Judge Quentin L Kopp; San Francisco Taxpayers Association",
+    "excerpt": "Vote NO on Measure I. Judge Quentin L Kopp San Francisco Taxpayers Association",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 135, Opponent’s Argument, signatures"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-sf-city.j",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Proposition J would apply the transfer tax, at full market value starting March 1, 2027, to properties such as commercial, industrial and large residential real estate that a lender takes through foreclosure or receives to avoid foreclosure.",
+    "excerpt": "The Proposal: Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 144, Digest by the Ballot Simplification Council, The Proposal"
+   },
+   "yes": {
+    "text": "A yes vote means you want to apply a transfer tax for properties such as commercial, industrial, and large residential properties that are transferred to a lender because of foreclosure.",
+    "excerpt": "A “YES” Vote Means: If you vote “yes,” you want to apply a transfer tax for properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 144-145, Digest, A YES Vote Means"
+   },
+   "no": {
+    "text": "A no vote means you do not want to make these changes.",
+    "excerpt": "A “NO” Vote Means: If you vote “no,” you do not want to make these changes.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 144-145, Digest, A NO Vote Means"
+   },
+   "fiscal": {
+    "text": "The City Controller says the measure could bring an average of $100 million to $150 million annually over the first five years, with yearly amounts that are unpredictable.",
+    "excerpt": "The measure could bring an average of $100 million to $150 million annually over the first five years.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet pp. 144-145, Controller’s Statement on J"
+   },
+   "argFor": {
+    "text": "The argument in favor says Proposition J keeps the foreclosure tax break for homeowners and small residential buildings but stops corporate lenders from using it.",
+    "excerpt": "It keeps the tax break for homeowners and small residential buildings, but makes sure that corporate lenders can’t take advantage of this tax relief meant for struggling San Francisco families.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 146, Proponent’s Argument"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure imposes heavy tax penalties on foreclosures and deeds-in-lieu that would cripple San Francisco’s economic recovery and housing market by making lending riskier.",
+    "excerpt": "This measure imposes heavy tax penalties on property foreclosures and deeds-in-lieu, severely crippling San Francisco’s economic recovery and housing market by creating a punitive, unpredictable environment for commercial and residential lending.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 147, Opponent’s Argument"
+   },
+   "opponents": {
+    "text": "Judge Quentin L Kopp; San Francisco Taxpayers Association",
+    "excerpt": "Vote NO on Measure J. Judge Quentin L Kopp San Francisco Taxpayers Association",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 147, Opponent’s Argument, signatures"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages. Supporters left out for J: the proponent’s argument ends with a bulleted list headed 'PROPOSITION J is endorsed by:' and no separate signature block could be identified in the pdf.js text, so the official signers could not be confirmed.",
+  "notFound": [
+   "supporters"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-bayarea-rtm.measure-rtm",
+  "officialPages": [
+   {
+    "title": "Voter Information Pamphlet, November 3, 2026 Consolidated General Election",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "publisher": "San Francisco Department of Elections"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure RTM would impose a sales (transactions and use) tax of 0.5% in Alameda, Contra Costa, San Mateo and Santa Clara counties and 1.0% in San Francisco for 14 years, with revenues distributed to BART, Muni, Caltrain, AC Transit, VTA and other transit operators and county transportation agencies.",
+    "excerpt": "This measure would impose a tax of 0.5% in the counties of Alameda, Contra Costa, San Mateo, and Santa Clara and 1.0% in the City and County of San Francisco.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 52, Impartial Analysis by the District’s Legal Counsel"
+   },
+   "yes": {
+    "text": "A yes vote is a vote to impose the tax for 14 years.",
+    "excerpt": "A “yes” vote is a vote to impose the tax described above for 14 years.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 53, Impartial Analysis"
+   },
+   "no": {
+    "text": "A no vote is a vote against imposing the tax.",
+    "excerpt": "A “no” vote is a vote against imposing the tax.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 53, Impartial Analysis"
+   },
+   "fiscal": {
+    "text": "0.5% sales tax in Alameda, Contra Costa, San Mateo and Santa Clara counties and 1.0% in San Francisco, in effect for 14 years, estimated to raise approximately $980 million per year.",
+    "excerpt": "The tax would be in effect for 14 years and would not count toward the statutory limit on combined local sales tax rates. It is estimated that the tax would raise approximately $980 million per year.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 52, Impartial Analysis"
+   },
+   "argFor": {
+    "text": "The argument in favor says the measure protects Muni service while preserving the regional transit that brings workers, customers, students and visitors into San Francisco.",
+    "excerpt": "The Regional Transit Measure protects Muni service while preserving regional transit that brings workers, customers, students, and visitors into San Francisco every day.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 54, Proponent’s Argument (San Francisco pamphlet)"
+   },
+   "supporters": {
+    "text": "Mayor Daniel Lurie; Senator Scott Wiener; City Attorney David Chiu; San Francisco Democratic Party; League of Women Voters of the Bay Area; Brandy Blau, Zuckerberg San Francisco General Hospital Nurse*; Lian Chang, Transit Advocate",
+    "excerpt": "Mayor Daniel Lurie Senator Scott Wiener City Attorney David Chiu San Francisco Democratic Party League of Women Voters of the Bay Area Brandy Blau, Zuckerberg San Francisco General Hospital Nurse* Lian Chang, Transit Advocate",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 54, Proponent’s Argument, signatures (San Francisco pamphlet)"
+   },
+   "argAgainst": {
+    "text": "The argument against says the new tax makes life in San Francisco less affordable.",
+    "excerpt": "The new Regional Transit Measure (RTM) Tax makes life in San Francisco less affordable.",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 55, Opponent’s Argument (San Francisco pamphlet)"
+   },
+   "opponents": {
+    "text": "Quentin L. Kopp, San Francisco Taxpayers Association",
+    "excerpt": "Vote NO on the Regional Transit Measure! NoNewTransitTax.com Quentin L. Kopp, San Francisco Taxpayers Association",
+    "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf",
+    "location": "Voter Information Pamphlet p. 55, Opponent’s Argument, signature (San Francisco pamphlet)"
+   }
+  },
+  "notes": "Source is the official San Francisco Voter Information Pamphlet PDF (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces; page numbers are printed pamphlet pages. Impartial analysis is by Kathleen Kane, Legal Counsel for the Public Transit Revenue Measure District, as printed in the San Francisco pamphlet. The arguments and signers are those printed in the San Francisco pamphlet; other counties’ pamphlets may print different arguments and signers. The SF-posted argument PDFs on sf.gov are scans without a text layer.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-solano-sd-winters-joint-unified-school-district.measure-b",
+  "officialPages": [
+   {
+    "title": "Notice of Measures and Poll Places, 2026 General Election",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure B - Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_B_-_Argument_in_Favor_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure B - Winters Joint USD - Impartial Analysis",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_B_Impartial_Analysis_-_Signed_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure B - Winters Joint USD - Tax Rate Statement",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Winters_Joint_USD_Bond_Measure_B_Tax_Rate_Statement_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 15",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031015_-_VIG_15_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "fiscal": {
+    "text": "$29,900,000 in bonds, with an estimated levy of approximately $49 per $100,000 of assessed valuation (raising $1,600,000 annually) while bonds are outstanding.",
+    "excerpt": "shall Winters Joint Unified School District’s measure authorizing $29,900,000 in bonds, at legal interest rates, and levying approximately $49 per $100,000 of assessed valuation (raising $1,600,000 annually) while bonds are outstanding",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "location": "Notice of Measures, Measure B ballot question"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure B would let the District upgrade aging classrooms and facilities so local schools meet today's safety, technological and educational standards.",
+    "excerpt": "Measure B would allow the District to improve our local schools and the quality of education provided to local students. By investing in our schools, we can meet today’s safety, technological, and educational standards and improve our community.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_B_-_Argument_in_Favor_Redacted.pdf",
+    "location": "Argument in favor, paragraph 2"
+   },
+   "supporters": {
+    "text": "Keith W. Fridae, Former Mayor City of Winters; Robert Craig McNamara, President, Sierra Orchards; Cecilia M. Aguiar-Curry, Assemblymember Dist 4; Danielle Smith, Former PTA President; Sandra T. Vickrey, Local Realtor",
+    "excerpt": "/s/ Keith W. Fridae Former Mayor City of Winters /s/ Robert Craig McNamara President, Sierra Orchards /s/ Cecilia M. Aguiar-Curry Assemblymember Dist 4 /s/ Danielle Smith Former PTA President /s/ Sandra T. Vickrey Local Realtor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_B_-_Argument_in_Favor_Redacted.pdf",
+    "location": "Argument in favor, signatures"
+   },
+   "plainEnglish": {
+    "text": "Measure B would authorize Winters Joint Unified School District to issue and sell up to $29,900,000 in general obligation bonds for school facility projects.",
+    "excerpt": "This measure was placed on the ballot by the Board of Trustees of the Winters Joint Unified School District, which lies within Yolo and Solano Counties. If approved, it would authorize the District to issue and sell general obligation bonds in an amount not to exceed $29,900,000.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031015_-_VIG_15_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 15, p. 22, Impartial Analysis of Measure B by Yolo County Counsel"
+   },
+   "yes": {
+    "text": "A yes vote authorizes the District to issue up to $29,900,000 in general obligation bonds and to levy the property tax needed to repay them.",
+    "excerpt": "A “YES” vote is a vote to authorize the District to issue up to $29,900,000 in general obligation bonds and to levy the property tax necessary to repay them.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031015_-_VIG_15_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 15, p. 22, Impartial Analysis of Measure B"
+   },
+   "no": {
+    "text": "A no vote is a vote against authorizing the bonds and the associated property tax.",
+    "excerpt": "A “NO” vote is a vote against authorizing the bonds and the associated property tax.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031015_-_VIG_15_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 15, p. 22, Impartial Analysis of Measure B"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "ARGUMENT AGAINST MEASURE B (None Filed)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031015_-_VIG_15_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 15, p. 28, Argument Against Measure B"
+   }
+  },
+  "notes": "Impartial analysis and tax rate statement PDFs on the Solano ROV page have no text layer (scanned); not OCR'd. Solano ROV page lists no argument against Measure B, but the Notice of Measures says Measure B arguments were filed in Yolo County, so absence of an argument against could not be confirmed. Yolo County pages (ace.yolocounty.gov) not reached because the browser device disconnected. Excerpts are from pdf.js text; line breaks in the PDF are rendered as single spaces.  Fields added on resume come from the Solano County Voter Information Guide PDF for the ballot type named in each location (text layer, read with pdf.js), which prints the same arguments that were posted as scans. The Solano guide prints 'ARGUMENT AGAINST MEASURE B (None Filed)', so there are no opponent signers.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-solano.measure-e",
+  "officialPages": [
+   {
+    "title": "County Counsel's Impartial Analysis of Measure E",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+    "publisher": "Solano County Counsel (posted by Solano County Registrar of Voters)"
+   },
+   {
+    "title": "Measure E - Argument Against",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Argument_Against_Redacted_0.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure E - Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Argument_in_Favor_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure E - Rebuttal to Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_Rebuttal_to_Argument_in_Favor.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure E - Solano County - Full Text",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_Tax_Ordinance_Full_Text.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Notice of Measures and Poll Places, 2026 General Election",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 1",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Raises the County business license tax on commercial wind turbine generators and adds business license taxes on commercial solar energy systems, front-of-the-meter battery energy storage systems, natural gas extraction facilities and data centers in unincorporated Solano County.",
+    "excerpt": "Measure E would amend Article XII of Chapter 11 of the Solano County Code to increase the business license tax on commercial wind turbine generators and impose business license taxes on commercial solar energy systems, front-of-the-meter battery energy storage systems, natural gas extraction facilities, and data centers in the unincorporated areas of Solano County.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote approves the proposed amendments to the County's Business License Tax.",
+    "excerpt": "A \"yes\" vote is a vote to approve the proposed amendments to the County's Business License Tax.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+    "location": "Impartial analysis, final paragraphs"
+   },
+   "no": {
+    "text": "A no vote keeps the current Business License Tax provisions, including the existing commercial wind turbine tax rate, without the new tax categories or annual inflation adjustments.",
+    "excerpt": "A \"no\" vote is a vote to retain the current Business License Tax provisions, including the existing commercial wind turbine tax rate, without the proposed tax categories or annual inflation adjustments.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Impartial_Analysis_ordinance_for_commercial_energy_production_facilities_business_license_tax.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "Raises the commercial wind turbine rate from $0.00003 to $0.00008 per kWh and adds taxes of $0.00008 per kWh on commercial solar, $1.50 per MWh on battery energy storage, $0.30 per McF on natural gas extraction and $5.00 per building square foot on data centers, with annual inflation adjustments; approximately $353,000 in additional annual revenue, until ended by the voters.",
+    "excerpt": "raise the commercial wind turbine rate ($0.00003 to $0.00008 per kWh) and extend the tax to commercial solar energy systems ($0.00008 per kWh), battery energy storage systems ($1.50 per MWh), natural gas extraction facilities ($0.30 per McF), and data centers ($5.00 per building square foot), with annual inflation adjustments, generating approximately an additional $353,000 annually, until ended by the voters",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "location": "Notice of Measures, Measure E ballot question"
+   },
+   "argAgainst": {
+    "text": "The argument against says the County should encourage responsible development rather than add new taxes on industries that power the economy.",
+    "excerpt": "Solano County should encourage responsible development, not layer new taxes on industries that power our economy and our future.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Argument_Against_Redacted_0.pdf",
+    "location": "Argument against, closing paragraph"
+   },
+   "opponents": {
+    "text": "Solano County Taxpayers Association, Michael T Nolan, President; Shari Borkin, Dixon/Solano County resident",
+    "excerpt": "Solano County Taxpayers Association s/Michael T Nolan, President s/ Shari Borkin Dixon/Solano County resident",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_E_-_Argument_Against_Redacted_0.pdf",
+    "location": "Argument against, signatures"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure E would update and extend the business license tax on commercial wind farms to keep pace with inflation, since the rate has not been adjusted since 1994.",
+    "excerpt": "Measure E would update and extend the business license tax on commercial wind farms to keep pace with inflation. This is an important update because the existing tax rate has not been adjusted since 1994.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 53, Argument in Favor of Measure E"
+   },
+   "supporters": {
+    "text": "Mitch Mashburn, Solano County Supervisor, District 5; Cassandra R. James, Solano County Supervisor, District 1",
+    "excerpt": "s/Mitch Mashburn Solano County Supervisor, District 5 s/Cassandra R. James Solano County Supervisor, District 1",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 53, Argument in Favor of Measure E, signatures"
+   }
+  },
+  "notes": "Argument in favor PDF has no text layer (scanned); not OCR'd. The ROV page lists a rebuttal to the argument in favor but no rebuttal to the argument against. Excerpts are from pdf.js text; PDF line breaks rendered as single spaces.  Fields added on resume come from the Solano County Voter Information Guide PDF for the ballot type named in each location (text layer, read with pdf.js), which prints the same arguments that were posted as scans.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-solano.measure-h",
+  "officialPages": [
+   {
+    "title": "County Counsel's Impartial Analysis of Measure H",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf",
+    "publisher": "Solano County Counsel (posted by Solano County Registrar of Voters)"
+   },
+   {
+    "title": "Measure H - Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H_-_Argument_in_Favor_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure H - Argument Against",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H_-_Argument_Against_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure H - Rebuttal to Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H_Rebuttal_to_Argument_in_Favor.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Notice of Measures and Poll Places, 2026 General Election",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 1",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Raises the County's Transient Occupancy Tax on short-term lodging in unincorporated Solano County from 5% to 12% of the rent charged.",
+    "excerpt": "Measure H would amend Article II of Chapter 11 of the Solano County Code to increase the County's Transient Occupancy Tax (\"TOT\") within the unincorporated areas of Solano County from 5% to 12% of the rent charged for short-term lodging.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "no": {
+    "text": "A no vote keeps the County's Transient Occupancy Tax at 5%.",
+    "excerpt": "If the measure is not approved, the County's Transient Occupancy Tax would remain at 5%.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_H.Impartial_Analysis.Transient_Occupancy_Tax.2026.pdf",
+    "location": "Impartial analysis, final paragraph"
+   },
+   "fiscal": {
+    "text": "Increases the tax from 5% to 12% of the total rent charged, providing approximately an additional $58,500 annually, until ended by the voters.",
+    "excerpt": "from 5% to 12% of the total rent charged, providing approximately an additional $58,500 annually, until ended by the voters",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "location": "Notice of Measures, Measure H ballot question"
+   },
+   "argFor": {
+    "text": "The argument in favor says raising the TOT to 12% is a reasonable way to recover part of the cost of serving visitors and brings Solano County in line with its regional peers.",
+    "excerpt": "As tourism and visitation continue to grow, increasing the TOT to 12% provides a reasonable way to recover a portion of the costs associated with serving visitors while bringing Solano County more in line with our regional peers.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 63, Argument in Favor of Measure H"
+   },
+   "supporters": {
+    "text": "Cassandra R. James, Solano County Supervisor, District 1; Mitch Mashburn, Solano County Supervisor, District 5",
+    "excerpt": "s/ Cassandra R. James Solano County Supervisor, District 1 s/ Mitch Mashburn Solano County Supervisor, District 5",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 63, Argument in Favor of Measure H, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says the money goes into the general fund with no spending guarantees and calls the increase disproportionate, unnecessary and misleading.",
+    "excerpt": "But the money goes into the general fund where it can be spent on any purpose the Board of Supervisors chooses, with no spending guarantees. This proposal is disproportionate, unnecessary, and misleading.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 64, Argument Against Measure H"
+   },
+   "opponents": {
+    "text": "Solano County Taxpayers Association; Michael T Nolan, President; Shari Borkin, Dixon resident",
+    "excerpt": "Vote NO on Measure H. Solano County Taxpayers Association s/ Michael T Nolan, President s/ Shari Borkin Dixon resident",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 64, Argument Against Measure H, signatures"
+   }
+  },
+  "notes": "Impartial analysis does not state what a yes vote does in 'a yes vote' form, so yes was left out. Argument in favor and argument against PDFs have no text layer (scanned); not OCR'd. Excerpts are from pdf.js text; PDF line breaks rendered as single spaces.  Fields added on resume come from the Solano County Voter Information Guide PDF for the ballot type named in each location (text layer, read with pdf.js), which prints the same arguments that were posted as scans. The guide’s impartial analysis still has no 'yes vote' sentence, so yes stays out.",
+  "notFound": [
+   "yes"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-solano-rio-vista.measure-o",
+  "officialPages": [
+   {
+    "title": "Notice of Measures and Poll Places, 2026 General Election",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure O - Argument Against",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_O_-_Argument_Against_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure O - Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_O_-_Argument_in_Favor_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure O - City of Rio Vista - Impartial Analysis",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Rio_Vista_City_Attorney_Impartial_Analysis_Measure_O_Redacted.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 26",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031026_-_VIG_26_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Extends Rio Vista's existing three-quarter percent (3/4%) transactions and use tax, which supports general city services including police, fire and parks, for three years starting April 1, 2027.",
+    "excerpt": "Shall the existing three-quarter (3/4%) percent transactions and use tax measure to support the City of Rio Vista’s general services, including police, fire, parks, and other unrestricted general fund expenditures, be extended for three years, commencing on April 1, 2027",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "location": "Notice of Measures, Measure O ballot question"
+   },
+   "fiscal": {
+    "text": "Extends the existing 3/4% tax for three years starting April 1, 2027, projected to provide between $1,398,000 and $1,467,000 of revenue annually for the City.",
+    "excerpt": "be extended for three years, commencing on April 1, 2027, and which is projected to provide between $1,398,000 to $1,467,000 of revenue annually for the City",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "location": "Notice of Measures, Measure O ballot question"
+   },
+   "argAgainst": {
+    "text": "The argument against says the City is again asking to extend a temporary tax because it has not solved its underlying financial management problems.",
+    "excerpt": "Yet here we are again, being asked to extend the same tax because the City has not solved its underlying financial management problems.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_O_-_Argument_Against_Redacted.pdf",
+    "location": "Argument against, paragraph 3"
+   },
+   "opponents": {
+    "text": "Michael T Nolan, President, Solano County Taxpayers Association",
+    "excerpt": "s/ Michael T Nolan, President Solano County Taxpayers Association",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_O_-_Argument_Against_Redacted.pdf",
+    "location": "Argument against, signature"
+   },
+   "yes": {
+    "text": "A yes vote approves the 0.75% sales tax for three years.",
+    "excerpt": "A “YES” vote is a vote to approve the 0.75% percent sales tax for a period of three years. A “NO” vote is a vote against the sales tax.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031026_-_VIG_26_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 26, p. 50, City Attorney’s Impartial Analysis of Measure O"
+   },
+   "no": {
+    "text": "A no vote is a vote against the sales tax.",
+    "excerpt": "A “YES” vote is a vote to approve the 0.75% percent sales tax for a period of three years. A “NO” vote is a vote against the sales tax.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031026_-_VIG_26_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 26, p. 50, City Attorney’s Impartial Analysis of Measure O"
+   },
+   "argFor": {
+    "text": "The argument in favor says the existing ¾-cent sales tax must remain in place to maintain paramedic services at current levels.",
+    "excerpt": "in order to maintain paramedic services at the current levels, the existing ¾-cent sales tax must remain in place.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031026_-_VIG_26_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 26, p. 54, Argument in Favor of Measure O"
+   },
+   "supporters": {
+    "text": "City of Rio Vista; Edwin Okamura, Mayor; Rick Dolk, Vice Mayor",
+    "excerpt": "City of Rio Vista s/ Edwin Okamura, Mayor s/ Rick Dolk, Vice Mayor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031026_-_VIG_26_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 26, p. 54, Argument in Favor of Measure O, signatures"
+   }
+  },
+  "notes": "Impartial analysis and argument in favor PDFs have no text layer (scanned); not OCR'd. City of Rio Vista pages not reached because the browser device disconnected. Excerpts are from pdf.js text; PDF line breaks rendered as single spaces.  Fields added on resume come from the Solano County Voter Information Guide PDF for the ballot type named in each location (text layer, read with pdf.js), which prints the same arguments that were posted as scans.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-solano-fairfield.measure-p",
+  "officialPages": [
+   {
+    "title": "City Attorney's Impartial Analysis of Measure P",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+    "publisher": "Fairfield City Attorney (posted by Solano County Registrar of Voters)"
+   },
+   {
+    "title": "Measure P - Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_-_Argument_in_Favor.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure P - Argument Against",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_-_Argument_Against.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure P - Rebuttal to Argument in Favor",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_Rebuttal_to_Argument_in_Favor.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Measure P - Rebuttal to Argument Against",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P__Rebuttal_to_Argument_Against.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   },
+   {
+    "title": "Notice of Measures and Poll Places, 2026 General Election",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Notice_of_Measures.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Raises Fairfield's sales tax rate by 1 cent per dollar and extends the City's existing 1% transactions and use tax until ended by the voters.",
+    "excerpt": "Measure P would increase the City’s existing sales tax rate by 1%, or 1 cent, on every dollar of taxable sales of goods in the City, and on the taxable storage, use or consumption in the City of goods purchased. Measure P would also extend the City’s existing 1% transactions and use tax until ended by the voters.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+    "location": "Impartial analysis, paragraph 1"
+   },
+   "yes": {
+    "text": "A yes vote adopts the Sales Tax Ordinance.",
+    "excerpt": "A “yes” vote on Measure P is to adopt the Sales Tax Ordinance.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+    "location": "Impartial analysis, paragraph 4"
+   },
+   "no": {
+    "text": "A no vote does not adopt the Sales Tax Ordinance.",
+    "excerpt": "A “no” vote on Measure P is to not adopt the Sales Tax Ordinance.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+    "location": "Impartial analysis, paragraph 4"
+   },
+   "fiscal": {
+    "text": "The City estimates approximately $24 million per year in new local revenue.",
+    "excerpt": "The City estimated that this Measure will raise approximately $24 million per year in new local revenue for use in the City.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Fairfield_-_Final_Impartial_Analysis__Measure_P_-_Sales_Tax_Measure_.pdf",
+    "location": "Impartial analysis, paragraph 2"
+   },
+   "argFor": {
+    "text": "The argument in favor says that without renewing and updating Measure P, Fairfield will face difficult choices affecting essential services residents rely on.",
+    "excerpt": "Without renewing and updating Measure P, Fairfield will face difficult choices that could affect the services residents rely on every day.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_-_Argument_in_Favor.pdf",
+    "location": "Argument in favor, paragraph 4"
+   },
+   "supporters": {
+    "text": "M. Dae Spering, G.M. Down Town Theater; Sean Quin, Retired City Manger",
+    "excerpt": "s/M. Dae Spering G.M. Down Town Theater s/Sean Quin Retired City Manger",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_-_Argument_in_Favor.pdf",
+    "location": "Argument in favor, signatures (page 2)"
+   },
+   "argAgainst": {
+    "text": "The argument against says the tax money goes into the general fund with no requirement that it be used for police, fire or street repair, and the tax has no end date.",
+    "excerpt": "There is no requirement that the money be used for police, fire, or street repair.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_-_Argument_Against.pdf",
+    "location": "Argument against, paragraph 4"
+   },
+   "opponents": {
+    "text": "Solano County Taxpayers Association, Michael Nolan, President",
+    "excerpt": "Solano County Taxpayers Association s/Michael Nolan, President",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/Measure_P_-_Argument_Against.pdf",
+    "location": "Argument against, signature"
+   }
+  },
+  "notes": "Impartial analysis also states the total sales tax rate in Fairfield would go from 8.375% to 9.375%. 'Retired City Manger' is the spelling printed in the argument in favor. Excerpts are from pdf.js text; PDF line breaks rendered as single spaces.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-solano-fairfield.measure-q",
+  "officialPages": [
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 19",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure Q would convert the Fairfield City Clerk from an elected office to an appointed one.",
+    "excerpt": "The proposed Measure seeks to convert the position of Fairfield City Clerk from an elective to an appointive office.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 52, City Attorney’s Impartial Analysis of Measure Q"
+   },
+   "yes": {
+    "text": "A yes vote amends the Municipal Code to make the City Clerk position appointive, so no one will run for City Clerk.",
+    "excerpt": "A “yes” vote on this Measure amends Chapter 2 of the City Municipal Code in order to make the City Clerk position appointive, meaning no one will have to run for office for the City Clerk position.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 52, City Attorney’s Impartial Analysis of Measure Q"
+   },
+   "no": {
+    "text": "A no vote means the City Clerk position will remain elected.",
+    "excerpt": "A “no” vote on this Measure means the City Clerk position will remain elected.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 52, City Attorney’s Impartial Analysis of Measure Q"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure Q would ensure Fairfield’s City Clerk is selected for qualifications, experience and professional competence rather than campaign politics.",
+    "excerpt": "Vote YES on Measure Q to ensure Fairfield’s City Clerk is selected for qualifications, experience, and professional competence—NOT campaign politics.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 55, Argument in Favor of Measure Q"
+   },
+   "supporters": {
+    "text": "Karen L. Rees, City Clerk; Kevin O’Rourke, Retired City Manager",
+    "excerpt": "s/ Karen L. Rees City Clerk s/ Kevin O’Rourke Retired City Manager",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 55, Argument in Favor of Measure Q, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says making the City Clerk appointed would remove a direct line of accountability between the public and the office that keeps official records, elections and public transparency.",
+    "excerpt": "Measure Q asks Fairfield voters to change the City Clerk from an elected position to one appointed by the City Manager or Council. This proposal would remove a direct line of accountability between the public and one of the City’s most important offices - the keeper of official records, elections, and public transparency.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 56, Argument Against Measure Q"
+   },
+   "opponents": {
+    "text": "Solano County Taxpayers Association; Michael T Nolan, President",
+    "excerpt": "Vote NO on Measure Q. Solano County Taxpayers Association s/ Michael T Nolan, President",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031019_-_VIG_19_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 19, p. 56, Argument Against Measure Q, signatures"
+   }
+  },
+  "notes": "Source is the Solano County Voter Information Guide PDF for the ballot type shown (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces. Signer excerpts keep the printed 's/' marks; supporter and opponent text omits them. Fiscal left out: Measure Q is not a tax or bond measure and the impartial analysis states no cost.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-solano-sd-dixon-unified-school-district.measure-u",
+  "officialPages": [
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 1",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure U would authorize Dixon Unified School District to issue up to $49,000,000 in general obligation bonds for school facility projects.",
+    "excerpt": "If approved, Measure U would authorize the District to issue and sell general obligation bonds in an aggregate principal amount not to exceed $49,000,000, at interest rates within legal limits.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 40, Impartial Analysis of Measure U (Solano County Counsel)"
+   },
+   "yes": {
+    "text": "A yes vote means general obligation bonds totaling up to $49,000,000 may be issued to finance the school facility projects specified in the measure.",
+    "excerpt": "A “yes” vote on Measure U means general obligation bonds totaling up to $49,000,000 may be issued to finance the school facility projects specified in the measure.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 40, Impartial Analysis of Measure U"
+   },
+   "no": {
+    "text": "A no vote means the bonds will not be authorized.",
+    "excerpt": "A “no” vote on Measure U means the bonds will not be authorized.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 40, Impartial Analysis of Measure U"
+   },
+   "fiscal": {
+    "text": "Estimated average annual tax rate of $29 and highest rate of $30 per $100,000 of assessed valuation, collected through fiscal year 2061-62, with total debt service of approximately $105,000,000.",
+    "excerpt": "According to the District’s Tax Rate Statement, the estimated average annual tax rate is $29 per $100,000 of assessed valuation, and the estimated highest tax rate is $30 per $100,000 of assessed valuation. The District estimates that taxes will be collected through fiscal year 2061-62 and that total debt service, including principal and interest, will be approximately $105,000,000.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 40, Impartial Analysis of Measure U"
+   },
+   "argFor": {
+    "text": "The argument in favor says every student deserves to learn in safe, updated facilities and Measure U will help make that possible in Dixon’s schools.",
+    "excerpt": "EVERY student deserves to LEARN in a school with safe, updated facilities. Measure U will help make that possible in Dixon elementary, middle and high schools.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 45, Argument in Favor of Measure U"
+   },
+   "supporters": {
+    "text": "Jill Orr, Dixon Resident & Business Owner; Support Dixon Schools – Yes on U 2026, Julian Y. Cuevas, Committee Chair; Caitlin O’Halloran Heller, Dixon Resident & Community Advocate; Benjamin Ernest, Executive Director, Dixon Montessori; Michael Liu, President, Kiwanis Club of Dixon",
+    "excerpt": "s/ Jill Orr Dixon Resident & Business Owner Support Dixon Schools – Yes on U 2026 s/ Julian Y. Cuevas, Committee Chair s/ Caitlin O’Halloran Heller Dixon Resident & Community Advocate s/Benjamin Ernest Executive Director, Dixon Montessori s/ Michael Liu President, Kiwanis Club of Dixon",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 45, Argument in Favor of Measure U, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says the District repeatedly returns to voters with large bond measures instead of doing routine maintenance.",
+    "excerpt": "Instead of routine upkeep, the District repeatedly returns to voters with large bond measures to fix problems that should never have been allowed to deteriorate this far.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 46, Argument Against Measure U"
+   },
+   "opponents": {
+    "text": "Solano County Taxpayers Association; Michael T Nolan, President; Shari Borkin, Dixon Resident",
+    "excerpt": "VOTE NO ON MEASURE U. Solano County Taxpayers Association s/ Michael T Nolan, President s/ Shari Borkin Dixon Resident",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031001_-_VIG_1_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 1, p. 46, Argument Against Measure U, signatures"
+   }
+  },
+  "notes": "Source is the Solano County Voter Information Guide PDF for the ballot type shown (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces. Signer excerpts keep the printed 's/' marks; supporter and opponent text omits them. The ballot question printed in the guide reads approximately $30 per $100,000 assessed value ($3,000,000 annually); the county page also posts a revised ballot question letter (not read here). The guide’s ballot type 1 is one of several that carry Measure U.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-solano-vacaville.measure-v",
+  "officialPages": [
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 4",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure V would add a new one percent (1%) transactions and use (sales) tax in Vacaville.",
+    "excerpt": "If approved by a majority of the voters voting on the measure, this measure would add Chapter 3.15 to the Vacaville Municipal Code, authorizing the City to impose a new transactions and use tax, commonly referred to as a “sales tax”, of one percent (1%) on the sale and use of tangible personal property within the City.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 48, City Attorney’s Impartial Analysis of Measure V"
+   },
+   "yes": {
+    "text": "A yes vote approves the additional one percent sales tax.",
+    "excerpt": "A “yes” vote approves the additional one percent sales tax described above. A “no” vote rejects it.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 48, City Attorney’s Impartial Analysis of Measure V"
+   },
+   "no": {
+    "text": "A no vote rejects the additional one percent sales tax.",
+    "excerpt": "A “yes” vote approves the additional one percent sales tax described above. A “no” vote rejects it.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 48, City Attorney’s Impartial Analysis of Measure V"
+   },
+   "fiscal": {
+    "text": "Additional one-cent sales tax providing approximately twenty-eight million dollars annually, until ended by voters.",
+    "excerpt": "by establishing an additional one-cent sales tax providing approximately twenty-eight million dollars annually, with local control, citizens oversight, annual audits, and public reporting, until ended by voters?",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 48, Ballot question"
+   },
+   "argFor": {
+    "text": "The argument in favor says that without additional local funding, deeper cuts could affect public safety, emergency response, road maintenance, parks and other essential services.",
+    "excerpt": "But without additional local funding, deeper cuts could affect public safety staffing, emergency response times, road maintenance, parks and recreation, and other essential services vital to the quality of life in Vacaville.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 54, Argument in Favor of Measure V"
+   },
+   "supporters": {
+    "text": "Sandy Person; Jared Austin; Teri Johnson; James Perry; Rich Word",
+    "excerpt": "s/ Sandy Person s/ Jared Austin s/ Teri Johnson s/ James Perry s/ Rich Word",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 54, Argument in Favor of Measure V, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says the City faces a temporary budget shortfall but Measure V proposes a permanent tax increase.",
+    "excerpt": "The City faces a temporary budget shortfall, but Measure V proposes a permanent high tax increase.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 55, Argument Against Measure V"
+   },
+   "opponents": {
+    "text": "Solano County Taxpayers Association; Michael T Nolan, President; Timothy Bittle, Vacaville resident, Of Counsel, Howard Jarvis Taxpayers Association",
+    "excerpt": "Vote NO on Measure V. Solano County Taxpayers Association s/ Michael T Nolan, President s/ Timothy Bittle, Vacaville resident Of Counsel, Howard Jarvis Taxpayers Association",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031004_-_VIG_4_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 4, p. 55, Argument Against Measure V, signatures"
+   }
+  },
+  "notes": "Source is the Solano County Voter Information Guide PDF for the ballot type shown (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces. Signer excerpts keep the printed 's/' marks; supporter and opponent text omits them. Signers of the argument in favor are printed by name only, with no titles. The separately posted impartial analysis PDF for V has no text layer; the guide text was used instead. Impartial analysis also says the combined rate would go from 8.125% to 9.125% and the tax would take effect April 1, 2027.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-solano-benicia.measure-x",
+  "officialPages": [
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 17",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure X asks Benicia voters to adopt an ordinance amending the City’s business license tax, exempting businesses with $100,000 or less in annual receipts and setting new rates by business category plus a separate marine terminal tax.",
+    "excerpt": "The Benicia City Council has placed a Measure on the November 3, 2026 ballot, asking voters to adopt an ordinance to amend Chapters 5.04 and 5.06 of the Benicia Municipal Code.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 46, City Attorney’s Impartial Analysis of Measure X"
+   },
+   "yes": {
+    "text": "A yes vote is a vote in favor of the tax.",
+    "excerpt": "A “yes” vote is a vote in favor of the tax. A “no” vote is a vote against the tax.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 46, Impartial Analysis of Measure X"
+   },
+   "no": {
+    "text": "A no vote is a vote against the tax.",
+    "excerpt": "A “yes” vote is a vote in favor of the tax. A “no” vote is a vote against the tax.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 46, Impartial Analysis of Measure X"
+   },
+   "fiscal": {
+    "text": "Business license tax rates of $0.25 to $1.25 per $1,000 in receipts, annual cap starting at $1,500 and rising 10% a year to $25,000, Marine Terminal rate of $3 per $100 in receipts, about $1,612,000 in the first year, until repealed by voters.",
+    "excerpt": "Shall the City of Benicia adopt a Business License Tax measure, exempting businesses with $100,000 or less in annual receipts, setting tax rates by business category ranging from $0.25 to $1.25 per $1,000 in receipts, capping those annual taxes at $1,500 in the first year with 10% annual increases until the cap is $25,000, with a separate Marine Terminal rate of $3 per $100 in receipts, generating approximately $1,612,000 in the first year, until repealed by voters?",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 46, Ballot question"
+   },
+   "argFor": {
+    "text": "The argument in favor says businesses with $100,000 or less in annual receipts will pay no business license tax while larger businesses contribute based on their scale and type.",
+    "excerpt": "Businesses with $100,000 or less in annual receipts will pay no business license tax, resulting in more than 1,800 businesses no longer paying a tax. Larger businesses will contribute based on the scale and type of business they conduct in Benicia.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 57, Argument in Favor of Measure X"
+   },
+   "supporters": {
+    "text": "Steve Young, City of Benicia, Mayor; Trevor Macenski, City of Benicia Vice Mayor; Terry Scott, City Council Member; Kari Birdseye, City Council Member; Lionel Largaespada, City Council Member",
+    "excerpt": "s/Steve Young City of Benicia, Mayor s/Trevor Macenski City of Benicia Vice Mayor s/Terry Scott City Council Member s/Kari Birdseye City Council Member s/Lionel Largaespada City Council Member",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 57, Argument in Favor of Measure X, signatures"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "ARGUMENT AGAINST MEASURE X (None Filed)",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 58, Argument Against Measure X"
+   }
+  },
+  "notes": "Source is the Solano County Voter Information Guide PDF for the ballot type shown (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces. Signer excerpts keep the printed 's/' marks; supporter and opponent text omits them. The guide prints 'ARGUMENT AGAINST MEASURE X (None Filed)', so there are no opponent signers.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-solano-benicia.measure-y",
+  "officialPages": [
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 17",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure Y would adopt a limited City Charter for Benicia whose only new power is to enact a real property transfer tax system, allowing Measure Z to take effect.",
+    "excerpt": "Measure Y asks voters to adopt the City of Benicia Charter (“Charter”) which will allow the City of Benicia (“City”) to exercise the authority over municipal affairs granted to charter cities by the California Constitution. The proposed Charter specifically limits the City’s new power over municipal affairs solely with respect to the power to enact a system for the imposition, levy and collection of a tax on the conveyance of real property.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 59, City Attorney’s Impartial Analysis of Measure Y"
+   },
+   "yes": {
+    "text": "A yes vote adopts the City of Benicia Charter.",
+    "excerpt": "A “yes” vote on Measure Y adopts the City of Benicia Charter.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 59, Impartial Analysis of Measure Y"
+   },
+   "no": {
+    "text": "A no vote keeps Benicia a general law city.",
+    "excerpt": "A “no” vote on Measure Y will maintain the City of Benicia as a general law city.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 59, Impartial Analysis of Measure Y"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure Y creates a limited City Charter for one purpose, allowing voters to approve the transfer tax in Measure Z, while keeping Benicia’s existing form of government.",
+    "excerpt": "It creates a limited City Charter for one purpose: allowing Benicia voters to approve the real property transfer tax in Measure Z.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 62, Argument in Favor of Measure Y"
+   },
+   "supporters": {
+    "text": "Steve Young, City of Benicia, Mayor; Trevor Macenski, City of Benicia, Vice Mayor; Wendi S Phillips, VIce President Board of Main St; Allison Costelow; Terence Bennett",
+    "excerpt": "s/Steve Young City of Benicia, Mayor s/Trevor Macenski City of Benicia, Vice Mayor s/Wendi S Phillips VIce President Board of Main St s/Allison Costelow S/Terence Bennett",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 62, Argument in Favor of Measure Y, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Measure Y is designed to look limited while opening the door to major changes in Benicia’s government and tax structure.",
+    "excerpt": "Measure Y is a Trojan Horse — designed to look “limited” while quietly opening the door to major changes in Benicia’s government and tax structure.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 63, Argument Against Measure Y"
+   },
+   "opponents": {
+    "text": "Association of Benicians Opposing Charter City and Real Property Transfer Tax Measures; Christopher Shenfield, President; Lawrence Morsen, Retired Water Utility Executive; Kenneth Bocox, 40-Year Benicia Resident; William J. Groves, Retired Title Insurance Executive; Melinda A. Laudy, Principal Interior Designer",
+    "excerpt": "Association of Benicians Opposing Charter City and Real Property Transfer Tax Measures s/ Christopher Shenfield, President s/ Lawrence Morsen Retired Water Utility Executive s/ Kenneth Bocox 40-Year Benicia Resident s/ William J. Groves Retired Title Insurance Executive s/ Melinda A. Laudy Principal Interior Designer",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 63, Argument Against Measure Y, signatures"
+   }
+  },
+  "notes": "Source is the Solano County Voter Information Guide PDF for the ballot type shown (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces. Signer excerpts keep the printed 's/' marks; supporter and opponent text omits them. Fiscal left out: Measure Y adopts a charter and imposes no tax itself. 'VIce President' is the spelling printed.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-solano-benicia.measure-z",
+  "officialPages": [
+   {
+    "title": "Solano County Voter Information Guide, November 3, 2026, Ballot Type 17",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "publisher": "Solano County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "plainEnglish": {
+    "text": "Measure Z would adopt a Benicia real property transfer tax ordinance, which can take effect only if voters also approve Measure Y.",
+    "excerpt": "Measure Z asks the electorate of the City of Benicia (“City”) to consider the adoption of the City of Benicia Real Property Transfer Tax Ordinance (“Ordinance”).",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 64, City Attorney’s Impartial Analysis of Measure Z"
+   },
+   "yes": {
+    "text": "A yes vote adopts the Ordinance.",
+    "excerpt": "A “yes” vote on Measure Z adopts the Ordinance. A “no” vote on Measure Z rejects the Ordinance; however, the current tax authorized by California Revenue and Taxation Code Section 11911 would remain in effect.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 64, Impartial Analysis of Measure Z"
+   },
+   "no": {
+    "text": "A no vote rejects the Ordinance, and the current transfer tax under Revenue and Taxation Code Section 11911 would remain in effect.",
+    "excerpt": "A “yes” vote on Measure Z adopts the Ordinance. A “no” vote on Measure Z rejects the Ordinance; however, the current tax authorized by California Revenue and Taxation Code Section 11911 would remain in effect.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 64, Impartial Analysis of Measure Z"
+   },
+   "fiscal": {
+    "text": "Estimated to generate approximately $230,000 annually, growing to between $3.3 million and $3.8 million by 2050.",
+    "excerpt": "The tax is estimated to generate approximately $230,000 annually, growing to between $3.3 million and $3.8 million by 2050.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 64, Impartial Analysis of Measure Z"
+   },
+   "argFor": {
+    "text": "The argument in favor says Measure Z protects existing homeowners while asking future development and higher-value property sales to help maintain Benicia’s services and infrastructure.",
+    "excerpt": "Vote YES on Measure Z to protect existing homeowners while asking future development and higher-value property sales to help maintain Benicia’s essential services and infrastructure.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 68, Argument in Favor of Measure Z"
+   },
+   "supporters": {
+    "text": "Steve Young, Mayor; Trevor Macenski, Vice Mayor; Wendi S Phillips; Allison Costelow; Terence Bennett",
+    "excerpt": "s/ Steve Young Mayor s/ Trevor Macenski Vice Mayor s/ Wendi S Phillips s/ Allison Costelow s/ Terence Bennett",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 68, Argument in Favor of Measure Z, signatures"
+   },
+   "argAgainst": {
+    "text": "The argument against says Benicia voters rejected a transfer tax increase in 2024 and the City is bringing back the same tax increase under a new label.",
+    "excerpt": "Benicia voters rejected a transfer tax increase in 2024 — by more than an 18% margin.",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 69, Argument Against Measure Z"
+   },
+   "opponents": {
+    "text": "Association of Benicians Opposing Charter City and Real Property Transfer Tax Measures; Christopher Shenfield, President; Lawrence Morsen, Retired Water Utility Executive; Kenneth Bocox, 40-Year Benicia Resident; William J. Groves, Retired Title Insurance Executive; Melinda A. Laudy, Principal Interior Designer",
+    "excerpt": "Vote No on Measure Z! Association of Benicians Opposing Charter City and Real Property Transfer Tax Measures s/ Christopher Shenfield, President s/ Lawrence Morsen Retired Water Utility Executive s/ Kenneth Bocox 40-Year Benicia Resident s/ William J. Groves Retired Title Insurance Executive s/ Melinda A. Laudy Principal Interior Designer",
+    "url": "https://content.solanocounty.gov/sites/default/files/2026-08/SOLA11031017_-_VIG_17_ES.pdf",
+    "location": "Solano County Voter Information Guide, Ballot Type 17, p. 69, Argument Against Measure Z, signatures"
+   }
+  },
+  "notes": "Source is the Solano County Voter Information Guide PDF for the ballot type shown (text layer, read with pdf.js); excerpts have PDF line breaks rendered as single spaces. Signer excerpts keep the printed 's/' marks; supporter and opponent text omits them. Fiscal excerpt gives the revenue estimate; the rates ($4, $6 and $8 per $1,000) are listed in the same impartial analysis.",
+  "notFound": []
+ }
+]
