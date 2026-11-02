@@ -1,5 +1,15 @@
 # Changelog
 
+## November 1, 2026, clearer defaults and dated sources
+
+- **Guide default weights.** The starting weights (5, 4, 3, 3, 2) are now called "Guide default". The page says: "The default weights are selected for this guide to provide a consistent starting point. They are not universal priorities or an objectively correct ranking. You can change them to reflect what matters most to you." A short "Why these starting weights?" fold explains each one. Values and scoring are unchanged.
+- **One principle, stated in Step 1.** "Every proposition is assessed using the same five factors, default weights and scoring scale. The evidence and questions used to evaluate each factor are tailored to the specific proposition. The guide's ratings are analytical judgments, while voters retain control over the importance assigned to each factor."
+- **Three starting points.** Guide default, Equal and Set my own (was Customize). Cost watcher is gone. Its weights can still be set with Set my own.
+- **Source details.** All 68 proposition sources now show the publisher, the page title, the source type, and the publication and update dates the source shows. 63 show no publication date, so they say "Publication date not stated". The date the links were last opened (Nov 1, 2026) is shown separately. Data is in data/2026-11-03/source-meta.json. Validator rule VAL-21 refuses a date without the text the source shows for it.
+- **Ratings list lined up.** "This tool's own ratings" on each card is one aligned column, with the Accountability parts under its name.
+- **Equal weights explained.** Weights count only relative to each other, so setting all five to 5 scores exactly like Equal. Set my own now says so when all five are the same. Checked on all 14 propositions under Guide default, Equal, all 5s and Evidence strength alone, against an independent calculation.
+- **Sources in one tap from the cheat sheet.** Each proposition row has a Sources link that opens the Ballot Weighing Tool at that proposition with its sources in view. Tested for all 14 at 360, 390 and 430 px wide.
+
 ## October 31, 2026, candidate comparisons
 
 - **Where they stand.** 54 contests now show a comparison table on the contest page. That is the 8 statewide offices, 14 US House districts and 32 city races (mayors, councils and supervisors, including Mountain View, Los Altos District 2, Los Gatos and Sunnyvale Districts 1 and 5). Each row is one issue and each cell is the candidate's own words, with the source, its date and the date the quote was matched to that source. A cell with no quote says "No public statement found in our sources."

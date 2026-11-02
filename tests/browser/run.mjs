@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
   fs.createReadStream(file).pipe(res);
 });
 await new Promise((r, j) => { server.once("error", j); server.listen(PORT, "127.0.0.1", r); });
-const SUITES = { guide: "guide.test.cjs", weighing: "weighing-tool.test.cjs", goatcounter: "goatcounter.test.cjs" };
+const SUITES = { guide: "guide.test.cjs", weighing: "weighing-tool.test.cjs", goatcounter: "goatcounter.test.cjs", sources: "sources-mobile.test.cjs", presets: "presets.test.cjs" };
 const pick = process.argv.slice(2).filter((a) => SUITES[a]);
 let code = 0;
 for (const name of pick.length ? pick : Object.keys(SUITES)) {

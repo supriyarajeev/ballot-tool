@@ -335,6 +335,12 @@ E("incumbent field without evidence (VAL-05)", edit(EV, (d) => (d.evidence = d.e
 E("statewide item missing", edit(SW, (d) => d.items.pop()), /statewide\.json has 13 items but propositions\.html has 14/);
 E("statewide title differs from the tool", txt("propositions.html", (s) => s.replace(/(\{ n: "1", name: ")([^"]+)/, "$1PLANTED NAME")), /statewide\.json Prop 1 shortTitle ".*" differs from propositions\.html "PLANTED NAME"/);
 
+// ---------- VAL-21 proposition source details ----------
+const SMF = "data/2026-11-03/source-meta.json";
+const SM1 = "https://voterguide.sos.ca.gov/propositions/1/analysis.htm";
+E("source date with no text from the source (VAL-21)", edit(SMF, (d) => (d.sources[SM1].published = "2026-08-01")), /published without the text the source shows/);
+E("source date in the future (VAL-21)", edit(SMF, (d) => { d.sources[SM1].published = "2099-01-01"; d.sources[SM1].publishedText = "x"; }), /is not a past YYYY-MM-DD or YYYY-MM date/);
+E("proposition source with no details entry (VAL-21)", edit(SMF, (d) => delete d.sources[SM1]), /no entry for Prop 1 source/);
 // ---------- VAL-20 candidate comparisons ----------
 const CQ = "data/2026-11-03/candidate-quotes.json";
 E("comparison quote with an http source (VAL-20)", edit(CQ, (d) => (d.quotes[0].sourceUrl = d.quotes[0].sourceUrl.replace("https:", "http:"))), /candidate-quotes\.json.*(sourceUrl must be https|http)/);

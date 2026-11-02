@@ -109,7 +109,7 @@ for (const id of sets) {
     checked++;
   }
 }
-ok(checked === 42 && wrong.length === 0, "all 14 propositions x 3 presets follow the same rule: " + (wrong.join(", ") || "42 of 42"));
+ok(checked === 28 && wrong.length === 0, "all 14 propositions x 2 presets follow the same rule: " + (wrong.join(", ") || "28 of 28"));
 
 // 8. Totals and the answered count (the same counting as the page's progress bar and Step 3 tally).
 T.applyPreset("def");

@@ -36,7 +36,7 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
       ok(f.every((x) => x.folded && x.exp === "false" && x.pills && x.body === 0 && x.res === 0 && x.ask), "all 14 start folded to one row with the question and visible 44px answer buttons " + tag);
       const s2 = await p.evaluate(() => document.getElementById("s2").offsetHeight);
       ok(s2 < (w < 600 ? 4800 : 3300), "Step 2 is short when folded (" + s2 + "px) " + tag);
-      ok(await p.evaluate(() => document.getElementById("s1-body").hidden && document.getElementById("s1-fold").getAttribute("aria-expanded") === "false" && /standard weights/.test(document.getElementById("fw-status").textContent)), "Step 1 starts with its details folded and the weights status visible " + tag);
+      ok(await p.evaluate(() => document.getElementById("s1-body").hidden && document.getElementById("s1-fold").getAttribute("aria-expanded") === "false" && /guide default weights/.test(document.getElementById("fw-status").textContent)), "Step 1 starts with its details folded and the weights status visible " + tag);
       await p.click("#s1-fold"); ok(await p.isVisible("#fw-body") && await p.isVisible("#behave") && (await p.textContent("#s1-fold .fold-hint")) === "Hide details", "Details opens the factors, weights and scoring " + tag);
       await p.click("#s1-fold"); ok(await p.isHidden("#fw-body"), "and folds them again " + tag);
       await p.click('a.step[href="#s1"]'); ok(await p.isVisible("#fw-body"), "the Step 1 link at the top opens the details " + tag);
@@ -96,10 +96,10 @@ async function prep(p) { await p.waitForSelector("article.prop"); await p.evalua
     ok((await T("#tally")).includes("Not answered 14"), "all unanswered " + tag);
     for (const n of NS) ok((await T("#v-" + n)) === "Not answered", "unanswered label " + n + " " + tag);
     // presets
-    for (const id of ["cost", "eq", "def"]) { await p.click(`.preset[data-id="${id}"]`); ok((await p.getAttribute(`.preset[data-id="${id}"]`, "aria-pressed")) === "true", "preset " + id + " " + tag); }
+    for (const id of ["eq", "def"]) { await p.click(`.preset[data-id="${id}"]`); ok((await p.getAttribute(`.preset[data-id="${id}"]`, "aria-pressed")) === "true", "preset " + id + " " + tag); }
     ok(await p.isHidden("#factors"), "factor controls hidden under a preset " + tag);
     await openCustom(p); ok((await p.getAttribute("#pr-custom", "aria-pressed")) === "true" && await p.isVisible("#factors") && (await p.getAttribute('.preset[data-id="def"]', "aria-pressed")) === "false", "Customize shows the factor controls " + tag);
-    ok((await p.$$eval(".preset", (b) => b.map((x) => x.textContent).join(","))) === "Standard,Cost watcher,Equal,Customize", "presets are Standard, Cost watcher, Equal and Customize " + tag);
+    ok((await p.$$eval(".preset", (b) => b.map((x) => x.textContent).join(","))) === "Guide default,Equal,Set my own", "presets are Guide default, Equal and Set my own " + tag);
     await p.click('.preset[data-id="def"]'); ok(await p.isHidden("#factors") && (await p.getAttribute('.preset[data-id="def"]', "aria-pressed")) === "true", "picking Standard closes Customize " + tag);
     // all Not sure
     for (const n of NS) await p.click(`label[for="g-${n}-2"]`);

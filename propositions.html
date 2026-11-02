@@ -183,8 +183,11 @@ details.facts[open] summary { border-bottom: 1px solid var(--rule); }
 .facts dd { margin: 0; }
 .ratings { display: grid; gap: 6px; }
 .ratings-h { font-family: var(--f-display); font-weight: 700; font-size: .8rem; color: var(--muted); }
-.rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 4px 16px; }
-.rt { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: .82rem; }
+.rgrid { display: grid; grid-template-columns: 1fr; max-width: 560px; align-items: start; }
+.rt:last-child { border-bottom: 1px solid var(--rule); }
+.rt { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; font-size: .82rem; padding: 6px 0; border-top: 1px solid var(--rule); }
+.rt > span:first-child { min-width: 0; }
+.rt .dots { margin-top: 3px; }
 .dots { display: inline-flex; gap: 3px; }
 .dots i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid var(--ballot); display: inline-block; }
 .dots i.on { background: var(--ballot); }
@@ -254,6 +257,10 @@ button:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px soli
 .head-links { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 16px; }
 .about-link { font-size: .86rem; color: var(--muted); }
 .customize { border: 1px solid var(--rule); border-radius: 10px; }
+.why-w { font-size: .86rem; margin: 6px 0 0; }
+.why-w summary { cursor: pointer; color: var(--ballot); font-weight: 700; padding: 6px 0; }
+.why-w ul { margin: 6px 0; padding-left: 18px; display: grid; gap: 4px; }
+.why-w p { margin: 4px 0 0; color: var(--muted); }
 .customize summary { cursor: pointer; padding: 10px 14px; font-family: var(--f-display); font-weight: 700; font-size: .9rem; color: var(--ballot); }
 .customize[open] summary { border-bottom: 1px solid var(--rule); }
 .customize-body { padding: 14px; display: grid; gap: 12px; }
@@ -306,7 +313,11 @@ a.ref { font-size: .74rem; text-decoration: none; font-family: var(--f-data); wh
 a.ref:hover { text-decoration: underline; }
 .srcs ol { margin: 4px 0 0; padding-left: 0; list-style: none; display: grid; gap: 3px; }
 .srcs li { font-size: .8rem; }
+.srcs { scroll-margin-top: 96px; }
+@media (max-width: 640px) { .srcs li { padding: 5px 0; } }
 .srcs .role { font-size: .72rem; color: var(--muted); margin-left: 4px; }
+.srcs .smeta { display: block; font-size: .74rem; color: var(--muted); }
+.srcs .smeta-note { font-size: .74rem; margin: 4px 0 0; }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 details.rubric summary { cursor: pointer; font-family: var(--f-display); font-weight: 700; font-size: .86rem; color: var(--ballot); }
 .tablewrap { overflow-x: auto; margin-top: 8px; }
@@ -438,7 +449,7 @@ a.next[hidden] { display: none; }
 .dots i.half { background: linear-gradient(90deg, var(--ballot) 50%, transparent 50%); }
 .dots.limited i.half { background: repeating-linear-gradient(45deg, var(--ballot) 0 2px, transparent 2px 4px) left / 50% 100% no-repeat; }
 .rt > span:first-child { display: grid; }
-.rt-sub { font-size: .72rem; color: var(--muted); }
+.rt-sub { display: block; font-size: .72rem; color: var(--muted); line-height: 1.3; margin-top: 1px; }
 .behave { border-left: 4px solid var(--ballot); background: var(--ballot-soft); border-radius: 8px; padding: 10px 14px; display: grid; gap: 4px; }
 .behave h3 { font-size: .98rem; }
 .behave p { font-size: .9rem; max-width: none; }
@@ -515,7 +526,7 @@ article.prop.folded .skip { min-height: 0; }
     <h1>Ballot Weighing Tool</h1>
     <p class="lede">Work out your own Yes or No on all 14 statewide propositions. You answer each one. Beside your answer the tool shows how well the measure is built, on the factors you choose. It never changes your answer and never tells you how to vote.</p>
     <nav class="steps" aria-label="Steps">
-      <a class="step" href="#s1"><span class="n">1</span><b>See the framework</b><span class="t">Standard weights are set. Customizing is optional</span></a>
+      <a class="step" href="#s1"><span class="n">1</span><b>See the framework</b><span class="t">Guide default weights are set. Changing them is optional</span></a>
       <a class="step" href="#s2"><span class="n">2</span><b>Answer 14 questions</b><span class="t">Read the facts, then answer Yes, Not sure or No</span></a>
       <a class="step" href="#s3"><span class="n">3</span><b>Review your ballot</b><span class="t">See your answers and the evidence in one list</span></a>
     </nav>
@@ -536,15 +547,24 @@ article.prop.folded .skip { min-height: 0; }
   <section class="panel" id="s1" aria-labelledby="s1-h">
     <div class="sec-head">
       <div class="kicker">Step 1</div>
-      <h2 id="s1-h">Our Standard Evaluation Framework</h2>
-      <p>Every proposition is rated the same way, on five factors that can be checked against official documents and cited sources. Each card also describes, without a rating, who could gain, who pays or gives something up, and how hard the measure would be to change later. <b>The standard weights are already set, so you can go straight to Step 2.</b></p>
+      <h2 id="s1-h">How each proposition is rated</h2>
+      <p>Every proposition is assessed using the same five factors, default weights and scoring scale. The evidence and questions used to evaluate each factor are tailored to the specific proposition. The guide's ratings are analytical judgments, while voters retain control over the importance assigned to each factor. Each card also describes, without a rating, who could gain, who pays or gives something up, and how hard the measure would be to change later. <b>The guide default weights are already set, so you can go straight to Step 2.</b></p>
     </div>
     <div class="sec-bar">
       <button type="button" class="fold sec-fold" id="s1-fold" data-body="s1-body" aria-expanded="false" aria-controls="s1-body"><span class="fold-name">The five factors, weights and scoring</span><span class="fold-hint" aria-hidden="true">Show details</span></button>
       <p class="fw-status" id="fw-status" aria-live="polite"></p>
     </div>
+    <details class="why-w" id="why-w"><summary>Why these starting weights?</summary>
+      <ul>
+        <li><b>Evidence strength, 5.</b> Whether an approach has worked before is the best guide to what a measure will do.</li>
+        <li><b>Low risk of side effects, 4.</b> Harms can outlast the benefits.</li>
+        <li><b>Accountability and results, 3. Implementation readiness, 3.</b> Both matter once a measure passes.</li>
+        <li><b>Cost clarity, 2.</b> The official cost estimate is already on every card.</li>
+      </ul>
+      <p>The default weights are selected for this guide to provide a consistent starting point. They are not universal priorities or an objectively correct ranking. You can change them to reflect what matters most to you. Equal counts every factor the same. Set my own lets you choose.</p>
+    </details>
     <div class="sec-body" id="s1-body" hidden>
-    <h3 class="vh" id="fw-h">Factors and standard weights</h3>
+    <h3 class="vh" id="fw-h">Factors and guide default weights</h3>
     <ul class="fw-list" id="fw-body" aria-labelledby="fw-h"></ul>
     <div class="behave" id="behave" aria-labelledby="bh-h">
       <h3 id="bh-h">How these ratings behave</h3>
@@ -553,7 +573,7 @@ article.prop.folded .skip { min-height: 0; }
     <details class="howscore" id="howscore">
       <summary><h3 id="hs-h">How scoring works</h3></summary>
       <ol class="hs-steps">
-        <li><b>Choose what matters to you.</b> Set how important each of the five factors is. Your weights become percentages of your total weighting. With the standard weights, Evidence strength is <span data-hs="ev-share"></span>.</li>
+        <li><b>Choose what matters to you.</b> Set how important each of the five factors is. Your weights become percentages of your total weighting. With the guide default weights, Evidence strength is <span data-hs="ev-share"></span>.</li>
         <li><b>Review the evidence ratings.</b> Each proposition has a rating from 1 (weak) to 5 (strong) on each factor, with a written reason and sources.</li>
         <li><b>Calculate the weighted result.</b> Each factor adds points in proportion to its percentage and its rating. A factor rated 5 of 5 adds its full percentage; one rated 3 of 5 adds three fifths of it.</li>
         <li><b>Understand what it means.</b> The result summarizes this tool's recorded ratings under your priorities. It is not a chance of success, a share of voters, a guarantee of benefit, or a recommendation to vote Yes or No.</li>
@@ -579,7 +599,7 @@ article.prop.folded .skip { min-height: 0; }
       </div>
     </details>
     </div>
-    <div class="warn" id="zero" hidden><span>You've turned off all factors. No overall score is shown, and your answers are still recorded as you chose them.</span> <button type="button" id="zero-reset">Reset to standard weights</button></div>
+    <div class="warn" id="zero" hidden><span>You've turned off all factors. No overall score is shown, and your answers are still recorded as you chose them.</span> <button type="button" id="zero-reset">Reset to guide default weights</button></div>
   </section>
 
   <div class="done" id="done" role="status" aria-live="polite" hidden></div>
@@ -627,7 +647,7 @@ article.prop.folded .skip { min-height: 0; }
     <h3>How your answer and the evidence are shown</h3>
     <ol>
       <li><b>Your answer is your result.</b> Each card and the list in Step 3 show Yes, No or Not sure exactly as you chose it. The tool never changes or overrides it. A card you leave blank shows Not answered, which is different from Not sure.</li>
-      <li><b>The overall score</b> is a weighted average of this tool's ratings, counting each factor by its weight (the standard weights unless you customize them). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. It is shown the same way whatever you answer. If every factor is set to Ignore, or none of your weighted factors is rated, no score is shown.</li>
+      <li><b>The overall score</b> is a weighted average of this tool's ratings, counting each factor by its weight (the guide default weights unless you set your own). Factors set to Ignore, and any rating marked Not rated, are left out. It runs from 1 (weak) to 5 (strong), shown to one decimal place. It is shown the same way whatever you answer. If every factor is set to Ignore, or none of your weighted factors is rated, no score is shown.</li>
       <li><b>Strong on and weak on</b> list the factors you weigh that rate 4 or higher, and 2 or lower. Everything between is in the middle. This is shown before the overall number, because one average can hide a measure that is very strong on one thing and weak on another.</li>
       <li><b>Who could gain, who pays and how hard it is to change later</b> are described, not rated. They come from the official analysis, the fiscal estimates and each measure's legal text. Whether a gain is worth its cost is your call.</li>
       <li><b>The 3.0 midpoint</b> is the middle of the 1 to 5 scale, marked on each bar. It is a reference point, not a pass mark. It is not a probability that a measure will work, and it has not been statistically validated.</li>
@@ -657,7 +677,7 @@ article.prop.folded .skip { min-height: 0; }
       <p class="small">A 2 or 4 falls between the descriptions. For Low risk of side effects, 2 means a specific risk named in the official analysis, the legal text or cited reporting, such as clinic closures, rejected ballots or lawsuits. Accountability and results is the average of its two parts, so it can be a half point, such as 3.5. For checks on the work, 2 means a self-executing rule or limited reporting with no review, and 4 means independent audits plus public reporting. For Cost clarity, 2 means the official analysis gives a direction but no dollars. For measurable results, 4 means a clear observable rule or required reporting on results.</p>
     </details>
     <p><b>Last checked.</b> Facts and source links were first reviewed October 15 and 16, 2026. On October 22, 2026, every fact on this page was audited again by automated research against the Secretary of State's voter guide, the LAO analyses, the official arguments and, where it could be read, the legal text. 93 statements were corrected or labeled as reported by news sources. The ratings themselves were not changed. On October 23, 2026 an independent review led to three more wording fixes (Props 3, 39 and 44), again without changing any rating. On October 24, 2026 four flagged ratings were resolved against the legal text and the LAO analysis: Prop 44's accountability went from 5 to 4 because audits are allowed but not required, and the evidence strength of Props 37 and 38 and Prop 37's accountability stayed at 3 with clearer reasons. On October 24, 2026 a cross-check against the Official Voter Information Guide led to 19 more corrections of wording, attribution and source links, again without changing any rating. On October 29, 2026 the framework changed from seven rated factors to five. Net benefit is no longer rated, because it asks a values question that voters can answer for themselves, and each card instead describes who could gain and who pays. Accountability and Outcome clarity became one factor, rated as the average of the two existing ratings. Safety, Feasibility and Fiscal clarity were renamed. No other rating changed. Each card also gained how hard the measure is to change later, from its legal text, other measures on this ballot, from the official analysis, and a link to the campaign money each measure has raised, from the Secretary of State. The audit and the ratings are this project's own and are not reviewed by any outside organization. Official materials can change, so confirm anything important in the <a href="https://voterguide.sos.ca.gov/" target="_blank" rel="noopener noreferrer">official voter guide<span class="vh"> (opens in a new tab)</span></a>, which also has <a href="https://voterguide.sos.ca.gov/propositions/" target="_blank" rel="noopener noreferrer">all 14 propositions<span class="vh"> (opens in a new tab)</span></a> and an <a href="https://voterguide.sos.ca.gov/en/alt-versions/" target="_blank" rel="noopener noreferrer">audio, large-print and other-language version<span class="vh"> (opens in a new tab)</span></a>.</p>
-    <p id="privacy"><b>Your privacy.</b> Your answers and weights are saved only in this browser's local storage so they are there when you return. They are never sent anywhere, and the tool asks for no name or contact details. Clear my answers removes saved answers. Weights stay until you change them or pick Standard. The page loads fonts from Google Fonts and a visitor counter from GoatCounter, and like any web request these send your IP address and browser details to those services. GoatCounter records one visit each time this page loads, using only the page's fixed name and title, plus the referring site, browser, screen size, language and country. It also records two anonymous counts, when someone answers at least one question and when someone answers all 14. It is never sent which propositions you open or how you answer. Its privacy policy says it does not store IP addresses or set cookies. This page keeps a small note in local storage so each count is sent only once. If storage is blocked, each count is sent at most once per page load. Source links take you to other websites only when you click them.</p>
+    <p id="privacy"><b>Your privacy.</b> Your answers and weights are saved only in this browser's local storage so they are there when you return. They are never sent anywhere, and the tool asks for no name or contact details. Clear my answers removes saved answers. Weights stay until you change them or pick Guide default. The page loads fonts from Google Fonts and a visitor counter from GoatCounter, and like any web request these send your IP address and browser details to those services. GoatCounter records one visit each time this page loads, using only the page's fixed name and title, plus the referring site, browser, screen size, language and country. It also records two anonymous counts, when someone answers at least one question and when someone answers all 14. It is never sent which propositions you open or how you answer. Its privacy policy says it does not store IP addresses or set cookies. This page keeps a small note in local storage so each count is sent only once. If storage is blocked, each count is sent at most once per page load. Source links take you to other websites only when you click them.</p>
     </div>
   </section>
   <footer class="site-foot">
@@ -670,7 +690,7 @@ article.prop.folded .skip { min-height: 0; }
   </footer>
 </main>
 
-<script src="assets/weights.js?v=2026-10-31b"></script>
+<script src="assets/weights.js?v=2026-11-01b"></script>
 <script>
 /*
   Ballot Weighing Tool, scoring overview (facts last checked October 15 and 16, 2026)
@@ -730,8 +750,7 @@ article.prop.folded .skip { min-height: 0; }
   var LEVELS = ["Ignore", "Minor", "Some", "Moderate", "High", "Top priority"];
 
   var PRESETS = [
-    { id: "def", name: "Standard", d: "The Standard Evaluation Framework weights. Proof counts most, then the risk of side effects, then accountability and readiness. Cost clarity counts least. A consistent starting point, not the right answer.", w: { ev: 5, lr: 4, ac: 3, if: 3, fc: 2 } },
-    { id: "cost", name: "Cost watcher", d: "Puts the most weight on knowing what a measure costs, with proof and side effects close behind.", w: { ev: 4, lr: 4, ac: 3, if: 3, fc: 5 } },
+    { id: "def", name: "Guide default", d: "The default weights are selected for this guide to provide a consistent starting point. They are not universal priorities or an objectively correct ranking. You can change them to reflect what matters most to you.", w: { ev: 5, lr: 4, ac: 3, if: 3, fc: 2 } },
     { id: "eq", name: "Equal", d: "Every factor counts the same.", w: { ev: 3, lr: 3, ac: 3, if: 3, fc: 3 } }
   ];
 
@@ -1210,7 +1229,7 @@ article.prop.folded .skip { min-height: 0; }
   var customOpen = false;
   (function () {
     var b = document.createElement("button");
-    b.type = "button"; b.className = "preset"; b.id = "pr-custom"; b.textContent = "Customize"; b.setAttribute("aria-controls", "factors");
+    b.type = "button"; b.className = "preset"; b.id = "pr-custom"; b.textContent = "Set my own"; b.setAttribute("aria-controls", "factors");
     b.addEventListener("click", function () { customOpen = true; renderAll(); var f = document.querySelector("#factors input"); if (f) f.focus(); });
     prEl.appendChild(b);
   })();
@@ -1276,7 +1295,7 @@ article.prop.folded .skip { min-height: 0; }
       var sc = rated(p, f.k) ? p.s[f.k] + " of 5" + (p.u[f.k] ? ", limited information" : "") : "Not rated";
       return '<li><b>' + esc(f.name) + ', ' + sc + '.</b> ' + esc(p.r[f.k] || "") + ' ' + srcRefs(p, f.k) + '</li>';
     }).join("");
-    var srcs = p.src.map(function (s, i) { return '<li><a href="' + esc(s[1]) + '" target="_blank" rel="noopener noreferrer">[' + (i + 1) + '] ' + esc(s[0]) + (/\.pdf$/i.test(s[1]) ? ' <span class="ftype">PDF</span>' : '') + '<span class="vh"> (opens in a new tab)</span></a>' + (s[3] ? ' <a class="alt" href="' + esc(s[3]) + '" target="_blank" rel="noopener noreferrer">' + esc(s[4] || "PDF") + '<span class="vh"> for source ' + (i + 1) + ' (opens in a new tab)</span></a>' : '') + ' <span class="role">' + esc(s[2]) + '</span></li>'; }).join("");
+    var srcs = p.src.map(function (s, i) { return '<li data-src="' + esc(s[1]) + '"><a href="' + esc(s[1]) + '" target="_blank" rel="noopener noreferrer">[' + (i + 1) + '] ' + esc(s[0]) + (/\.pdf$/i.test(s[1]) ? ' <span class="ftype">PDF</span>' : '') + '<span class="vh"> (opens in a new tab)</span></a>' + (s[3] ? ' <a class="alt" href="' + esc(s[3]) + '" target="_blank" rel="noopener noreferrer">' + esc(s[4] || "PDF") + '<span class="vh"> for source ' + (i + 1) + ' (opens in a new tab)</span></a>' : '') + ' <span class="role">' + esc(s[2]) + '</span></li>'; }).join("");
     var box = function (cls, head, o, e) {
       return '<div class="oc ' + cls + '"><b>' + head + '</b><span>' + esc(o) + '</span>' + (e ? '<span class="est">' + esc(e) + '</span>' : '') + '</div>';
     };
@@ -1332,7 +1351,7 @@ article.prop.folded .skip { min-height: 0; }
         (FACTORS.some(function (f) { return rated(p, f.k) && p.u[f.k]; }) ? '<p class="rkey"><span class="k"><span class="dots" aria-hidden="true"><i class="on"></i></span>Solid, enough information</span><span class="k"><span class="dots limited" aria-hidden="true"><i class="on"></i></span>Striped, limited information, read with caution</span></p>' : "") +
         '<div class="rgrid">' + ratings + '</div>' +
         '<details class="why-r"><summary>Why these ratings</summary><ul>' + reasons + '</ul></details></div>' +
-        '<div class="srcs"><b>Sources</b><ol>' + srcs + '</ol></div></div></details>' +
+        '<div class="srcs" id="src-' + p.n + '" tabindex="-1"><b>Sources</b><ol>' + srcs + '</ol><p class="smeta-note" hidden></p></div></div></details>' +
         '<details class="calc" id="cd-' + p.n + '"><summary>How this score is calculated</summary><div class="calc-body" id="calc-' + p.n + '"></div></details>' +
       '</div>' +
       '</article>';
@@ -1464,9 +1483,11 @@ article.prop.folded .skip { min-height: 0; }
     var custom = customOpen || !ap;
     Array.prototype.forEach.call(document.querySelectorAll(".preset"), function (b) { b.setAttribute("aria-pressed", b.id === "pr-custom" ? (custom ? "true" : "false") : (!custom && ap && ap.id === b.dataset.id ? "true" : "false")); });
     $("factors").hidden = !custom;
-    $("preset-desc").textContent = custom ? "Set how much each factor matters to you. Pick Standard to return to the framework weights." : ap.d;
+    // Weights only count relative to each other, so five equal weights (all 5s, all 2s) score exactly like Equal.
+    var wv = FACTORS.map(function (f) { return state.w[f.k]; }), sameAll = wv[0] > 0 && wv.every(function (v) { return v === wv[0]; });
+    $("preset-desc").textContent = custom ? (sameAll && !(ap && ap.id === "eq") ? "All five factors count the same, so every score matches Equal. Only how the weights compare to each other changes a score." : "Set how much each factor matters to you. Only how the weights compare to each other changes a score. Pick Guide default to go back.") : ap.d;
     var isStd = ap && ap.id === "def";
-    $("fw-status").innerHTML = isStd ? "Using the <b>standard weights</b>." : "Using <b>your custom weights</b>, not the standard ones. Open Customize and pick Standard to switch back.";
+    $("fw-status").innerHTML = isStd ? "Using the <b>guide default weights</b> (5, 4, 3, 3, 2), selected for this guide as a consistent starting point." : "Using <b>your own weights</b>, not the guide default. Pick Guide default to switch back.";
     Array.prototype.forEach.call(document.querySelectorAll(".ev-lab"), function (e) { e.textContent = isStd ? "Overall score" : "Overall score, custom weights"; });
 
     // Since October 26, 2026 the result is the voter's own answer, shown exactly as chosen. The overall score is shown
@@ -1497,7 +1518,7 @@ article.prop.folded .skip { min-height: 0; }
       return "<tr><th scope=\"row\">Prop " + p.n + " · " + esc(p.name) + "</th><td>" + (wr.off ? offText() : wr.percent + "%") + "</td><td>" + (wr.off ? "" : wr.average.toFixed(1)) + "</td></tr>";
     }).join("");
     var avgs = PROPS.map(function (p) { return res[p.n].qu; }).filter(function (q) { return !q.off; }).map(function (q) { return q.avg; });
-    $("bh-range").textContent = avgs.length ? "With " + (isStd ? "the standard weights" : "your weights") + ", the 14 range from " + Math.min.apply(null, avgs).toFixed(1) + " to " + Math.max.apply(null, avgs).toFixed(1) + "." : "";
+    $("bh-range").textContent = avgs.length ? "With " + (isStd ? "the guide default weights" : "your weights") + ", the 14 range from " + Math.min.apply(null, avgs).toFixed(1) + " to " + Math.max.apply(null, avgs).toFixed(1) + "." : "";
     $("ans-n").textContent = answered;
     $("ans-bar").style.width = Math.round(answered / PROPS.length * 100) + "%";
     $("tally-top").innerHTML = tallyHtml(counts);
@@ -1655,14 +1676,43 @@ article.prop.folded .skip { min-height: 0; }
     nowEl.hidden = !show; if (show) nowEl.textContent = "Prop " + act.id.replace("prop-", "");
   }
   window.addEventListener("scroll", function () { if (!scrollT) scrollT = window.requestAnimationFrame ? requestAnimationFrame(trackReading) : setTimeout(trackReading, 50); }, { passive: true });
+  // Source details (Nov 1, 2026): publisher, title, type and the dates each source shows, from source-meta.json.
+  // If the file cannot be loaded, the source lists stay as they were.
+  (function () {
+    function md(d) { var m = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(d || ""); if (!m) return ""; var mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+m[2] - 1]; return m[3] ? mon + " " + (+m[3]) + ", " + m[1] : mon + " " + m[1]; }
+    if (!window.fetch) return;
+    fetch("data/2026-11-03/source-meta.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      if (!d || !d.sources) return;
+      Array.prototype.forEach.call(document.querySelectorAll(".srcs li[data-src]"), function (li) {
+        var m = Object.prototype.hasOwnProperty.call(d.sources, li.getAttribute("data-src")) ? d.sources[li.getAttribute("data-src")] : null; if (!m) return;
+        var sp = document.createElement("span"); sp.className = "smeta";
+        sp.textContent = [m.title ? "“" + m.title + "”" : "", m.publisher, m.type, m.published ? "Published " + md(m.published) : "Publication date not stated", m.updated ? "Updated " + md(m.updated) : ""].filter(Boolean).join(" · ");
+        li.appendChild(sp);
+      });
+      Array.prototype.forEach.call(document.querySelectorAll(".srcs .smeta-note"), function (p) { p.textContent = "Links last opened " + md(d.checked) + ". Dates are the ones each source shows."; p.hidden = false; });
+    }).catch(function () {});
+  })();
   function showTarget() {
-    var m = /^#prop-(\d+)$/.exec(location.hash), el = m && document.getElementById("prop-" + m[1]);
+    // #prop-N-sources (Oct 31, 2026) opens the card with More facts open and the source list in view, for the
+    // guide's cheat sheet "Sources" link: one tap from the sheet to a proposition's sources.
+    var m = /^#prop-(\d+)(-sources)?$/.exec(location.hash), el = m && document.getElementById("prop-" + m[1]);
     document.querySelectorAll("article.prop.is-target").forEach(function (a) { a.classList.remove("is-target"); });
     if (el) setActive(el);
     if (!el) return;
     el.classList.add("is-target");
     // The cards are drawn by script after load, so the browser's own jump to #prop-N may have missed; do it here.
     openCard(el, true);
+    if (m[2]) {
+      var fd = document.getElementById("facts-" + m[1]), sl = document.getElementById("src-" + m[1]);
+      if (fd) fd.open = true;
+      if (sl) {
+        var toSrc = function () { sl.scrollIntoView({ block: "start" }); };
+        toSrc(); sl.focus({ preventScroll: true });
+        // Content added above after load (fonts, the back-to-ballot bar) can push the list down; scroll again once settled.
+        setTimeout(toSrc, 350); window.addEventListener("load", function () { setTimeout(toSrc, 50); }, { once: true });
+      }
+      return;
+    }
     var fb = document.getElementById("fd-" + m[1]);
     if (fb) fb.focus({ preventScroll: true });
   }

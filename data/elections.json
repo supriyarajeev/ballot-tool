@@ -15,7 +15,8 @@
         ],
         "contests": "data/2026-11-03/contests.json",
         "candidates": "data/2026-11-03/candidates.json",
-        "quotes": "data/2026-11-03/candidate-quotes.json"
+        "quotes": "data/2026-11-03/candidate-quotes.json",
+        "sourceMeta": "data/2026-11-03/source-meta.json"
       },
       "sources": [
         {

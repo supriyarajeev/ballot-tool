@@ -482,6 +482,27 @@ for (const e of elections) {
   });
   contests.forEach((c) => c.candidates.forEach((cid) => { if (!candIds.has(cid)) err(`${f.contests} ${c.id}: candidate "${cid}" does not exist`); }));
 
+  // ---------- proposition source details (VAL-21, Nov 1, 2026) ----------
+  // Every statewide proposition source has an entry. A date is allowed only with the text the source shows for it, so
+  // no date is ever inferred. Dates are YYYY-MM-DD or YYYY-MM and not in the future.
+  if (f.sourceMeta) {
+    const SM = readOnce(f.sourceMeta);
+    if (SM) {
+      const S = SM.sources || {};
+      pastDate(SM.checked, f.sourceMeta, "checked");
+      for (const { x } of measures) if (x.level === "state") for (const src of x.sources || []) if (!Object.prototype.hasOwnProperty.call(S, src.url)) err(`${f.sourceMeta}: no entry for ${x.identifier} source ${src.url}`);
+      const today = new Date().toISOString().slice(0, 10);
+      for (const [u, m] of Object.entries(S)) {
+        if (!/^https:\/\//.test(u)) err(`${f.sourceMeta}: ${u} is not https`);
+        for (const k of ["publisher", "title", "type"]) if (typeof m[k] !== "string" || !m[k].trim()) err(`${f.sourceMeta}: ${u} has no ${k}`);
+        for (const [k, t] of [["published", "publishedText"], ["updated", "updatedText"]]) {
+          if (m[k] == null) continue;
+          if (!/^\d{4}-\d{2}(-\d{2})?$/.test(m[k]) || m[k] > today) err(`${f.sourceMeta}: ${u} ${k} "${m[k]}" is not a past YYYY-MM-DD or YYYY-MM date`);
+          if (typeof m[t] !== "string" || !m[t].trim()) err(`${f.sourceMeta}: ${u} has ${k} without the text the source shows (${t})`);
+        }
+      }
+    }
+  }
   // ---------- candidate comparisons (VAL-20, Oct 30, 2026) ----------
   // Direct quotes only. Each must name a real candidate in a listed contest, use an issue from that contest's list, have
   // an https source, a past date and a record of the date it was matched against that source. One quote per

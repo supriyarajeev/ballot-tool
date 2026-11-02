@@ -119,6 +119,7 @@
     if (/contests\.json$/.test(p)) return "candidate contests";
     if (/candidates\.json$/.test(p)) return "candidate details";
     if (/candidate-quotes\.json$/.test(p)) return "candidate comparisons";
+    if (/source-meta\.json$/.test(p)) return "source details";
     return "local measures";
   }
   // A file that may fail without taking the guide down. The failure is recorded and disclosed on every page.
@@ -137,12 +138,14 @@
       DB.election = DB.elections.filter(function (e) { return e.status === "current"; })[0] || DB.elections[0];
       if (!DB.election || !DB.election.files) throw new Error("data/elections.json has no current election");
       var f = DB.election.files;
-      return Promise.all([Promise.all((f.measures || []).map(soft)), soft(f.contests), soft(f.candidates), f.quotes ? soft(f.quotes) : null]);
+      return Promise.all([Promise.all((f.measures || []).map(soft)), soft(f.contests), soft(f.candidates), f.quotes ? soft(f.quotes) : null, f.sourceMeta ? soft(f.sourceMeta) : null]);
     }).then(function (r) {
       r[0].forEach(function (d) { if (d && Array.isArray(d.items)) DB.measures = DB.measures.concat(d.items); });
       DB.contests = r[1] && Array.isArray(r[1].contests) ? r[1].contests : [];
       DB.candidates = r[2] && Array.isArray(r[2].candidates) ? r[2].candidates : [];
       DB.quotes = r[3] && r[3].contests && Array.isArray(r[3].quotes) ? r[3] : null;
+      DB.srcMeta = r[4] && r[4].sources && typeof r[4].sources === "object" ? r[4].sources : null;
+      DB.srcMetaChecked = r[4] && r[4].checked;
       DB.measures.concat(DB.contests, DB.candidates).forEach(function (x) { if (x && typeof x.id === "string") DB.byId[x.id] = x; });
       if (!DB.measures.length && !DB.contests.length) throw new Error("No ballot information could be loaded");
     });
@@ -270,12 +273,24 @@
     return '<p class="evline">' + icon("doc") + "<span>" + ss.length + (ss.length === 1 ? " source" : " sources") + ", " + off + " official.</span> " +
       '<button type="button" class="linkbtn" data-jump="sources">Show sources</button></p>';
   }
+  // Publisher, title, type and dates for a proposition source (Nov 1, 2026), from source-meta.json. A date is shown
+  // only when the source shows it to readers; otherwise "Publication date not stated". Kept apart from link checks.
+  function metaDate(d) {
+    var m = /^(\d{4})-(\d{2})(?:-(\d{2}))?$/.exec(d || ""); if (!m) return "";
+    var mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+m[2] - 1];
+    return m[3] ? mon + " " + (+m[3]) + ", " + m[1] : mon + " " + m[1];
+  }
+  function srcMetaLine(url) {
+    var m = DB.srcMeta && hasOwn.call(DB.srcMeta, url) ? DB.srcMeta[url] : null; if (!m) return "";
+    var bits = [m.title ? "“" + esc(m.title) + "”" : "", esc(m.publisher || ""), esc(m.type || ""), m.published ? "Published " + metaDate(m.published) : "Publication date not stated", m.updated ? "Updated " + metaDate(m.updated) : ""].filter(Boolean);
+    return '<span class="smeta">' + bits.join(" · ") + "</span>";
+  }
   function sourceList(sources) {
     if (!sources || !sources.length) return '<p class="missing">No official source recorded yet.</p>';
     return '<ol class="srclist">' + sources.map(function (s) {
       var off = /^Official\b/.test(s.type || "");
-      return "<li>" + ext(s.url, esc(s.label)) + (s.type ? '<span class="role' + (off ? " official" : "") + '">' + (off ? icon("check") : "") + esc(s.type) + "</span>" : "") + "</li>";
-    }).join("") + "</ol>";
+      return "<li>" + ext(s.url, esc(s.label)) + (s.type ? '<span class="role' + (off ? " official" : "") + '">' + (off ? icon("check") : "") + esc(s.type) + "</span>" : "") + srcMetaLine(s.url) + "</li>";
+    }).join("") + "</ol>" + (DB.srcMeta && sources.some(function (s) { return hasOwn.call(DB.srcMeta, s.url); }) ? '<p class="small muted smeta-note">Links last opened ' + metaDate(DB.srcMetaChecked) + '. Dates are the ones each source shows.</p>' : "");
   }
   // Empty fields say "Not collected yet", never the wording of another status badge (FE-08).
   function field(v, missing) { return v ? "<p>" + esc(v) + "</p>" : '<p class="missing">' + esc(missing || "Not collected yet.") + "</p>"; }
@@ -979,7 +994,7 @@
     }).join("");
     return '<details class="sec ce" data-candidate-eval="1"><summary>Evaluate candidates with your priorities (beta)</summary><div class="body">' +
       '<div class="note" role="note"><b>No candidate has been rated yet.</b><p>This mode applies the five factors of the ' + '<a href="propositions.html">Ballot Weighing Tool</a>' + " to candidates, with guidance written for the office of " + esc(c.office) + " (" + esc(R.label) + "). A rating is added only with attributable evidence, so every factor shows Insufficient evidence for now. It does not rank candidates, predict results or recommend a vote.</p></div>" +
-      "<h2 class=\"ce-h\">What matters most to you</h2><p class=\"small\">" + (sw.saved ? "Your weights from the Ballot Weighing Tool, saved in this browser." : "The standard weights. Change them in the Ballot Weighing Tool and they are used here too.") + " The same percentages apply to every candidate in this contest.</p>" + weights +
+      "<h2 class=\"ce-h\">What matters most to you</h2><p class=\"small\">" + (sw.saved ? "Your weights from the Ballot Weighing Tool, saved in this browser." : "The guide default weights, selected for this guide as a consistent starting point. Change them in the Ballot Weighing Tool and they are used here too.") + " The same percentages apply to every candidate in this contest.</p>" + weights +
       "<h2 class=\"ce-h\">How candidates are rated</h2><p class=\"small\">" + esc(DB.rubric.scale) + " Each rating names its basis.</p><ul class=\"srclist small\">" + (DB.rubric.bases || []).map(function (b) { return "<li><b>" + esc(b.label) + ".</b> " + esc(b.d) + "</li>"; }).join("") + "</ul>" +
       '<p class="small">' + esc(DB.rubric.missingPolicy) + "</p>" +
       "<h2 class=\"ce-h\">Candidates, in the official order</h2>" + cards + "</div></details>";
@@ -1310,7 +1325,8 @@
       if (t) {
         TA[t.a]++; if (mine && marks[id] !== t.tick) overridden++;
         var ev = t.ev ? '<span class="ev"> · evidence ' + esc(t.ev) + "</span>" : "";
-        var open = ' <a class="no-print" href="' + esc(t.href) + '">' + (t.a === "none" ? "Answer in the tool" : "Open in the tool") + "</a>";
+        var open = ' <a class="no-print" href="' + esc(t.href) + '">' + (t.a === "none" ? "Answer in the tool" : "Open in the tool") + "</a>" +
+          ' · <a class="no-print src-link" href="' + esc(t.href.replace(/#prop-(\d+)$/, "#prop-$1-sources")) + '">Sources</a>';
         if (mine && marks[id] !== t.tick) ln = '<p class="lean small own">Changed on this sheet. Your Weighing Tool answer is <b>' + esc(t.a === "none" ? "Not answered" : t.label) + '</b>. <button type="button" class="use-tool no-print" data-id="' + esc(id) + '">Use it</button></p>';
         else if (t.tick) ln = '<p class="lean small from"><span class="ok" aria-hidden="true"></span>From your Weighing Tool answer, <b>' + esc(t.label) + "</b>" + ev + open + "</p>";
         else ln = '<p class="lean small blank">' + (t.a === "unsure" ? "Not sure in the Weighing Tool, so left blank" : "Not answered in the Weighing Tool, so left blank") + ev + open + "</p>";

@@ -1,0 +1,618 @@
+{
+ "note": "Proposition source details, read from each source page in a browser on Nov 1, 2026. A date is listed only when the page shows it to readers; publishedText and updatedText copy that text. Otherwise the guide shows 'Publication date not stated'.",
+ "checked": "2026-11-01",
+ "sources": {
+  "https://voterguide.sos.ca.gov/propositions/1/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 1 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/1/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 1",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop1-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 1 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/1/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 1 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/2/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 2 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/2/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 2",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop2-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 2 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/2/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 2 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/FullBudgetSummary.pdf": {
+   "publisher": "California Department of Finance",
+   "title": "2026-27 Enactment Budget Summary.",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/3/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 3 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/3/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 3",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop3-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 3 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/3/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 3 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://www.spur.org/voter-guide/2026-11/ca-prop-3-high-earner-income-tax-extension": {
+   "publisher": "SPUR",
+   "title": "California Prop 3 - High-Earner Income Tax Extension",
+   "type": "Independent analysis",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/4/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 4 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/4/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 4",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop4-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 4 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/4/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 4 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/5/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 5 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/5/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 5",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop5-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 5 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/5/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 5 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://www.hoover.org/proposition-lab-proposition-5": {
+   "publisher": "Hoover Institution (Stanford University)",
+   "title": "PROP 5: Recall Reform (Eliminate the Replacement Question)",
+   "type": "Independent analysis",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/37/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 37 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/37/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 37",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop37-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 37 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://calmatters.org/california-voter-guide-2026/proposition-37-homebuyers-loan/": {
+   "publisher": "CalMatters",
+   "title": "CA voter guide: Prop. 37, downpayment assistance for homebuyers",
+   "type": "News report",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/38/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 38 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/38/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 38",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/38/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 38 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://calmatters.org/politics/elections/2026/07/proposition-38-california/": {
+   "publisher": "CalMatters",
+   "title": "This CA proposition will send $4 billion to a single nonprofit. Who’s behind it?",
+   "type": "News report",
+   "published": "2026-07-31",
+   "publishedText": "JULY 31, 2026",
+   "updated": "2026-08-03",
+   "updatedText": "UPDATED AUGUST 3, 2026"
+  },
+  "https://calmatters.org/california-voter-guide-2026/proposition-38-research-bond/": {
+   "publisher": "CalMatters",
+   "title": "Proposition 38: Research bond",
+   "type": "News report",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop38-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 38 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/39/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 39 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/39/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 39",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop39-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 39 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/39/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 39 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://www.nber.org/papers/w25522": {
+   "publisher": "National Bureau of Economic Research (NBER)",
+   "title": "Strict ID Laws Don’t Stop Voters: Evidence from a U.S. Nationwide Panel, 2008–2018",
+   "type": "Research",
+   "published": "2019-02",
+   "publishedText": "ISSUE DATE February 2019",
+   "updated": "2021-05",
+   "updatedText": "REVISION DATE May 2021"
+  },
+  "https://voterguide.sos.ca.gov/propositions/40/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 40 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/40/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 40",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 40 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/40/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 40 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://www.hoover.org/proposition-lab-proposition-40": {
+   "publisher": "Hoover Institution (Stanford University)",
+   "title": "PROP 40: The Billionaire Tax Act",
+   "type": "Independent analysis",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/41/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 41 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/41/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 41",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 41 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "2026 General Election Official Voter Information Guide",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/42/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 42 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/42/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 42",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 42 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/42/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 42 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/43/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 43 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/43/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 43",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop43-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 43 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/43/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 43 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/44/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 44 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/44/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 44",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop44-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 44 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/44/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 44 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://nachc.org/nachc-content/uploads/2024/02/StateFactSheet_CA_2022UDS_Feb2024.pdf": {
+   "publisher": "National Association of Community Health Centers (NACHC)",
+   "title": "California Health Center Fact Sheet",
+   "type": "Industry association",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/45/analysis.htm": {
+   "publisher": "Legislative Analyst's Office (in the Official Voter Information Guide)",
+   "title": "Proposition 45 Analysis",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/45/": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 45",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://vig.cdn.sos.ca.gov/2026/general/pdf/prop45-text-proposed-laws.pdf": {
+   "publisher": "California Secretary of State",
+   "title": "November 3, 2026, General Election Official Voter Information Guide - Proposition 45 Text of Proposed Laws",
+   "type": "Official government",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://voterguide.sos.ca.gov/propositions/45/arguments-rebuttals.htm": {
+   "publisher": "California Secretary of State",
+   "title": "Proposition 45 Arguments and Rebuttals",
+   "type": "Campaign argument (official ballot pamphlet)",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  },
+  "https://www.housingwire.com/articles/california-prop-45-ceqa-timelines/": {
+   "publisher": "HousingWire",
+   "title": "Prop 45 would reset California housing project approval clock",
+   "type": "News report",
+   "published": "2026-10-12",
+   "publishedText": "October 12, 2026, 7:42am by Richard Lawson",
+   "updated": null,
+   "updatedText": null
+  },
+  "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-45-environmental-review": {
+   "publisher": "LAist",
+   "title": "Proposition 45: What to know about the environmental review measure",
+   "type": "News report",
+   "published": "2026-10-06",
+   "publishedText": "Published October 6, 2026 at 12:38 PM PDT",
+   "updated": "2026-10-30",
+   "updatedText": "Updated October 30, 2026 at 12:49 PM PDT"
+  },
+  "https://www.hklaw.com/en/insights/publications/2026/09/why-california-cant-build-reliable-and-affordable-essential-projects": {
+   "publisher": "Holland & Knight",
+   "title": "Why California Can't Build Reliable and Affordable Essential Projects",
+   "type": "Law firm commentary",
+   "published": "2026-09",
+   "publishedText": "SEPTEMBER 2026",
+   "updated": null,
+   "updatedText": null
+  },
+  "https://lwvc.org/ballot-recommendations/": {
+   "publisher": "League of Women Voters of California",
+   "title": "Ballot Recommendations - League of Women Voters of California",
+   "type": "Advocacy",
+   "published": null,
+   "publishedText": null,
+   "updated": null,
+   "updatedText": null
+  }
+ }
+}

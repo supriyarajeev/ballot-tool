@@ -1,0 +1,59 @@
+
+> test
+> node tests/run-all.mjs
+
+
+=== generated files match their generators: node tests/check-generated.mjs
+generated files: 9 checked, all match their generators.
+
+=== data validation: node tools/validate.mjs
+Evidence: 5338 records, 1108 with claim-level excerpts, 0 human-reviewed. Sources: 424, 0 not fully read (0 text not extracted, 0 unavailable).
+INFO  7 http URLs kept as documented exceptions: ca-alpine electionsUrl, ca-calaveras electionsUrlPrevious (history only), ca-colusa electionsUrlPrevious (history only), ca-lassen electionsUrlPrevious (history only), ca-mariposa electionsUrl, ca-placer electionsUrlPrevious (history only), ca-stanislaus electionsUrlPrevious (history only)
+0 errors, 0 warnings, 2308 ids checked (run date 2026-11-01).
+
+=== validator self-test: node tests/validator.test.mjs
+validator tests: running 217 plants, 2 at a time
+  25/217 plants done (5.1 s)
+  50/217 plants done (9.4 s)
+  75/217 plants done (14.2 s)
+  100/217 plants done (19.0 s)
+  125/217 plants done (23.8 s)
+  150/217 plants done (28.7 s)
+  175/217 plants done (34.0 s)
+  200/217 plants done (39.9 s)
+  217/217 plants done (43.3 s)
+validator tests: 218 passed, 0 failed
+
+=== scoring regression: node tests/scoring-regression.mjs
+672 scoring results compared, 0 differences.
+672 reason and limited-flag lines, 81 quality words, 14 limited-flag sets, 8 saved-state cases, 30 slider cases compared, 0 differences.
+
+=== three-choice answers: node tests/three-choice.test.mjs
+three-choice tests: 27 passed, 0 failed
+
+=== percentage arithmetic: node tests/weights.test.mjs
+weights tests: 25 passed, 0 failed
+
+=== static HTML validation: node node_modules/html-validate/bin/html-validate.js index.html propositions.html
+
+=== browser tests: node tests/browser/run.mjs
+external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+guide browser tests: 657 passed, 0 failed
+@1280 light external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+@768 dark external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+@360 light external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+@360 dark external hosts requested (blocked in test): fonts.googleapis.com, gc.zgo.at
+weighing tool browser tests: 696 passed, 0 failed
+goatcounter stand-in tests: 124 passed, 0 failed
+sources on mobile tests: 92 passed, 0 failed
+starting points tests: 14 passed, 0 failed
+
+=== Summary
+pass             generated files match their generators (0.4 s)
+pass             data validation (0.3 s)
+pass             validator self-test (44.0 s)
+pass             scoring regression (0.1 s)
+pass             three-choice answers (0.0 s)
+pass             percentage arithmetic (0.0 s)
+pass             static HTML validation (0.5 s)
+pass             browser tests (481.5 s)
