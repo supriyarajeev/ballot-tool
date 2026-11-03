@@ -6309,6 +6309,267 @@
    "code": 3,
    "date": "2026-11-02",
    "method": "same words in the PDF text, differing only in spacing from PDF extraction"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-san-lorenzo-unified-school-district.measure-j",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-san-lorenzo-unified-school-district.measure-j",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.measure-k",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-l",
+   "field": "yes",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-l",
+   "field": "no",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-l",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-l",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-m",
+   "field": "yes",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-m",
+   "field": "no",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-m",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-m",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-n",
+   "field": "yes",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-n",
+   "field": "no",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "not-found",
+   "code": 0,
+   "date": "2026-11-02",
+   "method": "not found on the page"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-n",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-alameda.measure-n",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-albany.measure-o",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-albany.measure-p",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-albany.measure-q",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-albany.measure-t",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-u",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-u",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-w",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 3,
+   "date": "2026-11-02",
+   "method": "same words in the PDF text, differing only in spacing from PDF extraction"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-z",
+   "field": "argFor",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-berkeley.measure-z",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-emeryville.measure-bb",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
+  },
+  {
+   "id": "2026-11-03.ca-alameda-oakland.measure-ff",
+   "field": "argAgainst",
+   "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+   "result": "match",
+   "code": 2,
+   "date": "2026-11-02",
+   "method": "same words, differing only in quote marks or spacing"
   }
  ]
 }

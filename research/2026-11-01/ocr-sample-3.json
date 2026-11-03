@@ -1,0 +1,98 @@
+[
+ {
+  "id": "2026-11-03.ca-santa-clara-cupertino.measure-l",
+  "field": "no",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-l-cupertino-initiative-ordinance-amendment-impartial-analysis_redacted.pdf?VersionId=KRVrrYaLOec9VgWpYSX.nmjosKv9r0dI",
+  "location": "Impartial analysis (page 1), last paragraph",
+  "excerpt": "A “no” vote rejects the ordinance.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sunnyvale.measure-g",
+  "field": "argAgainst",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-primary-arguemnt-against_redacted.pdf?VersionId=nnyacvTwkcq9LkYgiZ...YKPKcbNPPHP",
+  "location": "Primary argument against (county PDF page 3), paragraph 2",
+  "excerpt": "Purposely vague Measure G would allow “design-build” and “best value” to be used instead of competitive bidding for the design and construction of City buildings.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-orchard-school-district.measure-r",
+  "field": "argFor",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_r_orchard-school-district-parcel-tax-primary-argument-in-favor_8.11.26_redacted.pdf?VersionId=KJFpM.O2H8XyU2WpuN8dF7X2zJmG1lPX",
+  "location": "PDF page 2, Argument in Favor of Measure R, paragraph 1",
+  "excerpt": "A Yes vote on Measure R is a community investment in creating, expanding and enhancing educational opportunities to prepare every Orchard School student to succeed in this rapidly changing world.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-cambrian-school-district.measure-q",
+  "field": "argFor",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-q_cambrian-school-district-parcel-tax_primary-argument-in-favor_redacted_final.pdf?VersionId=9c2QO2Ij25_Kv2uvoDRPmN.R31yvMeL0",
+  "location": "PDF page 14, Argument in Favor of Measure ___, paragraph 1",
+  "excerpt": "VOTE YES on _ to protect the outstanding quality of education that children attending our local TK-8 schools receive from the Cambrian School District (CSD). When our schools are strong, Cambrian is strong.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-o",
+  "field": "no",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/ia-measure-o-alum-rock-union-esd-parcel-tax-stamped_redacted.pdf?VersionId=PmLkocwbXMETRl7Qw2_7KeYkws3_yp2Q",
+  "location": "Impartial analysis, page 2",
+  "excerpt": "A “no” vote is a vote to not replace the tax.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.measure-n",
+  "field": "argAgainst",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_against_8.11.26_redacted.pdf?VersionId=OOGgjL74el2O1q.DUkdF2_N_7C_4ZJun",
+  "location": "PDF page 6, Argument Against, paragraph 1",
+  "excerpt": "When school boards ask voters permission to go into debt with bond like Measure _, they admit that every project they are currently spending your tax dollars on, now, is more important than the projects listed in this ballot measure.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-orchard-school-district.measure-r",
+  "field": "yes",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-r-orchard-school-district-parcel-tax-ia-redacted-20260818.pdf?VersionId=OxQ5w3LdKR5wiJMFVOX5sGPFd78K1LMo",
+  "location": "Impartial analysis, page 1, last paragraph",
+  "excerpt": "A “yes” vote is a vote to levy a parcel tax of 4 cents per square foot per parcel per year on property within the District, capped annually, as stated in the Measure, at $89 per residential parcel and $7,500 per non-residential parcel, for eight years beginning July 1, 2027.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-morgan-hill.measure-a",
+  "field": "supporters",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-a-city-of-morgan-hill-appointing-city-treasurer-in-favor_08112026_redacted.pdf?VersionId=TDqxTMEGrMiI.yyiP0rQvBaHERf..PPr",
+  "location": "Primary argument in favor filing, Primary Argument Signer Form (county PDF page 4)",
+  "excerpt": "My name as a SIGNER (signature to be printed with the primary argument) is: Mark Turner\n\n(do not include degrees or titles; print or type signature in upper- and lower-case font)\n\n* TITLE OF SIGNER (to be printed with the primary argument) is: Mayor",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-gilroy.measure-b",
+  "field": "supporters",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy_primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=fKmrUi4QmLWMKIy3u2QPjWk0yCILXAyF",
+  "location": "Primary argument in favor (county PDF page 3), signature block",
+  "excerpt": "Greg Bozzo\nMayor, City of Gilroy",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-palo-alto.measure-j",
+  "field": "argFor",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j-transportation-use-tax-primary-argument-in-favor_redacted-v2.pdf?VersionId=pjS1UK3Dd5URQ0FEfon6S.wurJ7a7.MU",
+  "location": "Primary argument in favor (county PDF page 49), paragraph 4",
+  "excerpt": "Measure J enables the City to buy the land, cost-effectively renovate buildings, and leverage\npartnerships with organizations willing to invest millions in major upgrades in recreation, performing\narts, and programs for all ages and cultures.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-p",
+  "field": "argFor",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-p_alum-rock-union-general-obligation-bond-primary-argument-in-favor_redacted_final.pdf?VersionId=QbWWz2plqZ1L.wCd0aeLDUsfGmQXJnVX",
+  "location": "PDF page 2, Argument in Favor of Measure P, paragraph 2",
+  "excerpt": "Many Alum Rock Union Elementary schools are more than 60 years old and urgently need repairs. Vote YES on Measure P for safe, functional classrooms with funds that are spent locally and cannot be taken by the State or Federal government.",
+  "method": "ocr-checked-against-image"
+ },
+ {
+  "id": "2026-11-03.ca-santa-clara-santa-clara.measure-c",
+  "field": "fiscal",
+  "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/meaure-c-city-of-santa-clara-public-works-impartial-analysis_08072026_redacted.pdf?VersionId=_vbcPTy9CR3BaxGxQYH9QtqijQ_sF3bL",
+  "location": "Impartial analysis (page 2), Projected Cost Savings",
+  "excerpt": "If approved, the measure is projected to generate cost savings resulting from reductions in staff time\nno longer required to present for Council action public works projects valued at less than $250,000.",
+  "method": "ocr-checked-against-image"
+ }
+]

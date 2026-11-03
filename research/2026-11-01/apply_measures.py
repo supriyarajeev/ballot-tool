@@ -21,6 +21,8 @@ GAP_FOR = {
 }
 # Text fixes found in checking: the page prints a name and a title in separate elements that read together.
 FIX = {("2026-11-03.ca-marin-larkspur.measure-s", "supporters"): ("BRIDGET PETERSONR, MS Nurse Educator", "BRIDGET PETERSON, RMS Nurse Educator")}
+# Fields held back because two official pages word them differently.
+HOLD = {("2026-11-03.ca-santa-clara-los-altos.measure-d", "opponents"), ("2026-11-03.ca-santa-clara-spd-el-camino-healthcare-district.measure-s", "supporters")}
 # Signer lists on the Marin County measure pages were also checked name by name on the page (Nov 2, 2026).
 MARIN_SIGNERS = "Every name and title in this list was found on the same page in a second browser read, ignoring line breaks between a name and its title."
 norm = lambda s: re.sub(r"\s+", " ", str(s).replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')).strip()
@@ -32,7 +34,9 @@ if os.path.exists(cf):
 lm = json.load(open(LM)); byId = {x["id"]: x for x in lm["items"]}
 ec = json.load(open(EC)); claims = {c["id"]: c for c in ec["claims"]}
 added = skipped = 0; per = {}; pocr = {}; plocs = {}
+SKIP = [x for x in os.environ.get("SKIP", "").split(",") if x]
 for f in sorted(glob.glob(os.path.join(R, "out-*.json"))):
+    if any(f.endswith("out-" + x + ".json") for x in SKIP): continue
     for o in json.load(open(f)):
         m = byId.get(o.get("id"))
         if not m: raise SystemExit(f"{f}: unknown measure {o.get('id')}")
@@ -41,6 +45,7 @@ for f in sorted(glob.glob(os.path.join(R, "out-*.json"))):
         for k in FIELDS:
             v = (o.get("fields") or {}).get(k)
             if not v or not v.get("text") or not v.get("excerpt") or not str(v.get("url", "")).startswith("https://"): continue
+            if (m["id"], k) in HOLD: skipped += 1; continue
             ocr = v.get("method") == "ocr-checked-against-image"
             if not ocr and (m["id"], k) not in checks: skipped += 1; continue
             m[k] = v["text"].strip()

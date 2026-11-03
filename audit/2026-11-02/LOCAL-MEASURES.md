@@ -2,61 +2,62 @@
 
 All fields added on November 2 come from official documents. Each text excerpt was opened again on its source in a browser and found word for word. Excerpts from scanned pages were read with text recognition and compared word for word with the page image.
 
-- Excerpt checks: 701 run, 698 matched. Not matched, so not published: ca-alameda-union-city.measure-ii supporters, ca-san-mateo-ccd-san-mateo-county-community-college-district.measure-v supporters, ca-san-mateo-sd-san-mateo-foster-city-school-district.measure-w supporters.
-- Text recognition sample: 30 excerpts read again separately, 30 matched (research/2026-11-01/ocr-sample-check.json).
-- Fields filled: 850 of 1144.
+- Excerpt checks: 730 run, 726 matched. Not matched, so not published: ca-alameda-union-city.measure-ii supporters, ca-san-mateo-ccd-san-mateo-county-community-college-district.measure-v supporters, ca-san-mateo-sd-san-mateo-foster-city-school-district.measure-w supporters, ca-alameda-alameda.measure-n no.
+- Text recognition samples read again separately from the page images: 30 of 30 (ocr-sample-check.json), 10 of 10 Alameda second pass (ocr-sample-2-check.json), 12 of 12 Santa Clara second pass (ocr-sample-3-check.json), all in research/2026-11-01.
+- Held back for comparison with the printed voter guide: santa-clara-los-altos.measure-d opponents, santa-clara-spd-el-camino-healthcare-district.measure-s supporters.
+- Fields filled: 959 of 1144.
 
 ## Coverage by county (fields filled of 8 per measure)
 
-### Alameda, 133 of 216
-- ca-alameda-sd-dublin-unified-school-district.measure-i: 5 of 8, missing argAgainst, supporters, opponents
-- ca-alameda-sd-san-lorenzo-unified-school-district.measure-j: 3 of 8, missing yes, argFor, argAgainst, supporters, opponents
-- ca-alameda-sd-sunol-glen-unified-school-district.measure-k: 5 of 8, missing argAgainst, supporters, opponents
-- ca-alameda-alameda.measure-l: 2 of 8, missing yes, no, argFor, argAgainst, supporters, opponents
-- ca-alameda-alameda.measure-m: 1 of 8, missing yes, no, fiscal, argFor, argAgainst, supporters, opponents
-- ca-alameda-alameda.measure-n: 1 of 8, missing yes, no, fiscal, argFor, argAgainst, supporters, opponents
-- ca-alameda-albany.measure-o: 4 of 8, missing fiscal, argAgainst, supporters, opponents
-- ca-alameda-albany.measure-p: 5 of 8, missing argAgainst, supporters, opponents
-- ca-alameda-albany.measure-q: 5 of 8, missing argAgainst, supporters, opponents
-- ca-alameda-albany.measure-r: 7 of 8, missing supporters
-- ca-alameda-albany.measure-s: 7 of 8, missing supporters
-- ca-alameda-albany.measure-t: 5 of 8, missing argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-u: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-v: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-w: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-x: 3 of 8, missing fiscal, argFor, argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-y: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-z: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-alameda-berkeley.measure-aa: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-alameda-emeryville.measure-bb: 6 of 8, missing argAgainst, opponents
+### Alameda, 197 of 216
+- ca-alameda-sd-dublin-unified-school-district.measure-i: 7 of 8, missing opponents
+- ca-alameda-sd-san-lorenzo-unified-school-district.measure-j: 6 of 8, missing yes, opponents
+- ca-alameda-sd-sunol-glen-unified-school-district.measure-k: 7 of 8, missing opponents
+- ca-alameda-alameda.measure-l: 8 of 8
+- ca-alameda-alameda.measure-m: 7 of 8, missing fiscal
+- ca-alameda-alameda.measure-n: 6 of 8, missing no, fiscal
+- ca-alameda-albany.measure-o: 6 of 8, missing fiscal, opponents
+- ca-alameda-albany.measure-p: 7 of 8, missing opponents
+- ca-alameda-albany.measure-q: 7 of 8, missing opponents
+- ca-alameda-albany.measure-r: 8 of 8
+- ca-alameda-albany.measure-s: 8 of 8
+- ca-alameda-albany.measure-t: 7 of 8, missing opponents
+- ca-alameda-berkeley.measure-u: 8 of 8
+- ca-alameda-berkeley.measure-v: 8 of 8
+- ca-alameda-berkeley.measure-w: 7 of 8, missing opponents
+- ca-alameda-berkeley.measure-x: 7 of 8, missing fiscal
+- ca-alameda-berkeley.measure-y: 8 of 8
+- ca-alameda-berkeley.measure-z: 8 of 8
+- ca-alameda-berkeley.measure-aa: 8 of 8
+- ca-alameda-emeryville.measure-bb: 7 of 8, missing opponents
 - ca-alameda-hayward.measure-cc: 7 of 8, missing opponents
 - ca-alameda-newark.measure-dd: 8 of 8
 - ca-alameda-oakland.measure-ee: 8 of 8
-- ca-alameda-oakland.measure-ff: 6 of 8, missing argAgainst, opponents
+- ca-alameda-oakland.measure-ff: 7 of 8, missing opponents
 - ca-alameda-piedmont.measure-gg: 7 of 8, missing opponents
 - ca-alameda-pleasanton.measure-hh: 8 of 8
-- ca-alameda-union-city.measure-ii: 6 of 8, missing supporters, opponents
+- ca-alameda-union-city.measure-ii: 7 of 8, missing opponents
 
-### Santa Clara, 64 of 152
-- ca-santa-clara-morgan-hill.measure-a: 6 of 8, missing supporters, opponents
-- ca-santa-clara-gilroy.measure-b: 5 of 8, missing argFor, supporters, opponents
-- ca-santa-clara-santa-clara.measure-c: 2 of 8, missing yes, no, fiscal, argFor, supporters, opponents
-- ca-santa-clara-los-altos.measure-d: 3 of 8, missing fiscal, argFor, argAgainst, supporters, opponents
-- ca-santa-clara-mountain-view.measure-e: 2 of 8, missing yes, no, fiscal, argFor, supporters, opponents
-- ca-santa-clara-mountain-view.measure-f: 3 of 8, missing yes, no, argFor, supporters, opponents
-- ca-santa-clara-sunnyvale.measure-g: 4 of 8, missing fiscal, argAgainst, supporters, opponents
+### Santa Clara, 109 of 152
+- ca-santa-clara-morgan-hill.measure-a: 7 of 8, missing opponents
+- ca-santa-clara-gilroy.measure-b: 8 of 8
+- ca-santa-clara-santa-clara.measure-c: 6 of 8, missing supporters, opponents
+- ca-santa-clara-los-altos.measure-d: 5 of 8, missing fiscal, supporters, opponents
+- ca-santa-clara-mountain-view.measure-e: 5 of 8, missing fiscal, supporters, opponents
+- ca-santa-clara-mountain-view.measure-f: 6 of 8, missing supporters, opponents
+- ca-santa-clara-sunnyvale.measure-g: 5 of 8, missing fiscal, supporters, opponents
 - ca-santa-clara-sunnyvale.measure-h: 5 of 8, missing fiscal, supporters, opponents
-- ca-santa-clara-sunnyvale.measure-i: 4 of 8, missing fiscal, argAgainst, supporters, opponents
-- ca-santa-clara-palo-alto.measure-j: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-santa-clara-milpitas.measure-k: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-santa-clara-cupertino.measure-l: 2 of 8, missing yes, no, fiscal, argFor, supporters, opponents
-- ca-santa-clara-sd-gilroy-unified-school-district.measure-m: 2 of 8, missing yes, no, argFor, argAgainst, supporters, opponents
-- ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.measure-n: 4 of 8, missing argFor, argAgainst, supporters, opponents
-- ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-o: 3 of 8, missing yes, no, argFor, supporters, opponents
-- ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-p: 3 of 8, missing yes, no, argFor, supporters, opponents
-- ca-santa-clara-sd-cambrian-school-district.measure-q: 3 of 8, missing yes, no, argFor, supporters, opponents
-- ca-santa-clara-sd-orchard-school-district.measure-r: 3 of 8, missing yes, no, argFor, supporters, opponents
-- ca-santa-clara-spd-el-camino-healthcare-district.measure-s: 2 of 8, missing yes, no, fiscal, argFor, supporters, opponents
+- ca-santa-clara-sunnyvale.measure-i: 5 of 8, missing fiscal, supporters, opponents
+- ca-santa-clara-palo-alto.measure-j: 6 of 8, missing supporters, opponents
+- ca-santa-clara-milpitas.measure-k: 6 of 8, missing supporters, opponents
+- ca-santa-clara-cupertino.measure-l: 5 of 8, missing fiscal, supporters, opponents
+- ca-santa-clara-sd-gilroy-unified-school-district.measure-m: 7 of 8, missing supporters
+- ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.measure-n: 6 of 8, missing supporters, opponents
+- ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-o: 6 of 8, missing supporters, opponents
+- ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-p: 6 of 8, missing supporters, opponents
+- ca-santa-clara-sd-cambrian-school-district.measure-q: 4 of 8, missing yes, no, supporters, opponents
+- ca-santa-clara-sd-orchard-school-district.measure-r: 6 of 8, missing supporters, opponents
+- ca-santa-clara-spd-el-camino-healthcare-district.measure-s: 5 of 8, missing fiscal, supporters, opponents
 
 ### San Mateo, 159 of 224
 - ca-san-mateo.measure-l: 3 of 8, missing fiscal, argFor, argAgainst, supporters, opponents

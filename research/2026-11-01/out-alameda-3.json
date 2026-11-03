@@ -1,0 +1,796 @@
+[
+ {
+  "id": "2026-11-03.ca-alameda-sd-dublin-unified-school-district.measure-i",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE I WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 770 (DMI-2), right column"
+   },
+   "supporters": {
+    "text": "TIM SBRANTI, Former Dublin Mayor / Community College Trustee / Longtime Dublin Resident; FREDY KADVA, Chair, DUSD Parcel Tax Oversight Committee / DUSD Parent; MICHAEL D’AMBROSIO, Principal, Amador Elementary School / Former Dublin High School Teacher; CATHERINE BROWN, Retired Dublin Teacher / 2018 DUSD Teacher of the Year / Longtime Dublin Resident; KASHEF QAADRI, Dublin City Councilmember / DUSD Parent / Dublin Education Alliance Board Member",
+    "excerpt": "s/TIM SBRANTI Former Dublin Mayor / Community College Trustee / Longtime Dublin Resident s/FREDY KADVA Chair, DUSD Parcel Tax Oversight Committee / DUSD Parent s/MICHAEL D’AMBROSIO Principal, Amador Elementary School / Former Dublin High School Teacher s/CATHERINE BROWN Retired Dublin Teacher / 2018 DUSD Teacher of the Year / Longtime Dublin Resident s/KASHEF QAADRI Dublin City Councilmember / DUSD Parent / Dublin Education Alliance Board Member",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 770 (DMI-2), Argument in favor of Measure I, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: the county's Composite Voter Information Guide (965 pages, linked from the acvote November 3, 2026 election page). Its text layer is mostly font-encoded (glyph codes shifted, not readable as text) except headings; the 'NO ARGUMENT AGAINST MEASURE I WAS SUBMITTED' statement is in the readable text layer. Signers were read by OCR (tesseract.js on a 3x render) and compared line by line with zoomed images; the apostrophe in D’AMBROSIO is curly in the image and in the OCR. Excerpt line breaks joined with single spaces. opponents: no argument against was submitted, so there are no signers.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-sd-san-lorenzo-unified-school-district.measure-j",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says Measure J will prevent cuts to the quality education in neighborhood schools.",
+    "excerpt": "Measure J will prevent cuts to the quality education in our neighborhood schools.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 774 (SLMJ-2), Argument in favor of Measure J, first sentence"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE J WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 774 (SLMJ-2), right column"
+   },
+   "supporters": {
+    "text": "PENNY PECK, Former SLZUSD Board Member; ROBERT GLAZE, Local Business Owner; SANDRA VINCENT, 40-Year Local Resident; AISHA KNOWLES, Community Member",
+    "excerpt": "s/PENNY PECK Former SLZUSD Board Member s/ROBERT GLAZE Local Business Owner s/SANDRA VINCENT 40-Year Local Resident s/AISHA KNOWLES Community Member",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 774 (SLMJ-2), Argument in favor of Measure J, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. The argFor first sentence and the no-argument-against statement are in the readable text layer; signers were read by OCR and compared with a zoomed image. yes: the impartial analysis printed in the guide (PDF page 773) states only what happens if two-thirds do not approve; it has no yes-vote sentence, so yes stays unsupported. opponents: no argument against was submitted.",
+  "notFound": [
+   "yes",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.measure-k",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST BOND MEASURE K WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 779 (SGMK-3), right column"
+   },
+   "supporters": {
+    "text": "ERIN K CHOIN, President Sunol Glen Unified; CONSTANCE E. DEGRANGE; GRIFFIN BEEMILLER, Citizen’s Bond Oversight Committee; MATT SYLVESTER, Facilities Manager Sunol Glen; HOLLY SCROGGINS, Retired School Principal",
+    "excerpt": "s/ERIN K CHOIN President Sunol Glen Unified s/CONSTANCE E. DEGRANGE s/GRIFFIN BEEMILLER Citizen’s Bond Oversight Committee s/MATT SYLVESTER Facilities Manager Sunol Glen s/HOLLY SCROGGINS Retired School Principal",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 779 (SGMK-3), Argument in favor of Bond Measure K, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. The no-argument-against statement is in the readable text layer. Signer names were read by OCR and compared with a zoomed image; 'Citizen’s Bond Oversight Committee' is also in the readable text layer with a curly apostrophe. CONSTANCE E. DEGRANGE is printed with no title. opponents: no argument against was submitted.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-l",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "yes": {
+    "text": "A yes vote allows the City to issue general obligation bonds in the amount of $300,000,000 to fund certain capital improvement projects.",
+    "excerpt": "A “Yes” vote is a vote to allow the City to issue general obligation bonds in the amount of $300,000,000 to fund certain capital improvement projects.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 783 (AML-1), City Attorney's impartial analysis of Bond Measure L"
+   },
+   "no": {
+    "text": "A no vote does not allow the issuance of general obligation bonds in any amount.",
+    "excerpt": "A “No” vote is a vote not to allow the issuance of general obligation bonds in any amount.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 783 (AML-1), City Attorney's impartial analysis of Bond Measure L"
+   },
+   "argFor": {
+    "text": "The argument in favor says Alameda's quality of life depends on infrastructure that is disaster ready.",
+    "excerpt": "We all chose Alameda for its unique quality of life, but that quality of life depends on infrastructure that’s disaster ready.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 785 (AML-3), Argument in favor of Bond Measure L, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says the City Council should have made the tough decision of listing specific infrastructure projects to be included in the bond measure.",
+    "excerpt": "I voted “no” on July 7, 2026 because I believe Councilmembers are voted into their positions to make tough decisions on your behalf, especially with respect to listing specific infrastructure projects to be included in any bond measure (https://archive.ph/SxLSS).",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 786 (AML-4), Argument against Bond Measure L, paragraph 3"
+   },
+   "supporters": {
+    "text": "MARILYN EZZY ASHCRAFT, Mayor, City of Alameda; DAVID LEWIS, Executive Director, Save the Bay; ALICE LAI-BITKER, Harbor Bay/Bay Farm Resident; MIKE DEWINDT, President, Alameda Firefighters; CHRISTINE MAY, PHD, PE, Climate Scientist/CEO",
+    "excerpt": "s/MARILYN EZZY ASHCRAFT Mayor, City of Alameda s/DAVID LEWIS Executive Director, Save the Bay s/ALICE LAI-BITKER Harbor Bay/Bay Farm Resident s/MIKE DEWINDT President, Alameda Firefighters s/CHRISTINE MAY, PHD, PE Climate Scientist/CEO",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 785 (AML-3), Argument in favor of Bond Measure L, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "TONY DAYSOG, Alameda City Councilmember",
+    "excerpt": "s/TONY DAYSOG Alameda City Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 786 (AML-4), Argument against Bond Measure L, signature",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county measure PDF lacks the analysis and arguments, but the county Composite Voter Information Guide (pages 783 to 786) prints the City Attorney's impartial analysis, tax rate statement, argument in favor, argument against and both rebuttals. yes, no, argFor and argAgainst excerpts are from the readable text layer. Signer names are in font-encoded runs and were read by OCR and compared with zoomed images (titles are also in the readable layer). Tax rate statement (page 784, readable): average $47.97 per $100,000, highest $49.49 per $100,000 first in 2028, final year 2061, total debt service $662,197,756.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-m",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "yes": {
+    "text": "A yes vote would conform the City Charter to existing City and City Council practices and amend and repeal outdated provisions in the Charter.",
+    "excerpt": "If approved by the voters, this Measure would conform the City Charter to existing City and City Council practices and amend and repeal outdated provisions in the Charter.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 790 (AMM-1), City Attorney's impartial analysis of Measure M"
+   },
+   "no": {
+    "text": "If the measure is not approved, all the Charter provisions referenced in the measure will remain the same.",
+    "excerpt": "If the voters do not approve the Measure, all the Charter provisions referenced in this Measure will remain the same.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 790 (AMM-1), City Attorney's impartial analysis of Measure M"
+   },
+   "argFor": {
+    "text": "The argument in favor says the City Charter is Alameda's local constitution and should be clear, current, and consistent with the way City government actually operates.",
+    "excerpt": "Alameda’s City Charter is our local constitution. It should be clear, current, and consistent with the way our City government actually operates.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 791 (AMM-2), Argument in favor of Measure M, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says the City Council as a whole and the public had not adequately vetted the proposed changes, and some are not the simple cleanup of outdated language that proponents claim.",
+    "excerpt": "Reason 1: the City Council as a whole and the public had not adequately vetted the proposed changes. Reason 2: some are not the simple “cleanup of outdated language and provisions” proponents claim.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 792 (AMM-3), Argument against Measure M, opening"
+   },
+   "supporters": {
+    "text": "MARILYN EZZY ASHCRAFT, Mayor, City of Alameda; MICHELE PRYOR, Vice Mayor, City of Alameda; GREG BOLLER, Councilmember, City of Alameda; EVAN SHWARTZ, Resident and Member, Open Government Commission",
+    "excerpt": "s/MARILYN EZZY ASHCRAFT Mayor, City of Alameda s/MICHELE PRYOR Vice Mayor, City of Alameda s/GREG BOLLER Councilmember, City of Alameda s/EVAN SHWARTZ Resident and Member, Open Government Commission",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 791 (AMM-2), Argument in favor of Measure M, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "TONY DAYSOG, Alameda City Councilmember",
+    "excerpt": "s/TONY DAYSOG Alameda City Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 792 (AMM-3), Argument against Measure M, signature",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 790 to 792) prints the City Attorney's impartial analysis, the argument in favor, the argument against and both rebuttals, which the county measure PDF and city page lacked. yes, no, argFor and argAgainst excerpts are from the readable text layer. Signer names are in font-encoded runs and were read by OCR and checked against zoomed images. 'EVAN SHWARTZ' is spelled that way in the printed guide (no C). fiscal: the analysis states no fiscal effect or amount (not a tax measure); the measure takes effect if approved by a majority.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-n",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "yes": {
+    "text": "A yes vote allows the City Council to approve acquisitions, transfers, or leases of City real property by resolution, and to approve leases of less than 10 years by simple majority.",
+    "excerpt": "A “Yes” vote is a vote to allow Council approval of acquisitions, transfers, or leases of City real property by resolution; and to allow Council approval of leases of less than 10 years by simple majority.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 795 (AMN-1), City Attorney's impartial analysis of Measure N"
+   },
+   "no": {
+    "text": "A no vote keeps the requirement that Council approval of acquisitions, transfers, or leases of City real property be by ordinance, and that leases of more than one year but less than 10 years be approved by a Council supermajority.",
+    "excerpt": "A “No” vote is a vote to retain the requirement that Council approval of acquisitions, transfers, or leases of City real property must occur by ordinance, and that leases of more than one year but less than 10 years be approved by a Council supermajority.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 795 (AMN-1), City Attorney's impartial analysis of Measure N, last paragraph (continues across the column break)"
+   },
+   "argFor": {
+    "text": "The argument in favor says the measure modernizes the City's outdated process for approving leases and property transactions.",
+    "excerpt": "Vote YES on this measure to modernize the City's outdated process for approving leases and property transactions.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 796 (AMN-2), Argument in favor of Measure N, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says the current four-vote requirement helps ensure that the City Council does not proceed so fast as to only accommodate developers or commercial tenants, and that it accounts for the people's needs.",
+    "excerpt": "This is the most important point: the current 4-vote requirement as is helps ensure that City Council doesn't proceed so fast as to only accommodate developers or commercial tenants; the requirement as is ensures that Council accounts for the People's needs.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 797 (AMN-3), Argument against Measure N, paragraph 1"
+   },
+   "supporters": {
+    "text": "MARILYN EZZY ASHCRAFT, Mayor, City of Alameda; MICHELE PRYOR, Vice Mayor, City of Alameda; GREG BOLLER, Councilmember, City of Alameda; BROCK GRUNT, President, McGuire and Hester and Board Chair, Alameda Chamber; NATHAN SAICHK, Chief Technology Officer, Longshot Space and Alameda Resident",
+    "excerpt": "s/MARILYN EZZY ASHCRAFT Mayor, City of Alameda s/MICHELE PRYOR Vice Mayor, City of Alameda s/GREG BOLLER Councilmember, City of Alameda s/BROCK GRUNT President, McGuire and Hester and Board Chair, Alameda Chamber s/NATHAN SAICHK Chief Technology Officer, Longshot Space and Alameda Resident",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 796 (AMN-2), Argument in favor of Measure N, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "TONY DAYSOG, Alameda City Councilmember; REYLA GRABER, Resident; DOROTHY FREEMAN, Alameda Concerned Citizen; JANET DAVIS, Animal Advocate",
+    "excerpt": "s/TONY DAYSOG Alameda City Councilmember s/REYLA GRABER Resident s/DOROTHY FREEMAN Alameda Concerned Citizen s/JANET DAVIS Animal Advocate",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 797 (AMN-3), Argument against Measure N, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 795 to 797) prints the City Attorney's impartial analysis, argument in favor, argument against and both rebuttals. yes, no, argFor and argAgainst excerpts are from the readable text layer; the no sentence continues from the bottom of one column to the top of the next. Signer names are in font-encoded runs and were read by OCR and checked against zoomed images. fiscal: the analysis states no fiscal effect or amount (not a tax measure).",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-o",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE O WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 800 (AMO-2), right column"
+   },
+   "supporters": {
+    "text": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember",
+    "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/PRESTON JORDAN Councilmember s/ROBIN LÓPEZ Councilmember s/JOHN MIKI Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 800 (AMO-2), Argument in favor of Measure O, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. Signer block read by OCR (tesseract eng) and compared with a zoomed image; tesseract eng drops the accent in LÓPEZ, so that line was re-read with tesseract spa, which returned 's/ROBIN LÓPEZ' matching the image (the guide's text layer also carries the Ó glyph). Signer order as printed. The no-argument-against statement is in the readable text layer; opponents: no argument against was submitted, so there are no signers. fiscal: not a tax measure; the impartial analysis states no fiscal amount.",
+  "notFound": [
+   "fiscal",
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-p",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE P WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 804 (AMP-2), right column"
+   },
+   "supporters": {
+    "text": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember",
+    "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/ROBIN LÓPEZ Councilmember s/JOHN MIKI Councilmember s/PRESTON JORDAN Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 804 (AMP-2), Argument in favor of Measure P, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. Signer block read by OCR (tesseract eng) and compared with a zoomed image; tesseract eng drops the accent in LÓPEZ, so that line was re-read with tesseract spa, which returned 's/ROBIN LÓPEZ' matching the image (the guide's text layer also carries the Ó glyph). Signer order as printed. The no-argument-against statement is in the readable text layer; opponents: no argument against was submitted, so there are no signers.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-q",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE Q WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 811 (AMQ-2), right column"
+   },
+   "supporters": {
+    "text": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember",
+    "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/JOHN MIKI Councilmember s/PRESTON JORDAN Councilmember s/ROBIN LÓPEZ Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 811 (AMQ-2), Argument in favor of Measure Q, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. Signer block read by OCR (tesseract eng) and compared with a zoomed image; tesseract eng drops the accent in LÓPEZ, so that line was re-read with tesseract spa, which returned 's/ROBIN LÓPEZ' matching the image (the guide's text layer also carries the Ó glyph). Signer order as printed. The no-argument-against statement is in the readable text layer; opponents: no argument against was submitted, so there are no signers.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-r",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "supporters": {
+    "text": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember",
+    "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/PRESTON JORDAN Councilmember s/ROBIN LÓPEZ Councilmember s/JOHN MIKI Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 817 (AMR-2), Argument in favor of Measure R, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. Signer block read by OCR (tesseract eng) and compared with a zoomed image; tesseract eng drops the accent in LÓPEZ, so that line was re-read with tesseract spa, which returned 's/ROBIN LÓPEZ' matching the image (the guide's text layer also carries the Ó glyph). Signer order as printed.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-s",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "supporters": {
+    "text": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember",
+    "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/ROBIN LÓPEZ Councilmember s/JOHN MIKI Councilmember s/PRESTON JORDAN Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 832 (AMS-2), Argument in favor of Measure S, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. Signer block read by OCR (tesseract eng) and compared with a zoomed image; tesseract eng drops the accent in LÓPEZ, so that line was re-read with tesseract spa, which returned 's/ROBIN LÓPEZ' matching the image (the guide's text layer also carries the Ó glyph). Signer order as printed.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-t",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE T WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 837 (AMT-2), right column"
+   },
+   "supporters": {
+    "text": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember",
+    "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/JOHN MIKI Councilmember s/PRESTON JORDAN Councilmember s/ROBIN LÓPEZ Councilmember",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 837 (AMT-2), Argument in favor of Measure T, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Source: county Composite Voter Information Guide. Signer block read by OCR (tesseract eng) and compared with a zoomed image; tesseract eng drops the accent in LÓPEZ, so that line was re-read with tesseract spa, which returned 's/ROBIN LÓPEZ' matching the image (the guide's text layer also carries the Ó glyph). Signer order as printed. The no-argument-against statement is in the readable text layer; opponents: no argument against was submitted, so there are no signers.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-u",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says that as safety, infrastructure maintenance and demands for City services rise, Berkeley needs local funds to maintain the basic safety and quality of life residents expect.",
+    "excerpt": "Berkeley is at a crossroads. As basic safety, infrastructure maintenance, and demands for City services rise, we need local funds to maintain the basic safety and quality of life our communities expect and deserve.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 845 (BMU-3), Argument in favor of Bond Measure U, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says the project list could change at any time, all 35 projects are unlikely to be funded, and the measure is a $300 million blank check.",
+    "excerpt": "This list could change any time and all 35 projects are unlikely to be funded – it’s a $300 million blank check.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 846 (BMU-4), Argument against Bond Measure U, paragraph 2"
+   },
+   "supporters": {
+    "text": "ADENA ISHII, Mayor of Berkeley; DR. SHARON GOLDFARB, Co-President League of Women Voters Berkeley Albany Emeryville; JOHN CANER, Local Business Leader; ERIC WEAVER, Neighborhood Wildfire Safety Organizer; JENNY WONG, Berkeley City Auditor",
+    "excerpt": "s/ADENA ISHII Mayor of Berkeley s/DR. SHARON GOLDFARB Co-President League of Women Voters Berkeley Albany Emeryville s/JOHN CANER Local Business Leader s/ERIC WEAVER Neighborhood Wildfire Safety Organizer s/JENNY WONG Berkeley City Auditor",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 845 (BMU-3), Argument in favor of Bond Measure U, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "ISABELLE GASTON, Assistant Treasurer, Affordable Berkeley; DONNA DEDIEMAR, Neighborhood Activist; MICHAEL KATZ, Writer and Cyclist; JOSHUA GLATT, Software engineer and composer; STEPHEN R. TRACY, Retired Public School Teacher",
+    "excerpt": "s/ISABELLE GASTON Assistant Treasurer, Affordable Berkeley s/DONNA DEDIEMAR Neighborhood Activist s/MICHAEL KATZ Writer and Cyclist s/JOSHUA GLATT Software engineer and composer s/STEPHEN R. TRACY Retired Public School Teacher",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 846 (BMU-4), Argument against Bond Measure U, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 845 to 846) prints the argument in favor, argument against and both rebuttals, which the county measure PDF and berkeleyca.gov did not post. argFor and argAgainst excerpts are from the readable text layer (the first sentence of the argument against is partly font-encoded, so a later readable sentence was used). Signer names are in font-encoded runs and were read by OCR and checked against zoomed images.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-v",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says a yes vote would prevent forced cuts to the Fire and Police Departments, prevent the closure of Fire Station 4, and maintain 911 emergency response and neighborhood safety patrols.",
+    "excerpt": "Your Yes on V vote would prevent forced cuts on Fire and Police Departments from the recent budget shortfall, prevent the closure of Fire Station 4, and maintain the 911 emergency response and neighborhood safety patrols we rely upon.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 850 (BMV-2), Argument in favor of Measure V, paragraph 5",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says that before asking taxpayers to pay more, the City Council should show it is managing existing revenues responsibly and prioritizing basic city services.",
+    "excerpt": "Before asking taxpayers to pay even more, City Council should demonstrate that it is managing existing revenues responsibly and prioritizing basic city services.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 851 (BMV-3), Argument against Measure V, paragraph 2",
+    "method": "ocr-checked-against-image"
+   },
+   "supporters": {
+    "text": "ADENA ISHII, Mayor of Berkeley; DR. SHARON GOLDFARB, Co President of League of Women Voters of Berkeley Albany Emeryville; JOHN CANER, Local Business Leader; ERIC WEAVER, Neighborhood Wildfire Safety Organizer; JENNY WONG, Berkeley City Auditor",
+    "excerpt": "s/ADENA ISHII Mayor of Berkeley s/DR. SHARON GOLDFARB Co President of League of Women Voters of Berkeley Albany Emeryville s/JOHN CANER Local Business Leader s/ERIC WEAVER Neighborhood Wildfire Safety Organizer s/JENNY WONG Berkeley City Auditor",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 850 (BMV-2), Argument in favor of Measure V, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "ISABELLE GASTON, Assistant Treasurer, Affordable Berkeley; FRANCES HASELSTEINER, Retired State Employee; DONNA DEDIEMAR, Neighborhood Activist; JOSHUA GLATT, Software engineer and composer; NANCY A. RADER, Former Disaster and Fire Safety Commissioner",
+    "excerpt": "s/ISABELLE GASTON Assistant Treasurer, Affordable Berkeley s/FRANCES HASELSTEINER Retired State Employee s/DONNA DEDIEMAR Neighborhood Activist s/JOSHUA GLATT Software engineer and composer s/NANCY A. RADER Former Disaster and Fire Safety Commissioner",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 851 (BMV-3), Argument against Measure V, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 850 to 851) prints the argument in favor, argument against and both rebuttals. The relevant argument sentences and all signer names are in font-encoded runs of the text layer, so each was read by OCR and checked against a zoomed image. The argument in favor prints the title 'Co President' without a hyphen. Excerpt line breaks joined with single spaces.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-w",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says that as state laws, local processes and elections administration evolve, the City Charter must remain relevant, enforceable, and implementable.",
+    "excerpt": "As state laws, local processes, and elections administration evolve it is necessary to ensure that the City Charter remains relevant, enforceable, and implementable.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 857 (BMW-2), Argument in favor of Measure W, paragraph 2",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE W WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 857 (BMW-2), right column"
+   },
+   "supporters": {
+    "text": "ADENA ISHII, Mayor of Berkeley; BEN BARTLETT, Councilmember, District 3; BRENT BLACKABY, Councilmember, District 6; IGOR TREGUB, Councilmember, District 4; TERRY TAPLIN, Councilmember, District 2",
+    "excerpt": "s/ADENA ISHII Mayor of Berkeley s/BEN BARTLETT Councilmember, District 3 s/BRENT BLACKABY Councilmember, District 6 s/IGOR TREGUB Councilmember, District 4 s/TERRY TAPLIN Councilmember, District 2",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 857 (BMW-2), Argument in favor of Measure W, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (page 857) prints the argument in favor and states no argument against was submitted (readable text layer). The argument text and signer names are in font-encoded runs and were read by OCR and checked against a zoomed image. opponents: no argument against was submitted.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says Measure X, placed on the ballot by unanimous vote of the City Council, makes common-sense tweaks to the Berkeley Rent Stabilization Ordinance.",
+    "excerpt": "Vote YES on Measure X, placed on the ballot by unanimous vote of the City Council to make common-sense tweaks to the Berkeley Rent Stabilization Ordinance.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 866 (BMX-2), Argument in favor of Measure X, paragraph 1"
+   },
+   "argAgainst": {
+    "text": "The argument against says Berkeley has a housing affordability problem and Measure X does nothing to solve it.",
+    "excerpt": "Berkeley has a housing affordability problem. Measure X does nothing to solve it.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 868 (BMX-4), Argument against Measure X, opening",
+    "method": "ocr-checked-against-image"
+   },
+   "supporters": {
+    "text": "ADENA ISHII, Mayor of Berkeley; CECILIA LUNAPARRA, Berkeley City Councilmember; SOLI ALPERT, Chair, Berkeley Rent Board; DAN SAWISLAK, Executive Director, Resources for Community Development; AVERY ARBAUGH, Chair, Berkeley Tenants Union",
+    "excerpt": "s/ADENA ISHII Mayor of Berkeley s/CECILIA LUNAPARRA Berkeley City Councilmember s/SOLI ALPERT Chair, Berkeley Rent Board s/DAN SAWISLAK Executive Director, Resources for Community Development s/AVERY ARBAUGH Chair, Berkeley Tenants Union",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 866 (BMX-2), Argument in favor of Measure X, signatures (left column bottom, continuing at top of right column)",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "JEFFREY NEIDLEMAN, President, Bridge Association of REALTORS®; KRISTA C. GULBRANSEN, Executive Director, Berkeley Property Owners Association",
+    "excerpt": "s/JEFFREY NEIDLEMAN President, Bridge Association of REALTORS® s/KRISTA C. GULBRANSEN Executive Director, Berkeley Property Owners Association",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 868 (BMX-4), Argument against Measure X, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 865 to 868) prints the impartial analysis, argument in favor, argument against and both rebuttals. argFor excerpt is from the readable text layer; the argument against opening and the signer names are in font-encoded runs and were read by OCR and checked against zoomed images (two signer titles are also in the readable layer). fiscal: the impartial analysis printed in the guide states no fiscal amount; not a tax measure.",
+  "notFound": [
+   "fiscal"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says arts and culture are a critical part of what makes Berkeley a special place to live and are central to Berkeley's identity and values.",
+    "excerpt": "Arts and culture are a critical part of what makes Berkeley a special place to live, and are central to Berkeley’s identity and values.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 880 (BMY-2), Argument in favor of Measure Y, paragraph 1",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure lacks accountability, with no guardrails and no objective criteria for how tax dollars are awarded.",
+    "excerpt": "The measure lacks accountability. It includes no guardrails, sets out complex rules and sets no objective criteria for how tax dollars are awarded.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 881 (BMY-3), Argument against Measure Y"
+   },
+   "supporters": {
+    "text": "BETH ROESSNER, CEO, Berkeley Chamber of Commerce; CLAYTON SHELVIN, Executive Director, The Freight; JESSE ARREGUÍN, State Senator; SHOSHANA O’KEEFE, City Councilmember, District 5; SUSAN WENGRAF, Berkeley Vice Mayor (ret.)",
+    "excerpt": "s/BETH ROESSNER CEO, Berkeley Chamber of Commerce s/CLAYTON SHELVIN Executive Director, The Freight s/JESSE ARREGUÍN State Senator s/SHOSHANA O’KEEFE City Councilmember, District 5 s/SUSAN WENGRAF Berkeley Vice Mayor (ret.)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 880 (BMY-2), Argument in favor of Measure Y, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "DAVID DENTON, Berkeley Resident",
+    "excerpt": "s/DAVID DENTON Berkeley Resident",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 881 (BMY-3), Argument against Measure Y, signature",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 879 to 881) prints the impartial analysis, argument in favor, argument against and both rebuttals. argAgainst excerpt is from the readable text layer. The argFor sentence (its last words are in a font-encoded run) and signer names were read by OCR and checked against zoomed images; ARREGUÍN was read with tesseract spa (tesseract eng drops the accent), O’KEEFE with tesseract eng (curly apostrophe, as in the image). Signer titles are in the readable text layer.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-z",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says Wall Street banks use the city's funds to invest in war, data centers, fossil fuels and making billionaires richer, and Berkeley deserves a better way to invest its money.",
+    "excerpt": "Meanwhile, Wall Street banks capitalize on our city's funds to invest in war, data centers, fossil fuels, and making billionaires richer. Berkeley deserves a better way to invest its money.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 892 (BMZ-2), Argument in favor of Measure Z, paragraph 2"
+   },
+   "argAgainst": {
+    "text": "The argument against says the measure requires Berkeley property taxpayers to subsidize other jurisdictions.",
+    "excerpt": "This measure requires Berkeley property taxpayers to subsidize other jurisdictions.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 893 (BMZ-3), Argument against Measure Z, section 'Berkeley Pays, Everyone Benefits'"
+   },
+   "supporters": {
+    "text": "IGOR A. TREGUB, Councilmember, City of Berkeley, District 4; ANDY KELLEY, Rent Stabilization Board Member; YAVETTE HOLTS, Founder/CEO, Bay Area Organization of Black Owned Businesses (BAOBOB); ERIC LEENSON, Co Founder, La Peña Cultural Center; NEHA SINGH, Program Manager, Friends of the Public Bank East Bay",
+    "excerpt": "s/IGOR A. TREGUB Councilmember, City of Berkeley, District 4 s/ANDY KELLEY Rent Stabilization Board Member s/YAVETTE HOLTS Founder/CEO, Bay Area Organization of Black Owned Businesses (BAOBOB) s/ERIC LEENSON Co Founder, La Peña Cultural Center s/NEHA SINGH Program Manager, Friends of the Public Bank East Bay",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 892 (BMZ-2), Argument in favor of Measure Z, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "ISABELLE GASTON, Assistant Treasurer, Affordable Berkeley; PAUL MATHEW, Building Decarbonization consultant; DONNA DEDIEMAR, Neighborhood Activist; FRANCES HASELSTEINER, Retired State Employee; NANCY A. RADER, Former Disaster and Fire Safety Commissioner",
+    "excerpt": "s/ISABELLE GASTON Assistant Treasurer, Affordable Berkeley s/PAUL MATHEW Building Decarbonization consultant s/DONNA DEDIEMAR Neighborhood Activist s/FRANCES HASELSTEINER Retired State Employee s/NANCY A. RADER Former Disaster and Fire Safety Commissioner",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 893 (BMZ-3), Argument against Measure Z, signatures",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 891 to 893) prints the impartial analysis, argument in favor, argument against and both rebuttals. argFor and argAgainst excerpts are from the readable text layer (argFor uses straight apostrophes as printed in that layer). Signer names are in font-encoded runs and were read by OCR and checked against zoomed images; titles are in the readable layer except where font-encoded, which were also image-checked ('La Peña' is in the readable layer; OCR misread it, so the readable layer was used).",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argFor": {
+    "text": "The argument in favor says Measure AA strengthens the existing sugary drink tax on distributors by raising the rate to 2 cents per ounce so that program funding keeps pace with rising costs.",
+    "excerpt": "Measure AA strengthens the existing sugary drink tax on distributors by increasing the rate to 2 cents per ounce, ensuring that funding for programs keeps pace with rising costs.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 898 (BMAA-2), Argument in favor of Measure AA, paragraph 2",
+    "method": "ocr-checked-against-image"
+   },
+   "argAgainst": {
+    "text": "The argument against says doubling the soda tax makes drinkers pay more to support city-funded outreach programs with no accountability or proof of actual health outcomes.",
+    "excerpt": "Double the soda tax? Lemonade, dairy-free Boba teas, Coke and Gatorade drinkers will pay more (+$1.04 total tax on a TJ’s lemonade bottle) to support city-funded outreach programs with no accountability or proof of actual health outcomes.",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 899 (BMAA-3), Argument against Measure AA, paragraph 1",
+    "method": "ocr-checked-against-image"
+   },
+   "supporters": {
+    "text": "MARTIN BOURQUE, Executive Director Ecology Center; REVEREND DR. MICHAEL A. SMITH, McGee Ave Baptist Church; DR. LAURA A. SCHMIDT PH.D., American Heart Association/Bay Area Volunteer; AYANNA DAVIS, Former Deputy Executive Director Healthy Black Families, Inc.; CASTLE SINICROPE, BUSD Parent to 2nd and 5th Graders",
+    "excerpt": "s/MARTIN BOURQUE Executive Director Ecology Center s/REVEREND DR. MICHAEL A. SMITH McGee Ave Baptist Church s/DR. LAURA A. SCHMIDT PH.D. American Heart Association/Bay Area Volunteer s/AYANNA DAVIS Former Deputy Executive Director Healthy Black Families, Inc. s/CASTLE SINICROPE BUSD Parent to 2nd and 5th Graders",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 898 (BMAA-2), Argument in favor of Measure AA, signatures",
+    "method": "ocr-checked-against-image"
+   },
+   "opponents": {
+    "text": "DAMIAN PARK, Economics Professor",
+    "excerpt": "s/DAMIAN PARK Economics Professor",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 899 (BMAA-3), Argument against Measure AA, signature",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (pages 897 to 899) prints the impartial analysis, argument in favor, argument against and both rebuttals. Nearly all argument text and signer names are in font-encoded runs, so every excerpt was read by OCR and checked against a zoomed image (the apostrophe in TJ’s is curly in both). Excerpt line breaks joined with single spaces.",
+  "notFound": []
+ },
+ {
+  "id": "2026-11-03.ca-alameda-emeryville.measure-bb",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE BB WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 910 (EMBB-2), right column"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (page 910, readable text layer) states that no argument against Measure BB was submitted. opponents: none, since no argument against was submitted.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-hayward.measure-cc",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {},
+  "notes": "No new field. The county Composite Voter Information Guide (page 920, readable text layer) prints 'NO ARGUMENT AGAINST MEASURE CC WAS SUBMITTED', confirming the published argAgainst; with no argument against there are no opponent signers, so opponents stays empty.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-oakland.measure-ff",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "argAgainst": {
+    "text": "No argument against was filed.",
+    "excerpt": "NO ARGUMENT AGAINST MEASURE FF WAS SUBMITTED",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 948 (OMFF-2), right column"
+   }
+  },
+  "notes": "The county Composite Voter Information Guide (page 948, readable text layer) states that no argument against Measure FF was submitted. opponents: none, since no argument against was submitted.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-piedmont.measure-gg",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {},
+  "notes": "No new field. The county Composite Voter Information Guide (page 951, readable text layer) prints 'NO ARGUMENT AGAINST MEASURE GG WAS SUBMITTED', confirming the published argAgainst; there are no opponent signers, so opponents stays empty.",
+  "notFound": [
+   "opponents"
+  ]
+ },
+ {
+  "id": "2026-11-03.ca-alameda-union-city.measure-ii",
+  "officialPages": [
+   {
+    "title": "Composite Voter Information Guide, November 3, 2026 General Election",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "publisher": "Alameda County Registrar of Voters"
+   }
+  ],
+  "fields": {
+   "supporters": {
+    "text": "GARY SINGH, Mayor; IAN HOBSON, President, Union City Police Officers Association; JASBIR KAUR, Member, Sales Tax and Utility Users Tax Oversight Committee; JIM NAVARRO, President, Union City Chamber of Commerce; ROSALINDA CANLAS, Retired New Haven Unified School District Board Trustee",
+    "excerpt": "s/GARY SINGH Mayor s/IAN HOBSON President, Union City Police Officers Association s/JASBIR KAUR Member, Sales Tax and Utility Users Tax Oversight Committee s/JIM NAVARRO President, Union City Chamber of Commerce s/ROSALINDA CANLAS Retired New Haven Unified School District Board Trustee",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+    "location": "Composite Voter Information Guide, PDF page 960 (UMII-2), Argument in favor of Measure II, signatures (left column bottom, continuing at top of right column)",
+    "method": "ocr-checked-against-image"
+   }
+  },
+  "notes": "Signers read from the county Composite Voter Information Guide (page 960) by OCR and checked against zoomed images. Page 961 (readable text layer) prints 'NO ARGUMENT AGAINST MEASURE I I WAS SUBMITTED' (spaced as printed), confirming the published argAgainst; the guide also prints a rebuttal to the argument in favor, which is not an argument against, so opponents stays empty.",
+  "notFound": [
+   "opponents"
+  ]
+ }
+]

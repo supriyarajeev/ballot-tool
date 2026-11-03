@@ -1,0 +1,72 @@
+[
+ {
+  "i": 0,
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 1,
+  "id": "2026-11-03.ca-alameda-alameda.measure-n",
+  "field": "opponents",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 2,
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 3,
+  "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 4,
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 5,
+  "id": "2026-11-03.ca-alameda-alameda.measure-m",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 6,
+  "id": "2026-11-03.ca-alameda-alameda.measure-m",
+  "field": "opponents",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 7,
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "field": "opponents",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 8,
+  "id": "2026-11-03.ca-alameda-albany.measure-o",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 9,
+  "id": "2026-11-03.ca-alameda-union-city.measure-ii",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ }
+]

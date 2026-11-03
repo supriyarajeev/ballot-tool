@@ -8,14 +8,14 @@ GitHub Pages settings, the domain and the public link (https://supriyarajeev.git
 cd ~/Desktop/ballot-tool
 git pull
 git status                      # should say "nothing to commit". If not, run: git checkout .
-unzip -o ~/Downloads/ballot-guide-nov2.zip
+unzip -o ~/Downloads/ballot-guide-nov2b.zip
 git add -A
 git status                      # expect the changed files plus research/2026-11-01 and audit/2026-11-02
 git commit -m "Local measures filled in from official documents, Change place fix"
 git push
 ```
 
-Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-nov2.zip | tail -1` should show the file count given in the chat. If your browser saved it with a number, such as "(1)", use that exact name.
+Check the ZIP first: `unzip -l ~/Downloads/ballot-guide-nov2b.zip | tail -1` should show the file count given in the chat. If your browser saved it with a number, such as "(1)", use that exact name.
 
 ## 2. Or upload on the website
 

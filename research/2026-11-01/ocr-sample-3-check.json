@@ -1,0 +1,86 @@
+[
+ {
+  "i": 0,
+  "id": "2026-11-03.ca-santa-clara-cupertino.measure-l",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 1,
+  "id": "2026-11-03.ca-santa-clara-sunnyvale.measure-g",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 2,
+  "id": "2026-11-03.ca-santa-clara-sd-orchard-school-district.measure-r",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 3,
+  "id": "2026-11-03.ca-santa-clara-sd-cambrian-school-district.measure-q",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 4,
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-o",
+  "field": "no",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 5,
+  "id": "2026-11-03.ca-santa-clara-sd-los-gatos-saratoga-union-high-school-district.measure-n",
+  "field": "argAgainst",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 6,
+  "id": "2026-11-03.ca-santa-clara-sd-orchard-school-district.measure-r",
+  "field": "yes",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 7,
+  "id": "2026-11-03.ca-santa-clara-morgan-hill.measure-a",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 8,
+  "id": "2026-11-03.ca-santa-clara-gilroy.measure-b",
+  "field": "supporters",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 9,
+  "id": "2026-11-03.ca-santa-clara-palo-alto.measure-j",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 10,
+  "id": "2026-11-03.ca-santa-clara-sd-alum-rock-union-elementary-school-district.measure-p",
+  "field": "argFor",
+  "result": "exact",
+  "difference": ""
+ },
+ {
+  "i": 11,
+  "id": "2026-11-03.ca-santa-clara-santa-clara.measure-c",
+  "field": "fiscal",
+  "result": "exact",
+  "difference": ""
+ }
+]

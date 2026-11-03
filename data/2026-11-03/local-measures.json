@@ -505,19 +505,22 @@
       "identifier": "Measure I",
       "shortTitle": "Parcel Tax Measure",
       "threshold": "two-thirds of votes",
-      "status": "incomplete",
+      "status": "needs-review",
       "lastVerified": "2026-11-02",
       "sources": [
         {
           "label": "Official measure document",
           "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/dublin_usd_parcel_tax_measure.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor. All were read with text recognition from a scanned page and compared word for word with the page image.",
-      "gaps": [
-        "Summary of the official arguments for and against"
-      ],
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "gaps": [],
       "ballotQuestion": "Shall the measure to support quality education, provide local funding that cannot be taken by the State, maintain small class sizes, attract/retain quality teachers, and provide enhanced science, technology, engineering, visual and performing arts, reading, writing, and math programs, by renewing the expiring $96 school parcel tax, adding $48 per parcel, providing approximately $2,900,000 annually for nine years, with senior exemptions, annual inflation adjustments, independent oversight, and all funds locally controlled, be adopted?",
       "measureType": "Parcel tax",
       "readingNote": "The ballot question, vote threshold and measure type were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
@@ -525,7 +528,9 @@
       "yes": "A yes vote authorizes the District to levy a nine-year parcel tax of $144 per parcel per year, adjusted each year for inflation, beginning July 1, 2027.",
       "no": "If two-thirds of voters do not approve, the measure fails and the District will not be authorized to levy the tax. The existing Measure E parcel tax would continue until June 30, 2028.",
       "fiscal": "The District estimates the parcel tax will provide approximately $2,900,000 a year.",
-      "argFor": "The argument in favor says that without this locally controlled funding, classrooms will face larger class sizes, reduced academic programs, and greater difficulty recruiting and retaining teachers."
+      "argFor": "The argument in favor says that without this locally controlled funding, classrooms will face larger class sizes, reduced academic programs, and greater difficulty recruiting and retaining teachers.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "TIM SBRANTI, Former Dublin Mayor / Community College Trustee / Longtime Dublin Resident; FREDY KADVA, Chair, DUSD Parcel Tax Oversight Committee / DUSD Parent; MICHAEL D’AMBROSIO, Principal, Amador Elementary School / Former Dublin High School Teacher; CATHERINE BROWN, Retired Dublin Teacher / 2018 DUSD Teacher of the Year / Longtime Dublin Resident; KASHEF QAADRI, Dublin City Councilmember / DUSD Parent / Dublin Education Alliance Board Member"
     },
     {
       "id": "2026-11-03.ca-alameda-sd-san-lorenzo-unified-school-district.measure-j",
@@ -542,19 +547,26 @@
           "label": "Official measure document",
           "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/san_lorenzo_usd_parcel_tax_measure.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "What a YES vote and a NO vote would do",
-        "Summary of the official arguments for and against"
+        "What a YES vote and a NO vote would do"
       ],
       "ballotQuestion": "To renew expiring local school funding without increasing current tax rates; support academic excellence and programs in reading, writing, math, arts, science and technology; attract and retain highly qualified teachers and staff; and continue stable, local funding the State cannot take away; shall San Lorenzo Unified School District's measure be adopted, renewing its expiring $99 parcel tax for 12 years, providing approximately $1.8 million annually, with senior exemptions, citizen oversight, and no funds for district administrators?",
       "measureType": "Parcel tax",
       "readingNote": "The ballot question, vote threshold and measure type were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
       "plainEnglish": "Measure J renews the San Lorenzo Unified School District's expiring special parcel tax at $99 per parcel for twelve years, beginning July 1, 2027.",
       "no": "If you vote no, this change would not be made.",
-      "fiscal": "$99 per parcel for twelve years beginning July 1, 2027; the District estimates approximately $1,800,000 a year."
+      "fiscal": "$99 per parcel for twelve years beginning July 1, 2027; the District estimates approximately $1,800,000 a year.",
+      "argFor": "The argument in favor says Measure J will prevent cuts to the quality education in neighborhood schools.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "PENNY PECK, Former SLZUSD Board Member; ROBERT GLAZE, Local Business Owner; SANDRA VINCENT, 40-Year Local Resident; AISHA KNOWLES, Community Member"
     },
     {
       "id": "2026-11-03.ca-alameda-sd-sunol-glen-unified-school-district.measure-k",
@@ -571,12 +583,16 @@
           "label": "Official measure document",
           "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/sunol_glen_usd_bond_measure.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Ballot question not published. The typed question has handwritten edits (\"AND\" inserted and \"and science labs\" struck through), so the final printed wording cannot be confirmed from this form. Typed amounts: $6,100,000 of bonds, about $431,700 a year, about $35 per $100,000 of assessed value. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor. All were read with text recognition from a scanned page and compared word for word with the page image.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Ballot question not published. The typed question has handwritten edits (\"AND\" inserted and \"and science labs\" struck through), so the final printed wording cannot be confirmed from this form. Typed amounts: $6,100,000 of bonds, about $431,700 a year, about $35 per $100,000 of assessed value. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "Summary of the official arguments for and against",
         "Final ballot question wording (the registrar's form has handwritten edits to the typed question)"
       ],
       "measureType": "Bond measure",
@@ -585,7 +601,9 @@
       "yes": "If 55% of voters vote yes, the District will be authorized to issue the bonds.",
       "no": "If you vote no, this change would not be made.",
       "fiscal": "The District estimates the tax would generate on average approximately $431,700 a year while bonds are outstanding.",
-      "argFor": "The argument in favor says that without this investment, aging facilities will continue to deteriorate, resulting in costly emergency repairs in the future."
+      "argFor": "The argument in favor says that without this investment, aging facilities will continue to deteriorate, resulting in costly emergency repairs in the future.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "ERIN K CHOIN, President Sunol Glen Unified; CONSTANCE E. DEGRANGE; GRIFFIN BEEMILLER, Citizen’s Bond Oversight Committee; MATT SYLVESTER, Facilities Manager Sunol Glen; HOLLY SCROGGINS, Retired School Principal"
     },
     {
       "id": "2026-11-03.ca-alameda-alameda.measure-l",
@@ -627,19 +645,28 @@
           "label": "Elections (November 3, 2026 Election, Ballot Measures)",
           "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The submittal form's type box is checked \"Bond measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The submittal form's type box is checked \"Bond measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "What a YES vote and a NO vote would do",
-        "Summary of the official arguments for and against",
         "Bond duration not stated."
       ],
       "measureType": "General obligation bond",
       "ballotQuestion": "SAFER Alameda Act — Preparing Alameda for Sea-Level Rise, Accidents, Flooding, Earthquakes, Resilience. To prepare for emergencies, earthquakes and sea-level rise; prevent flooded Tubes; repair potholes; keep streets safe and accessible; maintain response to fires, accidents, and medical emergencies; prevent Bay pollution; and protect shorelines; shall the City of Alameda measure issuing $300,000,000 in bonds, levying $49/$100,000 of assessed value, generating approximately $19,000,000 annually while bonds are outstanding, requiring oversight, public disclosures, and local control, be adopted?",
       "readingNote": "The ballot question and vote threshold were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
       "plainEnglish": "Authorizes the City of Alameda to issue $300,000,000 in bonds to prepare for emergencies, earthquakes and sea-level rise, prevent flooding of the Tubes, repair potholes, prevent Bay pollution and protect shorelines, with oversight and public disclosures.",
-      "fiscal": "$300,000,000 in bonds, levying $49 per $100,000 of assessed value and generating approximately $19,000,000 a year while the bonds are outstanding."
+      "fiscal": "$300,000,000 in bonds, levying $49 per $100,000 of assessed value and generating approximately $19,000,000 a year while the bonds are outstanding.",
+      "yes": "A yes vote allows the City to issue general obligation bonds in the amount of $300,000,000 to fund certain capital improvement projects.",
+      "no": "A no vote does not allow the issuance of general obligation bonds in any amount.",
+      "argFor": "The argument in favor says Alameda's quality of life depends on infrastructure that is disaster ready.",
+      "argAgainst": "The argument against says the City Council should have made the tough decision of listing specific infrastructure projects to be included in the bond measure.",
+      "supporters": "MARILYN EZZY ASHCRAFT, Mayor, City of Alameda; DAVID LEWIS, Executive Director, Save the Bay; ALICE LAI-BITKER, Harbor Bay/Bay Farm Resident; MIKE DEWINDT, President, Alameda Firefighters; CHRISTINE MAY, PHD, PE, Climate Scientist/CEO",
+      "opponents": "TONY DAYSOG, Alameda City Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-alameda.measure-m",
@@ -666,19 +693,28 @@
           "label": "Elections (November 3, 2026 Election, Ballot Measures)",
           "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against, signers in favor, signers against. Excerpts for signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "What a YES vote and a NO vote would do",
         "Fiscal effect (tax rate, amount and duration, or cost)",
-        "Summary of the official arguments for and against",
         "Could not confirm what the charter amendment contains."
       ],
       "ballotQuestion": "Shall the measure amending City Charter Sections 2-1.1, 2-3, 2-10, 3-7(G), 3-14, 7-2(J), 8-2, 8-5, 10-3, 10-6, 10-7, 10-12, 12-4(A) and (B), 14-1, 17-10, 28-2, 28-3 and 28-4, and repealing Sections 12-3(D) and 23-3 to conform to existing practices and amend and repeal outdated provisions be adopted?",
       "measureType": "Charter amendment",
       "readingNote": "The ballot question, vote threshold and measure type were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
-      "plainEnglish": "Amends a list of City Charter sections and repeals Sections 12-3(D) and 23-3 to conform the Charter to existing practices and amend and repeal outdated provisions."
+      "plainEnglish": "Amends a list of City Charter sections and repeals Sections 12-3(D) and 23-3 to conform the Charter to existing practices and amend and repeal outdated provisions.",
+      "yes": "A yes vote would conform the City Charter to existing City and City Council practices and amend and repeal outdated provisions in the Charter.",
+      "no": "If the measure is not approved, all the Charter provisions referenced in the measure will remain the same.",
+      "argFor": "The argument in favor says the City Charter is Alameda's local constitution and should be clear, current, and consistent with the way City government actually operates.",
+      "argAgainst": "The argument against says the City Council as a whole and the public had not adequately vetted the proposed changes, and some are not the simple cleanup of outdated language that proponents claim.",
+      "supporters": "MARILYN EZZY ASHCRAFT, Mayor, City of Alameda; MICHELE PRYOR, Vice Mayor, City of Alameda; GREG BOLLER, Councilmember, City of Alameda; EVAN SHWARTZ, Resident and Member, Open Government Commission",
+      "opponents": "TONY DAYSOG, Alameda City Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-alameda.measure-n",
@@ -700,19 +736,28 @@
           "label": "Elections (November 3, 2026 Election, Ballot Measures)",
           "url": "https://www.alamedaca.gov/Departments/City-Clerk/Elections",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, argument in favor, argument against, signers in favor, signers against. Excerpts for signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "What a YES vote and a NO vote would do",
         "Fiscal effect (tax rate, amount and duration, or cost)",
-        "Summary of the official arguments for and against",
         "Search budget exhausted before the council resolution could be located."
       ],
       "ballotQuestion": "Shall the measure amending Section 3-10 of the City Charter to change sales or leases of City real property exceeding one year to be approved by resolution rather than by ordinance and to reduce the City Council approval threshold from supermajority (four affirmative votes) to simple majority (three affirmative votes) for leases of City real property not exceeding ten years be adopted?",
       "measureType": "Charter amendment",
       "readingNote": "The ballot question, vote threshold and measure type were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
-      "plainEnglish": "Amends City Charter Section 3-10 so sales or leases of City real property longer than one year are approved by resolution rather than by ordinance, and lowers the Council vote needed for leases of up to ten years from four votes to three."
+      "plainEnglish": "Amends City Charter Section 3-10 so sales or leases of City real property longer than one year are approved by resolution rather than by ordinance, and lowers the Council vote needed for leases of up to ten years from four votes to three.",
+      "yes": "A yes vote allows the City Council to approve acquisitions, transfers, or leases of City real property by resolution, and to approve leases of less than 10 years by simple majority.",
+      "argFor": "The argument in favor says the measure modernizes the City's outdated process for approving leases and property transactions.",
+      "argAgainst": "The argument against says the current four-vote requirement helps ensure that the City Council does not proceed so fast as to only accommodate developers or commercial tenants, and that it accounts for the people's needs.",
+      "supporters": "MARILYN EZZY ASHCRAFT, Mayor, City of Alameda; MICHELE PRYOR, Vice Mayor, City of Alameda; GREG BOLLER, Councilmember, City of Alameda; BROCK GRUNT, President, McGuire and Hester and Board Chair, Alameda Chamber; NATHAN SAICHK, Chief Technology Officer, Longshot Space and Alameda Resident",
+      "opponents": "TONY DAYSOG, Alameda City Councilmember; REYLA GRABER, Resident; DOROTHY FREEMAN, Alameda Concerned Citizen; JANET DAVIS, Animal Advocate"
     },
     {
       "id": "2026-11-03.ca-alameda-albany.measure-o",
@@ -744,12 +789,16 @@
           "label": "Measure O Argument in Favor (scanned)",
           "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-o-requirement-for-zoning-changes-in-favor.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor. Excerpts for argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against, signers in favor. Excerpts for argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Fiscal effect (tax rate, amount and duration, or cost)",
-        "Summary of the official arguments for and against",
         "Argument against: none listed on the city page as of Oct 22 2026; absence not confirmed with the clerk.",
         "titleOnList not re-read from county list (list page would not load)."
       ],
@@ -759,7 +808,9 @@
       "plainEnglish": "Measure O would amend the Albany Municipal Code so the City can make zoning changes in single family residential (R-1) zoned areas without majority neighborhood voter approval, after following the noticed public hearing and zoning ordinance amendment procedures in State law and the Albany Municipal Code.",
       "yes": "A yes vote authorizes the City Council to make zoning changes within the R-1 zoned areas without majority neighborhood voter approval.",
       "no": "A no vote does not authorize the City Council to make zoning changes within the R-1 zoned areas without majority neighborhood voter approval.",
-      "argFor": "The argument in favor says Measure O would create a fair, modern, and accountable zoning process that helps Albany plan responsibly for housing."
+      "argFor": "The argument in favor says Measure O would create a fair, modern, and accountable zoning process that helps Albany plan responsibly for housing.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-albany.measure-p",
@@ -791,11 +842,15 @@
           "label": "Measure P Argument in Favor (scanned)",
           "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-p-street-paving-storm-drain-parcel-tax-in-favor.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor. Excerpts for argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
         "The rate change applies only if a parcel over 500,000 square feet becomes exempt; current base rate wording beyond the ballot question not read.",
         "Argument against: none listed on city page."
       ],
@@ -806,7 +861,9 @@
       "yes": "A yes vote approves this amendment to the street paving and storm drainage parcel tax.",
       "no": "A no vote does not approve this amendment to the street paving and storm drainage parcel tax.",
       "fiscal": "Estimated to generate $1,400,000 a year until repealed by voters at a later election.",
-      "argFor": "The argument in favor says Measure P protects funding for streets and storm drains if Golden Gate Fields becomes a park, while also making immediate improvements."
+      "argFor": "The argument in favor says Measure P protects funding for streets and storm drains if Golden Gate Fields becomes a park, while also making immediate improvements.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-albany.measure-q",
@@ -838,11 +895,15 @@
           "label": "Measure Q Argument in Favor (scanned)",
           "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-q-ems-als-fire-protection-parcel-tax-in-favor.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor. Excerpts for argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
         "New contingent rates are 'as provided in the measure'; full text not read.",
         "County list title 'EMS, ALS, Fire Protection Parcel Tax Measure' is the registrar link label; city title is longer."
       ],
@@ -853,7 +914,9 @@
       "yes": "A yes vote approves this amendment to the EMS/ALS/Fire parcel tax.",
       "no": "A no vote does not approve this amendment to the EMS/ALS/Fire parcel tax.",
       "fiscal": "Estimated to generate $2,500,000 a year until repealed by voters at a later election.",
-      "argFor": "The argument in favor says that if Golden Gate Fields becomes publicly owned, Measure Q would restructure the tax to maintain funding for emergency medical services and fire protection."
+      "argFor": "The argument in favor says that if Golden Gate Fields becomes publicly owned, Measure Q would restructure the tax to maintain funding for emergency medical services and fire protection.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-albany.measure-r",
@@ -890,9 +953,14 @@
           "label": "Measure R Argument Against (scanned)",
           "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-r-business-license-tax-against.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers against. Excerpts for argument in favor, argument against, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for argument in favor, argument against, signers against, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Gross receipts rate schedule is 'specified in the measure'; full text not read.",
         "measureType evidence uses an ellipsis joining two parts of the ballot question."
@@ -906,7 +974,8 @@
       "fiscal": "Estimated to generate an additional $600,000 a year. New rates take effect January 1, 2027 and stay in effect until repealed by voters.",
       "argFor": "The argument in favor says Measure R lowers the tax for more than seven out of ten retail and service businesses.",
       "argAgainst": "The argument against says a gross receipts tax is an income tax of the worst kind.",
-      "opponents": "Francesco Papalia, Former Member of the City of Albany Financial Advisory Committee."
+      "opponents": "Francesco Papalia, Former Member of the City of Albany Financial Advisory Committee.",
+      "supporters": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-albany.measure-s",
@@ -943,9 +1012,14 @@
           "label": "Measure S Argument Against (scanned)",
           "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-s-real-property-transfer-tax-against.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the only difference is the apostrophe in \"property's\", printed straight on the form and curly on the city page (OCR may not distinguish the two reliably). The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers against. Excerpts for argument in favor, argument against, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the only difference is the apostrophe in \"property's\", printed straight on the form and curly on the city page (OCR may not distinguish the two reliably). The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for argument in favor, argument against, signers against, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Price brackets for each rate are in the full text, not read."
       ],
@@ -958,7 +1032,8 @@
       "fiscal": "Estimated to generate an additional $1,000,000 a year. New rates take effect January 1, 2027 and stay in effect until repealed by voters.",
       "argFor": "The argument in favor says Measure S ensures the City continues funding its services by adjusting the transfer tax when properties sell.",
       "argAgainst": "The argument against says Albany has a housing affordability problem and Measure S makes it worse.",
-      "opponents": "Francesco Papalia, Former Member, City of Albany Financial Advisory Committee"
+      "opponents": "Francesco Papalia, Former Member, City of Albany Financial Advisory Committee",
+      "supporters": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; ROBIN LÓPEZ, Councilmember; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-albany.measure-t",
@@ -968,7 +1043,7 @@
       "identifier": "Measure T",
       "shortTitle": "Street Trees & Streetlighting Parcel Tax Measure",
       "threshold": "two-thirds of votes",
-      "status": "incomplete",
+      "status": "needs-review",
       "lastVerified": "2026-11-02",
       "sources": [
         {
@@ -990,12 +1065,15 @@
           "label": "Measure T Argument in Favor (scanned)",
           "url": "https://www.albanyca.gov/files/assets/city/v/1/city-clerk/documents/elections/2026-election/ballot-measures/arguments-and-rebuttals/primary-arguments/measure-t-street-trees-streetlighting-parcel-tax-in-favor.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor. Excerpts for argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
-      "gaps": [
-        "Summary of the official arguments for and against"
-      ],
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Official arguments. For filed, against not filed (source https://www.albanyca.gov/Government/Election-Information/Ballot-Measures-for-General-Municipal-Election-2026). The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "gaps": [],
       "ballotQuestion": "Shall the measure to enact a special parcel tax on non-exempt property in the City at $0.0354 per lot square foot to maintain and improve public street trees and streetlighting to enhance local safety and sustainability, subject to an annual consumer price index adjustment up to 3%, exempting qualifying low-income residents, providing an estimated $775,000 annually until ended by voters, be adopted?",
       "measureType": "Special parcel tax (new)",
       "plainEnglish": "Creates a special parcel tax of $0.0354 per lot square foot on non-exempt property to maintain and improve public street trees and streetlighting. It adjusts yearly by the consumer price index up to 3%, exempts qualifying low-income residents, and is estimated to raise $775,000 a year until ended by voters.",
@@ -1003,7 +1081,9 @@
       "yes": "A yes vote approves this street trees and streetlighting improvement and maintenance parcel tax.",
       "no": "A no vote does not approve this street trees and streetlighting improvement and maintenance parcel tax.",
       "fiscal": "$0.0354 per taxable lot square foot starting July 1, 2027, adjusted each year by CPI with a 3% annual cap.",
-      "argFor": "The argument in favor says Measure T would keep Albany safe, green, welcoming, and well cared for."
+      "argFor": "The argument in favor says Measure T would keep Albany safe, green, welcoming, and well cared for.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "PEGGY MCQUAID, Mayor; JENNIFER HANSEN-ROMERO, Vice Mayor; JOHN MIKI, Councilmember; PRESTON JORDAN, Councilmember; ROBIN LÓPEZ, Councilmember"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-u",
@@ -1013,7 +1093,7 @@
       "identifier": "Measure U",
       "shortTitle": "Bond Measure",
       "threshold": "two-thirds of votes",
-      "status": "incomplete",
+      "status": "needs-review",
       "lastVerified": "2026-11-02",
       "sources": [
         {
@@ -1030,20 +1110,26 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the form's box adds a second sentence, \"Financial Implications: Average annual taxpayer costs over projected 40 years bonds are outstanding are approximately $22.14 per $100,000 assessed property value; generating approximately $15,200,000/year.\". The submittal form's type box is checked \"Bond measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
-      "gaps": [
-        "Summary of the official arguments for and against",
-        "Arguments filed: not determined."
-      ],
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the form's box adds a second sentence, \"Financial Implications: Average annual taxpayer costs over projected 40 years bonds are outstanding are approximately $22.14 per $100,000 assessed property value; generating approximately $15,200,000/year.\". The submittal form's type box is checked \"Bond measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "gaps": [],
       "ballotQuestion": "Shall the measure authorizing issuance of $300,000,000 in general obligation bonds to fund acquisition and improvement of fire stations, emergency response facilities, parks and recreation facilities, and other public infrastructure and facilities, and increase climate resiliency, subject to independent oversight and audits, be adopted? Financial Implications: Average annual taxpayer costs over projected 40 years bonds are outstanding are approximately $22.14 per $100,000 assessed property value; generating approximately $15,200,000/year.",
       "measureType": "General obligation bond",
       "plainEnglish": "Authorizes the City of Berkeley to issue $300,000,000 in general obligation bonds for fire stations, emergency response facilities, parks and recreation facilities, other public infrastructure and facilities, and climate resiliency, with independent oversight and audits.",
       "readingNote": "The ballot question and vote threshold were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
       "yes": "A yes vote authorizes the City of Berkeley to issue $300 million of general obligation bonds to finance the acquisition and improvement of real property for public infrastructure and facilities.",
       "no": "If you vote no, this change would not be made.",
-      "fiscal": "$300 million in general obligation bonds repaid from property taxes. The City estimates average annual taxpayer costs over the projected 40 years the bonds are outstanding of approximately $22.14 per $100,000 of assessed value, generating approximately $15,200,000 per year, with a highest estimated rate of approximately $35 per $100,000 of assessed value beginning in 2040-41."
+      "fiscal": "$300 million in general obligation bonds repaid from property taxes. The City estimates average annual taxpayer costs over the projected 40 years the bonds are outstanding of approximately $22.14 per $100,000 of assessed value, generating approximately $15,200,000 per year, with a highest estimated rate of approximately $35 per $100,000 of assessed value beginning in 2040-41.",
+      "argFor": "The argument in favor says that as safety, infrastructure maintenance and demands for City services rise, Berkeley needs local funds to maintain the basic safety and quality of life residents expect.",
+      "argAgainst": "The argument against says the project list could change at any time, all 35 projects are unlikely to be funded, and the measure is a $300 million blank check.",
+      "supporters": "ADENA ISHII, Mayor of Berkeley; DR. SHARON GOLDFARB, Co-President League of Women Voters Berkeley Albany Emeryville; JOHN CANER, Local Business Leader; ERIC WEAVER, Neighborhood Wildfire Safety Organizer; JENNY WONG, Berkeley City Auditor",
+      "opponents": "ISABELLE GASTON, Assistant Treasurer, Affordable Berkeley; DONNA DEDIEMAR, Neighborhood Activist; MICHAEL KATZ, Writer and Cyclist; JOSHUA GLATT, Software engineer and composer; STEPHEN R. TRACY, Retired Public School Teacher"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-v",
@@ -1053,7 +1139,7 @@
       "identifier": "Measure V",
       "shortTitle": "Sales Tax Measure",
       "threshold": "a simple majority (more than 50%) of votes",
-      "status": "incomplete",
+      "status": "needs-review",
       "lastVerified": "2026-11-02",
       "sources": [
         {
@@ -1070,20 +1156,26 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
-      "gaps": [
-        "Summary of the official arguments for and against",
-        "Arguments filed: not determined."
-      ],
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for argument in favor, argument against, signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "gaps": [],
       "ballotQuestion": "Shall the measure levying a 0.5% sales tax in Berkeley, increasing the total sales tax rate in the City to 10.75%, estimated to generate $9,000,000 to $10,000,000 annually, with proceeds placed into the General Fund for general City uses, including but not limited to sustaining fire, police and 911 dispatch services, youth and senior services, and community programs, until ended by the voters, with independent audits, be adopted?",
       "measureType": "General tax (transactions and use / sales tax)",
       "plainEnglish": "Adds a 0.5% sales tax in Berkeley, bringing the total rate to 10.75%. The city estimates $9 to $10 million a year for the General Fund, until ended by voters.",
       "readingNote": "The ballot question and vote threshold were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
       "yes": "A yes vote is a vote in favor of the tax.",
       "no": "A no vote is a vote against the tax.",
-      "fiscal": "The tax would begin April 1, 2027 and last until ended by the voters. The City estimates it will generate $9 to $10 million a year."
+      "fiscal": "The tax would begin April 1, 2027 and last until ended by the voters. The City estimates it will generate $9 to $10 million a year.",
+      "argFor": "The argument in favor says a yes vote would prevent forced cuts to the Fire and Police Departments, prevent the closure of Fire Station 4, and maintain 911 emergency response and neighborhood safety patrols.",
+      "argAgainst": "The argument against says that before asking taxpayers to pay more, the City Council should show it is managing existing revenues responsibly and prioritizing basic city services.",
+      "supporters": "ADENA ISHII, Mayor of Berkeley; DR. SHARON GOLDFARB, Co President of League of Women Voters of Berkeley Albany Emeryville; JOHN CANER, Local Business Leader; ERIC WEAVER, Neighborhood Wildfire Safety Organizer; JENNY WONG, Berkeley City Auditor",
+      "opponents": "ISABELLE GASTON, Assistant Treasurer, Affordable Berkeley; FRANCES HASELSTEINER, Retired State Employee; DONNA DEDIEMAR, Neighborhood Activist; JOSHUA GLATT, Software engineer and composer; NANCY A. RADER, Former Disaster and Fire Safety Commissioner"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-w",
@@ -1093,7 +1185,7 @@
       "identifier": "Measure W",
       "shortTitle": "Charter Amendment Measure",
       "threshold": "a simple majority (more than 50%) of votes",
-      "status": "incomplete",
+      "status": "needs-review",
       "lastVerified": "2026-11-02",
       "sources": [
         {
@@ -1110,20 +1202,25 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Charter amendment\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
-      "gaps": [
-        "Summary of the official arguments for and against",
-        "Arguments filed: not determined."
-      ],
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Charter amendment\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
+      "gaps": [],
       "ballotQuestion": "Shall the measure amending the City Charter to reduce candidate filing fees; eliminate signatures in lieu of filing fee process; eliminate certain personal information from candidate statements; clarify and revise initiative, referendum and recall processes; amend election timelines for filling Mayor and Councilmember vacancies; increase the maximum amount from the public campaign financing fund for administration and enforcement from $250,000 to $400,000 per four-year election cycle; and make other changes be adopted?",
       "measureType": "Charter amendment",
       "readingNote": "The ballot question and vote threshold were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
       "plainEnglish": "Measure W would amend the Berkeley City Charter's rules on election administration and on candidates, initiatives, referenda and recalls. Among other changes, it would replace the $150 candidate filing fee with the amount set in the California Elections Code (currently $25).",
       "yes": "If you vote yes, the Charter amendments described in the City Attorney's analysis would be adopted.",
       "no": "If you vote no, this change would not be made.",
-      "fiscal": "Raises the maximum public campaign financing funds usable for Fair Campaign Practices Commission and City staff administration and enforcement costs from $250,000 to $400,000, subject to cost of living adjustments."
+      "fiscal": "Raises the maximum public campaign financing funds usable for Fair Campaign Practices Commission and City staff administration and enforcement costs from $250,000 to $400,000, subject to cost of living adjustments.",
+      "argFor": "The argument in favor says that as state laws, local processes and elections administration evolve, the City Charter must remain relevant, enforceable, and implementable.",
+      "argAgainst": "No argument against was filed.",
+      "supporters": "ADENA ISHII, Mayor of Berkeley; BEN BARTLETT, Councilmember, District 3; BRENT BLACKABY, Councilmember, District 6; IGOR TREGUB, Councilmember, District 4; TERRY TAPLIN, Councilmember, District 2"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-x",
@@ -1150,21 +1247,28 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the form begins \"to amend the Rent Stabilization and Eviction for Just Cause Ordinance by making\", omits the clause on owner-occupied duplexes and notice to new tenants, and uses \"allowing\", \"changing\" and \"limiting\" for \"allow\", \"change\" and \"limit\". The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the form begins \"to amend the Rent Stabilization and Eviction for Just Cause Ordinance by making\", omits the clause on owner-occupied duplexes and notice to new tenants, and uses \"allowing\", \"changing\" and \"limiting\" for \"allow\", \"change\" and \"limit\". The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against, signers in favor, signers against. Excerpts for argument against, signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Fiscal effect (tax rate, amount and duration, or cost)",
-        "Summary of the official arguments for and against",
-        "Topic of Measure X in the impartial analysis was not explicitly quoted; letter-to-topic mapping relies on the county list and the threshold sentence.",
-        "Arguments filed: not determined."
+        "Topic of Measure X in the impartial analysis was not explicitly quoted; letter-to-topic mapping relies on the county list and the threshold sentence."
       ],
       "ballotQuestion": "Shall the measure to amend the Rent Stabilization and Eviction for Just Cause Ordinance by making most rent control and registration exemptions inapplicable to units that were not exempt when the current tenancy began; allowing modification or waiver of fees for subsidized units owned or leased by nonprofits; changing the annual registration deadline; limiting annual rent increases to ten percent; and allowing tenant associations in smaller properties, be adopted?",
       "measureType": "Ordinance (council-placed amendment to the Rent Stabilization Ordinance)",
       "readingNote": "The ballot question and vote threshold were read from a scanned county form by automated text recognition (OCR), then compared with the page image by an AI assistant. This reading has not been officially reviewed. Compare it with your official sample ballot.",
       "plainEnglish": "Measure X would amend Berkeley's Rent Stabilization and Eviction for Just Cause Ordinance. Changes include applying certain exemptions only if the unit was exempt when the current tenancy began, and prohibiting owners from raising rent by more than 10% in a one-year period.",
       "yes": "If you vote yes, the amendments to the Rent Stabilization and Eviction for Just Cause Ordinance described in the City Attorney's analysis would be adopted.",
-      "no": "If you vote no, this change would not be made."
+      "no": "If you vote no, this change would not be made.",
+      "argFor": "The argument in favor says Measure X, placed on the ballot by unanimous vote of the City Council, makes common-sense tweaks to the Berkeley Rent Stabilization Ordinance.",
+      "argAgainst": "The argument against says Berkeley has a housing affordability problem and Measure X does nothing to solve it.",
+      "supporters": "ADENA ISHII, Mayor of Berkeley; CECILIA LUNAPARRA, Berkeley City Councilmember; SOLI ALPERT, Chair, Berkeley Rent Board; DAN SAWISLAK, Executive Director, Resources for Community Development; AVERY ARBAUGH, Chair, Berkeley Tenants Union",
+      "opponents": "JEFFREY NEIDLEMAN, President, Bridge Association of REALTORS®; KRISTA C. GULBRANSEN, Executive Director, Berkeley Property Owners Association"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-y",
@@ -1191,13 +1295,16 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The registrar's submittal form has the same ballot question as the city document read on Oct 22, 2026. The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for argument in favor, signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
-        "Majority threshold for a special tax is stated by both the resolution and the impartial analysis (citizen initiative); report as stated, no inference added.",
-        "Arguments filed: not determined."
+        "Majority threshold for a special tax is stated by both the resolution and the impartial analysis (citizen initiative); report as stated, no inference added."
       ],
       "ballotQuestion": "Shall the measure creating a special parcel tax to fund grants for performing arts organizations, art projects, art organization operational and programmatic expenses and capital projects, community festivals, and administrative costs, with oversight by the City’s Civic Arts Commission, at a rate of $0.07 per square foot of improvements, estimated to generate approximately $6,300,000 annually and $84,800,000 over its twelve-year duration, be adopted?",
       "measureType": "Special parcel tax (citizen initiative)",
@@ -1205,7 +1312,11 @@
       "plainEnglish": "Measure Y, a citizen initiative, would impose a special parcel tax to fund grants to arts institutions and programs, with the Civic Arts Commission reviewing and approving grant applications subject to City Council review.",
       "yes": "If you vote yes, the special parcel tax to fund arts grants would be imposed starting January 1, 2027.",
       "no": "If you vote no, this change would not be made.",
-      "fiscal": "$0.07 per square foot of improvements, starting January 1, 2027, with exemptions for certain low-income, nonprofit, affordable and transitional housing properties. The City estimates about $6,300,000 in the first year and $84,800,000 over the 12-year duration."
+      "fiscal": "$0.07 per square foot of improvements, starting January 1, 2027, with exemptions for certain low-income, nonprofit, affordable and transitional housing properties. The City estimates about $6,300,000 in the first year and $84,800,000 over the 12-year duration.",
+      "argFor": "The argument in favor says arts and culture are a critical part of what makes Berkeley a special place to live and are central to Berkeley's identity and values.",
+      "argAgainst": "The argument against says the measure lacks accountability, with no guardrails and no objective criteria for how tax dollars are awarded.",
+      "supporters": "BETH ROESSNER, CEO, Berkeley Chamber of Commerce; CLAYTON SHELVIN, Executive Director, The Freight; JESSE ARREGUÍN, State Senator; SHOSHANA O’KEEFE, City Councilmember, District 5; SUSAN WENGRAF, Berkeley Vice Mayor (ret.)",
+      "opponents": "DAVID DENTON, Berkeley Resident"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-z",
@@ -1232,13 +1343,16 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the form prints \"non-residential\" where the city document has \"nonresidential\". The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The ballot question shown is the registrar's submittal form version, which the form says \"will be printed on the ballot and voter guide.\" It differs from the city document read on Oct 22, 2026: the form prints \"non-residential\" where the city document has \"nonresidential\". The submittal form's type box is checked \"Parcel tax\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
         "County list title 'Initiative - Public Bank Measure' omits that this is a parcel tax; consider noting the tax in the guide title.",
-        "Arguments filed: not determined.",
         "OCR reading to confirm against the city's own text: Removed a period the OCR read after 'investments in'; to be confirmed against the city's text."
       ],
       "ballotQuestion": "Shall the measure creating a special parcel tax to capitalize and support a public bank to fund investments in affordable housing, green energy/infrastructure and small businesses, at rates of $0.06/square foot of residential improvements and $0.09/square foot of non-residential improvements, estimated to generate approximately $9,200,000 the first year and $58,300,000 over its six-year duration, with funds subject to review, allocation and approval by the City Council and regular audits, be adopted?",
@@ -1247,7 +1361,11 @@
       "plainEnglish": "Measure Z, a citizen initiative, would levy a special parcel tax to capitalize and support a public bank that would fund long-term investments in affordable housing, green energy/infrastructure and small businesses, with all funds subject to City Council review, allocation and approval.",
       "yes": "If you vote yes, the special parcel tax to fund a public bank would be imposed starting January 1, 2027.",
       "no": "If you vote no, this change would not be made.",
-      "fiscal": "$0.06 per square foot of residential improvements and $0.09 per square foot of non-residential improvements, starting January 1, 2027, adjusted annually for inflation. The City estimates about $9,200,000 in the first year and $58,300,000 over the six-year duration."
+      "fiscal": "$0.06 per square foot of residential improvements and $0.09 per square foot of non-residential improvements, starting January 1, 2027, adjusted annually for inflation. The City estimates about $9,200,000 in the first year and $58,300,000 over the six-year duration.",
+      "argFor": "The argument in favor says Wall Street banks use the city's funds to invest in war, data centers, fossil fuels and making billionaires richer, and Berkeley deserves a better way to invest its money.",
+      "argAgainst": "The argument against says the measure requires Berkeley property taxpayers to subsidize other jurisdictions.",
+      "supporters": "IGOR A. TREGUB, Councilmember, City of Berkeley, District 4; ANDY KELLEY, Rent Stabilization Board Member; YAVETTE HOLTS, Founder/CEO, Bay Area Organization of Black Owned Businesses (BAOBOB); ERIC LEENSON, Co Founder, La Peña Cultural Center; NEHA SINGH, Program Manager, Friends of the Public Bank East Bay",
+      "opponents": "ISABELLE GASTON, Assistant Treasurer, Affordable Berkeley; PAUL MATHEW, Building Decarbonization consultant; DONNA DEDIEMAR, Neighborhood Activist; FRANCES HASELSTEINER, Retired State Employee; NANCY A. RADER, Former Disaster and Fire Safety Commissioner"
     },
     {
       "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
@@ -1269,13 +1387,16 @@
           "label": "Official document stating the vote requirement",
           "url": "https://berkeleyca.gov/sites/default/files/Nov%202026%20Impartial%20Analyses.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. The submittal form's type box is checked \"Regular measure\"; the more specific type shown comes from the city document. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for argument in favor, argument against, signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
-        "Duration not stated in impartial analysis.",
-        "Arguments filed: not determined."
+        "Duration not stated in impartial analysis."
       ],
       "measureType": "Special tax (citizen initiative; replaces existing general tax)",
       "ballotQuestion": "Shall the measure replacing the City’s $0.01 per fluid ounce general tax on the distribution of sugar-sweetened beverages with a $0.02 per fluid ounce special tax to fund public health, nutrition, and drinking water accessibility programs by nonprofits, the City, or Berkeley Unified School District, retaining current exemptions for small retailers, milk products, baby formula, alcoholic beverages, and medical and weight-loss products, estimated to generate approximately $2,200,000 annually, until repealed by the voters, be adopted?",
@@ -1283,7 +1404,11 @@
       "plainEnglish": "Measure AA, a citizen initiative, would replace Berkeley's existing $0.01 per fluid ounce general tax on distributing sugar-sweetened beverages with a $0.02 per fluid ounce special tax dedicated to public health, nutrition and drinking water projects and programming.",
       "yes": "If you vote yes, the $0.02 per fluid ounce special tax would replace the current tax, with collection beginning April 1, 2027.",
       "no": "If you vote no, this change would not be made.",
-      "fiscal": "$0.02 per fluid ounce, estimated to raise about $2,200,000 annually, about $1,000,000 more than the current tax; adjusted annually for inflation beginning in 2028, capped at 5% a year."
+      "fiscal": "$0.02 per fluid ounce, estimated to raise about $2,200,000 annually, about $1,000,000 more than the current tax; adjusted annually for inflation beginning in 2028, capped at 5% a year.",
+      "argFor": "The argument in favor says Measure AA strengthens the existing sugary drink tax on distributors by raising the rate to 2 cents per ounce so that program funding keeps pace with rising costs.",
+      "argAgainst": "The argument against says doubling the soda tax makes drinkers pay more to support city-funded outreach programs with no accountability or proof of actual health outcomes.",
+      "supporters": "MARTIN BOURQUE, Executive Director Ecology Center; REVEREND DR. MICHAEL A. SMITH, McGee Ave Baptist Church; DR. LAURA A. SCHMIDT PH.D., American Heart Association/Bay Area Volunteer; AYANNA DAVIS, Former Deputy Executive Director Healthy Black Families, Inc.; CASTLE SINICROPE, BUSD Parent to 2nd and 5th Graders",
+      "opponents": "DAMIAN PARK, Economics Professor"
     },
     {
       "id": "2026-11-03.ca-alameda-emeryville.measure-bb",
@@ -1305,12 +1430,16 @@
           "label": "Measure BB - Business License Tax Reform",
           "url": "https://www.emeryville.org/Government/November-3-2026-General-Election/Measure-BB-Business-License-Tax-Reform",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser. It has no submittal form; the ballot question comes from City Council Resolution No. 26-65 on page 4 of the file. The file read does not state a vote threshold or measure type. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, signers in favor. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser. It has no submittal form; the ballot question comes from City Council Resolution No. 26-65 on page 4 of the file. The file read does not state a vote threshold or measure type. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Each excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Measure type from an official document (the registrar file holds the council resolution, not a submittal form, and states neither a threshold nor a type)"
       ],
       "ballotQuestion": "City Services/ Business License Reform Measure. To protect City of Emeryville services/ ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: keep parks/ playgrounds safe; repair potholes/ maintain streets; maintain 9-1-1 response; improve crime prevention; maintain senior/ youth services; general government use; by updating/ simplifying Emeryville’s 42 year old business license rates up to 0.4% of gross receipts (described in the ordinance) until ended by voters, providing $12,400,000 annually, requiring independent oversight?",
@@ -1320,7 +1449,8 @@
       "no": "If you vote no, this change would not be made.",
       "fiscal": "Business license rates up to 0.4% of gross receipts, until ended by voters, providing $12,400,000 annually.",
       "argFor": "The argument in favor says Measure BB creates a simpler, fairer business license tax structure in which larger, more profitable businesses pay their fair share while small businesses are not unfairly burdened.",
-      "supporters": "SUKHDEEP KAUR, Mayor; MATTHEW SOLOMON, Vice Mayor; DAVID MOURRA, Emeryville Council Member; KALIMAH PRIFORCE, Emeryville Council Member; COURTNEY WELCH, Emeryville Council Member"
+      "supporters": "SUKHDEEP KAUR, Mayor; MATTHEW SOLOMON, Vice Mayor; DAVID MOURRA, Emeryville Council Member; KALIMAH PRIFORCE, Emeryville Council Member; COURTNEY WELCH, Emeryville Council Member",
+      "argAgainst": "No argument against was filed."
     },
     {
       "id": "2026-11-03.ca-alameda-hayward.measure-cc",
@@ -1490,12 +1620,16 @@
           "label": "Real Estate Transfer Tax Foreclosure Amendment Measure (resolution, ordinance, impartial analyses, argument)",
           "url": "https://www.oaklandca.gov/files/assets/city/v/2/city-clerk/documents/elections/real-estate-transfer-tax-foreclosure-amendment-measure-w.-arugment.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 by automated research. The earlier summary relied only on independent news reporting, because the registrar's measure document is a scanned image and Oakland's legislative records could not be opened. It was withdrawn under the rule that independent reporting cannot be the only support for a fact. The independent links remain below as further reading. The June 18, 2026 Rules and Legislation Committee item is on the City of Oakland's official agenda platform and is now labeled Official. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, signers in favor. All were read with text recognition from a scanned page and compared word for word with the page image.",
+      "notes": "Audited Oct 22, 2026 by automated research. The earlier summary relied only on independent news reporting, because the registrar's measure document is a scanned image and Oakland's legislative records could not be opened. It was withdrawn under the rule that independent reporting cannot be the only support for a fact. The independent links remain below as further reading. The June 18, 2026 Rules and Legislation Committee item is on the City of Oakland's official agenda platform and is now labeled Official. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Fiscal effect from the city's official financial analysis",
-        "Summary of the official arguments for and against",
         "Whether the companion advisory question on spending the revenue has its own measure letter"
       ],
       "plainEnglish": "Measure FF would amend Oakland's Real Property Transfer Tax to end the general exemption for foreclosure-related transfers, keeping exceptions only for transfers converting commercial property to certain housing or healthcare uses, transfers to community banking organizations, and transfers of properties of four residential units or less to a natural person or family trust.",
@@ -1505,7 +1639,7 @@
       "fiscal": "The City Auditor estimates between $10.4 and $13.8 million of revenue in the first year.",
       "affected": null,
       "argFor": "The argument in favor says the measure closes a loophole so foreclosure transfers are taxed fairly, while exempting homeowners in foreclosure and regular homebuyers.",
-      "argAgainst": null,
+      "argAgainst": "No argument against was filed.",
       "uncertain": null,
       "benefits": null,
       "risks": null,
@@ -1629,9 +1763,14 @@
           "label": "List of Ballot Measure(s) (Measure II)",
           "url": "https://www.unioncityca.gov/1008/List-of-Ballot-Measures",
           "type": "Official"
+        },
+        {
+          "label": "Composite Voter Information Guide, November 3, 2026 General Election",
+          "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22 and 23, 2026 against official sources by automated research. Listed on the Alameda County Registrar of Voters page for this election. The title shown is the registrar's link label. On Oct 23, 2026 the registrar's scanned measure PDF was read with OCR in a browser, and the ballot question box and the type and vote-threshold checkboxes on its Ballot Measure Submittal Form (page 1) were compared visually with the page image. Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [],
       "ballotQuestion": "Union City Essential Services Extension Measure. To maintain critical city services, including 9-1-1 emergency response/paramedics/fire protection; street/pothole repair; neighborhood police patrols; crime/gun violence prevention programs; youth/senior programs; and other city services, shall the measure extending the City of Union City’s existing voter-approved utility users tax for 9 years at the current 5% rate (no increase), providing $7,000,000 annually, with senior/ low-income exemptions, annual audits, and all funds locally controlled, be adopted?",
       "measureType": "Regular measure (per the county submittal form)",
@@ -1641,7 +1780,8 @@
       "no": "A no vote does not extend the utility users tax, and it would no longer be levied after December 31, 2028.",
       "fiscal": "Continues the 5% utility users tax for nine years until December 31, 2037, with no rate increase; generates approximately $7 million annually as a general tax.",
       "argFor": "The argument in favor says the utility users tax is set to expire and, if it does, Union City would lose approximately $7,000,000 a year, forcing deep cuts to essential services; Measure II renews it at the current rate without increasing taxes.",
-      "argAgainst": "No argument against was filed."
+      "argAgainst": "No argument against was filed.",
+      "supporters": "GARY SINGH, Mayor; IAN HOBSON, President, Union City Police Officers Association; JASBIR KAUR, Member, Sales Tax and Utility Users Tax Oversight Committee; JIM NAVARRO, President, Union City Chamber of Commerce; ROSALINDA CANLAS, Retired New Haven Unified School District Board Trustee"
     },
     {
       "id": "2026-11-03.ca-contra-costa-clayton.measure-m",
@@ -4531,17 +4671,23 @@
           "type": "Official"
         },
         {
+          "label": "Measure A Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-a-city-of-morgan-hill-appointing-city-treasurer-in-favor_08112026_redacted.pdf?VersionId=TDqxTMEGrMiI.yyiP0rQvBaHERf..PPr",
+          "type": "Official"
+        },
+        {
           "label": "Argument in Favor of Measure A",
           "url": "https://morganhill.ca.gov/DocumentCenter/View/58022/Argument-in-Favor-of-Measure-A",
           "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor. Excerpts for signers in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Vote threshold stated in an official document",
         "Ordinance full text not read"
       ],
       "ballotQuestion": "Shall the office of the City Treasurer be appointive?",
+      "supporters": "Mark Turner, Mayor",
       "plainEnglish": "Makes the office of Morgan Hill City Treasurer appointive.",
       "yes": "A yes vote makes the City Treasurer position appointive.",
       "no": "A no vote means the City Treasurer will continue to be elected by the voters.",
@@ -4587,19 +4733,31 @@
           "type": "Official"
         },
         {
+          "label": "Measure B Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy_primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=fKmrUi4QmLWMKIy3u2QPjWk0yCILXAyF",
+          "type": "Official"
+        },
+        {
+          "label": "Measure B Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-b-city-of-gilroy-transient-occupancy-tax-argument_against-08-11-2026_redacted.pdf?VersionId=MpsyyyTbgjNbKJne0ckSUj4EJux9g5D7",
+          "type": "Official"
+        },
+        {
           "label": "Argument Against Measure B",
           "url": "https://www.cityofgilroy.org/DocumentCenter/View/20703/Argument-Against-Measure-B",
           "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers in favor, signers against. Excerpts for argument in favor, signers in favor, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
         "Rebuttal to argument in favor: city page lists entry without a link; county list shows none"
       ],
       "ballotQuestion": "To maintain critical City services such as street/pothole repair, park and recreation programs, emergency preparedness for storms, flooding and wildfires, and police and fire response shall the City of Gilroy measure raising the Transient Occupancy Tax (hotel tax) rate from 9% to a maximum of 13%, set by Council resolution, providing $700,000 annually paid only by hotel/lodging guests, with annual independent audits, that cannot be taken by Sacramento, until ended by voters, be adopted?",
       "measureType": "General tax (transient occupancy tax increase)",
       "plainEnglish": "Raises Gilroy's hotel tax from 9% to 11% starting January 1, 2027, and lets the City Council set the rate up to a maximum of 13%. The ballot question estimates $700,000 a year, and the tax continues until ended by voters.",
+      "argFor": "The argument in favor says Gilroy residents do not pay the hotel tax; visitors do.",
+      "supporters": "Greg Bozzo, Mayor, City of Gilroy",
+      "opponents": "Mark W.A. Hinkle, President: Silicon Valley Taxpayers Association",
       "yes": "A yes vote raises the Gilroy hotel tax from 9% to 11% at first, and lets the City Council adjust the rate by resolution up to 13%.",
       "no": "If you vote no, this change would not be made.",
       "fiscal": "Raises the hotel tax rate from 9% to a maximum of 13%, set by Council resolution, providing $700,000 annually, until ended by voters.",
@@ -4626,19 +4784,25 @@
           "label": "Impartial analysis (official)",
           "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/meaure-c-city-of-santa-clara-public-works-impartial-analysis_08072026_redacted.pdf?VersionId=_vbcPTy9CR3BaxGxQYH9QtqijQ_sF3bL",
           "type": "Official"
+        },
+        {
+          "label": "Measure C Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-c-city-of-santa-clara-public-works-charter-amendment-in-favor_07282026_redacted.pdf?VersionId=r6gh1TJ7KNKWG0OFdJR7QDFaL3IyoNWj",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, fiscal effect, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
-        "Fiscal effect (tax rate, amount and duration, or cost)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Final adopted resolution",
         "City clerk election page not reached (search budget exhausted)"
       ],
       "measureType": "Charter amendment",
+      "yes": "A yes vote replaces the existing City Charter public works rules with the updated rules.",
+      "no": "A no vote keeps the existing Charter public works rules without amendment.",
+      "fiscal": "The City Attorney's analysis projects cost savings from reduced staff time no longer needed to bring public works projects valued at less than $250,000 to the Council; it gives no dollar estimate of the savings.",
+      "argFor": "The argument in favor says the measure allows the City of Santa Clara to use additional proven contracting methods alongside Design-Bid-Build that can help deliver projects faster and more efficiently while protecting taxpayers.",
       "plainEnglish": "Amends the Santa Clara City Charter's public works contracting rules, setting the threshold for Council approval and formal bidding at $250,000, keeping awards of standard contracts to the lowest responsive and responsible bidder, and also allowing competitive \"best value\" contracting.",
       "argAgainst": "No argument against was filed."
     },
@@ -4685,20 +4849,31 @@
           "type": "Official"
         },
         {
+          "label": "Primary Argument For Measure (PDF)",
+          "url": "https://www.losaltosca.gov/DocumentCenter/View/3017/Primary-Argument-For-Measure-PDF",
+          "type": "Official"
+        },
+        {
+          "label": "Primary Argument Against Measure (PDF)",
+          "url": "https://www.losaltosca.gov/DocumentCenter/View/3016/Primary-Argument-Against-Measure-PDF",
+          "type": "Official"
+        },
+        {
           "label": "City Attorney's Impartial Analysis of Measure D",
           "url": "https://www.losaltosca.gov/DocumentCenter/View/3028/Impartial-Analysis-PDF",
           "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against. Excerpts for argument in favor, argument against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Fiscal effect (tax rate, amount and duration, or cost)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Second full reading of ballot question"
       ],
       "ballotQuestion": "Shall the Ordinance, which prohibits the City of Los Altos from selling, leasing, conveying, or declaring as surplus land the ten City-owned Downtown Parking Plazas for any reason, or from authorizing new uses or physical alterations that would diminish protected trees or parking availability, access, or convenience, unless separately approved by a majority of voters, except that two Parking Plazas may be developed for affordable housing without a vote, be adopted?",
       "measureType": "Citizen initiative ordinance",
+      "argFor": "The argument in favor says Measure D gives Los Altos residents the right to vote on permanent changes to public downtown parking plazas.",
+      "argAgainst": "The argument against says Measure D will cost taxpayers millions in legal battles, discourage investment in downtown, put local businesses at a disadvantage, and risk the community's control over where and how housing is built.",
       "plainEnglish": "Adopts an ordinance that bars Los Altos from selling, leasing, conveying, or declaring as surplus land its ten City-owned Downtown Parking Plazas, or authorizing new uses or changes that would diminish protected trees or parking, unless separately approved by a majority of voters. Two Parking Plazas may be developed for affordable housing without a vote.",
       "yes": "A yes vote prohibits the City from selling, leasing, conveying, declaring surplus, or permanently repurposing the Downtown Parking Plazas for any use other than surface parking without a majority vote of the City’s voters.",
       "no": "A no vote preserves the City’s discretion to use the Parking Plazas for any use permitted by local, state or federal law."
@@ -4729,18 +4904,23 @@
           "label": "City of Mountain View City Hall Connection eNewsletter, Sept 9, 2026",
           "url": "https://content.govdelivery.com/accounts/CAMOUNTAINVIEW/bulletins/429540a",
           "type": "Official"
+        },
+        {
+          "label": "Measure E Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-e-city-of-mountain-view-charter-amendment-in-favor_08112026_redacted.pdf?VersionId=673LWFWdbCirTw.va07ovrQbiHjsBCsS",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
         "Fiscal effect (tax rate, amount and duration, or cost)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
-        "Impartial analysis text (county PDF likely image-only, not fetched)",
         "City clerk page not reached"
       ],
+      "yes": "A yes vote amends the Mountain View City Charter to update and modernize several of its provisions.",
+      "no": "If you vote no, this change would not be made.",
+      "argFor": "The argument in favor says the measure will modernize the Mountain View City Charter.",
       "plainEnglish": "Amends the Mountain View City Charter to use gender-neutral language, extend the time to act on filling a council vacancy from 30 to 60 days, end the requirement to read ordinances and resolutions in full, let the Council set qualifications for boards, commissions, and committees it creates, and make other clarifying updates.",
       "argAgainst": "No argument against was filed."
     },
@@ -4765,18 +4945,24 @@
           "label": "Impartial analysis (official)",
           "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-f-city-of-mountain-view-tot-ia07-16-2026_redacted.pdf?VersionId=_fU6E.scTxBoTQBBx_XXrlxN0X0ISHaj",
           "type": "Official"
+        },
+        {
+          "label": "Measure F Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-f-transient-occupy-tax-primary-arguemnt-in-favor_redacted.pdf?VersionId=IyOx3CK9E.wK8OfEiC0QfQCcisZh4qHx",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, fiscal effect, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "General vs special tax",
         "Duration",
         "Second reading of rate and revenue"
       ],
+      "yes": "A yes vote amends the Mountain View City Code to authorize the City Council to increase the Transient Occupancy Tax rate up to a maximum of 15%.",
+      "no": "A no vote rejects the proposed ordinance, and the Transient Occupancy Tax rate remains at 10%.",
+      "argFor": "The argument in favor says that at the maximum 15% rate the increase can generate approximately $5.5 million per year for essential City infrastructure and services.",
       "plainEnglish": "Authorizes the Mountain View City Council to raise the existing Transient Occupancy Tax paid by hotel and short-term rental guests from 10% up to 15%, until ended by voters.",
       "fiscal": "Raises the tax from 10% up to 15%, generating up to $5,200,000 annually until ended by voters.",
       "argAgainst": "No argument against was filed."
@@ -4819,6 +5005,11 @@
           "type": "Official"
         },
         {
+          "label": "Measure G Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-g-city-charter-amendment-public-works-contract-primary-arguemnt-against_redacted.pdf?VersionId=nnyacvTwkcq9LkYgiZ...YKPKcbNPPHP",
+          "type": "Official"
+        },
+        {
           "label": "Impartial Analysis of Measure G",
           "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6653/639227252045800000",
           "type": "Official"
@@ -4829,14 +5020,14 @@
           "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against. Excerpts for argument against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
         "Fiscal effect (tax rate, amount and duration, or cost)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Council resolution placing measure"
       ],
+      "argAgainst": "The argument against says Measure G would allow \"design-build\" and \"best value\" to be used instead of competitive bidding for the design and construction of City buildings.",
       "plainEnglish": "Amends Section 1309 of the Sunnyvale City Charter so the City Council can adopt an ordinance allowing any purchasing or contracting method allowed by California law to select contractors for public works construction projects, and makes clarifying wording changes.",
       "yes": "A yes vote amends the Charter so the Council can authorize alternative project delivery methods for public works contracts and makes clarifying wording changes to Charter Section 1309.",
       "no": "A no vote adds no options to use alternative project delivery methods for public works contracts and does not change the wording of Charter Section 1309.",
@@ -4941,6 +5132,11 @@
           "type": "Official"
         },
         {
+          "label": "Measure I Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-i-appointed-incumbent-to-serve-until-sucessor-is-elected-primary-arguemnt-against_redacted.pdf?VersionId=EvC4AVSBsSDH070dSBnOLrdjCrF7mwrs",
+          "type": "Official"
+        },
+        {
           "label": "Impartial Analysis of Measure I",
           "url": "https://www.sunnyvale.ca.gov/home/showpublisheddocument/6657/639227252053900000",
           "type": "Official"
@@ -4951,14 +5147,14 @@
           "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against. Excerpts for argument against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
         "Fiscal effect (tax rate, amount and duration, or cost)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Council resolution placing measure"
       ],
+      "argAgainst": "The argument against says that, if passed, the measure will cut the eligible elections to fill vacancies by at least half.",
       "plainEnglish": "Amends Section 606 of the Sunnyvale City Charter so a person appointed to fill a City Council vacancy serves until a successor is elected at the next General Municipal Election (November of even-numbered years), rather than until an earlier election date.",
       "yes": "A yes vote amends the Charter so that a council vacancy filled by appointment goes to voters at the next November election in an even-numbered year.",
       "no": "A no vote keeps the existing rule that a council vacancy filled by appointment goes to voters at the next Special Municipal Election consolidated with a statewide election or the next General Municipal Election, whichever is sooner.",
@@ -4995,16 +5191,27 @@
           "label": "Impartial analysis (official)",
           "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_city-of-palo-alto_transactions-and-use-tax_ia_redacted.pdf?VersionId=p7XgaCyq8nw9nJKnRGkOCZx7QMfAXfBX",
           "type": "Official"
+        },
+        {
+          "label": "Measure J Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j-transportation-use-tax-primary-argument-in-favor_redacted-v2.pdf?VersionId=pjS1UK3Dd5URQ0FEfon6S.wurJ7a7.MU",
+          "type": "Official"
+        },
+        {
+          "label": "Measure J Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-j_transportation-use-tax_primary-argument-against_redacted.pdf?VersionId=Orv.tUAWIGyw1P_Ug1KW9ouzZkaOAZ91",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for argument in favor, argument against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
         "Second reading of impartial analysis figures"
       ],
       "ballotQuestion": "City of Palo Alto Community Safety/Services Measure. To provide general city services including repairing Cubberley Community Center for current safety, earthquake, accessibility standards; upgrading deteriorating electrical systems, wiring, plumbing; acquiring outdoor space/sites; maintaining streets, safe, clean downtown/commercial cores; preparing for natural disasters; repairing deteriorating community spaces, libraries, shall City of Palo Alto’s measure enacting a 0.5% (½ ¢) sales tax, providing approximately $15,600,000 annually until ended by voters, with published financial audits, all funds used locally, be adopted?",
       "measureType": "General tax (transactions and use tax)",
       "plainEnglish": "Adds a 0.5% sales tax in Palo Alto for general city services, estimated at about $15.6 million a year. The tax stays in effect until voters repeal it.",
+      "argFor": "The argument in favor says Measure J enables the City to buy the Cubberley land, cost-effectively renovate buildings, and leverage partnerships with organizations willing to invest millions in major upgrades.",
+      "argAgainst": "The argument against says taxpayers, who already fund both the City and the School District, should not pay $65.5 million more to move public money from one to the other for the Cubberley land.",
       "yes": "A yes vote approves a 0.5% increase to the transactions and use tax (sales tax) within Palo Alto.",
       "no": "A no vote does not approve the sales tax increase; the local sales tax would not rise by 0.5% and the City would not receive an estimated $15.6 million a year from it.",
       "fiscal": "A 0.5% sales tax providing approximately $15,600,000 annually until ended by voters."
@@ -5037,19 +5244,30 @@
           "type": "Official"
         },
         {
+          "label": "Measure K Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-business-tax-modernization-primary-argument-in-favor_redacted-v2.pdf?VersionId=ihwB8UiUkEN6oQjtsUqKSrfSzujBAeh2",
+          "type": "Official"
+        },
+        {
+          "label": "Measure K Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-k-city-of-milpitas-against_v2_redacted_0.pdf?VersionId=itnuJx4YnAVoubSQTxMaY5pGIvp9Z.VM",
+          "type": "Official"
+        },
+        {
           "label": "City Attorney's Impartial Analysis of Measure K",
           "url": "https://www.milpitas.gov/DocumentCenter/View/10603/Milpitas-2026-Business-Tax-Impartial-Analysis-PDF",
           "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for argument in favor, argument against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "General vs special tax",
         "Revenue and duration from an official source"
       ],
+      "argFor": "The argument in favor says voting yes fixes an inequity by ensuring large corporations finally pay their fair share for the essential services everyone relies on.",
+      "argAgainst": "The argument against says taxes are just another cost of doing business that owners must pass along to stay in business, to customers, employees, or shareholders.",
       "plainEnglish": "Updates Milpitas's business tax so all businesses pay an annual flat rate, plus 0.025% to 0.035% of gross receipts for larger businesses, with no tax increase to residents, until ended by voters.",
       "yes": "A yes vote adopts the new gross receipts business tax to replace the existing tax.",
       "no": "A no vote rejects the new gross receipts business tax and keeps the existing tax.",
@@ -5086,16 +5304,22 @@
           "label": "Cupertino Elections Info",
           "url": "https://www.cupertino.gov/Your-City/Departments/City-Clerk/Cupertino-Elections-Info",
           "type": "Official"
+        },
+        {
+          "label": "Measure L Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-l-cupertino-initiative-ordinance-amendment-argument-in-favor_redacted-v2.pdf?VersionId=8HXPKA4VQlnpF1GtLfwp5YOPF0pEQOUL",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "What a YES vote and a NO vote would do",
         "Fiscal effect (tax rate, amount and duration, or cost)",
-        "Summary of the official arguments for and against",
         "Ballot question (adopted resolution on legistar not fetchable)",
         "Whether the measure is an initiative ordinance or a council measure: county IA filename says initiative, city page says council approved placement"
       ],
+      "yes": "A yes vote approves the ordinance.",
+      "no": "A no vote rejects the ordinance.",
+      "argFor": "The argument in favor says a decision as big as rezoning parks and open space should be made by the people, not just five council members.",
       "plainEnglish": "Amends the Cupertino General Plan to require that any attempt to rezone parks, parklands or open space to residential, commercial or industrial uses, or any proposal for such development in them, be placed before Cupertino voters and secure two-thirds support at the City's next general election.",
       "argAgainst": "No argument against was filed."
     },
@@ -5120,17 +5344,30 @@
           "label": "Impartial analysis (official)",
           "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-impartial-analysis-gilroy-unified_redacted.pdf?VersionId=scFxKaSFWmw__kvplf8DbZI0FCWlXCZh",
           "type": "Official"
+        },
+        {
+          "label": "Measure M Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-favor_redacted-v2_0.pdf?VersionId=wjlgx7BcZyubyHE7MPjnmiMHO64l6Rhr",
+          "type": "Official"
+        },
+        {
+          "label": "Measure M Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-m-gilroy-bond-primary-argument-in-opposition_redacted-v2.pdf?VersionId=Szyew.DzaMIW0Ts1u1QeBP89lgCR46lL",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against, signers against. Excerpts for what a Yes vote does, what a No vote does, argument in favor, argument against, signers against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Bond amount and tax rate from official source (independent localnewsmatters.org lists $295M, about $59 per $100K; not confirmed officially)",
         "District site not checked"
       ],
+      "yes": "A yes vote authorizes the District to issue and sell up to $295 million of general obligation bonds to fund school facilities projects as described in the Measure.",
+      "no": "A no vote does not authorize the issuance and sale of the bonds.",
+      "argFor": "The argument in favor says Measure M would give the Gilroy Unified School District the resources needed to improve neighborhood schools and enhance the quality of education provided to students.",
+      "argAgainst": "The argument against says Measure M is a huge new tax hike that asks voters to approve $295 million in bond debt.",
+      "opponents": "Mark W.A. Hinkle, President: Silicon Valley Taxpayers Association",
       "plainEnglish": "Authorizes Gilroy Unified School District to issue $295,000,000 in bonds to construct, upgrade, and modernize classrooms, restrooms, and school facilities, make safety and security improvements, renovate or construct career technical education classrooms, and replace leaky roofs.",
       "fiscal": "$295,000,000 in bonds, levying approximately $59 per $100,000 of assessed value (raising $18,300,000 annually) while bonds are outstanding."
     },
@@ -5170,17 +5407,28 @@
           "label": "LGSUHSD Local Funding page",
           "url": "https://www.lgsuhsd.org/about-us/local-funding",
           "type": "Official"
+        },
+        {
+          "label": "Measure N Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_in-favor_8.7.26_redacted.pdf?VersionId=TWZkgE1ARTCuSEJr0mbOOM1zoObkGpBb",
+          "type": "Official"
+        },
+        {
+          "label": "Measure N Primary Argument Against",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_n-los_gatos-saratoga_uhsd-primary-argument_against_8.11.26_redacted.pdf?VersionId=OOGgjL74el2O1q.DUkdF2_N_7C_4ZJun",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for argument in favor, argument against were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
-        "Summary of the official arguments for and against",
         "Ballot question from a Santa Clara County source",
         "Second full reading of ballot question"
       ],
       "ballotQuestion": "To maintain quality academic facilities at Los Gatos High School and Saratoga High School by replacing leaky roofs and failing restrooms, plumbing, electrical, heating/ cooling systems; improving school safety; updating, repairing and equipping schools including science, technology, engineering, arts, math, robotics, and career/ college readiness classrooms/ labs; shall Los Gatos-Saratoga Union High School District's measure be adopted, authorizing $321,000,000 in bonds at legal rates, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding, with oversight, annual audits, and local control?",
       "measureType": "General obligation bond",
       "plainEnglish": "Lets the Los Gatos-Saratoga Union High School District sell up to $321 million in bonds for school facility repairs and upgrades. The estimated tax is $30 per $100,000 of assessed value per year, expected through fiscal year 2056-57.",
+      "argFor": "The argument in favor says a Yes vote will repair the district's high schools, maintain their excellent reputation, and protect local property values.",
+      "argAgainst": "The argument against says that by asking voters to approve bond debt, the school board admits that every project it currently spends tax dollars on is more important than the projects listed in the measure.",
       "yes": "A yes vote allows the District to issue and sell up to $321,000,000 in general obligation bonds, financed by an annual property tax.",
       "no": "A no vote is a vote against issuing the proposed bonds.",
       "fiscal": "$321,000,000 in bonds, levying approximately $30 per $100,000 assessed value ($23,000,000 annually) while bonds are outstanding."
@@ -5211,17 +5459,23 @@
           "label": "CivicIQ summary (independent)",
           "url": "https://civiciq.com/public-project/alum-rock-union-elementary-sd-board-approved-a-november-3-0a01756d-5973-42ea-b16b-5b240a45dade",
           "type": "Official"
+        },
+        {
+          "label": "Measure O Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-o_alum-rock-union-parcel-tax_primary-argument-in-favor_redacted-v2.pdf?VersionId=9m4sTqWxdYduiXYQPaX0BOLDHPIvQjyc",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, fiscal effect, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Rate and duration from an official source",
         "District board resolution not found"
       ],
+      "yes": "A yes vote replaces the existing parcel tax with a new parcel tax of $310 per parcel within the District for seven years, beginning July 1, 2027.",
+      "no": "A no vote does not replace the tax.",
+      "argFor": "The argument in favor says Measure O is a local, dedicated funding source replacing the parcel tax voters approved in 2022 that protects the academic programs, services, and people students depend on every day.",
       "plainEnglish": "Replaces Alum Rock Union Elementary School District's current parcel tax with a tax of $310 per parcel for seven years, with senior exemptions, to fund services for students with disabilities, reading, writing, math and science programs, teacher recruitment and retention, and support for students experiencing housing instability.",
       "fiscal": "$310 per parcel for seven years, replacing the current tax, raising $6.5 million annually, with senior exemptions.",
       "argAgainst": "No argument against was filed."
@@ -5247,17 +5501,23 @@
           "label": "Impartial analysis (official)",
           "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/alum-rock-union-esd-bond-measure-ia-nov-26-to-rov-final_redacted.pdf?VersionId=wHC3Gme81VWm0wm_ZojVC4k1MGKwVRah",
           "type": "Official"
+        },
+        {
+          "label": "Measure P Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-p_alum-rock-union-general-obligation-bond-primary-argument-in-favor_redacted_final.pdf?VersionId=QbWWz2plqZ1L.wCd0aeLDUsfGmQXJnVX",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, fiscal effect, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Bond amount and tax rate from official source (independent localnewsmatters.org lists $100M; not confirmed)",
         "District site not checked"
       ],
+      "yes": "A yes vote authorizes the District to issue and sell up to $100 million of general obligation bonds to fund school facilities projects as described in the Measure.",
+      "no": "A no vote does not authorize the issuance and sale of the bonds.",
+      "argFor": "The argument in favor says many Alum Rock Union Elementary schools are more than 60 years old and urgently need repairs, and a Yes vote provides safe, functional classrooms with funds that are spent locally.",
       "plainEnglish": "Authorizes Alum Rock Union Elementary School District to issue $100 million in bonds to repair leaky roofs and plumbing, replace heating, ventilation, and air conditioning, and upgrade emergency communication and security systems.",
       "fiscal": "$100 million of bonds, without increasing current tax rates, with average levies below $26 per $100,000 of assessed valuation (raising $6.3 million annually while outstanding).",
       "argAgainst": "No argument against was filed."
@@ -5303,18 +5563,23 @@
           "label": "Measure H Continuation Survey",
           "url": "https://cambrian.ic-board.com/Attachments/b93f1fa0-9530-4e16-9e8c-49f6aa383c07.pdf",
           "type": "Official"
+        },
+        {
+          "label": "Measure Q Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-q_cambrian-school-district-parcel-tax_primary-argument-in-favor_redacted_final.pdf?VersionId=9c2QO2Ij25_Kv2uvoDRPmN.R31yvMeL0",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: fiscal effect, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: fiscal effect, argument in favor, argument against. Excerpts for argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "What a YES vote and a NO vote would do",
-        "Summary of the official arguments for and against",
         "Board resolution ordering the election",
         "Confirm which document the county's Measure Q impartial analysis link actually serves"
       ],
       "ballotQuestion": "To protect the quality of education in our local elementary and middle schools, provide funding for core academic programs in math, science, engineering, technology, reading, writing and arts, attract/retain highly qualified teachers, and maintain manageable class sizes, shall Cambrian School District’s measure be adopted, levying $148/parcel for 8 years, its continuance subject to voter approval, with senior exemptions, annual inflation adjustments, providing $1,000,000 annually in locally controlled funding that can’t be taken by the State?",
       "measureType": "Parcel tax",
       "plainEnglish": "Levies a $148 per parcel tax for 8 years for Cambrian School District, with senior exemptions and annual inflation adjustments. It would provide about $1,000,000 a year.",
+      "argFor": "The argument in favor says a Yes vote protects the outstanding quality of education that children in the Cambrian School District's local TK-8 schools receive.",
       "fiscal": "$148 per parcel for 8 years, with senior exemptions and annual inflation adjustments, providing $1,000,000 annually.",
       "argAgainst": "No argument against was filed."
     },
@@ -5344,16 +5609,22 @@
           "label": "Orchard SD article",
           "url": "https://www.orchardsd.org/article/3055305",
           "type": "Official"
+        },
+        {
+          "label": "Measure R Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure_r_orchard-school-district-parcel-tax-primary-argument-in-favor_8.11.26_redacted.pdf?VersionId=KJFpM.O2H8XyU2WpuN8dF7X2zJmG1lPX",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, fiscal effect, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, fiscal effect, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
-        "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against"
+        "Vote threshold stated in an official document"
       ],
       "measureType": "Parcel tax",
+      "yes": "A yes vote levies a parcel tax of 4 cents per square foot per parcel per year within the District, capped at $89 per residential parcel and $7,500 per non-residential parcel, for eight years beginning July 1, 2027.",
+      "no": "A no vote means the tax is not levied.",
+      "argFor": "The argument in favor says a Yes vote on Measure R is a community investment in creating, expanding and enhancing educational opportunities to prepare every Orchard School student to succeed.",
       "plainEnglish": "Levies an Orchard School District parcel tax of 4 cents per building square foot, not to exceed $89 per residential parcel and $7,500 per non-residential parcel, for eight years beginning July 1, 2027, with senior exemptions.",
       "fiscal": "4 cents per building square foot (not to exceed $7,500 non-residential and $89 residential per parcel), raising $1.4 million annually for eight years beginning July 1, 2027.",
       "argAgainst": "No argument against was filed."
@@ -5379,18 +5650,24 @@
           "label": "Impartial analysis (official)",
           "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-term-limit-ia-redacted-20260818.pdf?VersionId=xmPSrlttoIZIT1LZ.IX2_wKliVkdpmT3",
           "type": "Official"
+        },
+        {
+          "label": "Measure S Primary Argument In-Favor",
+          "url": "https://files.santaclaracounty.gov/exjcpb1296/2026-08/measure-s-el-camino-healthcare-district-echd-primary-argument-in-favor_redacted.pdf?VersionId=WMZ_ALjnrC.OXzcX4sTcqpOqQyuWXdhR",
+          "type": "Official"
         }
       ],
-      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, argument against. Each excerpt was found again word for word on its source in a second browser read.",
+      "notes": "Audited Oct 22, 2026 against official sources by automated research. Listed on the official county list of local measures (checked Oct 22, 2026 by automated research). Only the letter, jurisdiction and the title printed on that list have been recorded. Nothing else about this measure has been researched yet. Official arguments. For filed, against not filed (source https://vote.santaclaracounty.gov/list-local-measures-4). Nov 2, 2026. Added from the official measure documents: summary, what a Yes vote does, what a No vote does, argument in favor, argument against. Excerpts for what a Yes vote does, what a No vote does, argument in favor were read with text recognition from a scanned page and compared word for word with the page image. Every other excerpt was found again word for word on its source in a second browser read.",
       "gaps": [
         "Ballot question (exact wording from an official document)",
-        "What a YES vote and a NO vote would do",
         "Fiscal effect (tax rate, amount and duration, or cost)",
         "Vote threshold stated in an official document",
-        "Summary of the official arguments for and against",
         "Measure type",
         "District site not checked"
       ],
+      "yes": "A yes vote amends the District Bylaws to prohibit District Directors from serving more than four full terms, for terms beginning on or after December 1, 2026.",
+      "no": "A no vote means the District Bylaws are not amended.",
+      "argFor": "The argument in favor says Measure S will establish term limits for the El Camino Healthcare District Board of Directors and calls it commonsense reform.",
       "plainEnglish": "Amends the El Camino Healthcare District Bylaws to limit District Directors to four four-year terms.",
       "argAgainst": "No argument against was filed."
     },

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "field": "argAgainst",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 868 (BMX-4), Argument against Measure X, opening",
+  "excerpt": "Berkeley has a housing affordability problem. Measure X does nothing to solve it."
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-n",
+  "field": "opponents",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 797 (AMN-3), Argument against Measure N, signatures",
+  "excerpt": "s/TONY DAYSOG Alameda City Councilmember s/REYLA GRABER Resident s/DOROTHY FREEMAN Alameda Concerned Citizen s/JANET DAVIS Animal Advocate"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "field": "supporters",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 898 (BMAA-2), Argument in favor of Measure AA, signatures",
+  "excerpt": "s/MARTIN BOURQUE Executive Director Ecology Center s/REVEREND DR. MICHAEL A. SMITH McGee Ave Baptist Church s/DR. LAURA A. SCHMIDT PH.D. American Heart Association/Bay Area Volunteer s/AYANNA DAVIS Former Deputy Executive Director Healthy Black Families, Inc. s/CASTLE SINICROPE BUSD Parent to 2nd and 5th Graders"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-y",
+  "field": "argFor",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 880 (BMY-2), Argument in favor of Measure Y, paragraph 1",
+  "excerpt": "Arts and culture are a critical part of what makes Berkeley a special place to live, and are central to Berkeley’s identity and values."
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-aa",
+  "field": "argAgainst",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 899 (BMAA-3), Argument against Measure AA, paragraph 1",
+  "excerpt": "Double the soda tax? Lemonade, dairy-free Boba teas, Coke and Gatorade drinkers will pay more (+$1.04 total tax on a TJ’s lemonade bottle) to support city-funded outreach programs with no accountability or proof of actual health outcomes."
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-m",
+  "field": "supporters",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 791 (AMM-2), Argument in favor of Measure M, signatures",
+  "excerpt": "s/MARILYN EZZY ASHCRAFT Mayor, City of Alameda s/MICHELE PRYOR Vice Mayor, City of Alameda s/GREG BOLLER Councilmember, City of Alameda s/EVAN SHWARTZ Resident and Member, Open Government Commission"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-alameda.measure-m",
+  "field": "opponents",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 792 (AMM-3), Argument against Measure M, signature",
+  "excerpt": "s/TONY DAYSOG Alameda City Councilmember"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-berkeley.measure-x",
+  "field": "opponents",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 868 (BMX-4), Argument against Measure X, signatures",
+  "excerpt": "s/JEFFREY NEIDLEMAN President, Bridge Association of REALTORS® s/KRISTA C. GULBRANSEN Executive Director, Berkeley Property Owners Association"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-albany.measure-o",
+  "field": "supporters",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 800 (AMO-2), Argument in favor of Measure O, signatures",
+  "excerpt": "s/PEGGY MCQUAID Mayor s/JENNIFER HANSEN-ROMERO Vice Mayor s/PRESTON JORDAN Councilmember s/ROBIN LÓPEZ Councilmember s/JOHN MIKI Councilmember"
+ },
+ {
+  "id": "2026-11-03.ca-alameda-union-city.measure-ii",
+  "field": "supporters",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf",
+  "location": "Composite Voter Information Guide, PDF page 960 (UMII-2), Argument in favor of Measure II, signatures (left column bottom, continuing at top of right column)",
+  "excerpt": "s/GARY SINGH Mayor s/IAN HOBSON President, Union City Police Officers Association s/JASBIR KAUR Member, Sales Tax and Utility Users Tax Oversight Committee s/JIM NAVARRO President, Union City Chamber of Commerce s/ROSALINDA CANLAS Retired New Haven Unified School District Board Trustee"
+ }
+]
